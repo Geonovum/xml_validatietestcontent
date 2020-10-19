@@ -1,0 +1,6 @@
+LVBB0002	Is locatie opdracht-zipbestand aanwezig in bericht *)
+Er wordt een bericht tot upload verstuurd zonder te vermelden waar de locatie van het opdracht.zip is.
+LVBB0003	Is opdracht-zipbestand op aangegeven locatie aanwezig **)
+Er wordt een bericht verstuurd met daarin een locatie voor het opdracht.zip zonder dat dit zip op die locatie aanwezig is.
+LVBB1001	Is Opdracht.zip een geldige zip
+Er wordt een ongeldige opdracht.zip opgestuurd. Een ongeldige opdracht.zip kan makkelijk worden gecreëerd door een niet-zip-bestand te hernoemen naar opdracht.zip. Let op, dit hernoemen moet vanaf de command-prompt omdat ander s de kans bestaat dat Windows de extensie in tact laat, waardoor het hernoemde bestand niet opdracht.zip heet, terwijl Windows wel aangeeft dat dit zo heet.
