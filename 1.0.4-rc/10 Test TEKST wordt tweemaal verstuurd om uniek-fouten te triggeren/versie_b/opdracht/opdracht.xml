@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:idLevering>act_PR001</lvbb:idLevering>
+   <lvbb:idBevoegdGezag>00000001813766928000</lvbb:idBevoegdGezag>
+   <lvbb:idAanleveraar>00000001813766928000</lvbb:idAanleveraar>
+   <lvbb:publicatie>resultaat.xml</lvbb:publicatie>
+   <lvbb:datumBekendmaking>2020-03-10</lvbb:datumBekendmaking>
+</lvbb:publicatieOpdracht>

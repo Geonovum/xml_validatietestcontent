@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Aanleveringen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow"
+  xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/generiek/manifest-ow.xsd">
+  <domein>omgevingswet</domein>
+  <Aanlevering>
+    <WorkIDRegeling>/akn/nl/act/ws0616/2020/PR001</WorkIDRegeling>
+    <DoelID>/join/id/proces/ws0616/2020/Instelling</DoelID>
+    <Bestand>
+      <naam>ow.xml</naam>
+      <objectType>Divisie</objectType>
+      <objectType>Tekstdeel</objectType>
+      <objectType>HoofdLijn</objectType>
+      <objectType>Gebied</objectType>
+      <objectType>Gebiedengroep</objectType>
+      <objectType>Regelingsgebied</objectType>
+    </Bestand>
+  </Aanlevering>
+</Aanleveringen>
