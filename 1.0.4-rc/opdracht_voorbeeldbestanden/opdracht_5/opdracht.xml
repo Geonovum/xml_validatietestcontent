@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-   <lvbb:valideert_niet_idLevering>IN0001-001</lvbb:valideert_niet_idLevering>
-   <lvbb:idBevoegdGezag>00000001003214400000</lvbb:idBevoegdGezag>
-   <lvbb:idAanleveraar>00000001003214400000</lvbb:idAanleveraar>
-   <lvbb:publicatie>IN0001_bestaat_niet.xml</lvbb:publicatie>
-   <lvbb:datumBekendmaking>2021-01-01</lvbb:datumBekendmaking>
-</lvbb:publicatieOpdracht>
