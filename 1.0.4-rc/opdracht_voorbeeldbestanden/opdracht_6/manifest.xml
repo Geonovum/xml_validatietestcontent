@@ -137,4 +137,11 @@
         <bestandsnaam>dont_look_in_browser.gif</bestandsnaam>
         <contentType>image/gif</contentType>
     </bestand>
+    <bestand>
+        <bestandsnaam>dont_look_in_browser_2.gif</bestandsnaam>
+        <contentType>image/png</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>dont_look_in_browser_3.gif</bestandsnaam>
+    </bestand>
 </manifest>
