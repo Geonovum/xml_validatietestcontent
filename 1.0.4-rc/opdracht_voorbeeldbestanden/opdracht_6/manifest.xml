@@ -90,6 +90,10 @@
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
+        <bestandsnaam>FouteGebieden.gml</bestandsnaam>
+        <contentType>application/gml+xml</contentType>
+    </bestand>
+    <bestand>
         <bestandsnaam>manifest-ow.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
@@ -124,5 +128,9 @@
     <bestand>
         <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
         <contentType>application/xml</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>transparent_cloud.png</bestandsnaam>
+        <contentType>image/png</contentType>
     </bestand>
 </manifest>

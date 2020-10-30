@@ -33,6 +33,7 @@
 				<informatieobjectRef>/join/id/regdata/gm0297/2019/Zone_A/nld@2019-06-18;3520</informatieobjectRef>
 				<informatieobjectRef>/join/id/regdata/gm0297/2019/Zone_B/nld@2019-06-18;3520</informatieobjectRef>
 				<informatieobjectRef>/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;3520</informatieobjectRef>
+				<informatieobjectRef>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</informatieobjectRef>
 				<!-- regelinggebied -->
 			</informatieobjectRefs>
 		</BesluitMetadata>
@@ -122,6 +123,13 @@
 					</doelen>
 					<instrumentVersie>/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;3520</instrumentVersie>
 					<eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_9__ref_o_1</eId>
+				</BeoogdInformatieobject>
+				<BeoogdInformatieobject>
+					<doelen>
+						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
+					</doelen>
+					<instrumentVersie>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</instrumentVersie>
+					<eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_10__ref_o_1</eId>
 				</BeoogdInformatieobject>
 			</BeoogdeRegelgeving>
 			<Tijdstempels>
@@ -239,7 +247,7 @@
 									<Inhoud>
 										<Lijst eId="chp_2__subchp_2.2__art_2.4__list_o_1" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1" type="expliciet">
 											<!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
-											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_1__ref_o_1" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">Bedrijf categorie 2</IntIoRef>' mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende gebruiksactiviteiten:</Lijstaanhef>
+											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_1__ref_o_1" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">Bedrijf categorie 2</IntIoRef>' '<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_10__ref_o_1" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_10__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_10__ref_o_1">FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende gebruiksactiviteiten:</Lijstaanhef>
 											<Li eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_a">
 												<LiNummer>a.</LiNummer>
 												<Al>het uitoefenen van bedrijfstypen van categorie 2 die voorkomen op de bij deze regels behorende Lijst van toegelaten bedrijfstypen ; </Al>
@@ -264,7 +272,20 @@
 												<LiNummer>f.</LiNummer>
 												<Al>het uitoefenen van detailhandel in ter plaatse vervaardigde goederen, voor zover deze binnen ‘<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_1" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1">Zone A</IntIoRef>’ van het werkingsgebied ‘<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_2" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_2" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">Bedrijf categorie 2</IntIoRef>’ plaatsvinden.</Al>
 											</Li>
-										</Lijst>
+											<Li wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_g" eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_g">
+												<LiNummer>g.</LiNummer>
+												<Al>Een transparant wolkje</Al>
+												<Figuur eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_g__img_o_1"
+													wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_g__img_o_1">
+													<Illustratie breedte="840"
+														dpi="120"
+														formaat="image/png"
+														hoogte="560"
+														kleur="0"
+														naam="transparent_cloud.png"
+														uitlijning="start"/>
+												</Figuur>
+											</Li></Lijst>
 									</Inhoud>
 								</Artikel>
 								<Artikel eId="chp_2__subchp_2.2__art_2.5" wId="gm0297_1__chp_2__subchp_2.2__art_2.5">
@@ -813,6 +834,14 @@
 											</Al>
 										</Definitie>
 									</Begrip>
+									<Begrip eId="cmp_I__content_o_1__list_o_1__item_o_10" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_10">
+										<Term>FouteGebieden</Term>
+										<Definitie>
+											<Al>
+												<ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_10__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_10__ref_o_1" ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
+											</Al>
+										</Definitie>
+									</Begrip>
 								</Begrippenlijst>
 							</Inhoud>
 						</Divisietekst>
@@ -832,6 +861,14 @@
 								<Definitie>
 									<Al>
 										<ExtIoRef eId="cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;3520</ExtIoRef>
+									</Al>
+								</Definitie>
+							</Begrip>
+							<Begrip eId="cmp_B__content_o_1__list_o_1__item_o_2" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_2">
+								<Term>FouteGebieden</Term>
+								<Definitie>
+									<Al>
+										<ExtIoRef eId="cmp_B__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
 									</Al>
 								</Definitie>
 							</Begrip>

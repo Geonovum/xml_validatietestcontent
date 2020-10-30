@@ -24,6 +24,148 @@
 		<sl:stand>
 			<ow-dc:owObject>
 				<l:Gebiedengroep>
+					<l:identificatie>nl.imow-gm0297.gebiedengroep.2019000000</l:identificatie>
+					<l:noemer>Foute gebieden</l:noemer>
+					<l:groepselement>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000002"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000003"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000004"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000005"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000006"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000007"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000008"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000009"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000010"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000011"/>
+					</l:groepselement>
+				</l:Gebiedengroep>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000001</l:identificatie>
+					<l:noemer>Fout gebied 1</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000001"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000002</l:identificatie>
+					<l:noemer>Fout gebied 2</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000002"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000003</l:identificatie>
+					<l:noemer>Fout gebied 3</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000003"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000004</l:identificatie>
+					<l:noemer>Fout gebied 4</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000004"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000005</l:identificatie>
+					<l:noemer>Fout gebied 5</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000005"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000006</l:identificatie>
+					<l:noemer>Fout gebied 6</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000006"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000007</l:identificatie>
+					<l:noemer>Fout gebied 7</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000007"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000008</l:identificatie>
+					<l:noemer>Fout gebied 8</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000008"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000009</l:identificatie>
+					<l:noemer>Fout gebied 9</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000009"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000010</l:identificatie>
+					<l:noemer>Fout gebied 10</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000010"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000011</l:identificatie>
+					<l:noemer>Fout gebied 11</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000011"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebiedengroep>
 					<l:identificatie>nl.imow-gm0297.gebiedengroep.2019000001</l:identificatie>
 					<l:groepselement>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.2019000001"/>

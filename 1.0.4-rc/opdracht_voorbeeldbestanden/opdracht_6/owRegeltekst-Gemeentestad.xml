@@ -40,6 +40,7 @@
 						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
 					</r:artikelOfLid>
 					<r:locatieaanduiding>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.2019000000"/>
 						<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.2019000001"/>
 					</r:locatieaanduiding>
 					<r:gebiedsaanwijzing>

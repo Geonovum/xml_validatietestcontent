@@ -77,9 +77,14 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>150000 450000 160000 450000 160000 460000 150000 460000 150000 450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
+                                            <gml:interior>
+                                                <gml:LinearRing>
+                                                    <gml:posList>165000 465000 165000 470000 170000 470000 170000 465000 165000 465000</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:interior>
                                         </gml:Polygon>
                                     </gml:surfaceMember>
                                 </gml:MultiSurface>
@@ -98,7 +103,7 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>NaN 480000 180000 490000 190000 490000 190000 480000 180000 480000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -119,9 +124,19 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>150000 450000 160000 450000 160000 460000 150000 460000 150000 450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
+                                            <gml:interior>
+                                                <gml:LinearRing>
+                                                    <gml:posList>152000 452000 152000 458000 158000 458000 158000 452000 152000 452000</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:interior>
+                                            <gml:interior>
+                                                <gml:LinearRing>
+                                                    <gml:posList>153000 453000 153000 457000 157000 457000 157000 453000 153000 453000</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:interior>
                                         </gml:Polygon>
                                     </gml:surfaceMember>
                                 </gml:MultiSurface>
@@ -140,7 +155,12 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>152000 452000 152000 458000 158000 458000 158000 452000 152000 452000</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:exterior>
+                                            <gml:exterior>
+                                                <gml:LinearRing>
+                                                    <gml:posList>150000 450000 160000 450000 160000 460000 150000 460000 150000 450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -161,7 +181,7 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>150000 450000 150000 460000 160000 460000 160000 450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -182,7 +202,8 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>155000 450000 160000 450000 160000 460000 150000 460000 150000 450000
+                                                        155000 450000 153000 453000 155000 456000 157000 453000 155000 450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -203,7 +224,8 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>150000 450000 160000 460000 150000 460000 160000 450000 150000
+                                                        450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -224,7 +246,8 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>52.0562962306921 5.34346235323955 52.0562961086137
+                                                        5.43094408189303</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -245,7 +268,8 @@
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>138189.292 424664.587 138330.181 424712.303 138554.555 424598.429 138934.733 424595.103 139068.937 424523.441 138963.904 423863.77 138097.428 424206.055 138142.308 424434.282 138189.292 424664.587</gml:posList>
+                                                    <gml:posList>150000 450000 150000 460000 160000 460000 160000 450000 160000 450000
+                                                        150000 450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>

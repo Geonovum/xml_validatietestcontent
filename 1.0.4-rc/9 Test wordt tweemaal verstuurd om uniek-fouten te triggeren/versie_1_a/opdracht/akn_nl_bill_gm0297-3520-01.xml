@@ -248,6 +248,20 @@
 												<LiNummer>f.</LiNummer>
 												<Al>het uitoefenen van detailhandel in ter plaatse vervaardigde goederen, voor zover deze binnen ‘<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_1" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1">Zone A</IntIoRef>’ van het werkingsgebied ‘<IntIoRef eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_2" wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_f__ref_o_2" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">Bedrijf categorie 2</IntIoRef>’ plaatsvinden.</Al>
 											</Li>
+											<Li wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_g" eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_g">
+												<LiNummer>g.</LiNummer>
+												<Al>Een transparant wolkje</Al>
+												<Figuur eId="chp_2__subchp_2.2__art_2.4__list_o_1__item_g__img_o_1"
+													wId="gm0297_1__chp_2__subchp_2.2__art_2.4__list_o_1__item_g__img_o_1">
+													<Illustratie breedte="840"
+														dpi="120"
+														formaat="image/png"
+														hoogte="560"
+														kleur="0"
+														naam="transparent_cloud.png"
+														uitlijning="start"/>
+												</Figuur>
+											</Li>
 										</Lijst>
 									</Inhoud>
 								</Artikel>
