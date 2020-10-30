@@ -133,4 +133,8 @@
         <bestandsnaam>transparent_cloud.png</bestandsnaam>
         <contentType>image/png</contentType>
     </bestand>
+    <bestand>
+        <bestandsnaam>dont_look_in_browser.gif</bestandsnaam>
+        <contentType>image/gif</contentType>
+    </bestand>
 </manifest>
