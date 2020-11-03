@@ -38,6 +38,8 @@
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000009"/>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000010"/>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000011"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000012"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000013"/>
 					</l:groepselement>
 				</l:Gebiedengroep>
 			</ow-dc:owObject>
@@ -159,6 +161,28 @@
 					<l:noemer>Fout gebied 11</l:noemer>
 					<l:geometrie>
 						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000011"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000012</l:identificatie>
+					<l:noemer>Fout gebied 12</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000012"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000013</l:identificatie>
+					<l:noemer>Gebied bestaat niet</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000999"/>
 					</l:geometrie>
 				</l:Gebied>
 			</ow-dc:owObject>
