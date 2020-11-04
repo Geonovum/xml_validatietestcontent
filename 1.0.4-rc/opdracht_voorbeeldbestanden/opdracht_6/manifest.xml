@@ -94,6 +94,10 @@
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
+        <bestandsnaam>GMLValideertNiet.gml</bestandsnaam>
+        <contentType>application/gml+xml</contentType>
+    </bestand>
+    <bestand>
         <bestandsnaam>manifest-ow.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
