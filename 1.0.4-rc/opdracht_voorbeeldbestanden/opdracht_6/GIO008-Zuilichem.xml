@@ -13,7 +13,7 @@
         <heeftBestand>
           <Bestand>
             <bestandsnaam>Zuilichem.gml</bestandsnaam>
-            <hash>40ac8996cb467b0e5687660cc9b2287e249d12611a511196dee57b1ad691a90d3f4aa2ff18b3c91d76fcecf096611f46ddfcb4b1b71aa83ab4395bfb8dcbd707</hash>
+            <hash>b71aa83ab4395bfb8dcbd707</hash>
           </Bestand>
         </heeftBestand>
       </heeftBestanden>
@@ -23,7 +23,7 @@
       <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
       <maker>/tooi/id/gemeente/gm0297</maker>
       <alternatieveTitels>
-        <alternatieveTitel>Zuilichem</alternatieveTitel>
+        <alternatieveTitel>Zuilichem (fout in hash)</alternatieveTitel>
       </alternatieveTitels>
       <officieleTitel>/join/id/regdata/gm0297/2019/Zuilichem</officieleTitel>
       <publicatieinstructie>TeConsolideren</publicatieinstructie>
