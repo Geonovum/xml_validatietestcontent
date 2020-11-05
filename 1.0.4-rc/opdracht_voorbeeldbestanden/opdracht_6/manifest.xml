@@ -98,6 +98,10 @@
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
+        <bestandsnaam>GMLNietGevonden.gml</bestandsnaam>
+        <contentType>application/gml+xml</contentType>
+    </bestand>
+    <bestand>
         <bestandsnaam>manifest-ow.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
