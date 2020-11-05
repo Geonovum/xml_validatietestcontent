@@ -42,6 +42,7 @@
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000013"/>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000014"/>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000015"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000016"/>
 					</l:groepselement>
 				</l:Gebiedengroep>
 			</ow-dc:owObject>
@@ -185,6 +186,39 @@
 					<l:noemer>Gebied bestaat niet</l:noemer>
 					<l:geometrie>
 						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000999"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000014</l:identificatie>
+					<l:noemer>Niet conform crs</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000014"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000015</l:identificatie>
+					<l:noemer>GeenSRS</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000015"/>
+					</l:geometrie>
+				</l:Gebied>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<l:Gebied>
+					<l:identificatie>nl.imow-gm0297.gebied.20190000016</l:identificatie>
+					<l:noemer>Oneven aantal coordinaten</l:noemer>
+					<l:geometrie>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000016"/>
 					</l:geometrie>
 				</l:Gebied>
 			</ow-dc:owObject>
