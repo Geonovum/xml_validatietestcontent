@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_defensie_verstoring_zend_ontvangstinstallaties</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_defensie_verstoring_zend_ontvangstinstallaties/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>defensie_verstoring_zend_ontvangstinstallaties</noemer>
+            <officieleTitel>defensie_verstoring_zend_ontvangstinstallaties</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>defensie_verstoring_zend_ontvangstinstallaties.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>0fc6fd064184f6f5cc395c05fff56558c9e90c42fd9b4c22ef2431d5c295e406049ee5227b02b16716dd06b932c4c5a2641efb6d4f08a6c98d09046c6904d27a</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_1">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700001"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_2">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_2</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700002"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_3">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_3</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700003"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_4">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_4</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700004"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_5">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_5</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700005"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_6">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_6</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700006"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_7">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_7</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700007"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_8">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_8</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700008"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_9">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_9</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700009"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_10">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_10</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700010"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_11">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_11</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700011"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_12">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_12</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700012"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_13">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_13</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700013"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_14">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_14</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700014"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_15">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_15</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700015"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_16">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_16</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700016"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_17">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_17</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700017"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_18">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_18</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700018"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_19">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_19</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700019"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_20">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_20</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700020"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_21">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_21</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700021"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_22">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_22</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700022"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_23">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_23</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700023"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_verstoring_zend_ontvangstinstallaties_24">
+                    <wId>defensie_verstoring_zend_ontvangstinstallaties_24</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_verstoring_zend_ontvangstinstallaties.gml#70b15775-5471-447e-9723-5e7b3700024"
+                    />
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

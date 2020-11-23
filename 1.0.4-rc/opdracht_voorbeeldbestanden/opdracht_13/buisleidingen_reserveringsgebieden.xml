@@ -1,0 +1,3418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_buisleidingen_reserveringsgebieden</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_buisleidingen_reserveringsgebieden/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>buisleidingen_reserveringsgebieden</noemer>
+            <officieleTitel>buisleidingen_reserveringsgebieden</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>buisleidingen_reserveringsgebieden.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>e0b656c6271ba06bc8e4e297a80f8aeefc2bb48312c07525f0a3c7f643ab5541537a62183ace6f43aafc20189dc8a8e136a8175d8598e427c07fc8b53508d4a3</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_1">
+                    <wId>buisleidingen_reserveringsgebieden_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0001"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_2">
+                    <wId>buisleidingen_reserveringsgebieden_2</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0002"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_3">
+                    <wId>buisleidingen_reserveringsgebieden_3</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0003"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_4">
+                    <wId>buisleidingen_reserveringsgebieden_4</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0004"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_5">
+                    <wId>buisleidingen_reserveringsgebieden_5</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0005"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_6">
+                    <wId>buisleidingen_reserveringsgebieden_6</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0006"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_7">
+                    <wId>buisleidingen_reserveringsgebieden_7</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0007"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_8">
+                    <wId>buisleidingen_reserveringsgebieden_8</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0008"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_9">
+                    <wId>buisleidingen_reserveringsgebieden_9</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0009"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_10">
+                    <wId>buisleidingen_reserveringsgebieden_10</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0010"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_11">
+                    <wId>buisleidingen_reserveringsgebieden_11</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0011"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_12">
+                    <wId>buisleidingen_reserveringsgebieden_12</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0012"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_13">
+                    <wId>buisleidingen_reserveringsgebieden_13</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0013"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_14">
+                    <wId>buisleidingen_reserveringsgebieden_14</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0014"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_15">
+                    <wId>buisleidingen_reserveringsgebieden_15</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0015"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_16">
+                    <wId>buisleidingen_reserveringsgebieden_16</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0016"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_17">
+                    <wId>buisleidingen_reserveringsgebieden_17</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0017"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_18">
+                    <wId>buisleidingen_reserveringsgebieden_18</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0018"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_19">
+                    <wId>buisleidingen_reserveringsgebieden_19</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0019"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_20">
+                    <wId>buisleidingen_reserveringsgebieden_20</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0020"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_21">
+                    <wId>buisleidingen_reserveringsgebieden_21</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0021"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_22">
+                    <wId>buisleidingen_reserveringsgebieden_22</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0022"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_23">
+                    <wId>buisleidingen_reserveringsgebieden_23</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0023"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_24">
+                    <wId>buisleidingen_reserveringsgebieden_24</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0024"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_25">
+                    <wId>buisleidingen_reserveringsgebieden_25</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0025"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_26">
+                    <wId>buisleidingen_reserveringsgebieden_26</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0026"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_27">
+                    <wId>buisleidingen_reserveringsgebieden_27</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0027"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_28">
+                    <wId>buisleidingen_reserveringsgebieden_28</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0028"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_29">
+                    <wId>buisleidingen_reserveringsgebieden_29</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0029"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_30">
+                    <wId>buisleidingen_reserveringsgebieden_30</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0030"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_31">
+                    <wId>buisleidingen_reserveringsgebieden_31</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0031"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_32">
+                    <wId>buisleidingen_reserveringsgebieden_32</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0032"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_33">
+                    <wId>buisleidingen_reserveringsgebieden_33</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0033"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_34">
+                    <wId>buisleidingen_reserveringsgebieden_34</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0034"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_35">
+                    <wId>buisleidingen_reserveringsgebieden_35</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0035"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_36">
+                    <wId>buisleidingen_reserveringsgebieden_36</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0036"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_37">
+                    <wId>buisleidingen_reserveringsgebieden_37</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0037"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_38">
+                    <wId>buisleidingen_reserveringsgebieden_38</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0038"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_39">
+                    <wId>buisleidingen_reserveringsgebieden_39</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0039"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_40">
+                    <wId>buisleidingen_reserveringsgebieden_40</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0040"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_41">
+                    <wId>buisleidingen_reserveringsgebieden_41</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0041"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_42">
+                    <wId>buisleidingen_reserveringsgebieden_42</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0042"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_43">
+                    <wId>buisleidingen_reserveringsgebieden_43</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0043"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_44">
+                    <wId>buisleidingen_reserveringsgebieden_44</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0044"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_45">
+                    <wId>buisleidingen_reserveringsgebieden_45</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0045"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_46">
+                    <wId>buisleidingen_reserveringsgebieden_46</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0046"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_47">
+                    <wId>buisleidingen_reserveringsgebieden_47</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0047"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_48">
+                    <wId>buisleidingen_reserveringsgebieden_48</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0048"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_49">
+                    <wId>buisleidingen_reserveringsgebieden_49</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0049"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_50">
+                    <wId>buisleidingen_reserveringsgebieden_50</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0050"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_51">
+                    <wId>buisleidingen_reserveringsgebieden_51</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0051"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_52">
+                    <wId>buisleidingen_reserveringsgebieden_52</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0052"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_53">
+                    <wId>buisleidingen_reserveringsgebieden_53</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0053"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_54">
+                    <wId>buisleidingen_reserveringsgebieden_54</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0054"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_55">
+                    <wId>buisleidingen_reserveringsgebieden_55</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0055"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_56">
+                    <wId>buisleidingen_reserveringsgebieden_56</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0056"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_57">
+                    <wId>buisleidingen_reserveringsgebieden_57</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0057"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_58">
+                    <wId>buisleidingen_reserveringsgebieden_58</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0058"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_59">
+                    <wId>buisleidingen_reserveringsgebieden_59</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0059"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_60">
+                    <wId>buisleidingen_reserveringsgebieden_60</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0060"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_61">
+                    <wId>buisleidingen_reserveringsgebieden_61</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0061"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_62">
+                    <wId>buisleidingen_reserveringsgebieden_62</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0062"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_63">
+                    <wId>buisleidingen_reserveringsgebieden_63</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0063"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_64">
+                    <wId>buisleidingen_reserveringsgebieden_64</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0064"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_65">
+                    <wId>buisleidingen_reserveringsgebieden_65</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0065"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_66">
+                    <wId>buisleidingen_reserveringsgebieden_66</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0066"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_67">
+                    <wId>buisleidingen_reserveringsgebieden_67</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0067"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_68">
+                    <wId>buisleidingen_reserveringsgebieden_68</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0068"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_69">
+                    <wId>buisleidingen_reserveringsgebieden_69</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0069"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_70">
+                    <wId>buisleidingen_reserveringsgebieden_70</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0070"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_71">
+                    <wId>buisleidingen_reserveringsgebieden_71</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0071"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_72">
+                    <wId>buisleidingen_reserveringsgebieden_72</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0072"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_73">
+                    <wId>buisleidingen_reserveringsgebieden_73</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0073"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_74">
+                    <wId>buisleidingen_reserveringsgebieden_74</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0074"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_75">
+                    <wId>buisleidingen_reserveringsgebieden_75</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0075"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_76">
+                    <wId>buisleidingen_reserveringsgebieden_76</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0076"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_77">
+                    <wId>buisleidingen_reserveringsgebieden_77</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0077"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_78">
+                    <wId>buisleidingen_reserveringsgebieden_78</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0078"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_79">
+                    <wId>buisleidingen_reserveringsgebieden_79</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0079"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_80">
+                    <wId>buisleidingen_reserveringsgebieden_80</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0080"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_81">
+                    <wId>buisleidingen_reserveringsgebieden_81</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0081"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_82">
+                    <wId>buisleidingen_reserveringsgebieden_82</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0082"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_83">
+                    <wId>buisleidingen_reserveringsgebieden_83</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0083"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_84">
+                    <wId>buisleidingen_reserveringsgebieden_84</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0084"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_85">
+                    <wId>buisleidingen_reserveringsgebieden_85</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0085"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_86">
+                    <wId>buisleidingen_reserveringsgebieden_86</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0086"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_87">
+                    <wId>buisleidingen_reserveringsgebieden_87</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0087"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_88">
+                    <wId>buisleidingen_reserveringsgebieden_88</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0088"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_89">
+                    <wId>buisleidingen_reserveringsgebieden_89</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0089"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_90">
+                    <wId>buisleidingen_reserveringsgebieden_90</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0090"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_91">
+                    <wId>buisleidingen_reserveringsgebieden_91</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0091"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_92">
+                    <wId>buisleidingen_reserveringsgebieden_92</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0092"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_93">
+                    <wId>buisleidingen_reserveringsgebieden_93</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0093"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_94">
+                    <wId>buisleidingen_reserveringsgebieden_94</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0094"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_95">
+                    <wId>buisleidingen_reserveringsgebieden_95</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0095"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_96">
+                    <wId>buisleidingen_reserveringsgebieden_96</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0096"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_97">
+                    <wId>buisleidingen_reserveringsgebieden_97</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0097"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_98">
+                    <wId>buisleidingen_reserveringsgebieden_98</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0098"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_99">
+                    <wId>buisleidingen_reserveringsgebieden_99</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0099"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_100">
+                    <wId>buisleidingen_reserveringsgebieden_100</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0100"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_101">
+                    <wId>buisleidingen_reserveringsgebieden_101</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0101"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_102">
+                    <wId>buisleidingen_reserveringsgebieden_102</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0102"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_103">
+                    <wId>buisleidingen_reserveringsgebieden_103</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0103"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_104">
+                    <wId>buisleidingen_reserveringsgebieden_104</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0104"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_105">
+                    <wId>buisleidingen_reserveringsgebieden_105</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0105"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_106">
+                    <wId>buisleidingen_reserveringsgebieden_106</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0106"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_107">
+                    <wId>buisleidingen_reserveringsgebieden_107</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0107"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_108">
+                    <wId>buisleidingen_reserveringsgebieden_108</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0108"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_109">
+                    <wId>buisleidingen_reserveringsgebieden_109</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0109"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_110">
+                    <wId>buisleidingen_reserveringsgebieden_110</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0110"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_111">
+                    <wId>buisleidingen_reserveringsgebieden_111</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0111"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_112">
+                    <wId>buisleidingen_reserveringsgebieden_112</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0112"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_113">
+                    <wId>buisleidingen_reserveringsgebieden_113</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0113"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_114">
+                    <wId>buisleidingen_reserveringsgebieden_114</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0114"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_115">
+                    <wId>buisleidingen_reserveringsgebieden_115</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0115"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_116">
+                    <wId>buisleidingen_reserveringsgebieden_116</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0116"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_117">
+                    <wId>buisleidingen_reserveringsgebieden_117</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0117"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_118">
+                    <wId>buisleidingen_reserveringsgebieden_118</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0118"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_119">
+                    <wId>buisleidingen_reserveringsgebieden_119</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0119"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_120">
+                    <wId>buisleidingen_reserveringsgebieden_120</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0120"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_121">
+                    <wId>buisleidingen_reserveringsgebieden_121</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0121"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_122">
+                    <wId>buisleidingen_reserveringsgebieden_122</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0122"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_123">
+                    <wId>buisleidingen_reserveringsgebieden_123</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0123"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_124">
+                    <wId>buisleidingen_reserveringsgebieden_124</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0124"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_125">
+                    <wId>buisleidingen_reserveringsgebieden_125</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0125"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_126">
+                    <wId>buisleidingen_reserveringsgebieden_126</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0126"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_127">
+                    <wId>buisleidingen_reserveringsgebieden_127</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0127"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_128">
+                    <wId>buisleidingen_reserveringsgebieden_128</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0128"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_129">
+                    <wId>buisleidingen_reserveringsgebieden_129</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0129"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_130">
+                    <wId>buisleidingen_reserveringsgebieden_130</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0130"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_131">
+                    <wId>buisleidingen_reserveringsgebieden_131</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0131"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_132">
+                    <wId>buisleidingen_reserveringsgebieden_132</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0132"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_133">
+                    <wId>buisleidingen_reserveringsgebieden_133</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0133"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_134">
+                    <wId>buisleidingen_reserveringsgebieden_134</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0134"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_135">
+                    <wId>buisleidingen_reserveringsgebieden_135</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0135"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_136">
+                    <wId>buisleidingen_reserveringsgebieden_136</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0136"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_137">
+                    <wId>buisleidingen_reserveringsgebieden_137</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0137"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_138">
+                    <wId>buisleidingen_reserveringsgebieden_138</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0138"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_139">
+                    <wId>buisleidingen_reserveringsgebieden_139</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0139"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_140">
+                    <wId>buisleidingen_reserveringsgebieden_140</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0140"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_141">
+                    <wId>buisleidingen_reserveringsgebieden_141</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0141"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_142">
+                    <wId>buisleidingen_reserveringsgebieden_142</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0142"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_143">
+                    <wId>buisleidingen_reserveringsgebieden_143</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0143"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_144">
+                    <wId>buisleidingen_reserveringsgebieden_144</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0144"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_145">
+                    <wId>buisleidingen_reserveringsgebieden_145</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0145"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_146">
+                    <wId>buisleidingen_reserveringsgebieden_146</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0146"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_147">
+                    <wId>buisleidingen_reserveringsgebieden_147</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0147"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_148">
+                    <wId>buisleidingen_reserveringsgebieden_148</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0148"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_149">
+                    <wId>buisleidingen_reserveringsgebieden_149</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0149"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_150">
+                    <wId>buisleidingen_reserveringsgebieden_150</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0150"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_151">
+                    <wId>buisleidingen_reserveringsgebieden_151</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0151"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_152">
+                    <wId>buisleidingen_reserveringsgebieden_152</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0152"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_153">
+                    <wId>buisleidingen_reserveringsgebieden_153</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0153"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_154">
+                    <wId>buisleidingen_reserveringsgebieden_154</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0154"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_155">
+                    <wId>buisleidingen_reserveringsgebieden_155</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0155"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_156">
+                    <wId>buisleidingen_reserveringsgebieden_156</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0156"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_157">
+                    <wId>buisleidingen_reserveringsgebieden_157</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0157"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_158">
+                    <wId>buisleidingen_reserveringsgebieden_158</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0158"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_159">
+                    <wId>buisleidingen_reserveringsgebieden_159</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0159"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_160">
+                    <wId>buisleidingen_reserveringsgebieden_160</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0160"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_161">
+                    <wId>buisleidingen_reserveringsgebieden_161</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0161"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_162">
+                    <wId>buisleidingen_reserveringsgebieden_162</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0162"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_163">
+                    <wId>buisleidingen_reserveringsgebieden_163</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0163"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_164">
+                    <wId>buisleidingen_reserveringsgebieden_164</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0164"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_165">
+                    <wId>buisleidingen_reserveringsgebieden_165</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0165"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_166">
+                    <wId>buisleidingen_reserveringsgebieden_166</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0166"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_167">
+                    <wId>buisleidingen_reserveringsgebieden_167</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0167"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_168">
+                    <wId>buisleidingen_reserveringsgebieden_168</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0168"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_169">
+                    <wId>buisleidingen_reserveringsgebieden_169</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0169"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_170">
+                    <wId>buisleidingen_reserveringsgebieden_170</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0170"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_171">
+                    <wId>buisleidingen_reserveringsgebieden_171</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0171"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_172">
+                    <wId>buisleidingen_reserveringsgebieden_172</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0172"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_173">
+                    <wId>buisleidingen_reserveringsgebieden_173</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0173"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_174">
+                    <wId>buisleidingen_reserveringsgebieden_174</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0174"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_175">
+                    <wId>buisleidingen_reserveringsgebieden_175</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0175"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_176">
+                    <wId>buisleidingen_reserveringsgebieden_176</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0176"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_177">
+                    <wId>buisleidingen_reserveringsgebieden_177</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0177"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_178">
+                    <wId>buisleidingen_reserveringsgebieden_178</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0178"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_179">
+                    <wId>buisleidingen_reserveringsgebieden_179</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0179"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_180">
+                    <wId>buisleidingen_reserveringsgebieden_180</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0180"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_181">
+                    <wId>buisleidingen_reserveringsgebieden_181</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0181"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_182">
+                    <wId>buisleidingen_reserveringsgebieden_182</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0182"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_183">
+                    <wId>buisleidingen_reserveringsgebieden_183</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0183"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_184">
+                    <wId>buisleidingen_reserveringsgebieden_184</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0184"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_185">
+                    <wId>buisleidingen_reserveringsgebieden_185</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0185"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_186">
+                    <wId>buisleidingen_reserveringsgebieden_186</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0186"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_187">
+                    <wId>buisleidingen_reserveringsgebieden_187</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0187"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_188">
+                    <wId>buisleidingen_reserveringsgebieden_188</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0188"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_189">
+                    <wId>buisleidingen_reserveringsgebieden_189</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0189"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_190">
+                    <wId>buisleidingen_reserveringsgebieden_190</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0190"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_191">
+                    <wId>buisleidingen_reserveringsgebieden_191</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0191"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_192">
+                    <wId>buisleidingen_reserveringsgebieden_192</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0192"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_193">
+                    <wId>buisleidingen_reserveringsgebieden_193</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0193"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_194">
+                    <wId>buisleidingen_reserveringsgebieden_194</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0194"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_195">
+                    <wId>buisleidingen_reserveringsgebieden_195</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0195"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_196">
+                    <wId>buisleidingen_reserveringsgebieden_196</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0196"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_197">
+                    <wId>buisleidingen_reserveringsgebieden_197</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0197"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_198">
+                    <wId>buisleidingen_reserveringsgebieden_198</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0198"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_199">
+                    <wId>buisleidingen_reserveringsgebieden_199</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0199"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_200">
+                    <wId>buisleidingen_reserveringsgebieden_200</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0200"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_201">
+                    <wId>buisleidingen_reserveringsgebieden_201</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0201"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_202">
+                    <wId>buisleidingen_reserveringsgebieden_202</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0202"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_203">
+                    <wId>buisleidingen_reserveringsgebieden_203</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0203"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_204">
+                    <wId>buisleidingen_reserveringsgebieden_204</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0204"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_205">
+                    <wId>buisleidingen_reserveringsgebieden_205</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0205"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_206">
+                    <wId>buisleidingen_reserveringsgebieden_206</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0206"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_207">
+                    <wId>buisleidingen_reserveringsgebieden_207</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0207"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_208">
+                    <wId>buisleidingen_reserveringsgebieden_208</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0208"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_209">
+                    <wId>buisleidingen_reserveringsgebieden_209</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0209"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_210">
+                    <wId>buisleidingen_reserveringsgebieden_210</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0210"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_211">
+                    <wId>buisleidingen_reserveringsgebieden_211</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0211"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_212">
+                    <wId>buisleidingen_reserveringsgebieden_212</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0212"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_213">
+                    <wId>buisleidingen_reserveringsgebieden_213</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0213"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_214">
+                    <wId>buisleidingen_reserveringsgebieden_214</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0214"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_215">
+                    <wId>buisleidingen_reserveringsgebieden_215</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0215"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_216">
+                    <wId>buisleidingen_reserveringsgebieden_216</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0216"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_217">
+                    <wId>buisleidingen_reserveringsgebieden_217</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0217"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_218">
+                    <wId>buisleidingen_reserveringsgebieden_218</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0218"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_219">
+                    <wId>buisleidingen_reserveringsgebieden_219</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0219"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_220">
+                    <wId>buisleidingen_reserveringsgebieden_220</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0220"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_221">
+                    <wId>buisleidingen_reserveringsgebieden_221</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0221"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_222">
+                    <wId>buisleidingen_reserveringsgebieden_222</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0222"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_223">
+                    <wId>buisleidingen_reserveringsgebieden_223</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0223"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_224">
+                    <wId>buisleidingen_reserveringsgebieden_224</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0224"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_225">
+                    <wId>buisleidingen_reserveringsgebieden_225</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0225"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_226">
+                    <wId>buisleidingen_reserveringsgebieden_226</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0226"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_227">
+                    <wId>buisleidingen_reserveringsgebieden_227</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0227"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_228">
+                    <wId>buisleidingen_reserveringsgebieden_228</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0228"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_229">
+                    <wId>buisleidingen_reserveringsgebieden_229</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0229"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_230">
+                    <wId>buisleidingen_reserveringsgebieden_230</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0230"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_231">
+                    <wId>buisleidingen_reserveringsgebieden_231</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0231"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_232">
+                    <wId>buisleidingen_reserveringsgebieden_232</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0232"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_233">
+                    <wId>buisleidingen_reserveringsgebieden_233</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0233"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_234">
+                    <wId>buisleidingen_reserveringsgebieden_234</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0234"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_235">
+                    <wId>buisleidingen_reserveringsgebieden_235</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0235"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_236">
+                    <wId>buisleidingen_reserveringsgebieden_236</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0236"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_237">
+                    <wId>buisleidingen_reserveringsgebieden_237</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0237"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_238">
+                    <wId>buisleidingen_reserveringsgebieden_238</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0238"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_239">
+                    <wId>buisleidingen_reserveringsgebieden_239</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0239"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_240">
+                    <wId>buisleidingen_reserveringsgebieden_240</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0240"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_241">
+                    <wId>buisleidingen_reserveringsgebieden_241</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0241"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_242">
+                    <wId>buisleidingen_reserveringsgebieden_242</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0242"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_243">
+                    <wId>buisleidingen_reserveringsgebieden_243</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0243"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_244">
+                    <wId>buisleidingen_reserveringsgebieden_244</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0244"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_245">
+                    <wId>buisleidingen_reserveringsgebieden_245</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0245"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_246">
+                    <wId>buisleidingen_reserveringsgebieden_246</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0246"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_247">
+                    <wId>buisleidingen_reserveringsgebieden_247</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0247"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_248">
+                    <wId>buisleidingen_reserveringsgebieden_248</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0248"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_249">
+                    <wId>buisleidingen_reserveringsgebieden_249</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0249"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_250">
+                    <wId>buisleidingen_reserveringsgebieden_250</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0250"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_251">
+                    <wId>buisleidingen_reserveringsgebieden_251</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0251"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_252">
+                    <wId>buisleidingen_reserveringsgebieden_252</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0252"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_253">
+                    <wId>buisleidingen_reserveringsgebieden_253</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0253"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_254">
+                    <wId>buisleidingen_reserveringsgebieden_254</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0254"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_255">
+                    <wId>buisleidingen_reserveringsgebieden_255</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0255"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_256">
+                    <wId>buisleidingen_reserveringsgebieden_256</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0256"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_257">
+                    <wId>buisleidingen_reserveringsgebieden_257</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0257"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_258">
+                    <wId>buisleidingen_reserveringsgebieden_258</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0258"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_259">
+                    <wId>buisleidingen_reserveringsgebieden_259</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0259"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_260">
+                    <wId>buisleidingen_reserveringsgebieden_260</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0260"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_261">
+                    <wId>buisleidingen_reserveringsgebieden_261</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0261"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_262">
+                    <wId>buisleidingen_reserveringsgebieden_262</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0262"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_263">
+                    <wId>buisleidingen_reserveringsgebieden_263</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0263"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_264">
+                    <wId>buisleidingen_reserveringsgebieden_264</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0264"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_265">
+                    <wId>buisleidingen_reserveringsgebieden_265</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0265"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_266">
+                    <wId>buisleidingen_reserveringsgebieden_266</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0266"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_267">
+                    <wId>buisleidingen_reserveringsgebieden_267</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0267"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_268">
+                    <wId>buisleidingen_reserveringsgebieden_268</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0268"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_269">
+                    <wId>buisleidingen_reserveringsgebieden_269</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0269"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_270">
+                    <wId>buisleidingen_reserveringsgebieden_270</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0270"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_271">
+                    <wId>buisleidingen_reserveringsgebieden_271</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0271"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_272">
+                    <wId>buisleidingen_reserveringsgebieden_272</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0272"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_273">
+                    <wId>buisleidingen_reserveringsgebieden_273</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0273"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_274">
+                    <wId>buisleidingen_reserveringsgebieden_274</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0274"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_275">
+                    <wId>buisleidingen_reserveringsgebieden_275</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0275"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_276">
+                    <wId>buisleidingen_reserveringsgebieden_276</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0276"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_277">
+                    <wId>buisleidingen_reserveringsgebieden_277</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0277"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_278">
+                    <wId>buisleidingen_reserveringsgebieden_278</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0278"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_279">
+                    <wId>buisleidingen_reserveringsgebieden_279</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0279"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_280">
+                    <wId>buisleidingen_reserveringsgebieden_280</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0280"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_281">
+                    <wId>buisleidingen_reserveringsgebieden_281</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0281"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_282">
+                    <wId>buisleidingen_reserveringsgebieden_282</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0282"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_283">
+                    <wId>buisleidingen_reserveringsgebieden_283</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0283"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_284">
+                    <wId>buisleidingen_reserveringsgebieden_284</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0284"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_285">
+                    <wId>buisleidingen_reserveringsgebieden_285</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0285"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_286">
+                    <wId>buisleidingen_reserveringsgebieden_286</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0286"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_287">
+                    <wId>buisleidingen_reserveringsgebieden_287</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0287"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_288">
+                    <wId>buisleidingen_reserveringsgebieden_288</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0288"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_289">
+                    <wId>buisleidingen_reserveringsgebieden_289</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0289"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_290">
+                    <wId>buisleidingen_reserveringsgebieden_290</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0290"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_291">
+                    <wId>buisleidingen_reserveringsgebieden_291</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0291"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_292">
+                    <wId>buisleidingen_reserveringsgebieden_292</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0292"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_293">
+                    <wId>buisleidingen_reserveringsgebieden_293</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0293"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_294">
+                    <wId>buisleidingen_reserveringsgebieden_294</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0294"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_295">
+                    <wId>buisleidingen_reserveringsgebieden_295</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0295"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_296">
+                    <wId>buisleidingen_reserveringsgebieden_296</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0296"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_297">
+                    <wId>buisleidingen_reserveringsgebieden_297</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0297"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_298">
+                    <wId>buisleidingen_reserveringsgebieden_298</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0298"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_299">
+                    <wId>buisleidingen_reserveringsgebieden_299</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0299"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_300">
+                    <wId>buisleidingen_reserveringsgebieden_300</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0300"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_301">
+                    <wId>buisleidingen_reserveringsgebieden_301</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0301"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_302">
+                    <wId>buisleidingen_reserveringsgebieden_302</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0302"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_303">
+                    <wId>buisleidingen_reserveringsgebieden_303</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0303"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_304">
+                    <wId>buisleidingen_reserveringsgebieden_304</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0304"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_305">
+                    <wId>buisleidingen_reserveringsgebieden_305</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0305"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_306">
+                    <wId>buisleidingen_reserveringsgebieden_306</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0306"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_307">
+                    <wId>buisleidingen_reserveringsgebieden_307</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0307"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_308">
+                    <wId>buisleidingen_reserveringsgebieden_308</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0308"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_309">
+                    <wId>buisleidingen_reserveringsgebieden_309</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0309"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_310">
+                    <wId>buisleidingen_reserveringsgebieden_310</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0310"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_311">
+                    <wId>buisleidingen_reserveringsgebieden_311</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0311"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_312">
+                    <wId>buisleidingen_reserveringsgebieden_312</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0312"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_313">
+                    <wId>buisleidingen_reserveringsgebieden_313</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0313"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_314">
+                    <wId>buisleidingen_reserveringsgebieden_314</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0314"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_315">
+                    <wId>buisleidingen_reserveringsgebieden_315</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0315"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_316">
+                    <wId>buisleidingen_reserveringsgebieden_316</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0316"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_317">
+                    <wId>buisleidingen_reserveringsgebieden_317</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0317"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_318">
+                    <wId>buisleidingen_reserveringsgebieden_318</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0318"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_319">
+                    <wId>buisleidingen_reserveringsgebieden_319</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0319"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_320">
+                    <wId>buisleidingen_reserveringsgebieden_320</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0320"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_321">
+                    <wId>buisleidingen_reserveringsgebieden_321</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0321"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_322">
+                    <wId>buisleidingen_reserveringsgebieden_322</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0322"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_323">
+                    <wId>buisleidingen_reserveringsgebieden_323</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0323"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_324">
+                    <wId>buisleidingen_reserveringsgebieden_324</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0324"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_325">
+                    <wId>buisleidingen_reserveringsgebieden_325</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0325"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_326">
+                    <wId>buisleidingen_reserveringsgebieden_326</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0326"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_327">
+                    <wId>buisleidingen_reserveringsgebieden_327</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0327"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_328">
+                    <wId>buisleidingen_reserveringsgebieden_328</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0328"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_329">
+                    <wId>buisleidingen_reserveringsgebieden_329</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0329"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_330">
+                    <wId>buisleidingen_reserveringsgebieden_330</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0330"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_331">
+                    <wId>buisleidingen_reserveringsgebieden_331</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0331"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_332">
+                    <wId>buisleidingen_reserveringsgebieden_332</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0332"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_333">
+                    <wId>buisleidingen_reserveringsgebieden_333</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0333"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_334">
+                    <wId>buisleidingen_reserveringsgebieden_334</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0334"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_335">
+                    <wId>buisleidingen_reserveringsgebieden_335</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0335"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_336">
+                    <wId>buisleidingen_reserveringsgebieden_336</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0336"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_337">
+                    <wId>buisleidingen_reserveringsgebieden_337</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0337"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_338">
+                    <wId>buisleidingen_reserveringsgebieden_338</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0338"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_339">
+                    <wId>buisleidingen_reserveringsgebieden_339</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0339"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_340">
+                    <wId>buisleidingen_reserveringsgebieden_340</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0340"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_341">
+                    <wId>buisleidingen_reserveringsgebieden_341</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0341"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_342">
+                    <wId>buisleidingen_reserveringsgebieden_342</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0342"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_343">
+                    <wId>buisleidingen_reserveringsgebieden_343</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0343"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_344">
+                    <wId>buisleidingen_reserveringsgebieden_344</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0344"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_345">
+                    <wId>buisleidingen_reserveringsgebieden_345</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0345"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_346">
+                    <wId>buisleidingen_reserveringsgebieden_346</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0346"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_347">
+                    <wId>buisleidingen_reserveringsgebieden_347</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0347"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_348">
+                    <wId>buisleidingen_reserveringsgebieden_348</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0348"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_349">
+                    <wId>buisleidingen_reserveringsgebieden_349</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0349"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_350">
+                    <wId>buisleidingen_reserveringsgebieden_350</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0350"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_351">
+                    <wId>buisleidingen_reserveringsgebieden_351</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0351"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_352">
+                    <wId>buisleidingen_reserveringsgebieden_352</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0352"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_353">
+                    <wId>buisleidingen_reserveringsgebieden_353</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0353"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_354">
+                    <wId>buisleidingen_reserveringsgebieden_354</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0354"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_355">
+                    <wId>buisleidingen_reserveringsgebieden_355</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0355"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_356">
+                    <wId>buisleidingen_reserveringsgebieden_356</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0356"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_357">
+                    <wId>buisleidingen_reserveringsgebieden_357</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0357"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_358">
+                    <wId>buisleidingen_reserveringsgebieden_358</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0358"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_359">
+                    <wId>buisleidingen_reserveringsgebieden_359</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0359"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_360">
+                    <wId>buisleidingen_reserveringsgebieden_360</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0360"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_361">
+                    <wId>buisleidingen_reserveringsgebieden_361</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0361"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_362">
+                    <wId>buisleidingen_reserveringsgebieden_362</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0362"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_363">
+                    <wId>buisleidingen_reserveringsgebieden_363</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0363"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_364">
+                    <wId>buisleidingen_reserveringsgebieden_364</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0364"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_365">
+                    <wId>buisleidingen_reserveringsgebieden_365</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0365"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_366">
+                    <wId>buisleidingen_reserveringsgebieden_366</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0366"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_367">
+                    <wId>buisleidingen_reserveringsgebieden_367</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0367"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_368">
+                    <wId>buisleidingen_reserveringsgebieden_368</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0368"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_369">
+                    <wId>buisleidingen_reserveringsgebieden_369</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0369"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_370">
+                    <wId>buisleidingen_reserveringsgebieden_370</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0370"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_371">
+                    <wId>buisleidingen_reserveringsgebieden_371</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0371"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_372">
+                    <wId>buisleidingen_reserveringsgebieden_372</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0372"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_373">
+                    <wId>buisleidingen_reserveringsgebieden_373</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0373"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_374">
+                    <wId>buisleidingen_reserveringsgebieden_374</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0374"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="buisleidingen_reserveringsgebieden_375">
+                    <wId>buisleidingen_reserveringsgebieden_375</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="buisleidingen_reserveringsgebieden.gml#4bbe734e-8042-4a16-a6bf-aad881cb0375"
+                    />
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

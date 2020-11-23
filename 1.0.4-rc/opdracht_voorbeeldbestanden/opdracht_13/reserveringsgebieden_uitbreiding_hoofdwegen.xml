@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_uitbreiding_hoofdwegen</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_uitbreiding_hoofdwegen/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>reserveringsgebieden_uitbreiding_hoofdwegen</noemer>
+            <officieleTitel>reserveringsgebieden_uitbreiding_hoofdwegen</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>reserveringsgebieden_uitbreiding_hoofdwegen.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>616ee47218b9771af4b7530ea3bc1da702526ffa5d77ec6b8805d770e2243887dc8e6dacdc75e95804fcfba00e7bd278ce532df6203244b4dc74e20475744f88</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_1">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_1</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560001"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_2">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_2</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560002"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_3">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_3</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560003"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_4">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_4</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560004"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_5">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_5</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560005"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_6">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_6</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560006"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_7">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_7</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560007"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_8">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_8</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560008"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_9">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_9</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560009"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_10">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_10</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560010"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_11">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_11</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560011"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_12">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_12</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560012"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_13">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_13</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560013"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_14">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_14</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560014"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_15">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_15</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560015"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_16">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_16</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560016"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_17">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_17</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560017"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_18">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_18</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560018"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_19">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_19</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560019"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_20">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_20</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560020"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_21">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_21</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560021"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_22">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_22</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560022"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_23">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_23</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560023"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_24">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_24</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560024"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_25">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_25</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560025"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_26">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_26</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560026"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_27">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_27</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560027"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_28">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_28</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560028"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_29">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_29</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560029"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_30">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_30</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560030"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_31">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_31</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560031"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_32">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_32</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560032"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_33">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_33</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560033"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_34">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_34</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560034"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_35">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_35</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560035"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_36">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_36</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560036"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_37">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_37</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560037"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_38">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_38</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560038"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_39">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_39</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560039"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_40">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_40</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560040"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_41">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_41</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560041"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_42">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_42</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560042"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_43">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_43</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560043"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_44">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_44</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560044"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_45">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_45</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560045"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_46">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_46</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560046"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_47">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_47</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560047"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_48">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_48</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560048"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_49">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_49</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560049"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_50">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_50</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560050"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_51">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_51</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560051"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_52">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_52</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560052"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_53">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_53</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560053"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_54">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_54</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560054"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_55">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_55</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560055"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_56">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_56</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560056"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_57">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_57</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560057"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_58">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_58</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560058"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_59">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_59</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560059"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_60">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_60</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560060"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_61">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_61</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560061"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_62">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_62</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560062"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_63">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_63</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560063"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_64">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_64</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560064"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_65">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_65</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560065"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_66">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_66</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560066"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_67">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_67</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560067"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_68">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_68</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560068"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_69">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_69</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560069"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_70">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_70</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560070"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_71">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_71</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560071"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_72">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_72</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560072"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_73">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_73</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560073"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_74">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_74</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560074"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_75">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_75</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560075"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_76">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_76</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560076"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_77">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_77</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560077"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_78">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_78</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560078"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_79">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_79</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560079"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_80">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_80</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560080"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_81">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_81</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560081"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_82">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_82</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560082"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_83">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_83</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560083"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_84">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_84</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560084"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_85">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_85</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560085"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_86">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_86</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560086"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_87">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_87</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560087"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_88">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_88</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560088"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_89">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_89</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560089"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_90">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_90</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560090"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_91">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_91</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560091"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_92">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_92</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560092"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_93">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_93</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560093"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_94">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_94</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560094"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_95">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_95</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560095"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_96">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_96</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560096"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_97">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_97</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560097"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_98">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_98</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560098"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_99">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_99</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560099"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_100">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_100</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560100"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_101">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_101</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560101"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_102">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_102</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560102"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_103">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_103</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560103"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_104">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_104</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560104"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_105">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_105</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560105"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_106">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_106</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560106"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_107">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_107</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560107"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_108">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_108</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560108"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_109">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_109</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560109"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_110">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_110</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560110"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_111">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_111</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560111"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_112">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_112</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560112"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_113">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_113</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560113"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_114">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_114</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560114"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_115">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_115</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560115"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_116">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_116</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560116"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_117">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_117</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560117"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_118">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_118</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560118"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_119">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_119</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560119"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_120">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_120</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560120"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_121">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_121</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560121"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_122">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_122</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560122"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_123">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_123</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560123"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_124">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_124</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560124"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_125">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_125</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560125"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_126">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_126</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560126"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_127">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_127</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560127"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_128">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_128</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560128"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_129">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_129</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560129"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_130">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_130</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560130"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_131">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_131</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560131"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_132">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_132</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560132"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_133">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_133</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560133"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_134">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_134</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560134"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_135">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_135</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560135"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_136">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_136</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560136"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_137">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_137</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560137"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_138">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_138</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560138"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_139">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_139</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560139"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_140">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_140</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560140"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_141">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_141</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560141"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_142">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_142</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560142"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_143">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_143</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560143"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_144">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_144</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560144"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_145">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_145</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560145"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_146">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_146</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560146"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_147">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_147</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560147"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_148">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_148</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560148"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_149">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_149</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560149"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_150">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_150</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560150"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_151">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_151</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560151"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_152">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_152</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560152"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_153">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_153</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560153"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_154">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_154</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560154"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_155">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_155</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560155"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_156">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_156</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560156"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_157">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_157</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560157"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_158">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_158</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560158"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_159">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_159</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560159"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_160">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_160</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560160"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_161">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_161</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560161"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_162">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_162</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560162"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_163">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_163</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560163"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_164">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_164</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560164"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_165">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_165</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560165"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_166">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_166</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560166"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_167">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_167</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560167"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_168">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_168</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560168"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_169">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_169</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560169"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_170">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_170</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560170"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_171">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_171</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560171"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_172">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_172</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560172"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_173">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_173</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560173"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_174">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_174</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560174"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_175">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_175</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560175"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_176">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_176</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560176"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_177">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_177</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560177"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_178">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_178</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560178"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_179">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_179</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560179"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_180">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_180</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560180"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_181">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_181</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560181"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_182">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_182</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560182"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_183">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_183</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560183"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_184">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_184</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560184"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_185">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_185</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560185"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_186">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_186</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560186"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_187">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_187</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560187"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_188">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_188</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560188"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_189">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_189</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560189"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_190">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_190</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560190"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_191">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_191</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560191"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_192">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_192</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560192"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_193">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_193</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560193"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_194">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_194</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560194"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_195">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_195</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560195"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_196">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_196</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560196"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_197">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_197</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560197"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_198">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_198</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560198"
+            />
+        </Locatie>
+    </featureMember>
+    <featureMember>
+        <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+            gml:id="reserveringsgebieden_uitbreiding_hoofdwegen_199">
+            <wId>reserveringsgebieden_uitbreiding_hoofdwegen_199</wId>
+            <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="reserveringsgebieden_uitbreiding_hoofdwegen.gml#b2b15775-5471-447e-9723-5e7b4560199"
+            />
+        </Locatie>
+    </featureMember>
+</GeoInformatie>
+
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>
