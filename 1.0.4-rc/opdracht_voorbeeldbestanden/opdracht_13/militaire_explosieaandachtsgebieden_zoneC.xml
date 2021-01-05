@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_militaire_explosieaandachtsgebieden_zoneC</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_militaire_explosieaandachtsgebieden_zoneC/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>militaire_explosieaandachtsgebieden_zoneC</noemer>
+            <officieleTitel>militaire_explosieaandachtsgebieden_zoneC</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>militaire_explosieaandachtsgebieden_zoneC.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>b060102905bb779c9cc6879674230b32bf968c46d15ae96ed04671b5e7111de9505e06920eb1d9eb74c37742f30b5b4e5f417dac5b10dd9cba69722e9e6489e4</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_1">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5601"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_2">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_2</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5602"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_3">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_3</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5603"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_4">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_4</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5604"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_5">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_5</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5605"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_6">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_6</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5606"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_7">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_7</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5607"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_8">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_8</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5608"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_9">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_9</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5609"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_10">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_10</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5610"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_11">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_11</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5611"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_12">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_12</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5612"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_13">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_13</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5613"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_14">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_14</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5614"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_15">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_15</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5615"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_16">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_16</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5616"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_17">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_17</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5617"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_18">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_18</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5618"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_19">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_19</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5619"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_20">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_20</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5620"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_21">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_21</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5621"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_22">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_22</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5622"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_23">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_23</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5623"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_24">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_24</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5624"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_25">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_25</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5625"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_26">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_26</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5626"
+                    />
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="militaire_explosieaandachtsgebieden_zoneC_27">
+                    <wId>militaire_explosieaandachtsgebieden_zoneC_27</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="militaire_explosieaandachtsgebieden_zoneC.gml#cdb14575-b471-b47e-b723-5e7badc5627"
+                    />
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

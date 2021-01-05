@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_werelderfgoed_Stelling_van_Amsterdam</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_werelderfgoed_Stelling_van_Amsterdam/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>werelderfgoed_Stelling_van_Amsterdam</noemer>
+            <officieleTitel>werelderfgoed_Stelling_van_Amsterdam</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>werelderfgoed_Stelling_van_Amsterdam.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>d6d34b3af788599c6942f03f83739d7550a2a299deb332bebbb0b905b56deefecee480f2d42f1b03abf820b4f1a21b2f394a14a3d54b3c0f4e766a29bfdf1df5</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="werelderfgoed_Stelling_van_Amsterdam_1">
+                    <wId>werelderfgoed_Stelling_van_Amsterdam_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="werelderfgoed_Stelling_van_Amsterdam.gml#73b15775-5471-447e-9723-5e7b3770001"
+                    />
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_waterkwantiteit</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_waterkwantiteit/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>waterkwantiteit</noemer>
+            <officieleTitel>waterkwantiteit</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>waterkwantiteit.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>2fe8e487c961c08dedcd376a304d9b34684c5c4b8be64768440dc7ccb260bbeb79293d2174427b20c1596a39aff47fce153c2a51b6fe52cc36a31846d9da9a49</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_1">
+                    <wId>waterkwantiteit_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b301"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_2">
+                    <wId>waterkwantiteit_2</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b302"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_3">
+                    <wId>waterkwantiteit_3</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b303"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_4">
+                    <wId>waterkwantiteit_4</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b304"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_5">
+                    <wId>waterkwantiteit_5</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b305"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_6">
+                    <wId>waterkwantiteit_6</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b306"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_7">
+                    <wId>waterkwantiteit_7</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b307"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_8">
+                    <wId>waterkwantiteit_8</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b308"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_9">
+                    <wId>waterkwantiteit_9</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b309"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_10">
+                    <wId>waterkwantiteit_10</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b310"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_11">
+                    <wId>waterkwantiteit_11</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b311"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_12">
+                    <wId>waterkwantiteit_12</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b312"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_13">
+                    <wId>waterkwantiteit_13</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b313"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_14">
+                    <wId>waterkwantiteit_14</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b314"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_15">
+                    <wId>waterkwantiteit_15</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b315"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_16">
+                    <wId>waterkwantiteit_16</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b316"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_17">
+                    <wId>waterkwantiteit_17</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b317"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_18">
+                    <wId>waterkwantiteit_18</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b318"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_19">
+                    <wId>waterkwantiteit_19</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b319"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_20">
+                    <wId>waterkwantiteit_20</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b320"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_21">
+                    <wId>waterkwantiteit_21</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b321"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_22">
+                    <wId>waterkwantiteit_22</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b322"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_23">
+                    <wId>waterkwantiteit_23</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b323"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_24">
+                    <wId>waterkwantiteit_24</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b324"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_25">
+                    <wId>waterkwantiteit_25</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b325"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_26">
+                    <wId>waterkwantiteit_26</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b326"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_27">
+                    <wId>waterkwantiteit_27</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b327"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_28">
+                    <wId>waterkwantiteit_28</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b328"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_29">
+                    <wId>waterkwantiteit_29</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b329"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_30">
+                    <wId>waterkwantiteit_30</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b330"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_31">
+                    <wId>waterkwantiteit_31</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b331"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_32">
+                    <wId>waterkwantiteit_32</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b332"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_33">
+                    <wId>waterkwantiteit_33</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b333"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_34">
+                    <wId>waterkwantiteit_34</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b334"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_35">
+                    <wId>waterkwantiteit_35</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b335"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_36">
+                    <wId>waterkwantiteit_36</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b336"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_37">
+                    <wId>waterkwantiteit_37</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b337"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_38">
+                    <wId>waterkwantiteit_38</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b338"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="waterkwantiteit_39">
+                    <wId>waterkwantiteit_39</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="waterkwantiteit.gml#23b15775-5471-447e-9723-5e7b782b339"/>
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

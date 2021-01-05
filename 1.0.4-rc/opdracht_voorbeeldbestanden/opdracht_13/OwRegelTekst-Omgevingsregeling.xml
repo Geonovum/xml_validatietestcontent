@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xmlns:p="http://www.geostandaarden.nl/imow/pons"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Omgevingsregeling_201912011101001</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>[onbekend]</sl:gebied>
+         <sl:leveringsId>201912011101</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Regeltekst</sl:objectType>
+            <sl:objectType>RegelVoorIedereen</sl:objectType>
+            <!-- OZON0013 Het type van het owObject moet voorkomen in de lijst objectTypen in de inhoud. -->
+            <sl:objectType>Gebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <!-- TPOD2060 Indien het Artikel is onderverdeeld in Leden, dan dient er geannoteerd te worden op het Lid (en mag er niet geannoteerd worden op het Artikel). -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.20191201110100099</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- TPOD2000 het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.2__para_1BESTAAT_NIET">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101000</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0102 Een Regeltekst moet verwijzen naar één of meer Juridische Regels. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.2__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101000</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.02.1	Geometrische begrenzing van oppervlaktewaterlichamen beheer van de waterkwaliteit -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.2__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101001</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0038 Als een RegelVoorIedereen verwijst naar een Activiteit, dan moet deze bestaan. -->
+      <!-- OZON0070 Het veld RegelVoorIedereen.activiteitregelkwalificatie moet een waarde bevatten uit de waardelijst ActiviteitRegelkwalificatie. -->
+      <!-- OZON0077 Het veld RegelVoorIedereen.idealisatie moet een waarde bevatten uit de waardelijst Idealisatie. -->
+      <!-- OZON0104 Een eerste aanlevering van een OW-object mag niet de status beëindigd hebben. -->
+      <!-- OZON0121 Iedere ActiviteitLocatieaanduiding moet verwijzen naar een of meerdere Locaties die bestaan. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <ow:status>B</ow:status>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000001</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/NietInWaardelijst</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101001"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101001"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="aap_noot_mies"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-mnre1034.activiteit.1234567</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Een hele andere waarde dan gevraagd</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101001_bestaatniet"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0098 (TPOD1850) Een Regeltekst die verwijst naar een RegelVoorIedereen, mag niet naar een Instructieregel of Omgevingswaarderegel verwijzen. -->
+      <!-- TPOD1850 Alle Juridische regels binnen één Artikel moeten van hetzelfde type zijn, respectievelijk; Regel voor iedereen, Instructieregel of Omgevingswaarderegel. -->
+      <!-- TPOD2080 Binnen een instructieregel dient er gekozen te worden tussen InstructieregelInstrument of InstructieregelTaakuitoefening (één van de twee moet voorkomen, niet meer, niet minder). -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Instructieregel>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.20190000011</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101001"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.2019120111010001"/>
+               </r:locatieaanduiding>
+               <r:instructieregelInstrument>http://standaarden.omgevingswet.overheid.nl/instructieregelinstrument/id/concept/BesluitTotAanwijzingNatuurgebied_InstructieregelInstrument</r:instructieregelInstrument>
+               <r:instructieregelTaakuitoefening>http://standaarden.omgevingswet.overheid.nl/adressaat/id/concept/Gemeentebestuur</r:instructieregelTaakuitoefening>
+            </r:Instructieregel>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0033 Iedere RegelVoorIedereen verwijst naar een Regeltekst die bestaat. -->
+      <!-- OZON0039 (TPOD1760) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten -->
+      <!-- OZON0040 Als een RegelVoorIedereen verwijst naar een Gebiedsaanwijzing, dan moet deze bestaan. -->
+      <!-- TPOD1750 Een activiteit moet een gebied of gebiedengroep zijn (en mag dus geen punt, puntengroep, lijn of lijnengroep zijn). -->
+      <!-- TPOD1860 Iedere verwijzing naar een ander OwObject moet een bestaand (ander) OwObject zijn. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.20190000010001</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.2019120111010010001"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101001"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900002"/>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900003"/>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900004"/>
+               </r:gebiedsaanwijzing>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.2019000242"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-mnre1034.activiteit.1234567</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-mnre1034.lijnengroep.20191201110100001"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- TPOD1870 Een verwijzing naar ArtikelOfLid moet verwijzen naar een bestaand artikel of lid. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.201900000100010</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.BESTAAT_NIET"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101001"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0035 Iedere Instructieregel verwijst naar een Regeltekst die bestaat. -->
+      <!-- OZON0041 Als een Instructieregel verwijst naar een Gebiedsaanwijzing, dan moet deze bestaan. -->
+      <!-- OZON0043 Als een Instructieregel verwijst naar een Omgevingsnorm, dan moet deze bestaan. -->
+      <!-- OZON0046 Iedere InstructieRegel moet verwijzen naar een of meerdere Locaties die bestaan. -->
+      <!-- OZON0071 Het veld Instructieregel.instructieregelTaakuitoefening moet een waarde bevatten uit de waardelijst Adressaat. -->
+      <!-- OZON0078 Het veld Instructieregel.idealisatie moet een waarde bevatten uit de waardelijst Idealisatie. -->
+      <!-- OZON0109 OW-informatie waar naar verwezen wordt vanuit andere OW-informatie moet bestaan. -->
+      <!-- OZON0117 Het veld Instructieregel.thema moet een waarde bevatten uit de waardelijst Thema. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Instructieregel>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.201900100100021</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/NietInWaardelijst</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0037.regeltekst.2019000010002"/>
+               </r:artikelOfLid>
+               <r:thema>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/NietInWaardelijst</r:thema>
+               <r:locatieaanduiding>
+                  <l:GebiedRef xlink:href="nl.imow-gm0037.gebied.201900001_bestaat_niet"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
+               </r:gebiedsaanwijzing>
+               <r:instructieregelTaakuitoefening>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Geen geldige waarde</r:instructieregelTaakuitoefening>
+               <r:omgevingsnormaanduiding>
+                  <rol:OmgevingsnormRef xlink:href="nl.imow-gm0037.omgevingsnorm.201900001"/>
+               </r:omgevingsnormaanduiding>
+            </r:Instructieregel>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0072 Het veld Instructieregel.instructieregelInstrument moet een waarde bevatten uit de waardelijst InstructieregelInstrument. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Instructieregel>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.201900100100022</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0037.regeltekst.2019000010002"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:GebiedRef xlink:href="nl.imow-gm0037.gebied.201900001_bestaat_niet"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
+               </r:gebiedsaanwijzing>
+               <r:instructieregelInstrument>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Ongeldige waarde</r:instructieregelInstrument>					
+               <r:omgevingsnormaanduiding>
+                  <rol:OmgevingsnormRef xlink:href="nl.imow-gm0037.omgevingsnorm.201900001"/>
+               </r:omgevingsnormaanduiding>
+            </r:Instructieregel>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0037 Iedere Omgevingswaarderegel verwijst naar een Regeltekst die bestaat. -->
+      <!-- OZON0044 Als een Omgevingswaarderegel verwijst naar een Omgevingswaarde, dan moet deze bestaan. -->
+      <!-- OZON0047 Iedere OmgevingswaardeRegel moet verwijzen naar een of meerdere Locaties die bestaan. -->
+      <!-- OZON0079 Het veld Omgevingswaarderegel.idealisatie moet een waarde bevatten uit de waardelijst Idealisatie. -->
+      <!-- OZON0118 Het veld Omgevingswaarderegel.thema moet een waarde bevatten uit de waardelijst Thema. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Omgevingswaarderegel>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.20190010010003</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/NietInWaardelijst</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0037.regeltekst.2019000010003"/>
+               </r:artikelOfLid>
+               <r:thema>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/NietInWaardelijst</r:thema>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101001_bestaat_niet"/>
+               </r:locatieaanduiding>
+               <r:omgevingswaardeaanduiding>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingswaarde.201912011101001"/>
+               </r:omgevingswaardeaanduiding>
+            </r:Omgevingswaarderegel>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.02.2	Geometrische begrenzing van oppervlaktewaterlichamen beheer van de waterkwantiteit-->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.2__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101002</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0042 Als een RegelVoorIedereen verwijst naar een Omgevingsnorm, dan moet deze bestaan. -->
+      <!-- OZON0119 Het veld RegelVoorIedereen.thema moet een waarde bevatten uit de waardelijst Thema. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000002</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101002"/>
+               </r:artikelOfLid>
+               <r:thema>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/NietInWaardelijst</r:thema>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101002"/>
+               </r:locatieaanduiding>
+               <r:omgevingsnormaanduiding>
+                  <rol:OmgevingsnormRef xlink:href="nl.imow-gm0037.omgevingsnorm.2019000011"/>
+               </r:omgevingsnormaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.02.3	Geometrische begrenzing van oppervlaktewaterlichamen waterstaatkundig beheer -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.2__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101003</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- OZON0045 Iedere RegelVoorIedereen moet verwijzen naar een of meerdere Locaties die bestaan. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000003</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101003"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101003_bestaat_niet"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.03.1	Aanwijzing en geometrische begrenzing waterstaatkundig beheer rijkswateren niet tot het Rijk behorende openbare lichamen -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.1__art_2.3__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101004</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000004</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101004"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101004"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.07	Geometrische begrenzing kustfundament -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.4__art_2.7">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101005</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000005</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101005"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101005"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.08.1	Geometrische begrenzing rivierbed grote rivieren -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.5__art_2.8__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101006</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000006</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101006"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101006"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.08.2	Geometrische begrenzing stroomvoerend deel rivierbed grote rivieren -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.5__art_2.8__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101007</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000007</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101007"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101007"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.08.3	Geometrische begrenzing bergend deel rivierbed grote rivieren -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.5__art_2.8__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101008</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000008</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101008"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101008"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.09.1	Geometrische begrenzing reserveringsgebieden voor de lange termijn Rijntakken -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.5__art_2.9__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101009</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000009</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101009"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101009"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.09.2	Geometrische begrenzing reserveringsgebieden voor de lange termijn Maas -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.5__art_2.9__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101010</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000010</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101010"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101010"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.10	Geometrische begrenzing IJsselmeergebied -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.6__art_2.10">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101011</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000011</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101011"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101011"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Omgevingswaarderegel>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000011</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101011"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101011"/>
+               </r:locatieaanduiding>
+               <r:omgevingswaardeaanduiding>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingsnorm.201900001"/>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingsnorm.201900002"/>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingswaarde.201900003"/>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingsnorm.201900004"/>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingsnorm.201900005"/>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingsnorm.201900006"/>
+                  <rol:OmgevingswaardeRef xlink:href="nl.imow-mnre1034.omgevingsnorm.201900007"/>
+               </r:omgevingswaardeaanduiding>
+            </r:Omgevingswaarderegel>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.12	Geometrische begrenzing vrijwaringsgebied van een rijkswater dat een vaarweg is -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.8__art_2.12">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101012</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000012</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101012"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101012"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.21	Aanwijzing en geometrische begrenzing van het zeewaartse gebied vanaf de doorgaande NAP-min 20 meterdieptelijn -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.2__subsec_2.2.10__art_2.21">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101013</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000013</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101013"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101013"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.26.1	Geometrische begrenzing civiele explosieaandachtsgebieden A -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.1__art_2.26__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101014</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000014</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101014"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101014"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.26.2	Geometrische begrenzing civiele explosieaandachtsgebieden B -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.1__art_2.26__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101015</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000015</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101015"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101015"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.26.3	Geometrische begrenzing civiele explosieaandachtsgebieden C -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.1__art_2.26__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101016</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000016</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101016"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101016"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.27.1	Geometrische begrenzing militaire explosieaandachtsgebieden A -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.1__art_2.27__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101017</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000017</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101017"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101017"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.27.2	Geometrische begrenzing militaire explosieaandachtsgebieden B -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.1__art_2.27__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101018</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000018</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101018"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101018"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.27.3	Geometrische begrenzing militaire explosieaandachtsgebieden C -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.1__art_2.27__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101019</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000019</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101019"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101019"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.28.1	Aanwijzing en geometrische begrenzing reserveringsgebieden voor de uitbreiding van een autoweg of autosnelweg -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.2__art_2.28__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101020</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000020</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101020"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101020"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.28.2	Aanwijzing en geometrische begrenzing reserveringsgebieden voor de aanleg van een autoweg of autosnelweg -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.2__art_2.28__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101021</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000021</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101021"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101021"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.28.3	Aanwijzing en geometrische begrenzing reserveringsgebieden voor de aanleg van een hoofdspoorweg -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.2__art_2.28__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101022</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000022</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101022"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101022"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.32.1	Aanwijzing en geometrische begrenzing reserveringsgebieden buisleidingen van nationaal belang -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.6__art_2.32__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101023</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000023</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101023"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101023"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.32.2	Aanwijzing en geometrische begrenzing zoekgebieden buisleidingen van nationaal belang -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.6__art_2.32__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101024</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000024</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101024"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101024"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.33.1	Geometrische begrenzing aanleggebieden Maasvlakte 2 -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.7__art_2.33__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101025</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000025</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101025"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101025"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.33.2	Geometrische begrenzing aanleggebied compensatie van open droog duin en natte duinvallei -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.7__art_2.33__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101026</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000026</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101026"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101026"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.33.3	Geometrische begrenzing aanleggebied compensatie van zeenatuur -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.7__art_2.33__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101027</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000027</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101027"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101027"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.34.1	Geometrische begrenzing openbaar toegankelijk natuur- en recreatiegebied Midden-Ijsselmonde -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.7__art_2.34__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101028</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000028</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101028"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101028"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.34.2	Geometrische begrenzing openbaar toegankelijk natuur- en recreatiegebied Schiebroekse en Zuidpolder -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.7__art_2.34__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101029</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000029</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101029"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101029"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.34.3	Geometrische begrenzing openbaar toegankelijk natuur- en recreatiegebied Schiezone -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.7__art_2.34__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101030</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000030</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101030"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101030"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.35	Geometrische begrenzing reserveringsgebied parallelle Kaagbaan -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.8__art_2.35">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101031</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000031</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101031"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101031"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.36.1	Geometrische begrenzing locaties voor grootschalige elektriciteitsopwekking -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.9__art_2.36__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101032</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000032</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101032"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101032"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.36.2	Geometrische begrenzing locaties voor een kernenergiecentrale -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.9__art_2.36__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101033</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000033</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101033"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101033"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.36.3	Geometrische begrenzing locaties voor het gebied binnen een straal van één km rondom een kernenergiecentrale -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.9__art_2.36__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101034</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000034</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101034"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101034"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.36.4	Geometrische begrenzing locaties voor een hoogspanningsverbinding met een spanning van ten minste 220 kV -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.3__subsec_2.3.9__art_2.36__para_4">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101035</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000035</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101035"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101035"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.1	Geometrische begrenzing militaire terreinen en terreinen met een militair object -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.6__art_2.41__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101036</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000036</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101036"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101036"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.2	Geometrische begrenzing van de onveilige gebieden bij militaire schietbanen -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.6__art_2.41__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101037</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000037</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101037"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101037"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.3	Geometrische begrenzing van de gebieden waar bouwwerken een militaire zend- en ontvangstinstallatie kunnen verstoren -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.6__art_2.41__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101038</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000038</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101038"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101038"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.4	Geometrische begrenzing van gebieden waar zich een militaire laagvliegroute bevindt -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.6__art_2.41__para_4">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101039</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000039</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101039"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101039"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.5	Geometrische begrenzing van gebieden waar bouwwerken het radarbeeld kunnen verstoren -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.6__art_2.41__para_5">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101040</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000040</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101040"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101040"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6 -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.6__art_2.41__para_6">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101041</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Kamp Aocs BW Milligen -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000041</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101041"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Mass-Radarcomplex Soesterberg -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000042</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101042"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Mass-Radarcomplex Twente -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000043</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101043"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Radarpost Noord te Wier -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000044</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101044"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Radarstation Herwijnen -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000045</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101045"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Vliegbasis Leeuwarden -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000046</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101046"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Vliegbasis Volkel -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000047</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101047"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.41.6	Geometrische begrenzing van gebieden waar windturbines het radarbeeld kunnen verstoren Vliegbasis Woensdrecht -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000048</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101041"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101048"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.42.1	Geometrische begrenzing van Droogmakerij de Beemster -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.7__art_2.42__para_1">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101042</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000049</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101042"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101049"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.42.2	Geometrische begrenzing van Stelling van Amsterdam -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.7__art_2.42__para_2">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101043</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000050</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101043"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101050"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.42.3	Geometrische begrenzing van Nieuwe Hollandse Waterlinie -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.7__art_2.42__para_3">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101044</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000051</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101044"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101051"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- 2.42.4	Geometrische begrenzing van Romeinse Limes -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:Regeltekst wId="mnre1034_1-0__chp_2__subchp_2.7__art_2.42__para_4">
+               <r:identificatie>nl.imow-mnre1034.regeltekst.201912011101045</r:identificatie>
+            </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-mnre1034.juridischeregel.2019000052</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Indicatief</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-mnre1034.regeltekst.201912011101045"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-mnre1034.gebiedengroep.201912011101052"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>

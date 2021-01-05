@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ow-dc:owBestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:l="http://www.geostandaarden.nl/imow/locatie" 
+	xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" 
+	xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" 
+	xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" 
+	xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" 
+	xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" 
+	xmlns:r="http://www.geostandaarden.nl/imow/regels" 
+	xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+	xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+	<sl:standBestand>
+		<sl:dataset>Omgevingsregeling_201912011101001</sl:dataset>
+		<sl:inhoud>
+			<sl:gebied>[onbekend]</sl:gebied>
+			<sl:leveringsId>201912011101</sl:leveringsId>
+			<sl:objectTypen>
+				<sl:objectType>Activiteit</sl:objectType>
+			</sl:objectTypen>
+		</sl:inhoud>
+		<!-- OZON0017 Er moet een RegelVoorIedereen zijn die verwijst naar de Activiteit. -->
+		<!-- OZON0073 Het veld Activiteiten.groep moet een waarde bevatten uit de waardelijst Activiteitengroep. -->
+		<!-- OZON0082 (TPOD1730/TPOD1740) Iedere Activiteit moet verwijzen naar een bovenliggende activiteit die bestaat in de levering of in Ozon. -->
+		<!-- OZON0084 (TPOD1730/TPOD1740) Als een Activiteit gerelateerde Activiteiten heeft, dan moeten deze bestaan in de levering of in Ozon. -->
+		<!-- TPOD1730 Gerelateerde activiteiten moeten bestaan indien er naar verwezen wordt.-->
+		<!-- TPOD1740 Bovenliggende activiteiten moeten bestaan indien er naar verwezen wordt. -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.2019000241</rol:identificatie>
+					<!-- Deze activiteit is voor de 1e keer ontstaan/gecreeerd in artikel 2.4 nl.imow-gm0297.Regeltekst.2019000002 --> 
+					<rol:naam>uitoefenen van bedrijfstypen van categorie 2</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/NietInWaardelijst</rol:groep>
+					<rol:gerelateerdeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.DezebstaatNiet"/>
+					</rol:gerelateerdeActiviteit>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.DitisnietBovenliggend"/>
+						<!-- Deze activiteit is van het rijk en zit daarom niet in dit bestand maar is opgenomen in de Functionele Structuur (versie 9) --> 
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- OZON0083 (TPOD1700/TPOD1710) Een Activiteit mag niet zichzelf als bovenliggende Activiteit hebben. Ook niet via andere bovenliggende activiteiten. -->
+		<!-- OZON0085 (TPOD1700/TPOD1710) Een Activiteit mag niet gerelateerd zijn aan zichzelf. -->
+		<!-- RTRG0022 Een activiteit van het Rijk mag niet verwijzen naar een bovenliggende activiteit van een gemeente -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.2019000242</rol:identificatie>
+					<!-- Deze activiteit is voor de 1e keer ontstaan/gecreeerd in artikel 2.4 nl.imow-gm0297.Regeltekst.2019000002 --> 
+					<rol:naam>uitoefenen van bedrijfstypen van categorie 2</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/NietInWaardelijst</rol:groep>
+					<rol:gerelateerdeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000242"/>
+					</rol:gerelateerdeActiviteit>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000242"/>
+						<!-- Deze activiteit is van het rijk en zit daarom niet in dit bestand maar is opgenomen in de Functionele Structuur (versie 9) --> 
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- RTRG0023 Een activiteit van het Rijk mag niet verwijzen naar een bovenliggende activiteit van een waterschap -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.2019000243</rol:identificatie>
+					<!-- Deze activiteit is voor de 1e keer ontstaan/gecreeerd in artikel 2.4 nl.imow-gm0297.Regeltekst.2019000002 --> 
+					<rol:naam>uitoefenen van bedrijfstypen van categorie 2</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/NietInWaardelijst</rol:groep>
+					<rol:gerelateerdeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-ws0665.activiteit.2019000242"/>
+					</rol:gerelateerdeActiviteit>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-ws0665.activiteit.2019000242"/>
+						<!-- Deze activiteit is van het rijk en zit daarom niet in dit bestand maar is opgenomen in de Functionele Structuur (versie 9) --> 
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- TPOD1700 Voor elke hiërarchie van nieuwe activiteiten geldt dat de hoogste activiteit in de hiërarchie een bovenliggende activiteit moet hebben die reeds bestaat in de functionele structuur. -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.2019000244</rol:identificatie>
+					<!-- Deze activiteit is voor de 1e keer ontstaan/gecreeerd in artikel 2.4 nl.imow-gm0297.Regeltekst.2019000002 --> 
+					<rol:naam>uitoefenen van bedrijfstypen van categorie 2</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/NietInWaardelijst</rol:groep>
+					<rol:gerelateerdeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-ws0665.activiteit.2019000242"/>
+					</rol:gerelateerdeActiviteit>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.NietInFunctioneleStructuur"/>
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- TPOD1700 Een bovenliggende activiteit mag niet naar een activiteit verwijzen die lager in de hiërarchie ligt. -->
+		<!-- CirkelActiviteit -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.20190002453CIRKEL</rol:identificatie>
+					<rol:naam>exploiteren van een verkooppunt voor motorbrandstoffen niet zijnde lpg</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitDetailhandel</rol:groep>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.20190002451CIRKEL"/>
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- CirkelActiviteit -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.20190002451CIRKEL</rol:identificatie>
+					<rol:naam>exploiteren van een verkooppunt voor motorbrandstoffen niet zijnde lpg</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitDetailhandel</rol:groep>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.20190002452CIRKEL"/>
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- CirkelActiviteit -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-mnre1034.activiteit.20190002452CIRKEL</rol:identificatie>
+					<rol:naam>exploiteren van een verkooppunt voor motorbrandstoffen niet zijnde lpg</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitDetailhandel</rol:groep>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.20190002453CIRKEL"/>
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
+			</ow-dc:owObject>
+		</sl:stand>
+	</sl:standBestand>
+</ow-dc:owBestand>

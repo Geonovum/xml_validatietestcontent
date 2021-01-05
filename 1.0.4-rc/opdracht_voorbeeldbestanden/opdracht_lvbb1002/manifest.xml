@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lvbb:manifest xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <!-- FOUT: LVBB1002 opdracht.xml aanwezig in zip? -->
+   <!-- OP-bestanden -->
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>manifest.xml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/xml</lvbb:contentType>
+   </lvbb:bestand>
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>GIO0001.xml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/xml</lvbb:contentType>
+   </lvbb:bestand>
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>Villawijk_de_Parkel.gml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/gml+xml</lvbb:contentType>
+   </lvbb:bestand>
+   <!-- OW-bestanden -->
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>manifest-ow.xml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/xml</lvbb:contentType>
+   </lvbb:bestand>
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>owDivisieTekstdeel.xml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/xml</lvbb:contentType>
+   </lvbb:bestand>
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>owLocatie.xml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/xml</lvbb:contentType>
+   </lvbb:bestand>
+</lvbb:manifest>

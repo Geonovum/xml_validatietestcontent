@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Woensdrecht</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Woensdrecht/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>defensie_radarverstoringsgebied_windturbines_Woensdrecht</noemer>
+            <officieleTitel>defensie_radarverstoringsgebied_windturbines_Woensdrecht</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>defensie_radarverstoringsgebied_windturbines_Woensdrecht.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>9fb67f3ec5186190a808029c61eab445da05a2c69fb0f00841da3bf425ddcbb531712b8d467927e1821bc4b7042f62ae06975302a4d13bb3916758864d2e6ac9</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
+                    gml:id="defensie_radarverstoringsgebied_windturbines_Woensdrecht_1">
+                    <wId>defensie_radarverstoringsgebied_windturbines_Woensdrecht_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="defensie_radarverstoringsgebied_windturbines_Woensdrecht.gml#f6bdba68-fac7-42f3-9f45-b122d4a640ad"
+                    />
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

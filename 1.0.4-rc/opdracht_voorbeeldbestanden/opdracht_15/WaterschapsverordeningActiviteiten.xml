@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xmlns:p="http://www.geostandaarden.nl/imow/pons"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Waterschapsverordening Limburg, Proef 1</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Limburg</sl:gebied>
+         <sl:leveringsId>abc-2019830-1</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Activiteit</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <!-- RTRG0001 (OZON0082) Een activiteit moet altijd een verwijzing naar een bestaande bovenliggende activiteit hebben (behalve dan de topactiviteit, activiteit met gevolgen voor de fysieke leefomgeving) -->
+      <!-- RTRG0005 (OZON0015) Een activiteit moet altijd een naam hebben -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.OOWAWV1Aansluiting</rol:identificatie>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>-->
+      <!-- OZON0215 (RTRG0015) Als een activiteit van een waterschap verwijst naar een bovenliggende activiteit ook van een waterschap dan moet dit hetzelfde waterschap zijn -->
+      <!-- RTRG0011 (OZON0084) Wanneer een activiteit verwijst naar een juridisch gerelateerde activiteit, dan moet die activiteit bestaan -->
+      <!-- RTGR0015 Als een activiteit van een waterschap verwijst naar een bovenliggende activiteit ook van een waterschap dan moet dit hetzelfde waterschap zijn -->
+      <!-- RTRG0018 Als een activiteit van een waterschap verwijst naar een bovenliggende activiteit niet van een waterschap, dan moet deze verwijzen naar de activiteit: 'activiteit in waterschapsverordening' -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.0</rol:identificatie>
+               <rol:naam>beperkingengebiedactiviteit waterstaatswerk</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Wateronttrekkingsactiviteit</rol:groep>
+               <rol:gerelateerdeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-wsAnderWaterschap.activiteit.BestaatNiet"/>
+               </rol:gerelateerdeActiviteit>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-wsAnderWaterschap.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- RTRG0007 (OZON0014) Een activiteit moet altijd een imow-id hebben -->
+      <!-- RTRG0021 Maximaal één activiteit van een waterschap mag verwijzen naar een bovenliggende activiteit niet van een waterschap -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:naam>beperkingengebiedactiviteit waterstaatswerk</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Wateronttrekkingsactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-wsAnderWaterschap.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- RTRG0008 Een activiteit moet altijd een OIN van het regelgevend bestuursorgaan bevatten -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow.activiteit.0</rol:identificatie>
+               <rol:naam>beperkingengebiedactiviteit waterstaatswerk</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Wateronttrekkingsactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-wsAnderWaterschap.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.3</rol:identificatie>
+               <rol:naam>wateronttrekingsactiviteit oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Wateronttrekkingsactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.4</rol:identificatie>
+               <rol:naam>Lozen in een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Lozingsactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.5</rol:identificatie>
+               <rol:naam>Onttrekken uit een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Wateronttrekkingsactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- activiteit.6 -->
+      <!-- Duikers en overkluizingen in een oppervlaktewater -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.6</rol:identificatie>
+               <rol:naam>Duikers en overkluizingen in een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.7</rol:identificatie>
+               <rol:naam>Bruggen in of over een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.8</rol:identificatie>
+               <rol:naam>Bouwwerken langs een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.9</rol:identificatie>
+               <rol:naam>Kabels en leidingen in, onder of langs een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.10</rol:identificatie>
+               <rol:naam>Recreatief medegebruik in of nabij een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.11</rol:identificatie>
+               <rol:naam>Beplanting langs een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.12</rol:identificatie>
+               <rol:naam>Kleine bouwwerken langs een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.13</rol:identificatie>
+               <rol:naam>Afrasteringen, hekwerken en schuttingen langs een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.14</rol:identificatie>
+               <rol:naam>Lozen van hemelwater afkomstig van een verhard oppervlak in een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Lozingsactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.15</rol:identificatie>
+               <rol:naam>Realisering projecten bij een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.16</rol:identificatie>
+               <rol:naam>Evenement in of bij een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.17</rol:identificatie>
+               <rol:naam>Uitvoeren van werken en werkzaamheden binnen een lijnvormig element</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.18</rol:identificatie>
+               <rol:naam>Stuwen en andere peilregulerende werken in een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.19</rol:identificatie>
+               <rol:naam>Woonboten in een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.20</rol:identificatie>
+               <rol:naam>Verleggen of aanpassen van een oppervlaktewater</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.21</rol:identificatie>
+               <rol:naam>Bouwwerken</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-ws0665.activiteit.22</rol:identificatie>
+               <rol:naam>Verwijderen van een bouwwerk</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-ws0659.activiteit.ActInWaterschapsvNaamWs"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>

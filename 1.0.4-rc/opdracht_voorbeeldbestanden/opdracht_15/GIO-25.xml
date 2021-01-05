@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.0.4"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/ws0665/2019/nl_imow-ws0665_gebied_gml25</FRBRWork>
+         <FRBRExpression>/join/id/regdata/ws0665/2019/nl_imow-ws0665_gebied_gml25/nld@2019-01-04</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/ws0665/2019/wvl-20190906-1643</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>WaterschapsverordeningLocaties25_nieuw.gml</bestandsnaam>
+                  <hash>31f9eb8973365be23e808874565fe224785f23a3462548efd9b60d64dd7c2f129316e5d7980a71406f95c3ed50ecdaae85cbca793cad593b2e1065b0ff15f76e</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/waterschap/ws0665</eindverantwoordelijke>
+         <maker>/tooi/id/waterschap/ws0665</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>kernzone primair water + een buffer van 2 meter eromheen</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/ws0665/2019/nl_imow-ws0665_gebied_gml25</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>kernzone primair water + een buffer van 2 meter eromheen</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

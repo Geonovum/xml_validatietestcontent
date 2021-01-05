@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.0.4"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/ws0665/2019/nl_imow-ws0665_gebied_gml27</FRBRWork>
+         <FRBRExpression>/join/id/regdata/ws0665/2019/nl_imow-ws0665_gebied_gml27/nld@2019-01-04</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/ws0665/2019/wvl-20190906-1643</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>WaterschapsverordeningLocaties27_nieuw.gml</bestandsnaam>
+                  <hash>cef4b20c457ec1f7c1d7488fb38281cc3687fcbd5c3ba5204b71deae93fd169bc846a57ce5f0a1ec0149b925f331daec5f601b70d802dfe09c49a78e00bffc9a</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/waterschap/ws0665</eindverantwoordelijke>
+         <maker>/tooi/id/waterschap/ws0665</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>kernzone van het oppervlaktewater + een buffer van 0,5 m eromheen</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/ws0665/2019/nl_imow-ws0665_gebied_gml27</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>kernzone van het oppervlaktewater + een buffer van 0,5 m eromheen</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

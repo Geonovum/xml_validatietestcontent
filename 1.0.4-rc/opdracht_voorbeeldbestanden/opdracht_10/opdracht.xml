@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<publicatieOpdracht 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.overheid.nl/2017/lvbb"
+   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
+   <idLevering>VBG0001-001</idLevering>
+   <idBevoegdGezag>00000001807288111000</idBevoegdGezag>
+   <idAanleveraar>00000001807288111000</idAanleveraar>
+   <publicatie>VBG0001.xml</publicatie>
+   <datumBekendmaking>2021-01-01</datumBekendmaking>
+</publicatieOpdracht>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_kustfundament</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_kustfundament/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>kustfundament</noemer>
+            <officieleTitel>kustfundament</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>kustfundament.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>f2f9f50918822414381244989d98a6a82da0d39dbf2aa9a3f2c845d3f6f52c9be538877498f292c70c7c193db6a7c329883bb56dec10db1a5332dabf3154dbdd</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="kustfundament_1">
+                    <wId>kustfundament_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="kustfundament.gml#d0b15775-5471-447e-9723-5e7b3703bc23"/>
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>

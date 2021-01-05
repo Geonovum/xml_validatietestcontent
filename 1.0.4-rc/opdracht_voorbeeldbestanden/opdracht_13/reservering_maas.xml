@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringGIO 
+    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
+    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
+    xmlns:gml="http://www.opengis.net/gml/3.2">
+    <InformatieObjectVersie>
+        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reservering_maas</FRBRWork>
+            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reservering_maas/nld@2019-12-01</FRBRExpression>
+            <soortWork>/join/id/stop/work_007</soortWork>
+        </ExpressionIdentificatie>
+        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+            <maker>/join/id/stop/ministerie/mnre1034</maker>
+            <noemer>reservering_maas</noemer>
+            <officieleTitel>reservering_maas</officieleTitel>
+            <publicatieinstructie>TeConsolideren</publicatieinstructie>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+            <!-- Koppeling naar het gml-bestand -->
+            <heeftBestanden>
+                <heeftBestand>
+                    <Bestand>
+                        <bestandsnaam>reservering_maas.gml</bestandsnaam>
+                        <!-- <https://www.gnu.org/software/coreutils/ -->
+                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                        <hash>85d307cb1c512477893b98716e508daa84b5d72776523a07cc9a3333a961ee2ee7b3726b29658d2f2db92ff12fd564df7d35e99d4955438c8f4f0cf393047e05</hash>
+                    </Bestand>
+                </heeftBestand>
+            </heeftBestanden>
+        </InformatieObjectMetadata>
+        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_1">
+                    <wId>reservering_maas_1</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b371"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_2">
+                    <wId>reservering_maas_2</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b372"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_3">
+                    <wId>reservering_maas_3</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b373"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_4">
+                    <wId>reservering_maas_4</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b374"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_5">
+                    <wId>reservering_maas_5</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b375"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_6">
+                    <wId>reservering_maas_6</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b376"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_7">
+                    <wId>reservering_maas_7</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b377"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_8">
+                    <wId>reservering_maas_8</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b378"/>
+                </Locatie>
+            </featureMember>
+            <featureMember>
+                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="reservering_maas_9">
+                    <wId>reservering_maas_9</wId>
+                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="reservering_maas.gml#52b15775-5471-447e-9723-5e7b5e7b379"/>
+                </Locatie>
+            </featureMember>
+        </GeoInformatie>
+        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+            <bronactualiteit>2019-01-01</bronactualiteit>
+            <bronbeschrijving>top10nl</bronbeschrijving>
+            <brontype>achtergrond</brontype>
+            <nauwkeurigheid>10</nauwkeurigheid>
+        </Achtergrond>
+    </InformatieObjectVersie>
+</AanleveringGIO>
