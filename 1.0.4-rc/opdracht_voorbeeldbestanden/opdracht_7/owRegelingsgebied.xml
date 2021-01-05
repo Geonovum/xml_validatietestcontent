@@ -10,6 +10,7 @@
 	xmlns:r="http://www.geostandaarden.nl/imow/regels"
 	xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
 	xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
+	xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">

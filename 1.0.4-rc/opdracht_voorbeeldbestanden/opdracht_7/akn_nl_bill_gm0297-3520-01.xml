@@ -7,6 +7,7 @@
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
 			<!-- FOUT: LVBB2008	Daar waar een AKN- of JOIN-identifactie wordt verwacht moet deze beginnen met akn of join -->
+			<!-- FOUT: LVBB2018	Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk -->
 			<FRBRWork>/join/nl/bill/gm0297/2019/3520</FRBRWork>
 			<!-- FOUT: LVBB2009	Voor een AKN-identificatie (werk/expressie) moet het tweede deel een geldig land zijn (ln, aw, cw, sx) -->
 			<!-- FOUT: LVBB2010	Voor een AKN-identificatie (werk/expressie) moet het derde deel een geldig type zijn (bill, act, officialGazette) -->
@@ -47,7 +48,6 @@
 				<!-- FOUT: LVBB2015	Als voor een JOIN-identificatie (expressie) het eerste deel na de '@' een jaartal is dan moet dat gelijk zijn of groter dan het jaartal in het werk deel (vijfde deel) -->
 				<!-- FOUT: LVBB2016	Voor een AKN- of JOIN-identificatie (expressie) moet deel voorafgaand aan de '@' een geldige taal zijn ('nld','eng','fry','pap','mul','und') -->
 				<!-- FOUT: LVBB2017	Een AKN- of JOIN-identificatie mag geen punt bevatten -->
-				<!-- FOUT: LVBB2018	Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk -->
 				<informatieobjectRef>/join/id/regdata/gm0297/2019/Nog.FouteJoinIdentification/tokkie-tokkie@2018;3520</informatieobjectRef>
 				<!-- FOUT: LVBB2019	Een AKN- of JOIN-identificatie MOET uit 7 delen bestaan tussen eerste '/' en '@' -->
 				<informatieobjectRef>/join/id/regdata/2019/WeerFouteJoinIdentification1/tokkie-tokkie@2018;3520</informatieobjectRef>
@@ -159,6 +159,7 @@
 						<!-- FOUT: LVBB2012	Voor een JOIN-identificatie (werk/expressie) moet het derde deel een geldig type zijn (regdata, pubdata, infodata, proces, stop) -->
 						<doel>/join/niet_id_of_set/niet_proces/gm0297/2019/Instelling</doel>
 					</doelen>
+					<!-- FOUT: LVBB2017 Een AKN- of JOIN-identificatie mag geen punt bevatten -->
 					<instrumentVersie>/join/id/regdata/gm0297/2019/Nog.FouteJoinIdentification/tokkie-tokkie@2018;3520</instrumentVersie>
 					<eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_11__ref_o_1</eId>
 				</BeoogdInformatieobject>
@@ -906,6 +907,7 @@
 	</BesluitVersie>
 	<RegelingVersieInformatie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+			<!-- FOUT: LVBB2018	Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk -->
 			<FRBRWork>/akn/nl/act/gm0297/2019/reg456</FRBRWork>
 			<!-- FOUT: LVBB2500	De AKN door het bevoegd gezag aangeleverde regeling moet als derde veld 'act' hebben -->
 			<!-- FOUT: LVBB4005	De AKN door het bevoegd gezag aangeleverde regeling moet als derde veld 'act' hebben-->
