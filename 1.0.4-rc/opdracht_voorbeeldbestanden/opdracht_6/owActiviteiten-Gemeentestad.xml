@@ -202,8 +202,7 @@
 				</rol:Activiteit>
 			</ow-dc:owObject>
 		</sl:stand>
-		<!--uit functionele structuur, dit komt (nu) mee uit de bruidsschat, wellicht wordt deze werkwijze nog aangepast, maar deze activiteit hoort klaargezet te worden door het Rijk
-			indien er een foutmelding optreedt wegens het ontbreken van de topactiviteit dan kan de onderstaande activiteit meegeleverd worden.-->
+		<!-- FOUT: OZON0082 (TPOD1730/TPOD1740) Iedere Activiteit moet verwijzen naar een bovenliggende activiteit die bestaat in de levering of in Ozon. -->
 		<sl:stand>
 			<ow-dc:owObject>
 				<rol:Activiteit>

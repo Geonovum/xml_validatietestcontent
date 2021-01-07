@@ -125,8 +125,8 @@
     </bestand>
     <!-- FOUT: LVBB3507	Het content-type van de het meegeleverd bestand bij de IO is 'application/pdf' of 'application/gml+xml'  -->
     <bestand>
-        <bestandsnaam>GMLNietGevonden.gml</bestandsnaam>
-        <contentType>application/gml+xml</contentType>
+        <bestandsnaam>GMLNietGevonden.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
     </bestand>
     <bestand>
         <bestandsnaam>manifest-ow.xml</bestandsnaam>
