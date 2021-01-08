@@ -28,7 +28,7 @@
 					<l:identificatie>nl.imow-gm0297.gebied.20190000001</l:identificatie>
 					<l:noemer>Fout gebied</l:noemer>
 					<l:geometrie>
-						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000008"/>
+						<l:GeometrieRef xlink:href="e21c801e-49ee-43f8-8f5e-0000000000009"/>
 					</l:geometrie>
 				</l:Gebied>
 			</ow-dc:owObject>
