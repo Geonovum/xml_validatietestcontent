@@ -14,18 +14,18 @@
             <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGml/nld@2019-06-18;3520</geo:FRBRExpression>
             <geo:locaties>
                 <geo:Locatie>
-                    <geo:naam>GEO0010 geometrische component heeft te weinig punten</geo:naam>
+                    <geo:naam>GEO0009 zichzelf doorsnijdende structuur</geo:naam>
                     <geo:geometrie>
-                        <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000010-xx">
-                            <basisgeo:id>e21c801e-49ee-43f8-8f5e-0000000000010</basisgeo:id>
+                        <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000009-xx">
+                            <basisgeo:id>e21c801e-49ee-43f8-8f5e-0000000000009</basisgeo:id>
                             <basisgeo:geometrie>
-                                <gml:MultiSurface gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000010" srsName="urn:ogc:def:crs:EPSG::28992">
+                                <gml:MultiSurface gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000009" srsName="urn:ogc:def:crs:EPSG::28992">
                                     <gml:surfaceMember>
                                         <gml:Polygon>
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList>52.0562962306921 5.34346235323955 52.0562961086137
-                                                        5.43094408189303</gml:posList>
+                                                    <gml:posList>150000 450000 160000 460000 150000 460000 160000 450000 150000
+                                                        450000</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
