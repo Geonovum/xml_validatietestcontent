@@ -12,7 +12,10 @@
         <bestandsnaam>opdracht.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-    <!-- FOUT: GEO0001	losgekoppeld middendeel -->
+    <bestand>
+        <bestandsnaam>FouteGebieden.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
+    </bestand>
     <bestand>
         <bestandsnaam>FouteGebieden.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
