@@ -22,7 +22,7 @@
 			</rechtsgebieden>
 			<soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
 			<informatieobjectRefs>
-				<informatieobjectRef>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</informatieobjectRef>
+				<informatieobjectRef>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</informatieobjectRef>
 			</informatieobjectRefs>
 		</BesluitMetadata>
 		<Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -53,7 +53,7 @@
 					<doelen>
 						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
 					</doelen>
-					<instrumentVersie>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</instrumentVersie>
+					<instrumentVersie>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</instrumentVersie>
 					<eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_10__ref_o_1</eId>
 				</BeoogdInformatieobject>
 			</BeoogdeRegelgeving>
@@ -113,7 +113,7 @@
 				</Kop>
 				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/reg456/nld@2019-06-25;1">
 					<RegelingOpschrift eId="longTitle" wId="longTitle">
-						<Al>Omgevingsplan Goede Gebieden</Al>
+						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
 					<Lichaam eId="body" wId="body">
 						<Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
@@ -134,7 +134,7 @@
 								<Kop>
 									<Label>Afdeling</Label>
 									<Nummer>2.1</Nummer>
-									<Opschrift>Goede Gebieden</Opschrift>
+									<Opschrift>Foute Gebieden</Opschrift>
 								</Kop>
 								<Artikel eId="chp_2__subchp_2.1__art_2.1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
 									<Kop>
@@ -143,13 +143,13 @@
 										<Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
 									</Kop>
 									<Inhoud>
-										<Lijst eId="chp_2__subchp_2.1__art_2.2__list_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.2__list_o_1" type="expliciet">
+										<Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1" type="expliciet">
 											<!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
-											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '<IntIoRef eId="chp_2__subchp_2.1__art_2.2__list_o_10__ref_o_1"
-													wId="gm0297_1__chp_2__subchp_2.1__art_2.2__list_o_10__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-													>GoedeGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
+											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '<IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_10__ref_o_1"
+													wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_10__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
+													>FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
 												gebruiksactiviteiten:</Lijstaanhef>
-											<Li eId="chp_2__subchp_2.1__art_2.2__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.2__list_o_1__item_a">
+											<Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
 												<LiNummer>a.</LiNummer>
 												<Al> ; </Al>
 											</Li>
@@ -169,11 +169,11 @@
 							<Inhoud>
 								<Begrippenlijst eId="cmp_I__content_o_1__list_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1">
 									<Begrip eId="cmp_I__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1">
-										<Term>GoedeGebieden</Term>
+										<Term>FouteGebieden</Term>
 										<Definitie>
 											<Al>
 												<ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-													ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</ExtIoRef>
+													ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
 											</Al>
 										</Definitie>
 									</Begrip>
@@ -192,11 +192,11 @@
 					<Inhoud>
 						<Begrippenlijst eId="cmp_B__content_o_1__list_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1">
 							<Begrip eId="cmp_B__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1">
-								<Term>GoedeGebieden</Term>
+								<Term>FouteGebieden</Term>
 								<Definitie>
 									<Al>
 										<ExtIoRef eId="cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1"
-											ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</ExtIoRef>
+											ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
 									</Al>
 								</Definitie>
 							</Begrip>
@@ -224,7 +224,7 @@
 					<isOfficieel>true</isOfficieel>
 				</CiteertitelInformatie>
 			</heeftCiteertitelInformatie>
-			<officieleTitel>Omgevingsplan Zaltbommel (met de nadruk op Goede Gebieden)</officieleTitel>
+			<officieleTitel>Omgevingsplan Zaltbommel (met de nadruk op Foute Gebieden)</officieleTitel>
 			<onderwerpen>
 				<onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
 			</onderwerpen>
