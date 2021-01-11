@@ -153,20 +153,6 @@
 												<LiNummer>a.</LiNummer>
 												<Al> ; </Al>
 											</Li>
-											<Li wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b" eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
-												<LiNummer>g.</LiNummer>
-												<Al>Een transparant wolkje</Al>
-												<Figuur eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b__img_o_1"
-													wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b__img_o_1">
-													<Illustratie breedte="840"
-														dpi="120"
-														formaat="image/png"
-														hoogte="560"
-														kleur="0"
-														naam="transparent_cloud.png"
-														uitlijning="start"/>
-												</Figuur>
-											</Li>
 										</Lijst>
 									</Inhoud>
 								</Artikel>
