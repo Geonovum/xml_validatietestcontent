@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-   <lvbb:idLevering>IN0001-0010123</lvbb:idLevering>
-   <lvbb:idBevoegdGezag>00000001003214400000</lvbb:idBevoegdGezag>
-   <lvbb:idAanleveraar>00000001003214400000</lvbb:idAanleveraar>
-   <lvbb:publicatie>IN0001.xml</lvbb:publicatie>
-   <!-- FOUT: LVBB1501	De  datumBekendmaking binnen de opdracht is een datum, is in juiste formaat (JJJJ-MM-DD) zijn en mag niet in het verleden liggen. -->
-   <lvbb:datumBekendmaking>11-01-01</lvbb:datumBekendmaking>
-</lvbb:publicatieOpdracht>
+<validatieOpdracht 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.overheid.nl/2017/lvbb"
+   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
+   <idLevering>id-publicatie-1234</idLevering>
+   <idBevoegdGezag>00000001807288111000</idBevoegdGezag> 
+   <idAanleveraar>00000001807288111000</idAanleveraar>
+   <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
+   <datumBekendmaking>19-06-27</datumBekendmaking>
+</validatieOpdracht>

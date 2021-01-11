@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-   <!-- FOUT: LVBB1022	Is idlevering langer dan 80 tekens? -->
+<validatieOpdracht 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.overheid.nl/2017/lvbb"
+   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
    <lvbb:idLevering>IN0001-00101234567890123456789012345678901234567890123456789012345678901234567890123456789</lvbb:idLevering>
-   <lvbb:idBevoegdGezag>00000001003214400000</lvbb:idBevoegdGezag>
-   <lvbb:idAanleveraar>00000001003214400000</lvbb:idAanleveraar>
-   <lvbb:publicatie>IN0001.xml</lvbb:publicatie>
-   <lvbb:datumBekendmaking>2021-01-01</lvbb:datumBekendmaking>
-</lvbb:publicatieOpdracht>
+   <idBevoegdGezag>00000001807288111000</idBevoegdGezag> 
+   <idAanleveraar>00000001807288111000</idAanleveraar>
+   <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
+   <datumBekendmaking>2019-06-27</datumBekendmaking>
+</validatieOpdracht>

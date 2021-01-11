@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-   <lvbb:idLevering>IN0001-001</lvbb:idLevering>
+   <lvbb:idLevering>id-publicatie-1234</lvbb:idLevering>
    <lvbb:idBevoegdGezag>00000001003214400000</lvbb:idBevoegdGezag>
    <lvbb:idAanleveraar>00000001003214400000</lvbb:idAanleveraar>
-   <lvbb:publicatie>IN0001_bestaat_niet.xml</lvbb:publicatie>
+   <lvbb:publicatie>akn_nl_bill_gm0297-3520-01.xml</lvbb:publicatie>
    <lvbb:datumBekendmaking>2021-01-01</lvbb:datumBekendmaking>
-   <!-- FOUT: LVBB1005	Is opdracht.xml geldig xml bestand (wel-formed, juiste encoding gebruikt) -->
-</lvbb:not_welformed_publicatieOpdracht>
+   </lvbb:not_welformed_publicatieOpdracht>

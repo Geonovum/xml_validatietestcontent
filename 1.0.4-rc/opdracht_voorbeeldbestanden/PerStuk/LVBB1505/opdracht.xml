@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:idLevering>id-publicatie-1234</lvbb:idLevering>
+   <lvbb:idBevoegdGezag>00000001003214400000</lvbb:idBevoegdGezag>
+   <lvbb:idAanleveraar>00000001003214400000</lvbb:idAanleveraar>
+   <lvbb:publicatie>akn_nl_bill_gm0297-3520-01</lvbb:publicatie>
+</lvbb:publicatieOpdracht>
