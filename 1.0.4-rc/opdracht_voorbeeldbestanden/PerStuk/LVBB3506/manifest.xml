@@ -13,10 +13,6 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-        <contentType>application/gml+xml</contentType>
-    </bestand>
-    <bestand>
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
