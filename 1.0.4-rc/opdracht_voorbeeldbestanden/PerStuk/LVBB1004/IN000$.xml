@@ -85,7 +85,7 @@
             <Al>gelet op de positieve adviezen van gedeputeerde staten van Provincieland en de Raad voor Cultuur;</Al>
             <Al>besluit:</Al>
          </Aanhef>
-         <Lichaam eId="body" wId="body">
+         <Lichaam eId="body_1" wId="body_1">
             <WijzigArtikel eId="art_I" wId="mnre1109_1__art_I">
                <Kop>
                   <Label>Artikel</Label>
@@ -118,7 +118,7 @@
                <RegelingOpschrift eId="longTitle" wId="longTitle">
                   <Al>Instructie aan de gemeente Gemeentestad</Al>
                </RegelingOpschrift>
-               <Lichaam eId="body" wId="body">
+               <Lichaam eId="body_2" wId="body_2">
                   <!-- Onderstaande Divisie is nodig om in imow de tekst te kunnen annoteren. Divisie heeft een verplichte Kop. -->
                   <Divisie eId="div_o_1" wId="mnre1109_1__div_o_1">
                      <Kop>

@@ -76,7 +76,7 @@
 				<Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
 				<Al>besluit:</Al>
 			</Aanhef>
-			<Lichaam eId="body" wId="body">
+			<Lichaam eId="body_2" wId="body_2">
 				<WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
 					<Kop>
 						<Label>Artikel</Label>
@@ -115,7 +115,7 @@
 					<RegelingOpschrift eId="longTitle" wId="longTitle">
 						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
-					<Lichaam eId="body" wId="body">
+					<Lichaam eId="body_2" wId="body_2">
 						<Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
 							<Kop>
 								<Label>Hoofdstuk</Label>
