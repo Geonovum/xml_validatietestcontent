@@ -70,7 +70,7 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle" wId="longTitle">
+         <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
             <Al>Instructie aan de gemeente Gemeentestad</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
@@ -115,7 +115,7 @@
             </Kop>
             <RegelingVrijetekst componentnaam="initieel_reg"
                                 wordt="/akn/nl/act/mnre1109/2020/IN0001/nld@2020-05-11;1">
-               <RegelingOpschrift eId="longTitle" wId="longTitle">
+               <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Instructie aan de gemeente Gemeentestad</Al>
                </RegelingOpschrift>
                <Lichaam eId="body_2" wId="body_2">

@@ -67,7 +67,7 @@
 			</Tijdstempels>
 		</ConsolidatieInformatie>
 		<BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-			<RegelingOpschrift eId="longTitle" wId="longTitle">
+			<RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
 				<Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
 			</RegelingOpschrift>
 			<Aanhef eId="formula_1" wId="formula_1">
@@ -112,7 +112,7 @@
 					<Opschrift>Bijlage bij artikel I</Opschrift>
 				</Kop>
 				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/reg456/nld@2019-06-25;1">
-					<RegelingOpschrift eId="longTitle" wId="longTitle">
+					<RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
 						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
 					<Lichaam eId="body_1" wId="body_1">
