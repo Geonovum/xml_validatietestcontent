@@ -38,5 +38,6 @@
     </bestand>
     <bestand>
         <bestandsnaam>niet_ondersteund_bestandstype.bmp</bestandsnaam>
+        <contentType></contentType>
     </bestand>
 </manifest>
