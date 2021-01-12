@@ -37,7 +37,7 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Cat03.jpg</bestandsnaam>
+        <bestandsnaam>Cat03.xxx</bestandsnaam>
         <contentType>image/xxx</contentType>
     </bestand>
 </manifest>
