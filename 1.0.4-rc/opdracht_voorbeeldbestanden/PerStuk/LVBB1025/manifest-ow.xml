@@ -20,11 +20,7 @@
       <objecttype>Regelingsgebied</objecttype>
     </Bestand>
     <Bestand>
-      <naam>NietInZip.xml</naam>
-      <objecttype>Gebied</objecttype>
-    </Bestand>
-    <Bestand>
-      <naam>GoedeGebieden.gml</naam>
+      <naam>GoedeGebieden.xml</naam>
       <objecttype>Geometrie</objecttype>
     </Bestand>
   </Aanlevering>

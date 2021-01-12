@@ -6,7 +6,6 @@
   <Aanlevering>
     <WorkIDRegeling>/akn/nl/act/gm0297/2019/reg456</WorkIDRegeling>
     <DoelID>/join/id/proces/gm0297/2019/Instelling</DoelID>
-    <DoelID>/join/id/proces/gm0297/2020/Instelling</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
@@ -19,6 +18,10 @@
     <Bestand>
       <naam>owRegelingsgebied.xml</naam>
       <objecttype>Regelingsgebied</objecttype>
+    </Bestand>
+    <Bestand>
+      <naam>GoedeGebieden.gml</naam>
+      <objecttype>Gebied</objecttype>
     </Bestand>
   </Aanlevering>
 </Aanleveringen>

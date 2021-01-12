@@ -19,9 +19,5 @@
       <naam>owRegelingsgebied.xml</naam>
       <objecttype>Regelingsgebied</objecttype>
     </Bestand>
-    <Bestand>
-      <naam>NietInZip.xml</naam>
-      <objecttype>Gebied</objecttype>
-    </Bestand>
   </Aanlevering>
 </Aanleveringen>
