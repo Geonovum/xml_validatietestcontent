@@ -37,7 +37,7 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Cat03.xxx</bestandsnaam>
-        <contentType>image/xxx</contentType>
+        <bestandsnaam>Cat03.jpg</bestandsnaam>
+        <contentType>niet_toegestaan_mimetype/mimetype_niet_toegestaan</contentType>
     </bestand>
 </manifest>
