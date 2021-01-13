@@ -18,7 +18,7 @@
     </bestand>
     <bestand>
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
-        <contentType>application/</contentType>
+        <contentType>application/xml</contentType>
     </bestand>
     <bestand>
         <bestandsnaam>GoedeGebieden2.gml</bestandsnaam>
