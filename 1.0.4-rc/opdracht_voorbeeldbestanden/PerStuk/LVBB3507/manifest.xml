@@ -14,10 +14,18 @@
     </bestand>
     <bestand>
         <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-        <contentType>application/gml-xml</contentType>
+        <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
+        <bestandsnaam>GoedeGebieden2.xml</bestandsnaam>
+        <contentType>application/</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>GoedeGebieden2.gml</bestandsnaam>
+        <contentType>application/xml</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>GoedeGebieden2.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
