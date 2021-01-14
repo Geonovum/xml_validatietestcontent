@@ -211,7 +211,7 @@
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
 			<FRBRWork>/akn/nl/act/gm0297/2019/reg456</FRBRWork>
 			<FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@2019-06-25;1</FRBRExpression>
-			<soortWork>/join/id/stop/work_GEEN_REGELING</soortWork>
+			<soortWork>/join/id/stop/work_019</soortWork>
 		</ExpressionIdentificatie>
 		<RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
 			<versienummer>1</versienummer>
