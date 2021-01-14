@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<AanleveringBesluit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" schemaversie="1.0.3"
-	xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering/
-	https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+	xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering/ ../../lvbb/lvbb-stop-aanlevering.xsd"
+	schemaversie="1.0.3">
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
 			<FRBRWork>/akn/nl/bill/gm0297/2019/3520</FRBRWork>
@@ -9,7 +9,6 @@
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
 			<eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
 			<maker>/tooi/id/gemeente/gm0297</maker>
 			<officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
@@ -232,7 +231,6 @@
 				<rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
 			</rechtsgebieden>
 			<soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
-			<soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
 			<!-- Omgevingsplan -->
 		</RegelingMetadata>
 	</RegelingVersieInformatie>

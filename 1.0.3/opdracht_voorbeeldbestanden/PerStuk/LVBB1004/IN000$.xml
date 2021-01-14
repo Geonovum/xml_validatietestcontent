@@ -12,8 +12,6 @@
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/ministerie/mnre1109</eindverantwoordelijke>
          <maker>/tooi/id/ministerie/mnre1109</maker>
-         <!--soortBestuursorgaan is 'minister'.-->
-         <soortBestuursorgaan>/tooi/def/thes/kern/c_bcfb7b4e</soortBestuursorgaan>
          <officieleTitel>
             Instructie aan de gemeente Gemeentestad
          </officieleTitel>
