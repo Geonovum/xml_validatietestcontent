@@ -3,8 +3,8 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns="http://www.overheid.nl/2017/lvbb"
    xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
-   <idBevoegdGezag>00000001807288111000</idBevoegdGezag> 
-   <idAanleveraar>00000001807288111000</idAanleveraar>
+   <idBevoegdGezag>00000001003214345000</idBevoegdGezag> 
+   <idAanleveraar>00000001003214345000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
    <datumBekendmaking>2021-06-27</datumBekendmaking>
 </validatieOpdracht>
