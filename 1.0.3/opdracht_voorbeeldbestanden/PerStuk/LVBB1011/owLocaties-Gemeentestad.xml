@@ -13,7 +13,7 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
-	<sl:standBestand_fout>
+	<sl:standBestand>
 		<sl:dataset>Gemeentestad</sl:dataset>
 		<sl:inhoud>
 			<sl:gebied>Gemeentestad</sl:gebied>
@@ -22,7 +22,7 @@
 				<sl:objectType>Gebied</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
-		<sl:stand>
+		<sl:stand_fout>
 			<ow-dc:owObject>
 				<l:Gebied>
 					<l:identificatie>nl.imow-gm0297.gebied.20190000001</l:identificatie>
@@ -33,5 +33,5 @@
 				</l:Gebied>
 			</ow-dc:owObject>
 		</sl:stand>
-	</sl:standBestand_>
+	</sl:standBestand>
 </ow-dc:owBestand>
