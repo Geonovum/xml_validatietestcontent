@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <validatieOpdracht 
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns="http://www.overheid.nl/2017/lvbb"
-   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
-   <lvbb:idLevering>IN0001-00101234567890123456789012345678901234567890123456789012345678901234567890123456789</lvbb:idLevering>
-   <idBevoegdGezag>00000001003214345000</idBevoegdGezag> 
-   <idAanleveraar>00000001003214345000</idAanleveraar>
-   <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
-   <datumBekendmaking>2021-06-27</datumBekendmaking>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.overheid.nl/2017/lvbb"
+  xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
+  <idLevering>id-publicatie-1234</idLevering>
+  <idBevoegdGezag>00000001812579446000</idBevoegdGezag> 
+  <idAanleveraar>00000003560458830000</idAanleveraar>
+  <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
+  <datumBekendmaking>2021-06-27</datumBekendmaking>
 </validatieOpdracht>
