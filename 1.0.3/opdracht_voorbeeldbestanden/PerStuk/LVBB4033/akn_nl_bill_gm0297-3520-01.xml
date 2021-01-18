@@ -27,7 +27,7 @@
 			</informatieobjectRefs>
 		</BesluitMetadata>
 		<Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<bekendOp>2019-06-27</bekendOp>
+			<bekendOp>2021-06-27</bekendOp>
 			<procedurestappen>
 				<!-- Vaststelling -->
 				<Procedurestap>
@@ -210,7 +210,7 @@
 	<RegelingVersieInformatie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
 			<FRBRWork>/akn/nl/act/gm0297/2019/reg456</FRBRWork>
-			<FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@2019-06-25;NIET_GELIJK_AAN_WORDT</FRBRExpression>
+			<FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@2019-06-25;1</FRBRExpression>
 			<soortWork>/join/id/stop/work_019</soortWork>
 		</ExpressionIdentificatie>
 		<RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
