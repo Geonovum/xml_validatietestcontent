@@ -6,8 +6,8 @@
     https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
     <BesluitVersie>
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/bill/gm0297/2020/4508</FRBRWork>
-            <FRBRExpression>/akn/nl/bill/gm0297/2020/4508/nld@2020-01-20;1</FRBRExpression>
+            <FRBRWork>/akn/nl/bill/gm0297/2022/4508</FRBRWork>
+            <FRBRExpression>/akn/nl/bill/gm0297/2022/4508/nld@2022-01-20;1</FRBRExpression>
             <soortWork>/join/id/stop/work_003</soortWork>
         </ExpressionIdentificatie>
         <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -24,11 +24,11 @@
             <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
         </BesluitMetadata>
         <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bekendOp>2020-01-22</bekendOp>
+            <bekendOp>2022-01-22</bekendOp>
             <procedurestappen>
                 <Procedurestap>
                     <soortStap>/join/id/stop/procedure/stap_003</soortStap>
-                    <voltooidOp>2020-01-21</voltooidOp>
+                    <voltooidOp>2022-01-21</voltooidOp>
                 </Procedurestap>
             </procedurestappen>
         </Procedureverloop>
@@ -36,17 +36,17 @@
             <BeoogdeRegelgeving>
                 <BeoogdeRegeling>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/eerstewijziging</doel>
+                        <doel>/join/id/proces/gm0297/2022/eerstewijziging</doel>
                     </doelen>
-                    <instrumentVersie>/akn/nl/act/gm0297/2019/reg456/nld@2020-01-15;2</instrumentVersie>
+                    <instrumentVersie>/akn/nl/act/gm0297/2019/reg456/nld@2022-01-15;2</instrumentVersie>
                     <eId>art_II</eId>
                 </BeoogdeRegeling>
             </BeoogdeRegelgeving>
             <Tijdstempels>
                 <Tijdstempel>
-                    <doel>/join/id/proces/gm0297/2020/eerstewijziging</doel>
+                    <doel>/join/id/proces/gm0297/2022/eerstewijziging</doel>
                     <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
-                    <datum>2020-02-01</datum>
+                    <datum>2022-02-01</datum>
                     <eId>art_II</eId>
                 </Tijdstempel>
             </Tijdstempels>
@@ -57,7 +57,7 @@
             </RegelingOpschrift>
             <Aanhef wId="formula_1" eId="formula_1">
                 <Al>De raad van de gemeente Gemeenstestad </Al>
-                <Al>gelezen het voorstel van burgemeester en wethouders van 21 januari 2020, nr. 2020-0168;</Al>
+                <Al>gelezen het voorstel van burgemeester en wethouders van 21 januari 2022, nr. 2022-0168;</Al>
                 <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
                 <Al>besluit:</Al>
             </Aanhef>
@@ -75,12 +75,12 @@
                         <Nummer>II</Nummer>
                     </Kop>
                     <Inhoud>
-                        <Al>Dit besluit treedt in werking per 1 februari 2020.</Al>
+                        <Al>Dit besluit treedt in werking per 1 februari 2022.</Al>
                     </Inhoud>
                 </Artikel>
             </Lichaam>
             <Sluiting eId="formula_2_o_1" wId="formula_2_o_1">
-                <Al>Gegeven te Geonovum, Gemeentestad, 21 januari 2020</Al>
+                <Al>Gegeven te Geonovum, Gemeentestad, 21 januari 2022</Al>
                 <Ondertekening>
                     <Al>Gedeputeerde Raad van Amersfoort tot Den Haag</Al>
                     <Al>Ikra van der Velde</Al>
@@ -95,7 +95,7 @@
                     <Nummer>A</Nummer>
                     <Opschrift>Bijlage bij Artikel I</Opschrift>
                 </Kop>
-                <RegelingMutatie componentnaam="wijziging_reg" was="" wordt="/akn/nl/act/gm0297/2019/reg456/nld@2020-01-15;2">
+                <RegelingMutatie componentnaam="wijziging_reg" was="" wordt="/akn/nl/act/gm0297/2019/reg456/nld@2022-01-15;2">
                     <Vervang wat="gm0297_1__chp_2__subchp_2.2__art_2.5">
                         <Nummer>A</Nummer>
                         <Wat>Artikel 2.5 is vernummerd naar 2.6:</Wat>
@@ -498,7 +498,7 @@
     <RegelingVersieInformatie>
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
             <FRBRWork>/akn/nl/act/gm0297/2019/reg456</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@2020-01-15;2</FRBRExpression>
+            <FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@2022-01-15;2</FRBRExpression>
             <soortWork>/join/id/stop/work_019</soortWork>
         </ExpressionIdentificatie>
         <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
