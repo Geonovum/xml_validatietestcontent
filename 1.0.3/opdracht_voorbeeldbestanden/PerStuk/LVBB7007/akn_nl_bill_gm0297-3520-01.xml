@@ -23,7 +23,7 @@
 			</rechtsgebieden>
 			<soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
 			<informatieobjectRefs>
-				<informatieobjectRef>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</informatieobjectRef>
+				<informatieobjectRef>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</informatieobjectRef>
 			</informatieobjectRefs>
 		</BesluitMetadata>
 		<Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -54,7 +54,7 @@
 					<doelen>
 						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
 					</doelen>
-					<instrumentVersie>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</instrumentVersie>
+					<instrumentVersie>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</instrumentVersie>
 					<eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
 				</BeoogdInformatieobject>
 			</BeoogdeRegelgeving>
@@ -77,7 +77,7 @@
 				<Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
 				<Al>besluit:</Al>
 			</Aanhef>
-			<Lichaam eId="body_2" wId="body_2">
+			<Lichaam eId="body_1" wId="body_1">
 				<WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
 					<Kop>
 						<Label>Artikel</Label>
@@ -147,8 +147,8 @@
 										<Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1" type="expliciet">
 											<!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
 											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '<IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-													wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-													>FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
+												wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
+												>FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
 												gebruiksactiviteiten:</Lijstaanhef>
 											<Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
 												<LiNummer>a.</LiNummer>
@@ -174,7 +174,7 @@
 										<Definitie>
 											<Al>
 												<ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-													ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
+													ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</ExtIoRef>
 											</Al>
 										</Definitie>
 									</Begrip>
@@ -197,7 +197,7 @@
 								<Definitie>
 									<Al>
 										<ExtIoRef eId="cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1"
-											ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
+											ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</ExtIoRef>
 									</Al>
 								</Definitie>
 							</Begrip>

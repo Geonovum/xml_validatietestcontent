@@ -13,12 +13,12 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>FouteGebieden.xml</bestandsnaam>
-        <contentType>application/xml</contentType>
+        <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
+        <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>FouteGebieden.gml</bestandsnaam>
-        <contentType>application/gml+xml</contentType>
+        <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
     </bestand>
     <bestand>
         <bestandsnaam>manifest-ow.xml</bestandsnaam>
