@@ -148,7 +148,7 @@
 											<!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
 											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '<IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
 												wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-												>FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
+												>GoedeGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
 												gebruiksactiviteiten:</Lijstaanhef>
 											<Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
 												<LiNummer>a.</LiNummer>
@@ -170,7 +170,7 @@
 							<Inhoud>
 								<Begrippenlijst eId="cmp_I__content_o_1__list_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1">
 									<Begrip eId="cmp_I__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1">
-										<Term>FouteGebieden</Term>
+										<Term>GoedeGebieden</Term>
 										<Definitie>
 											<Al>
 												<ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
@@ -193,7 +193,7 @@
 					<Inhoud>
 						<Begrippenlijst eId="cmp_B__content_o_1__list_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1">
 							<Begrip eId="cmp_B__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1">
-								<Term>FouteGebieden</Term>
+								<Term>GoedeGebieden</Term>
 								<Definitie>
 									<Al>
 										<ExtIoRef eId="cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1"

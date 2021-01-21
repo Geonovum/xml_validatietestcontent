@@ -13,7 +13,7 @@
         <heeftBestand>
           <Bestand>
             <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-            <hash>e5757334e6ba8b1c56a19aeac01e73c45a364d8cebb5d94b7bbdb5d67d1568f0e3764460d16ff7e672883128565985dbbecdf7b0573c47c434cca2737cd8fb6e</hash>
+            <hash>1effd067b50e9999a3a018571e83908e4692c0523f3547b1e315fbeb6739dd17a4def55642b983057cf5b23a5629f3f3769e92748f0e30c897d34726fa0c8557</hash>
           </Bestand>
         </heeftBestand>
       </heeftBestanden>
@@ -25,10 +25,10 @@
       <alternatieveTitels>
         <alternatieveTitel>GoedeGebieden</alternatieveTitel>
       </alternatieveTitels>
-      <officieleTitel>/join/id/regdata/gm0297/2019/Zuilichem</officieleTitel>
+      <officieleTitel>/join/id/regdata/gm0297/2019/GoedeGebieden</officieleTitel>
       <publicatieinstructie>TeConsolideren</publicatieinstructie>
       <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
-      <naamInformatieObject>/join/id/stop/informatieobject/gio_001</naamInformatieObject>
+      <naamInformatieObject>GoedeGebieden</naamInformatieObject>
     </InformatieObjectMetadata>
   </InformatieObjectVersie>
 </AanleveringInformatieObject>

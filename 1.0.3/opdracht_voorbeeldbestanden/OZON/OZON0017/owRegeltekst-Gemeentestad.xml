@@ -41,7 +41,7 @@
 						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
 					</r:artikelOfLid>
 					<r:locatieaanduiding>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.2019000001"/>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
 					</r:locatieaanduiding>
 					<r:activiteitaanduiding>
 						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000002"/>
