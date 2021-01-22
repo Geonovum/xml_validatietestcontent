@@ -21,6 +21,7 @@
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
+				<sl:objectType>Activiteit</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -43,17 +44,19 @@
 					<r:locatieaanduiding>
 						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
 					</r:locatieaanduiding>
-					<r:activiteitaanduiding>
-						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000002"/>
-						<r:ActiviteitLocatieaanduiding>
-							<r:identificatie>nl.imow-gm0037.activiteitlocatieaanduiding.2019GROEP1</r:identificatie>
-							<r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie</r:activiteitregelkwalificatie>
-							<r:locatieaanduiding>
-								<l:GebiedengroepRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
-							</r:locatieaanduiding>
-						</r:ActiviteitLocatieaanduiding>
-					</r:activiteitaanduiding>
 				</r:RegelVoorIedereen>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<rol:Activiteit>
+					<rol:identificatie>nl.imow-gm0297.activiteit.2019000001</rol:identificatie>
+					<rol:naam>Activiteit</rol:naam>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitengroep</rol:groep>
+					<rol:bovenliggendeActiviteit>
+						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.bovenliggend"/>
+					</rol:bovenliggendeActiviteit>
+				</rol:Activiteit>
 			</ow-dc:owObject>
 		</sl:stand>
 	</sl:standBestand>
