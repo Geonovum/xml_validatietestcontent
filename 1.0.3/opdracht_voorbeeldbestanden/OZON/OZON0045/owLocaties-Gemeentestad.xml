@@ -19,18 +19,17 @@
 			<sl:gebied>Gemeentestad</sl:gebied>
 			<sl:leveringsId>id-publicatie-1234</sl:leveringsId>
 			<sl:objectTypen>
-				<sl:objectType>IetsAnders</sl:objectType>
+				<sl:objectType>Gebied</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<sl:stand>
 			<ow-dc:owObject>
-				<l:Gebied>
-					<l:identificatie>nl.imow-gm0297.gebied.20190000001</l:identificatie>
-					<l:noemer>Goed gebied</l:noemer>
+				<l:Punt>
+					<l:identificatie>nl.imow-gm0297.punt.201900002</l:identificatie>
 					<l:geometrie>
-						<l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
+						<l:GeometrieRef xlink:href="C28AF779-7EDD-4A88-8B11-809798F53614PUNT"/>
 					</l:geometrie>
-				</l:Gebied>
+				</l:Punt>
 			</ow-dc:owObject>
 		</sl:stand>
 	</sl:standBestand>
