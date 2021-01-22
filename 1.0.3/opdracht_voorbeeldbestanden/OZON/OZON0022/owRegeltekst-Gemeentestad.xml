@@ -43,9 +43,6 @@
 					<r:locatieaanduiding>
 						<l:LocatieRef xlink:href="nl.imow-gm0297.punt.20190000001"/>
 					</r:locatieaanduiding>
-					<r:gebiedsaanwijzing>
-						<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
-					</r:gebiedsaanwijzing>
 				</r:RegelVoorIedereen>
 			</ow-dc:owObject>
 		</sl:stand>
