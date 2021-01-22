@@ -21,6 +21,7 @@
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
+				<sl:objectType>Omgevingswaarderegel</sl:objectType>
 				<sl:objectType>Gebiedsaanwijzing</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
@@ -44,6 +45,24 @@
 						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
 					</r:locatieaanduiding>
 				</r:RegelVoorIedereen>
+			</ow-dc:owObject>
+		</sl:stand>
+		<!-- FOUT: OZON0022	Er moet een RegelVoorIedereen, Instructieregel of Tekstdeel zijn die verwijst naar de Gebiedsaanwijzing -->
+		<sl:stand>
+			<ow-dc:owObject>
+				<r:Omgevingswaarderegel>
+					<r:identificatie>nl.imow-gm0297.juridischeregel.2019000002</r:identificatie>
+					<r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+					<r:artikelOfLid>
+						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
+					</r:artikelOfLid>
+					<r:locatieaanduiding>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+					</r:locatieaanduiding>
+					<r:gebiedsaanwijzing>
+						<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
+					</r:gebiedsaanwijzing>
+				</r:Omgevingswaarderegel>
 			</ow-dc:owObject>
 		</sl:stand>
 		<sl:stand>

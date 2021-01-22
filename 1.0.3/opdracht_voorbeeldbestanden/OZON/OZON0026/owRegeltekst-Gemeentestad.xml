@@ -21,7 +21,7 @@
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
-				<sl:objectType>Gebiedsaanwijzing</sl:objectType>
+				<sl:objectType>Omgevingsnorm</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -46,34 +46,24 @@
 				</r:RegelVoorIedereen>
 			</ow-dc:owObject>
 		</sl:stand>
+		<!-- FOUT: OZON0026	Er moet een RegelVoorIedereen of een Instructieregel zijn die verwijst naar de Omgevingsnorm. -->
 		<sl:stand>
 			<ow-dc:owObject>
-				<r:Omgevingswaarderegel>
-					<r:identificatie>nl.imow-gm0297.juridischeregel.2019000002</r:identificatie>
-					<r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
-					<r:artikelOfLid>
-						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
-					</r:artikelOfLid>
-					<r:locatieaanduiding>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
-					</r:locatieaanduiding>
-					<r:gebiedsaanwijzing>
-						<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
-					</r:gebiedsaanwijzing>
-				</r:Omgevingswaarderegel>
-			</ow-dc:owObject>
-		</sl:stand>
-		<sl:stand>
-			<ow-dc:owObject>
-				<ga:Gebiedsaanwijzing>
-					<ga:identificatie>nl.imow-gm0037.gebiedsaanwijzing.201900001</ga:identificatie>
-					<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
-					<ga:naam>abc</ga:naam>
-					<ga:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</ga:groep>
-					<ga:locatieaanduiding>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
-					</ga:locatieaanduiding>
-				</ga:Gebiedsaanwijzing>
+				<rol:Omgevingsnorm>
+					<rol:identificatie>nl.imow-gm0037.omgevingsnorm.201900001</rol:identificatie>
+					<rol:naam>abc</rol:naam>
+					<rol:type>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Type</rol:type>
+					<rol:normwaarde>
+						<rol:Normwaarde>
+							<rol:identificatie>nl.imow-gm0037.normwaarde.201900001</rol:identificatie>
+							<rol:kwantitatieveWaarde>200</rol:kwantitatieveWaarde>
+							<rol:locatieaanduiding>
+								<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+							</rol:locatieaanduiding>
+						</rol:Normwaarde>
+					</rol:normwaarde>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Cde</rol:groep>
+				</rol:Omgevingsnorm>
 			</ow-dc:owObject>
 		</sl:stand>
 	</sl:standBestand>
