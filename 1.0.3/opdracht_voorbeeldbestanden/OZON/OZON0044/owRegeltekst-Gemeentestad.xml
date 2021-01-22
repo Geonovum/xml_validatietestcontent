@@ -31,7 +31,7 @@
 				</r:Regeltekst>
 			</ow-dc:owObject>
 		</sl:stand>
-		<!-- FOUT: OZON0037	Iedere Omgevingswaarderegel verwijst naar een Regeltekst die bestaat. -->
+		<!-- FOUT: OZON0044	Als een Omgevingswaarderegel verwijst naar een Omgevingswaarde, dan moet deze bestaan. -->
 		<sl:stand>
 			<ow-dc:owObject>
 				<r:Omgevingswaarderegel>
