@@ -8,12 +8,12 @@
     <DoelID>/join/id/proces/gm0297/2019/Instelling</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
-      <objecttype>Gebied</objecttype>
+      <objecttype>Punt</objecttype>
     </Bestand>
     <Bestand>
       <naam>owRegeltekst-Gemeentestad.xml</naam>
       <objecttype>Regeltekst</objecttype>
-      <objecttype>Instructieregel</objecttype>
+      <objecttype>RegelVoorIedereen</objecttype>
     </Bestand>
     <Bestand>
       <naam>owRegelingsgebied.xml</naam>

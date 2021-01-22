@@ -20,7 +20,7 @@
 			<sl:leveringsId>id-publicatie-1234</sl:leveringsId>
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
-				<sl:objectType>Instructieregel</sl:objectType>
+				<sl:objectType>RegelVoorIedereen</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -38,13 +38,13 @@
 					<r:identificatie>nl.imow-gm0297.juridischeregel.2019000001</r:identificatie>
 					<r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
 					<r:artikelOfLid>
-						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001FOUT"/>
+						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
 					</r:artikelOfLid>
 					<r:locatieaanduiding>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.punt.20190000001"/>
 					</r:locatieaanduiding>
 					<r:gebiedsaanwijzing>
-						<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0297.gebiedsaanwijzing.20190000001"/>
+						<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
 					</r:gebiedsaanwijzing>
 				</r:Instructieregel>
 			</ow-dc:owObject>
