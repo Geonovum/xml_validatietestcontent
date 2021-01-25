@@ -60,6 +60,7 @@
 				</l:Punt>
 			</ow-dc:owObject>
 		</sl:stand>
+		<!-- FOUT: OZON0059	Iedere Lijnengroep moet verwijzen naar Lijnen die bestaan. -->
 		<sl:stand>
 			<ow-dc:owObject>
 				<l:Lijnengroep>
@@ -67,6 +68,7 @@
 					<l:groepselement>
 						<l:LijnRef xlink:href="nl.imow-gm0297.lijn.20190000001"/>
 						<l:LijnRef xlink:href="nl.imow-gm0297.lijn.20190000002"/>
+						<l:LijnRef xlink:href="nl.imow-gm0297.lijn.20190000003"/>
 					</l:groepselement>
 				</l:Lijnengroep>
 			</ow-dc:owObject>
