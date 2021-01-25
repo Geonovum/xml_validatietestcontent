@@ -63,6 +63,7 @@
 				<rol:Activiteit>
 					<rol:identificatie>nl.imow-gm0297.activiteit.2019000001</rol:identificatie>
 					<rol:naam>Naam</rol:naam>
+					<!-- FOUT: OZON0073	Het veld Activiteiten.groep moet een waarde bevatten uit de waardelijst Activiteitengroep. -->
 					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/NietInWaardelijst</rol:groep>
 					<rol:bovenliggendeActiviteit>
 						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.Bovenliggend"/>

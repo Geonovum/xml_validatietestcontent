@@ -21,7 +21,6 @@
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
-				<sl:objectType>Omgevingsnorm</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -41,28 +40,28 @@
 						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
 					</r:artikelOfLid>
 					<r:locatieaanduiding>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.20190000001"/>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
 					</r:locatieaanduiding>
 				</r:RegelVoorIedereen>
 			</ow-dc:owObject>
 		</sl:stand>
-		<!-- FOUT: OZON0026	Er moet een RegelVoorIedereen of een Instructieregel zijn die verwijst naar de Omgevingsnorm. -->
 		<sl:stand>
 			<ow-dc:owObject>
 				<rol:Omgevingsnorm>
-					<rol:identificatie>nl.imow-gm0037.omgevingsnorm.201900001</rol:identificatie>
-					<rol:naam>abc</rol:naam>
-					<rol:type>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Type</rol:type>
+					<rol:identificatie>nl.imow-gm0297.omgevingsnorm.20190000001</rol:identificatie>
+					<rol:naam>Naam</rol:naam>
+					<rol:type>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Zwemwaterkwaliteit</rol:type>
 					<rol:normwaarde>
 						<rol:Normwaarde>
-							<rol:identificatie>nl.imow-gm0037.normwaarde.201900001</rol:identificatie>
-							<rol:kwantitatieveWaarde>200</rol:kwantitatieveWaarde>
+							<rol:identificatie>nl.imow-gm0297.omgevingsnorm.20190000001</rol:identificatie>
 							<rol:locatieaanduiding>
-								<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+								<l:GebiedengroepRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
 							</rol:locatieaanduiding>
 						</rol:Normwaarde>
 					</rol:normwaarde>
-					<rol:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</rol:groep>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/NietInWaardelijst</rol:groep>
 				</rol:Omgevingsnorm>
 			</ow-dc:owObject>
 		</sl:stand>
