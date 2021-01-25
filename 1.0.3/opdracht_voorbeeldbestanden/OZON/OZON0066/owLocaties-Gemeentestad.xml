@@ -127,6 +127,7 @@
 				</l:Gebied>
 			</ow-dc:owObject>
 		</sl:stand>
+		<!-- FOUT: OZON0066	Voor ieder Gebied moet er een Geometrie aanwezig zijn in de levering. -->
 		<sl:stand>
 			<ow-dc:owObject>
 				<l:Gebied>
