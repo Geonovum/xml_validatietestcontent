@@ -30,6 +30,7 @@
 					<l:groepselement>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
 						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000002"/>
+						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000003"/>
 					</l:groepselement>
 				</l:Gebiedengroep>
 			</ow-dc:owObject>

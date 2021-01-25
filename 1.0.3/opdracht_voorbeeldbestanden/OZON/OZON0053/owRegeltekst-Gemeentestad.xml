@@ -19,41 +19,30 @@
 			<sl:gebied>Gemeentestad</sl:gebied>
 			<sl:leveringsId>id-publicatie-1234</sl:leveringsId>
 			<sl:objectTypen>
-				<sl:objectType>Gebied</sl:objectType>
-				<sl:objectType>Gebiedengroep</sl:objectType>
+				<sl:objectType>Regeltekst</sl:objectType>
+				<sl:objectType>RegelVoorIedereen</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
+		<!-- artikel 2.5 -->
 		<sl:stand>
 			<ow-dc:owObject>
-				<l:Gebiedengroep>
-					<l:identificatie>nl.imow-gm0297.gebiedengroep.20190000001</l:identificatie>
-					<l:groepselement>
-						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
-						<l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000002"/>
-					</l:groepselement>
-				</l:Gebiedengroep>
+				<r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1"> 
+					<r:identificatie>nl.imow-gm0297.regeltekst.2019000001</r:identificatie>
+				</r:Regeltekst>
 			</ow-dc:owObject>
 		</sl:stand>
 		<sl:stand>
 			<ow-dc:owObject>
-				<l:Gebied>
-					<l:identificatie>nl.imow-gm0297.gebied.20190000001</l:identificatie>
-					<l:noemer>Goed gebied 1</l:noemer>
-					<l:geometrie>
-						<l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
-					</l:geometrie>
-				</l:Gebied>
-			</ow-dc:owObject>
-		</sl:stand>
-		<sl:stand>
-			<ow-dc:owObject>
-				<l:Gebied>
-					<l:identificatie>nl.imow-gm0297.gebied.20190000002</l:identificatie>
-					<l:noemer>Goed gebied 2</l:noemer>
-					<l:geometrie>
-						<l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409E"/>
-					</l:geometrie>
-				</l:Gebied>
+				<r:RegelVoorIedereen>
+					<r:identificatie>nl.imow-gm0297.juridischeregel.2019000001</r:identificatie>
+					<r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+					<r:artikelOfLid>
+						<r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.2019000001"/>
+					</r:artikelOfLid>
+					<r:locatieaanduiding>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
+					</r:locatieaanduiding>
+				</r:RegelVoorIedereen>
 			</ow-dc:owObject>
 		</sl:stand>
 	</sl:standBestand>
