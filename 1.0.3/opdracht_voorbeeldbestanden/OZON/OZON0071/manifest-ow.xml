@@ -18,7 +18,7 @@
     <Bestand>
       <naam>owRegeltekst-Gemeentestad.xml</naam>
       <objecttype>Regeltekst</objecttype>
-      <objecttype>RegelVoorIedereen</objecttype>
+      <objecttype>Instructieregel</objecttype>
     </Bestand>
     <Bestand>
       <naam>owRegelingsgebied.xml</naam>

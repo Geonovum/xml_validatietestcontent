@@ -20,7 +20,7 @@
 			<sl:leveringsId>id-publicatie-1234</sl:leveringsId>
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
-				<sl:objectType>RegelVoorIedereen</sl:objectType>
+				<sl:objectType>Instructieregel</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->

@@ -20,7 +20,8 @@
 			<sl:leveringsId>id-publicatie-1234</sl:leveringsId>
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
-				<sl:objectType>Instructieregel</sl:objectType>
+				<sl:objectType>RegelVoorIedereen</sl:objectType>
+				<sl:objectType>Gebiedsaanwijzing</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -33,7 +34,7 @@
 		</sl:stand>
 		<sl:stand>
 			<ow-dc:owObject>
-				<r:Instructieregel>
+				<r:RegelVoorIedereen>
 					<r:identificatie>nl.imow-gm0297.juridischeregel.2019000001</r:identificatie>
 					<r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
 					<r:artikelOfLid>
@@ -44,8 +45,20 @@
 						<l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.20190000001"/>
 						<l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
 					</r:locatieaanduiding>
-					<r:instructieregelTaakuitoefening>http://standaarden.omgevingswet.overheid.nl/NietInWaardelijst</r:instructieregelTaakuitoefening>
-				</r:Instructieregel>
+				</r:RegelVoorIedereen>
+			</ow-dc:owObject>
+		</sl:stand>
+		<sl:stand>
+			<ow-dc:owObject>
+				<ga:Gebiedsaanwijzing>
+					<ga:identificatie>nl.imow-gm0297.gebiedsaanwijzing.2019000001</ga:identificatie>
+					<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Bodem_TypeGebiedsaanwijzing</ga:type>
+					<ga:naam>ABC</ga:naam>
+					<ga:groep>http://standaarden.omgevingswet.overheid.nl/NietInWaardelijst</ga:groep>
+					<ga:locatieaanduiding>
+						<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
+					</ga:locatieaanduiding>
+				</ga:Gebiedsaanwijzing>
 			</ow-dc:owObject>
 		</sl:stand>
 	</sl:standBestand>

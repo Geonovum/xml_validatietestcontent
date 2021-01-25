@@ -18,8 +18,8 @@
     <Bestand>
       <naam>owRegeltekst-Gemeentestad.xml</naam>
       <objecttype>Regeltekst</objecttype>
-      <objecttype>Omgevingswaarderegel</objecttype>
-      <objecttype>Omgevingswaarde</objecttype>
+      <objecttype>RegelVoorIedereen</objecttype>
+      <objecttype>Gebiedsaanwijzing</objecttype>
     </Bestand>
     <Bestand>
       <naam>owRegelingsgebied.xml</naam>

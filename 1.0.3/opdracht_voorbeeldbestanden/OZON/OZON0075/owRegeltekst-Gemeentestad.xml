@@ -20,7 +20,8 @@
 			<sl:leveringsId>id-publicatie-1234</sl:leveringsId>
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
-				<sl:objectType>RegelVoorIedereen</sl:objectType>
+				<sl:objectType>Omgevingswaarderegel</sl:objectType>
+				<sl:objectType>Omgevingswaarde</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
