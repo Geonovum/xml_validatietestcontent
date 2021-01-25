@@ -63,7 +63,7 @@
 				<rol:Activiteit>
 					<rol:identificatie>nl.imow-gm0297.activiteit.2019000001</rol:identificatie>
 					<rol:naam>Naam</rol:naam>
-					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenLuchthaven</rol:groep>
+					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/NietInWaardelijst</rol:groep>
 					<rol:bovenliggendeActiviteit>
 						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.Bovenliggend"/>
 					</rol:bovenliggendeActiviteit>
