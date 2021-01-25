@@ -41,8 +41,6 @@
 					</r:artikelOfLid>
 					<r:locatieaanduiding>
 						<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.20190000001"/>
-						<l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
 					</r:locatieaanduiding>
 					<r:omgevingswaardeaanduiding>
 						<rol:OmgevingswaardeRef xlink:href="nl.imow-gm0297.omgevingswaarde.2019000001"/>
@@ -61,8 +59,6 @@
 							<rol:identificatie>nl.imow-gm0297.normwaarde.2019000001</rol:identificatie>
 							<rol:locatieaanduiding>
 								<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
-								<l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.20190000001"/>
-								<l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
 							</rol:locatieaanduiding>
 						</rol:Normwaarde>
 					</rol:normwaarde>
