@@ -45,6 +45,9 @@
 						<l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.20190000001"/>
 						<l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
 					</r:locatieaanduiding>
+					<r:gebiedsaanwijzing>
+						<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0297.gebiedsaanwijzing.2019000001"/>
+					</r:gebiedsaanwijzing>
 				</r:RegelVoorIedereen>
 			</ow-dc:owObject>
 		</sl:stand>
