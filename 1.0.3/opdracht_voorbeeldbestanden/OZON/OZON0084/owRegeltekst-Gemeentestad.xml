@@ -46,26 +46,6 @@
 						<l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
 					</r:locatieaanduiding>
 					<r:activiteitaanduiding>
-						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000001"/>
-						<r:ActiviteitLocatieaanduiding>
-							<r:identificatie>nl.imow-gm0297.activiteitlocatieaanduiding.2019000001</r:identificatie>
-							<r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
-							<r:locatieaanduiding>
-								<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
-							</r:locatieaanduiding>
-						</r:ActiviteitLocatieaanduiding>
-					</r:activiteitaanduiding>
-					<r:activiteitaanduiding>
-						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.201900005"/>
-						<r:ActiviteitLocatieaanduiding>
-							<r:identificatie>nl.imow-gm0297.activiteitlocatieaanduiding.2019000001</r:identificatie>
-							<r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
-							<r:locatieaanduiding>
-								<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
-							</r:locatieaanduiding>
-						</r:ActiviteitLocatieaanduiding>
-					</r:activiteitaanduiding>
-					<r:activiteitaanduiding>
 						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.20190002453"/>
 						<r:ActiviteitLocatieaanduiding>
 							<r:identificatie>nl.imow-gm0297.activiteitlocatieaanduiding.2019000001</r:identificatie>
@@ -77,21 +57,6 @@
 					</r:activiteitaanduiding>
 				</r:RegelVoorIedereen>
 			</ow-dc:owObject>
-		</sl:stand>
-		<sl:stand>
-			<ow-dc:owObject>
-				<rol:Activiteit>
-					<rol:identificatie>nl.imow-gm0297.activiteit.201900005</rol:identificatie>
-					<rol:naam>exploiteren van een verkooppunt voor motorbrandstoffen niet zijnde lpg</rol:naam>
-					<rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitDetailhandel</rol:groep>
-					<rol:gerelateerdeActiviteit>
-						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.201900005"/>
-					</rol:gerelateerdeActiviteit>
-					<rol:bovenliggendeActiviteit>
-						<rol:ActiviteitRef xlink:href="nl.imow-gm0297.functionele.structuur"/>
-					</rol:bovenliggendeActiviteit>
-				</rol:Activiteit>
-			</ow-dc:owObject>	
 		</sl:stand>
 		<sl:stand>
 			<ow-dc:owObject>
