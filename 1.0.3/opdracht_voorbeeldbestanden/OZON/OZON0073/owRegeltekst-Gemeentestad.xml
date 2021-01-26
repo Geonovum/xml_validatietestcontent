@@ -21,7 +21,6 @@
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
-				<sl:objectType>Activiteit</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -50,7 +49,7 @@
 						<r:ActiviteitLocatieaanduiding>
 							<r:identificatie>nl.imow-gm0297.activiteitlocatieaanduiding.2019000001</r:identificatie>
 							<!-- FOUT: OZON0070	Het veld RegelVoorIedereen.activiteitregelkwalificatie moet een waarde bevatten uit de waardelijst ActiviteitRegelkwalificatie. -->
-							<r:activiteitregelkwalificatie>https://wetgeving.omgevingswet.overheid.nl/NietInWaardelijst</r:activiteitregelkwalificatie>
+							<r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
 							<r:locatieaanduiding>
 								<l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
 							</r:locatieaanduiding>
