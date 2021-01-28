@@ -3,8 +3,7 @@
 
 echo $1
 cd $1;
-R=cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1;
-RANDOM="$R";
+RANDOM=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1);
 NEWLINE="<idLevering>id-publicatie-$1-$RANDOM</idLevering>";
 echo $NEWLINE;
 echo "$RANDOM";
