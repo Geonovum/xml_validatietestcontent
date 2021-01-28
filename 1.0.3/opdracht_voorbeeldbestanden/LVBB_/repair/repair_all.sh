@@ -8,4 +8,4 @@ for d in *; do
 	  repair/repair_one.sh $d;
 	fi
 done
-rm ../opdrachten_gereed/opdracht_repair.zip
+rm ../opdrachten_gereed/opdracht_repair*.zip
