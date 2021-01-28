@@ -16,7 +16,7 @@ echo $NEWLINE;
 echo $NEWLINE;
 echo $FILENAMEPART;
 echo $FILENAMEPART;
-so d -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
+sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
 zip a ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 git add *;
