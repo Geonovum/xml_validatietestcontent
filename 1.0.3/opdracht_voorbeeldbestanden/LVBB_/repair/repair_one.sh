@@ -9,7 +9,7 @@ tr -dc '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
 
 echo $1
 cd $1;
-RANDOM=$(randomstring)
+RANDOM=tr -dc '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
 NEWLINE="<idLevering>id-publicatie-$1-$RANDOM</idLevering>";
 echo $NEWLINE;
 echo "$RANDOM";
