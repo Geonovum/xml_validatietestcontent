@@ -12,6 +12,7 @@ cd $1;
 RANDOM=tr -dc '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
 NEWLINE="<idLevering>id-publicatie-$1-$RANDOM</idLevering>";
 echo $NEWLINE;
+echo $NEWLINE;
 echo $1-$RANDOM;
 echo $1-$RANDOM;
 sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
