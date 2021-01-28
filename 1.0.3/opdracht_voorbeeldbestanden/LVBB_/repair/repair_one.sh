@@ -2,7 +2,7 @@
 
 echo $1
 cd $1;
-RANDOM=tr -dc '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
+RANDOM=tr -d -c '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
 FILENAMEPART=$1_$RANDOM
 NEWLINE="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
 sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
