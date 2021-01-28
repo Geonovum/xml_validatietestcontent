@@ -2,7 +2,7 @@
 
 randomstring()
 {
-    cat /dev/urandom | tr -dc 'a-zA-Z0-9' | head -c 32
+tr -dc '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
 }
 
 
