@@ -1,9 +1,15 @@
 #!/usr/bin/sh
 
+randomstring()
+{
+    cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w ${1:-32} | head -n 1
+}
+
+
 
 echo $1
 cd $1;
-RANDOM=random-string 16
+RANDOM=$(randomstring)
 NEWLINE="<idLevering>id-publicatie-$1-$RANDOM</idLevering>";
 echo $NEWLINE;
 echo "$RANDOM";
@@ -16,7 +22,3 @@ git add ../../opdrachten_gereed/opdracht_$1_$RANDOM.zip;
 git commit -a -m $1;git push;
 cd ..;
 
-random-string()
-{
-    cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w ${1:-32} | head -n 1
-}
