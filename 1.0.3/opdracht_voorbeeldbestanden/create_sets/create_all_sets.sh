@@ -8,4 +8,3 @@ for d in *; do
 	  ../create_sets/create_one_set.sh $d;
 	fi
 done
-rm ../opdrachten_gereed/opdracht_create_sets*.zip
