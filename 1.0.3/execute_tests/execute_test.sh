@@ -15,9 +15,10 @@ if [[ -n $FINDNUMBER ]]; then
 	if [[ $NUMFILE -eq 0 ]]; then
 		echo "No files found in $ZIPFILE_DIR with wildcard opdracht_$FINDNUMBER*.zip" 
 	else
-		FILES=$(find $ZIPFILE_DIR -name "opdracht_$FINDNUMBER*.zip" -print);
+		FILES=$(find $ZIPFILE_DIR -name "$FINDNUMBER*" -print);
 		for file in $FILES; do
-			execute_command "$file" "$LOGLEVEL"
+			echo $file
+			#execute_command "$file" "$LOGLEVEL"
 		done
 	fi
 else
