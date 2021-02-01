@@ -11,7 +11,7 @@ echo "<result>" > result.xml
 if [[ -n $FINDNUMBER ]]; then
 	echo "Processing with argument $FINDNUMBER";
 	#find file and test if is a directory
-	NUMFILE=$(find $ZIPFILE_DIR -name "opdracht_$FINDNUMBER*.zip"|wc -l)
+	NUMFILE=$(find $ZIPFILE_DIR -name "$FINDNUMBER*"|wc -l)
 	if [[ $NUMFILE -eq 0 ]]; then
 		echo "No files found in $ZIPFILE_DIR with wildcard opdracht_$FINDNUMBER*.zip" 
 	else
