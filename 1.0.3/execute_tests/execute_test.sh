@@ -17,11 +17,11 @@ if [[ -n $FINDNUMBER ]]; then
 	else
 		FILES=$(find $ZIPFILE_DIR -name "$FINDNUMBER*" -print);
 		for file in $FILES; do
-			echo $file
+			echo $file;
 			#execute_command "$file" "$LOGLEVEL"
 		done
 	fi
 else
-	echo "wait"
+	echo "wait";
 fi
 echo "</result>" >> result.xml
