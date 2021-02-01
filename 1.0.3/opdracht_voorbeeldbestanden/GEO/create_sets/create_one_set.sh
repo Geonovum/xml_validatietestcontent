@@ -12,7 +12,7 @@ if command -v zip &> /dev/null
 then
 	zip a ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 else
-	unzip u ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
+	unzip -u ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 fi
 
 git add *;
