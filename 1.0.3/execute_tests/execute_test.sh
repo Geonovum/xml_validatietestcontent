@@ -22,5 +22,6 @@ if [[ -n $FINDNUMBER ]]; then
 		done
 	fi
 else
+	echo "wait"
 fi
 echo "</result>" >> result.xml
