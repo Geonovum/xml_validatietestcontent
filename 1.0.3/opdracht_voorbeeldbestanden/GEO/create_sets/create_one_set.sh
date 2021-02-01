@@ -7,7 +7,14 @@ FILENAMEPART=$1_$RANDOM
 NEWLINE="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
 sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
-zip a ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
+
+if command -v zip &> /dev/null
+then
+	zip a ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
+else
+	unzip u ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
+fi
+
 git add *;
 git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
 git commit -a -m $1;git push;
