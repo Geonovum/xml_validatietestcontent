@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <geo:GeoInformatieObjectVaststelling xmlns:basisgeo="http://www.geostandaarden.nl/basisgeometrie/1.0" xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
     xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:gio="https://standaarden.overheid.nl/stop/imop/gio/" xmlns:gml="http://www.opengis.net/gml/3.2"
-    xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/" schemaversie="1.0.4-rc">
+    xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/" schemaversie="1.0.3">
     <geo:ValideertNietTegenSchema>
         <gio:GeografischeContext>
             <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
