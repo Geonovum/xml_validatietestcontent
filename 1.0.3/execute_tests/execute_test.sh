@@ -22,12 +22,14 @@ creating_zipfile_with_unique_levering_id () {
 	#changing opdracht.xml and creating zipfile
 	cp $directory/opdracht.xml opdracht.bak;
 	sed -i "s|.*idLevering.*|$NEWLINE|" $directory/opdracht.xml
-	zip "opdracht_$FILENAMEPART.zip" $directory/*;
+	cd $directory
+	zip "opdracht_$FILENAMEPART.zip" *;
+	cd -
 	mv opdracht.bak $directory/opdracht.xml;
 
 	#execute keten-test
-	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$FILENAMEPART" --conversation_id "$FILENAMEPART" --oin 00000001812579446000 --opdracht valideren "opdracht_$FILENAMEPART.zip")
-	rm "opdracht_$FILENAMEPART.zip";
+	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$FILENAMEPART" --conversation_id "$FILENAMEPART" --oin 00000001812579446000 --opdracht valideren "$directory/opdracht_$FILENAMEPART.zip")
+	rm "$directory/opdracht_$FILENAMEPART.zip";
 
 	#wait 10 seconds for keten to create results
 	sleep 10
