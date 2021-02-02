@@ -15,18 +15,28 @@ creating_zipfile_with_unique_levering_id () {
 	log_level=""
 	echo "Processing $directory $directoryname"
 
-	#building sed-command
-	RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
-	FILENAMEPART="$directoryname-$RANDOM"
-	NEWLINE="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
+	#building levering-id-sed-command
+	RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
+	FILENAMEPART="$directoryname-$RANDOM1"
+	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
+
+	#building AKN-sed
+	RANDOM2=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
+	AKNPART="$directoryname$RANDOM2"
+	NEWLINE2="<FRBRWork>/akn/nl/bill/gm0297/2019/$AKNPART</FRBRWork>";
+	NEWLINE3="<FRBRExpression>/akn/nl/bill/gm0297/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
 
 	#changing opdracht.xml and creating zipfile
 	cp $directory/opdracht.xml opdracht.bak;
-	sed -i "s|.*idLevering.*|$NEWLINE|" $directory/opdracht.xml
+	cp $directory/akn_nl_bill_gm0297-3520-01.xml akn_nl_bill_gm0297-3520-01.bak;
+	sed -i "s|.*idLevering.*|$NEWLINE1|" $directory/opdracht.xml
+	sed -i "s|.*FRBRWork>/akn/nl/bill/gm0297/2019/.*|$NEWLINE2|" $directory/akn_nl_bill_gm0297-3520-01.xml
+	sed -i "s|.*FRBRExpression>/akn/nl/bill/gm0297/2019/.*|$NEWLINE3|" $directory/akn_nl_bill_gm0297-3520-01.xml
 	cd $directory
 	zip "opdracht_$FILENAMEPART.zip" *;
 	cd -
 	mv opdracht.bak $directory/opdracht.xml;
+	mv akn_nl_bill_gm0297-3520-01.bak $directory/akn_nl_bill_gm0297-3520-01.xml;
 
 	#execute keten-test
 	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$FILENAMEPART" --conversation_id "$FILENAMEPART" --oin 00000001812579446000 --opdracht valideren "$directory/opdracht_$FILENAMEPART.zip")
