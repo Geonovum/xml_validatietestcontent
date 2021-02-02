@@ -11,6 +11,7 @@ resultfile="../results/result$dt.xml"
 creating_zipfile_with_unique_levering_id () {
 	directory=$1
         directoryname=$(basename $directory)
+	echo "<fileset>$directoryname</fileset>" >> $resultfile
 	log_level=""
 	echo "Processing $directory $directoryname"
 
