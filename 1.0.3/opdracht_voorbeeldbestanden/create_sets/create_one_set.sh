@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo ""
 echo $1
 cd $1;
 RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
