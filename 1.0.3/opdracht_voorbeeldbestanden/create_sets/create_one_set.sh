@@ -29,7 +29,7 @@ FILENAMEPART=$directoryname_$RANDOM
 	FILES=$(find . -name "*.gml" -print);
 	for file in $FILES; do
 		SHA512=$(sha512sum $file)
-		HASH=${SHA512% }
+		HASH=${SHA512% *}
 		NEWLINE4="<hash>$HASH</hash>"
 		filewithoutextension=${file%.gml}
 		giofile="$filewithoutextension.xml"
