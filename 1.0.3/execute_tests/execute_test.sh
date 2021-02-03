@@ -10,21 +10,21 @@ resultfile="../results/result$dt.xml"
 
 creating_zipfile_with_unique_levering_id () {
 	directory=$1
-        directoryname=$(basename $directory)
+    directoryname=$(basename $directory)
 	echo "<fileset>$directoryname</fileset>" >> $resultfile
 	log_level=""
 	echo "Processing $directory $directoryname"
-
+	
 	#building levering-id-sed-command
-	RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
-	FILENAMEPART="$directoryname-$RANDOM1"
+	FILENAMEPART="$directoryname-$RANDOM"
 	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
 
 	#building AKN-sed
-	RANDOM2=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
-	AKNPART="$directoryname$RANDOM2"
+	AKNPART="$directoryname$RANDOM"
 	NEWLINE2="<FRBRWork>/akn/nl/bill/gm0297/2019/$AKNPART</FRBRWork>";
 	NEWLINE3="<FRBRExpression>/akn/nl/bill/gm0297/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
+
+	#changing opdracht.xml and creating zipfile
 
 	#changing opdracht.xml and creating zipfile
 	cp $directory/opdracht.xml opdracht.bak;
