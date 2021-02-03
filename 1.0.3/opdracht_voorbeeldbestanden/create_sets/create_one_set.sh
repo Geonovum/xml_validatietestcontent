@@ -4,8 +4,11 @@ echo $1
 cd $1;
 cp opdracht.xml opdracht.bak
 cp akn_nl_bill_gm0297-3520-01.xml akn_nl_bill_gm0297-3520-01.bak
-RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
-FILENAMEPART=$1_$RANDOM
+#RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
+#FILENAMEPART=$1_$RANDOM
+
+directoryname=$1
+FILENAMEPART=$directoryname_$RANDOM
 
 #building levering-id-sed-command
 	RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
@@ -23,8 +26,8 @@ FILENAMEPART=$1_$RANDOM
 	sed -i "s|.*FRBRWork>/akn/nl/bill/gm0297/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/gm0297/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
 
-NEWLINE="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
-sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
+#NEWLINE="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
+#sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
 
 zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
