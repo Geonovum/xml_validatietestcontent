@@ -37,12 +37,15 @@ FILENAMEPART=$directoryname_$RANDOM
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
 	done
 	
+	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
+	OW1=${OW%"</FRBRWork>"}
+	OLDWORD=${OW1##*/}
 	NEWWORD="$directoryname$RANDOM"
 	#changing reg456
-	FILES=$(grep -l reg456 *);
+	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
-		echo "changing reg456 to $NEWWORD in $file" 
-		sed -i "s|reg456|$NEWWORD|" $file
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 	
 
