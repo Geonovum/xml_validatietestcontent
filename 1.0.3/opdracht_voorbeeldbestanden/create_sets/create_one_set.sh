@@ -30,7 +30,7 @@ FILENAMEPART=$directoryname_$RANDOM
 		SHA512=$(sha512sum $file)
 		HASH=${SHA512% *}
 		NEWLINE4="<hash>$HASH"
-		gioname=filewithoutextension=${file%.gml}
+		filewithoutextension=${file%.gml}
 		giofile="$filewithoutextension.xml"
 		echo "changing hash to $NEWLINE4 in $giofile" 
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
