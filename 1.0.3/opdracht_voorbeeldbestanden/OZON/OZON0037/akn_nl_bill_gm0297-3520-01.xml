@@ -6,8 +6,8 @@
 	schemaversie="1.0.3">
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<FRBRWork>/akn/nl/bill/gm0297/2019/OZON003729144</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/OZON003729144/nld@2019-06-27</FRBRExpression>
+<FRBRWork>/akn/nl/bill/gm0297/2019/OZON00375225</FRBRWork>
+<FRBRExpression>/akn/nl/bill/gm0297/2019/OZON00375225/nld@2019-06-27</FRBRExpression>
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
