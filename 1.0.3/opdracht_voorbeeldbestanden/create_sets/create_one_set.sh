@@ -44,7 +44,7 @@ FILENAMEPART=$directoryname_$RANDOM
 	#changing reg456
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
-		echo "changing /akn/nl/act/$OLDWORD to /akn/nl/act/$NEWWORD in $file" 
+		echo "changing /akn/nl/act.....$OLDWORD to /akn/nl/act.....$NEWWORD in $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 	
