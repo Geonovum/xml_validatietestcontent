@@ -47,5 +47,7 @@ git add *;
 echo ""
 git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
 echo ""
-git commit -a -m $1;git push;
+git commit -a -m $1;
+echo ""
+git push;
 cd ..;
