@@ -3,15 +3,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.overheid.nl/2017/lvbb"
   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../../lvbb/lvbb-transport.xsd">
-<<<<<<< HEAD
-<idLevering>id-publicatie-GEO0001-21052</idLevering>
-=======
-<<<<<<< HEAD
-<idLevering>id-publicatie-GEO0001-21052</idLevering>
-=======
-<idLevering>id-publicatie-GEO0001-21052</idLevering>
->>>>>>> 46fa3fac5be85e41c69eb3bc59f2af23be516f5f
->>>>>>> a9614adde9d1ef921b9f658dd2af25531d04eed6
+<idLevering>id-publicatie-GEO0001-21768</idLevering>
   <idBevoegdGezag>00000001812579446000</idBevoegdGezag> 
   <idAanleveraar>00000003560458830000</idAanleveraar>
   <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>

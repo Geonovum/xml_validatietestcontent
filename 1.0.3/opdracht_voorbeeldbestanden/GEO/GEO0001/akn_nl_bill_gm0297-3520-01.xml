@@ -6,18 +6,8 @@
 	schemaversie="1.0.3">
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<<<<<<< HEAD
-<FRBRWork>/akn/nl/bill/gm0297/2019/GEO00012775</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/GEO00012775/nld@2019-06-27</FRBRExpression>
-=======
-<<<<<<< HEAD
-<FRBRWork>/akn/nl/bill/gm0297/2019/GEO00012775</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/GEO00012775/nld@2019-06-27</FRBRExpression>
-=======
-<FRBRWork>/akn/nl/bill/gm0297/2019/GEO00012775</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/GEO00012775/nld@2019-06-27</FRBRExpression>
->>>>>>> 46fa3fac5be85e41c69eb3bc59f2af23be516f5f
->>>>>>> a9614adde9d1ef921b9f658dd2af25531d04eed6
+<FRBRWork>/akn/nl/bill/gm0297/2019/GEO0001482</FRBRWork>
+<FRBRExpression>/akn/nl/bill/gm0297/2019/GEO0001482/nld@2019-06-27</FRBRExpression>
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -57,11 +47,7 @@
 					<doelen>
 						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
 					</doelen>
-<<<<<<< HEAD
-					<instrumentVersie>/akn/nl/act/gm0297/2019/GEO000132636/nld@2019-06-25;1</instrumentVersie>
-=======
-					<instrumentVersie>/akn/nl/act/gm0297/2019/GEO000116249/nld@2019-06-25;1</instrumentVersie>
->>>>>>> a9614adde9d1ef921b9f658dd2af25531d04eed6
+					<instrumentVersie>/akn/nl/act/gm0297/2019/GEO00019651/nld@2019-06-25;1</instrumentVersie>
 					<eId>art_I</eId>
 				</BeoogdeRegeling>
 				<BeoogdInformatieobject>
@@ -126,11 +112,7 @@
 					<Nummer>A</Nummer>
 					<Opschrift>Bijlage bij artikel I</Opschrift>
 				</Kop>
-<<<<<<< HEAD
-				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/GEO000132636/nld@2019-06-25;1">
-=======
-				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/GEO000116249/nld@2019-06-25;1">
->>>>>>> a9614adde9d1ef921b9f658dd2af25531d04eed6
+				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/GEO00019651/nld@2019-06-25;1">
 					<RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
 						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
@@ -206,8 +188,8 @@
 	</BesluitVersie>
 	<RegelingVersieInformatie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<FRBRWork>/akn/nl/act/gm0297/2019/GEO000116249</FRBRWork>
-			<FRBRExpression>/akn/nl/act/gm0297/2019/GEO000116249/nld@2019-06-25;1</FRBRExpression>
+			<FRBRWork>/akn/nl/act/gm0297/2019/GEO00019651</FRBRWork>
+			<FRBRExpression>/akn/nl/act/gm0297/2019/GEO00019651/nld@2019-06-25;1</FRBRExpression>
 			<soortWork>/join/id/stop/work_019</soortWork>
 		</ExpressionIdentificatie>
 		<RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
