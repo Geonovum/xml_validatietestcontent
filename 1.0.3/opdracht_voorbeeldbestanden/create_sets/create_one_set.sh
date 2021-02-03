@@ -21,8 +21,6 @@ FILENAMEPART=$directoryname_$RANDOM
 	sed -i "s|.*FRBRWork>/akn/nl/bill/gm0297/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/gm0297/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
 
-#NEWLINE="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
-#sed -i "s|.*idLevering.*|$NEWLINE|" opdracht.xml
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
 
 zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
