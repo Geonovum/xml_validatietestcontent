@@ -7,7 +7,7 @@
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
 			<FRBRWork>/akn/ongeldig_land/bill/gm0297/2019/3520</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB200928481/nld@2019-06-27</FRBRExpression>
+<FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB200928909/nld@2019-06-27</FRBRExpression>
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
