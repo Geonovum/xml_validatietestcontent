@@ -83,7 +83,7 @@
 						<Label>Artikel</Label>
 						<Nummer>I</Nummer>
 					</Kop>
-					<Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in Bijlage A worden vastgesteld.</Wat>
+					<Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A">Bijlage A</IntRef> worden vastgesteld.</Wat>
 				</WijzigArtikel>
 				<Artikel eId="art_II" wId="gm0297_1__art_II">
 					<Kop>
