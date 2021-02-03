@@ -6,8 +6,8 @@
 	schemaversie="1.0.3">
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<FRBRWork>/akn/nl/bill/gm0297/2019/GEO00015156</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/GEO00015156/nld@2019-06-27</FRBRExpression>
+<FRBRWork>/akn/nl/bill/gm0297/2019/GEO000111036</FRBRWork>
+<FRBRExpression>/akn/nl/bill/gm0297/2019/GEO000111036/nld@2019-06-27</FRBRExpression>
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -23,7 +23,7 @@
 			</rechtsgebieden>
 			<soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
 			<informatieobjectRefs>
-				<informatieobjectRef>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;35201</informatieobjectRef>
+				<informatieobjectRef>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</informatieobjectRef>
 			</informatieobjectRefs>
 		</BesluitMetadata>
 		<Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -47,14 +47,14 @@
 					<doelen>
 						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
 					</doelen>
-					<instrumentVersie>/akn/nl/act/gm0297/2019/GEO000130261/nld@2019-06-25;35201</instrumentVersie>
+					<instrumentVersie>/akn/nl/act/gm0297/2019/GEO000119528/nld@2019-06-25;1</instrumentVersie>
 					<eId>art_I</eId>
 				</BeoogdeRegeling>
 				<BeoogdInformatieobject>
 					<doelen>
 						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
 					</doelen>
-					<instrumentVersie>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;35201</instrumentVersie>
+					<instrumentVersie>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</instrumentVersie>
 					<eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
 				</BeoogdInformatieobject>
 			</BeoogdeRegelgeving>
@@ -77,7 +77,7 @@
 				<Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
 				<Al>besluit:</Al>
 			</Aanhef>
-			<Lichaam eId="body_2" wId="body_2">
+			<Lichaam eId="body_1" wId="body_1">
 				<WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
 					<Kop>
 						<Label>Artikel</Label>
@@ -112,7 +112,7 @@
 					<Nummer>A</Nummer>
 					<Opschrift>Bijlage bij artikel I</Opschrift>
 				</Kop>
-				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/GEO000130261/nld@2019-06-25;1">
+				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/GEO000119528/nld@2019-06-25;1">
 					<RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
 						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
@@ -174,7 +174,7 @@
 										<Definitie>
 											<Al>
 												<ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-													ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;35201">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;35201</ExtIoRef>
+													ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
 											</Al>
 										</Definitie>
 									</Begrip>
@@ -188,8 +188,8 @@
 	</BesluitVersie>
 	<RegelingVersieInformatie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<FRBRWork>/akn/nl/act/gm0297/2019/GEO000130261</FRBRWork>
-			<FRBRExpression>/akn/nl/act/gm0297/2019/GEO000130261/nld@2019-06-25;1</FRBRExpression>
+			<FRBRWork>/akn/nl/act/gm0297/2019/GEO000119528</FRBRWork>
+			<FRBRExpression>/akn/nl/act/gm0297/2019/GEO000119528/nld@2019-06-25;1</FRBRExpression>
 			<soortWork>/join/id/stop/work_019</soortWork>
 		</ExpressionIdentificatie>
 		<RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
