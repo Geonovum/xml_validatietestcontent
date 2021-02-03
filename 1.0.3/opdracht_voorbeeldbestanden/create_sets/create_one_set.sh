@@ -17,9 +17,24 @@ FILENAMEPART=$directoryname_$RANDOM
 	NEWLINE3="<FRBRExpression>/akn/nl/bill/gm0297/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
 
 	#changing opdracht.xml and creating zipfile
+	echo "changing levering_id to $NEWLINE1 in opdracht.xml" 
 	sed -i "s|.*idLevering.*|$NEWLINE1|" opdracht.xml
+	echo "changing FRBRWork to $NEWLINE2 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRWork>/akn/nl/bill/gm0297/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
+	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/gm0297/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
+	
+	#replacing hash in io
+	FILES=$(find . -name "*.gml" -print);
+	for file in $FILES; do
+		SHA512=$(sha512sum $file)
+		HASH=${SHA512% *}
+		NEWLINE4="<hash>$HASH"
+		gioname=filewithoutextension=${filename%.gml}
+		giofile="$filewithoutextension.xml"
+		echo "changing hash to $NEWLINE4 in $giofile" 
+		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
+	done
 
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
 
