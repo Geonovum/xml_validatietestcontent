@@ -42,7 +42,10 @@ rm ../../opdrachten_gereed/opdracht_$1*.zip;
 
 zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 
+echo ""
 git add *;
+echo ""
 git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
+echo ""
 git commit -a -m $1;git push;
 cd ..;
