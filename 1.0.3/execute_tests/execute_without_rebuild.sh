@@ -10,9 +10,7 @@ file=$1;
 filename=${file##*/};
 echo $filename;
 filenamewithoutextension=${filename%.zip}
-echo $filenamewithoutextension
 conversationid=${filenamewithoutextension#*_}
-echo $conversationid
 result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht valideren "$file")
 #wait 10 seconds for keten to create results
 sleep 10
