@@ -30,12 +30,13 @@ FILENAMEPART=$directoryname_$RANDOM
 		SHA512=$(sha512sum $file)
 		HASH=${SHA512% *}
 		NEWLINE4="<hash>$HASH"
-		gioname=filewithoutextension=${filename%.gml}
+		gioname=filewithoutextension=${file%.gml}
 		giofile="$filewithoutextension.xml"
 		echo "changing hash to $NEWLINE4 in $giofile" 
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
 	done
 
+echo ""
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
 
 zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
