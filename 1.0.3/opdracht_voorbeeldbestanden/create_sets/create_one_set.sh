@@ -36,6 +36,15 @@ FILENAMEPART=$directoryname_$RANDOM
 		echo "changing hash to $NEWLINE4 in $giofile" 
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
 	done
+	
+	NEWWORD="$directoryname$RANDOM"
+	#changing reg456
+	FILES=$(grep -l reg456 *);
+	for file in $FILES; do
+		echo "changing reg456 to $NEWWORD in $file" 
+		sed -i "s|reg456|$NEWWORD|" $file
+	done
+	
 
 echo ""
 rm ../../opdrachten_gereed/opdracht_$1*.zip;
