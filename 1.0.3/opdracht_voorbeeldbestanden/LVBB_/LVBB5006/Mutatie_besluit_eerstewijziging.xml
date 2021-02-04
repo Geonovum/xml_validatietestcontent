@@ -38,7 +38,7 @@
                     <doelen>
                         <doel>/join/id/proces/gm0297/2022/eerstewijziging</doel>
                     </doelen>
-                    <instrumentVersie>/akn/nl/act/gm0297/2019/LVBB500625193/nld@2022-01-15;2</instrumentVersie>
+                    <instrumentVersie>/akn/nl/act/gm0297/2019/LVBB500629725/nld@2022-01-15;2</instrumentVersie>
                     <eId>art_II</eId>
                 </BeoogdeRegeling>
             </BeoogdeRegelgeving>
@@ -95,7 +95,7 @@
                     <Nummer>A</Nummer>
                     <Opschrift>Bijlage bij Artikel I</Opschrift>
                 </Kop>
-                <RegelingMutatie componentnaam="wijziging_reg" was="" wordt="/akn/nl/act/gm0297/2019/LVBB500625193/nld@2022-01-15;2">
+                <RegelingMutatie componentnaam="wijziging_reg" was="" wordt="/akn/nl/act/gm0297/2019/LVBB500629725/nld@2022-01-15;2">
                     <Vervang wat="gm0297_1__chp_2__subchp_2.2__art_2.5">
                         <Nummer>A</Nummer>
                         <Wat>Artikel 2.5 is vernummerd naar 2.6:</Wat>
@@ -497,8 +497,8 @@
     </BesluitVersie>
     <RegelingVersieInformatie>
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0297/2019/LVBB500625193</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB500625193/nld@2022-01-15;2</FRBRExpression>
+            <FRBRWork>/akn/nl/act/gm0297/2019/LVBB500629725</FRBRWork>
+            <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB500629725/nld@2022-01-15;2</FRBRExpression>
             <soortWork>/join/id/stop/work_019</soortWork>
         </ExpressionIdentificatie>
         <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
