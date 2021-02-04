@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="20.1">
+<project version="21.1">
     <meta>
         <filters directoryPatterns="" filePatterns="Transformatie%201.0.4" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="20.1" xml:space="preserve">
+            <serialized version="21.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>catalogs.v5</String>
@@ -24,6 +24,36 @@
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>1.0.3/lvbb/lvbb-stop-aanlevering.xsd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>ANT (with Saxon 9 EE XSLT support) - Extra geheugen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>1.0.3/opdracht/akn_nl_bill_gm0297-3520-01.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>ANT (with Saxon 9 EE XSLT support) - Extra geheugen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>build.xml</String>
@@ -120,9 +150,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>true</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -174,6 +201,7 @@
                                         <String>${oxygenHome}/lib/log4j.jar</String>
                                         <String>${oxygenHome}/lib/saxon9*.jar</String>
                                         <String>${oxygenHome}/lib/guava-*.jar</String>
+                                        <String>${pdu}/xmltask.jar</String>
                                     </String-array>
                                 </field>
                             </antScenario>

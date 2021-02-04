@@ -23,11 +23,11 @@
   </xs:annotation>
 
   <xs:import namespace="https://standaarden.overheid.nl/stop/imop/data/"
-    schemaLocation="https://standaarden.overheid.nl/stop/1.0.3/imop-data.xsd" />
+    schemaLocation="../stop/imop-data.xsd" />
   <xs:import namespace="https://standaarden.overheid.nl/stop/imop/tekst/"
-    schemaLocation="https://standaarden.overheid.nl/stop/1.0.3/imop-tekst.xsd" />
+    schemaLocation="../stop/imop-tekst.xsd" />
   <xs:import namespace="http://www.opengis.net/se"
-    schemaLocation="http://www.opengis.net/se/1.1.0/FeatureStyle.xsd" />
+    schemaLocation="../extern/opengis/se/1.1.0/FeatureStyle.xsd" />
 
   <!--
     AANLEVEREN BESLUIT
