@@ -6,8 +6,8 @@
 	schemaversie="1.0.3">
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<FRBRWork>/akn/nl/bill/gm0297/2019/LVBB403216236</FRBRWork>
-<FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB403216236/nld@2019-06-27</FRBRExpression>
+<FRBRWork>/akn/nl/bill/gm0297/2019/LVBB40329444</FRBRWork>
+<FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB40329444/nld@2019-06-27</FRBRExpression>
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -47,7 +47,7 @@
 					<doelen>
 						<doel>/join/id/proces/gm0297/2019/Instelling</doel>
 					</doelen>
-					<instrumentVersie>/akn/nl/act/gm0297/2019/LVBB40322668/nld@2019-06-25;1</instrumentVersie>
+					<instrumentVersie>/akn/nl/act/gm0297/2019/LVBB403210823/nld@2019-06-25;1</instrumentVersie>
 					<eId>art_I</eId>
 				</BeoogdeRegeling>
 				<BeoogdInformatieobject>
@@ -112,7 +112,7 @@
 					<Nummer>A</Nummer>
 					<Opschrift>Bijlage bij artikel I</Opschrift>
 				</Kop>
-				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/LVBB40322668/nld@2019-06-25;NIET_IN_BEOOGDE_REGELING">
+				<RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/LVBB403210823/nld@2019-06-25;NIET_IN_BEOOGDE_REGELING">
 					<RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
 						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
@@ -188,8 +188,8 @@
 	</BesluitVersie>
 	<RegelingVersieInformatie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<FRBRWork>/akn/nl/act/gm0297/2019/LVBB40322668</FRBRWork>
-			<FRBRExpression>/akn/nl/act/gm0297/2019/LVBB40322668/nld@2019-06-25;1</FRBRExpression>
+			<FRBRWork>/akn/nl/act/gm0297/2019/LVBB403210823</FRBRWork>
+			<FRBRExpression>/akn/nl/act/gm0297/2019/LVBB403210823/nld@2019-06-25;1</FRBRExpression>
 			<soortWork>/join/id/stop/work_019</soortWork>
 		</ExpressionIdentificatie>
 		<RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
