@@ -27,3 +27,4 @@ for d in *; do
 	fi
 done
 cd ..
+rm opdrachten_gereed/opdracht_-.zip
