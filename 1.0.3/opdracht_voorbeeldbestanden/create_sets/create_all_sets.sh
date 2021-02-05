@@ -2,6 +2,8 @@
 
 # Test alle tekst_nummer directories
 
+if [[ -d GEO ]]; then
+
 cd GEO
 for d in *; do
     if [ -d "$d" ]; then
@@ -28,3 +30,6 @@ for d in *; do
 done
 cd ..
 rm opdrachten_gereed/opdracht_-.zip
+else
+    echo "Please start from directory opdracht_voorbeeldbestanden"
+fi
