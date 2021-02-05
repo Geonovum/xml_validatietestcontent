@@ -6,6 +6,8 @@ FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""
 
+resultfile=~/xml_validatietestcontent/1.0.3/results/result.xml
+
 file=$1;	
 filename=${file##*/};
 echo $filename;
@@ -15,4 +17,11 @@ result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$co
 #wait ?? seconds for keten to create results
 sleep 20
 #get result
-wget -nv --no-check-certificate $result -O result.xml;
+echo "<result>">$resultfile
+wget -nv --no-check-certificate $result -O result;
+echo "<envelop>">>$resultfile
+echo "<test>$conversationid</test>">>$resultfile
+cat result>>$resultfile;
+echo "</envelop>">>$resultfile
+rm result
+echo "</result>">>$resultfile
