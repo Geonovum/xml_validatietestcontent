@@ -56,7 +56,7 @@ FILENAMEPART=$directoryname_$RANDOM
 	#building doel-seds
 	DOELPART="$directoryname$RANDOM"
     NEWLINE5="<DoelID>/join/id/proces/$GEMEENTE/2019/$DOELPART</DoelID>";
-	NEWLINE6="<FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/$DOELPART/nld@2019-06-27</FRBRExpression>"
+	NEWLINE6="<doel>/join/id/proces/$GEMEENTE/2019/$DOELPART</doel>"
 
 	echo "changing <DoelID> to $NEWLINE5 in manifest-ow.xml" 
 	sed -i "s|.*DoelID>/join/id/proces/$GEMEENTE.*|$NEWLINE5|" manifest-ow.xml
