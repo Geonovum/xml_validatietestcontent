@@ -18,12 +18,12 @@ execute_single_file () {
 	#wait ?? seconds for keten to create results
 	sleep 20
 	#get result
-	wget -nv --no-check-certificate $result -O result.xml;
+	wget -nv --no-check-certificate $result -O result;
 	echo "<envelop>">>$resultfile
 	echo "<test>$conversationid</test>">>$resultfile
-	cat result.xml>>$resultfile;
+	cat result>>$resultfile;
 	echo "</envelop>">>$resultfile
-        rm result.xml
+    rm result
 }
 
 
