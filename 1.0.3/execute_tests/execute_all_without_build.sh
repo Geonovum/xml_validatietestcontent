@@ -23,7 +23,7 @@ execute_single_file () {
 	echo "<test>$conversationid</test>">>$resultfile
 	cat result.xml>>$resultfile;
 	echo "</envelop>">>$resultfile
-        rm result
+        rm result.xml
 }
 
 
