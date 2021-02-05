@@ -25,7 +25,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200001</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200001</vt:identificatie>
                <vt:soort>Visie</vt:soort>
                <vt:naam>Visie Leiden</vt:naam>
             </vt:Hoofdlijn>
@@ -34,7 +34,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200002</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200002</vt:identificatie>
                <vt:soort>Opgaven vertaald naar de ruimte</vt:soort>
                <vt:naam>Groen/blauw</vt:naam>
             </vt:Hoofdlijn>
@@ -43,7 +43,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200003</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200003</vt:identificatie>
                <vt:soort>Opgaven vertaald naar de ruimte</vt:soort>
                <vt:naam>Mobiliteit</vt:naam>
             </vt:Hoofdlijn>
@@ -52,7 +52,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200004</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200004</vt:identificatie>
                <vt:soort>Opgaven vertaald naar de ruimte</vt:soort>
                <vt:naam>Duurzame verstedelijking</vt:naam>
             </vt:Hoofdlijn>
@@ -61,7 +61,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200005</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200005</vt:identificatie>
                <vt:soort>Opgaven vertaald naar de ruimte</vt:soort>
                <vt:naam>Infra</vt:naam>
             </vt:Hoofdlijn>
@@ -70,7 +70,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200006</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200006</vt:identificatie>
                <vt:soort>Visie</vt:soort>
                <vt:naam>Conclusie</vt:naam>
             </vt:Hoofdlijn>
@@ -79,7 +79,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200007</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200007</vt:identificatie>
                <vt:soort>Uitwerking per gebied</vt:soort>
                <vt:naam>Leefmilieus</vt:naam>
             </vt:Hoofdlijn>
@@ -88,7 +88,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200008</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200008</vt:identificatie>
                <vt:soort>Leefmilieus</vt:soort>
                <vt:naam>Hoogstedelijk en dynamisch in 2040</vt:naam>
             </vt:Hoofdlijn>
@@ -97,7 +97,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200009</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200009</vt:identificatie>
                <vt:soort>Leefmilieus</vt:soort>
                <vt:naam>Stads en Levendig in 2040</vt:naam>
             </vt:Hoofdlijn>
@@ -106,7 +106,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200010</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200010</vt:identificatie>
                <vt:soort>Opgaven vertaald naar de ruimte</vt:soort>
                <vt:naam>Groen &amp; Luw in 2040</vt:naam>
             </vt:Hoofdlijn>
@@ -115,7 +115,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <vt:Hoofdlijn>
-               <vt:identificatie>nl.imow-gm0546.hoofdlijn.20200011</vt:identificatie>
+               <vt:identificatie>nl.imow-gm0297.hoofdlijn.20200011</vt:identificatie>
                <vt:soort>Ontwikkelperspectief</vt:soort>
                <vt:naam>Zuid-West in 2040</vt:naam>
             </vt:Hoofdlijn>

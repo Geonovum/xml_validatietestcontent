@@ -3,12 +3,12 @@
   schemaversie="1.0.3">
   <InformatieObjectVersie>
     <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <FRBRWork>/join/id/regdata/gm0546/2020/3_groen_en_luw</FRBRWork>
-      <FRBRExpression>/join/id/regdata/gm0546/2020/3_groen_en_luw/nld@2020-08-20</FRBRExpression>
+      <FRBRWork>/join/id/regdata/gm0297/2020/3_groen_en_luw</FRBRWork>
+      <FRBRExpression>/join/id/regdata/gm0297/2020/3_groen_en_luw/nld@2020-08-20</FRBRExpression>
       <soortWork>/join/id/stop/work_010</soortWork>
     </ExpressionIdentificatie>
     <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <heeftGeboorteregeling>/akn/nl/act/gm0546/2020/OVILEI001</heeftGeboorteregeling>
+      <heeftGeboorteregeling>/akn/nl/act/gm0297/2020/OVILEI001</heeftGeboorteregeling>
       <heeftBestanden>
         <heeftBestand>
           <Bestand>
@@ -19,12 +19,12 @@
       </heeftBestanden>
     </InformatieObjectVersieMetadata>
     <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <eindverantwoordelijke>/tooi/id/gemeente/gm0546</eindverantwoordelijke>
-      <maker>/tooi/id/gemeente/gm0546</maker>
+      <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+      <maker>/tooi/id/gemeente/gm0297</maker>
       <alternatieveTitels>
         <alternatieveTitel>3 Groen en luw</alternatieveTitel>
       </alternatieveTitels>
-      <officieleTitel>/join/id/regdata/gm0546/2020/3_groen_en_luw</officieleTitel>
+      <officieleTitel>/join/id/regdata/gm0297/2020/3_groen_en_luw</officieleTitel>
       <publicatieinstructie>TeConsolideren</publicatieinstructie>
       <naamInformatieObject>3 Groen en luw</naamInformatieObject>
       <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>

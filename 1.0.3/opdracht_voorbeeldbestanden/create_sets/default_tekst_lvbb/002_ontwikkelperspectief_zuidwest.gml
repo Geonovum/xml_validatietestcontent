@@ -14,8 +14,8 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0546/2020/ontwikkelperspectief_zuidwest</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0546/2020/ontwikkelperspectief_zuidwest/nld@2020-08-20</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2020/ontwikkelperspectief_zuidwest</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2020/ontwikkelperspectief_zuidwest/nld@2020-08-20</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:geometrie>
