@@ -5,8 +5,8 @@
    ../../lvbb/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/akn/nl/bill/mnre1109/2020/LVBB100412340</FRBRWork>
-         <FRBRExpression>/akn/nl/bill/mnre1109/2020/LVBB100412340/nld@2020-05-11</FRBRExpression>
+         <FRBRWork>/akn/nl/bill/mnre1109/2020/LVBB100420301</FRBRWork>
+         <FRBRExpression>/akn/nl/bill/mnre1109/2020/LVBB100420301/nld@2020-05-11</FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -43,7 +43,7 @@
                <doelen>
                   <doel>/join/id/proces/mnre1109/2020/InstellingInstructie</doel>
                </doelen>
-               <instrumentVersie>/akn/nl/act/mnre1109/2020/LVBB100412340/nld@2020-05-11;1</instrumentVersie>
+               <instrumentVersie>/akn/nl/act/mnre1109/2020/LVBB100420301/nld@2020-05-11;1</instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>
             <BeoogdInformatieobject>
@@ -112,7 +112,7 @@
                <Opschrift>Bijlage bij Artikel I</Opschrift>
             </Kop>
             <RegelingVrijetekst componentnaam="initieel_reg"
-                                wordt="/akn/nl/act/mnre1109/2020/LVBB100412340/nld@2020-05-11;1">
+                                wordt="/akn/nl/act/mnre1109/2020/LVBB100420301/nld@2020-05-11;1">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Instructie aan de gemeente Gemeentestad</Al>
                </RegelingOpschrift>
@@ -285,8 +285,8 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/akn/nl/act/mnre1109/2020/LVBB100412340</FRBRWork>
-         <FRBRExpression>/akn/nl/act/mnre1109/2020/LVBB100412340/nld@2020-05-11;1</FRBRExpression>
+         <FRBRWork>/akn/nl/act/mnre1109/2020/LVBB100420301</FRBRWork>
+         <FRBRExpression>/akn/nl/act/mnre1109/2020/LVBB100420301/nld@2020-05-11;1</FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
