@@ -31,5 +31,5 @@ done
 cd ..
 rm opdrachten_gereed/opdracht_-.zip
 else
-    echo "Please start from directory opdracht_voorbeeldbestanden"
+    echo "Please start from directory opdracht_voorbeeldbestanden."
 fi
