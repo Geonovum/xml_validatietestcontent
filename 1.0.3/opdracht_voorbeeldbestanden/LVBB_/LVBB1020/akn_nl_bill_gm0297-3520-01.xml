@@ -200,6 +200,15 @@
 											</Al>
 										</Definitie>
 									</Begrip>
+									<Begrip eId="cmp_I__content_o_1__list_o_1__item_o_2" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2">
+										<Term>Regelingsgebied</Term>
+										<Definitie>
+											<Al>
+												<ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
+													ref="/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</ExtIoRef>
+											</Al>
+										</Definitie>
+									</Begrip>
 								</Begrippenlijst>
 							</Inhoud>
 						</Divisietekst>
