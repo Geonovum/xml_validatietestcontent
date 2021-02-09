@@ -63,7 +63,6 @@ FILENAMEPART=$directoryname_$RANDOM
 		echo "changing heeftGeboorteregeling to <heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling> in $giofile" 
 		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
 	done
-
 	#building doel-seds
 	DOELPART="$directoryname$RANDOM"
     NEWLINE5="<DoelID>/join/id/proces/$GEMEENTE/2019/$DOELPART</DoelID>";
