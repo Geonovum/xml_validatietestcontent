@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns="http://www.overheid.nl/2017/lvbb">
-n <bestand>
+    <bestand>
      <bestandsnaam>regelingsgebied.gml</bestandsnaam>
      <contentType>application/gml+xml</contentType>
     </bestand>
@@ -12,7 +12,7 @@ n <bestand>
      <bestandsnaam>owLocatieRegelingsgebied.xml</bestandsnaam>
      <contentType>application/xml</contentType>
     </bestand>
-n <bestand>
+    <bestand>
      <bestandsnaam>regelingsgebied.gml</bestandsnaam>
      <contentType>application/gml+xml</contentType>
     </bestand>
