@@ -115,50 +115,58 @@
 					<RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
 						<Al>Omgevingsplan Foute Gebieden</Al>
 					</RegelingOpschrift>
-					<Lichaam eId="body_2" wId="body_2">
-						<Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
-							<Kop>
-								<Label>Hoofdstuk</Label>
-								<Nummer>1</Nummer>
-								<Opschrift>Algemene bepalingen</Opschrift>
-							</Kop>
-							<Gereserveerd/>
-						</Hoofdstuk>
-						<Hoofdstuk eId="chp_2" wId="gm0297_1__chp_2">
-							<Kop>
-								<Label>Hoofdstuk</Label>
-								<Nummer>2</Nummer>
-								<Opschrift>Functietoedeling</Opschrift>
-							</Kop>
-							<Afdeling eId="chp_2__subchp_2.1" wId="gm0297_1__chp_2__subchp_2.1">
-								<Kop>
-									<Label>Afdeling</Label>
-									<Nummer>2.1</Nummer>
-									<Opschrift>Foute Gebieden</Opschrift>
-								</Kop>
-								<Artikel eId="chp_2__subchp_2.1__art_2.1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-									<Kop>
-										<Label>Artikel</Label>
-										<Nummer>2.1</Nummer>
-										<Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
-									</Kop>
-									<Inhoud>
-										<Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1" type="expliciet">
-											<!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
-											<Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '<IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_10__ref_o_1"
-													wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_10__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-													>FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
-												gebruiksactiviteiten:</Lijstaanhef>
-											<Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
-												<LiNummer>a.</LiNummer>
-												<Al> ; </Al>
-											</Li>
-										</Lijst>
-									</Inhoud>
-								</Artikel>
-							</Afdeling>
-						</Hoofdstuk>
-					</Lichaam>
+					<Lichaam xmlns="" eId="body_2" wId="body_2">
+    <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
+        <Kop>
+            <Label>Hoofdstuk</Label>
+            <Nummer>1</Nummer>
+            <Opschrift>Algemene bepalingen</Opschrift>
+        </Kop>
+        <Artikel wId="gm0297_1__chp_1__art_1.1" eId="chp_1__art_1.1">
+            <Kop>
+                <Label>Artikel</Label>
+                <Nummer>1.1</Nummer>
+                <Opschrift>Toepassingsgebied</Opschrift>
+            </Kop>
+            <Inhoud>
+                <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1" wId="gm0297_1__chp_1__art_1.1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Gemeentestad</IntIoRef>.</Al>
+            </Inhoud>
+        </Artikel>
+    </Hoofdstuk>
+    <Hoofdstuk eId="chp_2" wId="gm0297_1__chp_2">
+        <Kop>
+            <Label>Hoofdstuk</Label>
+            <Nummer>2</Nummer>
+            <Opschrift>Functietoedeling</Opschrift>
+        </Kop>
+        <Afdeling eId="chp_2__subchp_2.1" wId="gm0297_1__chp_2__subchp_2.1">
+            <Kop>
+                <Label>Afdeling</Label>
+                <Nummer>2.1</Nummer>
+                <Opschrift>Foute Gebieden</Opschrift>
+            </Kop>
+            <Artikel eId="chp_2__subchp_2.1__art_2.1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
+                <Kop>
+                    <Label>Artikel</Label>
+                    <Nummer>2.1</Nummer>
+                    <Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
+                </Kop>
+                <Inhoud>
+                    <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1" type="expliciet">
+                        <!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
+                        <Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '
+                            <IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">FouteGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
+                            gebruiksactiviteiten:</Lijstaanhef>
+                        <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
+                            <LiNummer>a.</LiNummer>
+                            <Al>;</Al>
+                        </Li>
+                    </Lijst>
+                </Inhoud>
+            </Artikel>
+        </Afdeling>
+    </Hoofdstuk>
+</Lichaam>
 					<Bijlage eId="cmp_I" wId="gm0297_1__cmp_I">
 						<Kop>
 							<Label>Bijlage</Label>
@@ -183,27 +191,7 @@
 					</Bijlage>
 				</RegelingCompact>
 			</WijzigBijlage>
-			<Bijlage eId="cmp_B" wId="gm0297_1__cmp_B">
-				<Kop>
-					<Label>Bijlage</Label>
-					<Nummer>B</Nummer>
-				</Kop>
-				<Divisietekst eId="cmp_B__content_o_1" wId="gm0297_1__cmp_B__content_o_1">
-					<Inhoud>
-						<Begrippenlijst eId="cmp_B__content_o_1__list_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1">
-							<Begrip eId="cmp_B__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1">
-								<Term>FouteGebieden</Term>
-								<Definitie>
-									<Al>
-										<ExtIoRef eId="cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_B__content_o_1__list_o_1__item_o_1__ref_o_1"
-											ref="/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</ExtIoRef>
-									</Al>
-								</Definitie>
-							</Begrip>
-						</Begrippenlijst>
-					</Inhoud>
-				</Divisietekst>
-			</Bijlage>
+			
 		</BesluitCompact>
 	</BesluitVersie>
 	<RegelingVersieInformatie>
