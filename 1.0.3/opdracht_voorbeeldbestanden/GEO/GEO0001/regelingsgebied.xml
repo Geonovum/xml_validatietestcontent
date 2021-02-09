@@ -3,31 +3,31 @@
   schemaversie="1.0.3">
   <InformatieObjectVersie>
     <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <FRBRWork>/join/id/regdata/gm0546/2020/regelingsgebied</FRBRWork>
-      <FRBRExpression>/join/id/regdata/gm0546/2020/regelingsgebied/nld@2020-08-20</FRBRExpression>
+      <FRBRWork>/join/id/regdata/gm0297/2019/regelingsgebied</FRBRWork>
+      <FRBRExpression>/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</FRBRExpression>
       <soortWork>/join/id/stop/work_010</soortWork>
     </ExpressionIdentificatie>
     <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <heeftGeboorteregeling>/akn/nl/act/gm0546/2020/OVILEI001</heeftGeboorteregeling>
+      <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/akn_nl_bill_gm0297-3520-01</heeftGeboorteregeling>
       <heeftBestanden>
         <heeftBestand>
           <Bestand>
             <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-<hash>89a6f453575a9d41a2570ebf6d2044642775cd45762bccf5208feb2c1e7ff2960793e54cac91a827c5f8712d93e11666a9d5c259f7bcb5edc96424f9a4c8a3c6 </hash>
+            <hash>3318761523f7a3600a4ffbe7a1bfd9ffe795e886de5e1bb67f8c615975583ca930f36f9240b168931bf7365514d7de4f43e94fd4c2770872b673626f43fdfe49</hash>
           </Bestand>
         </heeftBestand>
       </heeftBestanden>
     </InformatieObjectVersieMetadata>
     <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <eindverantwoordelijke>/tooi/id/gemeente/gm0546</eindverantwoordelijke>
-      <maker>/tooi/id/gemeente/gm0546</maker>
+      <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+      <maker>/tooi/id/gemeente/gm0297</maker>
       <alternatieveTitels>
-        <alternatieveTitel>Gemeente Leiden</alternatieveTitel>
+        <alternatieveTitel>Regelingsgebied</alternatieveTitel>
       </alternatieveTitels>
-      <officieleTitel>/join/id/regdata/gm0546/2020/gemeente_leiden</officieleTitel>
+      <officieleTitel>/join/id/regdata/gm0297/2019/gemeente_leiden</officieleTitel>
       <publicatieinstructie>TeConsolideren</publicatieinstructie>
-      <naamInformatieObject>Gemeente Leiden</naamInformatieObject>
-      <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      <naamInformatieObject>Regelingsgebied</naamInformatieObject>
+      <formaatInformatieobject>/join/id/stop/informatieobject/regelingsgebied</formaatInformatieobject>
     </InformatieObjectMetadata>
   </InformatieObjectVersie>
 </AanleveringInformatieObject>
