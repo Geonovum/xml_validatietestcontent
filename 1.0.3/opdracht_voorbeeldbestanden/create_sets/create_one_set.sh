@@ -34,7 +34,7 @@ FILENAMEPART=$directoryname_$RANDOM
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
 	echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
-	echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
+	echo "changing levering_id to $NEWLINE6 in owLocatieRegelingsgebied.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocatieRegelingsgebied.xml
 	echo "changing FRBRWork to $NEWLINE2 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
