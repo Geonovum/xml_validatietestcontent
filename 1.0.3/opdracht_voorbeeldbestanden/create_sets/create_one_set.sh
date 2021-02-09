@@ -39,18 +39,6 @@ FILENAMEPART=$directoryname_$RANDOM
 	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
 	
-	#replacing hash in io
-	FILES=$(find . -name "*.gml" -print);
-	for file in $FILES; do
-		SHA512=$(sha512sum $file)
-		HASH=${SHA512% *}
-		NEWLINE4="<hash>$HASH</hash>"
-		filewithoutextension=${file%.gml}
-		giofile="$filewithoutextension.xml"
-		echo "changing hash to $NEWLINE4 in $giofile" 
-		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
-	done
-	
 	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
 	OW1=${OW%"</FRBRWork>"}
 	OLDWORD=${OW1##*/}
@@ -62,6 +50,19 @@ FILENAMEPART=$directoryname_$RANDOM
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 	
+	#replacing hash in io
+	FILES=$(find . -name "*.gml" -print);
+	for file in $FILES; do
+		SHA512=$(sha512sum $file)
+		HASH=${SHA512% *}
+		NEWLINE4="<hash>$HASH</hash>"
+		filewithoutextension=${file%.gml}
+		giofile="$filewithoutextension.xml"
+		echo "changing hash to $NEWLINE4 in $giofile" 
+		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
+		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|$NEWWORD|" $giofile
+	done
+
 	#building doel-seds
 	DOELPART="$directoryname$RANDOM"
     NEWLINE5="<DoelID>/join/id/proces/$GEMEENTE/2019/$DOELPART</DoelID>";
