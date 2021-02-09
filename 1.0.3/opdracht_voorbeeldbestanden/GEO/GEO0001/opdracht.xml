@@ -4,9 +4,9 @@
   xmlns="http://www.overheid.nl/2017/lvbb"
   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
 <<<<<<< HEAD
-<idLevering>id-publicatie-GEO0001-27229</idLevering>
+<idLevering>id-publicatie-GEO0001-8890</idLevering>
 =======
-<idLevering>id-publicatie-GEO0001-27229</idLevering>
+<idLevering>id-publicatie-GEO0001-8890</idLevering>
 >>>>>>> 1a66dfcc5762ccdc29e32a341e70d309586888e1
   <idBevoegdGezag>00000001812579446000</idBevoegdGezag> 
   <idAanleveraar>00000003560458830000</idAanleveraar>

@@ -8,11 +8,7 @@
       <soortWork>/join/id/stop/work_010</soortWork>
     </ExpressionIdentificatie>
     <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<<<<<<< HEAD
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO000118446</heeftGeboorteregeling>
-=======
-GEO000118446
->>>>>>> 1a66dfcc5762ccdc29e32a341e70d309586888e1
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO000126585</heeftGeboorteregeling>
       <heeftBestanden>
         <heeftBestand>
           <Bestand>
