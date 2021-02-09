@@ -27,13 +27,15 @@ FILENAMEPART=$directoryname_$RANDOM
 	echo "changing levering_id to $NEWLINE1 in opdracht.xml" 
 	sed -i "s|.*idLevering.*|$NEWLINE1|" opdracht.xml
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
-	sed -i "s|.*idLevering.*|$NEWLINE6|" owRegelingsgebied.xml
+	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegelingsgebied.xml
 	echo "changing levering_id to $NEWLINE6 in owLocatieRegelingsgebied.xml" 
-	sed -i "s|.*idLevering.*|$NEWLINE6|" owLocatieRegelingsgebied.xml
+	sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocatieRegelingsgebied.xml
 	echo "changing levering_id to $NEWLINE6 in owLocaties-Gemeentestad.xml" 
-	sed -i "s|.*idLevering.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
+	sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
 	echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
-	sed -i "s|.*idLevering.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
+	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
+	echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
+	sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocatieRegelingsgebied.xml
 	echo "changing FRBRWork to $NEWLINE2 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
 	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
