@@ -8,12 +8,12 @@
       <soortWork>/join/id/stop/work_010</soortWork>
     </ExpressionIdentificatie>
     <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO000126004</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO000127799</heeftGeboorteregeling>
       <heeftBestanden>
         <heeftBestand>
           <Bestand>
             <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-<hash>f7ad3028033d8566ee027eeac7a649d68e83a8c8ce45e8499987fc05fc0dad6bb34c38f7e9b855cb0f295f157e2ceb91db631f08f70dad7aec8fea09ab381d84</hash>
+<hash>8c264b794c51cc1edd33eaa9b26aea94567793be55546e6f50809a8554f2b4f618e2da048c43105c0244dc13172a1df14bb6be381df6f15be4e8b8c70d0b7dbc </hash>
           </Bestand>
         </heeftBestand>
       </heeftBestanden>
