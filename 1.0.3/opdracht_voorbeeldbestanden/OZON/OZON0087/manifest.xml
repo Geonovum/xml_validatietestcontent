@@ -12,14 +12,6 @@
      <bestandsnaam>owLocatieRegelingsgebied.xml</bestandsnaam>
      <contentType>application/xml</contentType>
     </bestand>
-    <bestand>
-     <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-     <contentType>application/gml+xml</contentType>
-    </bestand>
-<bestand>
-     <bestandsnaam>regelingsgebied.xml</bestandsnaam>
-     <contentType>application/xml</contentType>
-    </bestand>
 <bestand>
      <bestandsnaam>owLocatieRegelingsgebied.xml</bestandsnaam>
      <contentType>application/xml</contentType>
