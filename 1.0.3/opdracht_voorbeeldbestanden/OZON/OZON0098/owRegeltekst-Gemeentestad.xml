@@ -21,6 +21,7 @@
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
+				<sl:objectType>Instructieregel</sl:objectType>
 			</sl:objectTypen>
 		</sl:inhoud>
 		<!-- artikel 2.5 -->
@@ -31,6 +32,7 @@
 				</r:Regeltekst>
 			</ow-dc:owObject>
 		</sl:stand>
+		<!-- FOUT: OZON0098	(TPOD1850) Een Regeltekst die verwijst naar een RegelVoorIedereen, mag niet naar een Instructieregel of Omgevingswaarderegel verwijzen. -->
 		<sl:stand>
 			<ow-dc:owObject>
 				<r:RegelVoorIedereen>

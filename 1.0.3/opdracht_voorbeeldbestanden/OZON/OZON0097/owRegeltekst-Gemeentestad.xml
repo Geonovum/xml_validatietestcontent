@@ -17,7 +17,7 @@
 		<sl:dataset>Gemeentestad</sl:dataset>
 		<sl:inhoud>
 			<sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0097-19493</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0097-25944</sl:leveringsId>
 			<sl:objectTypen>
 				<sl:objectType>Regeltekst</sl:objectType>
 				<sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -58,6 +58,7 @@
 					<rol:normwaarde>
 						<rol:Normwaarde>
 							<rol:identificatie>nl.imow-gm0297.normwaarde.201900001</rol:identificatie>
+							<!-- FOUT: OZON0097	(TPOD1650) Iedere Normwaarde moet ofwel een kwalitatieve, ofwel een kwantitatieve waarde hebben. -->
 							<rol:kwalitatieveWaarde>Een string</rol:kwalitatieveWaarde>
 							<rol:kwantitatieveWaarde>200</rol:kwantitatieveWaarde>
 							<rol:locatieaanduiding>
