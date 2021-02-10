@@ -8,6 +8,8 @@ LOGLEVEL=""
 
 resultfile=~/xml_validatietestcontent/1.0.3/results/result.xml
 
+if [[ -e $1 ]]; then
+
 file=$1;	
 filename=${file##*/};
 echo $filename;
@@ -26,3 +28,8 @@ cat result>>$resultfile;
 echo "</envelop>">>$resultfile
 rm result
 echo "</result>">>$resultfile
+
+else
+    echo "$1 is not found, please use an existing zip file"
+fi
+

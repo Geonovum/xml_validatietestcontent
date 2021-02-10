@@ -51,6 +51,13 @@ FILENAMEPART=$directoryname_$RANDOM
 		echo "changing /akn/nl/act.....$OLDWORD to /akn/nl/act.....$NEWWORD in $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
+	FILES=$(find . -name "*.gml" -print);
+	for file in $FILES; do
+		filewithoutextension=${file%.gml}
+		giofile="$filewithoutextension.xml"
+		echo "changing heeftGeboorteregeling to <heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling> in $giofile" 
+		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
+	done
 	
 	#replacing hash in io
 	FILES=$(find . -name "*.gml" -print);
@@ -62,8 +69,6 @@ FILENAMEPART=$directoryname_$RANDOM
 		giofile="$filewithoutextension.xml"
 		echo "changing hash to $NEWLINE4 in $giofile" 
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
-		echo "changing heeftGeboorteregeling to <heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling> in $giofile" 
-		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
 	done
 	#building doel-seds
 	DOELPART="$directoryname$RANDOM"
