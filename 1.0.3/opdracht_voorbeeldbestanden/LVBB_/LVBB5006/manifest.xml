@@ -8,10 +8,7 @@
      <bestandsnaam>regelingsgebied.xml</bestandsnaam>
      <contentType>application/xml</contentType>
     </bestand>
-<bestand>
-     <bestandsnaam>owLocatieRegelingsgebied.xml</bestandsnaam>
-     <contentType>application/xml</contentType>
-    </bestand>
+
    <bestand>
       <bestandsnaam>manifest.xml</bestandsnaam>
       <contentType>application/xml</contentType>

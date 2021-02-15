@@ -8,10 +8,7 @@
      <bestandsnaam>regelingsgebied.xml</bestandsnaam>
      <contentType>application/xml</contentType>
     </bestand>
-<bestand>
-     <bestandsnaam>owLocatieRegelingsgebied.xml</bestandsnaam>
-     <contentType>application/xml</contentType>
-    </bestand>
+
     <bestand>
         <bestandsnaam>akn_nl_bill_gm0297-3520-01.xml</bestandsnaam>
         <contentType>application/gml+xml</contentType>

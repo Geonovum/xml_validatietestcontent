@@ -6,14 +6,8 @@
   <Aanlevering>
     <WorkIDRegeling>/akn/nl/act/gm0297/2019/OZON00267040</WorkIDRegeling>
 <DoelID>/join/id/proces/gm0297/2019/OZON0026173</DoelID>
-<Bestand>
-     <naam>owLocatieRegelingsgebied.xml</naam>
-      <objecttype>Gebied</objecttype>
-   </Bestand>
-<Bestand>
-     <naam>owLocatieRegelingsgebied.xml</naam>
-      <objecttype>Gebied</objecttype>
-   </Bestand>
+
+
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>

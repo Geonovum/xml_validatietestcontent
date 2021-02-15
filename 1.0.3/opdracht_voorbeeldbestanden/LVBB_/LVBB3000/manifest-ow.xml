@@ -6,10 +6,7 @@
   <Aanlevering>
     <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB30001561</WorkIDRegeling>
 <DoelID>/join/id/proces/gm0297/2019/LVBB300027157</DoelID>
-<Bestand>
-     <naam>owLocatieRegelingsgebied.xml</naam>
-      <objecttype>Gebied</objecttype>
-   </Bestand>
+
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>

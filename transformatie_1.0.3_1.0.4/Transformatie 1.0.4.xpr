@@ -26,6 +26,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../../../../../../../Werkbestanden/Transformatie%201.0.4/1.0.3/lvbb/lvbb-stop-aanlevering.xsd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>ANT (with Saxon 9 EE XSLT support) - Extra geheugen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>1.0.3/lvbb/lvbb-stop-aanlevering.xsd</String>
                                 </field>
                                 <field name="scenarioIds">
