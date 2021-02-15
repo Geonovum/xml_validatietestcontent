@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringInformatieObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" schemaversie="1.0.3"	
+  xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering/
+  ../../lvbb/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</FRBRWork>
+      <FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</FRBRExpression>
+      <soortWork>/join/id/stop/work_010</soortWork>
+    </ExpressionIdentificatie>
+    <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <heeftBestanden>
+        <heeftBestand>
+          <Bestand>
+            <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
+<hash>dc95e6c80b9cd04f26a13c48622b556057660a1b8bd8679904e2d76e4f455e95833ff1ee90a48aacc65eb8fd57a1384a1418dcd1fb86822aedbf4f0721c4515c</hash>
+          </Bestand>
+        </heeftBestand>
+      </heeftBestanden>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB101113751</heeftGeboorteregeling>
+    </InformatieObjectVersieMetadata>
+    <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+      <maker>/tooi/id/gemeente/gm0297</maker>
+      <alternatieveTitels>
+        <alternatieveTitel>GoedeGebieden</alternatieveTitel>
+      </alternatieveTitels>
+      <officieleTitel>/join/id/regdata/gm0297/2019/GoedeGebieden</officieleTitel>
+      <publicatieinstructie>TeConsolideren</publicatieinstructie>
+      <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      <naamInformatieObject>GoedeGebieden</naamInformatieObject>
+    </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+</AanleveringInformatieObject>
