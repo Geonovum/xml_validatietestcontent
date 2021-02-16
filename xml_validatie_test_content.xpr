@@ -8,7 +8,9 @@
                     <entry>
                         <String>catalogs.v5</String>
                         <String-array>
-                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.3/opdracht_voorbeeldbestanden/lvbb-catalog.xml</String>
+                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4/schemas/extern/extern-catalog.xml</String>
+                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4/schemas/lvbb/lvbb-catalog.xml</String>
+                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4/schemas/stop/stop-catalog.xml</String>
                         </String-array>
                     </entry>
                     <entry>
