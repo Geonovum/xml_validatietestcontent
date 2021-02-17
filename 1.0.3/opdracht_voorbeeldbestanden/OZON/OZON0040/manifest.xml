@@ -12,7 +12,7 @@
 
     <bestand>
         <bestandsnaam>akn_nl_bill_gm0297-3520-01.xml</bestandsnaam>
-        <contentType>application/xml</contentType>
+        <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
         <bestandsnaam>manifest.xml</bestandsnaam>
