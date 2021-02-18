@@ -17,63 +17,17 @@
       <lvbb:bestandsnaam>image1.jpeg</lvbb:bestandsnaam>
       <lvbb:contentType>image/jpeg</lvbb:contentType>
    </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>image2.jpeg</lvbb:bestandsnaam>
-      <lvbb:contentType>image/jpeg</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>image3.jpeg</lvbb:bestandsnaam>
-      <lvbb:contentType>image/jpeg</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>image4.jpeg</lvbb:bestandsnaam>
-      <lvbb:contentType>image/jpeg</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>image5.png</lvbb:bestandsnaam>
-      <lvbb:contentType>image/png</lvbb:contentType>
-   </lvbb:bestand>
+
    <lvbb:bestand>
       <lvbb:bestandsnaam>001_gemeente_leiden.gml</lvbb:bestandsnaam>
       <lvbb:contentType>application/gml+xml</lvbb:contentType>
    </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>002_ontwikkelperspectief_zuidwest.gml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/gml+xml</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>003_1_hoogstedelijk_en_dynamisch.gml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/gml+xml</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>004_2_stads_en_levendig.gml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/gml+xml</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>005_3_groen_en_luw.gml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/gml+xml</lvbb:contentType>
-   </lvbb:bestand>
+
    <lvbb:bestand>
       <lvbb:bestandsnaam>GIO_001.xml</lvbb:bestandsnaam>
       <lvbb:contentType>application/xml</lvbb:contentType>
    </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>GIO_002.xml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/xml</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>GIO_003.xml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/xml</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>GIO_004.xml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/xml</lvbb:contentType>
-   </lvbb:bestand>
-   <lvbb:bestand>
-      <lvbb:bestandsnaam>GIO_005.xml</lvbb:bestandsnaam>
-      <lvbb:contentType>application/xml</lvbb:contentType>
-   </lvbb:bestand>
-   <!-- OW-bestanden -->
+
    <lvbb:bestand>
       <lvbb:bestandsnaam>manifest-ow.xml</lvbb:bestandsnaam>
       <lvbb:contentType>application/xml</lvbb:contentType>
