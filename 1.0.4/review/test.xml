@@ -1,0 +1,31 @@
+<RELATORIO>
+    <LANG>PT</LANG>
+    <MODULO>
+        <NAME>ObtemIdentificacao_P</NAME>
+        <VALUES>
+            <ROW>
+                <Cae1>46740</Cae1>
+                <Cae2 />
+                <Cae3 />
+                <CodCP>***</CodCP>
+                <Concelho>SINTRA</Concelho>
+                <DataInvestigacao>20160418</DataInvestigacao>
+                <DescricaoCP>SINTRA</DescricaoCP>
+                <Distrito>LISBOA</Distrito>
+                <Email>info@wurth.pt</Email>
+                <Fax1>*****</Fax1>
+                <Fax2>****</Fax2>
+                <Fax3 />
+                <Internet>www.wurth.pt</Internet>
+                <Localidade />
+                <Moeda>EURO</Moeda>
+                <Morada>Estrada Nacional - 249-4 - Abrunheira</Morada>
+                <Nome>WURTH (PORTUGAL)-TECNICA DE MONTAGEM LDA</Nome>
+                <NumeroContribuinte>****</NumeroContribuinte>
+                <NumeroSine>38358</NumeroSine>
+                <pais>174</pais>
+                <Telefone1>***</Telefone1>
+            </ROW>
+        </VALUES>
+    </MODULO>
+</RELATORIO>
