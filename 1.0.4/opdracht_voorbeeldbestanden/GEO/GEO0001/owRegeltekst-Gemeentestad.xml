@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-GEO0001-1917</sl:leveringsId>
+<sl:leveringsId>id-publicatie-GEO0001-23399</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -27,20 +27,20 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.20190000012472815313</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.4663</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.2019000001846317898</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.9460</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.20190000012472815313"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.4663"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001737216794"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.1676"/>
                </r:locatieaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
