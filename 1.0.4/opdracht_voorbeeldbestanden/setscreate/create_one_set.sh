@@ -8,7 +8,6 @@ if [ -d "$1" ]; then
     echo $1
     cd $1;
     RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
-    RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 
     directoryname=$1
     FILENAMEPART=$directoryname_$RANDOM
@@ -37,6 +36,7 @@ if [ -d "$1" ]; then
 	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
 	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
+    RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 	
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
 	OW1=${OW%"</r:identificatie>"}
