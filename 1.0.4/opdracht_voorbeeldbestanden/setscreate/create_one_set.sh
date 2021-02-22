@@ -74,11 +74,11 @@ if [ -d "$1" ]; then
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 	
-	
+	RANDOM1=$(date +%s%N | cut -b10-19)
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
 	OW1=${OW%"</rg:identificatie>"}
 	OLDWORD=${OW1##*>}
-	NEWWORD="$OLDWORD$RANDOM"
+	NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$RANDOM1$RANDOM
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
