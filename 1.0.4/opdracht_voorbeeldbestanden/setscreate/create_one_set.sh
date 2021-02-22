@@ -53,7 +53,7 @@ if [ -d "$1" ]; then
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
 	OW1=${OW%"</r:identificatie>"}
 	OLDWORD=${OW1##*>}
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$RANDOM1$RANDOM
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
@@ -66,7 +66,7 @@ if [ -d "$1" ]; then
 	OW1=${OW%"</l:identificatie>"}
 	OLDWORD=${OW1##*>}
 	NW1=$
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$RANDOM1$RANDOM
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
@@ -78,7 +78,7 @@ if [ -d "$1" ]; then
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
 	OW1=${OW%"</rg:identificatie>"}
 	OLDWORD=${OW1##*>}
-	NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$RANDOM1$RANDOM
+	NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
