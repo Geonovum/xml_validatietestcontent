@@ -49,6 +49,7 @@ if [ -d "$1" ]; then
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 	
+    RANDOM1=tr -cd '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
 	OW1=${OW%"</r:identificatie>"}
 	OLDWORD=${OW1##*>}
@@ -60,6 +61,7 @@ if [ -d "$1" ]; then
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 
+    RANDOM1=tr -cd '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 	OW=$( grep -xh ".*<l:identificatie>.*" *)
 	OW1=${OW%"</l:identificatie>"}
 	OLDWORD=${OW1##*>}
