@@ -16,11 +16,19 @@
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>FouteGebieden.gml</bestandsnaam>
+<<<<<<< HEAD
 <hash>2d5e332bd163f2ea71c107a7b511bda3da0372584b7170d6626fe49ee3f0d498f8da386956d0c5b1c69035711ebd45c4e3ebbfd9f682982d314a992fcfd2ec84</hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO12988</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO19662</heeftGeboorteregeling>
+=======
+<hash>2d5e332bd163f2ea71c107a7b511bda3da0372584b7170d6626fe49ee3f0d498f8da386956d0c5b1c69035711ebd45c4e3ebbfd9f682982d314a992fcfd2ec84</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/GEO19662</heeftGeboorteregeling>
+>>>>>>> 49d8e0e034b541bc7799212618231567947c41d2
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
