@@ -7,8 +7,8 @@ if [ -d "$1" ]; then
     echo ""
     echo $1
     cd $1;
-    RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
-    RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
+    RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
+    RANDOM1=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 
     directoryname=$1
     FILENAMEPART=$directoryname_$RANDOM
