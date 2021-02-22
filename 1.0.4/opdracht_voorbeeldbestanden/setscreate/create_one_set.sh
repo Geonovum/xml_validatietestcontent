@@ -37,6 +37,42 @@ if [ -d "$1" ]; then
 	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
 	
+	OLDWORD="nl.imow-gm0297.regeltekst.2019000001"
+	NEWWORD="$OLDWORD$RANDOM"
+	#changing reg456 or similar
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+	
+	OLDWORD="nl.imow-gm0297.juridischeregel.2019000001"
+	NEWWORD="$OLDWORD$RANDOM"
+	#changing reg456 or similar
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+
+	OLDWORD="nl.imow-gm0297.gebied.20190000001"
+	NEWWORD="$OLDWORD$RANDOM"
+	#changing reg456 or similar
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+	
+	OLDWORD="nl.imow-gm0297.gebied.20200001"
+	NEWWORD="$OLDWORD$RANDOM"
+	#changing reg456 or similar
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+
 	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
 	OW1=${OW%"</FRBRWork>"}
 	OLDWORD=${OW1##*/}

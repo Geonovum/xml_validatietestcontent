@@ -11,7 +11,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-         <sl:leveringsId>id-publicatie-LVBB1022-20287</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-LVBB1024-24801</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
@@ -21,7 +21,7 @@
             <rg:Regelingsgebied>
                <rg:identificatie>nl.imow-gm0297.gebied.20190000001</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20200001"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
          </ow-dc:owObject>

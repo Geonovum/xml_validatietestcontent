@@ -4,22 +4,29 @@
 
 if [[ -d GEO ]]; then
 
-cd GEO
+cd BHKV
 for d in *; do
     if [ -d "$d" ]; then
-	  cp ../create_sets/careful/copy_files/* $d;
+	  cp ../setscreate/careful/copy_files/* $d;
+	fi
+done
+
+cd ../GEO
+for d in *; do
+    if [ -d "$d" ]; then
+	  cp ../setscreate/careful/copy_files/* $d;
 	fi
 done
 cd ../LVBB_
 for d in *; do
     if [ -d "$d" ]; then
-	  cp ../create_sets/careful/copy_files/* $d;
+	  cp ../setscreate/careful/copy_files/* $d;
 	fi
 done
 cd ../OZON
 for d in *; do
     if [ -d "$d" ]; then
-	  cp ../create_sets/careful/copy_files/* $d;
+	  cp ../setscreate/careful/copy_files/* $d;
 	fi
 done
 cd ../TPOD
