@@ -2,18 +2,18 @@
 
 GEMEENTE="gm0297"
 
-echo "Script wordt uitgevoerd voor gemeente gm0297"
+if [ -d "$1" ]; then
+    echo "Script wordt uitgevoerd voor gemeente gm0297"
+    echo ""
+    echo $1
+    cd $1;
+    RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
 
-echo ""
-echo $1
-cd $1;
-RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=8 2>/dev/null
-
-directoryname=$1
-FILENAMEPART=$directoryname_$RANDOM
+    directoryname=$1
+    FILENAMEPART=$directoryname_$RANDOM
 
 
-#building levering-id-sed-command
+    #building levering-id-sed-command
 	FILENAMEPART="$directoryname-$RANDOM"
 	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
 	NEWLINE6="<sl:leveringsId>id-publicatie-$FILENAMEPART</sl:leveringsId>";
@@ -77,17 +77,20 @@ FILENAMEPART=$directoryname_$RANDOM
 	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" akn_nl_bill_gm0297-3520-01.xml
 	
 
-echo ""
-rm ../../opdrachten_gereed/opdracht_$1*.zip;
+    echo ""
+    rm ../../opdrachten_gereed/opdracht_$1*.zip;
 
-zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
+    zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 
-echo ""
-git add *;
-echo ""
-git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
-echo ""
-git commit -a -m $1;
-echo ""
-git push;
-cd ..;
+    echo ""
+    git add *;
+    echo ""
+    git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
+    echo ""
+    git commit -a -m $1;
+    echo ""
+    git push;
+    cd ..;
+else
+    echo "Please start from directory opdracht_voorbeeldbestanden/XXX."
+fi
