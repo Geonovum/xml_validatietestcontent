@@ -118,7 +118,7 @@ if [ -d "$1" ]; then
 	for file in $FILES; do
 		SHA512=$(sha512sum $file)
 		HASH=$(echo ${SHA512% *}|xargs)
-		NEWLINE4="<hash>$HASH</hash>"
+		 NEWLINE4="<hash>$HASH</hash>"
 		filewithoutextension=${file%.gml}
 		giofile="$filewithoutextension.xml"
 		echo "changing hash to $NEWLINE4 in $giofile" 
