@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0059-21383</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0059-12635</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
             <sl:objectType>Gebiedengroep</sl:objectType>
@@ -101,7 +101,7 @@
                <l:identificatie>nl.imow-gm0297.gebiedengroep.20190000001</l:identificatie>
                <l:groepselement>
                   <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000001"/>
-                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000002"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16140695365530681"/>
                </l:groepselement>
             </l:Gebiedengroep>
          </ow-dc:owObject>
@@ -120,7 +120,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.20190000002</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16140695365530681</l:identificatie>
                <l:noemer>Goed gebied 2</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409E"/>
