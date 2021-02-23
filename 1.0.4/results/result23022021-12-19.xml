@@ -1,0 +1,68 @@
+<result>
+<envelop>
+<test>BHKV1003-2161</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1003-2161</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1003-2161</lvbb:idLevering><lvbb:tijdstipVerslag>2021-02-23T13:18:21.461175+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1003-2161</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-02-23T13:18:23.528903+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1003</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De eId !initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1 van BeoogdInformatieobject komt niet voor als eId van een ExtIoRef, Controleer de referenties naar de ExtIoRef's /&gt;</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>BHKV1036</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De identifier van instrumentVersie "/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier " van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1004-32447</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1004-32447</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1004-32447</lvbb:idLevering><lvbb:tijdstipVerslag>2021-02-23T13:20:31.399034+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1004-32447</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-02-23T13:20:34.781873+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>STOP3009</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>GoedeGebieden.gml : De locaties van de GIO /join/id/regdata/gm0297/2019/GoedeGebieden bevatten kwantitatieve normwaarden, terwijl eenheidlabel en/of eenheidID ontbreken. Vul deze aan.</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>STOP3011</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>GoedeGebieden.gml : De locaties binnen GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden bevatten wel kwantitatieve òf kwalitatieve normwaarden, maar geen norm. Vul normlabel en normID aan.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
+<envelop>
+<test>GEO0001-20213</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_GEO0001-20213</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1015</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, SAXParseException: The content of elements must consist of well-formed character data or markup.</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1002-11276</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1002-11276</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1002</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>Het bestand opdracht.xml ontbreekt in het gecomprimeerde bestand</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
