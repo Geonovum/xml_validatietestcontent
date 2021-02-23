@@ -18,9 +18,9 @@
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
 <<<<<<< HEAD
-<sl:leveringsId>id-publicatie-GEO0001-1037</sl:leveringsId>
+<sl:leveringsId>id-publicatie-GEO0001-14979</sl:leveringsId>
 =======
-<sl:leveringsId>id-publicatie-GEO0001-1037</sl:leveringsId>
+<sl:leveringsId>id-publicatie-GEO0001-14979</sl:leveringsId>
 >>>>>>> 72fd748633ffab69735460cc92a8ab9f3ee801cd
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
@@ -32,7 +32,7 @@
 <<<<<<< HEAD
                <l:identificatie>nl.imow-gm0297.gebied.0520891567</l:identificatie>
 =======
-               <l:identificatie>nl.imow-gm0297.gebied.16140788614773385</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16140790126208457</l:identificatie>
 >>>>>>> 72fd748633ffab69735460cc92a8ab9f3ee801cd
                <l:noemer>Fout gebied</l:noemer>
                <l:geometrie>
