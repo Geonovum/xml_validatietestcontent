@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0098-7399</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0098-14941</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -28,7 +28,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16140697063429136</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16140822025170003</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
@@ -39,10 +39,10 @@
                <r:identificatie>nl.imow-gm0297.juridischeregel.2019000001</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16140697063429136"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16140822025170003"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140697066113130"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140822025333587"/>
                </r:locatieaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
@@ -50,10 +50,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Instructieregel>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16140697060699401</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16140822024994768</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16140697063429136"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16140822025170003"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
                   <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900001"/>
