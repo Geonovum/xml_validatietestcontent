@@ -117,7 +117,7 @@ if [ -d "$1" ]; then
 	FILES=$(find . -name "*.gml" -print);
 	for file in $FILES; do
 		SHA512=$(sha512sum $file)
-		HASH=${SHA512% *}
+		HASH=$(echo ${SHA512% *}|xargs)
 		NEWLINE4="<hash>$HASH</hash>"
 		filewithoutextension=${file%.gml}
 		giofile="$filewithoutextension.xml"
