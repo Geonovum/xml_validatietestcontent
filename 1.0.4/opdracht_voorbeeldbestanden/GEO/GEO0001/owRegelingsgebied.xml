@@ -12,9 +12,9 @@
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
 <<<<<<< HEAD
-<sl:leveringsId>id-publicatie-GEO0001-3881</sl:leveringsId>
+<sl:leveringsId>id-publicatie-GEO0001-8736</sl:leveringsId>
 =======
-<sl:leveringsId>id-publicatie-GEO0001-3881</sl:leveringsId>
+<sl:leveringsId>id-publicatie-GEO0001-8736</sl:leveringsId>
 >>>>>>> 72fd748633ffab69735460cc92a8ab9f3ee801cd
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
@@ -28,9 +28,9 @@
                <rg:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.0520891567"/>
 =======
-               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16140793605586029</rg:identificatie>
+               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16140796724534972</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140793605398841"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140796724300555"/>
 >>>>>>> 72fd748633ffab69735460cc92a8ab9f3ee801cd
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
