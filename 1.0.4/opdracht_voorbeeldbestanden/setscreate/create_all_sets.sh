@@ -11,7 +11,7 @@ for d in *; do
 	fi
 done
 
-cd GEO
+cd ../GEO
 for d in *; do
     if [ -d "$d" ]; then
 	  ../setscreate/create_one_set.sh $d;
