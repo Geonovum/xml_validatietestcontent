@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0021-14252</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0021-5631</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -28,20 +28,20 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16140820445532656</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16140822300691487</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16140820445359220</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16140822300540145</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16140820445532656"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16140822300691487"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16140820445704294"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16140822300838472"/>
                </r:locatieaanduiding>
                <r:gebiedsaanwijzing>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
@@ -58,7 +58,7 @@
                <ga:naam>abc</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</ga:groep>
                <ga:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16140820445704294"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16140822300838472"/>
                </ga:locatieaanduiding>
             </ga:Gebiedsaanwijzing>
          </ow-dc:owObject>
