@@ -11,7 +11,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0035-15562</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0035-26681</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
@@ -19,9 +19,9 @@
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
             <rg:Regelingsgebied>
-               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16140694279102621</rg:identificatie>
+               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16140820629693923</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140694275670857"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140820629533742"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
          </ow-dc:owObject>
