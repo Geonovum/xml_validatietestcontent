@@ -7,32 +7,32 @@ if [[ -d GEO ]]; then
 cd BHKV
 for d in *; do
     if [ -d "$d" ]; then
-	  ../create_sets/create_one_set.sh $d;
+	  ../setscreate/create_one_set.sh $d;
 	fi
 done
 
 cd GEO
 for d in *; do
     if [ -d "$d" ]; then
-	  ../create_sets/create_one_set.sh $d;
+	  ../setscreate/create_one_set.sh $d;
 	fi
 done
 cd ../LVBB_
 for d in *; do
     if [ -d "$d" ]; then
-	  ../create_sets/create_one_set.sh $d;
+	  ../setscreate/create_one_set.sh $d;
 	fi
 done
 cd ../OZON
 for d in *; do
     if [ -d "$d" ]; then
-	  ../create_sets/create_one_set.sh $d;
+	  ../setscreate/create_one_set.sh $d;
 	fi
 done
 cd ../TPOD
 for d in *; do
     if [ -d "$d" ]; then
-	  ../create_sets/create_one_set.sh $d;
+	  ../setscreate/create_one_set.sh $d;
 	fi
 done
 cd ..
