@@ -51,14 +51,8 @@ if [ -d "$1" ]; then
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
 	OW1=${OW%"</r:identificatie>"}
 	OLDWORD=${OW1##*>}
-	RANDOM1=$(date +%s%N | cut -b10-19)
-	NUMBER=substring "$RANDOM1$RANDOM" 0 20
-	echo "-----------------------"
-	echo $NUMBER
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$NUMBER
-	echo "-----------------------"
-    echo $NEWWORD
-	#changing reg456 or similar
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
 		echo "changing $OLDWORD to $NEWWORD in $file" 
@@ -68,9 +62,8 @@ if [ -d "$1" ]; then
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
 	OW1=${OW%"</r:identificatie>"}
 	OLDWORD=${OW1##*>}
-	RANDOM1=$(date +%s%N | cut -b10-19)
-	NUMBER=substring "$RANDOM1$RANDOM" 0 20
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$NUMBER
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
@@ -81,9 +74,8 @@ if [ -d "$1" ]; then
 	OW=$( grep -xh ".*<l:identificatie>.*" *)
 	OW1=${OW%"</l:identificatie>"}
 	OLDWORD=${OW1##*>}
-	RANDOM1=$(date +%s%N | cut -b10-19)
-	NUMBER=substring "$RANDOM1$RANDOM" 0 20
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$NUMBER
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
@@ -94,9 +86,8 @@ if [ -d "$1" ]; then
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
 	OW1=${OW%"</rg:identificatie>"}
 	OLDWORD=${OW1##*>}
-	RANDOM1=$(date +%s%N | cut -b10-19)
-	NUMBER=substring "$RANDOM1$RANDOM" 0 20
-	NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$NUMBER
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
