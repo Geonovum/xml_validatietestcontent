@@ -53,8 +53,10 @@ if [ -d "$1" ]; then
 	OLDWORD=${OW1##*>}
 	RANDOM1=$(date +%s%N | cut -b10-19)
 	NUMBER=substring "$RANDOM1$RANDOM" 0 20
+	echo "-----------------------"
 	echo $NUMBER
     NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$NUMBER
+	echo "-----------------------"
     echo $NEWWORD
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
