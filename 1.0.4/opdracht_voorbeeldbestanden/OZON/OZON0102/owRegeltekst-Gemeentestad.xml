@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0102-21018</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0102-8074</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
          </sl:objectTypen>
@@ -26,7 +26,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16140697203362425</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16140822109492764</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
