@@ -113,7 +113,7 @@ if [ -d "$1" ]; then
 		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
 	done
 	echo "changing <WorkIDRegeling> to <WorkIDRegeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</WorkIDRegeling> in manifest-ow.xml" 
-	sed -i "s|.*WorkIDRegeling>.*|<WorkIDRegeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</WorkIDRegeling>|" manifest-ow.xml
+#	sed -i "s|.*WorkIDRegeling>.*|<WorkIDRegeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</WorkIDRegeling>|" manifest-ow.xml
 
 	
 	#replacing hash in io
