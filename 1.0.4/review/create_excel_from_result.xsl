@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:do="http://whatever" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
-    xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop" exclude-result-prefixes="xs" version="2.0">
+    xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop" exclude-result-prefixes="xs"
+    xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon" version="3.0">
 
     <xsl:output omit-xml-declaration="no"/>
     <xsl:output method="xml"/>
     <xsl:variable name="defNS" select="string('urn:schemas-microsoft-com:office:spreadsheet')"/>
+    <xsl:variable name="counter" select="3" saxon:assignable="yes"/>
+    <xsl:variable name="subCounter" select="0" saxon:assignable="yes"/>
+
 
     <xsl:template match="/">
-        <xsl:variable name="fileUrl" select="replace(tokenize(document-uri(), '/')[last()], '.xml', '_excel.xml')"/>
+        <xsl:variable name="fileUrl" select="replace(tokenize(document-uri(), '/')[last()], '.xml', '_excel.xls')"/>
         <xsl:message select="$fileUrl"/>
         <xsl:result-document href="{$fileUrl}" method="xml" indent="yes">
             <xsl:apply-templates/>
@@ -31,9 +35,6 @@
                 </xsl:element>
                 <xsl:element name="Style" namespace="{$defNS}">
                     <xsl:attribute name="ss:ID">id</xsl:attribute>
-                    <xsl:element name="Font" namespace="{$defNS}">
-                        <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
-                    </xsl:element>
                     <xsl:element name="Interior" namespace="{$defNS}">
                         <xsl:attribute name="ss:Color">#2DFF96</xsl:attribute>
                         <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>
@@ -51,9 +52,6 @@
                 </xsl:element>
                 <xsl:element name="Style" namespace="{$defNS}">
                     <xsl:attribute name="ss:ID">red</xsl:attribute>
-                    <xsl:element name="Font" namespace="{$defNS}">
-                        <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
-                    </xsl:element>
                     <xsl:element name="Interior" namespace="{$defNS}">
                         <xsl:attribute name="ss:Color">#F6403C</xsl:attribute>
                         <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>
@@ -61,9 +59,6 @@
                 </xsl:element>
                 <xsl:element name="Style" namespace="{$defNS}">
                     <xsl:attribute name="ss:ID">green</xsl:attribute>
-                    <xsl:element name="Font" namespace="{$defNS}">
-                        <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
-                    </xsl:element>
                     <xsl:element name="Interior" namespace="{$defNS}">
                         <xsl:attribute name="ss:Color">#52E070</xsl:attribute>
                         <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>
@@ -71,9 +66,6 @@
                 </xsl:element>
                 <xsl:element name="Style" namespace="{$defNS}">
                     <xsl:attribute name="ss:ID">yellow</xsl:attribute>
-                    <xsl:element name="Font" namespace="{$defNS}">
-                        <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
-                    </xsl:element>
                     <xsl:element name="Interior" namespace="{$defNS}">
                         <xsl:attribute name="ss:Color">#F5F53D</xsl:attribute>
                         <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>
@@ -244,6 +236,168 @@
                     </xsl:for-each>
                 </xsl:element>
             </xsl:element>
+            <xsl:element name="Worksheet" namespace="{$defNS}">
+                <xsl:attribute name="ss:Name">Filterbaar Validatie-Resultaat</xsl:attribute>
+                <xsl:element name="Table" namespace="{$defNS}">
+                    <xsl:element name="Row" namespace="{$defNS}">
+                        <xsl:attribute name="ss:Index">
+                            <xsl:value-of select="1"/>
+                        </xsl:attribute>
+                        <xsl:call-template name="doDrawCell">
+                            <xsl:with-param name="column" select="1"/>
+                            <xsl:with-param name="data" select="'ID'"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="doDrawCell">
+                            <xsl:with-param name="column" select="2"/>
+                            <xsl:with-param name="data" select="'ValidatieVerzoek'"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="doDrawCell">
+                            <xsl:with-param name="column" select="3"/>
+                            <xsl:with-param name="data" select="'Fout Gedetecteerd'"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="doDrawCell">
+                            <xsl:with-param name="column" select="7"/>
+                            <xsl:with-param name="data" select="'Melding'"/>
+                        </xsl:call-template>
+                    </xsl:element>
+                    <xsl:for-each select="envelop">
+                        <saxon:assign name="subCounter" select="0"/>
+                        <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
+                        <xsl:for-each select="lvbb:validatieVerzoekResultaat">
+                            <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
+                                <saxon:assign name="counter" select="$counter + 1"/>
+                                <saxon:assign name="subCounter" select="$subCounter + 1"/>
+                                <xsl:element name="Row" namespace="{$defNS}">
+                                    <xsl:attribute name="ss:Index">
+                                        <xsl:value-of select="$counter"/>
+                                    </xsl:attribute>
+                                    <!-- VALIDATIE KENMERK -->
+                                    <xsl:choose>
+                                        <xsl:when test="position() = 1">
+                                            <xsl:call-template name="doDrawStyledCell">
+                                                <xsl:with-param name="column" select="1"/>
+                                                <xsl:with-param name="data" select="$testId"/>
+                                                <xsl:with-param name="style" select="'id'"/>
+                                            </xsl:call-template>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:call-template name="doDrawCell">
+                                                <xsl:with-param name="column" select="1"/>
+                                                <xsl:with-param name="data" select="$testId"/>
+                                            </xsl:call-template>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <!-- TEST NUMMER BINNEN VALIDATIE -->
+                                    <xsl:call-template name="doDrawNumericCell">
+                                        <xsl:with-param name="column" select="2"/>
+                                        <xsl:with-param name="data" select="$subCounter"/>
+                                    </xsl:call-template>
+                                    <xsl:variable name="meldingColor">
+                                        <xsl:choose>
+                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../../test/text())">
+                                                <xsl:value-of select="'green'"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="'yellow'"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
+                                    <xsl:call-template name="doDrawStyledCell">
+                                        <xsl:with-param name="column" select="3"/>
+                                        <xsl:with-param name="data" select="stop:code/text()"/>
+                                        <xsl:with-param name="style" select="$meldingColor"/>
+                                    </xsl:call-template>
+                                    <xsl:call-template name="doDrawCell">
+                                        <xsl:with-param name="column" select="4"/>
+                                        <xsl:with-param name="data" select="stop:ernst"/>
+                                    </xsl:call-template>
+                                    <xsl:call-template name="doDrawCell">
+                                        <xsl:with-param name="column" select="5"/>
+                                        <xsl:with-param name="data" select="stop:soort"/>
+                                    </xsl:call-template>
+                                    <xsl:if test="stop:categorie">
+                                        <xsl:call-template name="doDrawCell">
+                                            <xsl:with-param name="column" select="6"/>
+                                            <xsl:with-param name="data" select="stop:categorie/text()"/>
+                                        </xsl:call-template>
+                                    </xsl:if>
+                                    <xsl:if test="stop:beschrijving">
+                                        <xsl:call-template name="doDrawCell">
+                                            <xsl:with-param name="column" select="7"/>
+                                            <xsl:with-param name="data" select="stop:beschrijving/text()"/>
+                                        </xsl:call-template>
+                                    </xsl:if>
+                                </xsl:element>
+                            </xsl:for-each>
+                            <xsl:for-each select="lvbb:meldingen/lvbb:melding">
+                                <saxon:assign name="counter" select="$counter + 1"/>
+                                <saxon:assign name="subCounter" select="$subCounter + 1"/>
+                                <xsl:element name="Row" namespace="{$defNS}">
+                                    <xsl:attribute name="ss:Index">
+                                        <xsl:value-of select="$counter"/>
+                                    </xsl:attribute>
+                                    <!-- VALIDATIE KENMERK -->
+                                    <xsl:choose>
+                                        <xsl:when test="position() = 1">
+                                            <xsl:call-template name="doDrawStyledCell">
+                                                <xsl:with-param name="column" select="1"/>
+                                                <xsl:with-param name="data" select="$testId"/>
+                                                <xsl:with-param name="style" select="'id'"/>
+                                            </xsl:call-template>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:call-template name="doDrawCell">
+                                                <xsl:with-param name="column" select="1"/>
+                                                <xsl:with-param name="data" select="$testId"/>
+                                            </xsl:call-template>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <!-- TEST NUMMER BINNEN VALIDATIE -->
+                                    <xsl:call-template name="doDrawNumericCell">
+                                        <xsl:with-param name="column" select="2"/>
+                                        <xsl:with-param name="data" select="$subCounter"/>
+                                    </xsl:call-template>
+                                    <xsl:variable name="meldingColor">
+                                        <xsl:choose>
+                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../test/text())">
+                                                <xsl:value-of select="'green'"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="'yellow'"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
+                                    <xsl:call-template name="doDrawStyledCell">
+                                        <xsl:with-param name="column" select="3"/>
+                                        <xsl:with-param name="data" select="stop:code/text()"/>
+                                        <xsl:with-param name="style" select="$meldingColor"/>
+                                    </xsl:call-template>
+                                    <xsl:call-template name="doDrawCell">
+                                        <xsl:with-param name="column" select="4"/>
+                                        <xsl:with-param name="data" select="stop:ernst"/>
+                                    </xsl:call-template>
+                                    <xsl:call-template name="doDrawCell">
+                                        <xsl:with-param name="column" select="5"/>
+                                        <xsl:with-param name="data" select="stop:soort"/>
+                                    </xsl:call-template>
+                                    <xsl:if test="stop:categorie">
+                                        <xsl:call-template name="doDrawCell">
+                                            <xsl:with-param name="column" select="6"/>
+                                            <xsl:with-param name="data" select="stop:categorie/text()"/>
+                                        </xsl:call-template>
+                                    </xsl:if>
+                                    <xsl:if test="stop:beschrijving">
+                                        <xsl:call-template name="doDrawCell">
+                                            <xsl:with-param name="column" select="7"/>
+                                            <xsl:with-param name="data" select="stop:beschrijving/text()"/>
+                                        </xsl:call-template>
+                                    </xsl:if>
+                                </xsl:element>
+                            </xsl:for-each>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                </xsl:element>
+            </xsl:element>
         </xsl:element>
     </xsl:template>
 
@@ -347,6 +501,22 @@
             </xsl:attribute>
             <xsl:attribute name="ss:StyleID">
                 <xsl:value-of select="$style"/>
+            </xsl:attribute>
+            <xsl:element name="Data" namespace="{$defNS}">
+                <xsl:attribute name="ss:Type">
+                    <xsl:value-of select="'Number'"/>
+                </xsl:attribute>
+                <xsl:value-of select="$data"/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template name="doDrawNumericCell">
+        <xsl:param name="column" as="xs:integer"/>
+        <xsl:param name="data" as="xs:integer"/>
+        <xsl:element name="Cell" namespace="{$defNS}">
+            <xsl:attribute name="ss:Index">
+                <xsl:value-of select="$column"/>
             </xsl:attribute>
             <xsl:element name="Data" namespace="{$defNS}">
                 <xsl:attribute name="ss:Type">
