@@ -29,6 +29,14 @@ for d in *; do
 	  ../setscreate/create_one_set.sh $d;
 	fi
 done
+
+cd ../STOP
+for d in *; do
+    if [ -d "$d" ]; then
+	  ../setscreate/create_one_set.sh $d;
+	fi
+done
+
 cd ../TPOD
 for d in *; do
     if [ -d "$d" ]; then
