@@ -20,86 +20,37 @@ if [ -d "$1" ]; then
     cd $1;
     RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 
-    directoryname=$1
-    FILENAMEPART=$directoryname_$RANDOM
-
-
     #building levering-id-sed-command
+    directoryname=$1
 	FILENAMEPART="$directoryname-$RANDOM"
 	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
-	NEWLINE6="<sl:leveringsId>id-publicatie-$FILENAMEPART</sl:leveringsId>";
-
-	#building AKN-sed
-	AKNPART="$directoryname$RANDOM"
-	NEWLINE2="<FRBRWork>/akn/nl/bill/$GEMEENTE/2019/$AKNPART</FRBRWork>";
-	NEWLINE3="<FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
-	
-	#changing opdracht.xml and creating zipfile
 	echo "changing levering_id to $NEWLINE1 in opdracht.xml" 
 	sed -i "s|.*idLevering.*|$NEWLINE1|" opdracht.xml
+	#changing leveringid in opdracht.xml
+	NEWLINE6="<sl:leveringsId>id-publicatie-$FILENAMEPART</sl:leveringsId>";
+	#changing leveringid in ow bestanden
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegelingsgebied.xml
 	echo "changing levering_id to $NEWLINE6 in owLocaties-Gemeentestad.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
 	echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
+
+	#building AKN-sed
+	AKNPART="$directoryname$RANDOM"
+	NEWLINE2="<FRBRWork>/akn/nl/bill/$GEMEENTE/2019/$AKNPART</FRBRWork>";
+	NEWLINE3="<FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
+	#changing besluit ID in besluit.
 	echo "changing FRBRWork to $NEWLINE2 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
 	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
 	
-	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
-	OW1=${OW%"</r:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
-	
-	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
-	OW1=${OW%"</r:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	#changing reg456 or similar
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
-
-	OW=$( grep -xh ".*<l:identificatie>.*" *)
-	OW1=${OW%"</l:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	#changing reg456 or similar
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
-	
-	OW=$( grep -xh ".*<rg:identificatie>.*" *)
-	OW1=${OW%"</rg:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	#changing reg456 or similar
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
-
+	#changing regelingsid en verdere voorkomens
 	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
 	OW1=${OW%"</FRBRWork>"}
 	OLDWORD=${OW1##*/}
 	NEWWORD="$directoryname$RANDOM"
-	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
 		echo "changing /akn/nl/act.....$OLDWORD to /akn/nl/act.....$NEWWORD in $file" 
@@ -112,6 +63,57 @@ if [ -d "$1" ]; then
 		echo "changing heeftGeboorteregeling to <heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling> in $giofile" 
 		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
 	done
+
+	
+	#changing juridische regel en verdere voorkomens
+	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
+	OW1=${OW%"</r:identificatie>"}
+	OLDWORD=${OW1##*>}
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+	
+	#changing regeltekst en verdere voorkomens
+	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
+	OW1=${OW%"</r:identificatie>"}
+	OLDWORD=${OW1##*>}
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+
+    #changing locatie en verdere voorkomens
+	OW=$( grep -xh ".*<l:identificatie>.*" *)
+	OW1=${OW%"</l:identificatie>"}
+	OLDWORD=${OW1##*>}
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+
+    #changing regelingsgebied en verdere voorkomens	
+	OW=$( grep -xh ".*<rg:identificatie>.*" *)
+	OW1=${OW%"</rg:identificatie>"}
+	OLDWORD=${OW1##*>}
+	RANDOM1=$( date +%s%N | cut -b1-17)
+    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	#changing reg456 or similar
+	FILES=$(grep -l "$OLDWORD" *);
+	for file in $FILES; do
+		echo "changing $OLDWORD to $NEWWORD in $file" 
+		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	done
+
 
 	
 	#replacing hash in io
