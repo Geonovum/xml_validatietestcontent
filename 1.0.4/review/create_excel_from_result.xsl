@@ -177,6 +177,54 @@
                                         </xsl:sequence>
                                     </xsl:if>
                                 </xsl:for-each>
+                                <xsl:if test="lvbb:meldingen">
+                                    <xsl:sequence>
+                                        <xsl:call-template name="doDrawStyledCell">
+                                            <xsl:with-param name="column" select="3"/>
+                                            <xsl:with-param name="data" select="lvbb:uitkomst/text()"/>
+                                            <xsl:with-param name="style" select="do:colorTheCode(lvbb:meldingen, do:returnTestId(../test/text()))"/>
+                                        </xsl:call-template>
+                                    </xsl:sequence>
+                                </xsl:if>
+                                <xsl:for-each select="lvbb:meldingen/lvbb:melding">
+                                    <xsl:variable name="meldingColor">
+                                        <xsl:choose>
+                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../test/text())">
+                                                <xsl:value-of select="'green'"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="'yellow'"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
+                                    <xsl:sequence>
+                                        <xsl:call-template name="doDrawStyledCell">
+                                            <xsl:with-param name="column" select="4"/>
+                                            <xsl:with-param name="data" select="'melding'"/>
+                                            <xsl:with-param name="style" select="$meldingColor"/>
+                                        </xsl:call-template>
+                                        <xsl:call-template name="doDrawCell">
+                                            <xsl:with-param name="column" select="5"/>
+                                            <xsl:with-param name="data" select="concat(stop:code/text(), ',&#x09;', stop:ernst, ',&#x09;', stop:soort)"/>
+                                        </xsl:call-template>
+                                    </xsl:sequence>
+                                    <xsl:if test="stop:categorie">
+                                        <xsl:sequence>
+                                            <xsl:call-template name="doDrawCell">
+                                                <xsl:with-param name="column" select="5"/>
+                                                <xsl:with-param name="data" select="stop:categorie/text()"/>
+                                            </xsl:call-template>
+                                        </xsl:sequence>
+                                    </xsl:if>
+                                    <xsl:if test="stop:beschrijving">
+                                        <xsl:sequence>
+                                            <xsl:call-template name="doDrawCell">
+                                                <xsl:with-param name="column" select="5"/>
+                                                <xsl:with-param name="data" select="stop:beschrijving/text()"/>
+                                            </xsl:call-template>
+                                        </xsl:sequence>
+                                    </xsl:if>
+                                </xsl:for-each>
                             </xsl:for-each>
                         </xsl:for-each>
                     </xsl:variable>

@@ -35,6 +35,14 @@ for d in *; do
 	  ../setscreate/create_one_set.sh $d;
 	fi
 done
+
+cd ../NietInMatrix
+for d in *; do
+    if [ -d "$d" ]; then
+	  ../setscreate/create_one_set.sh $d;
+	fi
+done
+
 cd ..
 rm opdrachten_gereed/opdracht_-.zip
 else

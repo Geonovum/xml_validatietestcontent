@@ -26,7 +26,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>1.0.4/review/result05022021-12-19.xml</String>
+                                    <String>1.0.4/review/result23022021-13-47.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -42,6 +42,21 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>1.0.4/review/create_excel_from_result.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>create_excel_from_result</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>1.0.4/review/result05022021-12-19.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
