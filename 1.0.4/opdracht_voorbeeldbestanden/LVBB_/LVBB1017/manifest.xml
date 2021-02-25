@@ -47,6 +47,6 @@
     </bestand>
     <bestand>
         <bestandsnaam>niet_ondersteund_bestandstype.bmp</bestandsnaam>
-        <contentType>image/x-ms-bmp</contentType>
+        <contentType>image/bmp</contentType>
     </bestand>
 </manifest>
