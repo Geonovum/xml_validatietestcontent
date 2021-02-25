@@ -16,36 +16,31 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
-         <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
-         <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
-         <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
-         <geo:normID>>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGebieden</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
-               <geo:naam>Zuilichem industriegebied 1</geo:naam>
+               <geo:naam>GEO0012 coordinaat systeem niet ondersteund.</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409D</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000012-xx">
+                     <basisgeo:id>e21c801e-49ee-43f8-8f5e-0000000000012</basisgeo:id>
                      <basisgeo:geometrie>
-                        <!-- FOUT GEOMETRY.03.1	geometrie is afwezig  -->
-<!--                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D"
-                                          srsName="urn:ogc:def:crs:EPSG::28992">
+                        <gml:MultiSurface gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000012"
+                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
                                  <gml:exterior>
                                     <gml:LinearRing>
-                                       <gml:posList>138445.727 424075.759 138445.009 424074.084 138250.611 423503.039 138150.374 423533.414 138043.567 423637.255 138064.818 423652.089 138072.431 423659.852 138190.827 423998.783 138226.769 424096.045 138243.501 424141.337 138358.602 424107.221 138445.727 424075.759</gml:posList>
+                                       <!-- FOUT: GEOMETRY.03.5	geometrie niet conform crs configuratie -->
+                                       <gml:posList>150000.1234567890 450000.1234567890 150000.1234567890 460000.1234567890 160000.1234567890 460000.1234567890 160000.1234567890 450000.1234567890 160000.1234567890 450000.1234567890 150000.1234567890 450000.1234567890</gml:posList>
                                     </gml:LinearRing>
                                  </gml:exterior>
                               </gml:Polygon>
                            </gml:surfaceMember>
                         </gml:MultiSurface>
--->                     </basisgeo:geometrie>
+                     </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>

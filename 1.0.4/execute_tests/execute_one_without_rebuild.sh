@@ -24,6 +24,7 @@ do
     printf '.' > /dev/tty
     sleep 2
 done
+echo ""
 
 #get result
 echo "<result>">$resultfile
