@@ -46,7 +46,7 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Cat03.jpg</bestandsnaam>
-        <contentType>niet_toegestaan_mimetype/mimetype_niet_toegestaan</contentType>
+        <bestandsnaam>niet_ondersteund_bestandstype.bmp</bestandsnaam>
+        <contentType>image/bmp</contentType>
     </bestand>
 </manifest>
