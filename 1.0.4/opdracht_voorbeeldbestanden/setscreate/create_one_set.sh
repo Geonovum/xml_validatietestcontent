@@ -21,7 +21,7 @@ if [ -d "$1" ]; then
     RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
 
     #building levering-id-sed-command
-    directoryname=$1
+    directoryname=$(echo $1|sed -e 's/\.//g')
 	FILENAMEPART="$directoryname-$RANDOM"
 	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
 	echo "changing levering_id to $NEWLINE1 in opdracht.xml" 
