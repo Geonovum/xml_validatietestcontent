@@ -139,7 +139,7 @@ if [ -d "$1" ]; then
 	
 
     echo ""
-    rm ../../opdrachten_gereed/opdracht_$FILENAMEPART*.zip;
+    rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
 
     zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 
