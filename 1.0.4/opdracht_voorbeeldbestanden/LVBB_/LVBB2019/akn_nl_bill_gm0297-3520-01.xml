@@ -6,8 +6,8 @@
                     xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<FRBRWork>/akn/nl/bill/2019/BHKV100521313</FRBRWork>
-<FRBRExpression>/akn/nl/bill/2019/BHKV100521313/nld@2019-06-27</FRBRExpression>
+         <FRBRWork>/akn/nl/bill/2019/LVBB201925182</FRBRWork>
+         <FRBRExpression>/akn/nl/bill/2019/LVBB201925182/nld@2019-06-27</FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
