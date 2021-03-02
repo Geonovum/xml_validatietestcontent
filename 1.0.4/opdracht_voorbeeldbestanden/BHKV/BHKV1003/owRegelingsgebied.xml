@@ -11,7 +11,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-<sl:leveringsId>id-publicatie-BHKV1003-8605</sl:leveringsId>
+<sl:leveringsId>id-publicatie-BHKV1003-13190</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
@@ -19,9 +19,9 @@
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
             <rg:Regelingsgebied>
-               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16140870913478978</rg:identificatie>
+               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16146933076227774</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16140870913256957"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16146933072846006"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
          </ow-dc:owObject>
