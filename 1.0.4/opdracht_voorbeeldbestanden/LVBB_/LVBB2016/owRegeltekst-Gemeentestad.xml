@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-LVBB2016-1597</sl:leveringsId>
+<sl:leveringsId>id-publicatie-LVBB2016-6337</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -34,7 +34,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16145999954457045</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16146936529012589</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
                   <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16145999957266826"/>
