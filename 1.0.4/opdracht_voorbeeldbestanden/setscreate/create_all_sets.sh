@@ -20,7 +20,11 @@ done
 cd ../LVBB_
 for d in *; do
     if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
+        if [ "$d" = "LVBB4010" ]; then
+	       ../setscreate/create_one_set.sh $d;
+	    else
+	       ../setscreate/create_LVBB4010.sh $d;
+	    fi
 	fi
 done
 cd ../OZON
