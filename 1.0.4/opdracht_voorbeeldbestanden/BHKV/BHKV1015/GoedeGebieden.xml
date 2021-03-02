@@ -21,7 +21,7 @@
             </heeftBestand>
          </heeftBestanden>
          <!-- FOUT: BHKV1015	heeftGeboorteregeling MOET aanwezig zijn INDIEN saartWork=work_010 èn formaatinformatieobject=gio_002 -->
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/BHKV101517893</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/BHKV101526479</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
