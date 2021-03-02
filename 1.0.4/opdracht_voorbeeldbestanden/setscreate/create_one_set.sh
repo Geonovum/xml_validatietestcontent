@@ -137,7 +137,7 @@ if [ -d "$1" ]; then
 	echo "changing <doel> to $NEWLINE6 in akn_nl_bill_gm0297-3520-01.xml" 
 	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" akn_nl_bill_gm0297-3520-01.xml
 	
-
+rm akn_nl_bill_gm0297-3520-01.xml
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
 
