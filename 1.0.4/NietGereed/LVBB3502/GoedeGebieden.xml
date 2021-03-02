@@ -20,12 +20,11 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB350121895</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/BHKV100521597</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT: LVBB3501 Valideert het document tegen de versie-informatie bij het io schema? -->
-<!--         <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
--->         <maker>/tooi/id/gemeente/gm0297</maker>
+         <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm0297</maker>
          <alternatieveTitels>
             <alternatieveTitel>GoedeGebieden</alternatieveTitel>
          </alternatieveTitels>
