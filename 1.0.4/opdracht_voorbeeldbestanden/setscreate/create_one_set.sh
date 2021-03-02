@@ -139,7 +139,9 @@ if [ -d "$1" ]; then
 	
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
-
+    
+    rm akn_nl_bill_gm0297-3520-01.xml
+    
     zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 
     echo ""
