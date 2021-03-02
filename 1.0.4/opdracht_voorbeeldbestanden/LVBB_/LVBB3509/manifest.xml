@@ -31,7 +31,7 @@
     </bestand>
     <bestand>
         <bestandsnaam>GoedeGebieden2.gml</bestandsnaam>
-        <contentType>application/xml</contentType>
+        <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
         <bestandsnaam>GoedeGebieden2.xml</bestandsnaam>
