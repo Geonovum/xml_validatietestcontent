@@ -66,7 +66,7 @@ if [ -d "$1" ]; then
 
 	
 	#changing juridische regel en verdere voorkomens
-	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
+LVBB401019360
 	OW1=${OW%"</r:identificatie>"}
 	OLDWORD=${OW1##*>}
 	RANDOM1=$( date +%s%N | cut -b1-17)
@@ -78,7 +78,7 @@ if [ -d "$1" ]; then
 	done
 	
 	#changing regeltekst en verdere voorkomens
-	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
+LVBB401019360
 	OW1=${OW%"</r:identificatie>"}
 	OLDWORD=${OW1##*>}
 	RANDOM1=$( date +%s%N | cut -b1-17)
@@ -140,7 +140,10 @@ if [ -d "$1" ]; then
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
 
+    rm akn_nl_bill_gm0297-3520-01.xml
+
     zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
+
 
     echo ""
     git add *;
