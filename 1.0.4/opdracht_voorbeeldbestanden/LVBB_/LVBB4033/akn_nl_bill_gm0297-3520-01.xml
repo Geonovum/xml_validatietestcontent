@@ -122,8 +122,9 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
+            <!-- FOUT: LVBB4033	Elke AKN wordt-expressie in mutatie-element moet voorkomen als FRBRExpression in ExpressionIdentificatie van RegelingVersieInformatie en omgekeerd -->
             <RegelingCompact componentnaam="initieel_reg"
-                             wordt="/akn/nl/act/gm0297/2019/LVBB40332421/nld@2019-06-25;1">
+                             wordt="/akn/nl/act/gm0297/2019/LVBB40332421FOUT/nld@2019-06-25;1">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Omgevingsplan Goede Gebieden</Al>
                </RegelingOpschrift>
