@@ -54,7 +54,7 @@ if [ -d "$1" ]; then
 	#changing besluit ID in besluit.
 	echo "changing FRBRWork to $NEWLINE2 in $BESLUIT" 
 	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" "$BESLUIT"
-	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
+	echo "changing FRBRExpression to $NEWLINE3 in $BESLUIT" 
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" "$BESLUIT"
 	
 	#changing regelingsid en verdere voorkomens
@@ -121,7 +121,7 @@ if [ -d "$1" ]; then
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in $file" 
+		echo "changing $OLDWORD to $NEWWORD in1 $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 
@@ -132,7 +132,7 @@ if [ -d "$1" ]; then
 	for file in $FILES; do
 		SHA512=$(sha512sum $file)
 		HASH=$(echo ${SHA512% *}|xargs)
-		 NEWLINE4="<hash>$HASH</hash>"
+		NEWLINE4="<hash>$HASH</hash>"
 		filewithoutextension=${file%.gml}
 		giofile="$filewithoutextension.xml"
 		echo "changing hash to $NEWLINE4 in $giofile" 
