@@ -11,7 +11,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-LVBB4200_a-3728</sl:leveringsId>
+<sl:leveringsId>id-publicatie-LVBB4200_a-31171</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
@@ -19,9 +19,9 @@
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Omgevingsplan Zaltbommel)-->
             <rg:Regelingsgebied>
-               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16147871698613376</rg:identificatie>
+               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16147873741805707</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147871693884394"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147873737582509"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
          </ow-dc:owObject>
