@@ -15,8 +15,15 @@ execute_single_file () {
 	filenamewithoutextension=${file%.zip}
 	conversationid=${filenamewithoutextension#*_}
 	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht valideren "$file")
+	
 	#wait ?? seconds for keten to create results
-	sleep 45
+	for i in {1..45}
+    do
+        printf '.' > /dev/tty
+        sleep 1
+    done
+    echo ""
+
 	#get result
 	wget -nv --no-check-certificate $result -O result;
 	echo "<envelop>">>$resultfile
