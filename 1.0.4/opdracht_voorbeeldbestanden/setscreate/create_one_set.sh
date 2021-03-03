@@ -78,7 +78,7 @@ if [ -d "$1" ]; then
 	
 	#changing juridische regel en verdere voorkomens
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
-	if [ $OW != "" ]; then
+	if [ "$OW" != "" ]; then
 	   OW1=${OW%"</r:identificatie>"}
 	   OLDWORD=${OW1##*>}
 	   RANDOM1=$( date +%s%N | cut -b1-17)
@@ -92,7 +92,7 @@ if [ -d "$1" ]; then
 	
 	#changing regeltekst en verdere voorkomens
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
-	if [ $OW != "" ]; then
+	if [ "$OW" != "" ]; then
     	OW1=${OW%"</r:identificatie>"}
 	   OLDWORD=${OW1##*>}
     	RANDOM1=$( date +%s%N | cut -b1-17)
@@ -106,7 +106,7 @@ if [ -d "$1" ]; then
 
     #changing locatie en verdere voorkomens
 	OW=$( grep -xh ".*<l:identificatie>.*" *)
-	if [ $OW != "" ]; then
+	if [ "$OW" != "" ]; then
     	OW1=${OW%"</l:identificatie>"}
 	   OLDWORD=${OW1##*>}
     	RANDOM1=$( date +%s%N | cut -b1-17)
@@ -120,7 +120,7 @@ if [ -d "$1" ]; then
 
     #changing regelingsgebied en verdere voorkomens	
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
-	if [ $OW != "" ]; then
+	if [ "$OW" != "" ]; then
     	OW1=${OW%"</rg:identificatie>"}
 	   OLDWORD=${OW1##*>}
 	   RANDOM1=$( date +%s%N | cut -b1-17)
