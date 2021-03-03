@@ -1,0 +1,625 @@
+<result>
+<envelop>
+<test>BHKV1003-22402</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1003-22402</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1003-22402</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-03T09:24:31.646207+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1003-22402</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-03T09:24:33.759978+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1003</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De eId !initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1 van BeoogdInformatieobject komt niet voor als eId van een ExtIoRef, Controleer de referenties naar de ExtIoRef's /&gt;</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>BHKV1036</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De identifier van instrumentVersie "/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier " van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
+<envelop>
+<test>BHKV1004-25699</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1004-25699</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1004-25699</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-03T09:25:20.728199+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1004-25699</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-03T09:25:22.229741+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>BHKV1004</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>Het ontwerpbesluit heeft tijdstempels, dit is niet toegestaan. Verwijder de tijdstempels.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
+<envelop>
+<test>BHKV1005-184</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1005-184</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1006-15868</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1006-15868</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1007-12536</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1007-12536</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1008-32409</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1008-32409</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1009-10963</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1009-10963</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1010-18501</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1010-18501</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1011-9519</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1011-9519</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1012-25363</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1012-25363</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1014-28387</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1014-28387</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1015-18254</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1015-18254</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1016-32587</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1016-32587</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1017-19323</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1017-19323</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>GEOMETRY031-16736</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_GEOMETRY031-16736</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>GEOMETRY035-3635</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_GEOMETRY035-3635</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1004-6852</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1004-6852</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1004</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Niet geldige karakters gevonden in bestandsnaam: IN000$.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1005-12159</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1005-12159</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1006-3902</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1006-3902</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1006</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.d: Invalid content was found starting with element &apos;foute_tag&apos;. No child element is expected at this point.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1008-28383</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1008-28383</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1008</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: manifest.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:foute_tag}&apos;. One of &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:bestand}&apos; is expected.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1009-4581</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1009-4581</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1010-5383</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1010-5383</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1012_a-18675</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1012_a-18675</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1012_b-29261</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1012_b-29261</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1013-13782</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1013-13782</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1015-14985</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1015-14985</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1015</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;{&quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:foute_tag}&apos;. One of &apos;{&quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:Aanlevering}&apos; is expected.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1016-1745</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1016-1745</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1016</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Domeinbestand: &apos;NietInZip.xml&apos; niet aanwezig in zip, wel aanwezig in manifest-ow.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1017-22621</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1017-22621</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1018-1077</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1018-1077</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1019-11906</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1019-11906</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1020-14738</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1020-14738</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1021-20531</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1021-20531</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1027-7204</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1027-7204</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1501_1-16336</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1501_1-16336</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1006</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-datatype-valid.1.2.1: &apos;21-06-27&apos; is not a valid value for &apos;date&apos;., org.xml.sax.SAXParseException; cvc-type.3.1.3: The value &apos;21-06-27&apos; of element &apos;datumBekendmaking&apos; is not valid.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1501_2-1753</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1501_2-1753</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1505-11015</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1505-11015</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1006</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.b: The content of element &apos;validatieOpdracht&apos; is not complete. One of &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:datumBekendmaking}&apos; is expected.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1506-12128</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1506-12128</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1510-27471</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1510-27471</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1006</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:idAanleveraar}&apos;. One of &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:idBevoegdGezag}&apos; is expected.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1511-20123</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1511-20123</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1006</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:publicatie}&apos;. One of &apos;{&quot;http://www.overheid.nl/2017/lvbb&quot;:idAanleveraar}&apos; is expected.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB1514-29358</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1514-29358</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2003-24853</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2003-24853</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2008-11556</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2008-11556</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2009-5700</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2009-5700</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2010-15875</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2010-15875</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2011-9072</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2011-9072</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2012-26514</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2012-26514</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2013-18141</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2013-18141</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2015-18864</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2015-18864</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2016-6337</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2016-6337</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2017-27020</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2017-27020</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2019-23637</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2019-23637</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2020-7560</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2020-7560</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2021-11769</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2021-11769</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2501-23147</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2501-23147</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2502-18847</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2502-18847</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1015</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;{&quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:Aanlevering}&apos;. One of &apos;{&quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:domein}&apos; is expected.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2503-27200</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2503-27200</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1015</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-enumeration-valid: Value &apos;geen_omgevingswet&apos; is not facet-valid with respect to enumeration &apos;[omgevingswet]&apos;. It must be a value from the enumeration., org.xml.sax.SAXParseException; cvc-type.3.1.3: The value &apos;geen_omgevingswet&apos; of element &apos;domein&apos; is not valid.]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB2504-17827</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2504-17827</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1016</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Domeinbestand: &apos;owNietMeegeleverd.xml&apos; niet aanwezig in zip, wel aanwezig in manifest-ow.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3000-5027</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3000-5027</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3003-9841</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3003-9841</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3009-4377</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3009-4377</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3011-24384</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3011-24384</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3012-22961</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3012-22961</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3501-9398</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3501-9398</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3504-5840</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3504-5840</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3505-19406</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3505-19406</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3506-2720</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3506-2720</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3507-23751</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3507-23751</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3509-4936</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3509-4936</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3510-19854</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3510-19854</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3511-32157</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3511-32157</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3512-5104</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3512-5104</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3513-11538</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3513-11538</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3514-21187</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3514-21187</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3900-21141</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3900-21141</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB3901-27935</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB3901-27935</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4001_a-31225</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4001_a-31225</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4001_b-20143</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4001_b-20143</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4002-18778</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4002-18778</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4005-30573</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4005-30573</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4007-2678</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4007-2678</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1009</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: Bestand: &apos;akn_nl_bill_gm0297-3520-01.xml&apos; niet aanwezig in zip, wel aanwezig in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4010-28656</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4010-28656</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4010-28656</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-03T10:27:44.51895+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>LVBB1506</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>Document gespecificeerd in opdracht niet gevonden : akn_nl_bill_gm0297-3520-01.xml</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>opdracht-niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
+<envelop>
+<test>LVBB4017-15505</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4017-15505</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB4017-15505</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-02T16:39:55.822347+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4017-15505</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-02T16:39:58.052208+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>LVBB4017</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>[Controleer Aanwezig Datum Ondertekening] Geen datum ondertekening aanwezig</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4032-31291</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4032-31291</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB4032-31291</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-02T16:49:26.352916+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4032-31291</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-02T16:49:28.442124+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4033-18657</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4033-18657</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB4033-18657</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-02T16:55:36.331901+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4033-18657</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-02T16:55:38.562357+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>BHKV1012</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/act/gm0297/2019/LVBB40332421 .</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4037-18511</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4037-18511</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB4037-18511</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-03T09:04:36.644704+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4037-18511</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-03T09:04:38.475046+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4040-10020</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4040-10020</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB4040-10020</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-03T09:14:21.122365+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4040-10020</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-03T09:14:27.634049+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>LVBB4040</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>[AanleveringBesluit - RegelingMetadata nieuwe Regeling] Geen RegelingMetadata aanwezig bij eerste regelingversie /akn/nl/act/gm0297/2019/LVBB404031450/nld@2019-06-25;1 binnen nieuwe regeling /akn/nl/act/gm0297/2019/LVBB404031450</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4041-4111</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4041-4111</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB4041-4111</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-03T09:24:46.312354+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4041-4111</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-03T09:24:47.776878+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>BHKV1008</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>De officiële titel wijkt af van de titel van de regeling. Deze moeten gelijkluidend zijn.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+</result>
