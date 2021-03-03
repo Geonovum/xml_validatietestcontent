@@ -29,7 +29,7 @@
                <ga:naam>Bedrijf categorie 2</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Bedrijf</ga:groep>
                <ga:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147870508242235"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147871693884394"/>
                </ga:locatieaanduiding>
             </ga:Gebiedsaanwijzing>
          </ow-dc:owObject>
