@@ -10,6 +10,10 @@
     </bestand>
 
    <bestand>
+      <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
+      <contentType>application/xml</contentType>
+   </bestand>
+   <bestand>
       <bestandsnaam>manifest.xml</bestandsnaam>
       <contentType>application/xml</contentType>
    </bestand>
