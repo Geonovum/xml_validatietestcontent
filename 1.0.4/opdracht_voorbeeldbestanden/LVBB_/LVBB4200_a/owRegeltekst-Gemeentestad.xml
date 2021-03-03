@@ -15,7 +15,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-LVBB4200_a-31171</sl:leveringsId>
+<sl:leveringsId>id-publicatie-LVBB4200_a-76</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -52,20 +52,20 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.2__art_2.4">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16147873734970797</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16147875064517263</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16147873732253408</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16147875061718402</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16147873734970797"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16147875064517263"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147873737582509"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147875067131841"/>
                </r:locatieaanduiding>
                <r:activiteitaanduiding>
                   <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000001"/>
@@ -74,7 +74,7 @@
                      <r:identificatie>nl.imow-gm0297.activiteitlocatieaanduiding.2019000001</r:identificatie>
                      <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Toegestaan</r:activiteitregelkwalificatie>
                      <r:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147873737582509"/>
+                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147875067131841"/>
                      </r:locatieaanduiding>
                   </r:ActiviteitLocatieaanduiding>
                </r:activiteitaanduiding>

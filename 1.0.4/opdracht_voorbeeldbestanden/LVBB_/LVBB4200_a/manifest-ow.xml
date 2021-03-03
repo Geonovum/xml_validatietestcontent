@@ -5,7 +5,7 @@
    <domein>omgevingswet</domein>
    <Aanlevering>
       <WorkIDRegeling>/akn/nl/act/gm0297/2019/reg456</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/LVBB4200_a12401</DoelID>
+<DoelID>/join/id/proces/gm0297/2019/LVBB4200_a27456</DoelID>
       <Bestand>
          <naam>owActiviteiten-Gemeentestad.xml</naam>
          <objecttype>Activiteit</objecttype>
@@ -21,11 +21,6 @@
       <Bestand>
          <naam>owPons-Gemeentestad.xml</naam>
          <objecttype>Pons</objecttype>
-      </Bestand>
-      <Bestand>
-         <naam>owOmgevingsnormOmgevingswaarde.xml</naam>
-         <objecttype>Omgevingsnorm</objecttype>
-         <objecttype>Omgevingswaarde</objecttype>
       </Bestand>
       <Bestand>
          <naam>owLocaties-Gemeentestad.xml</naam>
