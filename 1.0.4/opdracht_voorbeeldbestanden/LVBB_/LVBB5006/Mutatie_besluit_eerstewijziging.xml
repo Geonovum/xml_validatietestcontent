@@ -97,7 +97,7 @@
                <Opschrift>Bijlage bij Artikel I</Opschrift>
             </Kop>
             <RegelingMutatie componentnaam="wijziging_reg"
-                             was=""
+               was="/akn/nl/act/gm0297/2019/LVBB50065396/nld@2022-01-15;1"
                              wordt="/akn/nl/act/gm0297/2019/LVBB50065396/nld@2022-01-15;2">
                <Vervang wat="gm0297_1__chp_2__subchp_2.2__art_2.5">
                   <Nummer>A</Nummer>
