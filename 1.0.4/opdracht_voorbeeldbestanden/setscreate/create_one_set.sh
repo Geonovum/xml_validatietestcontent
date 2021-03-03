@@ -35,18 +35,27 @@ if [ -d "$1" ]; then
 	   echo "changing levering_id to $NEWLINE6 in owLocaties-Gemeentestad.xml" 
 	   sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
 	fi
-	echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
-	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
+	if [ -f "owRegeltekst-Gemeentestad.xml"]; then
+	   echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
+	   sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
+	fi
 
 	#building AKN-sed
 	AKNPART="$directoryname$RANDOM"
 	NEWLINE2="<FRBRWork>/akn/nl/bill/$GEMEENTE/2019/$AKNPART</FRBRWork>";
 	NEWLINE3="<FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
+	BESLUIT=""
+	if [ -f "akn_nl_bill_gm0297-3520-01.xml"]; then
+	   BESLUIT="akn_nl_bill_gm0297-3520-01.xml"
+	fi
+	if [ -f "Mutatie_besluit_eerstewijziging.xml"]; then
+	   BESLUIT="Mutatie_besluit_eerstewijziging.xml"
+	fi
 	#changing besluit ID in besluit.
-	echo "changing FRBRWork to $NEWLINE2 in akn_nl_bill_gm0297-3520-01.xml" 
-	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" akn_nl_bill_gm0297-3520-01.xml
+	echo "changing FRBRWork to $NEWLINE2 in $BESLUIT" 
+	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" "$BESLUIT"
 	echo "changing FRBRExpression to $NEWLINE3 in akn_nl_bill_gm0297-3520-01.xml" 
-	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" akn_nl_bill_gm0297-3520-01.xml
+	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" "$BESLUIT"
 	
 	#changing regelingsid en verdere voorkomens
 	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
