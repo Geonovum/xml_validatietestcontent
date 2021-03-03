@@ -92,41 +92,46 @@ if [ -d "$1" ]; then
 	
 	#changing regeltekst en verdere voorkomens
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
-	OW1=${OW%"</r:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in2 $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
+	if [ $OW != "" ]; then
+    	OW1=${OW%"</r:identificatie>"}
+	   OLDWORD=${OW1##*>}
+    	RANDOM1=$( date +%s%N | cut -b1-17)
+        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+    	FILES=$(grep -l "$OLDWORD" *);
+    	for file in $FILES; do
+	   	echo "changing $OLDWORD to $NEWWORD in2 $file" 
+		  sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   done
+	fi
 
     #changing locatie en verdere voorkomens
 	OW=$( grep -xh ".*<l:identificatie>.*" *)
-	OW1=${OW%"</l:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in3 $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
+	if [ $OW != "" ]; then
+    	OW1=${OW%"</l:identificatie>"}
+	   OLDWORD=${OW1##*>}
+    	RANDOM1=$( date +%s%N | cut -b1-17)
+        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+    	FILES=$(grep -l "$OLDWORD" *);
+	   for file in $FILES; do
+		  echo "changing $OLDWORD to $NEWWORD in3 $file" 
+    		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   done
+	fi
 
     #changing regelingsgebied en verdere voorkomens	
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
-	OW1=${OW%"</rg:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	#changing reg456 or similar
-	FILES=$(grep -l "$OLDWORD" *);
-	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	done
-
+	if [ $OW != "" ]; then
+    	OW1=${OW%"</rg:identificatie>"}
+	   OLDWORD=${OW1##*>}
+	   RANDOM1=$( date +%s%N | cut -b1-17)
+        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	   #changing reg456 or similar
+	   FILES=$(grep -l "$OLDWORD" *);
+	   for file in $FILES; do
+		  echo "changing $OLDWORD to $NEWWORD in $file" 
+    	  sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   done
+    fi
 
 	
 	#replacing hash in io
