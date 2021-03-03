@@ -31,7 +31,7 @@ if [ -d "$1" ]; then
 	#changing leveringid in ow bestanden
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegelingsgebied.xml
-	if test "owLocaties-Gemeentestad.xml"; then
+	if [ -f "owLocaties-Gemeentestad.xml"]; then
 	   echo "changing levering_id to $NEWLINE6 in owLocaties-Gemeentestad.xml" 
 	   sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
 	fi
