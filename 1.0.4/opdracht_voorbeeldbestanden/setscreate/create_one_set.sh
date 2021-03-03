@@ -31,6 +31,7 @@ if [ -d "$1" ]; then
 	#changing leveringid in ow bestanden
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegelingsgebied.xml
+	#tbv
 	if [ -f "owLocaties-Gemeentestad.xml" ]; then
 	   echo "changing levering_id to $NEWLINE6 in owLocaties-Gemeentestad.xml" 
 	   sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
@@ -85,7 +86,7 @@ if [ -d "$1" ]; then
        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	   FILES=$(grep -l "$OLDWORD" *);
 	   for file in $FILES; do
-	       echo "changing $OLDWORD to $NEWWORD in1 $file" 
+	       echo "changing $OLDWORD to $NEWWORD in $file" 
 	       sed -i "s|$OLDWORD|$NEWWORD|" $file
 	   done
 	fi
@@ -99,7 +100,7 @@ if [ -d "$1" ]; then
         NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
     	FILES=$(grep -l "$OLDWORD" *);
     	for file in $FILES; do
-	   	echo "changing $OLDWORD to $NEWWORD in2 $file" 
+	   	echo "changing $OLDWORD to $NEWWORD in $file" 
 		  sed -i "s|$OLDWORD|$NEWWORD|" $file
 	   done
 	fi
@@ -113,7 +114,7 @@ if [ -d "$1" ]; then
         NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
     	FILES=$(grep -l "$OLDWORD" *);
 	   for file in $FILES; do
-		  echo "changing $OLDWORD to $NEWWORD in3 $file" 
+		  echo "changing $OLDWORD to $NEWWORD in $file" 
     		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	   done
 	fi
@@ -153,7 +154,7 @@ if [ -d "$1" ]; then
 	echo "changing <DoelID> to $NEWLINE5 in manifest-ow.xml" 
 	sed -i "s|.*DoelID>/join/id/proces/$GEMEENTE.*|$NEWLINE5|" manifest-ow.xml
 	echo "changing <doel> to $NEWLINE6 in akn_nl_bill_gm0297-3520-01.xml" 
-	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" akn_nl_bill_gm0297-3520-01.xml
+	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" "$BESLUIT"
 	
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
