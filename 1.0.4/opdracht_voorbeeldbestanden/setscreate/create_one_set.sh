@@ -84,8 +84,10 @@ if [ -d "$1" ]; then
     NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in1 $file" 
-		sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   if [ -f "$file" ]; then
+		  echo "changing $OLDWORD to $NEWWORD in1 $file" 
+		  sed -i "s|$OLDWORD|$NEWWORD|" $file
+		fi
 	done
 	
 	#changing regeltekst en verdere voorkomens
@@ -121,7 +123,7 @@ if [ -d "$1" ]; then
 	#changing reg456 or similar
 	FILES=$(grep -l "$OLDWORD" *);
 	for file in $FILES; do
-		echo "changing $OLDWORD to $NEWWORD in4 $file" 
+		echo "changing $OLDWORD to $NEWWORD in $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
 
