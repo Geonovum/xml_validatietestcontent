@@ -79,11 +79,11 @@ if [ -d "$1" ]; then
 	#changing juridische regel en verdere voorkomens
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
 	if [ $OW -ne "" ]; then
-	OW1=${OW%"</r:identificatie>"}
-	OLDWORD=${OW1##*>}
-	RANDOM1=$( date +%s%N | cut -b1-17)
-    NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	FILES=$(grep -l "$OLDWORD" *);
+	   OW1=${OW%"</r:identificatie>"}
+	   OLDWORD=${OW1##*>}
+	   RANDOM1=$( date +%s%N | cut -b1-17)
+       NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	   FILES=$(grep -l "$OLDWORD" *);
 	   for file in $FILES; do
 	       echo "changing $OLDWORD to $NEWWORD in1 $file" 
 	       sed -i "s|$OLDWORD|$NEWWORD|" $file
