@@ -153,7 +153,7 @@ if [ -d "$1" ]; then
 
 	echo "changing <DoelID> to $NEWLINE5 in manifest-ow.xml" 
 	sed -i "s|.*DoelID>/join/id/proces/$GEMEENTE.*|$NEWLINE5|" manifest-ow.xml
-	echo "changing <doel> to $NEWLINE6 in akn_nl_bill_gm0297-3520-01.xml" 
+	echo "changing <doel> to $NEWLINE6 in $BESLUIT" 
 	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" "$BESLUIT"
 	
     echo ""
