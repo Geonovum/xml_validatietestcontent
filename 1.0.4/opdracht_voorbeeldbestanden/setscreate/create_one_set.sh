@@ -31,11 +31,11 @@ if [ -d "$1" ]; then
 	#changing leveringid in ow bestanden
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegelingsgebied.xml
-	if [ -f "owLocaties-Gemeentestad.xml"]; then
+	if [ -f "owLocaties-Gemeentestad.xml" ]; then
 	   echo "changing levering_id to $NEWLINE6 in owLocaties-Gemeentestad.xml" 
 	   sed -i "s|.*leveringsId.*|$NEWLINE6|" owLocaties-Gemeentestad.xml
 	fi
-	if [ -f "owRegeltekst-Gemeentestad.xml"]; then
+	if [ -f "owRegeltekst-Gemeentestad.xml" ]; then
 	   echo "changing levering_id to $NEWLINE6 in owRegeltekst-Gemeentestad.xml" 
 	   sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegeltekst-Gemeentestad.xml
 	fi
@@ -45,10 +45,10 @@ if [ -d "$1" ]; then
 	NEWLINE2="<FRBRWork>/akn/nl/bill/$GEMEENTE/2019/$AKNPART</FRBRWork>";
 	NEWLINE3="<FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
 	BESLUIT=""
-	if [ -f "akn_nl_bill_gm0297-3520-01.xml"]; then
+	if [ -f "akn_nl_bill_gm0297-3520-01.xml" ]; then
 	   BESLUIT="akn_nl_bill_gm0297-3520-01.xml"
 	fi
-	if [ -f "Mutatie_besluit_eerstewijziging.xml"]; then
+	if [ -f "Mutatie_besluit_eerstewijziging.xml" ]; then
 	   BESLUIT="Mutatie_besluit_eerstewijziging.xml"
 	fi
 	#changing besluit ID in besluit.
