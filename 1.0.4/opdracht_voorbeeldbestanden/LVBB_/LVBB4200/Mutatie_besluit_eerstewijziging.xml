@@ -36,15 +36,15 @@
          <BeoogdeRegelgeving>
             <BeoogdeRegeling>
                <doelen>
-<doel>/join/id/proces/gm0297/2019/LVBB42006308</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB420013285</doel>
                </doelen>
-               <instrumentVersie>/akn/nl/act/gm0297/2019/LVBB420027447/nld@2022-01-15;2</instrumentVersie>
+               <instrumentVersie>/akn/nl/act/gm0297/2019/LVBB420017268/nld@2021-01-15;2</instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-<doel>/join/id/proces/gm0297/2019/LVBB42006308</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB420013285</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2022-02-01</datum>
                <eId>art_II</eId>
@@ -57,7 +57,7 @@
          </RegelingOpschrift>
          <Aanhef wId="formula_1" eId="formula_1">
             <Al>De raad van de gemeente Gemeenstestad </Al>
-            <Al>gelezen het voorstel van burgemeester en wethouders van 21 januari 2022, nr. 2022-0168;</Al>
+            <Al>gelezen het voorstel van burgemeester en wethouders van 21 januari 2021, nr. 2021-0168;</Al>
             <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149"
                        soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
             <Al>besluit:</Al>
@@ -97,8 +97,8 @@
                <Opschrift>Bijlage bij Artikel I</Opschrift>
             </Kop>
             <RegelingMutatie componentnaam="wijziging_reg"
-               was="/akn/nl/act/gm0297/2019/LVBB420027447/nld@2022-01-15;1"
-                             wordt="/akn/nl/act/gm0297/2019/LVBB420027447/nld@2021-01-15;2">
+               was="/akn/nl/act/gm0297/2019/LVBB420017268/nld@2022-01-15;1"
+                             wordt="/akn/nl/act/gm0297/2019/LVBB420017268/nld@2021-01-15;2">
                <Vervang wat="gm0297_1__chp_2__subchp_2.2__art_2.5">
                   <Nummer>A</Nummer>
                   <Wat>Artikel 2.5 is vernummerd naar 2.6:</Wat>
@@ -413,8 +413,8 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/akn/nl/act/gm0297/2019/LVBB420027447</FRBRWork>
-         <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB420027447/nld@2022-01-15;2</FRBRExpression>
+         <FRBRWork>/akn/nl/act/gm0297/2019/LVBB420017268</FRBRWork>
+         <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB420017268/nld@2022-01-15;2</FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
