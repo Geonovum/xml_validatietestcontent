@@ -46,21 +46,21 @@
             <BeoogdeRegelgeving>
                 <BeoogdeRegeling>
                     <doelen>
-<doel>/join/id/proces/gm0297/2019/LVBB4200_a26323</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB4200_a7473</doel>
                     </doelen>
-                    <instrumentVersie>/akn/nl/act/gm0297/2020/LVBB4200_a15606/nld@2</instrumentVersie>
+                    <instrumentVersie>/akn/nl/act/gm0297/2020/LVBB4200_a4917/nld@1</instrumentVersie>
                     <eId>art_I</eId>
                 </BeoogdeRegeling>
                 <BeoogdInformatieobject>
                     <doelen>
-<doel>/join/id/proces/gm0297/2019/LVBB4200_a26323</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB4200_a7473</doel>
                     </doelen>
                     <instrumentVersie>/join/id/regdata/gm0297/2020/GoedeGebieden/nld@2020-03-18;3520</instrumentVersie>
                     <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-<doel>/join/id/proces/gm0297/2019/LVBB4200_a26323</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB4200_a7473</doel>
                     </doelen>
                     <instrumentVersie>/join/id/regdata/gm0297/2020/regelingsgebied/nld@2020-03-18;3520</instrumentVersie>
                     <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
@@ -69,7 +69,7 @@
             <Intrekkingen>
                 <Intrekking>
                     <doelen>
-<doel>/join/id/proces/gm0297/2019/LVBB4200_a26323</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB4200_a7473</doel>
                     </doelen>
                     <instrument>/akn/nl/act/gm0297/2019/reg456</instrument>
                     <eId>art_II</eId>
@@ -77,7 +77,7 @@
             </Intrekkingen>
             <Tijdstempels>
                 <Tijdstempel>
-<doel>/join/id/proces/gm0297/2019/LVBB4200_a26323</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB4200_a7473</doel>
                     <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                     <datum>2020-02-25</datum>
                     <eId>art_III</eId>
@@ -139,7 +139,7 @@
                     <Nummer>A</Nummer>
                     <Opschrift>Instelling "Regeling Voorbeeldregels met uitbreiding tbv Toepasbare Regels (Gemeentestad) 2020" </Opschrift>
                 </Kop>
-                <RegelingCompact componentnaam="nieuweregeling" wordt="/akn/nl/act/gm0297/2020/LVBB4200_a15606/nld@2">
+                <RegelingCompact componentnaam="nieuweregeling" wordt="/akn/nl/act/gm0297/2020/LVBB4200_a4917/nld@1">
                     <RegelingOpschrift eId="longTitle" wId="longTitle">
                         <Al>Omgevingsplan Gemeentestad (na intrekken vervangen)</Al>
                     </RegelingOpschrift>
@@ -350,8 +350,8 @@
     <RegelingVersieInformatie>
         <!-- nieuwe regeling -->
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0297/2020/LVBB4200_a15606</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0297/2020/LVBB4200_a15606/nld@2</FRBRExpression>
+            <FRBRWork>/akn/nl/act/gm0297/2020/LVBB4200_a4917</FRBRWork>
+            <FRBRExpression>/akn/nl/act/gm0297/2020/LVBB4200_a4917/nld@2</FRBRExpression>
             <soortWork>/join/id/stop/work_019</soortWork>
         </ExpressionIdentificatie>
         <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
