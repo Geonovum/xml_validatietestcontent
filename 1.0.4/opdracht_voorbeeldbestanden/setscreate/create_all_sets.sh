@@ -21,9 +21,9 @@ cd ../LVBB_
 for d in *; do
     if [ -d "$d" ]; then
         if [ "$d" = "LVBB4010" ]; then
-	       ../setscreate/create_one_set.sh $d;
-	    else
 	       ../setscreate/create_LVBB4010.sh $d;
+	    else
+	       ../setscreate/create_one_set.sh $d;
 	    fi
 	fi
 done
@@ -48,12 +48,6 @@ for d in *; do
 	fi
 done
 
-cd ../NietInMatrix
-for d in *; do
-    if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
-	fi
-done
 
 cd ..
 rm opdrachten_gereed/opdracht_-.zip
