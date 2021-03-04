@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0101-12397</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0101-15391</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -28,20 +28,20 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16147661836109019</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16148547420945619</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16147661833088842</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16148547420767278</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16147661836109019"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16148547420945619"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147661838821261"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16148547421114055"/>
                </r:locatieaanduiding>
                <r:omgevingsnormaanduiding>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.201900001"/>
@@ -62,7 +62,7 @@
                      <rol:kwantitatieveWaarde>200</rol:kwantitatieveWaarde>
                      <!-- FOUT: OZON0101	Een Normwaarde moet verwijzen naar een locatie die bestaat. -->
                      <rol:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16147661838821261abc"/>
+                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16148547421114055abc"/>
                      </rol:locatieaanduiding>
                   </rol:Normwaarde>
                </rol:normwaarde>
