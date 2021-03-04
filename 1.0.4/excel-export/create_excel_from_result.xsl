@@ -133,7 +133,7 @@
                                 <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
                                     <xsl:variable name="meldingColor">
                                         <xsl:choose>
-                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../../test/text())">
+                                            <xsl:when test="stop:code/text() = do:returnTestId2(../../../../test/text())">
                                                 <xsl:value-of select="'green'"/>
                                             </xsl:when>
                                             <xsl:otherwise>
@@ -181,7 +181,7 @@
                                 <xsl:for-each select="lvbb:meldingen/lvbb:melding">
                                     <xsl:variable name="meldingColor">
                                         <xsl:choose>
-                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../test/text())">
+                                            <xsl:when test="stop:code/text() = do:returnTestId2(../../../test/text())">
                                                 <xsl:value-of select="'green'"/>
                                             </xsl:when>
                                             <xsl:otherwise>
@@ -294,7 +294,7 @@
                                     </xsl:call-template>
                                     <xsl:variable name="meldingColor">
                                         <xsl:choose>
-                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../../test/text())">
+                                            <xsl:when test="stop:code/text() = do:returnTestId2(../../../../test/text())">
                                                 <xsl:value-of select="'green'"/>
                                             </xsl:when>
                                             <xsl:otherwise>
@@ -359,7 +359,7 @@
                                     </xsl:call-template>
                                     <xsl:variable name="meldingColor">
                                         <xsl:choose>
-                                            <xsl:when test="stop:code/text() = do:returnTestId(../../../test/text())">
+                                            <xsl:when test="stop:code/text() = do:returnTestId2(../../../test/text())">
                                                 <xsl:value-of select="'green'"/>
                                             </xsl:when>
                                             <xsl:otherwise>
@@ -427,6 +427,11 @@
     </xsl:function>
 
     <xsl:function name="do:returnTestId">
+        <xsl:param name="testId" as="xs:string"/>
+        <xsl:value-of select="concat(substring-before($testId, '-'), ' (',$testId,')')"/>
+    </xsl:function>
+
+    <xsl:function name="do:returnTestId2">
         <xsl:param name="testId" as="xs:string"/>
         <xsl:value-of select="substring-before($testId, '-')"/>
     </xsl:function>
