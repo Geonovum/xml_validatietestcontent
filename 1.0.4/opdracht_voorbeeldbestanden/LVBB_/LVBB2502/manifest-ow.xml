@@ -3,8 +3,8 @@
   xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow"
   xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/generiek/manifest-ow.xsd">
   <Aanlevering>
-    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB250228908</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/LVBB250210187</DoelID>
+    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB25024390</WorkIDRegeling>
+<DoelID>/join/id/proces/gm0297/2019/LVBB250230418</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
