@@ -6,7 +6,7 @@
   <Aanlevering>
     <!-- FOUT: TPOD2140	Het WorkIDRegeling van het manifest-ow moet verwijzen naar een bestaande work-id van een Regeling in OP. -->
     <WorkIDRegeling>/akn/nl/act/gm0297/2019/FOUT</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/TPOD214015532</DoelID>
+<DoelID>/join/id/proces/gm0297/2019/TPOD214015222</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>

@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/generiek/manifest-ow.xsd">
   <domein>omgevingswet</domein>
   <Aanlevering>
-    <WorkIDRegeling>/akn/nl/act/gm0297/2019/TPOD206011552</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/TPOD206020256</DoelID>
+    <WorkIDRegeling>/akn/nl/act/gm0297/2019/TPOD206026222</WorkIDRegeling>
+<DoelID>/join/id/proces/gm0297/2019/TPOD206017467</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
