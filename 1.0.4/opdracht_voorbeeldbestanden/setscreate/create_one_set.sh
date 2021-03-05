@@ -52,6 +52,9 @@ if [ -d "$1" ]; then
 	if [ -f "Mutatie_besluit_eerstewijziging.xml" ]; then
 	   BESLUIT="Mutatie_besluit_eerstewijziging.xml"
 	fi
+	if [ -f "OVILEI001.xml" ]; then
+	   BESLUIT="OVILEI001.xml"
+	fi
 	#changing besluit ID in besluit.
 	echo "changing FRBRWork to $NEWLINE2 in $BESLUIT" 
 	sed -i "s|.*FRBRWork>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE2|" "$BESLUIT"

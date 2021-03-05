@@ -17,7 +17,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-         <sl:leveringsId>TPOD204016696-001</sl:leveringsId>
+         <sl:leveringsId>TPOD204018451-001</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Divisie</sl:objectType>
             <sl:objectType>Tekstdeel</sl:objectType>
@@ -43,7 +43,7 @@
                   <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.20200001"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>
                </vt:hoofdlijnaanduiding>
                <vt:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.16149329093032089"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.16149330428906860"/>
                </vt:locatieaanduiding>
             	<vt:gebiedsaanwijzing>
             		<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.2020000001" type="simple"/>	
