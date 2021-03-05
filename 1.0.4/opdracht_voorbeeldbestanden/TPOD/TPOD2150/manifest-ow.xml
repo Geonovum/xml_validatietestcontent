@@ -5,6 +5,7 @@
   <domein>omgevingswet</domein>
   <Aanlevering>
     <WorkIDRegeling>/akn/nl/act/gm0297/2019/TPOD21501722</WorkIDRegeling>
+    <!-- FOUT: TPOD2150	Het DoelID van het manifest-ow moet verwijzen naar een bestaand doel dat aanwezig is in de bijbehorende Regeling in OP. -->
 <DoelID>/join/id/proces/gm0297/2019/BESTAATNIET</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
