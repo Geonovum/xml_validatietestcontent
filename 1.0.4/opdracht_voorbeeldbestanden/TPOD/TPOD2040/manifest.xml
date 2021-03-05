@@ -6,7 +6,7 @@
       <lvbb:contentType>application/xml</lvbb:contentType>
    </lvbb:bestand>
    <lvbb:bestand>
-      <lvbb:bestandsnaam>TPOD204018451.xml</lvbb:bestandsnaam>
+      <lvbb:bestandsnaam>OVILEI001.xml</lvbb:bestandsnaam>
       <lvbb:contentType>application/xml</lvbb:contentType>
    </lvbb:bestand>
    <lvbb:bestand>
@@ -24,7 +24,7 @@
    </lvbb:bestand>
 
    <lvbb:bestand>
-      <lvbb:bestandsnaam>GIO_001.xml</lvbb:bestandsnaam>
+      <lvbb:bestandsnaam>001_gemeente_leiden.xml</lvbb:bestandsnaam>
       <lvbb:contentType>application/xml</lvbb:contentType>
    </lvbb:bestand>
 

@@ -12,12 +12,12 @@
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <heeftGeboorteregeling>/akn/nl/act/gm0546/2020/TPOD204018451</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0546/2020/TPOD204013861</heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>001_gemeente_leiden.gml</bestandsnaam>
-                  <hash>cc60c34fe45f82d068c46a1ea2c426bb17c7de4b28c3d291106e5336bbfb7585c08defd5bf0bf17bc99319a22525017393ed3a6809afd8e254d04b4aa0c65ddc</hash>
+<hash>e4e211f5458669db2d4d5aff0b865d76f2a5d048c2de3ada28a39acf347dd78cb2f4775eb071c89144263767f678286518582d48979c3f6391b3775b2c8ed941</hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
