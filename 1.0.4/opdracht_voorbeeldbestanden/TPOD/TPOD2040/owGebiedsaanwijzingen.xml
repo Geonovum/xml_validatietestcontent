@@ -29,7 +29,7 @@
       			<ga:naam>abc</ga:naam>
       		   <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Centrumgebied</ga:groep>
       			<ga:locatieaanduiding>
-      				<l:LocatieRef xlink:href="nl.imow-gm0546.gebied.16149331619030577"/>
+      				<l:LocatieRef xlink:href="nl.imow-gm0546.gebied.16149455630015164"/>
       			</ga:locatieaanduiding>
       		</ga:Gebiedsaanwijzing>
       	</ow-dc:owObject>
