@@ -36,15 +36,15 @@
          <BeoogdeRegelgeving>
             <BeoogdeRegeling>
                <doelen>
-<doel>/join/id/proces/gm0297/2019/LVBB500622920</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB500625086</doel>
                </doelen>
-               <instrumentVersie>/akn/nl/act/gm0297/2019/LVBB500628729/nld@2022-01-15;2</instrumentVersie>
+               <instrumentVersie>/akn/nl/act/gm0297/2019/LVBB50064415/nld@2022-01-15;2</instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-<doel>/join/id/proces/gm0297/2019/LVBB500622920</doel>
+<doel>/join/id/proces/gm0297/2019/LVBB500625086</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2022-02-01</datum>
                <eId>art_II</eId>
@@ -97,8 +97,8 @@
                <Opschrift>Bijlage bij Artikel I</Opschrift>
             </Kop>
             <RegelingMutatie componentnaam="wijziging_reg"
-               was="/akn/nl/act/gm0297/2019/LVBB500628729/nld@2022-01-15;1"
-                             wordt="/akn/nl/act/gm0297/2019/LVBB500628729/nld@2022-01-15;2">
+               was="/akn/nl/act/gm0297/2019/LVBB50064415/nld@2022-01-15;1"
+                             wordt="/akn/nl/act/gm0297/2019/LVBB50064415/nld@2022-01-15;2">
                <Vervang wat="gm0297_1__chp_2__subchp_2.2__art_2.5">
                   <Nummer>A</Nummer>
                   <Wat>Artikel 2.5 is vernummerd naar 2.6:</Wat>
@@ -514,8 +514,8 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/akn/nl/act/gm0297/2019/LVBB500628729</FRBRWork>
-         <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB500628729/nld@2022-01-15;2</FRBRExpression>
+         <FRBRWork>/akn/nl/act/gm0297/2019/LVBB50064415</FRBRWork>
+         <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB50064415/nld@2022-01-15;2</FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
