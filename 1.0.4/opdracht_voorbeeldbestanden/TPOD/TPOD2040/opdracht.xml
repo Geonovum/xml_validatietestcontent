@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<lvbb:publicatieOpdracht xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+<?xml version="1.0" encoding="UTF-8"?>
+<validatieOpdracht 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.overheid.nl/2017/lvbb"
+xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
 <idLevering>id-publicatie-TPOD2040-6573</idLevering>
-   <lvbb:idBevoegdGezag>00000001002311112000</lvbb:idBevoegdGezag>
-   <lvbb:idAanleveraar>00000001002311112000</lvbb:idAanleveraar>
-   <lvbb:publicatie>TPOD204019428.xml</lvbb:publicatie>
-   <lvbb:datumBekendmaking>2020-09-01</lvbb:datumBekendmaking>
-</lvbb:publicatieOpdracht>
+<idBevoegdGezag>00000001812579446000</idBevoegdGezag> 
+<idAanleveraar>00000003560458830000</idAanleveraar>
+<publicatie>OVILEI001.xml</publicatie>
+<datumBekendmaking>2021-06-27</datumBekendmaking>
+</validatieOpdracht>
+
