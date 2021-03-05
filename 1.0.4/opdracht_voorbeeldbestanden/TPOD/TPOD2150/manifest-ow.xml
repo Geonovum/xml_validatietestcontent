@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/generiek/manifest-ow.xsd">
   <domein>omgevingswet</domein>
   <Aanlevering>
-    <WorkIDRegeling>/akn/nl/act/gm0297/2019/TPOD21501722</WorkIDRegeling>
+    <WorkIDRegeling>/akn/nl/act/gm0297/2019/TPOD21505394</WorkIDRegeling>
     <!-- FOUT: TPOD2150	Het DoelID van het manifest-ow moet verwijzen naar een bestaand doel dat aanwezig is in de bijbehorende Regeling in OP. -->
-<DoelID>/join/id/proces/gm0297/2019/BESTAATNIET</DoelID>
+<DoelID>/join/id/proces/gm0297/2019/TPOD21505976</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
