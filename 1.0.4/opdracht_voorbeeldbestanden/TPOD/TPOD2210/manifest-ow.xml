@@ -6,7 +6,7 @@
   <Aanlevering>
     <!-- FOUT: TPOD2210	De combinatie van Doel en Regeling uit het manifest-OW moet ook als combinatie bestaan in OP -->
     <WorkIDRegeling>/akn/nl/act/gm0297/2019/BESTAATNIET</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/BESTAATNIET</DoelID>
+<DoelID>/join/id/proces/gm0297/2019/TPOD221012806</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
