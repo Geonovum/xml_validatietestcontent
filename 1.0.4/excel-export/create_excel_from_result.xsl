@@ -271,50 +271,18 @@
                     </xsl:if>
                 </xsl:for-each>
                 <saxon:assign name="alleTests" select="$alleTests+1"></saxon:assign>
-                <xsl:if test="
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=1 
-                    or 
-                    (
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=0
-                    and count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding)=1
-                    and not(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text()='informatie')
-                    )
-                    and $found=true()">
+                <xsl:variable name="aantalVerslagMeldingen" select="count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
+                <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen(.)"/>
+                <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=true()">
                     <saxon:assign name="testsMetEenResultaat" select="$testsMetEenResultaat+1" saxon:assignable="yes"/>
                 </xsl:if>
-                <xsl:if test="
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=1 
-                    or 
-                    (
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=0
-                    and count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding)=1
-                    and not(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text()='informatie')
-                    )
-                    and $found=false()">
+                <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=false()">
                     <saxon:assign name="testsMetEenFoutResultaat" select="$testsMetEenFoutResultaat+1" saxon:assignable="yes"/>
                 </xsl:if>
-                <xsl:if test="
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)>1 
-                    or 
-                    (
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=0
-                    and count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding)>1
-                    )
-                    ">
+                <xsl:if test="($aantalVerslagMeldingen>1 or $aantalMeldingen>1)">
                     <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten+1" saxon:assignable="yes"/>
                 </xsl:if>
-                <xsl:if test="
-                    (
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=0 
-                    and count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding)=0
-                    )
-                    or
-                    (
-                    count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding)=0 
-                    and count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding)=1
-                    and lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text()='informatie'
-                    )
-                    ">
+                <xsl:if test="($aantalVerslagMeldingen=0 and $aantalMeldingen=0)">
                     <saxon:assign name="testsMetGeenResultaten" select="$testsMetGeenResultaten+1" saxon:assignable="yes"/>
                 </xsl:if>
             </xsl:for-each>
@@ -478,6 +446,21 @@
         </xsl:element>
 
     </xsl:template>
+    
+    <xsl:function name="do:aantalMeldingen">
+        <xsl:param name="envelop" as="node()"/>
+        <xsl:choose>
+            <xsl:when test="
+                count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)=0
+                and not($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text()='informatie')
+                ">
+                <xsl:value-of select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:code)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="0"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
 
     <xsl:function name="do:colorTheCode">
         <xsl:param name="meldingen" as="node()"/>
