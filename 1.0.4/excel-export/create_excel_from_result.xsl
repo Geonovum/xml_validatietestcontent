@@ -199,10 +199,14 @@
                         </xsl:call-template>
                         <xsl:call-template name="doDrawCell">
                             <xsl:with-param name="column" select="4"/>
-                            <xsl:with-param name="data" select="'Categorie'"/>
+                            <xsl:with-param name="data" select="'Resultaat'"/>
                         </xsl:call-template>
                         <xsl:call-template name="doDrawCell">
                             <xsl:with-param name="column" select="5"/>
+                            <xsl:with-param name="data" select="'Categorie'"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="doDrawCell">
+                            <xsl:with-param name="column" select="6"/>
                             <xsl:with-param name="data" select="'Beschrijving'"/>
                         </xsl:call-template>
                     </xsl:element>
@@ -218,6 +222,10 @@
                                             <xsl:with-param name="data" select="$testId"/>
                                             <xsl:with-param name="style" select="'yellow'"/>
                                         </xsl:call-template>
+                                        <xsl:call-template name="doDrawCell">
+                                            <xsl:with-param name="column" select="4"></xsl:with-param>
+                                            <xsl:with-param name="data" select="'Geen fouten gevonden vanuit de keten'"></xsl:with-param>
+                                        </xsl:call-template>
                                     </xsl:element>
                                 </xsl:when>
                                 <xsl:when test="lvbb:verslag">
@@ -226,6 +234,7 @@
                                             <xsl:call-template name="doWerkblad2Rij">
                                                 <xsl:with-param name="testId" select="$testId"/>
                                                 <xsl:with-param name="node" select="."/>
+                                                <xsl:with-param name="envelop" select="ancestor::envelop"/>
                                             </xsl:call-template>
                                         </xsl:for-each>
                                     </xsl:if>
@@ -236,6 +245,7 @@
                                             <xsl:call-template name="doWerkblad2Rij">
                                                 <xsl:with-param name="testId" select="$testId"/>
                                                 <xsl:with-param name="node" select="."/>
+                                                <xsl:with-param name="envelop" select="ancestor::envelop"/>
                                             </xsl:call-template>
                                         </xsl:for-each>
                                     </xsl:if>
@@ -396,6 +406,7 @@
     <xsl:template name="doWerkblad2Rij">
         <xsl:param name="testId" as="xs:string"/>
         <xsl:param name="node" as="node()"/>
+        <xsl:param name="envelop" as="node()"/>
         <xsl:element name="Row" namespace="{$defNS}">
             <xsl:choose>
                 <xsl:when test="position() = 1">
@@ -431,21 +442,56 @@
                 <xsl:with-param name="column" select="3"/>
                 <xsl:with-param name="data" select="$node/stop:soort"/>
             </xsl:call-template>
+            <xsl:call-template name="doDrawCell">
+                <xsl:with-param name="column" select="4"></xsl:with-param>
+                <xsl:with-param name="data" select="do:tekstValidatieRapport($envelop)"></xsl:with-param>
+            </xsl:call-template>
             <xsl:if test="$node/stop:categorie">
                 <xsl:call-template name="doDrawCell">
-                    <xsl:with-param name="column" select="4"/>
+                    <xsl:with-param name="column" select="5"/>
                     <xsl:with-param name="data" select="$node/stop:categorie/text()"/>
                 </xsl:call-template>
             </xsl:if>
             <xsl:if test="$node/stop:beschrijving">
                 <xsl:call-template name="doDrawCell">
-                    <xsl:with-param name="column" select="5"/>
+                    <xsl:with-param name="column" select="6"/>
                     <xsl:with-param name="data" select="$node/stop:beschrijving/text()"/>
                 </xsl:call-template>
             </xsl:if>
         </xsl:element>
 
     </xsl:template>
+    
+    <xsl:function name="do:tekstValidatieRapport">
+        <xsl:param name="envelop" as="node()"/>
+        <xsl:variable name="error" select="do:returnTestId($envelop/test/text())"/>
+        <saxon:assign name="found" select="false()" saxon:assignable="yes"/>
+        <xsl:for-each select="$envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding">
+            <xsl:if test="$error=stop:code/text()">
+                <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:for-each select="$envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding">
+            <xsl:if test="$error=stop:code/text()">
+                <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:variable name="aantalVerslagMeldingen" select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
+        <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen($envelop)"/>
+        <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=true()">
+            <xsl:value-of select="'Gezochte fout was de enige terugmelding'"/>
+        </xsl:if>
+        <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=false()">
+            <xsl:value-of select="'Andere fout was de enige terugmelding'"/>
+        </xsl:if>
+        <xsl:if test="($aantalVerslagMeldingen>1 or $aantalMeldingen>1)">
+            <xsl:value-of select="'Meerdere fouten teruggegeven in de keten'"/>
+        </xsl:if>
+        <xsl:if test="($aantalVerslagMeldingen=0 and $aantalMeldingen=0)">
+            <xsl:value-of select="'Geen fouten gevonden vanuit de keten'"/>
+        </xsl:if>
+        
+    </xsl:function>
     
     <xsl:function name="do:aantalMeldingen">
         <xsl:param name="envelop" as="node()"/>
