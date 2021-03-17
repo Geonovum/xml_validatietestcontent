@@ -125,7 +125,7 @@
             <RegelingCompact componentnaam="initieel_reg"
                              wordt="/akn/nl/act/gm0297/2019/LVBB101725594/nld@2019-06-25;1">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
-                  <Al>Omgevingsplan Foute Gebieden</Al>
+                  <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
                <Lichaam eId="body_2" wId="body_2">
                   <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
@@ -248,7 +248,7 @@
                <isOfficieel>true</isOfficieel>
             </CiteertitelInformatie>
          </heeftCiteertitelInformatie>
-         <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
+         <officieleTitel>Gemeentestad (omgevingsplan Zaltbommel)</officieleTitel>
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
          </onderwerpen>
