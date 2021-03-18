@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<publicatieOpdracht 
+<validatieOpdracht 
   xmlns="http://www.overheid.nl/2017/lvbb" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb
@@ -8,5 +8,5 @@
   <idBevoegdGezag>00000001001797864000</idBevoegdGezag>
   <idAanleveraar>00000001001797864000</idAanleveraar>
   <publicatie>Kennisgeving01.xml</publicatie>
-  <datumBekendmaking>2020-06-23</datumBekendmaking>
-</publicatieOpdracht>
+  <datumBekendmaking>2021-06-23</datumBekendmaking>
+</validatieOpdracht>
