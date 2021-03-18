@@ -26,7 +26,7 @@
         <Procedurestap>
           <!-- nieuw! begin inzagetermijn -->
           <soortStap>/join/id/stop/procedure/stap_014</soortStap>
-          <voltooidOp>2021-06-19</voltooidOp>
+          <voltooidOp>2021-06-01</voltooidOp>
         </Procedurestap>
         <Procedurestap>
           <!-- stap_005 = eind inzagetermijn -->
