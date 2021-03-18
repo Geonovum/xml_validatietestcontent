@@ -174,5 +174,5 @@ if [ -d "$1" ]; then
     git push;
     cd ..;
 else
-    echo "Please start from directory opdracht_voorbeeldbestanden/XXX."
+    echo "Testset does not exist or Please start from directory opdracht_voorbeeldbestanden/XXX."
 fi
