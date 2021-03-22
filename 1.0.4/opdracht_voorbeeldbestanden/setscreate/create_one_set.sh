@@ -14,9 +14,7 @@ function substring() {
 } 
 
 function replaceIdsSimple() {
-    echo "going into $1"
 	OW=$( grep -xh ".*<$1>.*" *)
-	echo $OW
 	if [ "$OW" != "" ]; then
 	   for OW1 in $OW; do
     	  OW1=${OW%"</$1>"}
@@ -33,10 +31,10 @@ function replaceIdsSimple() {
 }
 
 function replaceIdsComplex() {
-	OW=$( grep -xh ".*$1.*" *|grep "$2")
+	OW=$( grep -xh ".*<$1>.*" *|grep "$2")
 	if [ "$OW" != "" ]; then
 	   for OW1 in $OW; do
-    	  OW1=${OW%"</$1"}
+    	  OW1=${OW%"</$1>"}
 	      OLDWORD=${OW1##*>}
 	      RANDOM1=$( date +%s%N | cut -b1-17)
           NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
@@ -117,82 +115,22 @@ if [ -d "$1" ]; then
 
 	
 	#changing juridische regel en verdere voorkomens
-	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
-	if [ "$OW" != "" ]; then
-	   for OW1 in $OW; do
-    	  OW1=${OW%"</r:identificatie>"}
-	      OLDWORD=${OW1##*>}
-	      RANDOM1=$( date +%s%N | cut -b1-17)
-          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	      FILES=$(grep -l "$OLDWORD" *);
-	      for file in $FILES; do
-	         echo "changing $OLDWORD to $NEWWORD in $file" 
-    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
-	      done
-	   done
-	fi
+    replaceIdsComplex "r:identificatie" "juridischeregel"
 	
 	#changing regeltekst en verdere voorkomens
-	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "regeltekst")
-	if [ "$OW" != "" ]; then
-    	OW1=${OW%"</r:identificatie>"}
-	   OLDWORD=${OW1##*>}
-    	RANDOM1=$( date +%s%N | cut -b1-17)
-        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-    	FILES=$(grep -l "$OLDWORD" *);
-    	for file in $FILES; do
-	   	echo "changing $OLDWORD to $NEWWORD in $file" 
-		  sed -i "s|$OLDWORD|$NEWWORD|" $file
-	   done
-	fi
+    replaceIdsComplex "r:identificatie" "regeltekst"
 
     #changing locatie en verdere voorkomens
     replaceIdsSimple "l:identificatie"
 
     #changing regelingsgebied en verdere voorkomens	
-	OW=$( grep -xh ".*<rg:identificatie>.*" *)
-	if [ "$OW" != "" ]; then
-    	OW1=${OW%"</rg:identificatie>"}
-	   OLDWORD=${OW1##*>}
-	   RANDOM1=$( date +%s%N | cut -b1-17)
-        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	   #changing reg456 or similar
-	   FILES=$(grep -l "$OLDWORD" *);
-	   for file in $FILES; do
-		  echo "changing $OLDWORD to $NEWWORD in $file" 
-    	  sed -i "s|$OLDWORD|$NEWWORD|" $file
-	   done
-    fi
+    replaceIdsSimple "rg:identificatie"
 
 	#changing Gebiedsaanwijzing en verdere voorkomens	
-	OW=$( grep -xh ".*<ga:identificatie>.*" *)
-	if [ "$OW" != "" ]; then
-    	OW1=${OW%"</ga:identificatie>"}
-	   OLDWORD=${OW1##*>}
-	   RANDOM1=$( date +%s%N | cut -b1-17)
-        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	   #changing reg456 or similar
-	   FILES=$(grep -l "$OLDWORD" *);
-	   for file in $FILES; do
-		  echo "changing $OLDWORD to $NEWWORD in $file" 
-    	  sed -i "s|$OLDWORD|$NEWWORD|" $file
-	   done
-    fi
+    replaceIdsSimple "ga:identificatie"
     
     #changing Omgevingsnorm en verdere voorkomens	
-	OW=$( grep -xh ".*<rol:identificatie>.*" *)
-	if [ "$OW" != "" ]; then
-    	OW1=${OW%"</rol:identificatie>"}
-	   OLDWORD=${OW1##*>}
-	   RANDOM1=$( date +%s%N | cut -b1-17)
-        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	   #changing reg456 or similar
-	   FILES=$(grep -l "$OLDWORD" *);
-	   for file in $FILES; do
-		  echo "changing $OLDWORD to $NEWWORD in $file" 
-    	  sed -i "s|$OLDWORD|$NEWWORD|" $file
-	   done
-    fi
+    replaceIdsSimple "rol:identificatie"
     
 	#replacing hash in io
 	FILES=$(find . -name "*.gml" -print);
