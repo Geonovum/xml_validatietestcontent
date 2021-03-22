@@ -145,7 +145,7 @@ if [ -d "$1" ]; then
 	fi
 
     #changing locatie en verdere voorkomens
-    replaceIdsSimple l:identificatie
+    replaceIdsSimple "l:identificatie"
 
     #changing regelingsgebied en verdere voorkomens	
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
