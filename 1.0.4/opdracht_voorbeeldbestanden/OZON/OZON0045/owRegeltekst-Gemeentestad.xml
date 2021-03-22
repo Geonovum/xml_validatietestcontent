@@ -46,6 +46,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
+      <!-- FOUT: OZON0045	Iedere RegelVoorIedereen moet verwijzen naar een of meerdere Locaties die bestaan. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
