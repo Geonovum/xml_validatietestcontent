@@ -14,6 +14,7 @@ function substring() {
 } 
 
 function replaceIdsSimple() {
+    echo "going into $1"
 	OW=$( grep -xh ".*$1.*" *)
 	if [ "$OW" != "" ]; then
 	   for OW1 in $OW; do
