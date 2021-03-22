@@ -24,6 +24,7 @@
       </sl:inhoud>
       <sl:stand>
          <ow-dc:owObject>
+            <!-- FOUT: OZON0013	Het type van het owObject moet voorkomen in de lijst objectTypen in de inhoud. -->
             <l:Gebied>
                <l:identificatie>nl.imow-gm0297.gebied.16149454333827056</l:identificatie>
                <l:noemer>Fout gebied</l:noemer>

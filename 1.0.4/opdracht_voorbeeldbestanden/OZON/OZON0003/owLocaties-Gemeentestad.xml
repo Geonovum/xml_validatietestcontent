@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- FOUT: OZON0003	Het root element van een IMOW document moet ten minste 1 standBestand bevatten. -->
 <ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
 	xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
 	xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"

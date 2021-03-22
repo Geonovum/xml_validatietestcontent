@@ -13,6 +13,40 @@ function substring() {
     echo "${str:${start}:${length}}"
 } 
 
+function replaceIdsSimple() {
+	OW=$( grep -xh ".*$1.*" *)
+	if [ "$OW" != "" ]; then
+	   for OW1 in $OW; do
+    	  OW1=${OW%"</$1"}
+	      OLDWORD=${OW1##*>}
+	      RANDOM1=$( date +%s%N | cut -b1-17)
+          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	      FILES=$(grep -l "$OLDWORD" *);
+	      for file in $FILES; do
+	         echo "changing $OLDWORD to $NEWWORD in $file" 
+    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
+	      done
+	   done
+	fi
+}
+
+function replaceIdsComplex() {
+	OW=$( grep -xh ".*$1.*" *|grep "$2")
+	if [ "$OW" != "" ]; then
+	   for OW1 in $OW; do
+    	  OW1=${OW%"</$1"}
+	      OLDWORD=${OW1##*>}
+	      RANDOM1=$( date +%s%N | cut -b1-17)
+          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	      FILES=$(grep -l "$OLDWORD" *);
+	      for file in $FILES; do
+	         echo "changing $OLDWORD to $NEWWORD in $file" 
+    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
+	      done
+	   done
+	fi
+}
+
 if [ -d "$1" ]; then
     echo "Script wordt uitgevoerd voor gemeente gm0297"
     echo ""
@@ -83,14 +117,16 @@ if [ -d "$1" ]; then
 	#changing juridische regel en verdere voorkomens
 	OW=$( grep -xh ".*<r:identificatie>.*" *|grep "juridischeregel")
 	if [ "$OW" != "" ]; then
-	   OW1=${OW%"</r:identificatie>"}
-	   OLDWORD=${OW1##*>}
-	   RANDOM1=$( date +%s%N | cut -b1-17)
-       NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	   FILES=$(grep -l "$OLDWORD" *);
-	   for file in $FILES; do
-	       echo "changing $OLDWORD to $NEWWORD in $file" 
-	       sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   for OW1 in $OW; do
+    	  OW1=${OW%"</r:identificatie>"}
+	      OLDWORD=${OW1##*>}
+	      RANDOM1=$( date +%s%N | cut -b1-17)
+          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	      FILES=$(grep -l "$OLDWORD" *);
+	      for file in $FILES; do
+	         echo "changing $OLDWORD to $NEWWORD in $file" 
+    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
+	      done
 	   done
 	fi
 	
@@ -109,18 +145,7 @@ if [ -d "$1" ]; then
 	fi
 
     #changing locatie en verdere voorkomens
-	OW=$( grep -xh ".*<l:identificatie>.*" *)
-	if [ "$OW" != "" ]; then
-    	OW1=${OW%"</l:identificatie>"}
-	   OLDWORD=${OW1##*>}
-    	RANDOM1=$( date +%s%N | cut -b1-17)
-        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-    	FILES=$(grep -l "$OLDWORD" *);
-	   for file in $FILES; do
-		  echo "changing $OLDWORD to $NEWWORD in $file" 
-    		sed -i "s|$OLDWORD|$NEWWORD|" $file
-	   done
-	fi
+    replaceIdsSimple l:identificatie
 
     #changing regelingsgebied en verdere voorkomens	
 	OW=$( grep -xh ".*<rg:identificatie>.*" *)
@@ -137,7 +162,36 @@ if [ -d "$1" ]; then
 	   done
     fi
 
-	
+	#changing Gebiedsaanwijzing en verdere voorkomens	
+	OW=$( grep -xh ".*<ga:identificatie>.*" *)
+	if [ "$OW" != "" ]; then
+    	OW1=${OW%"</ga:identificatie>"}
+	   OLDWORD=${OW1##*>}
+	   RANDOM1=$( date +%s%N | cut -b1-17)
+        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	   #changing reg456 or similar
+	   FILES=$(grep -l "$OLDWORD" *);
+	   for file in $FILES; do
+		  echo "changing $OLDWORD to $NEWWORD in $file" 
+    	  sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   done
+    fi
+    
+    #changing Omgevingsnorm en verdere voorkomens	
+	OW=$( grep -xh ".*<rol:identificatie>.*" *)
+	if [ "$OW" != "" ]; then
+    	OW1=${OW%"</rol:identificatie>"}
+	   OLDWORD=${OW1##*>}
+	   RANDOM1=$( date +%s%N | cut -b1-17)
+        NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	   #changing reg456 or similar
+	   FILES=$(grep -l "$OLDWORD" *);
+	   for file in $FILES; do
+		  echo "changing $OLDWORD to $NEWWORD in $file" 
+    	  sed -i "s|$OLDWORD|$NEWWORD|" $file
+	   done
+    fi
+    
 	#replacing hash in io
 	FILES=$(find . -name "*.gml" -print);
 	for file in $FILES; do
