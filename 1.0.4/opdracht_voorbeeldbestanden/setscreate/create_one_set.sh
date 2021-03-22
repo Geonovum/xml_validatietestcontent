@@ -15,11 +15,11 @@ function substring() {
 
 function replaceIdsSimple() {
     echo "going into $1"
-	OW=$( grep -xh ".*$1.*" *)
+	OW=$( grep -xh ".*<$1>.*" *)
 	echo $OW
 	if [ "$OW" != "" ]; then
 	   for OW1 in $OW; do
-    	  OW1=${OW%"</$1"}
+    	  OW1=${OW%"</$1>"}
 	      OLDWORD=${OW1##*>}
 	      RANDOM1=$( date +%s%N | cut -b1-17)
           NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
