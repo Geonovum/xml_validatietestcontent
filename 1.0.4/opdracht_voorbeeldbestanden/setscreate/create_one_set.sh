@@ -17,8 +17,8 @@ function replaceIdsSimple() {
 	OW=$( grep -xh ".*<$1>.*" *)
 	if [ "$OW" != "" ]; then
 	   for OW1 in $OW; do
-    	  OW1=${OW%"</$1>"}
-	      OLDWORD=${OW1##*>}
+    	  OW2=${OW1%"</$1>"}
+	      OLDWORD=${OW2##*>}
 	      RANDOM1=$( date +%s%N | cut -b1-17)
           NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	      FILES=$(grep -l "$OLDWORD" *);
@@ -34,8 +34,8 @@ function replaceIdsComplex() {
 	OW=$( grep -xh ".*<$1>.*" *|grep "$2")
 	if [ "$OW" != "" ]; then
 	   for OW1 in $OW; do
-    	  OW1=${OW%"</$1>"}
-	      OLDWORD=${OW1##*>}
+    	  OW2=${OW1%"</$1>"}
+	      OLDWORD=${OW2##*>}
 	      RANDOM1=$( date +%s%N | cut -b1-17)
           NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
 	      FILES=$(grep -l "$OLDWORD" *);
