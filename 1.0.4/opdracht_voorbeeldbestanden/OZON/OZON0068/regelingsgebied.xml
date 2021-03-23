@@ -12,12 +12,12 @@
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/OZON006824553</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/OZON006815011</heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-<hash>bb15a07e854c16e39cb7af3c89e13594a3a344f7141a195c908b35daf5ddbfbb7caf4ad15d1fdb649890d008ac897f7f7818ca627a3f60300174874a71c3abf0</hash>
+<hash>b6a60db5f767258573ac16a11703df5238b364f730b8f90ad78c3cc6d36b277ecba6115cf29ca00aa16c41b77e2a716dc12ecc30fc0e45ea53619f8484e5063d</hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
