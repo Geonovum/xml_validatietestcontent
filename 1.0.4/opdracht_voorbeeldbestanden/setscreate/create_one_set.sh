@@ -30,6 +30,23 @@ function replaceIdsSimple() {
 	fi
 }
 
+function replaceIdsGUID() {
+	OW=$( grep -xh ".*<$1>.*" *)
+	if [ "$OW" != "" ]; then
+	   for OW1 in $OW; do
+    	  OW2=${OW1%"</$1>"}
+	      OLDWORD=${OW2##*>}
+	      RANDOM1=$( date +%s%N | cut -b1-17)
+          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+	      FILES=$(grep -l "$OLDWORD" *);
+	      for file in $FILES; do
+	         echo "changing $OLDWORD to $NEWWORD in $file" 
+    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
+	      done
+	   done
+	fi
+}
+
 function replaceIdsComplex() {
 	OW=$( grep -xh ".*<$1>.*" *|grep "$2")
 	if [ "$OW" != "" ]; then
@@ -132,6 +149,8 @@ if [ -d "$1" ]; then
     #changing Omgevingsnorm en verdere voorkomens	
     replaceIdsSimple "rol:identificatie"
     
+    #guids
+    replaceIdsGUID "basisgeo:id"
 	#replacing hash in io
 	FILES=$(find . -name "*.gml" -print);
 	for file in $FILES; do
