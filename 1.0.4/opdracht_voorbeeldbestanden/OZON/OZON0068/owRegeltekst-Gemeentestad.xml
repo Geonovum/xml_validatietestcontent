@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0068-25158</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0068-11275</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -27,22 +27,22 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16165138357050302</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16165138738537329</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16165138353858351</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16165138735347778</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16165138357050302"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16165138738537329"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.16165138379636891"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.16165138371245272"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.16165138360005527"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.16165138761110456"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.16165138752454124"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.16165138741431061"/>
                </r:locatieaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
