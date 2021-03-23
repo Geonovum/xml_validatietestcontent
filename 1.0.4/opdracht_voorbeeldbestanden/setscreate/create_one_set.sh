@@ -2,7 +2,7 @@
 
 GEMEENTE="gm0297"
 
-echo "%0"
+echo "$0"
 
 function substring() {
     local str="$1" start="${2}" end="${3}"
