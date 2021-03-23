@@ -31,15 +31,21 @@ function replaceIdsSimple() {
 }
 
 function replaceIdsGUID() {
+echo "1: $1"
 	OW=$( grep -xh ".*<$1>.*" *)
 	if [ "$OW" != "" ]; then
+echo "OW: $OW"
 	   for OW1 in $OW; do
+echo "OW1: $OW1"
     	  OW2=${OW1%"</$1>"}
+echo "OW2: $OW2"
 	      OLDWORD=${OW2##*>}
-	      RANDOM1=$( date +%s%N | cut -b1-17)
-          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
+echo "OLDWORD: $OLDWORD"
+          NEWWORD=$(  java -jar uuidgen.jar -q )
+echo "NEWWORD: $NEWWORD"          
 	      FILES=$(grep -l "$OLDWORD" *);
 	      for file in $FILES; do
+echo "file: $file"       	      
 	         echo "changing $OLDWORD to $NEWWORD in $file" 
     	     sed -i "s|$OLDWORD|$NEWWORD|" $file
 	      done
