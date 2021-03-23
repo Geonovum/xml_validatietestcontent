@@ -2,6 +2,8 @@
 
 GEMEENTE="gm0297"
 
+echo "%0"
+
 function substring() {
     local str="$1" start="${2}" end="${3}"
     
@@ -41,7 +43,7 @@ echo "OW1: $OW1"
 echo "OW2: $OW2"
 	      OLDWORD=${OW2##*>}
 echo "OLDWORD: $OLDWORD"
-          NEWWORD=$(  java -jar uuidgen.jar -q )
+          NEWWORD=$(  java -jar lib/uuidgen.jar -q )
 echo "NEWWORD: $NEWWORD"          
 	      FILES=$(grep -l "$OLDWORD" *);
 	      for file in $FILES; do

@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0068-19464</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0068-19611</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
             <sl:objectType>Gebiedengroep</sl:objectType>
@@ -30,11 +30,11 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Puntengroep>
-               <l:identificatie>nl.imow-gm0297.puntengroep.16164995409336106</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.puntengroep.16164996602273449</l:identificatie>
                <l:groepselement>
-                  <l:PuntRef xlink:href="nl.imow-gm0297.punt.16164995412525188"/>
-                  <l:PuntRef xlink:href="nl.imow-gm0297.punt.16164995415216274"/>
-                  <l:PuntRef xlink:href="nl.imow-gm0297.punt.16164995417902791"/>
+                  <l:PuntRef xlink:href="nl.imow-gm0297.punt.16164996605337170"/>
+                  <l:PuntRef xlink:href="nl.imow-gm0297.punt.16164996607968402"/>
+                  <l:PuntRef xlink:href="nl.imow-gm0297.punt.16164996610458425"/>
                </l:groepselement>
             </l:Puntengroep>
          </ow-dc:owObject>
@@ -42,7 +42,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Punt>
-               <l:identificatie>nl.imow-gm0297.punt.16164995412525188</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.punt.16164996605337170</l:identificatie>
                <l:noemer>punt 1</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="C28AF779-7EDD-4A88-8B11-809798F53611PUNT"/>
@@ -53,7 +53,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Punt>
-               <l:identificatie>nl.imow-gm0297.punt.16164995415216274</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.punt.16164996607968402</l:identificatie>
                <l:noemer>punt 2</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="C28AF779-7EDD-4A88-8B11-809798F53612PUNT"/>
@@ -64,7 +64,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Punt>
-               <l:identificatie>nl.imow-gm0297.punt.16164995417902791</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.punt.16164996610458425</l:identificatie>
                <l:noemer>punt 3</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="C28AF779-7EDD-4A88-8B11-809798F53613PUNT"/>
@@ -75,10 +75,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Lijnengroep>
-               <l:identificatie>nl.imow-gm0297.lijnengroep.16164995420596947</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.lijnengroep.16164996613144930</l:identificatie>
                <l:groepselement>
-                  <l:LijnRef xlink:href="nl.imow-gm0297.lijn.16164995423691089"/>
-                  <l:LijnRef xlink:href="nl.imow-gm0297.lijn.16164995426357507"/>
+                  <l:LijnRef xlink:href="nl.imow-gm0297.lijn.16164996616216693"/>
+                  <l:LijnRef xlink:href="nl.imow-gm0297.lijn.16164996618862013"/>
                </l:groepselement>
             </l:Lijnengroep>
          </ow-dc:owObject>
@@ -86,7 +86,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Lijn>
-               <l:identificatie>nl.imow-gm0297.lijn.16164995423691089</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.lijn.16164996616216693</l:identificatie>
                <l:noemer>lijn 1</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="B28AF779-7EDD-4A88-8B11-809798F53611LIJN"/>
@@ -97,7 +97,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Lijn>
-               <l:identificatie>nl.imow-gm0297.lijn.16164995426357507</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.lijn.16164996618862013</l:identificatie>
                <l:noemer>lijn 2</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="B28AF779-7EDD-4A88-8B11-809798F53612LIJN"/>
@@ -108,10 +108,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebiedengroep>
-               <l:identificatie>nl.imow-gm0297.gebiedengroep.16164995429017816</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.16164996621496978</l:identificatie>
                <l:groepselement>
-                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16164995432073419"/>
-                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16164995435096374"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16164996624560917"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16164996627660372"/>
                </l:groepselement>
             </l:Gebiedengroep>
          </ow-dc:owObject>
@@ -119,7 +119,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16164995432073419</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16164996624560917</l:identificatie>
                <l:noemer>Goed gebied 1</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
@@ -130,7 +130,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16164995435096374</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16164996627660372</l:identificatie>
                <l:noemer>Goed gebied 2</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409E"/>
