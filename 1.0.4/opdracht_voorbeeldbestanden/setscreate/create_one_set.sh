@@ -3,10 +3,10 @@
 GEMEENTE="gm0297"
 
 echo "$0"
-libstring=lib/uuidgen.jar
-oldstring=create_one_set.sh
-lib=${0/oldstring/$libstring}
-echo "$lib"
+libstring="lib/uuidgen.jar"
+oldstring="create_one_set.sh"
+lib=${0/oldstring/libstring}
+echo "lib: $lib"
 
 function substring() {
     local str="$1" start="${2}" end="${3}"
