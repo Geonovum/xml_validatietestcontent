@@ -39,23 +39,16 @@ function replaceIdsSimple() {
 }
 
 function replaceIdsGUID() {
-echo "1: $1"
 	OW=$( grep -xh ".*<$1>.*" *)
 	if [ "$OW" != "" ]; then
-echo "OW: $OW"
 	   for OW1 in $OW; do
-echo "OW1: $OW1"
     	  OW2=${OW1%"</$1>"}
-echo "OW2: $OW2"
 	      OLDWORD=${OW2##*>}
-echo "OLDWORD: $OLDWORD"
           cd ../../setscreate/lib
           NEWWORD=$(java -jar uuidgen.jar -q)
           cd -
-echo "NEWWORD: $NEWWORD"          
 	      FILES=$(grep -l "$OLDWORD" *);
 	      for file in $FILES; do
-echo "file: $file"       	      
 	         echo "changing $OLDWORD to $NEWWORD in $file" 
     	     sed -i "s|$OLDWORD|$NEWWORD|" $file
 	      done
