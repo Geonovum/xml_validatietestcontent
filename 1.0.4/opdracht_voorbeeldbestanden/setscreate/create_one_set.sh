@@ -3,7 +3,9 @@
 GEMEENTE="gm0297"
 
 echo "$0"
-lib=${$0/create_one_set.sh/uuidgen.jar}
+libstring=lib/uuidgen.jar
+oldstring=create_one_set.sh
+lib=${$0/$oldstring/$libstring}
 echo "$lib"
 
 function substring() {

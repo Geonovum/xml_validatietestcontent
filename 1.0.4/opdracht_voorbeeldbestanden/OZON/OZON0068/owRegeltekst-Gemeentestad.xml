@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0068-9642</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0068-24180</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -27,22 +27,22 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16164999578793976</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16165001759537667</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16164999575739718</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16165001756405301</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16164999578793976"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16165001759537667"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.16164999600720041"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.16164999592609361"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.16164999581651725"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.16165001781576821"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.16165001773179488"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.16165001762388110"/>
                </r:locatieaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
