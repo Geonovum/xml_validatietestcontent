@@ -49,7 +49,9 @@ echo "OW1: $OW1"
 echo "OW2: $OW2"
 	      OLDWORD=${OW2##*>}
 echo "OLDWORD: $OLDWORD"
-          NEWWORD=$(  java -jar $lib -q )
+          cd ../../setscreate/lib
+          NEWWORD=$(java -jar uuidgen.jar -q)
+          cd -
 echo "NEWWORD: $NEWWORD"          
 	      FILES=$(grep -l "$OLDWORD" *);
 	      for file in $FILES; do
