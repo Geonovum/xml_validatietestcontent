@@ -80,8 +80,8 @@
                </geo:geometrie>
             </geo:Locatie>
             <geo:Locatie>
+               <geo:naam>Lijn 2</geo:naam>
                <geo:geometrie>
-                  <geo:naam>Lijn 2</geo:naam>
                   <basisgeo:Geometrie gml:id="id-B28AF779-7EDD-4A88-8B11-809798F53612LIJN-xx">
                      <basisgeo:id>B28AF779-7EDD-4A88-8B11-809798F53612LIJN</basisgeo:id>
                      <basisgeo:geometrie>
@@ -94,8 +94,8 @@
                </geo:geometrie>
             </geo:Locatie>
             <geo:Locatie>
+               <geo:naam>Punt 1</geo:naam>
                <geo:geometrie>
-                  <geo:naam>Punt 1</geo:naam>
                   <basisgeo:Geometrie gml:id="id-C28AF779-7EDD-4A88-8B11-809798F53611PUNT-xx">
                      <basisgeo:id>C28AF779-7EDD-4A88-8B11-809798F53611PUNT</basisgeo:id>
                      <basisgeo:geometrie>
@@ -112,8 +112,8 @@
                </geo:geometrie>
             </geo:Locatie>
             <geo:Locatie>
+               <geo:naam>Punt 2</geo:naam>
                <geo:geometrie>
-                  <geo:naam>Punt 2</geo:naam>
                   <basisgeo:Geometrie gml:id="id-C28AF779-7EDD-4A88-8B11-809798F53612PUNT-xx">
                      <basisgeo:id>C28AF779-7EDD-4A88-8B11-809798F53612PUNT</basisgeo:id>
                      <basisgeo:geometrie>
