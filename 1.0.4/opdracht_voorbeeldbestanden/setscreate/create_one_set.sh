@@ -178,6 +178,10 @@ if [ -d "$1" ]; then
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
     
+    if [ "$1" = "LVBB" ]; then
+        rm
+    fi
+    
     zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 
     echo ""
