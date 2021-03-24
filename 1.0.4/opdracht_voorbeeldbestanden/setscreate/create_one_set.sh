@@ -185,6 +185,7 @@ if [ -d "$1" ]; then
     echo ""
     git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
     ONGELDIGE_ZIP="LVBB1001-$RANDOM"
+    rm ../../opdrachten_gereed/opdracht_LVBB1001*.zip;
     echo "ongeldige zip" >  ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
     git add ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
     echo ""
