@@ -73,7 +73,7 @@ if [ -d "$1" ]; then
     echo $1
     cd $1;
     RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
-
+    
     #building levering-id-sed-command
     directoryname=$(echo $1|sed -e 's/\.//g')
 	FILENAMEPART="$directoryname-$RANDOM"
@@ -184,6 +184,9 @@ if [ -d "$1" ]; then
     git add *;
     echo ""
     git add ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip;
+    ONGELDIGE_ZIP="LVBB1001-$RANDOM"
+    echo "ongeldige zip" >  ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
+    git add ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
     echo ""
     git commit -a -m $1;
     echo ""
