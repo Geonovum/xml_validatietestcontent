@@ -22,10 +22,10 @@
             <geo:Locatie>
                <geo:naam>GEO0012 coordinaat systeem niet ondersteund.</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-9500c140-d7fc-4ec9-ac04-dadd6a576dcb-xx">
-                     <basisgeo:id>9500c140-d7fc-4ec9-ac04-dadd6a576dcb</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-58e678b3-efaa-4c4f-97c6-4e0ad09b7bd3-xx">
+                     <basisgeo:id>58e678b3-efaa-4c4f-97c6-4e0ad09b7bd3</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-9500c140-d7fc-4ec9-ac04-dadd6a576dcb"
+                        <gml:MultiSurface gml:id="id-58e678b3-efaa-4c4f-97c6-4e0ad09b7bd3"
                            srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
