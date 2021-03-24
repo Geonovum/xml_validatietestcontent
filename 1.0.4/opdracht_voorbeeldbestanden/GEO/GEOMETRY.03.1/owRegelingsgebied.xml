@@ -11,7 +11,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-<sl:leveringsId>id-publicatie-GEOMETRY031-2620</sl:leveringsId>
+<sl:leveringsId>id-publicatie-GEOMETRY031-5663</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
@@ -19,9 +19,9 @@
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
             <rg:Regelingsgebied>
-               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16165151293964222</rg:identificatie>
+               <rg:identificatie>nl.imow-gm0297.regelingsgebied.16165859183598353</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16165151290119880"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16165859180270103"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
          </ow-dc:owObject>
