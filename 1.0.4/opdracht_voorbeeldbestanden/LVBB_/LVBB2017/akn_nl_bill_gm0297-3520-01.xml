@@ -25,6 +25,7 @@
          </rechtsgebieden>
          <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
          <informatieobjectRefs>
+            <!-- FOUT: LVBB2017	Een AKN- of JOIN-identificatie mag geen punt bevatten -->
             <informatieobjectRef>/join/i.d/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</informatieobjectRef>
             <informatieobjectRef>/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</informatieobjectRef>
          </informatieobjectRefs>
