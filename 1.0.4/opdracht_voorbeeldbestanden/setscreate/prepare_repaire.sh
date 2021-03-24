@@ -2,7 +2,7 @@
 
 if [ -d "$1" ]; then
     echo $1
-    mkdir ../Orig
+    #mkdir ../Orig
     rm ../Orig/*
     cd $1;
     cp * ../../Orig
