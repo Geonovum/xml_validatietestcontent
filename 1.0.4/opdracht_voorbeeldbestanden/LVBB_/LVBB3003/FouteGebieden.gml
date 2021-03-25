@@ -20,12 +20,13 @@
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
+               <!-- FOUT: LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook) -->
                <geo:naam>LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook)</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000015-xx">
-                     <basisgeo:id>e21c801e-49ee-43f8-8f5e-0000000000015</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-48160f87-27d9-409d-b542-924ce9b7cf47-xx">
+                     <basisgeo:id>48160f87-27d9-409d-b542-924ce9b7cf47</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000015">
+                        <gml:MultiSurface gml:id="id-48160f87-27d9-409d-b542-924ce9b7cf47">
                            <gml:surfaceMember>
                               <gml:Polygon>
                                  <gml:exterior>
