@@ -2,9 +2,10 @@
 <Aanleveringen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow"
   xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/generiek/manifest-ow.xsd">
+  <domein>omgevingswet</domein>
   <Aanlevering>
-    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB250231410</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/LVBB250230652</DoelID>
+    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB250216024</WorkIDRegeling>
+<DoelID>/join/id/proces/gm0297/2019/LVBB250210679</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
