@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/generiek/manifest-ow.xsd">
   <!-- FOUT: LVBB2502	Domeinmanifest moet doel hebben -->
   <Aanlevering>
-    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB25027505</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/LVBB250213005</DoelID>
+    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB250228275</WorkIDRegeling>
+<DoelID>/join/id/proces/gm0297/2019/LVBB250220046</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
