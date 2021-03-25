@@ -5,8 +5,8 @@
   <!-- FOUT: LVBB2503	Doel in domeinmanifest moet bestaan -->
   <domein>geen_omgevingswet</domein>
   <Aanlevering>
-    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB25031967</WorkIDRegeling>
-<DoelID>/join/id/proces/gm0297/2019/LVBB25034844</DoelID>
+    <WorkIDRegeling>/akn/nl/act/gm0297/2019/LVBB250330985</WorkIDRegeling>
+<DoelID>/join/id/proces/gm0297/2019/LVBB250325278</DoelID>
     <Bestand>
       <naam>owLocaties-Gemeentestad.xml</naam>
       <objecttype>Gebied</objecttype>
