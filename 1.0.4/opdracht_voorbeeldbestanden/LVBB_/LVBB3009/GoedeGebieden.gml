@@ -21,15 +21,16 @@
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
-         <geo:normID>>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
+         <!-- FOUT: LVBB3009	Valideert het gml document tegen het schema -->
+         <geo:normID_valideert_niet>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID_valideert_niet>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409D</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-6c2e503b-1583-420b-a64a-80277d81da0e-xx">
+                     <basisgeo:id>6c2e503b-1583-420b-a64a-80277d81da0e</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D"
+                        <gml:MultiSurface gml:id="id-6c2e503b-1583-420b-a64a-80277d81da0e"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
