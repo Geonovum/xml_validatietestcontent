@@ -19,6 +19,7 @@
       <naam>owRegelingsgebied.xml</naam>
       <objecttype>Regelingsgebied</objecttype>
     </Bestand>
+    <!-- FOUT: LVBB2504	De bestanden genoemd in het domeinmanifest moeten meegeleverd zijn -->
     <Bestand>
       <naam>owNietMeegeleverd.xml</naam>
       <objecttype>Gebied</objecttype>
