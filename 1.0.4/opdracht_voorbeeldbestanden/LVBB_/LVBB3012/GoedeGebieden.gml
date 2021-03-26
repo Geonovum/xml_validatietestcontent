@@ -26,15 +26,16 @@
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409D</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-4350e382-3ab8-49d8-8977-9e381af8bc6f-xx">
+                     <basisgeo:id>4350e382-3ab8-49d8-8977-9e381af8bc6f</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D"
+                        <gml:MultiSurface gml:id="id-4350e382-3ab8-49d8-8977-9e381af8bc6f"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
                                  <gml:exterior>
                                     <gml:LinearRing>
+                                       <!-- FOUT: LVBB3012	Elk GML-element MOET een ingevulde <gml:posList> bevatten -->
                                        <gml:posList></gml:posList>
                                     </gml:LinearRing>
                                  </gml:exterior>
