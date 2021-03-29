@@ -96,6 +96,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij Artikel I</Opschrift>
             </Kop>
+            <!-- FOUT: LVBB4015	Bestaat was-versie? -->
             <RegelingMutatie componentnaam="wijziging_reg"
                was="/akn/nl/act/gm0297/2019/LVBB4015434/nld@2022-01-15;1"
                              wordt="/akn/nl/act/gm0297/2019/LVBB4015434/nld@2021-01-15;2">
