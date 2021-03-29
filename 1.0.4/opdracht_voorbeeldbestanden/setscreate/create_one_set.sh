@@ -140,13 +140,20 @@ if [ -d "$1" ]; then
 	echo "----------------------------------"
 	echo "---- GIO-bestanden: AKN-act-geboorteregeling"
 	echo "----------------------------------"
-	FILES=$(find . -name "*.gml" -print);
-	for file in $FILES; do
-		filewithoutextension=${file%.gml}
-		giofile="$filewithoutextension.xml"
-		echo "changing heeftGeboorteregeling to <heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling> in $giofile" 
-		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
-	done
+	if [ "$1" != "LVBB3510" ]; then
+	   FILES=$(find . -name "*.gml" -print);
+	   for file in $FILES; do
+		  filewithoutextension=${file%.gml}
+		  giofile="$filewithoutextension.xml"
+		  echo "changing heeftGeboorteregeling to <heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling> in $giofile" 
+		  sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
+	   done
+	else
+	   echo "----------------------------------"
+	   echo "---- GIO-bestanden: AKN-act-geboorteregeling NOT in case of LVBB3510"
+	   echo "----------------------------------"
+
+	fi
 
 	echo "----------------------------------"
 	echo "---- Juridischeregel-id: en verder voorkomen"
@@ -222,9 +229,6 @@ if [ -d "$1" ]; then
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
     
-    if [ "$1" = "LVBB" ]; then
-        rm
-    fi
     
     zip ../../opdrachten_gereed/opdracht_$FILENAMEPART.zip *;
 

@@ -21,7 +21,7 @@
             </heeftBestand>
          </heeftBestanden>
          <!-- FOUT: LVBB3510	Geboorteregeling in een informatie-object moet voorkomen als regeling in het besluit -->
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB351019566</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB351019566_ONGELIJK</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
