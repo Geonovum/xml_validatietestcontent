@@ -16,11 +16,12 @@
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-<hash>030c43a805a426f60257ed51e570288434d77c2aef22eed91002283b2f434037f40876bb2d7947a4ae8c2a07b1d95b54e285b66693854f7d20c9c41394242c22</hash>
+<hash>39157433df27f8eac4f69af97b14c31d2c9d0adfc3acf26505dc439d6eae8483927a71e661035e368d6a3f35a7cb045fcd09e93b5b98174a79e57db86f1bf162</hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB351319049</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB351325706</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
+      <!-- FOUT: LVBB3513	InformatieObjectMetadata MOET aanwezig zijn in het aangeleverde informatie-object, INDIEN een informatie-object betrekking heeft op een nieuw werk -->
    </InformatieObjectVersie>
 </AanleveringInformatieObject>
