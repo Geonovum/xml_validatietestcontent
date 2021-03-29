@@ -78,12 +78,15 @@ if [ -d "$1" ]; then
     directoryname=$(echo $1|sed -e 's/\.//g')
 	FILENAMEPART="$directoryname-$RANDOM"
 	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
+	echo "----------------------------------"
 	echo "---- opdracht.xml: levering_id"
+	echo "----------------------------------"
 	echo "changing levering_id to $NEWLINE1 in opdracht.xml" 
 	sed -i "s|.*idLevering.*|$NEWLINE1|" opdracht.xml
 	#changing leveringid in opdracht.xml
 	NEWLINE6="<sl:leveringsId>id-publicatie-$FILENAMEPART</sl:leveringsId>";
 	#changing leveringid in ow bestanden
+	echo "----------------------------------"
 	echo "---- OW-bestanden: levering_id"
 	echo "----------------------------------"
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
@@ -99,6 +102,7 @@ if [ -d "$1" ]; then
 	fi
 
 	#building AKN-sed
+	echo "----------------------------------"
 	echo "---- Besluit-bestanden: AKN-bill"
 	echo "----------------------------------"
 	AKNPART="$directoryname$RANDOM"
@@ -121,6 +125,7 @@ if [ -d "$1" ]; then
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" "$BESLUIT"
 	
 	#changing regelingsid en verdere voorkomens
+	echo "----------------------------------"
 	echo "---- Regeling-bestanden: AKN-act"
 	echo "----------------------------------"
 	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
@@ -132,6 +137,7 @@ if [ -d "$1" ]; then
 		echo "changing /akn/nl/act.....$OLDWORD to /akn/nl/act.....$NEWWORD in $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
+	echo "----------------------------------"
 	echo "---- GIO-bestanden: AKN-act-geboorteregeling"
 	echo "----------------------------------"
 	FILES=$(find . -name "*.gml" -print);
@@ -142,37 +148,44 @@ if [ -d "$1" ]; then
 		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
 	done
 
+	echo "----------------------------------"
 	echo "---- Juridischeregel-id: en verder voorkomen"
 	echo "----------------------------------"
 	#changing juridische regel en verdere voorkomens
     replaceIdsComplex "r:identificatie" "juridischeregel"
 	
+	echo "----------------------------------"
 	echo "---- regeltekst-id: en verder voorkomen"
 	echo "----------------------------------"
 	#changing regeltekst en verdere voorkomens
     replaceIdsComplex "r:identificatie" "regeltekst"
 
+	echo "----------------------------------"
     echo "---- locatie-id: en verder voorkomen"
 	echo "----------------------------------"
     #changing locatie en verdere voorkomens
     replaceIdsSimple "l:identificatie"
 
+	echo "----------------------------------"
     echo "---- regelingsgebied-id: en verder voorkomen"
 	echo "----------------------------------"
     #changing regelingsgebied en verdere voorkomens	
     replaceIdsSimple "rg:identificatie"
 
+	echo "----------------------------------"
     echo "---- gebiedsaanwijzing-id: en verder voorkomen"
 	echo "----------------------------------"
 	#changing Gebiedsaanwijzing en verdere voorkomens	
     replaceIdsSimple "ga:identificatie"
     
+	echo "----------------------------------"
     echo "---- omgevingsnorm-id: en verder voorkomen"
 	echo "----------------------------------"
     #changing Omgevingsnorm en verdere voorkomens	
     replaceIdsSimple "rol:identificatie"
     
     #guids
+	echo "----------------------------------"
     echo "---- GUIDs in GML: en verder voorkomen"
 	echo "----------------------------------"
     replaceIdsGUID "basisgeo:id"
@@ -187,6 +200,7 @@ if [ -d "$1" ]; then
 		echo "changing hash to $NEWLINE4 in $giofile" 
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
 	done
+	echo "----------------------------------"
 	echo "---- Doelen in besluit: en verder voorkomen"
 	echo "----------------------------------"
 	#building doel-seds
@@ -199,6 +213,7 @@ if [ -d "$1" ]; then
 	echo "changing <doel> to $NEWLINE6 in $BESLUIT" 
 	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" "$BESLUIT"
 	
+	echo "----------------------------------"
 	echo "---- Afhandelen bestanden: zip, git"
 	echo "----------------------------------"
     echo ""
