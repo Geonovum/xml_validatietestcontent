@@ -12,12 +12,12 @@
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB351019566</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB35104383</heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-<hash>074e1fe996c0514fe56e4a69484d5184fdc0d225f66a7b22757b1626748f03244f67a27d93b801d8fca3e94728902bd536577880b652a8f5bc65686f56269c3e</hash>
+<hash>12ee71f9e25418fe7df71a34188511488c77f02eaf97a78b1d7ef651c5667e0bf83f363e34d9cd3162589fe9c707b3554e25cc2638a8072a197dd0ca602b4f4a</hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
