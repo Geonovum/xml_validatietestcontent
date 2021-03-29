@@ -190,6 +190,9 @@ if [ -d "$1" ]; then
 	echo "----------------------------------"
     replaceIdsGUID "basisgeo:id"
 	#replacing hash in io
+	echo "----------------------------------"
+    echo "---- HASH in GIO"
+	echo "----------------------------------"
 	FILES=$(find . -name "*.gml" -print);
 	for file in $FILES; do
 		SHA512=$(sha512sum $file)
