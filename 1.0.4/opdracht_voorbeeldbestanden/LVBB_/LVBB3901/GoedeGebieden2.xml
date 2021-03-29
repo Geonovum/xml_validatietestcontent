@@ -7,6 +7,7 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <!-- FOUT: LVBB3901	Van alle aanleveringen MOET de Werk-id van een Informatie Object uniek zijn -->
          <FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</FRBRWork>
          <FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden2/nld@2019-06-18;3520</FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
@@ -16,11 +17,11 @@
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>GoedeGebieden2.gml</bestandsnaam>
-<hash>2dec959b5b46e497778c4b4a0c57b95d24ab8f2e7ebdeb79f6b4410bc09497983a6ce171c327fbd981a08ed95053a11c1fff10978f1dc349eae32088fcff3cff</hash>
+<hash>658d5615687ba7f4d648f779304260707abc7cef520634b9ac315c6ddcf178b0381c8047deb4173c5db139c37035daf7772c0f620cea8780cc77c23645afc432</hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB390123456</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB390131374</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
