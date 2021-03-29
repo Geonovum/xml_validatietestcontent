@@ -137,10 +137,10 @@ if [ -d "$1" ]; then
 		echo "changing /akn/nl/act.....$OLDWORD to /akn/nl/act.....$NEWWORD in $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
-	echo "----------------------------------"
-	echo "---- GIO-bestanden: AKN-act-geboorteregeling"
-	echo "----------------------------------"
 	if [ "$1" != "LVBB3510" ]; then
+    	echo "----------------------------------"
+	   echo "---- GIO-bestanden: AKN-act-geboorteregeling"
+	   echo "----------------------------------"
 	   FILES=$(find . -name "*.gml" -print);
 	   for file in $FILES; do
 		  filewithoutextension=${file%.gml}
