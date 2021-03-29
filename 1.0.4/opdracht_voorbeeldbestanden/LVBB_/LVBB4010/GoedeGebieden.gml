@@ -26,10 +26,10 @@
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-5c8cb196-2604-455e-b09c-95c0ca73b581-xx">
-                     <basisgeo:id>5c8cb196-2604-455e-b09c-95c0ca73b581</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-c33a687c-19ac-46e9-9907-0407ed77f3bf-xx">
+                     <basisgeo:id>c33a687c-19ac-46e9-9907-0407ed77f3bf</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-5c8cb196-2604-455e-b09c-95c0ca73b581"
+                        <gml:MultiSurface gml:id="id-c33a687c-19ac-46e9-9907-0407ed77f3bf"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>

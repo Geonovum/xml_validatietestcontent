@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns="http://www.overheid.nl/2017/lvbb">
+    <!-- FOUT: LVBB4010	Kan besluit gevonden worden? -->
     <bestand>
         <bestandsnaam>manifest.xml</bestandsnaam>
         <contentType>application/xml</contentType>
