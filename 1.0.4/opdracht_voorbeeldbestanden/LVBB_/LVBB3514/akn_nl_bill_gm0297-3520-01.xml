@@ -25,6 +25,7 @@
          </rechtsgebieden>
          <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
          <informatieobjectRefs>
+            <!-- FOUT: LVBB3514	Alle InformatieObjecten, waaraan gerefereerd wordt in deze aanlevering, MOETEN meegeleverd zijn of in de LVBB-database (CDS) opgeslagen zijn voordat verdere verwerking kan plaatsvinden -->
             <informatieobjectRef>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</informatieobjectRef>
             <informatieobjectRef>/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</informatieobjectRef>
          </informatieobjectRefs>
