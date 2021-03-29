@@ -16,16 +16,17 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
+         <!-- FOUT: LVBB3511	Werk van join-id in informatie-object moet gelijk zijn aan die in bijbehorend GML-bestand -->
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GeenGoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-fc81704c-4435-481e-81b2-123a5637cd0f-xx">
-                     <basisgeo:id>fc81704c-4435-481e-81b2-123a5637cd0f</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-4bf1e8c0-8b56-41b8-8bf0-14d70e375fdd-xx">
+                     <basisgeo:id>4bf1e8c0-8b56-41b8-8bf0-14d70e375fdd</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-fc81704c-4435-481e-81b2-123a5637cd0f"
+                        <gml:MultiSurface gml:id="id-4bf1e8c0-8b56-41b8-8bf0-14d70e375fdd"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
