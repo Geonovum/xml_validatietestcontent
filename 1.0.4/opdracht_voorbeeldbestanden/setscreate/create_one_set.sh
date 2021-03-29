@@ -78,11 +78,14 @@ if [ -d "$1" ]; then
     directoryname=$(echo $1|sed -e 's/\.//g')
 	FILENAMEPART="$directoryname-$RANDOM"
 	NEWLINE1="<idLevering>id-publicatie-$FILENAMEPART</idLevering>";
+	echo "---- opdracht.xml: levering_id"
 	echo "changing levering_id to $NEWLINE1 in opdracht.xml" 
 	sed -i "s|.*idLevering.*|$NEWLINE1|" opdracht.xml
 	#changing leveringid in opdracht.xml
 	NEWLINE6="<sl:leveringsId>id-publicatie-$FILENAMEPART</sl:leveringsId>";
 	#changing leveringid in ow bestanden
+	echo "---- OW-bestanden: levering_id"
+	echo "----------------------------------"
 	echo "changing levering_id to $NEWLINE6 in owRegelingsgebied.xml" 
 	sed -i "s|.*leveringsId.*|$NEWLINE6|" owRegelingsgebied.xml
 	#tbv
@@ -96,6 +99,8 @@ if [ -d "$1" ]; then
 	fi
 
 	#building AKN-sed
+	echo "---- Besluit-bestanden: AKN-bill"
+	echo "----------------------------------"
 	AKNPART="$directoryname$RANDOM"
 	NEWLINE2="<FRBRWork>/akn/nl/bill/$GEMEENTE/2019/$AKNPART</FRBRWork>";
 	NEWLINE3="<FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/$AKNPART/nld@2019-06-27</FRBRExpression>"
@@ -116,6 +121,8 @@ if [ -d "$1" ]; then
 	sed -i "s|.*FRBRExpression>/akn/nl/bill/$GEMEENTE/2019/.*|$NEWLINE3|" "$BESLUIT"
 	
 	#changing regelingsid en verdere voorkomens
+	echo "---- Regeling-bestanden: AKN-act"
+	echo "----------------------------------"
 	OW=$( grep -xh ".*<FRBRWork>/akn/nl/act/.*" *)
 	OW1=${OW%"</FRBRWork>"}
 	OLDWORD=${OW1##*/}
@@ -125,6 +132,8 @@ if [ -d "$1" ]; then
 		echo "changing /akn/nl/act.....$OLDWORD to /akn/nl/act.....$NEWWORD in $file" 
 		sed -i "s|$OLDWORD|$NEWWORD|" $file
 	done
+	echo "---- GIO-bestanden: AKN-act-geboorteregeling"
+	echo "----------------------------------"
 	FILES=$(find . -name "*.gml" -print);
 	for file in $FILES; do
 		filewithoutextension=${file%.gml}
@@ -133,26 +142,39 @@ if [ -d "$1" ]; then
 		sed -i "s|.*heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/.*|<heeftGeboorteregeling>/akn/nl/act/$GEMEENTE/2019/$NEWWORD</heeftGeboorteregeling>|" $giofile
 	done
 
-	
+	echo "---- Juridischeregel-id: en verder voorkomen"
+	echo "----------------------------------"
 	#changing juridische regel en verdere voorkomens
     replaceIdsComplex "r:identificatie" "juridischeregel"
 	
+	echo "---- regeltekst-id: en verder voorkomen"
+	echo "----------------------------------"
 	#changing regeltekst en verdere voorkomens
     replaceIdsComplex "r:identificatie" "regeltekst"
 
+    echo "---- locatie-id: en verder voorkomen"
+	echo "----------------------------------"
     #changing locatie en verdere voorkomens
     replaceIdsSimple "l:identificatie"
 
+    echo "---- regelingsgebied-id: en verder voorkomen"
+	echo "----------------------------------"
     #changing regelingsgebied en verdere voorkomens	
     replaceIdsSimple "rg:identificatie"
 
+    echo "---- gebiedsaanwijzing-id: en verder voorkomen"
+	echo "----------------------------------"
 	#changing Gebiedsaanwijzing en verdere voorkomens	
     replaceIdsSimple "ga:identificatie"
     
+    echo "---- omgevingsnorm-id: en verder voorkomen"
+	echo "----------------------------------"
     #changing Omgevingsnorm en verdere voorkomens	
     replaceIdsSimple "rol:identificatie"
     
     #guids
+    echo "---- GUIDs in GML: en verder voorkomen"
+	echo "----------------------------------"
     replaceIdsGUID "basisgeo:id"
 	#replacing hash in io
 	FILES=$(find . -name "*.gml" -print);
@@ -165,6 +187,8 @@ if [ -d "$1" ]; then
 		echo "changing hash to $NEWLINE4 in $giofile" 
 		sed -i "s|.*hash>.*|$NEWLINE4|" $giofile
 	done
+	echo "---- Doelen in besluit: en verder voorkomen"
+	echo "----------------------------------"
 	#building doel-seds
 	DOELPART="$directoryname$RANDOM"
     NEWLINE5="<DoelID>/join/id/proces/$GEMEENTE/2019/$DOELPART</DoelID>";
@@ -175,6 +199,8 @@ if [ -d "$1" ]; then
 	echo "changing <doel> to $NEWLINE6 in $BESLUIT" 
 	sed -i "s|.*doel>/join/id/proces/$GEMEENTE.*|$NEWLINE6|" "$BESLUIT"
 	
+	echo "---- Afhandelen bestanden: zip, git"
+	echo "----------------------------------"
     echo ""
     rm ../../opdrachten_gereed/opdracht_$directoryname*.zip;
     
