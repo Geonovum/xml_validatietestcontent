@@ -34,7 +34,7 @@
       <!-- FOUT: OZON0043	Als een Instructieregel verwijst naar een Omgevingsnorm, dan moet deze bestaan. -->
       <sl:stand>
          <ow-dc:owObject>
-            <r:RegelVoorIedereen>
+            <r:Instructieregel>
                <r:identificatie>nl.imow-gm0297.juridischeregel.16171166692356429</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
@@ -46,7 +46,7 @@
                <r:omgevingsnormaanduiding>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0037.omgevingsnorm.201900001"/>
                </r:omgevingsnormaanduiding>
-            </r:RegelVoorIedereen>
+            </r:Instructieregel>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>
