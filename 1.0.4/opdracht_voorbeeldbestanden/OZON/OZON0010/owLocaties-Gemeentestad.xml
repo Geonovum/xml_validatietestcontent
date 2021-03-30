@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0010-10306</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0010-4572</sl:leveringsId>
          <sl:objectTypen>
             <!-- FOUT: OZON0010	Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst, RegelVoorIedereen, Instructieregel, Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, of Pons zijn. -->
             <sl:objectType>IetsAnders</sl:objectType>
@@ -26,7 +26,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16149454310871421</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16170987923730001</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
                   <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
