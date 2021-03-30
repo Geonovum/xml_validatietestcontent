@@ -1,37 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
-	xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
-	xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
-	xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
-	xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
-	xmlns:k="http://www.geostandaarden.nl/imow/kaart"
-	xmlns:l="http://www.geostandaarden.nl/imow/locatie"
-	xmlns:p="http://www.geostandaarden.nl/imow/pons"
-	xmlns:r="http://www.geostandaarden.nl/imow/regels"
-	xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
-	xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
-	<sl:standBestand>
-		<sl:dataset>Gemeentestad</sl:dataset>
-		<sl:inhoud>
-			<sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0021-5805</sl:leveringsId>
-			<sl:objectTypen>
-				<sl:objectType>Punt</sl:objectType>
-			</sl:objectTypen>
-		</sl:inhoud>
-		<sl:stand>
-			<ow-dc:owObject>
-				<l:Punt>
-					<l:identificatie>nl.imow-gm0297.punt.16171105644159467</l:identificatie>
-					<l:noemer>Punt</l:noemer>
-					<l:geometrie>
-						<l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
-					</l:geometrie>
-				</l:Punt>
-			</ow-dc:owObject>
-		</sl:stand>
-	</sl:standBestand>
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xmlns:p="http://www.geostandaarden.nl/imow/pons"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Gemeentestad</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Gemeentestad</sl:gebied>
+<sl:leveringsId>id-publicatie-OZON0021-17202</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Gebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.16171116301933161</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="2136dedd-af8a-470d-a7fc-c1d18c49f9e5"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.16171116305017810</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="0ad9590b-67a9-46d0-b9bb-9e892c70e052"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+   	<sl:stand>
+   		<ow-dc:owObject>
+   			<l:Punt>
+   				<l:identificatie>nl.imow-gm0297.punt.16171116307873563</l:identificatie>
+   				<l:noemer>Punt</l:noemer>
+   				<l:geometrie>
+   					<l:GeometrieRef xlink:href="a6ba521b-51af-4040-ba98-f51c1d95e321"/>
+   				</l:geometrie>
+   			</l:Punt>
+   		</ow-dc:owObject>
+   	</sl:stand>
+   </sl:standBestand>
 </ow-dc:owBestand>
