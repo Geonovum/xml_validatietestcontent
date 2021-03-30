@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0030-6195</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0030-10375</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -27,20 +27,20 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16171123289339362</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16171124549233005</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16171123286254590</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16171124546190009</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16171123289339362"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16171124549233005"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16171123292094874"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16171124552116958"/>
                </r:locatieaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
@@ -49,15 +49,15 @@
       <sl:stand>
          <ow-dc:owObject>
             <rol:Omgevingswaarde>
-               <rol:identificatie>nl.imow-gm0297.omgevingswaarde.16171123301497398</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0297.omgevingswaarde.16171124561540284</rol:identificatie>
                <rol:naam>abc</rol:naam>
                <rol:type>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</rol:type>
                <rol:normwaarde>
                   <rol:Normwaarde>
-                     <rol:identificatie>nl.imow-gm0037.normwaarde.16171123304206447</rol:identificatie>
+                     <rol:identificatie>nl.imow-gm0037.normwaarde.16171124564072580</rol:identificatie>
                      <rol:kwantitatieveWaarde>200</rol:kwantitatieveWaarde>
                      <rol:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0037.gebied.16165157888869629"/>
+                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16171124552116958"/>
                      </rol:locatieaanduiding>
                   </rol:Normwaarde>
                </rol:normwaarde>
