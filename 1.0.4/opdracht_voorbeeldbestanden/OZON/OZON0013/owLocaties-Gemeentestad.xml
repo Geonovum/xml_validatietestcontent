@@ -17,19 +17,29 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0013-4219</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0013-26399</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <sl:stand>
          <ow-dc:owObject>
-            <!-- FOUT: OZON0013	Het type van het owObject moet voorkomen in de lijst objectTypen in de inhoud. -->
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16149454333827056</l:identificatie>
-               <l:noemer>Fout gebied</l:noemer>
+               <l:identificatie>nl.imow-gm0297.gebied.16171062346586207</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
+                  <l:GeometrieRef xlink:href="c793a0fc-f491-4eb2-97e8-4993ba4e978c"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.16171062349596490</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="9d61fa83-4489-40be-9f71-e75f0d146c0f"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
