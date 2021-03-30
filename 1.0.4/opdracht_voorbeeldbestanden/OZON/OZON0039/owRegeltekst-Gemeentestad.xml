@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0039-17558</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0039-2450</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -27,29 +27,28 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16149454573163630</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16171149292227979</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT: OZON0039	(TPOD1760) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten -->
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16149454573028423</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16171149289222455</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16149454573163630"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16171149292227979"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16149454573283511"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16171149295132175"/>
                </r:locatieaanduiding>
+               <!-- FOUT: OZON0039	(TPOD1760) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten -->               
                <r:activiteitaanduiding>
                   <r:ActiviteitLocatieaanduiding>
-                     <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000001"/>
                      <r:identificatie>nl.imow-gm0037.activiteitlocatieaanduiding.2019GROEP1</r:identificatie>
                      <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
                      <r:locatieaanduiding>
-                        <l:GebiedengroepRef xlink:href="nl.imow-gm0297.gebied.16149454573283511"/>
+                        <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16171149295132175"/>
                      </r:locatieaanduiding>
                   </r:ActiviteitLocatieaanduiding>
                </r:activiteitaanduiding>
