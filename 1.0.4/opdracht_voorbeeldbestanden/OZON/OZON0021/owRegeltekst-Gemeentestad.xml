@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0021-9974</sl:leveringsId>
+<sl:leveringsId>id-publicatie-OZON0021-5805</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -28,23 +28,23 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16149454378697637</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.16171105641269683</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16149454378517294</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.16171105638202284</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16149454378697637"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16171105641269683"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16149454378854795"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16171105644159467"/>
                </r:locatieaanduiding>
                <r:gebiedsaanwijzing>
-                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.201900001"/>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0037.gebiedsaanwijzing.16171105650243950"/>
                </r:gebiedsaanwijzing>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
@@ -53,12 +53,12 @@
       <sl:stand>
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>
-               <ga:identificatie>nl.imow-gm0037.gebiedsaanwijzing.201900001</ga:identificatie>
+               <ga:identificatie>nl.imow-gm0037.gebiedsaanwijzing.16171105650243950</ga:identificatie>
                <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
                <ga:naam>abc</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</ga:groep>
                <ga:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16149454378854795"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.punt.16171105644159467"/>
                </ga:locatieaanduiding>
             </ga:Gebiedsaanwijzing>
          </ow-dc:owObject>
