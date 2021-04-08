@@ -1,0 +1,22 @@
+<envelop>
+<test>LVBB5006-28892</test>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB5006-28892</lvbb:idLevering><lvbb:tijdstipVerslag>2021-03-18T16:24:01.705386+01:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB5006-28892</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-03-18T16:24:02.598134+01:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:melding>
+            <stop:code>LVBB2003</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>XDMP-VALIDATEUNEXPECTED: (err:XQDY0027) validate full strict { () } -- Invalid node: Found {https://standaarden.overheid.nl/stop/imop/data/}soortBestuursorgaan but expected ({https://standaarden.overheid.nl/stop/imop/data/}afkortingen?&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}alternatieveTitels?&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}heeftCiteertitelInformatie?&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}grondslagen?&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}opvolging?&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}overheidsdomeinen?&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}soortRegeling&amp;amp;{https://standaarden.overheid.nl/stop/imop/data/}voorkeursafkorting?) at fn:doc("")/*:AanleveringBesluit/*:RegelingVersieInformatie/*:RegelingMetadata/*:soortBestuursorgaan[2] using schema "/cga/content/frbr/cga/stop/LVBB-stop/1.0.4/xsd/lvbb-stop-aanlevering.xsd"</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
+</result>
