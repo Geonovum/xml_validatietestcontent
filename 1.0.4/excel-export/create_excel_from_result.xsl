@@ -26,7 +26,6 @@
     </xsl:template>
 
     <xsl:template match="result">
-
         <xsl:element name="Workbook" namespace="urn:schemas-microsoft-com:office:spreadsheet">
             <xsl:namespace name="html" select="string('http://www.w3.org/TR/REC-html40')"/>
             <xsl:namespace name="o" select="string('urn:schemas-microsoft-com:office:office')"/>
@@ -144,10 +143,12 @@
                                 <xsl:with-param name="column" select="1"/>
                                 <xsl:with-param name="data" select="$testId"/>
                             </xsl:call-template>
-                            <xsl:call-template name="doDrawCell">
-                                <xsl:with-param name="column" select="3"/>
-                                <xsl:with-param name="data" select="lvbb:validatieVerzoekResultaat[1]/lvbb:uitkomst/text()"/>
-                            </xsl:call-template>
+                            <xsl:if test="lvbb:validatieVerzoekResultaat">
+                                <xsl:call-template name="doDrawCell">
+                                    <xsl:with-param name="column" select="3"/>
+                                    <xsl:with-param name="data" select="lvbb:validatieVerzoekResultaat[1]/lvbb:uitkomst/text()"/>
+                                </xsl:call-template>
+                            </xsl:if>
                         </xsl:element>
                         <xsl:for-each select="lvbb:validatieVerzoekResultaat">
                             <xsl:choose>
@@ -223,12 +224,12 @@
                                             <xsl:with-param name="style" select="'yellow'"/>
                                         </xsl:call-template>
                                         <xsl:call-template name="doDrawCell">
-                                            <xsl:with-param name="column" select="4"></xsl:with-param>
-                                            <xsl:with-param name="data" select="'Geen fouten gevonden vanuit de keten'"></xsl:with-param>
+                                            <xsl:with-param name="column" select="4"/>
+                                            <xsl:with-param name="data" select="'Geen fouten gevonden vanuit de keten'"/>
                                         </xsl:call-template>
                                     </xsl:element>
                                 </xsl:when>
-                                <xsl:when test="lvbb:verslag">
+                                <!--                                <xsl:when test="lvbb:verslag">
                                     <xsl:if test="lvbb:verslag/lvbb:meldingen">
                                         <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
                                             <xsl:call-template name="doWerkblad2Rij">
@@ -250,52 +251,46 @@
                                         </xsl:for-each>
                                     </xsl:if>
                                 </xsl:otherwise>
+-->
                             </xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:element>
             </xsl:element>
-            <!-- WORKSHEET: Filterbaar Validatie-Resultaat  -->
-            <!--<xsl:variable name="alleTests" select="0" saxon:assignable="yes"/>
-            <xsl:variable name="testsMetEenResultaat" select="0" saxon:assignable="yes"/>
-            <xsl:variable name="testsMetMeerdereResultaten" select="0" saxon:assignable="yes"/>
-            <xsl:variable name="testsMetGeenResultaten" select="0" saxon:assignable="yes"/>
-            <xsl:variable name="resultaten" select="0" saxon:assignable="yes"/>
-            -->
+            <!-- TELLINGEN ter ondersteuning van Worksheet 3 -->
             <xsl:for-each select="envelop">
-                <xsl:if test="position()=1">
-                    <saxon:assign name="datum" 
-                        select="replace(substring-before(lvbb:validatieVerzoekResultaat[1]/lvbb:verslag/lvbb:tijdstipVerslag/text(), '.'),'T',' ')" 
-                        saxon:assignable="yes"/>
+                <xsl:if test="position() = 1">
+                    <saxon:assign name="datum" select="replace(substring-before(lvbb:validatieVerzoekResultaat[1]/lvbb:verslag/lvbb:tijdstipVerslag/text(), '.'), 'T', ' ')" saxon:assignable="yes"/>
                 </xsl:if>
                 <xsl:variable name="error" select="do:returnTestId(test/text())"/>
                 <saxon:assign name="found" select="false()" saxon:assignable="yes"/>
                 <xsl:for-each select="lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding">
-                    <xsl:if test="$error=stop:code/text()">
+                    <xsl:if test="$error = stop:code/text()">
                         <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
                     </xsl:if>
                 </xsl:for-each>
                 <xsl:for-each select="lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding">
-                    <xsl:if test="$error=stop:code/text()">
+                    <xsl:if test="$error = stop:code/text()">
                         <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
                     </xsl:if>
                 </xsl:for-each>
-                <saxon:assign name="alleTests" select="$alleTests+1"></saxon:assign>
+                <saxon:assign name="alleTests" select="$alleTests + 1"/>
                 <xsl:variable name="aantalVerslagMeldingen" select="count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
                 <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen(.)"/>
-                <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=true()">
-                    <saxon:assign name="testsMetEenResultaat" select="$testsMetEenResultaat+1" saxon:assignable="yes"/>
+                <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = true()">
+                    <saxon:assign name="testsMetEenResultaat" select="$testsMetEenResultaat + 1" saxon:assignable="yes"/>
                 </xsl:if>
-                <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=false()">
-                    <saxon:assign name="testsMetEenFoutResultaat" select="$testsMetEenFoutResultaat+1" saxon:assignable="yes"/>
+                <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = false()">
+                    <saxon:assign name="testsMetEenFoutResultaat" select="$testsMetEenFoutResultaat + 1" saxon:assignable="yes"/>
                 </xsl:if>
-                <xsl:if test="($aantalVerslagMeldingen>1 or $aantalMeldingen>1)">
-                    <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten+1" saxon:assignable="yes"/>
+                <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1)">
+                    <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten + 1" saxon:assignable="yes"/>
                 </xsl:if>
-                <xsl:if test="($aantalVerslagMeldingen=0 and $aantalMeldingen=0)">
-                    <saxon:assign name="testsMetGeenResultaten" select="$testsMetGeenResultaten+1" saxon:assignable="yes"/>
+                <xsl:if test="($aantalVerslagMeldingen = 0 and $aantalMeldingen = 0)">
+                    <saxon:assign name="testsMetGeenResultaten" select="$testsMetGeenResultaten + 1" saxon:assignable="yes"/>
                 </xsl:if>
             </xsl:for-each>
+            <!-- WORKSHEET: Filterbaar Validatie-Resultaat  -->
             <xsl:element name="Worksheet" namespace="{$defNS}">
                 <xsl:attribute name="ss:Name">Validatie-rapport</xsl:attribute>
                 <xsl:element name="Table" namespace="{$defNS}">
@@ -443,8 +438,8 @@
                 <xsl:with-param name="data" select="$node/stop:soort"/>
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
-                <xsl:with-param name="column" select="4"></xsl:with-param>
-                <xsl:with-param name="data" select="do:tekstValidatieRapport($envelop)"></xsl:with-param>
+                <xsl:with-param name="column" select="4"/>
+                <xsl:with-param name="data" select="do:tekstValidatieRapport($envelop)"/>
             </xsl:call-template>
             <xsl:if test="$node/stop:categorie">
                 <xsl:call-template name="doDrawCell">
@@ -461,51 +456,56 @@
         </xsl:element>
 
     </xsl:template>
-    
+
     <xsl:function name="do:tekstValidatieRapport">
         <xsl:param name="envelop" as="node()"/>
         <xsl:variable name="error" select="do:returnTestId($envelop/test/text())"/>
         <saxon:assign name="found" select="false()" saxon:assignable="yes"/>
         <xsl:for-each select="$envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding">
-            <xsl:if test="$error=stop:code/text()">
+            <xsl:if test="$error = stop:code/text()">
                 <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:for-each select="$envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding">
-            <xsl:if test="$error=stop:code/text()">
+            <xsl:if test="$error = stop:code/text()">
                 <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:variable name="aantalVerslagMeldingen" select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
         <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen($envelop)"/>
-        <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=true()">
+        <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = true()">
             <xsl:value-of select="'Gezochte fout was de enige terugmelding'"/>
         </xsl:if>
-        <xsl:if test="($aantalVerslagMeldingen=1 or $aantalMeldingen=1) and $found=false()">
+        <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = false()">
             <xsl:value-of select="'Andere fout was de enige terugmelding'"/>
         </xsl:if>
-        <xsl:if test="($aantalVerslagMeldingen>1 or $aantalMeldingen>1)">
+        <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1)">
             <xsl:value-of select="'Meerdere fouten teruggegeven in de keten'"/>
         </xsl:if>
-        <xsl:if test="($aantalVerslagMeldingen=0 and $aantalMeldingen=0)">
+        <xsl:if test="($aantalVerslagMeldingen = 0 and $aantalMeldingen = 0)">
             <xsl:value-of select="'Geen fouten gevonden vanuit de keten'"/>
         </xsl:if>
-        
+
     </xsl:function>
-    
+
     <xsl:function name="do:aantalMeldingen">
         <xsl:param name="envelop" as="node()"/>
         <xsl:choose>
-            <xsl:when test="
-                count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)=0
-                and not($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text()='informatie')
-                ">
+            <xsl:when
+                test="
+                    count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code) = 0
+                    and not($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text() = 'informatie')
+                    ">
                 <xsl:value-of select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:code)"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="0"/>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="do:tellingenAantalMeldingen">
+        <xsl:param name="envelop" as="node()"/>
     </xsl:function>
 
     <xsl:function name="do:colorTheCode">

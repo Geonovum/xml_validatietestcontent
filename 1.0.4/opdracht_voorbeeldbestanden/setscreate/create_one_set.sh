@@ -72,6 +72,12 @@ if [ -d "$1" ]; then
     echo ""
     echo $1
     cd $1;
+    #we zijn nu in de directory van de bron bestanden
+    #die worden naar de bron-directory van het uniciferingsscript gekopieerd.
+    pwd
+    
+    
+    
     RANDOM=tr -c -d '[:alnum:]' < /dev/urandom  | dd bs=4 count=16 2>/dev/null
     
     #building levering-id-sed-command
