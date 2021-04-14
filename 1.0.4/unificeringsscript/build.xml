@@ -160,11 +160,13 @@
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/file[contains(@type,'manifest-ow.xml')]">
         <param name="file.name" path="name/text()"/>
-        <param name="doelId" path="../doelId/text()"/>
+        <param name="doelId" path="../doelId/new/text()"/>
+        <param name="oldDoelId" path="../doelId/old/text()"/>
         <actions>
           <xslt in="${output.dir}/@{file.name}" out="${temp.dir}/@{file.name}" extension=".xml" style="doelids.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar" />
             <param name="doelId" expression="@{doelId}"/>
+            <param name="oldDoelId" expression="@{oldDoelId}"/>
           </xslt>
           <copy file="${temp.dir}/@{file.name}" tofile="${output.dir}/@{file.name}"/>
         </actions>
@@ -175,10 +177,12 @@
       <call path="index/file[contains(@type,'besluit.xml')]">
         <param name="file.name" path="name/text()"/>
         <param name="doelId" path="../doelId/text()"/>
+        <param name="oldDoelId" path="../doelId/old/text()"/>
         <actions>
           <xslt in="${output.dir}/@{file.name}" out="${temp.dir}/@{file.name}" extension=".xml" style="doelids.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar" />
             <param name="doelId" expression="@{doelId}"/>
+            <param name="oldDoelId" expression="@{oldDoelId}"/>
           </xslt>
           <copy file="${temp.dir}/@{file.name}" tofile="${output.dir}/@{file.name}"/>
         </actions>
@@ -199,9 +203,21 @@
           <param name="regelingFrbrExpression" path="regelingId/FRBRExpression/text()"/>
           <param name="wordt" path="besluit/versies/wordt/text()"/>
           <param name="instrumentversie" path="besluit/instrumentversie/text()"/>
+          <param name="oldBesluitFrbrWork" path="besluitId/oldFRBRWork/text()"/>
+          <param name="oldBesluitFrbrExpression" path="besluitId/oldFRBRExpression/text()"/>
+          <param name="oldRegelingFrbrWork" path="regelingId/oldFRBRWork/text()"/>
+          <param name="oldRegelingFrbrExpression" path="regelingId/oldFRBRExpression/text()"/>
+          <param name="oldWordt" path="besluit/versies/oldWordt/text()"/>
+          <param name="oldInstrumentversie" path="besluit/oldInstrumentversie/text()"/>
           <actions>
             <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
               <classpath location="saxon9he.jar" />
+              <param name="oldBesluitFrbrWork" expression="@{oldBesluitFrbrWork}"/>
+              <param name="oldBesluitFrbrExpression" expression="@{oldBesluitFrbrExpression}"/>
+              <param name="oldRegelingFrbrWork" expression="@{oldRegelingFrbrWork}"/>
+              <param name="oldRegelingFrbrExpression" expression="@{oldRegelingFrbrExpression}"/>
+              <param name="oldWordt" expression="@{oldWordt}"/>
+              <param name="oldInstrumentversie" expression="@{oldInstrumentversie}"/>
               <param name="besluitFrbrWork" expression="@{besluitFrbrWork}"/>
               <param name="besluitFrbrExpression" expression="@{besluitFrbrExpression}"/>
               <param name="regelingFrbrWork" expression="@{regelingFrbrWork}"/>
@@ -211,6 +227,13 @@
             </xslt>
             <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name}"/>
             <xslt in="${output.dir}/@{manifest-ow.name}" out="${temp.dir}/@{manifest-ow.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+              <classpath location="saxon9he.jar" />
+              <param name="oldBesluitFrbrWork" expression="@{oldBesluitFrbrWork}"/>
+              <param name="oldBesluitFrbrExpression" expression="@{oldBesluitFrbrExpression}"/>
+              <param name="oldRegelingFrbrWork" expression="@{oldRegelingFrbrWork}"/>
+              <param name="oldRegelingFrbrExpression" expression="@{oldRegelingFrbrExpression}"/>
+              <param name="oldWordt" expression="@{oldWordt}"/>
+              <param name="oldInstrumentversie" expression="@{oldInstrumentversie}"/>
               <param name="besluitFrbrWork" expression="@{besluitFrbrWork}"/>
               <param name="besluitFrbrExpression" expression="@{besluitFrbrExpression}"/>
               <param name="regelingFrbrWork" expression="@{regelingFrbrWork}"/>
@@ -232,9 +255,21 @@
           <param name="regelingFrbrExpression" path="../regelingId/FRBRExpression/text()"/>
           <param name="wordt" path="../besluit/versies/wordt/text()"/>
           <param name="instrumentversie" path="../besluit/instrumentversie/text()"/>
+          <param name="oldBesluitFrbrWork" path="../besluitId/oldFRBRWork/text()"/>
+          <param name="oldBesluitFrbrExpression" path="../besluitId/oldFRBRExpression/text()"/>
+          <param name="oldRegelingFrbrWork" path="../regelingId/oldFRBRWork/text()"/>
+          <param name="oldRegelingFrbrExpression" path="../regelingId/oldFRBRExpression/text()"/>
+          <param name="oldWordt" path="../besluit/versies/oldWordt/text()"/>
+          <param name="oldInstrumentversie" path="../besluit/oldInstrumentversie/text()"/>
           <actions>
             <xslt in="${output.dir}/@{giofile.name}" out="${temp.dir}/@{giofile.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
               <classpath location="saxon9he.jar" />
+              <param name="oldBesluitFrbrWork" expression="@{oldBesluitFrbrWork}"/>
+              <param name="oldBesluitFrbrExpression" expression="@{oldBesluitFrbrExpression}"/>
+              <param name="oldRegelingFrbrWork" expression="@{oldRegelingFrbrWork}"/>
+              <param name="oldRegelingFrbrExpression" expression="@{oldRegelingFrbrExpression}"/>
+              <param name="oldWordt" expression="@{oldWordt}"/>
+              <param name="oldInstrumentversie" expression="@{oldInstrumentversie}"/>
               <param name="besluitFrbrWork" expression="@{besluitFrbrWork}"/>
               <param name="besluitFrbrExpression" expression="@{besluitFrbrExpression}"/>
               <param name="regelingFrbrWork" expression="@{regelingFrbrWork}"/>

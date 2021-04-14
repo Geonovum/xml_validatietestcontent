@@ -28,6 +28,12 @@
     >
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
     
+    <xsl:param name="oldBesluitFrbrWork"/>
+    <xsl:param name="oldBesluitFrbrExpression"/>
+    <xsl:param name="oldRegelingFrbrWork"/>
+    <xsl:param name="oldRegelingFrbrExpression"/>
+    <xsl:param name="oldWordt"/>
+    <xsl:param name="oldInstrumentversie"/>
     <xsl:param name="besluitFrbrWork"/>
     <xsl:param name="besluitFrbrExpression"/>
     <xsl:param name="regelingFrbrWork"/>
@@ -41,49 +47,49 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="@wordt">
+    <xsl:template match="@wordt[.=$oldWordt]">
         <xsl:attribute name="wordt">
             <xsl:value-of select="$wordt"/>
         </xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie">
+    <xsl:template match="data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie[text()=$oldInstrumentversie]">
         <xsl:element name="data:instrumentVersie">
             <xsl:value-of select="$instrumentversie"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:heeftGeboorteregeling">
+    <xsl:template match="data:heeftGeboorteregeling[text()=$oldRegelingFrbrWork]">
         <xsl:element name="data:heeftGeboorteregeling">
             <xsl:value-of select="$regelingFrbrWork"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="manifest-ow:WorkIDRegeling">
+    <xsl:template match="manifest-ow:WorkIDRegeling[text()=$oldRegelingFrbrWork]">
         <xsl:element name="manifest-ow:WorkIDRegeling">
             <xsl:value-of select="$regelingFrbrWork"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork">
+    <xsl:template match="aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork[text()=$oldBesluitFrbrWork]">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="$besluitFrbrWork"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression">
+    <xsl:template match="aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression[text()=$oldBesluitFrbrExpression]">
         <xsl:element name="data:FRBRExpression">
             <xsl:value-of select="$besluitFrbrExpression"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
+    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork[text()=$oldRegelingFrbrWork]">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="$regelingFrbrWork"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression">
+    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression[text()=$oldRegelingFrbrExpression]">
         <xsl:element name="data:FRBRExpression">
             <xsl:value-of select="$regelingFrbrExpression"/>
         </xsl:element>

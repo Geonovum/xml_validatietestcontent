@@ -41,22 +41,39 @@
             <!-- Haal oorspronkelijk uit manifest-ow -->
             <xsl:if test="document($fullname)//manifest-ow:Aanleveringen">
                 <xsl:element name="doelId">
+                    <xsl:element name="old">
+                        <xsl:value-of select="document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text()"/> 
+                    </xsl:element>
+                    <xsl:element name="new">
                     <xsl:value-of select="foo:generateDoelId(document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text())"/>
+                    </xsl:element>
                 </xsl:element>
             </xsl:if>
             <!-- BesluitID/RegelingID -->
             <xsl:if test="document($fullname)/aanlevering:AanleveringBesluit">
                 <xsl:element name="besluitId">
+                    <xsl:element name="oldFRBRWork">
+                        <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
+                    </xsl:element>
                     <xsl:element name="FRBRWork">
                         <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
+                    </xsl:element>
+                    <xsl:element name="oldFRBRExpression">
+                        <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
                     </xsl:element>
                     <xsl:element name="FRBRExpression">
                         <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text())"/>
                     </xsl:element>
                 </xsl:element>
                 <xsl:element name="regelingId">
+                    <xsl:element name="oldFRBRWork">
+                        <xsl:value-of select="document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
+                    </xsl:element>
                     <xsl:element name="FRBRWork">
                         <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
+                    </xsl:element>
+                    <xsl:element name="oldFRBRExpression">
+                        <xsl:value-of select="document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
                     </xsl:element>
                     <xsl:element name="FRBRExpression">
                         <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression/text())"/>
@@ -64,12 +81,19 @@
                 </xsl:element>
                 <xsl:element name="besluit">
                     <xsl:element name="versies">
+                        <xsl:element name="oldWordt">
+                            <xsl:value-of select="document($fullname)//@wordt"/>
+                        </xsl:element>
                         <xsl:element name="wordt">
                             <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//@wordt)"/>
                         </xsl:element>
                     </xsl:element>
+                    <xsl:element name="oldInstrumentversie">
+                        <xsl:value-of select="document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie/text()"/>
+                    </xsl:element>
                     <xsl:element name="instrumentversie">
-                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie)"/>
+                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie/text())"
+                        />
                     </xsl:element>
                     <xsl:for-each select="document($fullname)//data:informatieobjectRefs/data:informatieobjectRef">
                         <xsl:element name="informatieobjectRef">
@@ -315,7 +339,7 @@
                                 <xsl:value-of select="$orgGUID"/>
                             </xsl:element>
                             <xsl:element name="new">
-                                <xsl:value-of select="foo:generateGuid($pos1 + $pos2)"/>
+                                <xsl:value-of select="foo:generateGuid($pos1 + $pos2, $orgGUID)"/>
                             </xsl:element>
                         </xsl:element>
                     </xsl:for-each>
@@ -537,60 +561,110 @@
 
     <xsl:function name="foo:generateGuid">
         <xsl:param name="seed" as="xs:integer"/>
-        <xsl:value-of select="translate(translate(translate(unparsed-text(concat('https://uuidgen.org/api/v/4?x=', string($seed))), '[', ''), ']', ''), '&quot;', '')"/>
+        <xsl:param name="oldId" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="translate(translate(translate(unparsed-text(concat('https://uuidgen.org/api/v/4?x=', string($seed))), '[', ''), ']', ''), '&quot;', '')"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateDoelId">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime))"
-        />
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime))"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], $dateTime))"
-        />
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], $dateTime))"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], $dateTime), '/', tokenize($oldId, '/')[8])"
-        />
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], $dateTime), '/', tokenize($oldId, '/')[8])"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime))"
-        />
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime))"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime), '/', tokenize($oldId, '/')[8])"
-        />
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime), '/', tokenize($oldId, '/')[8])"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateOWId">
         <xsl:param name="seeder"/>
-        <xsl:param name="owId" as="xs:string"/>
+        <xsl:param name="oldId" as="xs:string"/>
         <!-- max length 4th part of Id has a max-length of 32-->
-        <xsl:variable name="maxLength" select="32 - string-length(tokenize($owId, '\.')[4])"/>
+        <xsl:variable name="maxLength" select="32 - string-length(tokenize($oldId, '\.')[4])"/>
         <xsl:choose>
-            <xsl:when test="$maxLength > 13">
-                <xsl:variable name="dateString" select="$dateTime"/>
-                <xsl:value-of select="concat(tokenize($owId, '\.')[1], '.', tokenize($owId, '\.')[2], '.', tokenize($owId, '\.')[3], '.', $seeder, $dateString)"/>
-            </xsl:when>
-            <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
-                <xsl:variable name="dateString" select="substring($dateTime, 14 - $maxLength)"/>
-                <xsl:value-of select="concat(tokenize($owId, '\.')[1], '.', tokenize($owId, '\.')[2], '.', tokenize($owId, '\.')[3], '.', $seeder, $dateString)"/>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:value-of select="$oldId"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="concat(tokenize($owId, '\.')[1], '.', tokenize($owId, '\.')[2], '.', tokenize($owId, '\.')[3], '.', $dateTime)"/>
+                <xsl:choose>
+                    <xsl:when test="$maxLength > 13">
+                        <xsl:variable name="dateString" select="$dateTime"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
+                        <xsl:variable name="dateString" select="substring($dateTime, 14 - $maxLength)"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $dateTime)"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>

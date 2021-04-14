@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-LVBB1010-16739</sl:leveringsId>
+<sl:leveringsId>id-publicatie-LVBB4032-5847</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
@@ -25,10 +25,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16183083738898140</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16170295703147173</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="90175bd5-ee50-4ad8-ba3f-fe9976c066d4"/>
+                  <l:GeometrieRef xlink:href="f7280d33-0912-4add-bdb8-a4380f4ee695"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
@@ -36,10 +36,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16183083741942179</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.16170295706141610</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="6173cf3b-56d3-4ef9-9a01-aac99d862e92"/>
+                  <l:GeometrieRef xlink:href="98f792c3-cf3e-44ac-84f8-464528b36699"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
