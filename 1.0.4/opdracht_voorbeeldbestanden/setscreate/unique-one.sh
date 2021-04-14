@@ -1,76 +1,9 @@
 #!/usr/bin/env bash
 
-GEMEENTE="gm0297"
-
-echo "$0"
-
-function substring() {
-    local str="$1" start="${2}" end="${3}"
-    
-    if [[ "$start" == "" ]]; then start="0"; fi
-    if [[ "$end"   == "" ]]; then end="${#str}"; fi
-    
-    local length="((${end}-${start}+1))"
-    
-    echo "${str:${start}:${length}}"
-} 
-
-function replaceIdsSimple() {
-	OW=$( grep -xh ".*<$1>.*" *)
-	if [ "$OW" != "" ]; then
-	   for OW1 in $OW; do
-    	  OW2=${OW1%"</$1>"}
-	      OLDWORD=${OW2##*>}
-	      RANDOM1=$( date +%s%N | cut -b1-17)
-          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	      FILES=$(grep -l "$OLDWORD" *);
-	      for file in $FILES; do
-	         echo "changing $OLDWORD to $NEWWORD in $file" 
-    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
-	      done
-	   done
-	fi
-}
-
-function replaceIdsGUID() {
-	OW=$( grep -xh ".*<$1>.*" *)
-	if [ "$OW" != "" ]; then
-	   for OW1 in $OW; do
-    	  OW2=${OW1%"</$1>"}
-	      OLDWORD=${OW2##*>}
-          cd ../../setscreate/lib
-          NEWWORD=$(java -jar uuidgen.jar -q)
-          cd -
-	      FILES=$(grep -l "$OLDWORD" *);
-	      for file in $FILES; do
-	         echo "changing $OLDWORD to $NEWWORD in $file" 
-    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
-	      done
-	   done
-	fi
-}
-
-function replaceIdsComplex() {
-	OW=$( grep -xh ".*<$1>.*" *|grep "$2")
-	if [ "$OW" != "" ]; then
-	   for OW1 in $OW; do
-    	  OW2=${OW1%"</$1>"}
-	      OLDWORD=${OW2##*>}
-	      RANDOM1=$( date +%s%N | cut -b1-17)
-          NEWWORD=$(echo $OLDWORD | cut -d '.' -f1).$(echo $OLDWORD | cut -d '.' -f2).$(echo $OLDWORD | cut -d '.' -f3).$RANDOM1
-	      FILES=$(grep -l "$OLDWORD" *);
-	      for file in $FILES; do
-	         echo "changing $OLDWORD to $NEWWORD in $file" 
-    	     sed -i "s|$OLDWORD|$NEWWORD|" $file
-	      done
-	   done
-	fi
-}
-
 if [ -d "$1" ]; then
     export orgfiledir=$1
     echo "$orgfiledir"
-    echo "Script wordt uitgevoerd voor gemeente gm0297"
+    echo "Script wordt uitgevoerd voor Validatie-testbestand"
     echo ""
     echo $1
     cd $1;
@@ -99,14 +32,32 @@ if [ -d "$1" ]; then
     else
         #extract-datetime van opdracht.xml
         cd resultaat
-         leveringId=$( grep -xh ".*idLevering.*" *)
-         if [ "$leveringId" != "" ]; then
-	       for leveringId1 in $leveringId; do
-    	       leveringId2=${leveringId1%"</$leveringId>"}
-	           LDWORD=${leveringId2##*>}
-	           echo $OLDWORD
-           done
-         fi
+        lId=$( grep -h  idLevering *)
+        l1=${lId%</*}
+        l2=${l1#*>} 
+        export datePart=${l2##*-}   
+        
+        rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
+        
+       if [ "$1" == "LVBB4010" ]; then
+    	    rm akn_nl_bill_gm0297-3520-01.xml
+	   fi
+	   
+	   zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir_$datePart.zip *;
+	   echo ""
+	   git add $orgdirectory/*
+	   echo ""
+	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir_$datePart.zip;
+	   
+	   ONGELDIGE_ZIP="LVBB1001_$datePart;
+	   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
+	   echo "ongeldige zip" >  ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
+	   git add ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
+       echo ""
+       git commit -a -m $orgfiledir;
+       echo ""
+       git push;
+       cd ..;
     fi
 else
     echo "Testset does not exist or Please start from directory opdracht_voorbeeldbestanden/XXX."
