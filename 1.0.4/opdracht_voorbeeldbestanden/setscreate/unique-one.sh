@@ -44,18 +44,18 @@ if [ -d "$1" ]; then
 	   fi
 	    	   
 	   zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir_$datePart.zip *;
-	   echo ""
+	   echo "a"
 	   git add $orgdirectory/*
-	   echo ""
+	   echo "b"
 	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir_$datePart.zip;
 	   
 	   ONGELDIGE_ZIP="LVBB1001_$datePart";
 	   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
 	   echo "ongeldige zip" >  ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
 	   git add ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
-       echo ""
+       echo "c"
        git commit -a -m $orgfiledir;
-       echo ""
+       echo "d"
        git push;
        cd ..;
     fi
