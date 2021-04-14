@@ -45,9 +45,9 @@ if [ -d "$1" ]; then
 	   export postfix=$orgfiledir_$datePart
        echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip"	    	   
 	   zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip *;
-	   echo "a"
+	   echo "git add $orgdirectory/*"
 	   git add $orgdirectory/*
-	   echo "b"
+	   echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;"
 	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;
 	   
 	   ONGELDIGE_ZIP="LVBB1001_$datePart";

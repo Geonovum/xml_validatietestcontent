@@ -7,8 +7,8 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden20210414033915</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden20210414033915/nld@2019-06-18;3520</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden20210414034437</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden20210414034437/nld@2019-06-18;3520</data:FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -16,11 +16,11 @@
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">942d2269f22b5a71968e1864ceb1adc847bf2f9ee582cf436b6393b912e62a455aa5422ea90bae89e10314c0c7ad9c43c7db4f259ce188191fb3b656988b05d5</data:hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">681f9cb189d108689593eade151f28eebace6ca14a7e81c6952b0e9b7bce863f769352b5cbceef1a812453641560a68ec26fae09b683e414cb802ea562b0e3f6</data:hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB403220210414033915</data:heeftGeboorteregeling>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB403220210414034437</data:heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
