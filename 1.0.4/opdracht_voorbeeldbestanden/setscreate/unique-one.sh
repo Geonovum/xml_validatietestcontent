@@ -51,7 +51,7 @@ if [ -d "$1" ]; then
 	   
 	   ONGELDIGE_ZIP="LVBB1001_$datePart";
 	   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
-	   echo "ongeldige zip" >  ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
+	   echo "ongeldige zip" >  ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
 	   git add ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
        echo "c"
        git commit -a -m $orgfiledir;
