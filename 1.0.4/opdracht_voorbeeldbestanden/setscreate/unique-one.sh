@@ -42,7 +42,7 @@ if [ -d "$1" ]; then
        if [ "$1" == "LVBB4010" ]; then
     	    rm akn_nl_bill_gm0297-3520-01.xml
 	   fi
-	   export postfix=$orgfiledir_$datePart
+	   export postfix="$orgfiledir-$datePart"
        echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip"	    	   
 	   zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip *;
 	   echo "git add $orgdirectory/*"
@@ -50,7 +50,7 @@ if [ -d "$1" ]; then
 	   echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;"
 	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;
 	   
-	   ONGELDIGE_ZIP="LVBB1001_$datePart";
+	   ONGELDIGE_ZIP="LVBB1001-$datePart";
 	   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
 	   echo "ongeldige zip" >  ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
 	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
