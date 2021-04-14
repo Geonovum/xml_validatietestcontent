@@ -30,26 +30,26 @@ if [ -d "$1" ]; then
         echo "ANT FAILED: EXECUTION STOPPED !!!!!!!!!!!!!!!!!!!!!"
         echo "**********************************************************************"
     else
-        #extract-datetime van opdracht.xml
-        cd resultaat
-        lId=$( grep -h  idLevering *)
-        l1=${lId%</*}
-        l2=${l1#*>} 
-        export datePart=${l2##*-}   
-        
-        rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
-        
+       #extract-datetime van opdracht.xml
+       cd resultaat
+       lId=$( grep -h  idLevering *)
+       l1=${lId%</*}
+       l2=${l1#*>} 
+       export datePart=${l2##*-}   
+       #verwijderen oude bestanden van deze directory
+       rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
+       #uitzondering voor LBVV4010
        if [ "$1" == "LVBB4010" ]; then
     	    rm akn_nl_bill_gm0297-3520-01.xml
 	   fi
-	   
+	    	   
 	   zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir_$datePart.zip *;
 	   echo ""
 	   git add $orgdirectory/*
 	   echo ""
 	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir_$datePart.zip;
 	   
-	   ONGELDIGE_ZIP="LVBB1001_$datePart;
+	   ONGELDIGE_ZIP="LVBB1001_$datePart";
 	   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
 	   echo "ongeldige zip" >  ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
 	   git add ../../opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
