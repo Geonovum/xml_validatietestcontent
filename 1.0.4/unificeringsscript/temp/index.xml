@@ -3,8 +3,8 @@
    <owids/>
    <guids>
       <guid gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>f7280d33-0912-4add-bdb8-a4380f4ee695</org>
-         <new>54a0d5ab-7735-46ad-96b6-283f200174e5</new>
+         <org>8eaa0600-b641-4b8f-96f9-bff0bf53e0cc</org>
+         <new>076ba414-7f49-423c-806e-a6019591f017</new>
       </guid>
    </guids>
    <file type="gml.xml" ow="false">
@@ -15,24 +15,24 @@
       <name>GoedeGebieden.xml</name>
    </file>
    <besluitId>
-      <oldFRBRWork>/akn/nl/bill/gm0297/2019/LVBB40324045</oldFRBRWork>
-      <FRBRWork>/akn/nl/bill/gm0297/2019/LVBB403220210414034755</FRBRWork>
-      <oldFRBRExpression>/akn/nl/bill/gm0297/2019/LVBB40324045/nld@2019-06-27</oldFRBRExpression>
-      <FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB403220210414034755/nld@2019-06-27</FRBRExpression>
+      <oldFRBRWork>/akn/nl/bill/gm0297/2019/OZON000012552</oldFRBRWork>
+      <FRBRWork>/akn/nl/bill/gm0297/2019/LVBB401020210414035641</FRBRWork>
+      <oldFRBRExpression>/akn/nl/bill/gm0297/2019/OZON000012552/nld@2019-06-27</oldFRBRExpression>
+      <FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB401020210414035641/nld@2019-06-27</FRBRExpression>
    </besluitId>
    <regelingId>
-      <oldFRBRWork>/akn/nl/act/gm0297/2019/LVBB403224218</oldFRBRWork>
-      <FRBRWork>/akn/nl/act/gm0297/2019/LVBB403220210414034755</FRBRWork>
-      <oldFRBRExpression>/akn/nl/act/gm0297/2019/LVBB403224218/nld@2019-06-25;1</oldFRBRExpression>
-      <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB403220210414034755/nld@2019-06-25;1</FRBRExpression>
+      <oldFRBRWork>/akn/nl/act/gm0297/2019/OZON000015298</oldFRBRWork>
+      <FRBRWork>/akn/nl/act/gm0297/2019/LVBB401020210414035641</FRBRWork>
+      <oldFRBRExpression>/akn/nl/act/gm0297/2019/OZON000015298/nld@2019-06-25;1</oldFRBRExpression>
+      <FRBRExpression>/akn/nl/act/gm0297/2019/LVBB401020210414035641/nld@2019-06-25;1</FRBRExpression>
    </regelingId>
    <besluit>
       <versies>
-         <oldWordt>/akn/nl/act/gm0297/2019/LVBB403224218/nld@2019-06-25;1</oldWordt>
-         <wordt>/akn/nl/act/gm0297/2019/LVBB403220210414034755/nld@2019-06-25;1</wordt>
+         <oldWordt>/akn/nl/act/gm0297/2019/OZON000015298/nld@2019-06-25;1</oldWordt>
+         <wordt>/akn/nl/act/gm0297/2019/LVBB401020210414035641/nld@2019-06-25;1</wordt>
       </versies>
-      <oldInstrumentversie>/akn/nl/act/gm0297/2019/LVBB403224218FOUT/nld@2019-06-25;1</oldInstrumentversie>
-      <instrumentversie>/akn/nl/act/gm0297/2019/LVBB403224218FOUT/nld@2019-06-25;1</instrumentversie>
+      <oldInstrumentversie>/akn/nl/act/gm0297/2019/OZON000015298/nld@2019-06-25;1</oldInstrumentversie>
+      <instrumentversie>/akn/nl/act/gm0297/2019/LVBB401020210414035641/nld@2019-06-25;1</instrumentversie>
       <informatieobjectRef>
          <gio>
             <file>GoedeGebieden.xml</file>
@@ -41,9 +41,9 @@
             <file>GoedeGebieden.gml</file>
          </gml>
          <oldIoWorkId>/join/id/regdata/gm0297/2019/GoedeGebieden</oldIoWorkId>
-         <newIoWorkId>/join/id/regdata/gm0297/2019/GoedeGebieden20210414034755</newIoWorkId>
+         <newIoWorkId>/join/id/regdata/gm0297/2019/GoedeGebieden20210414035641</newIoWorkId>
          <oldIoRefId>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</oldIoRefId>
-         <newIoRefId>/join/id/regdata/gm0297/2019/GoedeGebieden20210414034755/nld@2019-06-18;3520</newIoRefId>
+         <newIoRefId>/join/id/regdata/gm0297/2019/GoedeGebieden20210414035641/nld@2019-06-18;3520</newIoRefId>
       </informatieobjectRef>
       <informatieobjectRef>
          <gio>
@@ -53,9 +53,9 @@
             <file>regelingsgebied.gml</file>
          </gml>
          <oldIoWorkId>/join/id/regdata/gm0297/2019/regelingsgebied</oldIoWorkId>
-         <newIoWorkId>/join/id/regdata/gm0297/2019/regelingsgebied20210414034755</newIoWorkId>
+         <newIoWorkId>/join/id/regdata/gm0297/2019/regelingsgebied20210414035641</newIoWorkId>
          <oldIoRefId>/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</oldIoRefId>
-         <newIoRefId>/join/id/regdata/gm0297/2019/regelingsgebied20210414034755/nld@2019-06-18;3520</newIoRefId>
+         <newIoRefId>/join/id/regdata/gm0297/2019/regelingsgebied20210414035641/nld@2019-06-18;3520</newIoRefId>
       </informatieobjectRef>
    </besluit>
    <owids/>
@@ -63,8 +63,8 @@
       <name>akn_nl_bill_gm0297-3520-01.xml</name>
    </file>
    <doelId>
-      <old>/join/id/proces/gm0297/2019/LVBB40321267</old>
-      <new>/join/id/proces/gm0297/2019/LVBB403220210414034755</new>
+      <old>/join/id/proces/gm0297/2019/LVBB401022214</old>
+      <new>/join/id/proces/gm0297/2019/LVBB401020210414035641</new>
    </doelId>
    <owids/>
    <file type="manifest-ow.xml" ow="false">
@@ -75,8 +75,8 @@
       <referencefile>owLocaties-Gemeentestad.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-      <org>id-publicatie-LVBB4032-5847</org>
-      <new>id-publicatie-LVBB4032-20210414034755</new>
+      <org>id-publicatie-LVBB4010-19164</org>
+      <new>id-publicatie-LVBB4010-20210414035641</new>
    </leveringId>
    <owids/>
    <file type="opdracht.xml" ow="false">
@@ -86,13 +86,13 @@
    <owids>
       <owid sourcefile="owLocaties-Gemeentestad.xml">
          <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-         <org>nl.imow-gm0297.gebied.16170295703147173</org>
-         <new>nl.imow-gm0297.gebied.0000120210414034755</new>
+         <org>nl.imow-gm0297.gebied.16170288684086212</org>
+         <new>nl.imow-gm0297.gebied.0000120210414035641</new>
       </owid>
       <owid sourcefile="owLocaties-Gemeentestad.xml">
          <referencefile>owRegelingsgebied.xml</referencefile>
-         <org>nl.imow-gm0297.gebied.16170295706141610</org>
-         <new>nl.imow-gm0297.gebied.0000220210414034755</new>
+         <org>nl.imow-gm0297.gebied.16170288687083069</org>
+         <new>nl.imow-gm0297.gebied.0000220210414035641</new>
       </owid>
    </owids>
    <file type="locatie.xml" ow="true">
@@ -100,8 +100,8 @@
    </file>
    <owids>
       <owid sourcefile="owRegelingsgebied.xml">
-         <org>nl.imow-gm0297.regelingsgebied.16170295709463116</org>
-         <new>nl.imow-gm0297.regelingsgebied.0000120210414034755</new>
+         <org>nl.imow-gm0297.regelingsgebied.16170288690363361</org>
+         <new>nl.imow-gm0297.regelingsgebied.0000120210414035641</new>
       </owid>
    </owids>
    <file type="regelingsgebied.xml" ow="true">
@@ -110,12 +110,12 @@
    <owids>
       <owid sourcefile="owRegeltekst-Gemeentestad.xml">
          <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-         <org>nl.imow-gm0297.regeltekst.16170295700371697</org>
-         <new>nl.imow-gm0297.regeltekst.0000120210414034755</new>
+         <org>nl.imow-gm0297.regeltekst.16170288681203110</org>
+         <new>nl.imow-gm0297.regeltekst.0000120210414035641</new>
       </owid>
       <owid sourcefile="owRegeltekst-Gemeentestad.xml">
-         <org>nl.imow-gm0297.juridischeregel.16170295697379712</org>
-         <new>nl.imow-gm0297.juridischeregel.0000120210414034755</new>
+         <org>nl.imow-gm0297.juridischeregel.16170288678266079</org>
+         <new>nl.imow-gm0297.juridischeregel.0000120210414035641</new>
       </owid>
    </owids>
    <file type="regeltekst.xml" ow="true">
@@ -127,8 +127,8 @@
    <owids/>
    <guids>
       <guid gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>98f792c3-cf3e-44ac-84f8-464528b36699</org>
-         <new>b4042bdc-2f71-404c-b8b5-840759410285</new>
+         <org>a022a8be-ffb4-495e-b63d-6f4bc264989f</org>
+         <new>18669bde-cc27-4b37-9b12-c7933ea85894</new>
       </guid>
    </guids>
    <file type="gml.xml" ow="false">

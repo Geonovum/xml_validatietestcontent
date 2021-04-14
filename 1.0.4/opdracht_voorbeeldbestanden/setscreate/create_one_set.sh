@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Buiten gebruik!!"
+exit 1
+
 GEMEENTE="gm0297"
 
 echo "$0"

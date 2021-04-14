@@ -7,42 +7,41 @@ if [[ -d GEO ]]; then
 cd BHKV
 for d in *; do
     if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
+	  ../setscreate/unique-one.sh $d;
 	fi
 done
 
 cd ../GEO
 for d in *; do
     if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
+	  ../setscreate/unique-one.sh $d;
 	fi
 done
 cd ../LVBB_
 for d in *; do
     if [ -d "$d" ]; then
-       ../setscreate/create_one_set.sh $d;
+       ../setscreate/unique-one.sh $d;
 	fi
 done
-../setscreate/create_LVBB4010.sh;
 
 cd ../OZON
 for d in *; do
     if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
+	  ../setscreate/unique-one.sh $d;
 	fi
 done
 
 cd ../STOP
 for d in *; do
     if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
+	  ../setscreate/unique-one.sh $d;
 	fi
 done
 
 cd ../TPOD
 for d in *; do
     if [ -d "$d" ]; then
-	  ../setscreate/create_one_set.sh $d;
+	  ../setscreate/unique-one.sh $d;
 	fi
 done
 
