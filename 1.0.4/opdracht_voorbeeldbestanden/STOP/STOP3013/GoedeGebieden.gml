@@ -22,6 +22,7 @@
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
          <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
+         <!-- STOP3013	Binnen 1 GIO mag elke basisgeo:id (GUID) van de geometrie van een locatie maar één keer voorkomen. -->
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
