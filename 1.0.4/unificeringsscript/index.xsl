@@ -13,6 +13,7 @@
 
     <xsl:param name="file.list" as="xs:string*"/>
     <xsl:param name="base.dir"/>
+    <!-- LET OP NIET IN STANDAARD UNIFICERING -->
     <xsl:param name="org.file.dir"/>
 
     <xsl:variable name="dateTime" select="format-dateTime(current-dateTime(), '[Y0001][M01][D01][h01][m01][s01]')"/>
@@ -33,7 +34,13 @@
 
     <!-- stel index-bestand samen -->
     <xsl:param name="index">
-        <xsl:message select="$file.list"/>
+        <xsl:element name="dateTime">
+            <xsl:value-of select="$dateTime"/>
+        </xsl:element>
+        <!-- LET OP NIET IN STANDAARD UNIFICERING -->
+        <xsl:element name="testId">
+            <xsl:value-of select="$org.file.dir"/>
+        </xsl:element>
         <xsl:for-each select="tokenize($file.list, ';')">
             <xsl:variable name="fullname" select="."/>
             <xsl:variable name="pos1" select="position()"/>
@@ -563,8 +570,9 @@
         <xsl:param name="seed" as="xs:integer"/>
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:value-of select="concat(translate(translate(translate(unparsed-text(concat('https://uuidgen.org/api/v/4?x=', string($seed))), '[', ''), ']', ''), '&quot;', ''),'FOUT')"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="translate(translate(translate(unparsed-text(concat('https://uuidgen.org/api/v/4?x=', string($seed))), '[', ''), ']', ''), '&quot;', '')"/>
@@ -575,8 +583,10 @@
     <xsl:function name="foo:generateDoelId">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:value-of select="
+                    concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime, 'FOUT'))"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -589,8 +599,10 @@
     <xsl:function name="foo:generateFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:value-of select="
+                    concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], $dateTime,'FOUT'))"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -603,8 +615,10 @@
     <xsl:function name="foo:generateFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:value-of 
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], $dateTime, 'FOUT'), '/', tokenize($oldId, '/')[8])"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -617,8 +631,10 @@
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:value-of 
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime, 'FOUT'))"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -631,8 +647,10 @@
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:value-of 
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime, 'FOUT'), '/', tokenize($oldId, '/')[8])"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -649,7 +667,19 @@
         <xsl:variable name="maxLength" select="32 - string-length(tokenize($oldId, '\.')[4])"/>
         <xsl:choose>
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
+                <xsl:choose>
+                    <xsl:when test="$maxLength > 13">
+                        <xsl:variable name="dateString" select="concat($dateTime,'FOUT')"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
+                        <xsl:variable name="dateString" select="substring(concat($dateTime,'FOUT'), 14 - $maxLength)"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', concat($dateTime,'FOUT'))"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>

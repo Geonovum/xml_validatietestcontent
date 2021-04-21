@@ -26,6 +26,7 @@
     >
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
     
+    <xsl:param name="dateTime"/>
     <xsl:param name="oldOWId"/>
     <xsl:param name="newOWId"/>
 
@@ -89,5 +90,45 @@
             <xsl:value-of select="$newOWId"/>
         </xsl:attribute>
     </xsl:template>
+    
+    <xsl:function name="foo:generateOWId">
+        <xsl:param name="seeder"/>
+        <xsl:param name="oldId" as="xs:string"/>
+        <!-- max length 4th part of Id has a max-length of 32-->
+        <xsl:variable name="maxLength" select="32 - string-length(tokenize($oldId, '\.')[4])"/>
+        <xsl:choose>
+            <xsl:when test="contains($oldId, 'FOUT')">
+                <xsl:choose>
+                    <xsl:when test="$maxLength > 13">
+                        <xsl:variable name="dateString" select="concat($dateTime,'FOUT')"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
+                        <xsl:variable name="dateString" select="substring(concat($dateTime,'FOUT'), 14 - $maxLength)"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', concat($dateTime,'FOUT'))"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="$maxLength > 13">
+                        <xsl:variable name="dateString" select="$dateTime"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
+                        <xsl:variable name="dateString" select="substring($dateTime, 14 - $maxLength)"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $dateTime)"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
 
 </xsl:stylesheet>

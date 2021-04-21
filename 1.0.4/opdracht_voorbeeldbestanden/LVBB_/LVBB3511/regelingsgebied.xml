@@ -7,17 +7,17 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/join/id/regdata/gm0297/2019/regelingsgebied</FRBRWork>
-         <FRBRExpression>/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3511</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3511/nld@2019-06-18;3520</data:FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB351124290</heeftGeboorteregeling>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB3511</data:heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-<hash>093bbe5ac304696c232dddffd42f284d56114c04f1f09dfa5195686ea97308fae989c7704f03baedd707b1d779c64143a9c9e92304753c25f9823c1eda7e54ea</hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">2c0a55f1c7a6711cc38bc76dfd8a05a0f4f4859b634b70a03606a15bd915002aeb3dbb385ab4955669ab414dfec3a38673309dc78310f098a39e76e8697ae872</data:hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
@@ -28,7 +28,7 @@
          <alternatieveTitels>
             <alternatieveTitel>Regelingsgebied</alternatieveTitel>
          </alternatieveTitels>
-         <officieleTitel>/join/id/regdata/gm0297/2019/regelingsgebied</officieleTitel>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3511</data:officieleTitel>
          <publicatieinstructie>TeConsolideren</publicatieinstructie>
          <naamInformatieObject>Regelingsgebied</naamInformatieObject>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>

@@ -8,8 +8,6 @@
   <property name="output.dir" value="resultaat"/>
   <property name="temp.dir" value="temp"/>
   <property name="work.dir" value="temp"/>
-  
-  
 
   <!-- initialiseer mappen -->
 
@@ -54,12 +52,19 @@
 
   <target name="index" description="Creëert een index van de soorten bestanden waaruit de dataset bestaat.">
     <property environment="env"/>
-    <xslt in="template.xml" out="${temp.dir}/index.xml" style="index.xsl" processor="trax" force="true">
-      <classpath location="saxon9he.jar" />
+    <!-- creeert een index-file voor latere infrastructuur van data, het levert een index1.xml af. -->
+    <xslt in="template.xml" out="${temp.dir}/index1.xml" style="index.xsl" processor="trax" force="true">
+      <classpath location="saxon9he.jar"/>
       <param name="file.list" expression="${file.list}"/>
       <param name="base.dir" expression="${base.dir}"/>
+      <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
       <param name="org.file.dir" expression="${env.orgfiledir}"/>
     </xslt>
+    <!-- Haalt de duplicate entries uit de index en gebruikt hiervoor de index1.xml -->
+    <xslt in="${temp.dir}/index1.xml" out="${temp.dir}/index.xml" style="filter-dupes.xsl" processor="trax" force="true">
+      <classpath location="saxon9he.jar"/>
+    </xslt>
+    <delete file="${temp.dir}/index1.xml"></delete>
   </target>
 
   <target name="guids" description="Creëert een juiste aantal guids benodigd en verwerkt die in GML-bestanden en referenties.">
@@ -128,11 +133,15 @@
         <param name="opdracht.name" path="@sourcefile"/>
         <param name="oldId" path="org/text()"/>
         <param name="newId" path="new/text()"/>
+        <!-- LET OP NIET IN STANDAARD UNIFICERING -->
+        <param name="testId" path="../testId/text()"/>
         <actions>
           <xslt in="${output.dir}/@{opdracht.name}" out="${temp.dir}/@{opdracht.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar" />
             <param name="oldId" expression="@{oldId}"/>
             <param name="newId" expression="@{newId}"/>
+            <!-- LET OP NIET IN STANDAARD UNIFICERING -->
+            <param name="testId" expression="@{testId}"/>
           </xslt>
           <copy file="${temp.dir}/@{opdracht.name}" tofile="${output.dir}/@{opdracht.name}"/>
         </actions>
@@ -242,6 +251,22 @@
               <param name="instrumentversie" expression="@{instrumentversie}"/>
             </xslt>
             <copy file="${temp.dir}/@{manifest-ow.name}" tofile="${output.dir}/@{manifest-ow.name}"/>
+          </actions>
+        </call>
+      </xmltask>
+      <!-- Wordt -->
+      <xmltask source="${temp.dir}/index.xml">
+        <call path="index/besluit/versies/wordt">
+          <param name="besluit.name" path="../../../file[contains(@type,'besluit.xml')]/name/text()"/>
+          <param name="oldWordt" path="old/text()"/>
+          <param name="newWordt" path="new/text()"/>
+          <actions>
+            <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="wordt.xsl" processor="trax" force="true">
+              <classpath location="saxon9he.jar"/>
+              <param name="oldWordt" expression="@{oldWordt}"/>
+              <param name="newWordt" expression="@{newWordt}"/>
+            </xslt>
+            <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name}"/>
           </actions>
         </call>
       </xmltask>
@@ -363,6 +388,7 @@
   <!-- totale transformatie -->
 
     <target name="main" description="Totale transformatie" 
-      depends="init, copy, index, guids, owids, leveringid_opdrachtparameters, doelids, besluitregelingids, informatieobjectRefs, checksum, checksum_gio"/>
+      depends="init, copy, index, owids, guids, leveringid_opdrachtparameters, doelids, besluitregelingids, informatieobjectRefs, checksum, checksum_gio"/>
+  <!-- , guids, leveringid_opdrachtparameters, doelids, besluitregelingids, informatieobjectRefs, checksum, checksum_gio -->
 
 </project>

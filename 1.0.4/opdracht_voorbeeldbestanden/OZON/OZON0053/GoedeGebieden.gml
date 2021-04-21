@@ -16,16 +16,16 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden-OZON0053</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden-OZON0053/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409D</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-cc12423c-5a8f-45c0-2a14-32f4c1414cac-xx">
+                     <basisgeo:id>cc12423c-5a8f-45c0-2a14-32f4c1414cac</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D"
+                        <gml:MultiSurface gml:id="id-cc12423c-5a8f-45c0-2a14-32f4c1414cac"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
@@ -45,10 +45,10 @@
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 2</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409E-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409E</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-448e4e34-9f2e-494e-ef88-3ee888484df8-xx">
+                     <basisgeo:id>448e4e34-9f2e-494e-ef88-3ee888484df8</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409E"
+                        <gml:MultiSurface gml:id="id-448e4e34-9f2e-494e-ef88-3ee888484df8"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>

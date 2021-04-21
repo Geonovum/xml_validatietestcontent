@@ -45,5 +45,5 @@
         <contentType>application/xml</contentType>
     </bestand>
     <!-- FOUT: LVBB1008	Valideert manifest.xml tegen schema -->
-    <foute_tag>abc</foute_tag>
+    <FOUT>abc</FOUT>
 </manifest>

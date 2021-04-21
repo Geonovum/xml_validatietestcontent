@@ -16,16 +16,16 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden-OZON0073</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden-OZON0073/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409D</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-2214b4b2-429a-b420-4210-b43031b1bd23-xx">
+                     <basisgeo:id>2214b4b2-429a-b420-4210-b43031b1bd23</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409D"
+                        <gml:MultiSurface gml:id="id-2214b4b2-429a-b420-4210-b43031b1bd23"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
@@ -45,10 +45,10 @@
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 2</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409E-xx">
-                     <basisgeo:id>772B4B37-69F8-4671-B92E-3BCED242409E</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-66cd9df6-8133-986b-d1c2-fd323c9c9312-xx">
+                     <basisgeo:id>66cd9df6-8133-986b-d1c2-fd323c9c9312</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-772B4B37-69F8-4671-B92E-3BCED242409E"
+                        <gml:MultiSurface gml:id="id-66cd9df6-8133-986b-d1c2-fd323c9c9312"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
@@ -68,11 +68,11 @@
             <geo:Locatie>
                <geo:naam>Lijn 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-B28AF779-7EDD-4A88-8B11-809798F53611LIJN-xx">
-                     <basisgeo:id>B28AF779-7EDD-4A88-8B11-809798F53611LIJN</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-9176211a-1cbb-4677-7955-7da1a726ed55-xx">
+                     <basisgeo:id>9176211a-1cbb-4677-7955-7da1a726ed55</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:LineString srsName="urn:ogc:def:crs:EPSG::28992"
-                                        gml:id="id-B28AF779-7EDD-4A88-8B11-809798F53611LIJN-0">
+                                        gml:id="id-9176211a-1cbb-4677-7955-7da1a726ed55-d">
                            <gml:coordinates> 138189.291973878 424664.586667557 138189.291973878 424664.586667557 </gml:coordinates>
                         </gml:LineString>
                      </basisgeo:geometrie>
@@ -82,11 +82,11 @@
             <geo:Locatie>
                <geo:geometrie>
                   <geo:naam>Lijn 2</geo:naam>
-                  <basisgeo:Geometrie gml:id="id-B28AF779-7EDD-4A88-8B11-809798F53612LIJN-xx">
-                     <basisgeo:id>B28AF779-7EDD-4A88-8B11-809798F53612LIJN</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-3d2f6dda-da88-4f22-23ff-29ada2623afd-xx">
+                     <basisgeo:id>3d2f6dda-da88-4f22-23ff-29ada2623afd</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:LineString srsName="urn:ogc:def:crs:EPSG::28992"
-                                        gml:id="id-B28AF779-7EDD-4A88-8B11-809798F53612LIJN-0">
+                                        gml:id="id-3d2f6dda-da88-4f22-23ff-29ada2623afd-9">
                            <gml:coordinates> 138189.291973878 424664.586667557 138189.291973878 424664.586667557 </gml:coordinates>
                         </gml:LineString>
                      </basisgeo:geometrie>
@@ -96,11 +96,11 @@
             <geo:Locatie>
                <geo:geometrie>
                   <geo:naam>Punt 1</geo:naam>
-                  <basisgeo:Geometrie gml:id="id-C28AF779-7EDD-4A88-8B11-809798F53611PUNT-xx">
-                     <basisgeo:id>C28AF779-7EDD-4A88-8B11-809798F53611PUNT</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-d649a22b-29dd-4944-45dd-41b2b4aed4dd-xx">
+                     <basisgeo:id>d649a22b-29dd-4944-45dd-41b2b4aed4dd</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:MultiPoint srsName="urn:ogc:def:crs:EPSG::28992"
-                                        gml:id="id-C28AF779-7EDD-4A88-8B11-809798F53611PUNT-0">
+                                        gml:id="id-d649a22b-29dd-4944-45dd-41b2b4aed4dd-1">
                            <gml:pointMember>
                               <gml:Point>
                                  <gml:coordinates> 138189.291973878 424664.586667557 </gml:coordinates>
@@ -114,11 +114,11 @@
             <geo:Locatie>
                <geo:geometrie>
                   <geo:naam>Punt 2</geo:naam>
-                  <basisgeo:Geometrie gml:id="id-C28AF779-7EDD-4A88-8B11-809798F53612PUNT-xx">
-                     <basisgeo:id>C28AF779-7EDD-4A88-8B11-809798F53612PUNT</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-42ea455c-5bdd-4aee-efbb-e2c5ce4951b2-xx">
+                     <basisgeo:id>42ea455c-5bdd-4aee-efbb-e2c5ce4951b2</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:MultiPoint srsName="urn:ogc:def:crs:EPSG::28992"
-                                        gml:id="id-C28AF779-7EDD-4A88-8B11-809798F53612PUNT-0">
+                                        gml:id="id-42ea455c-5bdd-4aee-efbb-e2c5ce4951b2-2">
                            <gml:pointMember>
                               <gml:Point>
                                  <gml:coordinates> 138189.291973878 424664.586667557 </gml:coordinates>

@@ -16,6 +16,10 @@
         <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
+    <bestand>
+        <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
+        <contentType>application/xml+xml</contentType>
+    </bestand>
     <!-- FOUT: LVBB1514	InformatieObjectRefs moeten zijn aangeleverd in de ZIP -->
     <bestand>
         <bestandsnaam>regelingsgebied.gml</bestandsnaam>

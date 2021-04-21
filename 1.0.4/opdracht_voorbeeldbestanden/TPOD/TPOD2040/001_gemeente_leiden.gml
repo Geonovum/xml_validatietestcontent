@@ -14,18 +14,18 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0546/2020/gemeente_leiden</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0546/2020/gemeente_leiden/nld@2020-08-20</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD2040</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD2040/nld@2020-08-20</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-4b46ca74-3840-4ce1-91b6-abf749802f6c-xx">
-                     <basisgeo:id>4b46ca74-3840-4ce1-91b6-abf749802f6c</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="id-c4c386ac-edc2-c89c-9c43-645ac9d2d538-xx">
+                     <basisgeo:id>c4c386ac-edc2-c89c-9c43-645ac9d2d538</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:MultiSurface srsName="urn:ogc:def:crs:EPSG::28992"
-                                          gml:id="id-4b46ca74-3840-4ce1-91b6-abf749802f6c-0">
+                                          gml:id="id-c4c386ac-edc2-c89c-9c43-645ac9d2d538-2">
                            <gml:surfaceMember>
-                              <gml:Polygon gml:id="id-4b46ca74-3840-4ce1-91b6-abf749802f6c-0-0">
+                              <gml:Polygon gml:id="id-c4c386ac-edc2-c89c-9c43-645ac9d2d538-2-2">
                                  <gml:exterior>
                                     <gml:LinearRing>
                                        <gml:posList>94960.941 466557.344 94960.941 466557.344</gml:posList>

@@ -18,19 +18,19 @@
       <geo:GeoInformatieObjectVersie>
          <!-- FOUT: LVBB3511	Werk van join-id in informatie-object moet gelijk zijn aan die in bijbehorend GML-bestand -->
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GeenGoedeGebieden</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3511/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
-         <geo:normID>>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
+         <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-be8a9b0a-391d-4728-8ada-8dc3351d3e77-xx">
-                     <basisgeo:id>be8a9b0a-391d-4728-8ada-8dc3351d3e77</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="i5-27d8a2e8-8a65-4c7d-d858-d5d8896587cc-xx">
+                     <basisgeo:id>27d8a2e8-8a65-4c7d-d858-d5d8896587cc</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-be8a9b0a-391d-4728-8ada-8dc3351d3e77"
+                        <gml:MultiSurface gml:id="i5-27d8a2e8-8a65-4c7d-d858-d5d8896587cc"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>

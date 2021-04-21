@@ -16,7 +16,7 @@
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>FouteGebieden.gml</bestandsnaam>
-                  <hash/>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"/>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>

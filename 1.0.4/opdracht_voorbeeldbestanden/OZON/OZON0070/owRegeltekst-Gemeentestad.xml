@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0070-31325</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0070</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -28,31 +28,31 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16149454980071146</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.00001</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16149454979868549</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.00001</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16149454980071146"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.20190000001"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.20190000001"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.00001"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.lijnengroep.00001"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.puntengroep.00001"/>
                </r:locatieaanduiding>
                <r:activiteitaanduiding>
-                  <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.2019000001"/>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.00001"/>
                   <r:ActiviteitLocatieaanduiding>
                      <r:identificatie>nl.imow-gm0297.activiteitlocatieaanduiding.2019000001</r:identificatie>
                      <!-- FOUT: OZON0070	Het veld RegelVoorIedereen.activiteitregelkwalificatie moet een waarde bevatten uit de waardelijst ActiviteitRegelkwalificatie. -->
                      <r:activiteitregelkwalificatie>https://wetgeving.omgevingswet.overheid.nl/NietInWaardelijst</r:activiteitregelkwalificatie>
                      <r:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.20190000001"/>
+                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebiedengroep.00001"/>
                      </r:locatieaanduiding>
                   </r:ActiviteitLocatieaanduiding>
                </r:activiteitaanduiding>
@@ -62,7 +62,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0297.activiteit.2019000001</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0297.activiteit.00001</rol:identificatie>
                <rol:naam>Naam</rol:naam>
                <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenLuchthaven</rol:groep>
                <rol:bovenliggendeActiviteit>

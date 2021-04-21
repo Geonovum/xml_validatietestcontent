@@ -7,17 +7,17 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/join/id/regdata/gm0546/2020/gemeente_leiden</FRBRWork>
-         <FRBRExpression>/join/id/regdata/gm0546/2020/gemeente_leiden/nld@2020-08-20</FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD2040</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD2040/nld@2020-08-20</data:FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <heeftGeboorteregeling>/akn/nl/act/gm0546/2020/TPOD204019428</heeftGeboorteregeling>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0546/2020/TPOD2040</data:heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>001_gemeente_leiden.gml</bestandsnaam>
-<hash>b11404ad4e0ba81a7a8e86b97beebd8bb69d52e59290b1c30d1dc5be4aa282b6868a2c82bf387a35129aa18b6315d322da13271aef717a329dd891e68ac58d76</hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">566ecc95779f5a9a2c3f3579f3f02a08efc07b46e268a5e6f5e62d38b9fdf8be4041deb47f62daba3d9a0d4c9c5700bcc46f813fcca4c0a6d7887a4cebc88146</data:hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
@@ -28,7 +28,7 @@
          <alternatieveTitels>
             <alternatieveTitel>Gemeente Leiden</alternatieveTitel>
          </alternatieveTitels>
-         <officieleTitel>/join/id/regdata/gm0546/2020/gemeente_leiden</officieleTitel>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD2040</data:officieleTitel>
          <publicatieinstructie>TeConsolideren</publicatieinstructie>
          <naamInformatieObject>Gemeente Leiden</naamInformatieObject>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>

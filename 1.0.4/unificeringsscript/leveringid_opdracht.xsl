@@ -28,6 +28,8 @@
     
     <xsl:param name="oldId"/>
     <xsl:param name="newId"/>
+    <!-- LET OP NIET IN STANDAARD UNIFICERING -->
+    <xsl:param name="testId"/>
     
     <xsl:variable name="date" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
     
@@ -67,9 +69,19 @@
     </xsl:template>
     
     <xsl:template match="lvbb:datumBekendmaking">
-        <xsl:element name="lvbb:datumBekendmaking">
-            <xsl:value-of select="$date"/>
-        </xsl:element>
+        <!-- LET OP NIET IN STANDAARD UNIFICERING -->
+        <xsl:choose>
+            <xsl:when test="$testId='LVBB4712'">
+                <xsl:element name="lvbb:datumBekendmaking">
+                    <xsl:value-of select="text()"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="lvbb:datumBekendmaking">
+                    <xsl:value-of select="$date"/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="lvbb:idLevering[text()=$oldId]">

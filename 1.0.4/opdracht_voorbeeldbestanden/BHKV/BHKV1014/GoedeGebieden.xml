@@ -7,8 +7,8 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</FRBRWork>
-         <FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1014-BHKV1014</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1014-BHKV1014/nld@2019-06-18;3520</data:FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -16,18 +16,18 @@
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-<hash>22b93f8e97b563bbc90940781a1b869c44a1a5d74784e7e7728517af8f5dca9099401f3f1c2a4d33f81aa5175c6c30566e7e549a298c65f1564ec8dd42a92631</hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">ed23e77fb970ce955e273610d2fb4e3e721e5b7e409a861cb98785ede0f8de960cff9bdcf98166f0816fb8052cf0d09b3f3ac9403b8ed1171acc4219a8bc2a57</data:hash>
                </Bestand>
             </heeftBestand>
             <!-- FOUT: BHKV1014	Het element data:heeftBestanden MOET in aan de LVBB aangeleverde (G)IOs naar precies één bestand verwijzen. -->
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
-<hash>22b93f8e97b563bbc90940781a1b869c44a1a5d74784e7e7728517af8f5dca9099401f3f1c2a4d33f81aa5175c6c30566e7e549a298c65f1564ec8dd42a92631</hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">ed23e77fb970ce955e273610d2fb4e3e721e5b7e409a861cb98785ede0f8de960cff9bdcf98166f0816fb8052cf0d09b3f3ac9403b8ed1171acc4219a8bc2a57</data:hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/BHKV1014103</heeftGeboorteregeling>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1014</data:heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -35,7 +35,7 @@
          <alternatieveTitels>
             <alternatieveTitel>GoedeGebieden</alternatieveTitel>
          </alternatieveTitels>
-         <officieleTitel>/join/id/regdata/gm0297/2019/GoedeGebieden</officieleTitel>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1014-BHKV1014</data:officieleTitel>
          <publicatieinstructie>TeConsolideren</publicatieinstructie>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>

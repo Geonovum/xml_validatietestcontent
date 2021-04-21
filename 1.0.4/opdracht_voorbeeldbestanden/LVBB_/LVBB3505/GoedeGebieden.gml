@@ -21,15 +21,15 @@
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
-         <geo:normID>>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
+         <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-c0b32786-f063-4c33-baa0-8cd3fd37e377-xx">
-                     <basisgeo:id>c0b32786-f063-4c33-baa0-8cd3fd37e377</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="i1-9ea46f2a-eea4-4944-a55e-2914e14f24ff-xx">
+                     <basisgeo:id>9ea46f2a-eea4-4944-a55e-2914e14f24ff</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-c0b32786-f063-4c33-baa0-8cd3fd37e377"
+                        <gml:MultiSurface gml:id="i1-9ea46f2a-eea4-4944-a55e-2914e14f24ff"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>

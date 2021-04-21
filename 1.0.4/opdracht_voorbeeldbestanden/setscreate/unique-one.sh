@@ -1,6 +1,25 @@
 #!/usr/bin/env bash
 
 if [ -d "$1" ]; then
+    if [ "$1" = "LVBB1004"  ]; then
+        exit 0;
+    fi
+    if [ "$1" = "LVBB4703"  ]; then
+        exit 0;
+    fi
+    if [ "$1" = "LVBB4707"  ]; then
+        exit 0;
+    fi
+    if [ "$1" = "LVBB4708"  ]; then
+        exit 0;
+    fi
+    if [ "$1" = "LVBB4712"  ]; then
+        exit 0;
+    fi
+    if [ "$1" = "LVBB4737"  ]; then
+        exit 0;
+    fi
+
     export orgfiledir=$1
     echo "$orgfiledir"
     echo "Script wordt uitgevoerd voor Validatie-testbestand"
@@ -29,6 +48,7 @@ if [ -d "$1" ]; then
         echo "**********************************************************************"
         echo "ANT FAILED: EXECUTION STOPPED !!!!!!!!!!!!!!!!!!!!!"
         echo "**********************************************************************"
+		exit 1
     else
        #extract-datetime van opdracht.xml
        cd resultaat
@@ -38,10 +58,45 @@ if [ -d "$1" ]; then
        export datePart=${l2##*-}   
        #verwijderen oude bestanden van deze directory
        rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
+       #uitzondering voor LBVV1002
+       if [ "$1" == "LVBB1009" ]; then
+    	    rm GoedeGebieden.xml
+	   fi
+       #uitzondering voor LBVV1009
+       if [ "$1" == "LVBB1002" ]; then
+    	    rm opdracht.xml
+	   fi
        #uitzondering voor LBVV4010
        if [ "$1" == "LVBB4010" ]; then
     	    rm akn_nl_bill_gm0297-3520-01.xml
 	   fi
+	   #uitzondering voor LBVV1027
+       if [ "$1" == "LVBB1027" ]; then
+    	    rm manifest-ow.xml
+	   fi
+	   #uitzondering voor LBVV1514
+       if [ "$1" == "LVBB1514" ]; then
+    	    rm GoedeGebieden.xml
+	   fi
+	   #uitzondering voor LBVV2501
+       if [ "$1" == "LVBB2501" ]; then
+    	    rm manifest-ow.xml
+	   fi
+	   #uitzondering voor LBVV3504
+       if [ "$1" == "LVBB3504" ]; then
+    	    rm GoedeGebieden.xml
+    	    rm GoedeGebieden.gml
+	   fi
+	   #uitzondering voor LBVV3506
+       if [ "$1" == "LVBB3506" ]; then
+    	    rm GoedeGebieden.gml
+	   fi
+	   #uitzondering voor LBVV3514
+       if [ "$1" == "LVBB3514" ]; then
+    	    rm GoedeGebieden.xml
+    	    rm GoedeGebieden.gml
+	   fi
+	   #creeren zip-toevoeging
 	   export postfix="$orgfiledir-$datePart"
        echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip"	    	   
 	   zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip *;

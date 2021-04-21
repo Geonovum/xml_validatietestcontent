@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0022-17183</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0022</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -27,17 +27,17 @@
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.16171119279319292</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.regeltekst.00001</r:identificatie>
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.16171119276400140</r:identificatie>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.00001</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.16171119279319292"/>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16165157888869629"/>
@@ -49,12 +49,12 @@
          <ow-dc:owObject>
             <!-- FOUT: OZON0022	Er moet een RegelVoorIedereen, Instructieregel of Tekstdeel zijn die verwijst naar de Gebiedsaanwijzing -->
             <ga:Gebiedsaanwijzing>
-               <ga:identificatie>nl.imow-gm0037.gebiedsaanwijzing.16171119291313344</ga:identificatie>
+               <ga:identificatie>nl.imow-gm0037.gebiedsaanwijzing.00001</ga:identificatie>
                <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
                <ga:naam>abc</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</ga:groep>
                <ga:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.16171119282131301"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </ga:locatieaanduiding>
             </ga:Gebiedsaanwijzing>
          </ow-dc:owObject>

@@ -16,16 +16,16 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGml</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGml/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3901</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden2-LVBB3901/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-b6f58915-78cf-4787-8bf5-43df71d5a5ef-xx">
-                     <basisgeo:id>b6f58915-78cf-4787-8bf5-43df71d5a5ef</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="ia-02604310-e486-4e4e-4060-41a6e1a0a0e6-xx">
+                     <basisgeo:id>02604310-e486-4e4e-4060-41a6e1a0a0e6</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-b6f58915-78cf-4787-8bf5-43df71d5a5ef"
+                        <gml:MultiSurface gml:id="ia-02604310-e486-4e4e-4060-41a6e1a0a0e6"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>

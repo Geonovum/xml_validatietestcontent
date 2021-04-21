@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-<sl:leveringsId>id-publicatie-OZON0053-29511</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0053</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
             <sl:objectType>Gebiedengroep</sl:objectType>
@@ -27,10 +27,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebiedengroep>
-               <l:identificatie>nl.imow-gm0297.gebiedengroep.16164120275791375</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.00001</l:identificatie>
                <l:groepselement>
-                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16164120278312610"/>
-                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.16164120281888504"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.00001"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.00002"/>
                   <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.20190000003"/>
                </l:groepselement>
             </l:Gebiedengroep>
@@ -39,10 +39,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16164120278312610</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.00001</l:identificatie>
                <l:noemer>Goed gebied 1</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409D"/>
+                  <l:GeometrieRef xlink:href="cc12423c-5a8f-45c0-2a14-32f4c1414cac"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
@@ -50,10 +50,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.16164120281888504</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
                <l:noemer>Goed gebied 2</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="772B4B37-69F8-4671-B92E-3BCED242409E"/>
+                  <l:GeometrieRef xlink:href="448e4e34-9f2e-494e-ef88-3ee888484df8"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>

@@ -16,23 +16,23 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>abc-20190221-0801</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-TPOD2040</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebiedsaanwijzing</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <sl:stand>
-      	<ow-dc:owObject>
-      		<ga:Gebiedsaanwijzing>
-      			<ga:identificatie>nl.imow-gm0546.gebiedsaanwijzing.2020000001</ga:identificatie>
-      			<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
-      			<ga:naam>abc</ga:naam>
-      		   <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Centrumgebied</ga:groep>
-      			<ga:locatieaanduiding>
-      				<l:LocatieRef xlink:href="nl.imow-gm0546.gebied.16149455630015164"/>
-      			</ga:locatieaanduiding>
-      		</ga:Gebiedsaanwijzing>
-      	</ow-dc:owObject>
+         <ow-dc:owObject>
+            <ga:Gebiedsaanwijzing>
+               <ga:identificatie>nl.imow-gm0546.gebiedsaanwijzing.00001</ga:identificatie>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+               <ga:naam>abc</ga:naam>
+               <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Centrumgebied</ga:groep>
+               <ga:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.00001"/>
+               </ga:locatieaanduiding>
+            </ga:Gebiedsaanwijzing>
+         </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>
 </ow-dc:owBestand>

@@ -16,17 +16,17 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGebieden</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGebieden-LVBB3003</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden-LVBB3003/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <!-- FOUT: LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook) -->
                <geo:naam>LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook)</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="id-48160f87-27d9-409d-b542-924ce9b7cf47-xx">
-                     <basisgeo:id>48160f87-27d9-409d-b542-924ce9b7cf47</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="i2-ef6390fb-7b29-e992-98e7-97e1a99b10eb-xx">
+                     <basisgeo:id>ef6390fb-7b29-e992-98e7-97e1a99b10eb</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="id-48160f87-27d9-409d-b542-924ce9b7cf47">
+                        <gml:MultiSurface gml:id="i2-ef6390fb-7b29-e992-98e7-97e1a99b10eb">
                            <gml:surfaceMember>
                               <gml:Polygon>
                                  <gml:exterior>
