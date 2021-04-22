@@ -16,8 +16,8 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGml</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGml/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedGebieden2-LVBB3900</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3900/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>

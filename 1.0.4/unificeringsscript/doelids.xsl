@@ -29,8 +29,6 @@
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
     
     <xsl:param name="doelId"/>
-    <xsl:param name="oldDoelId"/>
-
 
     <xsl:template match="@*|node()">
         <xsl:copy>
@@ -38,13 +36,13 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="manifest-ow:DoelID[text()=$oldDoelId]">
+    <xsl:template match="manifest-ow:DoelID">
         <xsl:element name="manifest-ow:DoelID">
             <xsl:value-of select="$doelId"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="data:doelen/data:doel[text()=$oldDoelId]">
+    <xsl:template match="data:doelen/data:doel">
         <xsl:element name="data:doel">
             <xsl:value-of select="$doelId"/>
         </xsl:element>

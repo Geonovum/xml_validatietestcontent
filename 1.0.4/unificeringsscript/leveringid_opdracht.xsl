@@ -26,12 +26,11 @@
     >
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
     
-    <xsl:param name="oldId"/>
     <xsl:param name="newId"/>
-    <!-- LET OP NIET IN STANDAARD UNIFICERING -->
-    <xsl:param name="testId"/>
     
-    <xsl:variable name="date" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
+    <xsl:variable name="dateTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
+    <xsl:variable name="dateYesterday" select="format-dateTime(current-dateTime() - xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
+    
     
     <!-- ********   LET OP EN LEES DIT !!!!! ********** -->
     <!-- HAAL (indien nodig/gewenst) DE comment-tekens BIJ DE *CODE* WEG -->
@@ -62,7 +61,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="sl:leveringsId[text()=$oldId]">
+    <xsl:template match="sl:leveringsId">
         <xsl:element name="sl:leveringsId">
             <xsl:value-of select="$newId"/>
         </xsl:element>
@@ -71,20 +70,24 @@
     <xsl:template match="lvbb:datumBekendmaking">
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
         <xsl:choose>
-            <xsl:when test="$testId='LVBB4712'">
+            <xsl:when test="contains($newId, 'LVBB4712')">
                 <xsl:element name="lvbb:datumBekendmaking">
                     <xsl:value-of select="text()"/>
                 </xsl:element>
             </xsl:when>
+            <xsl:when test="contains($newId, 'LVBB1501_1')">
+                <xsl:value-of select="$dateYesterday"/>
+            </xsl:when>
+            <xsl:when test="contains($newId, 'LVBB1501_2')">
+                <xsl:value-of select="''"/>
+            </xsl:when>
             <xsl:otherwise>
-                <xsl:element name="lvbb:datumBekendmaking">
-                    <xsl:value-of select="$date"/>
-                </xsl:element>
+                <xsl:value-of select="$dateTomorrow"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="lvbb:idLevering[text()=$oldId]">
+    <xsl:template match="lvbb:idLevering">
         <xsl:element name="lvbb:idLevering">
             <xsl:value-of select="$newId"/>
         </xsl:element>

@@ -27,9 +27,6 @@
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
     
     <xsl:param name="dateTime"/>
-    <xsl:param name="oldOWId"/>
-    <xsl:param name="newOWId"/>
-
 
     <xsl:template match="@*|node()">
         <xsl:copy>
@@ -37,93 +34,92 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="r:identificatie[text()=$oldOWId]">
+    <xsl:template match="r:identificatie">
         <xsl:element name="r:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="vt:identificatie[text()=$oldOWId]">
+    <xsl:template match="vt:identificatie">
         <xsl:element name="vt:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="rol:identificatie[text()=$oldOWId]">
+    <xsl:template match="rol:identificatie">
         <xsl:element name="rol:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="ga:identificatie[text()=$oldOWId]">
+    <xsl:template match="ga:identificatie">
         <xsl:element name="ga:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
-
-    <xsl:template match="l:identificatie[text()=$oldOWId]">
+    <!-- Locatie -->
+    <xsl:template match="l:Ambtsgebied/l:identificatie">
         <xsl:element name="l:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="text()"/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="l:identificatie">
+        <xsl:element name="l:identificatie">
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="p:identificatie[text()=$oldOWId]">
+    <xsl:template match="p:identificatie">
         <xsl:element name="p:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="k:identificatie[text()=$oldOWId]">
+    <xsl:template match="k:identificatie">
         <xsl:element name="k:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="rg:identificatie[text()=$oldOWId]">
+    <xsl:template match="rg:identificatie">
         <xsl:element name="rg:identificatie">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="@xlink:href[contains(.,$oldOWId)]">
+    <xsl:template match="@xlink:href">
         <xsl:attribute name="xlink:href">
-            <xsl:value-of select="$newOWId"/>
+            <xsl:value-of select="foo:generateOWId(.)"/>
         </xsl:attribute>
     </xsl:template>
     
+    <!-- Activiteitrefs niet aanraken, worden in aparte routine afgehandeld -->
+    <xsl:template match="rol:ActiviteitRef/@xlink:href">
+        <xsl:attribute name="xlink:href">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+        
     <xsl:function name="foo:generateOWId">
-        <xsl:param name="seeder"/>
         <xsl:param name="oldId" as="xs:string"/>
         <!-- max length 4th part of Id has a max-length of 32-->
         <xsl:variable name="maxLength" select="32 - string-length(tokenize($oldId, '\.')[4])"/>
         <xsl:choose>
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:choose>
-                    <xsl:when test="$maxLength > 13">
-                        <xsl:variable name="dateString" select="concat($dateTime,'FOUT')"/>
-                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
-                    </xsl:when>
-                    <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
-                        <xsl:variable name="dateString" select="substring(concat($dateTime,'FOUT'), 14 - $maxLength)"/>
-                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', concat($dateTime,'FOUT'))"/>
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:value-of select="$oldId"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>
                     <xsl:when test="$maxLength > 13">
-                        <xsl:variable name="dateString" select="$dateTime"/>
-                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                        <xsl:variable name="dateString" select="concat(tokenize($oldId, '\.')[4], $dateTime)"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $dateString)"/>
                     </xsl:when>
                     <xsl:when test="$maxLength > 0 and $maxLength &lt; 14">
-                        <xsl:variable name="dateString" select="substring($dateTime, 14 - $maxLength)"/>
-                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $seeder, $dateString)"/>
+                        <xsl:variable name="dateString" select="concat(tokenize($oldId, '\.')[4], substring($dateTime, 14 - $maxLength))"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $dateString)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', $dateTime)"/>
+                        <xsl:value-of select="concat(tokenize($oldId, '\.')[1], '.', tokenize($oldId, '\.')[2], '.', tokenize($oldId, '\.')[3], '.', tokenize($oldId, '\.')[4])"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:otherwise>
