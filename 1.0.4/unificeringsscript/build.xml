@@ -123,7 +123,7 @@
             <classpath location="saxon9he.jar"/>
             <param name="dateTime" expression="@{dateTime}"/>
           </xslt>
-          <copy file="${temp.dir}/@{owfile.name}" tofile="${output.dir}/@{owfile.name}"/>
+          <copy file="${temp.dir}/@{sourceFileName}" tofile="${output.dir}/@{sourceFileName}"/>
         </actions>
       </call>
     </xmltask>

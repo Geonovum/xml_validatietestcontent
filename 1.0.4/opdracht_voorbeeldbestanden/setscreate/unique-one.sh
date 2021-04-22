@@ -1,25 +1,26 @@
 #!/usr/bin/env bash
 
-if [ -d "$1" ]; then
-    if [ "$1" = "LVBB1004"  ]; then
-        exit 0;
-    fi
-    if [ "$1" = "LVBB4703"  ]; then
-        exit 0;
-    fi
-    if [ "$1" = "LVBB4707"  ]; then
-        exit 0;
-    fi
-    if [ "$1" = "LVBB4708"  ]; then
-        exit 0;
-    fi
-    if [ "$1" = "LVBB4712"  ]; then
-        exit 0;
-    fi
-    if [ "$1" = "LVBB4737"  ]; then
-        exit 0;
-    fi
+if [ "$1" = "LVBB1004"  ]; then
+    exit 0;
+fi
+if [ "$1" = "LVBB4703"  ]; then
+    exit 0;
+fi
+if [ "$1" = "LVBB4707"  ]; then
+    exit 0;
+fi
+if [ "$1" = "LVBB4708"  ]; then
+    exit 0;
+fi
+if [ "$1" = "LVBB4712"  ]; then
+    exit 0;
+fi
+if [ "$1" = "LVBB4737"  ]; then
+    exit 0;
+fi
 
+
+if [ -d "$1" ]; then
     export orgfiledir=$1
     echo "$orgfiledir"
     echo "Script wordt uitgevoerd voor Validatie-testbestand"
@@ -58,11 +59,11 @@ if [ -d "$1" ]; then
        export datePart=${l2##*-}   
        #verwijderen oude bestanden van deze directory
        rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
-       #uitzondering voor LBVV1002
+       #uitzondering voor LBVV1009
        if [ "$1" == "LVBB1009" ]; then
     	    rm GoedeGebieden.xml
 	   fi
-       #uitzondering voor LBVV1009
+       #uitzondering voor LBVV1002
        if [ "$1" == "LVBB1002" ]; then
     	    rm opdracht.xml
 	   fi

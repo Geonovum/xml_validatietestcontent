@@ -2,9 +2,9 @@
 <validatieOpdracht xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xmlns="http://www.overheid.nl/2017/lvbb"
                    xsi:schemaLocation="http://www.overheid.nl/2017/lvbb ../lvbb/lvbb-transport.xsd">
-   <lvbb:idLevering xmlns:lvbb="http://www.overheid.nl/2017/lvbb">id-publicatie-LVBB1010-20210420095859</lvbb:idLevering>
+   <lvbb:idLevering xmlns:lvbb="http://www.overheid.nl/2017/lvbb">id-publicatie--20210422045838</lvbb:idLevering>
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
-   <lvbb:datumBekendmaking xmlns:lvbb="http://www.overheid.nl/2017/lvbb">2021-04-21</lvbb:datumBekendmaking>
+   2021-04-23
 </validatieOpdracht>

@@ -88,12 +88,16 @@
                 </xsl:element>
                 <xsl:element name="besluit">
                     <xsl:element name="versies">
-                        <xsl:element name="oldWordt">
-                            <xsl:value-of select="document($fullname)//@wordt"/>
-                        </xsl:element>
-                        <xsl:element name="wordt">
-                            <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//@wordt)"/>
-                        </xsl:element>
+                        <xsl:for-each select="document($fullname)//@wordt">
+                            <xsl:element name="wordt">
+                                <xsl:element name="old">
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                                <xsl:element name="new">
+                                    <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//@wordt)"/>
+                                </xsl:element>
+                            </xsl:element>
+                        </xsl:for-each>
                     </xsl:element>
                     <xsl:element name="oldInstrumentversie">
                         <xsl:value-of select="document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie/text()"/>
