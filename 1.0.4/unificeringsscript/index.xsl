@@ -502,7 +502,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($oldId, $org.file.dir, $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($oldId, $org.file.dir, '-', $dateTime))"
                 />
             </xsl:otherwise>
         </xsl:choose>
@@ -517,7 +517,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($oldId, $org.file.dir, $dateTime), '/', tokenize($oldId, '/')[8])"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($oldId, $org.file.dir, '-', $dateTime), '/', tokenize($oldId, '/')[8])"
                 />
             </xsl:otherwise>
         </xsl:choose>
@@ -532,7 +532,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, '-', $dateTime))"
                 />
             </xsl:otherwise>
         </xsl:choose>
@@ -547,7 +547,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime), '/', tokenize($oldId, '/')[8])"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, '-', $dateTime), '/', tokenize($oldId, '/')[8])"
                 />
             </xsl:otherwise>
         </xsl:choose>

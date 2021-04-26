@@ -16,8 +16,8 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019//join/id/regdata/gm0297/2019/GoedeGebieden-LVBB1010LVBB101020210426115320</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019//join/id/regdata/gm0297/2019/GoedeGebieden-LVBB1010/nld@2019-06-18;3520LVBB101020210426115320/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019//join/id/regdata/gm0297/2019/GoedeGebieden-LVBB1010LVBB1010-20210426115540</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019//join/id/regdata/gm0297/2019/GoedeGebieden-LVBB1010/nld@2019-06-18;3520LVBB1010-20210426115540/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
@@ -26,10 +26,10 @@
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
-                  <basisgeo:Geometrie gml:id="i9-925d00a8-06c6-4c8a-a2bf-c8995d746a15-xx">
-                     <basisgeo:id>925d00a8-06c6-4c8a-a2bf-c8995d746a15</basisgeo:id>
+                  <basisgeo:Geometrie gml:id="i9-e250b26d-a05c-4223-8cf7-2c43ddaed2ba-xx">
+                     <basisgeo:id>e250b26d-a05c-4223-8cf7-2c43ddaed2ba</basisgeo:id>
                      <basisgeo:geometrie>
-                        <gml:MultiSurface gml:id="i9-925d00a8-06c6-4c8a-a2bf-c8995d746a15"
+                        <gml:MultiSurface gml:id="i9-e250b26d-a05c-4223-8cf7-2c43ddaed2ba"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
