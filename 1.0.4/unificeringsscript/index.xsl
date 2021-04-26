@@ -49,10 +49,10 @@
             <xsl:if test="document($fullname)//manifest-ow:Aanleveringen">
                 <xsl:element name="doelId">
                     <xsl:element name="old">
-                        <xsl:value-of select="document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text()"/> 
+                        <xsl:value-of select="document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text()"/>
                     </xsl:element>
                     <xsl:element name="new">
-                    <xsl:value-of select="foo:generateDoelId(document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text())"/>
+                        <xsl:value-of select="foo:generateDoelId(document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text())"/>
                     </xsl:element>
                 </xsl:element>
             </xsl:if>
@@ -106,6 +106,8 @@
                         <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie/text())"
                         />
                     </xsl:element>
+                    <!-- InformatieRefs -->
+                    <!-- doorloopt het besluit, sectie io-refs -->
                     <xsl:for-each select="document($fullname)//data:informatieobjectRefs/data:informatieobjectRef">
                         <xsl:element name="informatieobjectRef">
                             <xsl:variable name="oldIoRefId" select="text()"/>
@@ -116,9 +118,7 @@
                                 <xsl:for-each select="document($giofullname)//aanlevering:AanleveringInformatieObject">
                                     <xsl:if test="descendant::data:FRBRExpression/text() = $oldIoRefId">
                                         <xsl:element name="gio">
-                                            <xsl:element name="file">
-                                                <xsl:value-of select="tokenize($giofullname, '/')[last()]"/>
-                                            </xsl:element>
+                                            <xsl:value-of select="tokenize($giofullname, '/')[last()]"/>
                                         </xsl:element>
                                     </xsl:if>
                                 </xsl:for-each>
@@ -128,9 +128,7 @@
                                 <xsl:for-each select="document($gmlfullname)//geo:GeoInformatieObjectVaststelling">
                                     <xsl:if test="descendant::geo:FRBRExpression/text() = $oldIoRefId">
                                         <xsl:element name="gml">
-                                            <xsl:element name="file">
-                                                <xsl:value-of select="tokenize($gmlfullname, '/')[last()]"/>
-                                            </xsl:element>
+                                            <xsl:value-of select="tokenize($gmlfullname, '/')[last()]"/>
                                         </xsl:element>
                                     </xsl:if>
                                 </xsl:for-each>
@@ -482,8 +480,10 @@
         <xsl:choose>
             <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="
-                    concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime, 'FOUT'))"/>
+                <xsl:value-of
+                    select="
+                        concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime, 'FOUT'))"
+                />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -513,8 +513,7 @@
         <xsl:choose>
             <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of 
-                    select="$oldId"/>
+                <xsl:value-of select="$oldId"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -529,8 +528,7 @@
         <xsl:choose>
             <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of 
-                    select="$oldId"/>
+                <xsl:value-of select="$oldId"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -545,8 +543,7 @@
         <xsl:choose>
             <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of 
-                    select="$oldId"/>
+                <xsl:value-of select="$oldId"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of

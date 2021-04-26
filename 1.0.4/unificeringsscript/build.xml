@@ -306,8 +306,8 @@
         <param name="newIoRefId" path="newIoRefId/text()"/>
         <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
         <param name="newIoWorkId" path="newIoWorkId/text()"/>
-        <param name="gmlFile" path="gml/file/text()"/>
-        <param name="gioFile" path="gio/file/text()"/>
+        <param name="gmlFile" path="gml/text()"/>
+        <param name="gioFile" path="gio/text()"/>
         <actions>
           <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="informatieobjectRefs.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar" />
