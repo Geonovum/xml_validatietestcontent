@@ -51,10 +51,13 @@
 
 
   <target name="index" description="Creëert een index van de soorten bestanden waaruit de dataset bestaat.">
+    <property environment="env"/>
     <xslt in="template.xml" out="${temp.dir}/index1.xml" style="index.xsl" processor="trax" force="true">
       <classpath location="saxon9he.jar"/>
       <param name="file.list" expression="${file.list}"/>
       <param name="base.dir" expression="${base.dir}"/>
+      <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
+      <param name="org.file.dir" expression="${env.orgfiledir}"/>
     </xslt>
     <xslt in="${temp.dir}/index1.xml" out="${temp.dir}/index.xml" style="filter-dupes.xsl" processor="trax" force="true">
       <classpath location="saxon9he.jar"/>
