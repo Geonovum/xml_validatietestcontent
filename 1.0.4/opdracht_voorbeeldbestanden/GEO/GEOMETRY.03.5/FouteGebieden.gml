@@ -16,8 +16,8 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGebieden-GEOMETRY.03.5-GEOMETRY.03.5-GEOMETRY.03.5-GEOMETRY.03.5</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden-GEOMETRY.03.5-GEOMETRY.03.5-GEOMETRY.03.5-GEOMETRY.03.5/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGebieden-GEOMETRY.03.5</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden-GEOMETRY.03.5/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>GEO0012 coordinaat systeem niet ondersteund.</geo:naam>

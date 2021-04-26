@@ -106,14 +106,6 @@ if [ -d "$1" ]; then
 	   echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;"
 	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;
 	   
-	   ONGELDIGE_ZIP="LVBB1001-$datePart";
-	   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
-	   echo "ongeldige zip" >  ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
-	   git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
-       echo "c"
-       git commit -a -m $orgfiledir;
-       echo "d"
-       git push;
        cd ..;
     fi
 else
