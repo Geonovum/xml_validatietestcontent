@@ -214,12 +214,10 @@
       <call path="index/file[contains(@type,'besluit.xml')]">
         <param name="file.name" path="name/text()"/>
         <param name="doelId" path="../doelId/text()"/>
-        <param name="oldDoelId" path="../doelId/old/text()"/>
         <actions>
           <xslt in="${output.dir}/@{file.name}" out="${temp.dir}/@{file.name}" extension=".xml" style="doelids.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar" />
             <param name="doelId" expression="@{doelId}"/>
-            <param name="oldDoelId" expression="@{oldDoelId}"/>
           </xslt>
           <copy file="${temp.dir}/@{file.name}" tofile="${output.dir}/@{file.name}"/>
         </actions>

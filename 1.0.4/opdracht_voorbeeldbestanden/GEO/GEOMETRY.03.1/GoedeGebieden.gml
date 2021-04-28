@@ -16,8 +16,8 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden-GEOMETRY.03.1</geo:FRBRWork>
-         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden-GEOMETRY.03.1/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
@@ -29,7 +29,7 @@
                   <basisgeo:Geometrie gml:id="ie-fffeaeef-affe-aafa-eefa-afeaafffffee-xx">
                      <basisgeo:id>fffeaeef-affe-aafa-eefa-afeaafffffee</basisgeo:id>
                      <basisgeo:geometrie>
-                        <!-- FOUT GEOMETRY.03.1	geometrie is afwezig  -->
+                        <!-- FOUT GEOMETRY_03_1	geometrie is afwezig  -->
                         <!--<gml:MultiSurface gml:id="id-557c1d8a-45fc-4b73-9df3-3a230575aa89"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>

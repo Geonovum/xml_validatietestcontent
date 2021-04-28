@@ -46,14 +46,9 @@
             <xsl:variable name="pos1" select="position()"/>
             <!-- Doel Id -->
             <!-- Haal oorspronkelijk uit manifest-ow -->
-            <xsl:if test="document($fullname)//manifest-ow:Aanleveringen">
+            <xsl:if test="document($fullname)//data:BeoogdeRegeling/data:doelen/data:doel">
                 <xsl:element name="doelId">
-                    <xsl:element name="old">
-                        <xsl:value-of select="document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text()"/>
-                    </xsl:element>
-                    <xsl:element name="new">
-                        <xsl:value-of select="foo:generateDoelId(document($fullname)//manifest-ow:Aanlevering/manifest-ow:DoelID/text())"/>
-                    </xsl:element>
+                    <xsl:value-of select="foo:generateDoelId(document($fullname)//data:BeoogdeRegeling/data:doelen/data:doel/text())"/>
                 </xsl:element>
             </xsl:if>
             <!-- BesluitID/RegelingID -->
@@ -64,7 +59,7 @@
                     </xsl:element>
                     <xsl:element name="FRBRWork">
                         <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
-                    </xsl:element>
+d                    </xsl:element>
                     <xsl:element name="oldFRBRExpression">
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
                     </xsl:element>
@@ -480,14 +475,11 @@
         <xsl:choose>
             <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of
-                    select="
-                        concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime, 'FOUT'))"
-                />
+                <xsl:value-of select="$oldId" />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($org.file.dir, '-', $dateTime))"
                 />
             </xsl:otherwise>
         </xsl:choose>
@@ -502,7 +494,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($oldId, $org.file.dir, '-', $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', $org.file.dir, '-', $dateTime))"
                 />
             </xsl:otherwise>
         </xsl:choose>
@@ -517,7 +509,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat($oldId, $org.file.dir, '-', $dateTime), '/', tokenize($oldId, '/')[8])"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', $org.file.dir, '-', $dateTime), '/', tokenize($oldId, '/')[8])"
                 />
             </xsl:otherwise>
         </xsl:choose>

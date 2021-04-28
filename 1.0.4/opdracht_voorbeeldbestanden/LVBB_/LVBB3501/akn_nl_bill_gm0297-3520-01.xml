@@ -25,8 +25,8 @@
          </rechtsgebieden>
          <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
          <informatieobjectRefs>
-            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3501/nld@2019-06-18;3520</data:informatieobjectRef>
-            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3501/nld@2019-06-18;3520</data:informatieobjectRef>
+            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</data:informatieobjectRef>
+            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</data:informatieobjectRef>
          </informatieobjectRefs>
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -56,14 +56,14 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/LVBB3501</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3501/nld@2019-06-18;3520</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
             </BeoogdInformatieobject>
             <BeoogdInformatieobject>
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/LVBB3501</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3501/nld@2019-06-18;3520</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
@@ -204,7 +204,7 @@
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
                                                     wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3501/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden-LVBB3501/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>
@@ -216,7 +216,7 @@
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
                                                     wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                                    ref="/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3501/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied-LVBB3501/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                                    ref="/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>
