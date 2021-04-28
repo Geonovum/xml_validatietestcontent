@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<validatieOpdracht 
+<validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb"> 
   xmlns="http://www.overheid.nl/2017/lvbb" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  
   xsi:schemaLocation="http://www.overheid.nl/2017/lvbb
   https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-transport.xsd">
 <idLevering>id-publicatie-LVBB4703-29149</idLevering>

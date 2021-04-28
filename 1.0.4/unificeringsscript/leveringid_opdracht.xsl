@@ -52,7 +52,7 @@
 
     <xsl:template match="lvbb:datumBekendmaking">
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
-        <xsl:element name="lvbb:datumBekendmaking">
+        <xsl:element name="datumBekendmaking" namespace="{namespace-uri()}">
             <xsl:choose>
                 <xsl:when test="contains($newId, 'LVBB4712')">
                     <xsl:value-of select="text()"/>
@@ -70,8 +70,8 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="lvbb:idLevering">
-        <xsl:element name="lvbb:idLevering">
+    <xsl:template match="idLevering">
+        <xsl:element name="idLevering">
             <xsl:value-of select="$newId"/>
         </xsl:element>
     </xsl:template>
