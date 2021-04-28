@@ -69,11 +69,10 @@
     
     <xsl:template match="lvbb:datumBekendmaking">
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
+        <xsl:element name="lvbb:datumBekendmaking">
         <xsl:choose>
             <xsl:when test="contains($newId, 'LVBB4712')">
-                <xsl:element name="lvbb:datumBekendmaking">
                     <xsl:value-of select="text()"/>
-                </xsl:element>
             </xsl:when>
             <xsl:when test="contains($newId, 'LVBB1501_1')">
                 <xsl:value-of select="$dateYesterday"/>
@@ -85,6 +84,7 @@
                 <xsl:value-of select="$dateTomorrow"/>
             </xsl:otherwise>
         </xsl:choose>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="lvbb:idLevering">
