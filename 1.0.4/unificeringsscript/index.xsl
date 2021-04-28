@@ -45,7 +45,7 @@
             <xsl:variable name="fullname" select="."/>
             <xsl:variable name="pos1" select="position()"/>
             <!-- Doel Id -->
-            <!-- Haal oorspronkelijk uit manifest-ow -->
+            <!-- Haal oorspronkelijk uit besluit -->
             <xsl:if test="document($fullname)//data:BeoogdeRegeling/data:doelen/data:doel">
                 <xsl:element name="doelId">
                     <xsl:value-of select="foo:generateDoelId(document($fullname)//data:BeoogdeRegeling/data:doelen/data:doel/text())"/>
@@ -58,8 +58,7 @@
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
                     </xsl:element>
                     <xsl:element name="FRBRWork">
-                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
-d                    </xsl:element>
+                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/> d </xsl:element>
                     <xsl:element name="oldFRBRExpression">
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
                     </xsl:element>
@@ -103,45 +102,120 @@ d                    </xsl:element>
                     </xsl:element>
                     <!-- InformatieRefs -->
                     <!-- doorloopt het besluit, sectie io-refs -->
-                    <xsl:for-each select="document($fullname)//data:informatieobjectRefs/data:informatieobjectRef">
-                        <xsl:element name="informatieobjectRef">
-                            <xsl:variable name="oldIoRefId" select="text()"/>
-                            <xsl:variable name="oldIoWorkId"
-                                select="concat('/', tokenize($oldIoRefId, '/')[2], '/', tokenize($oldIoRefId, '/')[3], '/', tokenize($oldIoRefId, '/')[4], '/', tokenize($oldIoRefId, '/')[5], '/', tokenize($oldIoRefId, '/')[6], '/', tokenize($oldIoRefId, '/')[7])"/>
-                            <xsl:for-each select="tokenize($file.list, ';')">
-                                <xsl:variable name="giofullname" select="."/>
-                                <xsl:for-each select="document($giofullname)//aanlevering:AanleveringInformatieObject">
-                                    <xsl:if test="descendant::data:FRBRExpression/text() = $oldIoRefId">
-                                        <xsl:element name="gio">
-                                            <xsl:value-of select="tokenize($giofullname, '/')[last()]"/>
-                                        </xsl:element>
-                                    </xsl:if>
-                                </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="$org.file.dir = 'LVBB3900'">
+                            <xsl:element name="informatieobjectRef">
+                                <xsl:variable name="oldIoRefId" select="'/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520'"/>
+                                <xsl:variable name="oldIoWorkId"
+                                    select="concat('/', tokenize($oldIoRefId, '/')[2], '/', tokenize($oldIoRefId, '/')[3], '/', tokenize($oldIoRefId, '/')[4], '/', tokenize($oldIoRefId, '/')[5], '/', tokenize($oldIoRefId, '/')[6], '/', tokenize($oldIoRefId, '/')[7])"/>
+                                <xsl:element name="gio">
+                                    <xsl:value-of select="'GoedeGebieden.xml'"/>
+                                </xsl:element>
+                                <xsl:element name="gml">
+                                    <xsl:value-of select="'GoedeGebieden.gml'"/>
+                                </xsl:element>
+                                <xsl:element name="oldIoWorkId">
+                                    <xsl:value-of select="$oldIoWorkId"/>
+                                </xsl:element>
+                                <xsl:element name="newIoWorkId">
+                                    <xsl:value-of select="foo:generateFRBRWork($oldIoWorkId)"/>
+                                </xsl:element>
+                                <xsl:element name="oldIoRefId">
+                                    <xsl:value-of select="$oldIoRefId"/>
+                                </xsl:element>
+                                <xsl:element name="newIoRefId">
+                                    <xsl:value-of select="foo:generateFRBRExpression($oldIoRefId)"/>
+                                </xsl:element>
+                            </xsl:element>
+                            <xsl:element name="informatieobjectRef">
+                                <xsl:variable name="oldIoRefId" select="'/join/id/regdata/gm0297/2019/GoedeGebieden2/nld@2019-06-18;3520'"/>
+                                <xsl:variable name="oldIoWorkId"
+                                    select="concat('/', tokenize($oldIoRefId, '/')[2], '/', tokenize($oldIoRefId, '/')[3], '/', tokenize($oldIoRefId, '/')[4], '/', tokenize($oldIoRefId, '/')[5], '/', tokenize($oldIoRefId, '/')[6], '/', tokenize($oldIoRefId, '/')[7])"/>
+                                <xsl:element name="gio">
+                                    <xsl:value-of select="'GoedeGebieden2.xml'"/>
+                                </xsl:element>
+                                <xsl:element name="gml">
+                                    <xsl:value-of select="'GoedeGebieden2.gml'"/>
+                                </xsl:element>
+                                <xsl:element name="oldIoWorkId">
+                                    <xsl:value-of select="$oldIoWorkId"/>
+                                </xsl:element>
+                                <xsl:element name="newIoWorkId">
+                                    <xsl:value-of select="foo:generateFRBRWork($oldIoWorkId)"/>
+                                </xsl:element>
+                                <xsl:element name="oldIoRefId">
+                                    <xsl:value-of select="$oldIoRefId"/>
+                                </xsl:element>
+                                <xsl:element name="newIoRefId">
+                                    <xsl:value-of select="foo:generateFRBRExpression('/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520')"/>
+                                </xsl:element>
+                            </xsl:element>
+                            <xsl:element name="informatieobjectRef">
+                                <xsl:variable name="oldIoRefId" select="'/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520'"/>
+                                <xsl:variable name="oldIoWorkId"
+                                    select="concat('/', tokenize($oldIoRefId, '/')[2], '/', tokenize($oldIoRefId, '/')[3], '/', tokenize($oldIoRefId, '/')[4], '/', tokenize($oldIoRefId, '/')[5], '/', tokenize($oldIoRefId, '/')[6], '/', tokenize($oldIoRefId, '/')[7])"/>
+                                <xsl:element name="gio">
+                                    <xsl:value-of select="'regelingsgebied.xml'"/>
+                                </xsl:element>
+                                <xsl:element name="gml">
+                                    <xsl:value-of select="'regelingsgebied.gml'"/>
+                                </xsl:element>
+                                <xsl:element name="oldIoWorkId">
+                                    <xsl:value-of select="$oldIoWorkId"/>
+                                </xsl:element>
+                                <xsl:element name="newIoWorkId">
+                                    <xsl:value-of select="foo:generateFRBRWork($oldIoWorkId)"/>
+                                </xsl:element>
+                                <xsl:element name="oldIoRefId">
+                                    <xsl:value-of select="$oldIoRefId"/>
+                                </xsl:element>
+                                <xsl:element name="newIoRefId">
+                                    <xsl:value-of select="foo:generateFRBRExpression($oldIoRefId)"/>
+                                </xsl:element>
+                            </xsl:element>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:for-each select="document($fullname)//data:informatieobjectRefs/data:informatieobjectRef">
+                                <xsl:element name="informatieobjectRef">
+                                    <xsl:variable name="oldIoRefId" select="text()"/>
+                                    <xsl:variable name="oldIoWorkId"
+                                        select="concat('/', tokenize($oldIoRefId, '/')[2], '/', tokenize($oldIoRefId, '/')[3], '/', tokenize($oldIoRefId, '/')[4], '/', tokenize($oldIoRefId, '/')[5], '/', tokenize($oldIoRefId, '/')[6], '/', tokenize($oldIoRefId, '/')[7])"/>
+                                    <xsl:for-each select="tokenize($file.list, ';')">
+                                        <xsl:variable name="giofullname" select="."/>
+                                        <xsl:for-each select="document($giofullname)//aanlevering:AanleveringInformatieObject">
+                                            <xsl:if test="descendant::data:FRBRExpression/text() = $oldIoRefId">
+                                                <xsl:element name="gio">
+                                                    <xsl:value-of select="tokenize($giofullname, '/')[last()]"/>
+                                                </xsl:element>
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                    </xsl:for-each>
+                                    <xsl:for-each select="tokenize($file.list, ';')">
+                                        <xsl:variable name="gmlfullname" select="."/>
+                                        <xsl:for-each select="document($gmlfullname)//geo:GeoInformatieObjectVaststelling">
+                                            <xsl:if test="descendant::geo:FRBRExpression/text() = $oldIoRefId">
+                                                <xsl:element name="gml">
+                                                    <xsl:value-of select="tokenize($gmlfullname, '/')[last()]"/>
+                                                </xsl:element>
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                    </xsl:for-each>
+                                    <xsl:element name="oldIoWorkId">
+                                        <xsl:value-of select="$oldIoWorkId"/>
+                                    </xsl:element>
+                                    <xsl:element name="newIoWorkId">
+                                        <xsl:value-of select="foo:generateFRBRWork($oldIoWorkId)"/>
+                                    </xsl:element>
+                                    <xsl:element name="oldIoRefId">
+                                        <xsl:value-of select="$oldIoRefId"/>
+                                    </xsl:element>
+                                    <xsl:element name="newIoRefId">
+                                        <xsl:value-of select="foo:generateFRBRExpression($oldIoRefId)"/>
+                                    </xsl:element>
+                                </xsl:element>
                             </xsl:for-each>
-                            <xsl:for-each select="tokenize($file.list, ';')">
-                                <xsl:variable name="gmlfullname" select="."/>
-                                <xsl:for-each select="document($gmlfullname)//geo:GeoInformatieObjectVaststelling">
-                                    <xsl:if test="descendant::geo:FRBRExpression/text() = $oldIoRefId">
-                                        <xsl:element name="gml">
-                                            <xsl:value-of select="tokenize($gmlfullname, '/')[last()]"/>
-                                        </xsl:element>
-                                    </xsl:if>
-                                </xsl:for-each>
-                            </xsl:for-each>
-                            <xsl:element name="oldIoWorkId">
-                                <xsl:value-of select="$oldIoWorkId"/>
-                            </xsl:element>
-                            <xsl:element name="newIoWorkId">
-                                <xsl:value-of select="foo:generateFRBRWork($oldIoWorkId)"/>
-                            </xsl:element>
-                            <xsl:element name="oldIoRefId">
-                                <xsl:value-of select="$oldIoRefId"/>
-                            </xsl:element>
-                            <xsl:element name="newIoRefId">
-                                <xsl:value-of select="foo:generateFRBRExpression($oldIoRefId)"/>
-                            </xsl:element>
-                        </xsl:element>
-                    </xsl:for-each>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:if>
             <!-- Levering Ids -->
@@ -475,7 +549,7 @@ d                    </xsl:element>
         <xsl:choose>
             <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
             <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId" />
+                <xsl:value-of select="$oldId"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
