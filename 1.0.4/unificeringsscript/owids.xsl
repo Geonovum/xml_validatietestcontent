@@ -93,6 +93,12 @@
         </xsl:attribute>
     </xsl:template>
     
+    <xsl:template match="l:GeometrieRef/@xlink:href">
+        <xsl:attribute name="xlink:href">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
     <!-- Activiteitrefs niet aanraken, worden in aparte routine afgehandeld -->
     <xsl:template match="rol:ActiviteitRef/@xlink:href">
         <xsl:attribute name="xlink:href">
