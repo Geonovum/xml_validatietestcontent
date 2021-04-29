@@ -70,8 +70,8 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="idLevering">
-        <xsl:element name="idLevering">
+    <xsl:template match="lvbb:idLevering">
+        <xsl:element name="idLevering" namespace="{namespace-uri()}">
             <xsl:value-of select="$newId"/>
         </xsl:element>
     </xsl:template>
