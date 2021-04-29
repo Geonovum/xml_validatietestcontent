@@ -69,7 +69,6 @@ if [[ -d GEO ]]; then
     git push;
     
     cd ..
-    rm opdrachten_gereed/opdracht_-.zip
     exit 0
 else
     echo "Please start from directory opdracht_voorbeeldbestanden."

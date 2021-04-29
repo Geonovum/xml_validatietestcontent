@@ -302,9 +302,6 @@
                             </xsl:element>
                         </xsl:if>
                     </xsl:for-each>
-                    <xsl:element name="org">
-                        <xsl:value-of select="document($fullname)//lvbb:idLevering/text()"/>
-                    </xsl:element>
                     <xsl:element name="new">
                         <xsl:value-of select="concat('id-publicatie-', replace($org.file.dir,'\.','_'), '-', $dateTime)"/>
                     </xsl:element>
