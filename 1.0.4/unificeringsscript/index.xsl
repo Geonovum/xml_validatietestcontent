@@ -58,7 +58,8 @@
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
                     </xsl:element>
                     <xsl:element name="FRBRWork">
-                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/> d </xsl:element>
+                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
+                    </xsl:element>
                     <xsl:element name="oldFRBRExpression">
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
                     </xsl:element>
