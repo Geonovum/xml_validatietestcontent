@@ -30,30 +30,30 @@
 </lvbb:validatieVerzoekResultaat>
 
 </envelop>
-<envelop>
-<test>BHKV1004-20210429014713</test>
-<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1004-20210429014713</result>
-<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1004-20210429014713</lvbb:idLevering><lvbb:tijdstipVerslag>2021-04-30T09:18:47.531511+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-   <lvbb:uitkomst>succes</lvbb:uitkomst>
-   <lvbb:verslag>
-      <lvbb:idLevering>id-publicatie-BHKV1004-20210429014713</lvbb:idLevering>
-      <lvbb:tijdstipVerslag>2021-04-30T09:18:58.447013+02:00</lvbb:tijdstipVerslag>
-      <lvbb:meldingen>
-         <lvbb:melding>
-            <stop:code>LVBB7003</stop:code>
-            <stop:ernst>fout</stop:ernst>
-            <stop:soort>inhoudelijk</stop:soort>
-            <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1004-20210429014713/nld@2019-06-27</stop:categorie>
-            <stop:beschrijving>Geen versies gekoppeld aan doel /join/id/proces/gm0297/2019/BHKV100411672 ; toekennen datum juridisch werkend vanaf in besluit bij oin 00000003560458830000 en id-levering id-publicatie-BHKV1004-20210429014713 is niet geldig</stop:beschrijving>
-         </lvbb:melding>
-      </lvbb:meldingen>
-      <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
-   </lvbb:verslag>
-</lvbb:validatieVerzoekResultaat>
-
-</envelop>
+   <envelop>
+      <test>BHKV1004-20210430020223</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1004-20210430020223</lvbb:idLevering><lvbb:tijdstipVerslag>2021-04-30T14:03:57.559676+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-BHKV1004-20210430020223</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-04-30T14:03:59.423206+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>BHKV1004</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1004-20210430020223/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>Het ontwerpbesluit heeft tijdstempels, dit is niet toegestaan. Verwijder de tijdstempels.</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
+   </envelop>
+   
 <envelop>
 <test>BHKV1005-20210429014746</test>
 <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1005-20210429014746</result>
