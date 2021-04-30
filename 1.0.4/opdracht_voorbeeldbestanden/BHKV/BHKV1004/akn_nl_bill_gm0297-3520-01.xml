@@ -70,7 +70,7 @@
          <!-- FOUT: BHKV1004	Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd -->
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/BHKV100411672</doel>
+               <doel>/join/id/proces/gm0297/2019/BHKV1004</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
                <eId>art_II</eId>
