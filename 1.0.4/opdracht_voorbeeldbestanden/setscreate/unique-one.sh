@@ -59,13 +59,17 @@ if [ -d "$1" ]; then
        export datePart=${l2##*-}   
        #verwijderen oude bestanden van deze directory
        rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
-       #uitzondering voor LBVV1009
-       if [ "$1" == "LVBB1009" ]; then
-    	    rm GoedeGebieden.xml
-	   fi
        #uitzondering voor LBVV1002
        if [ "$1" == "LVBB1002" ]; then
     	    rm opdracht.xml
+	   fi
+	   #uitzondering voor LBVV1003
+       if [ "$1" == "LVBB1003" ]; then
+    	    rm manifest.xml
+	   fi
+       #uitzondering voor LBVV1009
+       if [ "$1" == "LVBB1009" ]; then
+    	    rm GoedeGebieden.xml
 	   fi
        #uitzondering voor LBVV4010
        if [ "$1" == "LVBB4010" ]; then
