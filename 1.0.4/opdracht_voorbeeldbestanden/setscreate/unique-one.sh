@@ -71,13 +71,13 @@ if [ -d "$1" ]; then
        if [ "$1" == "LVBB1009" ]; then
     	    rm GoedeGebieden.xml
 	   fi
-       #uitzondering voor LBVV4010
-       if [ "$1" == "LVBB4010" ]; then
-    	    rm akn_nl_bill_gm0297-3520-01.xml
-	   fi
 	   #uitzondering voor LBVV1027
        if [ "$1" == "LVBB1027" ]; then
     	    rm manifest-ow.xml
+	   fi
+       #uitzondering voor LBVV4010
+       if [ "$1" == "LVBB4010" ]; then
+    	    rm akn_nl_bill_gm0297-3520-01.xml
 	   fi
 	   #uitzondering voor LBVV1514
        if [ "$1" == "LVBB1514" ]; then
