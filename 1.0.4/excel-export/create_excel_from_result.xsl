@@ -15,6 +15,7 @@
     <xsl:variable name="resultaten" select="0" saxon:assignable="yes"/>
     <xsl:variable name="found" select="false()" saxon:assignable="yes"/>
     <xsl:variable name="datum" select="''" saxon:assignable="yes"/>
+    <xsl:variable name="rowcounterWorksheet2" select="0" saxon:assignable="yes"/>
 
 
     <xsl:template match="/">
@@ -98,26 +99,14 @@
             <xsl:element name="Table" namespace="{$defNS}">
                 <xsl:call-template name="header_worksheet_2"/>
                 <xsl:for-each select="envelop">
+                    <saxon:assign name="rowcounterWorksheet2" select="0" saxon:assignable="yes"/>
                     <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
                     <xsl:choose>
-                    </xsl:choose>
-                    <xsl:for-each select="lvbb:validatieVerzoekResultaat">
-                        <xsl:choose>
-                            <!-- ALS ER VERSLAG IS WORDEN MELDINGEN NIET UIT VERSLAG OVERGESLAGEN -->
-                            <xsl:when test="count((lvbb:verslag/lvbb:meldingen/lvbb:melding) = 0) and (count(lvbb:meldingen/lvbb:melding) = 0)">
-                                <xsl:element name="Row" namespace="{$defNS}">
-                                    <xsl:call-template name="doDrawStyledCell">
-                                        <xsl:with-param name="column" select="1"/>
-                                        <xsl:with-param name="data" select="$testId"/>
-                                        <xsl:with-param name="style" select="'yellow'"/>
-                                    </xsl:call-template>
-                                    <xsl:call-template name="doDrawCell">
-                                        <xsl:with-param name="column" select="4"/>
-                                        <xsl:with-param name="data" select="'Geen fouten gevonden vanuit de keten'"/>
-                                    </xsl:call-template>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when test="lvbb:verslag">
+                        <xsl:when
+                            test="
+                                (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) > 0)
+                                or (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding) > 0)">
+                            <xsl:for-each select="lvbb:validatieVerzoekResultaat">
                                 <xsl:if test="lvbb:verslag/lvbb:meldingen">
                                     <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
                                         <xsl:call-template name="doWerkblad2Rij">
@@ -127,8 +116,6 @@
                                         </xsl:call-template>
                                     </xsl:for-each>
                                 </xsl:if>
-                            </xsl:when>
-                            <xsl:otherwise>
                                 <xsl:if test="lvbb:meldingen">
                                     <xsl:for-each select="lvbb:meldingen/lvbb:melding">
                                         <xsl:call-template name="doWerkblad2Rij">
@@ -138,9 +125,18 @@
                                         </xsl:call-template>
                                     </xsl:for-each>
                                 </xsl:if>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:for-each>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:element name="Row" namespace="{$defNS}">
+                                <xsl:call-template name="doDrawStyledCell">
+                                    <xsl:with-param name="column" select="1"/>
+                                    <xsl:with-param name="data" select="$testId"/>
+                                    <xsl:with-param name="style" select="'yellow'"/>
+                                </xsl:call-template>
+                            </xsl:element>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:for-each>
             </xsl:element>
         </xsl:element>
@@ -309,12 +305,13 @@
         <xsl:param name="node" as="node()"/>
         <xsl:param name="envelop" as="node()"/>
         <xsl:element name="Row" namespace="{$defNS}">
+            <saxon:assign name="rowcounterWorksheet2" select="$rowcounterWorksheet2 + 1" saxon:assignable="yes"/>
             <xsl:choose>
-                <xsl:when test="position() = 1">
+                <xsl:when test="$rowcounterWorksheet2 = 1">
                     <xsl:call-template name="doDrawStyledCell">
                         <xsl:with-param name="column" select="1"/>
                         <xsl:with-param name="data" select="$testId"/>
-                        <xsl:with-param name="style" select="'grey'"/>
+                        <xsl:with-param name="style" select="'id'"/>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:otherwise>
@@ -329,7 +326,7 @@
                     <xsl:call-template name="doDrawStyledCell">
                         <xsl:with-param name="column" select="2"/>
                         <xsl:with-param name="data" select="$node/stop:code/text()"/>
-                        <xsl:with-param name="style" select="'id'"/>
+                        <xsl:with-param name="style" select="'green'"/>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:otherwise>
