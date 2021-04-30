@@ -447,30 +447,21 @@
 <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1010-20210429015741</result>
 <validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1010</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: het aantal bestanden in zip is niet gelijk aan het aantal bestanden in manifest.xml</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
 </envelop>
-<envelop>
-<test>LVBB1013-20210429015815</test>
-<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1013-20210429015815</result>
-<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB1013-20210429015815</lvbb:idLevering><lvbb:tijdstipVerslag>2021-04-30T09:36:17.491854+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-   <lvbb:uitkomst>succes</lvbb:uitkomst>
-   <lvbb:verslag>
-      <lvbb:idLevering>id-publicatie-LVBB1013-20210429015815</lvbb:idLevering>
-      <lvbb:tijdstipVerslag>2021-04-30T09:36:29.388664+02:00</lvbb:tijdstipVerslag>
-      <lvbb:meldingen>
-         <lvbb:melding>
-            <stop:code>LVBB7003</stop:code>
-            <stop:ernst>fout</stop:ernst>
-            <stop:soort>inhoudelijk</stop:soort>
-            <stop:categorie>/akn/nl/bill/gm0297/2019/LVBB1013-20210429015815/nld@2019-06-27</stop:categorie>
-            <stop:beschrijving>Geen versies gekoppeld aan doel /join/id/proces/gm0297/2019/LVBB10137982 ; toekennen datum juridisch werkend vanaf in besluit bij oin 00000003560458830000 en id-levering id-publicatie-LVBB1013-20210429015815 is niet geldig</stop:beschrijving>
-         </lvbb:melding>
-      </lvbb:meldingen>
-      <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
-   </lvbb:verslag>
-</lvbb:validatieVerzoekResultaat>
-
-</envelop>
+   <envelop>
+      <test>LVBB1013-20210430025635</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-LVBB1013-20210430025635</lvbb:idLevering><lvbb:tijdstipVerslag>2021-04-30T14:57:37.324924+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
+         xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-LVBB1013-20210430025635</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-04-30T14:58:08.428223+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
+   </envelop>
+   
 <envelop>
 <test>LVBB1015-20210429015847</test>
 <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1015-20210429015847</result>

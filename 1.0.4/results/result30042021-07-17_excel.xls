@@ -702,30 +702,12 @@
                <Data ss:Type="String">De opdracht voldoet niet aan de technische eisen: het aantal bestanden in zip is niet gelijk aan het aantal bestanden in manifest.xml</Data>
             </Cell>
          </Row>
-         <Row ss:StyleID="id">
+         <Row ss:StyleID="yellow">
             <Cell ss:Index="1">
                <Data ss:Type="String">LVBB1013</Data>
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">succes</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">LVBB7003,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/LVBB1013-20210429015815/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Geen versies gekoppeld aan doel /join/id/proces/gm0297/2019/LVBB10137982 ; toekennen datum juridisch werkend vanaf in besluit bij oin 00000003560458830000 en id-levering id-publicatie-LVBB1013-20210429015815 is niet geldig</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -6114,23 +6096,8 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="1" ss:StyleID="id">
+            <Cell ss:Index="1" ss:StyleID="yellow">
                <Data ss:Type="String">LVBB1013</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">LVBB7003</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Andere fout was de enige terugmelding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/LVBB1013-20210429015815/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Geen versies gekoppeld aan doel /join/id/proces/gm0297/2019/LVBB10137982 ; toekennen datum juridisch werkend vanaf in besluit bij oin 00000003560458830000 en id-levering id-publicatie-LVBB1013-20210429015815 is niet geldig</Data>
             </Cell>
          </Row>
          <Row>
@@ -10593,7 +10560,7 @@
                <Data ss:Type="String">Andere fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">47</Data>
+               <Data ss:Type="Number">46</Data>
             </Cell>
          </Row>
          <Row>
@@ -10609,7 +10576,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">13</Data>
+               <Data ss:Type="Number">14</Data>
             </Cell>
          </Row>
       </Table>
