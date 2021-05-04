@@ -17,18 +17,33 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0102</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON2000</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
+            <sl:objectType>RegelVoorIedereen</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
-      <!-- FOUT: OZON0102	Een Regeltekst moet verwijzen naar één of meer Juridische Regels. -->
+      <!-- FOUT: OZON2000	het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP -->
       <sl:stand>
          <ow-dc:owObject>
-            <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
+            <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1FOUT">
                <r:identificatie>nl.imow-gm0297.regeltekst.00001</r:identificatie>
             </r:Regeltekst>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0297.juridischeregel.00001</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>

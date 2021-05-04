@@ -17,18 +17,31 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0102</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0344</sl:leveringsId>
          <sl:objectTypen>
-            <sl:objectType>Regeltekst</sl:objectType>
+            <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- artikel 2.5 -->
-      <!-- FOUT: OZON0102	Een Regeltekst moet verwijzen naar één of meer Juridische Regels. -->
       <sl:stand>
          <ow-dc:owObject>
-            <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-               <r:identificatie>nl.imow-gm0297.regeltekst.00001</r:identificatie>
-            </r:Regeltekst>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.00001</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="6b6c00a0-0041-1690-a641-66f60a10460b"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="43319663-6983-4384-b360-b3694f846164"/>
+               </l:geometrie>
+            </l:Gebied>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>
