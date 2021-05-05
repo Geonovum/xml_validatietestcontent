@@ -39,27 +39,14 @@
                <r:artikelOfLid>
                   <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
                </r:artikelOfLid>
+               <!-- FOUT: OZON0321	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde locatie. -->
                <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
             </r:Omgevingswaarderegel>
          </ow-dc:owObject>
       </sl:stand>  
-      <!-- FOUT: OZON0321	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde locatie. -->
-      <sl:stand>
-         <ow-dc:owObject>
-            <r:Omgevingswaarderegel>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.00002</r:identificatie>
-               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
-               <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
-               </r:artikelOfLid>
-               <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
-               </r:locatieaanduiding>
-            </r:Omgevingswaarderegel>
-         </ow-dc:owObject>
-      </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>

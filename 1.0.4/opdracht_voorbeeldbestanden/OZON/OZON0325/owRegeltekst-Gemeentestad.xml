@@ -34,7 +34,7 @@
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
-            <r:Omgevingswaarderegel>
+            <r:RegelVoorIedereen>
                <r:identificatie>nl.imow-gm0297.juridischeregel.00001</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
@@ -43,47 +43,33 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <r:omgevingswaardeaanduiding>
-                  <rol:OmgevingswaardeRef xlink:href="nl.imow-gm0297.omgevingswaarde.2019000001"/>
-               </r:omgevingswaardeaanduiding>            
-            </r:Omgevingswaarderegel>
+               <!-- FOUT: OZON0325	Een regel voor iedereen (foute voorwaarde, geimplementeerd als Omgevingswaarderegel) mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
+               <r:omgevingsnormaanduiding>
+                  <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001"/>
+                  <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001"/>
+               </r:omgevingsnormaanduiding>            
+            </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>  
-      <!-- FOUT: OZON0325	Een regel voor iedereen (foute voorwaarde, geimplementeerd als Omgevingswaarderegel) mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
       <sl:stand>
          <ow-dc:owObject>
-            <r:Omgevingswaarderegel>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.00002</r:identificatie>
-               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
-               <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
-               </r:artikelOfLid>
-               <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
-               </r:locatieaanduiding>
-               <r:omgevingswaardeaanduiding>
-                  <rol:OmgevingswaardeRef xlink:href="nl.imow-gm0297.omgevingswaarde.2019000001"/>
-               </r:omgevingswaardeaanduiding>            
-            </r:Omgevingswaarderegel>
-         </ow-dc:owObject>
-      </sl:stand>
-      <sl:stand>
-         <ow-dc:owObject>
-            <rol:Omgevingswaarde>
-               <rol:identificatie>nl.imow-gm0546.omgevingswaarde.00001</rol:identificatie>
-               <rol:naam>fijnstof</rol:naam>
-               <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/Volume</rol:type>
+            <rol:Omgevingsnorm>
+               <rol:identificatie>nl.imow-gm0297.omgevingsnorm.2019000001</rol:identificatie>
+               <rol:naam>maximum bouwhoogte bedrijfsgebouw</rol:naam>
+               <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+               <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
                <rol:normwaarde>
                   <rol:Normwaarde>
-                     <rol:identificatie>nl.imow-gm0546.normwaarde.2019000001</rol:identificatie>
-                     <rol:waardeInRegeltekst>waarde staat in regeltekst</rol:waardeInRegeltekst>
+                     <rol:identificatie>nl.imow-gm0297.normwaarde.00001</rol:identificatie>
+                     <rol:kwantitatieveWaarde>13</rol:kwantitatieveWaarde>
                      <rol:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.2019000011"/>
+                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
+                        <!--Z3-->
                      </rol:locatieaanduiding>
                   </rol:Normwaarde>
                </rol:normwaarde>
-               <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Luchtkwaliteit</rol:groep>
-            </rol:Omgevingswaarde>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+            </rol:Omgevingsnorm>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>

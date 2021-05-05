@@ -43,30 +43,14 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
+               <!-- OZON0345	Een instructieregel mag niet twee keer verwijzen naar dezelfde kaart. -->
                <r:kaartaanduiding>
+                  <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>
                </r:kaartaanduiding>
             </r:Instructieregel>
          </ow-dc:owObject>
       </sl:stand>  
-      <!-- OZON0345	Een instructieregel mag niet twee keer verwijzen naar dezelfde kaart. -->
-      <sl:stand>
-         <ow-dc:owObject>
-            <r:Instructieregel>
-               <r:identificatie>nl.imow-gm0297.juridischeregel.00002</r:identificatie>
-               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
-               <r:artikelOfLid>
-                  <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
-               </r:artikelOfLid>
-               <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
-               </r:locatieaanduiding>
-               <r:kaartaanduiding>
-                  <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>
-               </r:kaartaanduiding>
-            </r:Instructieregel>
-         </ow-dc:owObject>
-      </sl:stand>   
       <sl:stand>
          <ow-dc:owObject>
             <k:Kaart>

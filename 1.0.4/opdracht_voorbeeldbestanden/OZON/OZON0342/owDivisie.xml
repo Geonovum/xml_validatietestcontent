@@ -44,28 +44,9 @@
                <vt:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.00001"/>
                </vt:locatieaanduiding>
+               <!-- FOUT: OZON0342	Een tekstdeel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
                <vt:gebiedsaanwijzing>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>
-               </vt:gebiedsaanwijzing>
-            </vt:Tekstdeel>
-         </ow-dc:owObject>
-      </sl:stand>
-      <!-- FOUT: OZON0342	Een tekstdeel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
-      <sl:stand>
-         <ow-dc:owObject>
-            <vt:Tekstdeel><!-- deze behouden, bevat ook locatie gebied Leiden -->
-               <vt:identificatie>nl.imow-gm0546.tekstdeel.00002</vt:identificatie>
-               <vt:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</vt:idealisatie>
-               <vt:divisieaanduiding>
-                  <vt:DivisieRef xlink:href="nl.imow-gm0546.divisie.00001"/>
-               </vt:divisieaanduiding>
-               <vt:hoofdlijnaanduiding>
-                  <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.00001"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>
-               </vt:hoofdlijnaanduiding>
-               <vt:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.00002"/>
-               </vt:locatieaanduiding>
-               <vt:gebiedsaanwijzing>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>
                </vt:gebiedsaanwijzing>
             </vt:Tekstdeel>

@@ -68,7 +68,7 @@
                      <k:niveau>1</k:niveau>
                      <!-- FOUT: OZON0349	Als een kaartlaag verwijst naar een activiteitlocatieaanduiding, omgevingsnorm, omgevingswaarde of gebiedsaanwijzing, dan moet deze bestaan. -->
                      <k:normweergave>
-                        <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001"/>
+                        <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001FOUT"/>
                      </k:normweergave>
                   </k:Kaartlaag>
                </k:kaartlagen>
