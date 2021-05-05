@@ -49,6 +49,7 @@
             </r:Omgevingswaarderegel>
          </ow-dc:owObject>
       </sl:stand>   
+      <!-- FOUT: OZON0344	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde kaart. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Omgevingswaarderegel>

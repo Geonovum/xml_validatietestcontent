@@ -48,7 +48,8 @@
                </r:kaartaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
-      </sl:stand>   
+      </sl:stand>  
+      <!-- FOUT: OZON0343	Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde kaart. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>

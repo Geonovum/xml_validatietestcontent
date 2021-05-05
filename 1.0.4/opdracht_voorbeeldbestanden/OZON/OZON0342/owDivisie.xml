@@ -17,7 +17,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0346</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0342</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Divisie</sl:objectType>
             <sl:objectType>Tekstdeel</sl:objectType>
@@ -50,6 +50,7 @@
             </vt:Tekstdeel>
          </ow-dc:owObject>
       </sl:stand>
+      <!-- FOUT: OZON0342	Een tekstdeel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
       <sl:stand>
          <ow-dc:owObject>
             <vt:Tekstdeel><!-- deze behouden, bevat ook locatie gebied Leiden -->

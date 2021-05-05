@@ -48,7 +48,8 @@
                </r:kaartaanduiding>
             </r:Instructieregel>
          </ow-dc:owObject>
-      </sl:stand>   
+      </sl:stand>  
+      <!-- OZON0345	Een instructieregel mag niet twee keer verwijzen naar dezelfde kaart. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Instructieregel>

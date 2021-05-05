@@ -66,6 +66,7 @@
                      <k:identificatie>nl.imow-gm0297.kaartlaag.2019000001</k:identificatie>
                      <k:naam>welstandslaag</k:naam>
                      <k:niveau>1</k:niveau>
+                     <!-- FOUT: OZON0349	Als een kaartlaag verwijst naar een activiteitlocatieaanduiding, omgevingsnorm, omgevingswaarde of gebiedsaanwijzing, dan moet deze bestaan. -->
                      <k:normweergave>
                         <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001"/>
                      </k:normweergave>
