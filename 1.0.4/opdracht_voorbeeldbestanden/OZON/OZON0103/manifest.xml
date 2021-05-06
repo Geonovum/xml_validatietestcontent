@@ -40,8 +40,4 @@
         <bestandsnaam>owRegeltekst-Gemeentestad.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-    <bestand>
-        <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
-        <contentType>application/xml</contentType>
-    </bestand>
 </manifest>

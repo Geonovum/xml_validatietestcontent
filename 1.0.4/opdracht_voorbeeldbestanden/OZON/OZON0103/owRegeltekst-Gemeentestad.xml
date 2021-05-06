@@ -52,7 +52,6 @@
       <sl:stand>
          <ow-dc:owObject>
             <rol:Omgevingsnorm>
-               <!-- FOUT: OZON0103	Een eerste aanlevering van een OW-object mag niet de status beëindigd hebben. -->
                <ow:status>B</ow:status>
                <rol:identificatie>nl.imow-gm0297.omgevingsnorm.00001</rol:identificatie>
                <rol:naam>welstandsniveau</rol:naam>
