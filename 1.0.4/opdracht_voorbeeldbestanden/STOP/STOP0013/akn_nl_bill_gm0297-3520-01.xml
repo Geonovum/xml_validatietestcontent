@@ -89,7 +89,7 @@
          </Aanhef>
          <Lichaam eId="body_1" wId="body_1">
             <!-- FOUT: STOP0013	Een @eId MAG NIET eindigen met een punt '.' -->
-            <WijzigArtikel eId="art_I." wId="gm0297_1__art_I">
+            <WijzigArtikel eId="art_I." wId="gm0297_1__art_I_FOUT">
                <Kop>
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>

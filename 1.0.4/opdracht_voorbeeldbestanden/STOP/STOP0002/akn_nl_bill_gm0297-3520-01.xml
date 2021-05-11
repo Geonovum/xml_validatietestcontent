@@ -102,7 +102,7 @@
                </Kop>
                <!-- FOUT: STOP0002	Een Lijst van het type 'expliciet' MOET lijst-items hebben met nummering of symbolen -->
                <Inhoud>
-                  <Lijst type="expliciet" wId="lijst" eId="lijst">
+                  <Lijst type="expliciet" wId="lijst_FOUT" eId="lijst_FOUT">
                      <Li wId="l1" eId="l1">
                         <Al>Inhoud</Al>
                      </Li>

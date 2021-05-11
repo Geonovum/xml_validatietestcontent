@@ -102,7 +102,7 @@
                </Kop>
                <Inhoud>
                   <!-- FOUT: STOP0029	Een tabel MOET ten minste twee kolommen hebben -->
-                  <table wId="a" eId="a">
+                  <table wId="a" eId="a_FOUT">
                      <tgroup cols="1" align="left">
                         <colspec/>
                         <tbody valign="top">

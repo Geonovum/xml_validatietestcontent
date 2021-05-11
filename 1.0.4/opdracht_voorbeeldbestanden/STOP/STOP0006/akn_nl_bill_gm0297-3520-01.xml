@@ -102,7 +102,7 @@
                </Kop>
                <Gereserveerd/>
             </Artikel>
-            <Artikel eId="art_III" wId="gm0297_1__art_III">
+            <Artikel eId="art_III" wId="gm0297_1__art_III_FOUT">
                <!-- FOUT: STOP0006	Een kop MOET content bevatten -->
                <Kop>
                </Kop>

@@ -180,7 +180,7 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                     <!-- FOUT: STOP0009	Een tabel MAG NIET in een lijst worden opgenomen -->
-                                    <table wId="a" eId="a">
+                                    <table wId="FOUT" eId="FOUT">
                                        <tgroup cols="2" align="left">
                                           <colspec/>
                                           <tbody valign="top">

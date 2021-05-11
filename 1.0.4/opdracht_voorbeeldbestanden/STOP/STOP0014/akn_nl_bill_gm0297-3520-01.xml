@@ -81,7 +81,7 @@
             <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <!-- FOUT: STOP0014	Een @wId MAG NIET eindigen met een '.' -->
-         <Aanhef eId="formula_1" wId="formula_1.">
+         <Aanhef eId="formula_1_FOUT" wId="formula_1.">
             <Al>De raad van de gemeente Gemeenstestad </Al>
             <Al>gelezen het voorstel van burgemeester en wethouders van 26 juni 2019, nr. 2019-4542;</Al>
             <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149"

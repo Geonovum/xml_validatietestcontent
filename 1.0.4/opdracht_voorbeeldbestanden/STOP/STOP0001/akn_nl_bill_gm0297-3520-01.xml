@@ -104,7 +104,7 @@
                <Inhoud>
                   <Lijst type="ongemarkeerd" wId="lijst" eId="lijst">
                      <Li wId="l1" eId="l1">
-                        <LiNummer>A.</LiNummer>
+                        <LiNummer>FOUT.</LiNummer>
                         <Al>Inhoud</Al>
                      </Li>
                   </Lijst>
