@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3103</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3143</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -35,14 +35,25 @@
       </InformatieObjectMetadata>
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.1.0">
          <FeatureTypeName>geo:Locatie</FeatureTypeName>
-         <!-- FOUT: STOP3103	FeatureTypeStyle:SemanticTypeIdentifier MOET zijn geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde -->
-         <SemanticTypeIdentifier>geo:FOUT</SemanticTypeIdentifier>
+         <SemanticTypeIdentifier>geo:kwantitatieveNormwaarde</SemanticTypeIdentifier>
          <Rule>
             <Name>Maximum bouwhoogte 7 meter</Name>
             <Description>
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
+            <Filter xmlns="http://www.opengis.net/ogc">
+               <And>
+                  <PropertyIsGreaterThan>
+                     <PropertyName>PropertyIsGreaterThan</PropertyName>
+                     <Literal>4</Literal>
+                  </PropertyIsGreaterThan>
+                  <PropertyIsLessThan>
+                     <PropertyName>PropertyIsLessThan</PropertyName>
+                     <Literal>7</Literal>
+                  </PropertyIsLessThan>
+               </And>
+            </Filter>
             <PolygonSymbolizer>
                <Name>vsgt206</Name>
                <Fill>
@@ -54,6 +65,8 @@
                   <SvgParameter name="stroke-opacity">1</SvgParameter>
                   <SvgParameter name="stroke-width">0.5</SvgParameter>
                   <SvgParameter name="stroke-linejoin">round</SvgParameter>
+                  <!-- FOUT: STOP3143 SvgParameter met name" attribute "stroke-linecap" MOET "butt" bevatten." -->
+                  <SvgParameter name="stroke-linecap">FOUT</SvgParameter>
                </Stroke>
             </PolygonSymbolizer>
          </Rule>
