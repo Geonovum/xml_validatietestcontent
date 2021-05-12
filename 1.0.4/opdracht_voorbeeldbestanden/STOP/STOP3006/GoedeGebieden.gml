@@ -23,13 +23,12 @@
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
          <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:groepen>
-            <!-- FOUT: STOP3003	Twee groepIDs in het lijstje groepen mogen niet dezelfde waarde hebben. -->
             <geo:Groep>
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:label>GoedeGebieden 1</geo:label>
             </geo:Groep>
             <geo:Groep>
-               <geo:groepID>GoedeGebieden1</geo:groepID>
+               <geo:groepID>GoedeGebieden2</geo:groepID>
                <geo:label>GoedeGebieden 2</geo:label>
             </geo:Groep>
          </geo:groepen>
@@ -55,7 +54,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <!-- FOUT: STOP3006	Als er één locatie is in een GIO waar kwantitatieveNormwaarde is ingevuld MOETEN alle locaties een kwantitatieveNormWaarde hebben. -->
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>
@@ -78,7 +77,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <geo:kwantitatieveNormwaarde>3</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
