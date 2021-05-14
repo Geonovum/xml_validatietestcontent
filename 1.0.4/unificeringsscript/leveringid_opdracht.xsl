@@ -61,7 +61,7 @@
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
                 <xsl:when test="contains($newId, 'LVBB1501_2')">
-                    <xsl:value-of select="''"/>
+                    <xsl:value-of select="substring($dateTomorrow,2)"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="$dateTomorrow"/>

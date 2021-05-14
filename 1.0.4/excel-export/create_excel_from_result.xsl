@@ -51,16 +51,18 @@
                                 </xsl:attribute>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
+                        <xsl:variable name="testIdLabel" select="do:returnTestIdLabel(test/text())"/>
                         <xsl:call-template name="doDrawCell">
                             <xsl:with-param name="column" select="1"/>
-                            <xsl:with-param name="data" select="$testId"/>
+                            <xsl:with-param name="data" select="$testIdLabel"/>
                         </xsl:call-template>
                         <xsl:if test="lvbb:validatieVerzoekResultaat">
-                            <xsl:call-template name="doDrawCell">
-                                <xsl:with-param name="column" select="3"/>
-                                <xsl:with-param name="data" select="lvbb:validatieVerzoekResultaat[1]/lvbb:uitkomst/text()"/>
-                            </xsl:call-template>
+                            <xsl:if test="lvbb:validatieVerzoekResultaat[1]/lvbb:uitkomst">
+                                <xsl:call-template name="doDrawCell">
+                                    <xsl:with-param name="column" select="3"/>
+                                    <xsl:with-param name="data" select="concat('lvbb:uitkomst: ', lvbb:validatieVerzoekResultaat[1]/lvbb:uitkomst/text())"/>
+                                </xsl:call-template>
+                            </xsl:if>
                         </xsl:if>
                     </xsl:element>
                     <xsl:for-each select="lvbb:validatieVerzoekResultaat">
@@ -101,6 +103,7 @@
                 <xsl:for-each select="envelop">
                     <saxon:assign name="rowcounterWorksheet2" select="0" saxon:assignable="yes"/>
                     <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
+                    <xsl:variable name="testIdLabel" select="do:returnTestIdLabel(test/text())"/>
                     <xsl:choose>
                         <xsl:when
                             test="
@@ -111,6 +114,7 @@
                                     <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
                                         <xsl:call-template name="doWerkblad2Rij">
                                             <xsl:with-param name="testId" select="$testId"/>
+                                            <xsl:with-param name="testIdLabel" select="$testIdLabel"/>
                                             <xsl:with-param name="node" select="."/>
                                             <xsl:with-param name="envelop" select="ancestor::envelop"/>
                                         </xsl:call-template>
@@ -120,6 +124,7 @@
                                     <xsl:for-each select="lvbb:meldingen/lvbb:melding">
                                         <xsl:call-template name="doWerkblad2Rij">
                                             <xsl:with-param name="testId" select="$testId"/>
+                                            <xsl:with-param name="testIdLabel" select="$testIdLabel"/>
                                             <xsl:with-param name="node" select="."/>
                                             <xsl:with-param name="envelop" select="ancestor::envelop"/>
                                         </xsl:call-template>
@@ -302,6 +307,7 @@
 
     <xsl:template name="doWerkblad2Rij">
         <xsl:param name="testId" as="xs:string"/>
+        <xsl:param name="testIdLabel" as="xs:string"/>
         <xsl:param name="node" as="node()"/>
         <xsl:param name="envelop" as="node()"/>
         <xsl:element name="Row" namespace="{$defNS}">
@@ -310,14 +316,14 @@
                 <xsl:when test="$rowcounterWorksheet2 = 1">
                     <xsl:call-template name="doDrawStyledCell">
                         <xsl:with-param name="column" select="1"/>
-                        <xsl:with-param name="data" select="$testId"/>
+                        <xsl:with-param name="data" select="$testIdLabel"/>
                         <xsl:with-param name="style" select="'id'"/>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:call-template name="doDrawCell">
                         <xsl:with-param name="column" select="1"/>
-                        <xsl:with-param name="data" select="$testId"/>
+                        <xsl:with-param name="data" select="$testIdLabel"/>
                     </xsl:call-template>
                 </xsl:otherwise>
             </xsl:choose>
@@ -442,6 +448,14 @@
     </xsl:function>
 
     <xsl:function name="do:returnTestId">
+        <xsl:param name="testId" as="xs:string"/>
+        <xsl:variable name="inBetween1" select="concat($testId, '_')"/>
+        <xsl:variable name="inBetween2" select="substring-before($inBetween1, '_')"/>
+        <xsl:variable name="inBetween4" select="concat($inBetween2, '-')"/>
+        <xsl:value-of select="substring-before($inBetween4, '-')"/>
+    </xsl:function>
+
+    <xsl:function name="do:returnTestIdLabel">
         <xsl:param name="testId" as="xs:string"/>
         <xsl:value-of select="substring-before($testId, '-')"/>
     </xsl:function>
