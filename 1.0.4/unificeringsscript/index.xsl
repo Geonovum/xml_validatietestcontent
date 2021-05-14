@@ -39,7 +39,7 @@
         </xsl:element>
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
         <xsl:element name="testId">
-            <xsl:value-of select="replace($org.file.dir,'\.','_')"/>
+            <xsl:value-of select="replace($org.file.dir, '\.', '_')"/>
         </xsl:element>
         <xsl:for-each select="tokenize($file.list, ';')">
             <xsl:variable name="fullname" select="."/>
@@ -246,8 +246,9 @@
                                 </xsl:element>
                             </xsl:element>
                         </xsl:when>
-                        <xsl:when test="$org.file.dir = 'STOP1007' 
-                            or $org.file.dir = 'STOP1009'">
+                        <xsl:when test="
+                                $org.file.dir = 'STOP1007'
+                                or $org.file.dir = 'STOP1009'">
                             <xsl:element name="informatieobjectRef">
                                 <xsl:variable name="oldIoRefId" select="'/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520'"/>
                                 <xsl:variable name="oldIoWorkId"
@@ -352,7 +353,7 @@
                         </xsl:if>
                     </xsl:for-each>
                     <xsl:element name="new">
-                        <xsl:value-of select="concat('id-publicatie-', replace($org.file.dir,'\.','_'), '-', $dateTime)"/>
+                        <xsl:value-of select="concat('id-publicatie-', replace($org.file.dir, '\.', '_'), '-', $dateTime)"/>
                     </xsl:element>
                 </xsl:element>
             </xsl:if>
@@ -648,93 +649,58 @@
         </xsl:for-each>
     </xsl:param>
 
+    <xsl:function name="foo:changePart">
+        <xsl:param name="oldPart" as="xs:string"/>
+        <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
+            <xsl:when test="contains($oldPart, 'FOUT')">
+                <xsl:value-of select="$oldPart"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $dateTime)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+
     <xsl:function name="foo:generateGuid">
         <xsl:param name="seed" as="xs:integer"/>
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:choose>
-            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
-            <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <xsl:value-of select="translate(translate(translate(unparsed-text(concat('https://uuidgen.org/api/v/4?x=', string($seed))), '[', ''), ']', ''), '&quot;', '')"/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateDoelId">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:choose>
-            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
-            <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(replace($org.file.dir,'\.','_'), '-', $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir))"
                 />
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:choose>
-            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
-            <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', replace($org.file.dir,'\.','_'), '-', $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', foo:changePart($org.file.dir)))"
                 />
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:choose>
-            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
-            <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', replace($org.file.dir,'\.','_'), '-', $dateTime), '/', tokenize($oldId, '/')[8])"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', foo:changePart($org.file.dir)), '/', tokenize($oldId, '/')[8])"
                 />
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:choose>
-            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
-            <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(replace($org.file.dir,'\.','_'), '-', $dateTime))"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir))"
                 />
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:choose>
-            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
-            <xsl:when test="contains($oldId, 'FOUT')">
-                <xsl:value-of select="$oldId"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(replace($org.file.dir,'\.','_'), '-', $dateTime), '/', tokenize($oldId, '/')[8])"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir), '/', tokenize($oldId, '/')[8])"
                 />
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
 
     <xsl:template name="references">
