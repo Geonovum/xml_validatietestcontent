@@ -52,6 +52,7 @@
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:variable name="testIdLabel" select="do:returnTestIdLabel(test/text())"/>
+                        <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
                         <xsl:call-template name="doDrawCell">
                             <xsl:with-param name="column" select="1"/>
                             <xsl:with-param name="data" select="$testIdLabel"/>
@@ -61,6 +62,15 @@
                                 <xsl:call-template name="doDrawCell">
                                     <xsl:with-param name="column" select="3"/>
                                     <xsl:with-param name="data" select="concat('lvbb:uitkomst: ', lvbb:validatieVerzoekResultaat[1]/lvbb:uitkomst/text())"/>
+                                </xsl:call-template>
+                            </xsl:if>
+                        </xsl:if>
+                        <xsl:if test="not($testId='')">
+                            <xsl:variable name="message" select="document('errors_index.xml')/index/error[code=$testId]/message/text()"/>
+                            <xsl:if test="$message and not($message='')">
+                                <xsl:call-template name="doDrawCell">
+                                    <xsl:with-param name="column" select="6"/>
+                                    <xsl:with-param name="data" select="$message"/>
                                 </xsl:call-template>
                             </xsl:if>
                         </xsl:if>

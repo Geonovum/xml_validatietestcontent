@@ -969,6 +969,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB2501</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Domeinmanifest bestaat niet</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -983,6 +984,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB2502</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">mislukt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Domeinmanifest moet doel hebben</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -994,6 +996,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB2503</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">mislukt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doel in domeinmanifest moet bestaan</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -1005,6 +1008,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB2504</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">mislukt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">De bestanden genoemd in het domeinmanifest moeten meegeleverd zijn</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -1016,6 +1020,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3003</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">mislukt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -1027,6 +1032,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3009</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Valideert het gml document tegen het schema</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">melding</Data></Cell>
@@ -1041,6 +1047,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3011</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Elk GML-element MOET een even aantal punten bevatten</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -1055,6 +1062,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3012</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Elk GML-element MOET een ingevulde &lt;gml:posList&gt; bevatten</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">melding</Data></Cell>
@@ -1069,6 +1077,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3501</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Valideert het document tegen de versie-informatie bij het io schema?</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -1080,6 +1089,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3504</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alle informatie-objecten genoemd in de BesluitMetadata van het besluit moeten meegeleverd zijn</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">melding</Data></Cell>
@@ -1094,6 +1104,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3505</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">De aangeleverde IO voor validatie komt niet voor in het besluit</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">melding</Data></Cell>
@@ -1128,6 +1139,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3506</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">GML bestand genoemd in IO is niet meegeleverd</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">melding</Data></Cell>
@@ -1142,6 +1154,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3507</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Het content-type van de het meegeleverd bestand bij de IO is 'application/pdf' of 'application/gml+xml' </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">melding</Data></Cell>
@@ -1156,6 +1169,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3509</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alle aanleverde io(s) moeten voorkomen in het besluit</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">melding</Data></Cell>
@@ -1170,6 +1184,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
     <Cell><Data ss:Type="String">LVBB3510</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">succes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Geboorteregeling in een informatie-object moet voorkomen als regeling in het besluit</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s63">
     <Cell><Data ss:Type="String">LVBB3511</Data></Cell>
@@ -4741,11 +4756,11 @@
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Unsynced/>
    <Selected/>
-   <TopRowVisible>231</TopRowVisible>
+   <TopRowVisible>297</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>243</ActiveRow>
+     <ActiveRow>307</ActiveRow>
      <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
