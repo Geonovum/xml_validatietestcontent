@@ -52,6 +52,24 @@
                 </xsl:element>
             </xsl:if>
             <!-- BesluitID/RegelingID -->
+            <xsl:if test="document($fullname)/aanlevering:AanleveringKennisgeving">
+                <xsl:element name="besluitId">
+                    <xsl:element name="oldFRBRWork">
+                        <xsl:value-of select="document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
+                    </xsl:element>
+                    <xsl:element name="FRBRWork">
+                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
+                    </xsl:element>
+                    <xsl:element name="oldFRBRExpression">
+                        <xsl:value-of select="document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
+                    </xsl:element>
+                    <xsl:element name="FRBRExpression">
+                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression/text())"/>
+                    </xsl:element>
+                </xsl:element>
+                <xsl:element name="besluit">
+                </xsl:element>
+            </xsl:if>
             <xsl:if test="document($fullname)/aanlevering:AanleveringBesluit">
                 <xsl:element name="besluitId">
                     <xsl:element name="oldFRBRWork">
@@ -403,6 +421,13 @@
             <xsl:if test="document($fullname)/aanlevering:AanleveringBesluit">
                 <xsl:call-template name="file">
                     <xsl:with-param name="type" select="'besluit.xml'"/>
+                    <xsl:with-param name="fullname" select="$fullname"/>
+                    <xsl:with-param name="ow" select="'false'"/>
+                </xsl:call-template>
+            </xsl:if>
+            <xsl:if test="document($fullname)/aanlevering:AanleveringKennisgeving">
+                <xsl:call-template name="file">
+                    <xsl:with-param name="type" select="'kennisgeving.xml'"/>
                     <xsl:with-param name="fullname" select="$fullname"/>
                     <xsl:with-param name="ow" select="'false'"/>
                 </xsl:call-template>

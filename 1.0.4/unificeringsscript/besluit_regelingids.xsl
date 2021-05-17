@@ -58,6 +58,19 @@
         </xsl:element>
     </xsl:template>
 
+    <xsl:template match="aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork">
+        <xsl:element name="data:FRBRWork">
+            <xsl:value-of select="$besluitFrbrWork"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression">
+        <xsl:element name="data:FRBRExpression">
+            <xsl:value-of select="$besluitFrbrExpression"/>
+        </xsl:element>
+    </xsl:template>
+    
+
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="$regelingFrbrWork"/>

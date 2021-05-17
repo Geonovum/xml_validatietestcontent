@@ -229,14 +229,14 @@
       <!-- BESLUIT -->
       <!-- REGELING -->
       <xmltask source="${temp.dir}/index.xml">
-        <call path="index">
-          <param name="besluit.name" path="file[contains(@type,'besluit.xml')]/name/text()"/>
-          <param name="manifest-ow.name" path="file[contains(@type,'manifest-ow.xml')]/name/text()"/>
-          <param name="besluitFrbrWork" path="besluitId/FRBRWork/text()"/>
-          <param name="besluitFrbrExpression" path="besluitId/FRBRExpression/text()"/>
-          <param name="regelingFrbrWork" path="regelingId/FRBRWork/text()"/>
-          <param name="regelingFrbrExpression" path="regelingId/FRBRExpression/text()"/>
-          <param name="instrumentversie" path="besluit/instrumentversie/text()"/>
+        <call path="index/file[contains(@type,'besluit.xml')]">
+          <param name="besluit.name" path="../file[contains(@type,'besluit.xml')]/name/text()"/>
+          <param name="manifest-ow.name" path="../file[contains(@type,'manifest-ow.xml')]/name/text()"/>
+          <param name="besluitFrbrWork" path="../besluitId/FRBRWork/text()"/>
+          <param name="besluitFrbrExpression" path="../besluitId/FRBRExpression/text()"/>
+          <param name="regelingFrbrWork" path="../regelingId/FRBRWork/text()"/>
+          <param name="regelingFrbrExpression" path="../regelingId/FRBRExpression/text()"/>
+          <param name="instrumentversie" path="../besluit/instrumentversie/text()"/>
           <actions>
             <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
               <classpath location="saxon9he.jar" />
@@ -256,6 +256,22 @@
               <param name="instrumentversie" expression="@{instrumentversie}"/>
             </xslt>
             <copy file="${temp.dir}/@{manifest-ow.name}" tofile="${output.dir}/@{manifest-ow.name}"/>
+          </actions>
+        </call>
+      </xmltask>
+      <!-- KENNISGEVING -->
+      <xmltask source="${temp.dir}/index.xml">
+        <call path="index/file[contains(@type,'kennisgeving.xml')]">
+          <param name="besluit.name" path="../file[contains(@type,'kennisgeving.xml')]/name/text()"/>
+          <param name="besluitFrbrWork" path="../besluitId/FRBRWork/text()"/>
+          <param name="besluitFrbrExpression" path="../besluitId/FRBRExpression/text()"/>
+          <actions>
+            <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+              <classpath location="saxon9he.jar" />
+              <param name="besluitFrbrWork" expression="@{besluitFrbrWork}"/>
+              <param name="besluitFrbrExpression" expression="@{besluitFrbrExpression}"/>
+            </xslt>
+            <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name}"/>
           </actions>
         </call>
       </xmltask>
