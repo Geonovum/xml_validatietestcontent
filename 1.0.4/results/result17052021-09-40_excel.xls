@@ -12577,7 +12577,7 @@
                <Data ss:Type="String">SvgParameter name="fill" waarde: #c8c8c8FOUT, is ongeldig. Vul deze met een valide hexadecimale waarde.</Data>
             </Cell>
          </Row>
-         <Row ss:StyleID="id">
+         <Row ss:StyleID="yellow">
             <Cell ss:Index="1">
                <Data ss:Type="String">STOP3148</Data>
             </Cell>
@@ -12587,63 +12587,6 @@
             <Cell ss:Index="6">
                <Data ss:Type="String">SvgParameter met met name attribute fill-opacity" MOET aan de reguliere expressie ^0((.[0-9])?[0-9]?)or1((.0)?0?)$ voldoen. (string met een positief decimaal getal tussen 0 en 1
             (beide inclusief) met 0,1 of 2 decimalen)"</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP3115,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3148-20210517112302/nld@2019-06-18;3520</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">PropertyName is PropertyIsGreaterThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP3115,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3148-20210517112302/nld@2019-06-18;3520</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">PropertyName is PropertyIsLessThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP3120,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3148-20210517112302/nld@2019-06-18;3520</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">In Rule met Rule:Name Maximum bouwhoogte 7 meter is de operator in Rule:Filter AND, maar de operanden zijn niet PropertyIsLessThan en
-                     PropertyIsGreaterThanOrEqualTo. Corrigeer de And expressie in het filter.</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -24033,66 +23976,8 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="1" ss:StyleID="id">
+            <Cell ss:Index="1" ss:StyleID="yellow">
                <Data ss:Type="String">STOP3148</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP3115</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3148-20210517112302/nld@2019-06-18;3520</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">PropertyName is PropertyIsGreaterThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP3148</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP3115</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3148-20210517112302/nld@2019-06-18;3520</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">PropertyName is PropertyIsLessThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP3148</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP3120</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3148-20210517112302/nld@2019-06-18;3520</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">In Rule met Rule:Name Maximum bouwhoogte 7 meter is de operator in Rule:Filter AND, maar de operanden zijn niet PropertyIsLessThan en
-                     PropertyIsGreaterThanOrEqualTo. Corrigeer de And expressie in het filter.</Data>
             </Cell>
          </Row>
          <Row>
@@ -24342,7 +24227,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">121</Data>
+               <Data ss:Type="Number">120</Data>
             </Cell>
          </Row>
          <Row>
@@ -24350,7 +24235,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">30</Data>
+               <Data ss:Type="Number">31</Data>
             </Cell>
          </Row>
       </Table>
