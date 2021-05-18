@@ -9593,28 +9593,21 @@
       </lvbb:validatieVerzoekResultaat>
    </envelop>
    <envelop>
-      <test>TPOD2040-20210518105847</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-TPOD2040-20210518105847</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T11:01:47.29667+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <test>TPOD2040-20210518110845</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-TPOD2040-20210518110845</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T11:09:47.398405+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
          xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-TPOD2040-20210518105847</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-18T11:01:54.700369+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-TPOD2040-20210518110845</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T11:10:02.778695+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>TPOD2040</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>manifest-ow.xml</stop:categorie>
-                  <stop:beschrijving>wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel /join/id/proces/gm0546/2020/TPOD2040-20210518105847 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518105847</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>TPOD2220</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>manifest-ow.xml</stop:categorie>
-                  <stop:beschrijving>De door Ozon aangegeven, maar in de LVBB niet bekend zijnde geometrie(ën), betreft de volgende geo-id('s): c4c386ac-edc2-c89c-9c43-645ac9d2d538</stop:beschrijving>
+                  <stop:beschrijving>wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
@@ -9623,6 +9616,7 @@
       
    </envelop>
    
+
    <envelop>
       <test>TPOD2060-20210517112741</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_TPOD2060-20210517112741</result>
@@ -9656,9 +9650,15 @@
    </envelop>
    <envelop>
       <test>TPOD2140-20210518103831</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-TPOD2140-20210518103831</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T10:39:47.53985+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-TPOD2140-20210518103831</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T10:39:47.53985+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-TPOD2140-20210518103831</lvbb:idLevering>
@@ -9675,14 +9675,20 @@
             <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>TPOD2210-20210518103023</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-TPOD2210-20210518103023</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T10:33:35.254415+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-TPOD2210-20210518103023</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T10:33:35.254415+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-TPOD2210-20210518103023</lvbb:idLevering>
@@ -9699,6 +9705,6 @@
             <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
 </result>

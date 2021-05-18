@@ -38,20 +38,49 @@
     
     <xsl:template match="manifest-ow:DoelID">
         <xsl:element name="manifest-ow:DoelID">
-            <xsl:value-of select="$doelId"/>
+            <xsl:value-of select="foo:replaceDoelID(text(),$doelId)"/>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="data:doelen/data:doel">
         <xsl:element name="data:doel">
-            <xsl:value-of select="$doelId"/>
+            <xsl:value-of select="foo:replaceDoelID(text(),$doelId)"/>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="data:Tijdstempel/data:doel">
         <xsl:element name="data:doel">
-            <xsl:value-of select="$doelId"/>
+            <xsl:value-of select="foo:replaceDoelID(text(),$doelId)"/>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:function name="foo:changePart">
+        <xsl:param name="oldPart" as="xs:string"/>
+        <xsl:param name="newPart" as="xs:string"></xsl:param>
+        <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
+            <xsl:when test="contains($oldPart, 'FOUT')">
+                <xsl:value-of select="$oldPart"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$newPart"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="foo:replaceDoelID">
+        <xsl:param name="oldId" as="xs:string"/>
+        <xsl:param name="newId" as="xs:string"/>
+        <xsl:value-of
+            select="concat('/', 
+            foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+            foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+            foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+            foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+            foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
+            foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7])
+            )"
+        />
+    </xsl:function>
 
 </xsl:stylesheet>
