@@ -9403,67 +9403,29 @@
 
    </envelop>
    <envelop>
-      <test>STOP3170-20210517112507</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3170-20210517112507</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP3170-20210518114834</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3170-20210518114834</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T11:49:47.539859+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3170-20210517112507</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T15:09:17.41398+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3170-20210517112507</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T15:09:19.788539+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3170-20210518114834</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T11:49:49.869283+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3170-20210517112507/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsGreaterThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3170-20210517112507/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsLessThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3120</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3170-20210517112507/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>In Rule met Rule:Name Maximum bouwhoogte 7 meter is de operator in Rule:Filter AND, maar de operanden zijn niet PropertyIsLessThan en
-                     PropertyIsGreaterThanOrEqualTo. Corrigeer de And expressie in het filter.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3157</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3170-20210517112507/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>De Mark:WellKnownName aaa is niet toegestaan. Maak hier cross(of cross_fill), square, circle, star of triangle van.</stop:beschrijving>
-               </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP3170</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3170-20210517112507/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>De PolygonSymbolizer:Fill:GraphicFill:Graphic met Name vsgt206 bevat geen se:ExternalGraphic of ook een se:Mark, dit is wel vereist. Voeg een se:ExternalGraphic
-                     element toe.</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3170-20210518114834/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>De PolygonSymbolizer:Fill:GraphicFill:Graphic met Name vsgt206 bevat geen se:ExternalGraphic of ook een se:Mark, dit is wel vereist. Voeg een se:ExternalGraphic element toe.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP3173-20210518114356</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3173-20210518114356</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T11:45:15.302313+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>

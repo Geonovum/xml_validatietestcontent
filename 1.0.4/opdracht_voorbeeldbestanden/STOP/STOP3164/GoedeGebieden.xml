@@ -42,26 +42,14 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <Filter xmlns="http://www.opengis.net/ogc">
-               <And>
-                  <PropertyIsGreaterThan>
-                     <PropertyName>PropertyIsGreaterThan</PropertyName>
-                     <Literal>4</Literal>
-                  </PropertyIsGreaterThan>
-                  <PropertyIsLessThan>
-                     <PropertyName>PropertyIsLessThan</PropertyName>
-                     <Literal>7</Literal>
-                  </PropertyIsLessThan>
-               </And>
-            </Filter>
+            
             <PointSymbolizer>
                <Name></Name>
                <Graphic>
-                  <Mark>
-                     <WellKnownName>aaa</WellKnownName>
-                     <Fill>
-                     </Fill>
-                  </Mark>
+                  <ExternalGraphic>
+                     <InlineContent encoding="base64">a1b2c3e4</InlineContent>
+                     <Format>image/png</Format>
+                  </ExternalGraphic>                  
                   <!-- FOUT: STOP3164 De Graphic:Rotation MOET aan de reguliere expressie ^\-?[0-9]([0-9][0-9]?)?(.[0-9][0-9]?)?$ voldoen. (een positief of negatief decimaal getal kleiner dan 1000 met 0, 1 of 2 decimalen) -->
                   <Rotation>10000</Rotation>
                </Graphic>
