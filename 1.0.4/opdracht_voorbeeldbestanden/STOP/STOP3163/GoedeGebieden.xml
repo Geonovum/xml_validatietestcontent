@@ -42,24 +42,13 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <Filter xmlns="http://www.opengis.net/ogc">
-               <And>
-                  <PropertyIsGreaterThan>
-                     <PropertyName>PropertyIsGreaterThan</PropertyName>
-                     <Literal>4</Literal>
-                  </PropertyIsGreaterThan>
-                  <PropertyIsLessThan>
-                     <PropertyName>PropertyIsLessThan</PropertyName>
-                     <Literal>7</Literal>
-                  </PropertyIsLessThan>
-               </And>
-            </Filter>
             <PointSymbolizer>
-               <Name></Name>
+               <Name>What_is_in_it</Name>
                <Graphic>
                   <Mark>
-                     <WellKnownName>aaa</WellKnownName>
+                     <WellKnownName>cross</WellKnownName>
                      <Fill>
+                        <SvgParameter name="fill">#c8c8c8</SvgParameter>
                      </Fill>
                   </Mark>
                   <!-- FOUT: STOP3163 De Graphic:Size MOET aan de reguliere expressie ^[0-9]+$ voldoen. (een positief geheel getal). -->
