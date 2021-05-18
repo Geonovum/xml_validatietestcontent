@@ -55,7 +55,6 @@
                               </ExternalGraphic>
                            </Graphic>
                         </GraphicFill>
-                        <SvgParameter name="fill">#c8c8c8</SvgParameter>
                      </Fill>
                   </Mark>
                </Graphic>

@@ -8538,6 +8538,19 @@
 
    </envelop>
    <envelop>
+      <test>STOP3135-20210518024640</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP3135-20210518024640</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T14:48:19.849098+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+   </envelop>
+
+
+   <envelop>
       <test>STOP3135-20210517111733</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3135-20210517111733</result>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
@@ -8614,27 +8627,26 @@
 
    </envelop>
    <envelop>
-      <test>STOP3138-20210517111801</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3138-20210517111801</result>
+      <test>STOP3138-20210518025246</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3138-20210517111801</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:58:15.282404+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3138-20210518025246</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T14:54:17.442623+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3138-20210517111801</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:58:17.581607+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3138-20210518025246</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T14:54:19.772663+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>STOP3138</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210517111801/nld@2019-06-18;3520</stop:categorie>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210518025246/nld@2019-06-18;3520</stop:categorie>
                   <stop:beschrijving>De PointSymbolizer van Rule:Name heeft niet de vorm se:Graphic/se:Mark/se:Fill/se:GraphicFill/se:SvgParameter, dit is verplicht. Wijzig deze
                      symbolizer.</stop:beschrijving>
                </lvbb:melding>
@@ -8644,11 +8656,19 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
+
    <envelop>
       <test>STOP3139-20210518023132</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3139-20210518023132</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T14:32:47.260266+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP3139-20210518023132</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T14:32:47.260266+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP3139-20210518023132</lvbb:idLevering>
@@ -8665,7 +8685,7 @@
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
    <envelop>
       <test>STOP3140-20210518022618</test>
