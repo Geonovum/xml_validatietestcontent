@@ -29,58 +29,96 @@
 
     <xsl:template match="data:heeftGeboorteregeling">
         <xsl:element name="data:heeftGeboorteregeling">
-            <xsl:choose>
-                <xsl:when test="contains(text(), 'FOUT')">
-                    <xsl:value-of select="text()"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$regelingFrbrWork"/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:value-of select="foo:replaceFRBRWork(text(),$regelingFrbrWork)"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="manifest-ow:WorkIDRegeling">
         <xsl:element name="manifest-ow:WorkIDRegeling">
-            <xsl:value-of select="$regelingFrbrWork"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text(),$regelingFrbrWork)"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="$besluitFrbrWork"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text(),$besluitFrbrWork)"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
-            <xsl:value-of select="$besluitFrbrExpression"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text(),$besluitFrbrExpression)"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="$besluitFrbrWork"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text(),$besluitFrbrWork)"/>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
-            <xsl:value-of select="$besluitFrbrExpression"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text(),$besluitFrbrExpression)"/>
         </xsl:element>
     </xsl:template>
     
 
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="$regelingFrbrWork"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text(),$regelingFrbrWork)"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
-            <xsl:value-of select="$regelingFrbrExpression"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text(),$regelingFrbrExpression)"/>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:function name="foo:changePart">
+        <xsl:param name="oldPart" as="xs:string"/>
+        <xsl:param name="newPart" as="xs:string"></xsl:param>
+        <xsl:choose>
+            <!-- Indien het id het woordje FOUT bevat, dient wordt het woordje fout toegevoegd, hij is immers om een fout te triggeren -->
+            <xsl:when test="contains($oldPart, 'FOUT')">
+                <xsl:value-of select="$oldPart"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$newPart"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="foo:replaceFRBRWork">
+        <xsl:param name="oldId" as="xs:string"/>
+        <xsl:param name="newId" as="xs:string"/>
+        <xsl:value-of
+            select="concat('/', 
+            foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+            foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+            foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+            foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+            foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
+            foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7])
+            )"
+        />
+    </xsl:function>
+    
+    <xsl:function name="foo:replaceFRBRExpression">
+        <xsl:param name="oldId" as="xs:string"/>
+        <xsl:param name="newId" as="xs:string"/>
+        <xsl:value-of
+                select="concat('/', 
+                foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+                foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+                foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+                foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+                foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
+                foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7]),'/',
+                foo:changePart(tokenize($oldId, '/')[8],tokenize($newId, '/')[8])
+                )"
+        />
+    </xsl:function>
 
 </xsl:stylesheet>
