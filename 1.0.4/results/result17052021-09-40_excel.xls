@@ -13277,15 +13277,31 @@
                <Data ss:Type="String">De ExternalGraphic:Format van (Polygon)symbolizer:Name vsgt206 heeft een ongeldig Format image/FOUT. Wijzig deze in image/png</Data>
             </Cell>
          </Row>
-         <Row ss:StyleID="yellow">
+         <Row ss:StyleID="id">
             <Cell ss:Index="1">
                <Data ss:Type="String">TPOD2000</Data>
             </Cell>
             <Cell ss:Index="3">
-               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+               <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
             </Cell>
             <Cell ss:Index="6">
                <Data ss:Type="String">Manifest-ow.xml mag 1 doel bevatten</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="yellow">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">LVBB1015,	fout,	technisch</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content
+                  was found starting with element '{"http://www.geostandaarden.nl/bestanden-ow/manifest-ow":DoelID}'. One of
+                  '{"http://www.geostandaarden.nl/bestanden-ow/manifest-ow":buitenBesluit, "http://www.geostandaarden.nl/bestanden-ow/manifest-ow":Bestand}' is
+                  expected.]</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -13314,7 +13330,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</Data>
+               <Data ss:Type="String">wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel
+                     /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -25173,8 +25190,23 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="1" ss:StyleID="yellow">
+            <Cell ss:Index="1" ss:StyleID="id">
                <Data ss:Type="String">TPOD2000</Data>
+            </Cell>
+            <Cell ss:Index="2">
+               <Data ss:Type="String">LVBB1015</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">technisch</Data>
+            </Cell>
+            <Cell ss:Index="4">
+               <Data ss:Type="String">Andere fout was de enige terugmelding</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content
+                  was found starting with element '{"http://www.geostandaarden.nl/bestanden-ow/manifest-ow":DoelID}'. One of
+                  '{"http://www.geostandaarden.nl/bestanden-ow/manifest-ow":buitenBesluit, "http://www.geostandaarden.nl/bestanden-ow/manifest-ow":Bestand}' is
+                  expected.]</Data>
             </Cell>
          </Row>
          <Row>
@@ -25194,7 +25226,8 @@
                <Data ss:Type="String">manifest-ow.xml</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</Data>
+               <Data ss:Type="String">wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel
+                     /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</Data>
             </Cell>
          </Row>
          <Row>
@@ -25288,7 +25321,7 @@
                <Data ss:Type="String">Andere fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">56</Data>
+               <Data ss:Type="Number">57</Data>
             </Cell>
          </Row>
          <Row>
@@ -25304,7 +25337,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">30</Data>
+               <Data ss:Type="Number">29</Data>
             </Cell>
          </Row>
       </Table>

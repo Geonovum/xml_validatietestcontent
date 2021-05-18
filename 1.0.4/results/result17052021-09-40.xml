@@ -9581,22 +9581,34 @@
 
    </envelop>
    <envelop>
-      <test>TPOD2000-20210517112640</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_TPOD2000-20210517112640</result>
+      <test>TPOD2000-20210518112036</test>
+      <validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb">
+         <uitkomst>mislukt</uitkomst>
+         <meldingen>
+            <melding>
+               <stop:code>LVBB1015</stop:code>
+               <stop:ernst>fout</stop:ernst>
+               <stop:soort>technisch</stop:soort>
+               <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: manifest-ow.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content
+                  was found starting with element &apos;{&quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:DoelID}&apos;. One of
+                  &apos;{&quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:buitenBesluit, &quot;http://www.geostandaarden.nl/bestanden-ow/manifest-ow&quot;:Bestand}&apos; is
+                  expected.]</stop:beschrijving>
+            </melding>
+         </meldingen>
+      </validatieVerzoekResultaat>
+   </envelop>
+
+   <envelop>
+      <test>TPOD2040-20210518110845</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-TPOD2000-20210517112640</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T15:11:37.382419+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-TPOD2040-20210518110845</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T11:09:47.398405+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-   </envelop>
-   <envelop>
-      <test>TPOD2040-20210518110845</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-TPOD2040-20210518110845</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T11:09:47.398405+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-TPOD2040-20210518110845</lvbb:idLevering>
@@ -9607,15 +9619,16 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>manifest-ow.xml</stop:categorie>
-                  <stop:beschrijving>wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</stop:beschrijving>
+                  <stop:beschrijving>wId gm0546_1__div_o_1_FOUT van Divisie in OW verwijst niet naar een bestaande wId van een Divisie in OP bij doel
+                     /join/id/proces/gm0546/2020/TPOD2040-20210518110845 en regeling /akn/nl/act/gm0546/2020/TPOD2040-20210518110845</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>consolidatie-niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
 
    <envelop>
       <test>TPOD2060-20210517112741</test>
