@@ -8676,58 +8676,27 @@
 
    </envelop>
    <envelop>
-      <test>STOP3139-20210517111829</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3139-20210517111829</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP3139-20210518023132</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3139-20210518023132</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-18T14:32:47.260266+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3139-20210517111829</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:58:57.480006+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3139-20210517111829</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:58:59.809314+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3139-20210518023132</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-18T14:32:49.586558+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3139-20210517111829/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsGreaterThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3139-20210517111829/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsLessThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3120</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3139-20210517111829/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>In Rule met Rule:Name Maximum bouwhoogte 7 meter is de operator in Rule:Filter AND, maar de operanden zijn niet PropertyIsLessThan en
-                     PropertyIsGreaterThanOrEqualTo. Corrigeer de And expressie in het filter.</stop:beschrijving>
-               </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP3139</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3139-20210517111829/nld@2019-06-18;3520</stop:categorie>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3139-20210518023132/nld@2019-06-18;3520</stop:categorie>
                   <stop:beschrijving>Een Stroke:SvgParameter met een ongeldig name attribute FOUT. Maak hier een valide name attribute van.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
    <envelop>
       <test>STOP3140-20210518022618</test>
