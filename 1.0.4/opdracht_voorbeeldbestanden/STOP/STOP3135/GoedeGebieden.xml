@@ -50,11 +50,12 @@
                         <GraphicFill>
                            <Graphic>
                               <ExternalGraphic>
-                                 <InlineContent encoding="base64">#1a2b3c</InlineContent>
+                                 <InlineContent encoding="base64">1a2b3c</InlineContent>
                                  <Format>image/png</Format>
                               </ExternalGraphic>
                            </Graphic>
                         </GraphicFill>
+                        <SvgParameter name="fill">#c8c8c8</SvgParameter>
                      </Fill>
                   </Mark>
                </Graphic>
