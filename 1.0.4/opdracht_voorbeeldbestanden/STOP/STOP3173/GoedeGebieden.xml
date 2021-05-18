@@ -50,7 +50,7 @@
                      <Graphic>
                         <ExternalGraphic>
                            <InlineContent encoding="base64">$#$</InlineContent>
-                           <Format></Format>
+                           <Format>image/png</Format>
                         </ExternalGraphic>
                      </Graphic>
                   </GraphicFill>
