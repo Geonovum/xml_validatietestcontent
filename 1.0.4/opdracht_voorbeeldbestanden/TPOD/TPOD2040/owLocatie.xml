@@ -28,7 +28,7 @@
                <l:identificatie>nl.imow-gm0546.gebied.00001</l:identificatie>
                <l:noemer>Gemeente Leiden</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="c4c386ac-edc2-c89c-9c43-645ac9d2d538"/>
+                  <l:GeometrieRef xlink:href="4b46ca74-3840-4ce1-91b6-abf749802f6c"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
