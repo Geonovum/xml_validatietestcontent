@@ -8631,43 +8631,12 @@
             <lvbb:tijdstipVerslag>2021-05-17T14:58:17.581607+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210517111801/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsGreaterThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210517111801/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsLessThan, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwantitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3120</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210517111801/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>In Rule met Rule:Name Maximum bouwhoogte 7 meter is de operator in Rule:Filter AND, maar de operanden zijn niet PropertyIsLessThan en
-                     PropertyIsGreaterThanOrEqualTo. Corrigeer de And expressie in het filter.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
                   <stop:code>STOP3138</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210517111801/nld@2019-06-18;3520</stop:categorie>
                   <stop:beschrijving>De PointSymbolizer van Rule:Name heeft niet de vorm se:Graphic/se:Mark/se:Fill/se:GraphicFill/se:SvgParameter, dit is verplicht. Wijzig deze
                      symbolizer.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3157</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3138-20210517111801/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>De Mark:WellKnownName aaa is niet toegestaan. Maak hier cross(of cross_fill), square, circle, star of triangle van.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>

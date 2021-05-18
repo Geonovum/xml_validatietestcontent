@@ -42,29 +42,17 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <Filter xmlns="http://www.opengis.net/ogc">
-               <And>
-                  <PropertyIsGreaterThan>
-                     <PropertyName>PropertyIsGreaterThan</PropertyName>
-                     <Literal>4</Literal>
-                  </PropertyIsGreaterThan>
-                  <PropertyIsLessThan>
-                     <PropertyName>PropertyIsLessThan</PropertyName>
-                     <Literal>7</Literal>
-                  </PropertyIsLessThan>
-               </And>
-            </Filter>
-            <!-- FOUT: STOP3135 De PointSymbolizer:Graphic:Mark:Fill MAG GEEN se:GraphicFill bevatten -->
+                        <!-- FOUT: STOP3135 De PointSymbolizer:Graphic:Mark:Fill MAG GEEN se:GraphicFill bevatten -->
             <PointSymbolizer>
                <Name></Name>
                <Graphic>
                   <Mark>
-                     <WellKnownName>aaa</WellKnownName>
+                     <WellKnownName>cross</WellKnownName>
                      <Fill>
                         <GraphicFill>
                            <Graphic>
                               <Mark>
-                                 <WellKnownName>aaa</WellKnownName>
+                                 <WellKnownName>cross</WellKnownName>
                               </Mark>
                            </Graphic>
                         </GraphicFill>
