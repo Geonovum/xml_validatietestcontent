@@ -42,24 +42,15 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <Filter xmlns="http://www.opengis.net/ogc">
-               <And>
-                  <PropertyIsGreaterThan>
-                     <PropertyName>PropertyIsGreaterThan</PropertyName>
-                     <Literal>4</Literal>
-                  </PropertyIsGreaterThan>
-                  <PropertyIsLessThan>
-                     <PropertyName>PropertyIsLessThan</PropertyName>
-                     <Literal>7</Literal>
-                  </PropertyIsLessThan>
-               </And>
-            </Filter>
             <!-- FOUT: STOP3157 De PointSymbolizer:Graphic:Mark:WellKnownName MOET cross (of cross_fill), square, circle, star of triangle zijn. -->
             <PointSymbolizer>
-               <Name></Name>
+               <Name>What_is_in_it</Name>
                <Graphic>
                   <Mark>
                      <WellKnownName>FOUT</WellKnownName>
+                     <Fill>
+                        <SvgParameter name="fill">#c8c8c8</SvgParameter>
+                     </Fill>
                   </Mark>
                </Graphic>
             </PointSymbolizer>
