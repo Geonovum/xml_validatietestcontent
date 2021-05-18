@@ -22,16 +22,6 @@
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
          <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
-         <geo:groepen>
-            <geo:Groep>
-               <geo:groepID>GoedeGebieden1</geo:groepID>
-               <geo:label>GoedeGebieden 1</geo:label>
-            </geo:Groep>
-            <geo:Groep>
-               <geo:groepID>GoedeGebieden2</geo:groepID>
-               <geo:label>GoedeGebieden 2</geo:label>
-            </geo:Groep>
-         </geo:groepen>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>GoedeGebieden1</geo:naam>
@@ -54,7 +44,6 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:kwalitatieveNormwaarde>iets</geo:kwalitatieveNormwaarde>
             </geo:Locatie>
             <geo:Locatie>
@@ -78,7 +67,6 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:groepID>GoedeGebieden2</geo:groepID>
                <geo:kwalitatieveNormwaarde>iets</geo:kwalitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
