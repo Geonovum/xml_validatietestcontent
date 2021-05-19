@@ -8359,44 +8359,29 @@
 
    </envelop>
    <envelop>
-      <test>STOP3114-20210517111508</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3114-20210517111508</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP3114-20210519100426</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3114-20210519100426</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T10:06:07.454048+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3114-20210517111508</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:53:27.363158+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3114-20210517111508</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:53:29.703153+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3114-20210519100426</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T10:06:10.893667+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP3103</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210517111508/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>De FeatureTypeStyle:SemanticTypeIdentifier is geo:FOUT, dit moet geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt.
-                     met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/). Wijzig de SemanticTypeIdentifier.</stop:beschrijving>
-               </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP3114</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210517111508/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>Rule heeft een Filter terwijl de SemanticTypeIdentifier geo:FOUT is. Verwijder het Filter, of wijzig de SemanticTypeIdentifier in geo:groepID,
-                     geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210519100426/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>Rule heeft een Filter terwijl de SemanticTypeIdentifier geo:geometrie is. Verwijder het Filter, of wijzig de SemanticTypeIdentifier in geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP3115-20210519095756</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3115-20210519095756</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T09:59:07.487984+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>

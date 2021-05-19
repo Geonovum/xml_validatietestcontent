@@ -11356,25 +11356,6 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP3103,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210517111508/nld@2019-06-18;3520</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De FeatureTypeStyle:SemanticTypeIdentifier is geo:FOUT, dit moet geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt.
-                     met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/). Wijzig de SemanticTypeIdentifier.</Data>
-            </Cell>
-         </Row>
-         <Row>
             <Cell ss:Index="4" ss:StyleID="green">
                <Data ss:Type="String">melding</Data>
             </Cell>
@@ -11384,13 +11365,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210517111508/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210519100426/nld@2019-06-18;3520</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Rule heeft een Filter terwijl de SemanticTypeIdentifier geo:FOUT is. Verwijder het Filter, of wijzig de SemanticTypeIdentifier in geo:groepID,
-                     geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).</Data>
+               <Data ss:Type="String">Rule heeft een Filter terwijl de SemanticTypeIdentifier geo:geometrie is. Verwijder het Filter, of wijzig de SemanticTypeIdentifier in geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -22074,27 +22054,6 @@
             <Cell ss:Index="1" ss:StyleID="id">
                <Data ss:Type="String">STOP3114</Data>
             </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP3103</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210517111508/nld@2019-06-18;3520</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De FeatureTypeStyle:SemanticTypeIdentifier is geo:FOUT, dit moet geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt.
-                     met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/). Wijzig de SemanticTypeIdentifier.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP3114</Data>
-            </Cell>
             <Cell ss:Index="2" ss:StyleID="green">
                <Data ss:Type="String">STOP3114</Data>
             </Cell>
@@ -22102,14 +22061,13 @@
                <Data ss:Type="String">inhoudelijk</Data>
             </Cell>
             <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+               <Data ss:Type="String">Gezochte fout was de enige terugmelding</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210517111508/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3114-20210519100426/nld@2019-06-18;3520</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Rule heeft een Filter terwijl de SemanticTypeIdentifier geo:FOUT is. Verwijder het Filter, of wijzig de SemanticTypeIdentifier in geo:groepID,
-                     geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).</Data>
+               <Data ss:Type="String">Rule heeft een Filter terwijl de SemanticTypeIdentifier geo:geometrie is. Verwijder het Filter, of wijzig de SemanticTypeIdentifier in geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).</Data>
             </Cell>
          </Row>
          <Row>
@@ -22651,7 +22609,7 @@
                <Data ss:Type="String">Gezochte fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">77</Data>
+               <Data ss:Type="Number">78</Data>
             </Cell>
          </Row>
          <Row>
@@ -22667,7 +22625,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">108</Data>
+               <Data ss:Type="Number">107</Data>
             </Cell>
          </Row>
          <Row>
