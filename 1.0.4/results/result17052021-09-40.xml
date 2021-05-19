@@ -8028,50 +8028,35 @@
 
    </envelop>
    <envelop>
-      <test>STOP3012-20210517111043</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3012-20210517111043</result>
+      <test>STOP3012-20210519122919</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3012-20210517111043</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:46:27.439218+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3012-20210519122919</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T12:47:17.329301+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3012-20210517111043</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:46:31.249392+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3012-20210519122919</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T12:47:20.86311+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP3000</stop:code>
+                  <stop:code>STOP3012</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210517111043/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>Als er één locatie is in een GIO waar een waarde groepID is ingevuld moet elke locatie een GroepID hebben. Geef alle locaties een groepID.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3005</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210517111043/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>GroepID GoedeGebieden2 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3015</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210517111043/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>De GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210517111043 met kwalitatieve normwaarden, mag geen eenheidlabel noch eenheidID hebben.
-                     Verwijder eenheidlabel en eenheidID toe, of verwijder de kwalitatieve normwaarden.</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210519122919/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>Locatie met basisgeo:id a3206bbd-7aad-4f3f-adba-365adac116fd heeft zowel een groepID (GIO-deel) als een (kwalitatieve of kwantitatieve) Normwaarde. Verwijder de
+                     Normwaarde of de groepID.</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP3012</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210517111043/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>Locatie met basisgeo:id 2c579d6d-6ae4-4cb1-98a2-cedd0249d22a heeft zowel een groepID (GIO-deel) als een (kwalitatieve of kwantitatieve) Normwaarde. Verwijder de
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3012-20210519122919/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>Locatie met basisgeo:id 583fba9f-a9c4-414f-9753-9904b22571a6 heeft zowel een groepID (GIO-deel) als een (kwalitatieve of kwantitatieve) Normwaarde. Verwijder de
                      Normwaarde of de groepID.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
@@ -8080,6 +8065,7 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
    <envelop>
       <test>STOP3013-20210517111112</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3013-20210517111112</result>
