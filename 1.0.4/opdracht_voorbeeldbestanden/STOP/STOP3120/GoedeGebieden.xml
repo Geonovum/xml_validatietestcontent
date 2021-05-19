@@ -39,15 +39,21 @@
          <Rule>
             <Name>Maximum bouwhoogte 7 meter</Name>
             <Description>
-               <!-- FOUT: STOP3126	De Description:Title MAG NIET leeg zijn (dit is de legenda regel). -->
+               <!-- FOUT: STOP3120	Als Rule:Filter:And is, dan MOETEN de operanden PropertyIsLessThan en PropertyIsGreaterThanOrEqualTo bevatten. -->
                <Title></Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
             <Filter xmlns="http://www.opengis.net/ogc">
-               <PropertyIsLessThan>
-                  <PropertyName>kwantitatieveNormwaarde</PropertyName>
-                  <Literal>7</Literal>
-               </PropertyIsLessThan>
+               <And>
+                  <PropertyIsLessThan>
+                     <PropertyName>kwantitatieveNormwaarde</PropertyName>
+                     <Literal>7</Literal>
+                  </PropertyIsLessThan>
+                  <PropertyIsLessThan>
+                     <PropertyName>kwantitatieveNormwaarde</PropertyName>
+                     <Literal>8</Literal>
+                  </PropertyIsLessThan>
+               </And>
             </Filter>
             <PolygonSymbolizer>
                <Name>vsgt206</Name>
