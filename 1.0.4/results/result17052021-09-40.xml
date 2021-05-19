@@ -7471,20 +7471,28 @@
 
    </envelop>
    <envelop>
-      <test>STOP1033-20210519041154</test>
-      <validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb">
-         <uitkomst>mislukt</uitkomst>
-         <meldingen>
-            <melding>
-               <stop:code>LVBB1006</stop:code>
-               <stop:ernst>fout</stop:ernst>
-               <stop:soort>technisch</stop:soort>
-               <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; Expecting validatieOpdracht as top element
-                  but found: publicatieOpdracht]</stop:beschrijving>
-            </melding>
-         </meldingen>
-      </validatieVerzoekResultaat>
+      <test>STOP1033-20210519042241</test>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1033-20210519042241</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T16:23:51.629979+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>LVBB4702</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/doc/pv26/2020/STOP1033-20210519042241/nld@2020-02-17</stop:categorie>
+                  <stop:beschrijving>Geen besluit met akn-id /akn/nl/bill/pv26/2020/OVPU001/nld@2020-06-09 gevonden bij kennisgeving</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
    </envelop>
+   
    <envelop>
       <test>STOP1034-20210517110349</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1034-20210517110349</result>

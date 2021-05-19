@@ -37,12 +37,12 @@
                <voltooidOp>2019-06-25</voltooidOp>
             </Procedurestap>
             <!-- Ondertekening -->
-            <Procedurestap>
-               <!-- FOUT: STOP1032	Een officiële publicatie van een besluit MOET een datum ondertekening hebben. -->
-               <soortStap>/join/id/stop/procedure/FOUTstap_003</soortStap>
+            <!-- FOUT: STOP1032	Een officiële publicatie van een besluit MOET een datum ondertekening hebben. -->
+            <!--            <Procedurestap>
+               <soortStap>/join/id/stop/procedure/stap_003</soortStap>
                <voltooidOp>2019-06-26</voltooidOp>
             </Procedurestap>
-         </procedurestappen>
+-->         </procedurestappen>
       </Procedureverloop>
       <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <BeoogdeRegelgeving>
