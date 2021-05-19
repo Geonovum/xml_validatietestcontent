@@ -7471,6 +7471,10 @@
 
    </envelop>
    <envelop>
+      <test>STOP1033-20210519041154</test>
+      <validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1006</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: opdracht.xml valideert niet tegen schema, [org.xml.sax.SAXParseException; Expecting validatieOpdracht as top element but found: publicatieOpdracht]</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+   </envelop>
+   <envelop>
       <test>STOP1034-20210517110349</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1034-20210517110349</result>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
