@@ -178,20 +178,7 @@
                                  <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a"
                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
                                     <LiNummer>a.</LiNummer>
-                                    <Al><IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                       wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                       ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden1</IntIoRef> 
-                                       <ExtRef soort="JOIN" ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520!groepid=GoedeGebieden1">boringsvrije zone GoedeGebieden1</ExtRef>
-                                    </Al>
-                                 </Li>
-                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b"
-                                    wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
-                                    <LiNummer>b.</LiNummer>
-                                    <Al><IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                       wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                       ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden1</IntIoRef>
-                                       <ExtRef soort="JOIN" ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520!groepid=GoedeGebieden1">boringsvrije zone GoedeGebieden2</ExtRef>
-                                    </Al>
+                                    <Al>;</Al>
                                  </Li>
                               </Lijst>
                            </Inhoud>
