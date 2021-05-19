@@ -7441,35 +7441,29 @@
 
    </envelop>
    <envelop>
-      <test>STOP1032-20210517110322</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1032-20210517110322</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP1032-20210519042733</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1032-20210519042733</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T16:29:07.654425+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP1032-20210517110322</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:34:27.515538+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP1032-20210517110322</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:34:28.707482+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP1032-20210519042733</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T16:29:09.522276+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>LVBB4017</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1032-20210517110322/nld@2019-06-27</stop:categorie>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1032-20210519042733/nld@2019-06-27</stop:categorie>
                   <stop:beschrijving>[Controleer Aanwezig Datum Ondertekening] Geen datum ondertekening aanwezig</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP1033-20210519042241</test>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
