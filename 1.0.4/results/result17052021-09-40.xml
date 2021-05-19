@@ -7640,44 +7640,36 @@
 
    </envelop>
    <envelop>
-      <test>STOP3002-20210517110614</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3002-20210517110614</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP3002-20210519034758</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3002-20210519034758</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T15:49:17.585523+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3002-20210517110614</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:39:17.440367+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3002-20210517110614</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:39:18.716713+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3002-20210519034758</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T15:49:20.38201+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP0027</stop:code>
+                  <stop:code>STOP3002</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP3002-20210517110614/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a; chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1; chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1' binnen
-                     component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3002-20210519034758/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>Als GroepID voorkomt mag het niet leeg zijn. Geef een correcte groepID.</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
-                  <stop:code>STOP0028</stop:code>
+                  <stop:code>STOP3002</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP3002-20210517110614/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a; gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1;
-                     gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3002-20210519034758/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>Als GroepID voorkomt mag het niet leeg zijn. Geef een correcte groepID.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP3003-20210519034322</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3003-20210519034322</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T15:44:27.52514+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>

@@ -54,7 +54,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <geo:groepID>GoedeGebieden1</geo:groepID>
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>
@@ -77,7 +77,8 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <!-- FOUT: STOP3001 Als een locatie een groepID heeft, dan MOET deze voorkomen in het lijstje groepen. -->
+               <geo:groepID>GoedeGebieden3</geo:groepID>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
