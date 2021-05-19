@@ -7952,43 +7952,27 @@
 
    </envelop>
    <envelop>
-      <test>STOP3010-20210517110944</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3010-20210517110944</result>
+      <test>STOP3010-20210519125245</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3010-20210517110944</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:44:47.523725+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3010-20210519125245</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T12:54:07.659661+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3010-20210517110944</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:44:50.207896+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3010-20210519125245</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T12:54:10.5618+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP3005</stop:code>
+                  <stop:code>STOP3010</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3010-20210517110944/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>GroepID GoedeGebieden1 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3005</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3010-20210517110944/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>GroepID GoedeGebieden2 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP3015</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3010-20210517110944/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>De GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden-STOP3010-20210517110944 met kwalitatieve normwaarden, mag geen eenheidlabel noch eenheidID hebben.
-                     Verwijder eenheidlabel en eenheidID toe, of verwijder de kwalitatieve normwaarden.</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3010-20210519125245/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>De kwalitatieveNormwaarde van locatie met basisgeo:id 616a2edf-eab3-479f-ba89-60c026d0244a is niet gevuld. Vul deze aan.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
