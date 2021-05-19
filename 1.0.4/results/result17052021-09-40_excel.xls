@@ -10736,13 +10736,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134/nld@2019-06-18;3520</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Locatie met basisgeo:id 562de4f9-afd5-404d-959b-ea691d833152 heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van
-                     beide.</Data>
+               <Data ss:Type="String">Locatie met basisgeo:id 822fdfb6-8047-4bd0-9143-613909205724 heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van beide.</Data>
             </Cell>
          </Row>
          <Row>
@@ -10755,49 +10754,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134/nld@2019-06-18;3520</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Locatie met basisgeo:id e3968f0b-20b0-4f09-95f4-c223eec362ca heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van
-                     beide.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP3005,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">GroepID GoedeGebieden1 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP3005,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">GroepID GoedeGebieden2 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</Data>
+               <Data ss:Type="String">Locatie met basisgeo:id fa034417-0b31-4391-8e5e-87a30007c6d9 heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van beide.</Data>
             </Cell>
          </Row>
          <Row>
@@ -10810,13 +10772,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134/nld@2019-06-18;3520</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845 met kwalitatieve normwaarden, mag geen eenheidlabel noch eenheidID hebben.
-                     Verwijder eenheidlabel en eenheidID toe, of verwijder de kwalitatieve normwaarden.</Data>
+               <Data ss:Type="String">De GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134 met kwalitatieve normwaarden, mag geen eenheidlabel noch eenheidID hebben. Verwijder eenheidlabel en eenheidID toe, of verwijder de kwalitatieve normwaarden.</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -21347,11 +21308,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134/nld@2019-06-18;3520</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Locatie met basisgeo:id 562de4f9-afd5-404d-959b-ea691d833152 heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van
-                     beide.</Data>
+               <Data ss:Type="String">Locatie met basisgeo:id 822fdfb6-8047-4bd0-9143-613909205724 heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van beide.</Data>
             </Cell>
          </Row>
          <Row>
@@ -21368,51 +21328,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134/nld@2019-06-18;3520</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Locatie met basisgeo:id e3968f0b-20b0-4f09-95f4-c223eec362ca heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van
-                     beide.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP3008</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP3005</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">GroepID GoedeGebieden1 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP3008</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP3005</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">GroepID GoedeGebieden2 wordt niet gebruikt voor een locatie. Verwijder deze groep, of gebruik de groep bij een Locatie.</Data>
+               <Data ss:Type="String">Locatie met basisgeo:id fa034417-0b31-4391-8e5e-87a30007c6d9 heeft zowel een kwalitatieveNormwaarde als een kwantitatieveNormwaarde. Verwijder één van beide.</Data>
             </Cell>
          </Row>
          <Row>
@@ -21429,11 +21348,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134/nld@2019-06-18;3520</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210517110845 met kwalitatieve normwaarden, mag geen eenheidlabel noch eenheidID hebben.
-                     Verwijder eenheidlabel en eenheidID toe, of verwijder de kwalitatieve normwaarden.</Data>
+               <Data ss:Type="String">De GIO met Work-ID /join/id/regdata/gm0297/2019/GoedeGebieden-STOP3008-20210519023134 met kwalitatieve normwaarden, mag geen eenheidlabel noch eenheidID hebben. Verwijder eenheidlabel en eenheidID toe, of verwijder de kwalitatieve normwaarden.</Data>
             </Cell>
          </Row>
          <Row>
