@@ -18,18 +18,11 @@
       <geo:GeoInformatieObjectVersie>
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
-         <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
-         <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
-         <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
-         <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
+         <!-- FOUT: STOP3000	Als er één locatie is in een GIO waar een waarde groepID is ingevuld MOET de groepID bij alle locaties zijn ingevuld. -->
          <geo:groepen>
             <geo:Groep>
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:label>GoedeGebieden 1</geo:label>
-            </geo:Groep>
-            <geo:Groep>
-               <geo:groepID>GoedeGebieden2</geo:groepID>
-               <geo:label>GoedeGebieden 2</geo:label>
             </geo:Groep>
          </geo:groepen>
          <geo:locaties>
@@ -54,7 +47,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <geo:groepID>GoedeGebieden1</geo:groepID>
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>
@@ -77,7 +70,6 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
