@@ -45,7 +45,7 @@
             <!-- FOUT: STOP3118	Als Rule:Filter:PropertyIsBetween, PropertyIsNotEqualTo, PropertyIsLessThan, PropertyIsGreaterThan, PropertyIsLessThanOrEqualTo of PropertyIsGreaterThanOrEqualTo is, dan MOET de SemanticTypeIdentifier gelijk zijn aan geo:kwantitatieveNormwaarde. -->
             <Filter xmlns="http://www.opengis.net/ogc">
                <PropertyIsNotEqualTo>
-                  <PropertyName>PropertyIsNotEqualTo</PropertyName>
+                  <PropertyName>kwalitatieveNormwaarde</PropertyName>
                   <Literal>7</Literal>
                </PropertyIsNotEqualTo>
             </Filter>

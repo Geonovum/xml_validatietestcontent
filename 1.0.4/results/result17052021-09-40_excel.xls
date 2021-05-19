@@ -11445,13 +11445,30 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210517111611/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519094454/nld@2019-06-18;3520</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">PropertyName is PropertyIsEqualTo, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
+               <Data ss:Type="String">PropertyName is PropertyIsNotEqualTo, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="green">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">STOP3118,	fout,	inhoudelijk</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519094454/nld@2019-06-18;3520</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">De SemanticTypeIdentifier is geo:kwalitatieveNormwaarde. De operator in Rule:Filter is alleen toegestaan bij SemanticTypeIdentifier geo:kwantitatieveNormwaarde (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/). Corrigeer de operator of pas de SemanticTypeIdentifier aan.</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -22146,14 +22163,33 @@
                <Data ss:Type="String">inhoudelijk</Data>
             </Cell>
             <Cell ss:Index="4">
-               <Data ss:Type="String">Andere fout was de enige terugmelding</Data>
+               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210517111611/nld@2019-06-18;3520</Data>
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519094454/nld@2019-06-18;3520</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">PropertyName is PropertyIsEqualTo, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
+               <Data ss:Type="String">PropertyName is PropertyIsNotEqualTo, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de PropertyName van het filter of pas de SemanticTypeIdentifier aan.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP3118</Data>
+            </Cell>
+            <Cell ss:Index="2" ss:StyleID="green">
+               <Data ss:Type="String">STOP3118</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">inhoudelijk</Data>
+            </Cell>
+            <Cell ss:Index="4">
+               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519094454/nld@2019-06-18;3520</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De SemanticTypeIdentifier is geo:kwalitatieveNormwaarde. De operator in Rule:Filter is alleen toegestaan bij SemanticTypeIdentifier geo:kwantitatieveNormwaarde (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/). Corrigeer de operator of pas de SemanticTypeIdentifier aan.</Data>
             </Cell>
          </Row>
          <Row>
@@ -22663,7 +22699,7 @@
                <Data ss:Type="String">Andere fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">57</Data>
+               <Data ss:Type="Number">56</Data>
             </Cell>
          </Row>
          <Row>
@@ -22671,7 +22707,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">108</Data>
+               <Data ss:Type="Number">109</Data>
             </Cell>
          </Row>
          <Row>

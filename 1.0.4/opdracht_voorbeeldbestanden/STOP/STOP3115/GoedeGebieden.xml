@@ -45,7 +45,7 @@
             <!-- FOUT: STOP3115	PropertyName MOET overeenkomen met de SemanticTypeIdentifier (zonder geo: voorvoegsel). -->
             <Filter xmlns="http://www.opengis.net/ogc">
                <PropertyIsEqualTo>
-                  <PropertyName>geo:kwalitatieveNormwaarde</PropertyName>
+                  <PropertyName>FOUT</PropertyName>
                   <Literal>7</Literal>
                </PropertyIsEqualTo>
             </Filter>
