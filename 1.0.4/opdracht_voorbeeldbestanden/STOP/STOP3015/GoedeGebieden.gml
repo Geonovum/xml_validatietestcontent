@@ -45,7 +45,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwalitatieveNormwaarde>7</geo:kwalitatieveNormwaarde>
+               <geo:kwalitatieveNormwaarde>Niet hoger dan Empire State Building</geo:kwalitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
