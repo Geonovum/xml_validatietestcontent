@@ -78,6 +78,7 @@
                   </basisgeo:Geometrie>
                </geo:geometrie>
                <geo:groepID>GoedeGebieden2</geo:groepID>
+               <geo:kwalitatieveNormwaarde>iets</geo:kwalitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
