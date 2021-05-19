@@ -55,7 +55,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <geo:groepID>GoedeGebieden1</geo:groepID>
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>
@@ -78,7 +78,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
+               <geo:groepID>GoedeGebieden1</geo:groepID>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
