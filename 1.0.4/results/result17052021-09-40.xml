@@ -8398,35 +8398,27 @@
 
    </envelop>
    <envelop>
-      <test>STOP3115-20210517111539</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3115-20210517111539</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP3115-20210519095756</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3115-20210519095756</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T09:59:07.487984+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3115-20210517111539</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:54:17.359115+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3115-20210517111539</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:54:19.677557+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3115-20210519095756</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T09:59:09.75673+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>STOP3115</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3115-20210517111539/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is geo:kwalitatieveNormwaarde, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de
-                     PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3115-20210519095756/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>PropertyName is FOUT, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
    <envelop>
       <test>STOP3118-20210519095356</test>
