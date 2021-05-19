@@ -8429,27 +8429,20 @@
 
    </envelop>
    <envelop>
-      <test>STOP3118-20210519094454</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3118-20210519094454</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T09:46:57.509674+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <test>STOP3118-20210519095356</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3118-20210519095356</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T09:55:17.523965+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
          xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3118-20210519094454</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-19T09:46:59.838766+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3118-20210519095356</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T09:55:19.960101+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP3115</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519094454/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>PropertyName is PropertyIsNotEqualTo, dit moet overeenkomen met de SemanticTypeIdentifier geo:kwalitatieveNormwaarde (zonder namepace prefix). Corrigeer de PropertyName van het filter of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
-               </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP3118</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519094454/nld@2019-06-18;3520</stop:categorie>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3118-20210519095356/nld@2019-06-18;3520</stop:categorie>
                   <stop:beschrijving>De SemanticTypeIdentifier is geo:kwalitatieveNormwaarde. De operator in Rule:Filter is alleen toegestaan bij SemanticTypeIdentifier geo:kwantitatieveNormwaarde (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/). Corrigeer de operator of pas de SemanticTypeIdentifier aan.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
@@ -8458,6 +8451,7 @@
       </lvbb:validatieVerzoekResultaat>
       
    </envelop>
+   
    
    <envelop>
       <test>STOP3120-20210519092855</test>
