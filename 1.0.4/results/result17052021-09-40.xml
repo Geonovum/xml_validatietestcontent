@@ -8460,36 +8460,29 @@
 
    </envelop>
    <envelop>
-      <test>STOP3120-20210517111638</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3120-20210517111638</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP3120-20210519092855</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3120-20210519092855</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T09:30:05.311794+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3120-20210517111638</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:55:55.306486+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP3120-20210517111638</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:55:57.570148+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP3120-20210519092855</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T09:30:07.69865+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP3126</stop:code>
+                  <stop:code>STOP3120</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3120-20210517111638/nld@2019-06-18;3520</stop:categorie>
-                  <stop:beschrijving>In Rule met Rule:Name Maximum bouwhoogte 7 meter is de Description:Title leeg, deze moet een tekst bevatten die in de legenda getoond kan worden. Voeg de legenda
-                     tekst toe aan de Description:Title.</stop:beschrijving>
+                  <stop:categorie>/join/id/regdata/gm0297/2019/GoedeGebieden-STOP3120-20210519092855/nld@2019-06-18;3520</stop:categorie>
+                  <stop:beschrijving>In Rule met Rule:Name Maximum bouwhoogte 7 meter is de operator in Rule:Filter AND, maar de operanden zijn niet PropertyIsLessThan en PropertyIsGreaterThanOrEqualTo. Corrigeer de And expressie in het filter.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP3126-20210518043144</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
