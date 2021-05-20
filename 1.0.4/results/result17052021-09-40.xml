@@ -6355,70 +6355,50 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
-   
+
    <envelop>
-      <test>STOP0036-20210520022059</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0036-20210520022059</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T14:23:05.372386+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <test>STOP0036-20210520022932</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0036-20210520022059</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-20T14:23:06.905524+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0036-20210520022932</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T14:31:55.218439+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0036-20210520022932</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T14:31:56.626203+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP0037</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022059/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal colspec's (2) voor thead in tabel chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1 komt niet overeen met het aantal kolommen (3).</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0037</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022059/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal colspec's (2) voor tbody in tabel chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1 komt niet overeen met het aantal kolommen (3).</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
                   <stop:code>STOP0036</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022059/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De entry met @colname van de 1e rij, van thead, van de tabel met id: chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1 , verwijst niet naar een bestaande kolom. Controleer en corrigeer de identifier voor de kolom (@colname)</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0036</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022059/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De entry met @colname van de 1e rij, van tbody, van de tabel met id: chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1 , verwijst niet naar een bestaande kolom. Controleer en corrigeer de identifier voor de kolom (@colname)</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0036</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022059/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De entry met @colname van de 2e rij, van tbody, van de tabel met id: chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1 , verwijst niet naar een bestaande kolom. Controleer en corrigeer de identifier voor de kolom (@colname)</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0036</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022059/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De entry met @colname van de 3e rij, van tbody, van de tabel met id: chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1 , verwijst niet naar een bestaande kolom. Controleer en corrigeer de identifier voor de kolom (@colname)</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0036-20210520022932/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De entry met @colname van de 2e rij, van tbody, van de tabel met id: chp_2__subchp_2.1__art_2.1__table_o_1 , verwijst niet naar een bestaande kolom. Controleer en
+                     corrigeer de identifier voor de kolom (@colname)</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
+
    </envelop>
-               
+
+
    <envelop>
       <test>STOP0037-20210520021610</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0037-20210520021610</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T14:17:37.478789+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0037-20210520021610</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T14:17:37.478789+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP0037-20210520021610</lvbb:idLevering>
@@ -6436,7 +6416,8 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0037-20210520021610/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 2 van verwachting 3).</stop:beschrijving>
+                  <stop:beschrijving>Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 2 van verwachting
+                     3).</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP0037</stop:code>
@@ -6450,15 +6431,16 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0037-20210520021610/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal cellen in tbody van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 4 van verwachting 6).</stop:beschrijving>
+                  <stop:beschrijving>Het aantal cellen in tbody van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 4 van verwachting
+                     6).</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP0043-20210517105137</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0043-20210517105137</result>
@@ -6531,9 +6513,15 @@
    </envelop>
    <envelop>
       <test>STOP1000-20210520015516</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1000-20210520015516</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T13:59:27.51151+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1000-20210520015516</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T13:59:27.51151+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1000-20210520015516</lvbb:idLevering>
@@ -6564,14 +6552,20 @@
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1001-20210520012114</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1001-20210520012114</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T13:51:37.694507+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1001-20210520012114</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T13:51:37.694507+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1001-20210520012114</lvbb:idLevering>
@@ -6582,15 +6576,16 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het gedeelte van de FRBRExpression /akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27 vóór de 'taalcode/@' is niet gelijk aan de FRBRWork-identificatie /akn/nl/bill/pv26/2019/STOP1001-20210520012114.</stop:beschrijving>
+                  <stop:beschrijving>Het gedeelte van de FRBRExpression /akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27 vóór de 'taalcode/@' is niet gelijk aan de
+                     FRBRWork-identificatie /akn/nl/bill/pv26/2019/STOP1001-20210520012114.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1002-20210520011331</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">

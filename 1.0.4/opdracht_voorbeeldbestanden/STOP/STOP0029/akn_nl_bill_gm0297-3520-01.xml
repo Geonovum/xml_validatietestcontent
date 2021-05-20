@@ -101,17 +101,7 @@
                   <Nummer>II</Nummer>
                </Kop>
                <Inhoud>
-                  <!-- FOUT: STOP0029	Een tabel MOET ten minste twee kolommen hebben -->
-                  <table wId="a" eId="a_FOUT">
-                     <tgroup cols="1" align="left">
-                        <colspec/>
-                        <tbody valign="top">
-                           <row>
-                              <entry><Al>Entry</Al></entry>
-                           </row>
-                        </tbody>
-                     </tgroup>
-                  </table>
+                  <Al>;</Al>
                </Inhoud>
             </Artikel>
             <Artikel eId="art_III" wId="gm0297_1__art_III">
@@ -193,6 +183,52 @@
                                     <Al>;</Al>
                                  </Li>
                               </Lijst>
+                              <table eId="chp_2__subchp_2.1__art_2.1__table_o_1"
+                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.1__table_o_1"
+                                 colsep="1"
+                                 frame="all"
+                                 pgwide="0"
+                                 rowsep="1"
+                                 tabstyle="zebra1">
+                                 <title>Tabel 2.1 Correctiefactor NEN 7120</title>
+                                 <!-- FOUT: STOP0029	Een tabel MOET ten minste twee kolommen hebben -->
+                                 <tgroup align="left" cols="1">
+                                    <colspec colname="col1" colnum="1" colwidth="24*"/>
+                                    <thead valign="bottom">
+                                       <row rowsep="1">
+                                          <entry align="left"
+                                             colname="col1"
+                                             colsep="1"
+                                             nameend="col1"
+                                             namest="col1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Gebruiksfunctie</Al>
+                                          </entry>
+                                       </row>
+                                    </thead>
+                                    <tbody valign="top">
+                                       <row rowsep="1">
+                                          <entry align="left"
+                                             colname="col1"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>1</Al>
+                                          </entry>
+                                       </row>
+                                       <row rowsep="1">
+                                          <entry align="left"
+                                             colname="col1"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>4</Al>
+                                          </entry>
+                                       </row>
+                                    </tbody>
+                                 </tgroup>
+                              </table>
                            </Inhoud>
                         </Artikel>
                      </Afdeling>
