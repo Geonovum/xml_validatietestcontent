@@ -101,14 +101,96 @@
                   <Nummer>II</Nummer>
                </Kop>
                <Inhoud>
-                  <table eId="chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1"
-                     wId="mnre1034_1-0__chp_5__subchp_5.2__subsec_5.2.3__art_5.46__table_o_1_FOUT"
+                  <Al>;</Al>
+               </Inhoud>
+            </Artikel>
+            <Artikel eId="art_III" wId="gm0297_1__art_III">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>III</Nummer>
+               </Kop>
+               <Gereserveerd/>
+            </Artikel>
+         </Lichaam>
+         <Sluiting eId="formula_2" wId="formula_2">
+            <Al>Gegeven te Kaap Doorn, Gemeentestad, 26 juni 2019</Al>
+            <Ondertekening>
+               <Al>Gedeputeerde Raad van Apeldoorn tot Den Haag</Al>
+            </Ondertekening>
+         </Sluiting>
+         <WijzigBijlage eId="cmp_A" wId="gm0297_1__cmp_A">
+            <Kop>
+               <Label>Bijlage</Label>
+               <Nummer>A</Nummer>
+               <Opschrift>Bijlage bij artikel I</Opschrift>
+            </Kop>
+            <RegelingCompact componentnaam="initieel_reg"
+                             wordt="/akn/nl/act/gm0297/2019/STOP0037/nld@2019-06-25;1">
+               <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
+                  <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
+               </RegelingOpschrift>
+               <Lichaam eId="body_2" wId="body_2">
+                  <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
+                     <Kop>
+                        <Label>Hoofdstuk</Label>
+                        <Nummer>1</Nummer>
+                        <Opschrift>Algemene bepalingen</Opschrift>
+                     </Kop>
+                     <Artikel wId="gm0297_1__chp_1__art_1.1" eId="chp_1__art_1.1">
+                        <Kop>
+                           <Label>Artikel</Label>
+                           <Nummer>1.1</Nummer>
+                           <Opschrift>Toepassingsgebied</Opschrift>
+                        </Kop>
+                        <Inhoud>
+                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1"
+                                        wId="gm0297_1__chp_1__art_1.1__ref_o_1"
+                                        ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Gemeentestad</IntIoRef>.</Al>
+                        </Inhoud>
+                     </Artikel>
+                  </Hoofdstuk>
+                  <Hoofdstuk eId="chp_2" wId="gm0297_1__chp_2">
+                     <Kop>
+                        <Label>Hoofdstuk</Label>
+                        <Nummer>2</Nummer>
+                        <Opschrift>Functietoedeling</Opschrift>
+                     </Kop>
+                     <Afdeling eId="chp_2__subchp_2.1" wId="gm0297_1__chp_2__subchp_2.1">
+                        <Kop>
+                           <Label>Afdeling</Label>
+                           <Nummer>2.1</Nummer>
+                           <Opschrift>Foute Gebieden</Opschrift>
+                        </Kop>
+                        <Artikel eId="chp_2__subchp_2.1__art_2.1"
+                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
+                           <Kop>
+                              <Label>Artikel</Label>
+                              <Nummer>2.1</Nummer>
+                              <Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
+                           </Kop>
+                           <Inhoud>
+                              <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1"
+                                     type="expliciet"><!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
+                                 <Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '
+												<IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
+                                              wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
+                                              ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
+												gebruiksactiviteiten:</Lijstaanhef>
+                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
+                                    <LiNummer>a.</LiNummer>
+                                    <Al>;</Al>
+                                 </Li>
+                              </Lijst>
+                              <table eId="chp_2__subchp_2.1__art_2.1__table_o_1"
+                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.1__table_o_1"
                                      colsep="1"
                                      frame="all"
                                      pgwide="0"
                                      rowsep="1"
                                      tabstyle="zebra1">
-                                 <title>Tabel 5.46 Correctiefactor NEN 7120</title>
+                                 <title>Tabel 2.1 Correctiefactor NEN 7120</title>
                      <!-- FOUT: STOP0037	Het aantal colspec's MOET gelijk zijn aan het opgegeven aantal kolommen -->
                                  <tgroup align="left" cols="3">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
@@ -465,87 +547,6 @@
                                     </tbody>
                                  </tgroup>
                               </table>
-               </Inhoud>
-            </Artikel>
-            <Artikel eId="art_III" wId="gm0297_1__art_III">
-               <Kop>
-                  <Label>Artikel</Label>
-                  <Nummer>III</Nummer>
-               </Kop>
-               <Gereserveerd/>
-            </Artikel>
-         </Lichaam>
-         <Sluiting eId="formula_2" wId="formula_2">
-            <Al>Gegeven te Kaap Doorn, Gemeentestad, 26 juni 2019</Al>
-            <Ondertekening>
-               <Al>Gedeputeerde Raad van Apeldoorn tot Den Haag</Al>
-            </Ondertekening>
-         </Sluiting>
-         <WijzigBijlage eId="cmp_A" wId="gm0297_1__cmp_A">
-            <Kop>
-               <Label>Bijlage</Label>
-               <Nummer>A</Nummer>
-               <Opschrift>Bijlage bij artikel I</Opschrift>
-            </Kop>
-            <RegelingCompact componentnaam="initieel_reg"
-                             wordt="/akn/nl/act/gm0297/2019/STOP0037/nld@2019-06-25;1">
-               <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
-                  <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
-               </RegelingOpschrift>
-               <Lichaam eId="body_2" wId="body_2">
-                  <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
-                     <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>1</Nummer>
-                        <Opschrift>Algemene bepalingen</Opschrift>
-                     </Kop>
-                     <Artikel wId="gm0297_1__chp_1__art_1.1" eId="chp_1__art_1.1">
-                        <Kop>
-                           <Label>Artikel</Label>
-                           <Nummer>1.1</Nummer>
-                           <Opschrift>Toepassingsgebied</Opschrift>
-                        </Kop>
-                        <Inhoud>
-                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1"
-                                        wId="gm0297_1__chp_1__art_1.1__ref_o_1"
-                                        ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Gemeentestad</IntIoRef>.</Al>
-                        </Inhoud>
-                     </Artikel>
-                  </Hoofdstuk>
-                  <Hoofdstuk eId="chp_2" wId="gm0297_1__chp_2">
-                     <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>2</Nummer>
-                        <Opschrift>Functietoedeling</Opschrift>
-                     </Kop>
-                     <Afdeling eId="chp_2__subchp_2.1" wId="gm0297_1__chp_2__subchp_2.1">
-                        <Kop>
-                           <Label>Afdeling</Label>
-                           <Nummer>2.1</Nummer>
-                           <Opschrift>Foute Gebieden</Opschrift>
-                        </Kop>
-                        <Artikel eId="chp_2__subchp_2.1__art_2.1"
-                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
-                           <Kop>
-                              <Label>Artikel</Label>
-                              <Nummer>2.1</Nummer>
-                              <Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
-                           </Kop>
-                           <Inhoud>
-                              <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1"
-                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1"
-                                     type="expliciet"><!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
-                                 <Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' '
-												<IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                              wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                              ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
-												gebruiksactiviteiten:</Lijstaanhef>
-                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a"
-                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
-                                    <LiNummer>a.</LiNummer>
-                                    <Al>;</Al>
-                                 </Li>
-                              </Lijst>
                            </Inhoud>
                         </Artikel>
                      </Afdeling>
