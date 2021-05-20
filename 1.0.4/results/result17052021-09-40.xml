@@ -6996,65 +6996,36 @@
 
    </envelop>
    <envelop>
-      <test>STOP1012-20210517105717</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1012-20210517105717</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP1012-20210520121823</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1012-20210520121823</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T12:20:17.584112+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP1012-20210517105717</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:24:15.478004+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP1012-20210517105717</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:24:16.737648+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP1012-20210520121823</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T12:20:18.915025+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP1013</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet toegestaan bij besluit. Pas dit veld aan.</stop:beschrijving>
-               </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP1012</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet toegestaan bij regeling. Pas dit veld aan.</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1012-20210520121823/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210520121823 is niet toegestaan bij regeling. Pas dit veld aan.</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>BHKV1012</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 .</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>LVBB1502</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet gelijk aan
-                     bill</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>LVBB1502</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27 is niet gelijk
-                     aan bill</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1012-20210520121823/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210520121823 .</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP1013-20210520112956</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1013-20210520112956</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T11:33:47.732922+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>

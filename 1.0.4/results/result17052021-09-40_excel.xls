@@ -9664,24 +9664,6 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP1013,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet toegestaan bij besluit. Pas dit veld aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
             <Cell ss:Index="4" ss:StyleID="green">
                <Data ss:Type="String">melding</Data>
             </Cell>
@@ -9691,12 +9673,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1012-20210520121823/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet toegestaan bij regeling. Pas dit veld aan.</Data>
+               <Data ss:Type="String">Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210520121823 is niet toegestaan bij regeling. Pas dit veld aan.</Data>
             </Cell>
          </Row>
          <Row>
@@ -9709,50 +9691,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1012-20210520121823/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 .</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">LVBB1502,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet gelijk aan
-                     bill</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">LVBB1502,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27 is niet gelijk
-                     aan bill</Data>
+               <Data ss:Type="String">De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210520121823 .</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -20269,26 +20213,6 @@
             <Cell ss:Index="1" ss:StyleID="id">
                <Data ss:Type="String">STOP1012</Data>
             </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP1013</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet toegestaan bij besluit. Pas dit veld aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP1012</Data>
-            </Cell>
             <Cell ss:Index="2" ss:StyleID="green">
                <Data ss:Type="String">STOP1012</Data>
             </Cell>
@@ -20299,10 +20223,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1012-20210520121823/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet toegestaan bij regeling. Pas dit veld aan.</Data>
+               <Data ss:Type="String">Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210520121823 is niet toegestaan bij regeling. Pas dit veld aan.</Data>
             </Cell>
          </Row>
          <Row>
@@ -20319,52 +20243,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1012-20210520121823/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 .</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP1012</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">LVBB1502</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717 is niet gelijk aan
-                     bill</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP1012</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">LVBB1502</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1012-20210517105717/nld@2019-06-27 is niet gelijk
-                     aan bill</Data>
+               <Data ss:Type="String">De versie aanduiding voor de wordt-versie komt niet overeen met de work-identificatie /akn/nl/FOUT/gm0297/2019/STOP1012-20210520121823 .</Data>
             </Cell>
          </Row>
          <Row>
