@@ -9,11 +9,10 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-STOP0044</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-STOP0045</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
-            <sl:objectType>Activiteit</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
