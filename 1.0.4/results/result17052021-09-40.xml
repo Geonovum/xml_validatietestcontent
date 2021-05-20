@@ -7056,17 +7056,43 @@
 
    </envelop>
    <envelop>
-      <test>STOP1013-20210517105745</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1013-20210517105745</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP1013-20210520112956</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1013-20210520112956</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T11:33:47.732922+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP1013-20210517105745</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:24:57.557395+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
+            <lvbb:idLevering>id-publicatie-STOP1013-20210520112956</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T11:33:49.002148+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>STOP1013</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>Derde veld FOUT in de AKN-identificatie /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956 is niet toegestaan bij besluit. Pas dit veld aan.</stop:beschrijving>
+               </lvbb:melding>
+               <lvbb:melding>
+                  <stop:code>LVBB1502</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956 is niet gelijk aan bill</stop:beschrijving>
+               </lvbb:melding>
+               <lvbb:melding>
+                  <stop:code>LVBB1502</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27 is niet gelijk aan bill</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
+      
    </envelop>
+   
    <envelop>
       <test>STOP1014-20210517105813</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1014-20210517105813</result>
