@@ -6308,6 +6308,31 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+   
+   <envelop>
+      <test>STOP0027-20210520040837</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0027-20210520040837</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T16:09:55.226578+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0027-20210520040837</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T16:09:57.046246+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>STOP0027</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0027-20210520040837/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
+   </envelop>
+   
    <envelop>
       <test>STOP0028-20210520040129</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0028-20210520040129</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T16:02:55.319126+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
