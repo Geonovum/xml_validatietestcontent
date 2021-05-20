@@ -6309,45 +6309,28 @@
 
    </envelop>
    <envelop>
-      <test>STOP0029-20210517105039</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0029-20210517105039</result>
+      <test>STOP0029-20210520023628</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0029-20210517105039</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:13:07.430332+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0029-20210520023628</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T14:37:55.203545+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0029-20210517105039</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:13:08.676565+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0029-20210520023628</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T14:37:56.606288+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP0022</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De AKN-naamgeving voor eId 'a_FOUT' is niet correct voor element table met id 'a', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle onderliggende
-                     elementen aan. Controleer ook de naamgeving van de bijbehorende wId en onderliggende elementen.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0023</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De AKN-naamgeving voor wId 'a' is niet correct voor element table met id 'a', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle onderliggende
-                     elementen aan. Controleer ook de naamgeving van de bijbehorende eId en onderliggende elementen.</stop:beschrijving>
-               </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP0029</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De tabel met a_FOUT heeft slechts 1 kolom, dit is niet toegestaan. Pas de tabel aan, of plaats de inhoud van de tabel naar bijvoorbeeld een element
-                     Kadertekst</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0029-20210520023628/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De tabel met chp_2__subchp_2.1__art_2.1__table_o_1 heeft slechts 1 kolom, dit is niet toegestaan. Pas de tabel aan, of plaats de inhoud van de tabel naar
+                     bijvoorbeeld een element Kadertekst</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
@@ -6355,6 +6338,7 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
 
    <envelop>
       <test>STOP0036-20210520022932</test>
