@@ -7,8 +7,8 @@
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <!-- FOUT: STOP1002	Voor een AKN-identificatie (werk/expressie) moet het tweede deel een landcode uit de lijst nl, aw, cw, sx zijn. -->
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/xx_FOUT/bill/gm0297/2019/STOP1002</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/xx_FOUT/bill/gm0297/2019/STOP1002/nld@2019-06-27</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/FOUT/bill/gm0297/2019/STOP1002</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/FOUT/bill/gm0297/2019/STOP1002/nld@2019-06-27</data:FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

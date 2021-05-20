@@ -11,7 +11,7 @@
 
     <xsl:param name="newId"/>
 
-    <xsl:variable name="dateTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
+    <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P2D'), '[Y0001]-[M01]-[D01]')"/>
     <xsl:variable name="dateYesterday" select="format-dateTime(current-dateTime() - xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
 
 
@@ -61,10 +61,10 @@
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
                 <xsl:when test="contains($newId, 'LVBB1501_2')">
-                    <xsl:value-of select="substring($dateTomorrow,2)"/>
+                    <xsl:value-of select="substring($dateAfterTomorrow,2)"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="$dateTomorrow"/>
+                    <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:element>
