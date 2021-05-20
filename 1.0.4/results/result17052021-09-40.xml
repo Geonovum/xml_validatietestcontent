@@ -6566,6 +6566,43 @@
 
    </envelop>
    <envelop>
+      <test>STOP0045-20210520032811</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0045-20210520032811</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T15:29:27.433526+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
+         xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>mislukt</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0045-20210520032811</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:29:57.897447+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>CON-0001</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:beschrijving>Er zijn fouten gevonden door de proef consolidatie validatie service</stop:beschrijving>
+               </lvbb:melding>
+               <lvbb:melding>
+                  <stop:code>OZON0082</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>Validatie bevinding</stop:categorie>
+                  <stop:beschrijving>Activiteit met id 'nl.imow-gm0297.activiteit.0000120210520032811' heeft een niet bestaande bovenliggende activiteit met id 'nl.imow-gm0297.activiteit.Bovenliggend'</stop:beschrijving>
+               </lvbb:melding>
+               <lvbb:melding>
+                  <stop:code>EINDE CONTROLES</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>De controles zijn helemaal klaar, maar met FATALE fouten.</stop:categorie>
+                  <stop:beschrijving>EINDE CONTROLE</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
+   </envelop>
+   
+   <envelop>
       <test>STOP1000-20210520015516</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
