@@ -8647,44 +8647,6 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0022,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De AKN-naamgeving voor eId 'a_FOUT' is niet correct voor element table met id 'a', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle onderliggende
-                     elementen aan. Controleer ook de naamgeving van de bijbehorende wId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0023,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De AKN-naamgeving voor wId 'a' is niet correct voor element table met id 'a', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle onderliggende
-                     elementen aan. Controleer ook de naamgeving van de bijbehorende eId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
             <Cell ss:Index="4" ss:StyleID="green">
                <Data ss:Type="String">melding</Data>
             </Cell>
@@ -8694,13 +8656,125 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210520023628/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De tabel met a_FOUT heeft slechts 1 kolom, dit is niet toegestaan. Pas de tabel aan, of plaats de inhoud van de tabel naar bijvoorbeeld een element
-                     Kadertekst</Data>
+               <Data ss:Type="String">De tabel met chp_2__subchp_2.1__art_2.1__table_o_1 heeft slechts 1 kolom, dit is niet toegestaan. Pas de tabel aan, of plaats de inhoud van de tabel naar
+                     bijvoorbeeld een element Kadertekst</Data>
+            </Cell>
+         </Row>
+         <Row ss:StyleID="id">
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0032</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="yellow">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">STOP0033,	fout,	inhoudelijk</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="green">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">STOP0032,	fout,	inhoudelijk</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="yellow">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">STOP0038,	fout,	inhoudelijk</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting 3).</Data>
+            </Cell>
+         </Row>
+         <Row ss:StyleID="id">
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0033</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Bij horizontale overspanning MOET de @colname van eerste cel van de overspanning gelijk zijn aan de start (@namest) van de overspanning zijn.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="green">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">STOP0033,	fout,	inhoudelijk</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="4" ss:StyleID="yellow">
+               <Data ss:Type="String">melding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">STOP0038,	fout,	inhoudelijk</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting 3).</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -19046,48 +19120,6 @@
             <Cell ss:Index="1" ss:StyleID="id">
                <Data ss:Type="String">STOP0029</Data>
             </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP0022</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De AKN-naamgeving voor eId 'a_FOUT' is niet correct voor element table met id 'a', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle onderliggende
-                     elementen aan. Controleer ook de naamgeving van de bijbehorende wId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0029</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP0023</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De AKN-naamgeving voor wId 'a' is niet correct voor element table met id 'a', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle onderliggende
-                     elementen aan. Controleer ook de naamgeving van de bijbehorende eId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0029</Data>
-            </Cell>
             <Cell ss:Index="2" ss:StyleID="green">
                <Data ss:Type="String">STOP0029</Data>
             </Cell>
@@ -19095,14 +19127,114 @@
                <Data ss:Type="String">inhoudelijk</Data>
             </Cell>
             <Cell ss:Index="4">
+               <Data ss:Type="String">Gezochte fout was de enige terugmelding</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210520023628/nld@2019-06-27</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De tabel met chp_2__subchp_2.1__art_2.1__table_o_1 heeft slechts 1 kolom, dit is niet toegestaan. Pas de tabel aan, of plaats de inhoud van de tabel naar
+                     bijvoorbeeld een element Kadertekst</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1" ss:StyleID="id">
+               <Data ss:Type="String">STOP0032</Data>
+            </Cell>
+            <Cell ss:Index="2">
+               <Data ss:Type="String">STOP0033</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">inhoudelijk</Data>
+            </Cell>
+            <Cell ss:Index="4">
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0029-20210517105039/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De tabel met a_FOUT heeft slechts 1 kolom, dit is niet toegestaan. Pas de tabel aan, of plaats de inhoud van de tabel naar bijvoorbeeld een element
-                     Kadertekst</Data>
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0032</Data>
+            </Cell>
+            <Cell ss:Index="2" ss:StyleID="green">
+               <Data ss:Type="String">STOP0032</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">inhoudelijk</Data>
+            </Cell>
+            <Cell ss:Index="4">
+               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0032</Data>
+            </Cell>
+            <Cell ss:Index="2">
+               <Data ss:Type="String">STOP0038</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">inhoudelijk</Data>
+            </Cell>
+            <Cell ss:Index="4">
+               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting 3).</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1" ss:StyleID="id">
+               <Data ss:Type="String">STOP0033</Data>
+            </Cell>
+            <Cell ss:Index="2" ss:StyleID="green">
+               <Data ss:Type="String">STOP0033</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">inhoudelijk</Data>
+            </Cell>
+            <Cell ss:Index="4">
+               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0033</Data>
+            </Cell>
+            <Cell ss:Index="2">
+               <Data ss:Type="String">STOP0038</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">inhoudelijk</Data>
+            </Cell>
+            <Cell ss:Index="4">
+               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+            </Cell>
+            <Cell ss:Index="5">
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting 3).</Data>
             </Cell>
          </Row>
          <Row>
@@ -21272,7 +21404,7 @@
                <Data ss:Type="String">Het aantal testgevallen is:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">274</Data>
+               <Data ss:Type="Number">276</Data>
             </Cell>
          </Row>
          <Row>
@@ -21280,7 +21412,7 @@
                <Data ss:Type="String">Gezochte fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">87</Data>
+               <Data ss:Type="Number">88</Data>
             </Cell>
          </Row>
          <Row>
@@ -21296,7 +21428,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">98</Data>
+               <Data ss:Type="Number">99</Data>
             </Cell>
          </Row>
          <Row>
