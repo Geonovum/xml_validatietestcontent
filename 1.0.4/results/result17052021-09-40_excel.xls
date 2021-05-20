@@ -9223,68 +9223,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Het gedeelte van de FRBRExpression /akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27 vóór de 'taalcode/@' is niet gelijk aan de
-                     FRBRWork-identificatie /akn/nl/bill/gm.0297/2019/STOP1001-20210517105302.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP1000,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De identifier /akn/nl/bill/gm.0297/2019/STOP1001-20210517105302 bevat een punt. Dit is niet toegestaan. Verwijder de punt.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP1009,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Voor een AKN- of JOIN-identificatie (/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27) moet deel voorafgaand aan de '@' (_FOUTnld) een geldige
-                     taal zijn ('nld','eng','fry','pap','mul','und'). Pas dit aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP1010,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Vierde deel van AKN/JOIN van werk (/akn/nl/bill/gm.0297/2019/STOP1001-20210517105302) moet gelijk zijn aan een brp-code. Pas (gm.0297) aan.</Data>
+               <Data ss:Type="String">Het gedeelte van de FRBRExpression /akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27 vóór de 'taalcode/@' is niet gelijk aan de FRBRWork-identificatie /akn/nl/bill/pv26/2019/STOP1001-20210520012114.</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -19914,75 +19858,13 @@
                <Data ss:Type="String">inhoudelijk</Data>
             </Cell>
             <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+               <Data ss:Type="String">Gezochte fout was de enige terugmelding</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Het gedeelte van de FRBRExpression /akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27 vóór de 'taalcode/@' is niet gelijk aan de
-                     FRBRWork-identificatie /akn/nl/bill/gm.0297/2019/STOP1001-20210517105302.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP1001</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP1000</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De identifier /akn/nl/bill/gm.0297/2019/STOP1001-20210517105302 bevat een punt. Dit is niet toegestaan. Verwijder de punt.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP1001</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP1009</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Voor een AKN- of JOIN-identificatie (/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27) moet deel voorafgaand aan de '@' (_FOUTnld) een geldige
-                     taal zijn ('nld','eng','fry','pap','mul','und'). Pas dit aan.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP1001</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP1010</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1001-20210517105302/_FOUTnld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Vierde deel van AKN/JOIN van werk (/akn/nl/bill/gm.0297/2019/STOP1001-20210517105302) moet gelijk zijn aan een brp-code. Pas (gm.0297) aan.</Data>
+               <Data ss:Type="String">Het gedeelte van de FRBRExpression /akn/nl/bill/gm0297/2019/STOP1001-20210520012114/nld@2019-06-27 vóór de 'taalcode/@' is niet gelijk aan de FRBRWork-identificatie /akn/nl/bill/pv26/2019/STOP1001-20210520012114.</Data>
             </Cell>
          </Row>
          <Row>
@@ -21913,7 +21795,7 @@
                <Data ss:Type="String">Gezochte fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">85</Data>
+               <Data ss:Type="Number">86</Data>
             </Cell>
          </Row>
          <Row>
@@ -21929,7 +21811,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">99</Data>
+               <Data ss:Type="Number">98</Data>
             </Cell>
          </Row>
          <Row>
