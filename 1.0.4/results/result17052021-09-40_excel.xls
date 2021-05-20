@@ -9308,12 +9308,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/xx_FOUT/bill/gm0297/2019/STOP1002-20210517105330/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/FOUT/bill/gm0297/2019/STOP1002-20210520011331/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Landcode xx_FOUT in de AKN-identificatie /akn/xx_FOUT/bill/gm0297/2019/STOP1002-20210517105330 is niet toegestaan. Pas landcode aan.</Data>
+               <Data ss:Type="String">Landcode FOUT in de AKN-identificatie /akn/FOUT/bill/gm0297/2019/STOP1002-20210520011331 is niet toegestaan. Pas landcode aan.</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -9337,12 +9337,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210517105358/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210520011234/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - tweede string] Waarde van tweede string _FOUT binnen /join/_FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520
+               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - tweede string] Waarde van tweede string FOUT binnen /join/FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520
                      is niet gelijk aan id</Data>
             </Cell>
          </Row>
@@ -9356,13 +9356,13 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210517105358/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210520011234/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De identifier van instrumentVersie "/join/_FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
-                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1003-20210517105358/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
+               <Data ss:Type="String">De identifier van instrumentVersie "/join/FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
+                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1003-20210520011234/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
                      Corrigeer de identifier of de eId zodat deze gelijk zijn.</Data>
             </Cell>
          </Row>
@@ -9376,12 +9376,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210517105358/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210520011234/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De waarde van instrumentVersie in BeoogdInformatieobject /join/_FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 MOET een JOIN/regdata
+               <Data ss:Type="String">De waarde van instrumentVersie in BeoogdInformatieobject /join/FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 MOET een JOIN/regdata
                      zijn</Data>
             </Cell>
          </Row>
@@ -9411,7 +9411,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - derde string] Waarde van derde string FOUT binnen /join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 is niet gelijk aan een waarde binnen regdata,pubdata,infodata,proces,stop</Data>
+               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - derde string] Waarde van derde string FOUT binnen /join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 is niet
+                     gelijk aan een waarde binnen regdata,pubdata,infodata,proces,stop</Data>
             </Cell>
          </Row>
          <Row>
@@ -9429,7 +9430,9 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De identifier van instrumentVersie "/join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1004-20210520010531/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</Data>
+               <Data ss:Type="String">De identifier van instrumentVersie "/join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
+                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1004-20210520010531/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
+                     Corrigeer de identifier of de eId zodat deze gelijk zijn.</Data>
             </Cell>
          </Row>
          <Row>
@@ -19996,10 +19999,10 @@
                <Data ss:Type="String">Gezochte fout was de enige terugmelding</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/xx_FOUT/bill/gm0297/2019/STOP1002-20210517105330/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/FOUT/bill/gm0297/2019/STOP1002-20210520011331/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Landcode xx_FOUT in de AKN-identificatie /akn/xx_FOUT/bill/gm0297/2019/STOP1002-20210517105330 is niet toegestaan. Pas landcode aan.</Data>
+               <Data ss:Type="String">Landcode FOUT in de AKN-identificatie /akn/FOUT/bill/gm0297/2019/STOP1002-20210520011331 is niet toegestaan. Pas landcode aan.</Data>
             </Cell>
          </Row>
          <Row>
@@ -20016,10 +20019,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210517105358/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210520011234/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - tweede string] Waarde van tweede string _FOUT binnen /join/_FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520
+               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - tweede string] Waarde van tweede string FOUT binnen /join/FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520
                      is niet gelijk aan id</Data>
             </Cell>
          </Row>
@@ -20037,11 +20040,11 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210517105358/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210520011234/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De identifier van instrumentVersie "/join/_FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
-                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1003-20210517105358/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
+               <Data ss:Type="String">De identifier van instrumentVersie "/join/FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
+                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1003-20210520011234/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
                      Corrigeer de identifier of de eId zodat deze gelijk zijn.</Data>
             </Cell>
          </Row>
@@ -20059,10 +20062,10 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210517105358/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1003-20210520011234/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De waarde van instrumentVersie in BeoogdInformatieobject /join/_FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 MOET een JOIN/regdata
+               <Data ss:Type="String">De waarde van instrumentVersie in BeoogdInformatieobject /join/FOUT/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 MOET een JOIN/regdata
                      zijn</Data>
             </Cell>
          </Row>
@@ -20083,7 +20086,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1004-20210520010531/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - derde string] Waarde van derde string FOUT binnen /join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 is niet gelijk aan een waarde binnen regdata,pubdata,infodata,proces,stop</Data>
+               <Data ss:Type="String">[Controleer juiste opbouw JOIN - expressie - derde string] Waarde van derde string FOUT binnen /join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 is niet
+                     gelijk aan een waarde binnen regdata,pubdata,infodata,proces,stop</Data>
             </Cell>
          </Row>
          <Row>
@@ -20103,7 +20107,9 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP1004-20210520010531/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De identifier van instrumentVersie "/join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1004-20210520010531/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</Data>
+               <Data ss:Type="String">De identifier van instrumentVersie "/join/id/FOUT/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
+                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1004-20210520010531/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
+                     Corrigeer de identifier of de eId zodat deze gelijk zijn.</Data>
             </Cell>
          </Row>
          <Row>
