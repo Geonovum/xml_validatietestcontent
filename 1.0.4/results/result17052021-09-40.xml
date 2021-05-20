@@ -6614,7 +6614,30 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
-
+   <envelop>
+      <test>STOP0050-20210520035415</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0050-20210520035415</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T15:56:05.390953+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0050-20210520035415</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:56:07.289009+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>STOP0050</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0050-20210520035415/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De ExtRef van het type AKN met referentie http://www.api.org heeft niet de juiste notatie.</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
+   </envelop>
+   
    <envelop>
       <test>STOP1000-20210520015516</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
