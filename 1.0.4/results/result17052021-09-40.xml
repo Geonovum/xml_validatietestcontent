@@ -6593,6 +6593,27 @@
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
    </envelop>
+   
+   <envelop>
+      <test>STOP0046-20210520034335</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0046-20210520034335</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:46:57.593452+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0046-20210520034335</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:47:28.068292+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+
+   </envelop>
 
    <envelop>
       <test>STOP1000-20210520015516</test>

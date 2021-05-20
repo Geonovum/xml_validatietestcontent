@@ -8987,6 +8987,17 @@
                <Data ss:Type="String">Een (inline) Illustratie MAG GEEN attribuut schaal hebben.</Data>
             </Cell>
          </Row>
+         <Row ss:StyleID="yellow">
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0046</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een (inline) Illustratie MAG GEEN attribuut kleur hebben.</Data>
+            </Cell>
+         </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
                <Data ss:Type="String">STOP1000</Data>
@@ -19430,6 +19441,11 @@
             </Cell>
          </Row>
          <Row>
+            <Cell ss:Index="1" ss:StyleID="yellow">
+               <Data ss:Type="String">STOP0046</Data>
+            </Cell>
+         </Row>
+         <Row>
             <Cell ss:Index="1" ss:StyleID="id">
                <Data ss:Type="String">STOP1000</Data>
             </Cell>
@@ -21430,7 +21446,7 @@
                <Data ss:Type="String">Het aantal testgevallen is:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">277</Data>
+               <Data ss:Type="Number">278</Data>
             </Cell>
          </Row>
          <Row>
@@ -21462,7 +21478,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">33</Data>
+               <Data ss:Type="Number">34</Data>
             </Cell>
          </Row>
       </Table>
