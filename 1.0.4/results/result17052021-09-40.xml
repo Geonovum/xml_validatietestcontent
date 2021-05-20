@@ -6818,64 +6818,90 @@
 
    </envelop>
    <envelop>
-      <test>STOP1006-20210520123900</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1006-20210520123900</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T12:54:47.423532+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <test>STOP1006-20210520125815</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP1006-20210520123900</lvbb:idLevering>
+            <lvbb:idLevering>id-publicatie-STOP1006-20210520125815</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T12:54:47.423532+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1006-20210520125815</lvbb:idLevering>
             <lvbb:tijdstipVerslag>2021-05-20T12:54:49.273997+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>LVBB2013</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - werk-datum] Waarde van werk-datum 2019-06-31 binnen /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520123900/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - werk-datum] Waarde van werk-datum 2019-06-31 binnen
+                     /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520125815/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB2015</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-18 binnen /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520123900/nld@2019-06-18;3520 moet hetzelfde zijn of later als datum werk 2019-06-31</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-18 binnen
+                     /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520125815/nld@2019-06-18;3520 moet hetzelfde zijn of later als datum werk 2019-06-31</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB2013</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - werk-datum] Waarde van werk-datum 2019-06-31 binnen /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520123900/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - werk-datum] Waarde van werk-datum 2019-06-31 binnen
+                     /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520125815/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB2015</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-18 binnen /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520123900/nld@2019-06-18;3520 moet hetzelfde zijn of later als datum werk 2019-06-31</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-18 binnen
+                     /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520125815/nld@2019-06-18;3520 moet hetzelfde zijn of later als datum werk 2019-06-31</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB2013</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1006-20210520123900/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - werk - werk-datum] Waarde van werk-datum 2019-06-31 binnen /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520123900/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1006-20210520125815/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - werk - werk-datum] Waarde van werk-datum 2019-06-31 binnen
+                     /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520125815/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB2013</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1006-20210520123900/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - werk - werk-datum] Waarde van werk-datum 2019-06-31 binnen /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520123900/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1006-20210520125815/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - werk - werk-datum] Waarde van werk-datum 2019-06-31 binnen
+                     /join/id/regdata/gm0297/2019-06-31/GoedeGebieden-STOP1006-20210520125815/nld@2019-06-18;3520 is geen juiste datum</stop:beschrijving>
+               </lvbb:melding>
+               <lvbb:melding>
+                  <stop:code>STOP1006</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/bill/gm0297/2018-06-31/STOP1006-20210520125815/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>Vijfde deel AKN- of JOIN-identificatie /akn/nl/bill/gm0297/2018-06-31/STOP1006-20210520125815 moet gelijk zijn aan jaartal of geldige datum. Pas dit
+                     aan.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
    <envelop>
       <test>STOP1007-20210520123320</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1007-20210520123320</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T12:34:37.453184+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1007-20210520123320</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T12:34:37.453184+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1007-20210520123320</lvbb:idLevering>
@@ -6886,27 +6912,35 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1007-20210520123320/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-31 binnen /join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-31;3520 is geen juiste datum</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-31 binnen
+                     /join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-31;3520 is geen juiste datum</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB2013</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1007-20210520123320/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-31 binnen /join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-31;3520 is geen juiste datum</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-31 binnen
+                     /join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-31;3520 is geen juiste datum</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1008-20210520122727</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1008-20210520122727</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T12:28:37.41641+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1008-20210520122727</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T12:28:37.41641+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1008-20210520122727</lvbb:idLevering>
@@ -6917,22 +6951,25 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1008-20210520122727/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-18 binnen /join/id/regdata/gm0297/2020/GoedeGebieden/nld@2019-06-18;3520 moet hetzelfde zijn of later als datum werk 2020</stop:beschrijving>
+                  <stop:beschrijving>[Controleer juiste opbouw JOIN - expressie - expressie-datum] Waarde van expressie-datum 2019-06-18 binnen
+                     /join/id/regdata/gm0297/2020/GoedeGebieden/nld@2019-06-18;3520 moet hetzelfde zijn of later als datum werk 2020</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>BHKV1036</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1008-20210520122727/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De identifier van instrumentVersie "/join/id/regdata/gm0297/2020/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1008-20210520122727/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
+                  <stop:beschrijving>De identifier van instrumentVersie "/join/id/regdata/gm0297/2020/GoedeGebieden/nld@2019-06-18;3520" komt niet overeen met de join identifier
+                     "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP1008-20210520122727/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1".
+                     Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1009-20210517105619</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1009-20210517105619</result>
@@ -6996,9 +7033,15 @@
    </envelop>
    <envelop>
       <test>STOP1012-20210520121823</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1012-20210520121823</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T12:20:17.584112+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1012-20210520121823</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T12:20:17.584112+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1012-20210520121823</lvbb:idLevering>
@@ -7022,14 +7065,20 @@
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1013-20210520112956</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1013-20210520112956</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T11:33:47.732922+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1013-20210520112956</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T11:33:47.732922+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1013-20210520112956</lvbb:idLevering>
@@ -7047,22 +7096,24 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956 is niet gelijk aan bill</stop:beschrijving>
+                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956 is niet gelijk aan
+                     bill</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>LVBB1502</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27 is niet gelijk aan bill</stop:beschrijving>
+                  <stop:beschrijving>[AanleveringBesluit - Controleer Inhoud Identificatie] Waarde van type FOUT binnen /akn/nl/FOUT/gm0297/2019/STOP1013-20210520112956/nld@2019-06-27 is niet gelijk
+                     aan bill</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1014-20210517105813</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1014-20210517105813</result>
@@ -7330,9 +7381,15 @@
    </envelop>
    <envelop>
       <test>STOP1027-20210519043830</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1027-20210519043830</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T16:39:37.240039+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1027-20210519043830</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T16:39:37.240039+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1027-20210519043830</lvbb:idLevering>
@@ -7343,15 +7400,17 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1027-20210519043830/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De identifier van instrumentVersie "/join/id/pubdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520" komt niet overeen met de join identifier "/join/id/regdata/gm0297/2019/regelingsgebied-STOP1027-20210519043830/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
+                  <stop:beschrijving>De identifier van instrumentVersie "/join/id/pubdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520" komt niet overeen met de join identifier
+                     "/join/id/regdata/gm0297/2019/regelingsgebied-STOP1027-20210519043830/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1".
+                     Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1030-20210517110226</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1030-20210517110226</result>
@@ -7414,9 +7473,15 @@
    </envelop>
    <envelop>
       <test>STOP1032-20210519042733</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1032-20210519042733</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-19T16:29:07.654425+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP1032-20210519042733</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-19T16:29:07.654425+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1032-20210519042733</lvbb:idLevering>
@@ -7433,13 +7498,12 @@
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1033-20210519042241</test>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP1033-20210519042241</lvbb:idLevering>
@@ -7456,9 +7520,9 @@
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1034-20210517110349</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1034-20210517110349</result>
