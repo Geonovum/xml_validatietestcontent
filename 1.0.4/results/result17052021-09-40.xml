@@ -6338,12 +6338,18 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
-   
+
    <envelop>
       <test>STOP0032-20210520030252</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0032-20210520030252</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T15:04:07.393614+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0032-20210520030252</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:04:07.393614+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP0032-20210520030252</lvbb:idLevering>
@@ -6354,35 +6360,44 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</stop:beschrijving>
+                  <stop:beschrijving>De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname
+                     van de cel.</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP0032</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</stop:beschrijving>
+                  <stop:beschrijving>De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de
+                     positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP0038</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting 3).</stop:beschrijving>
+                  <stop:beschrijving>Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting
+                     3).</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
 
    <envelop>
       <test>STOP0033-20210520024220</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0033-20210520024220</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T14:43:57.530917+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0033-20210520024220</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T14:43:57.530917+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP0033-20210520024220</lvbb:idLevering>
@@ -6393,22 +6408,24 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</stop:beschrijving>
+                  <stop:beschrijving>De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname
+                     van de cel.</stop:beschrijving>
                </lvbb:melding>
                <lvbb:melding>
                   <stop:code>STOP0038</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting 3).</stop:beschrijving>
+                  <stop:beschrijving>Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting
+                     3).</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
 
    <envelop>
       <test>STOP0036-20210520022932</test>
@@ -6566,42 +6583,17 @@
 
    </envelop>
    <envelop>
-      <test>STOP0045-20210520032811</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0045-20210520032811</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T15:29:27.433526+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
-         xmlns:stop="http://www.overheid.nl/2017/stop">
-         <lvbb:uitkomst>mislukt</lvbb:uitkomst>
+      <test>STOP0045-20210520033523</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0045-20210520032811</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-20T15:29:57.897447+02:00</lvbb:tijdstipVerslag>
-            <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>CON-0001</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:beschrijving>Er zijn fouten gevonden door de proef consolidatie validatie service</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>OZON0082</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>Validatie bevinding</stop:categorie>
-                  <stop:beschrijving>Activiteit met id 'nl.imow-gm0297.activiteit.0000120210520032811' heeft een niet bestaande bovenliggende activiteit met id 'nl.imow-gm0297.activiteit.Bovenliggend'</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>EINDE CONTROLES</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>De controles zijn helemaal klaar, maar met FATALE fouten.</stop:categorie>
-                  <stop:beschrijving>EINDE CONTROLE</stop:beschrijving>
-               </lvbb:melding>
-            </lvbb:meldingen>
-            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+            <lvbb:idLevering>id-publicatie-STOP0045-20210520033523</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:37:57.514502+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
    </envelop>
-   
+
    <envelop>
       <test>STOP1000-20210520015516</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">

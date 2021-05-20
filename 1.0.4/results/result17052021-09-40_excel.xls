@@ -8691,7 +8691,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname
+                     van de cel.</Data>
             </Cell>
          </Row>
          <Row>
@@ -8709,7 +8710,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</Data>
+               <Data ss:Type="String">De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de
+                     positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</Data>
             </Cell>
          </Row>
          <Row>
@@ -8727,7 +8729,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting 3).</Data>
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting
+                     3).</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -8756,7 +8759,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname
+                     van de cel.</Data>
             </Cell>
          </Row>
          <Row>
@@ -8774,7 +8778,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting 3).</Data>
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting
+                     3).</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -8971,7 +8976,7 @@
                      wId</Data>
             </Cell>
          </Row>
-         <Row ss:StyleID="id">
+         <Row ss:StyleID="yellow">
             <Cell ss:Index="1">
                <Data ss:Type="String">STOP0045</Data>
             </Cell>
@@ -8980,55 +8985,6 @@
             </Cell>
             <Cell ss:Index="6">
                <Data ss:Type="String">Een (inline) Illustratie MAG GEEN attribuut schaal hebben.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">CON-0001,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Er zijn fouten gevonden door de proef consolidatie validatie service</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">OZON0082,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Validatie bevinding</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Activiteit met id 'nl.imow-gm0297.activiteit.0000120210520032811' heeft een niet bestaande bovenliggende activiteit met id 'nl.imow-gm0297.activiteit.Bovenliggend'</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">EINDE CONTROLES,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De controles zijn helemaal klaar, maar met FATALE fouten.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">EINDE CONTROLE</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -19214,7 +19170,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col3, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname
+                     van de cel.</Data>
             </Cell>
          </Row>
          <Row>
@@ -19234,7 +19191,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</Data>
+               <Data ss:Type="String">De entry met @namest "col3", van de 1e rij, van de thead, in de tabel met eId: chp_2__subchp_2.1__art_2.1__table_o_1, heeft een positie bepaling groter dan de
+                     positie van de als @nameend genoemde cel. Corrigeer de gegevens voor de overspanning.</Data>
             </Cell>
          </Row>
          <Row>
@@ -19254,7 +19212,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0032-20210520030252/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting 3).</Data>
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 0 van verwachting
+                     3).</Data>
             </Cell>
          </Row>
          <Row>
@@ -19274,7 +19233,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname van de cel.</Data>
+               <Data ss:Type="String">De start van de overspanning (@namest) van de cel col2, in de 1e rij, van de thead van tabel chp_2__subchp_2.1__art_2.1__table_o_1 is niet gelijk aan de @colname
+                     van de cel.</Data>
             </Cell>
          </Row>
          <Row>
@@ -19294,7 +19254,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0033-20210520024220/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting 3).</Data>
+               <Data ss:Type="String">Het aantal cellen in thead van tabel "chp_2__subchp_2.1__art_2.1__table_o_1" komt niet overeen met de verwachting (resultaat: 1 van verwachting
+                     3).</Data>
             </Cell>
          </Row>
          <Row>
@@ -19464,60 +19425,8 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="1" ss:StyleID="id">
+            <Cell ss:Index="1" ss:StyleID="yellow">
                <Data ss:Type="String">STOP0045</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">CON-0001</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Er zijn fouten gevonden door de proef consolidatie validatie service</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0045</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">OZON0082</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Validatie bevinding</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Activiteit met id 'nl.imow-gm0297.activiteit.0000120210520032811' heeft een niet bestaande bovenliggende activiteit met id 'nl.imow-gm0297.activiteit.Bovenliggend'</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0045</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">EINDE CONTROLES</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De controles zijn helemaal klaar, maar met FATALE fouten.</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">EINDE CONTROLE</Data>
             </Cell>
          </Row>
          <Row>
@@ -21545,7 +21454,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">100</Data>
+               <Data ss:Type="Number">99</Data>
             </Cell>
          </Row>
          <Row>
@@ -21553,7 +21462,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">32</Data>
+               <Data ss:Type="Number">33</Data>
             </Cell>
          </Row>
       </Table>

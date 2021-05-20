@@ -172,11 +172,11 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                 <!-- FOUT: STOP0045	Een (inline) Illustratie MAG GEEN attribuut schaal hebben. -->
+                                 <!-- FOUT: STOP0046	Een (inline) Illustratie MAG GEEN attribuut kleur hebben. -->
                                  <Li wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b" eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>
                                     <Al>Ondersteund bestandstype
-                                       <InlineTekstAfbeelding formaat="image/jpeg" schaal="20" dpi="120" hoogte="500" breedte="500" naam="arnolfini.jpg" />
+                                       <InlineTekstAfbeelding formaat="image/jpeg" kleur="0" dpi="120" hoogte="500" breedte="500" naam="arnolfini.jpg" />
                                        
                                     </Al>
                                  </Li>
