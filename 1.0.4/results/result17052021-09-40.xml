@@ -3304,6 +3304,7 @@
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
    </envelop>
+
    <envelop>
       <test>OZON0049-20210517101000</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_OZON0049-20210517101000</result>
@@ -3343,6 +3344,38 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
+   <envelop>
+      <test>STOP0052-20210525014606</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0052-20210525014606</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:49:07.455734+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0052-20210525014606</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:49:08.80563+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+               <lvbb:melding>
+                  <stop:code>STOP0052</stop:code>
+                  <stop:ernst>fout</stop:ernst>
+                  <stop:soort>inhoudelijk</stop:soort>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0052-20210525014606/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De scope FOUTWijzigBijlage van de IntRef met cmp_A bevat niet een in het tekst-schema gedefinieerde naam van een verwijsbaar element. Geef de juiste elementnaam in
+                     attribuut scope.</stop:beschrijving>
+               </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      
+   </envelop>
+   
    <envelop>
       <test>OZON0053-20210517101027</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_OZON0053-20210517101027</result>
@@ -6093,29 +6126,28 @@
 
    </envelop>
    <envelop>
-      <test>STOP0010-20210517104747</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0010-20210517104747</result>
+      <test>STOP0010-20210525014350</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0010-20210517104747</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:08:27.467243+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0010-20210525014350</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:47:35.348574+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0010-20210517104747</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:08:28.750439+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0010-20210525014350</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:47:36.642085+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
-                  <stop:code>STOP0052</stop:code>
+                  <stop:code>STOP0010</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0010-20210517104747/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De scope FOUTWijzigBijlage van de IntRef met cmp_A bevat niet een in het tekst-schema gedefinieerde naam van een verwijsbaar element. Geef de juiste elementnaam in
-                     attribuut scope.</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0010-20210525014350/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>De waarde van @ref van element tekst:IntRef met waarde cmp_AFOUT komt niet voor als eId van een tekst-element in (de mutatie van) de tekst van dezelfde expression
+                     als de IntRef. Controleer de referentie, corrigeer of de referentie of de identificatie van het element waarnaar wordt verwezen.</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
@@ -6123,6 +6155,7 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
    <envelop>
       <test>STOP0011-20210525013749</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
