@@ -6124,43 +6124,28 @@
 
    </envelop>
    <envelop>
-      <test>STOP0011-20210517104815</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0011-20210517104815</result>
+      <test>STOP0011-20210525013749</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0011-20210517104815</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:09:15.272781+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0011-20210525013749</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:39:07.563695+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0011-20210517104815</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:09:16.473619+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0011-20210525013749</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:39:09.38165+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>STOP0011</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0011-20210517104815/nld@2019-06-27</stop:categorie>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0011-20210525013749/nld@2019-06-27</stop:categorie>
                   <stop:beschrijving>De @ref van element IntIoRef met waarde gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__FOUTref_o_1 verwijst niet naar een wId van een ExtIoRef binnen hetzelfde
                      bestand. Controleer de referentie, corrigeer of de referentie of de wId identificatie van het element waarnaar wordt verwezen</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0027</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0011-20210517104815/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De eId 'chp_1__art_1.1__ref_o_1' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0028</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0011-20210517104815/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De wId 'gm0297_1__chp_1__art_1.1__ref_o_1' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
@@ -6168,6 +6153,7 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
    <envelop>
       <test>STOP0012-20210525010916</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
