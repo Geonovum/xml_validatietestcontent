@@ -6073,57 +6073,7 @@
 
    </envelop>
    <envelop>
-      <test>STOP0009-20210517104719</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0009-20210517104719</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0009-20210517104719</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:07:37.56774+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0009-20210517104719</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:07:38.919777+02:00</lvbb:tijdstipVerslag>
-            <lvbb:meldingen>
-               <lvbb:melding>
-                  <stop:code>STOP0022</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De AKN-naamgeving voor eId 'FOUT' is niet correct voor element table met id 'FOUT', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle
-                     onderliggende elementen aan. Controleer ook de naamgeving van de bijbehorende wId en onderliggende elementen.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0023</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De AKN-naamgeving voor wId 'FOUT' is niet correct voor element table met id 'FOUT', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle
-                     onderliggende elementen aan. Controleer ook de naamgeving van de bijbehorende eId en onderliggende elementen.</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0037</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal colspec's (1) voor tbody in tabel FOUT komt niet overeen met het aantal kolommen (2).</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>STOP0038</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het aantal cellen in tbody van tabel "FOUT" komt niet overeen met de verwachting (resultaat: 1 van verwachting 2).</stop:beschrijving>
-               </lvbb:melding>
-            </lvbb:meldingen>
-            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-
+      <test>STOP0009-20210525024755</test>
    </envelop>
    <envelop>
       <test>STOP0010-20210525014350</test>

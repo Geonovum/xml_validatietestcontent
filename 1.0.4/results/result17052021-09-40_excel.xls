@@ -8327,89 +8327,12 @@
                <Data ss:Type="String">EINDE CONTROLE</Data>
             </Cell>
          </Row>
-         <Row ss:StyleID="id">
+         <Row ss:StyleID="yellow">
             <Cell ss:Index="1">
                <Data ss:Type="String">STOP0009</Data>
             </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
             <Cell ss:Index="6">
                <Data ss:Type="String">Een tabel MAG NIET in een lijst worden opgenomen</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0022,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De AKN-naamgeving voor eId 'FOUT' is niet correct voor element table met id 'FOUT', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle
-                     onderliggende elementen aan. Controleer ook de naamgeving van de bijbehorende wId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0023,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De AKN-naamgeving voor wId 'FOUT' is niet correct voor element table met id 'FOUT', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle
-                     onderliggende elementen aan. Controleer ook de naamgeving van de bijbehorende eId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0037,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Het aantal colspec's (1) voor tbody in tabel FOUT komt niet overeen met het aantal kolommen (2).</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0038,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">Het aantal cellen in tbody van tabel "FOUT" komt niet overeen met de verwachting (resultaat: 1 van verwachting 2).</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -18925,85 +18848,8 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="1" ss:StyleID="id">
+            <Cell ss:Index="1" ss:StyleID="yellow">
                <Data ss:Type="String">STOP0009</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP0022</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De AKN-naamgeving voor eId 'FOUT' is niet correct voor element table met id 'FOUT', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle
-                     onderliggende elementen aan. Controleer ook de naamgeving van de bijbehorende wId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0009</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP0023</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De AKN-naamgeving voor wId 'FOUT' is niet correct voor element table met id 'FOUT', Dit moet zijn: 'table'. Pas de naamgeving voor dit element en alle
-                     onderliggende elementen aan. Controleer ook de naamgeving van de bijbehorende eId en onderliggende elementen.</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0009</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP0037</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Het aantal colspec's (1) voor tbody in tabel FOUT komt niet overeen met het aantal kolommen (2).</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0009</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">STOP0038</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0009-20210517104719/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Het aantal cellen in tbody van tabel "FOUT" komt niet overeen met de verwachting (resultaat: 1 van verwachting 2).</Data>
             </Cell>
          </Row>
          <Row>
@@ -21516,7 +21362,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">96</Data>
+               <Data ss:Type="Number">95</Data>
             </Cell>
          </Row>
          <Row>
@@ -21524,7 +21370,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">37</Data>
+               <Data ss:Type="Number">38</Data>
             </Cell>
          </Row>
       </Table>
