@@ -6277,29 +6277,29 @@
 
    </envelop>
    <envelop>
-      <test>STOP0015-20210517105010</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0015-20210517105010</result>
+      <test>STOP0015-20210525125358</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0015-20210517105010</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:12:25.291641+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0015-20210525125358</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T12:58:37.4593+02:00</lvbb:tijdstipVerslag>
             <lvbb:uitkomst>valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
       <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0015-20210517105010</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:12:25.877349+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0015-20210525125358</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T12:58:38.438346+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>LVBB2003</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0015-20210517105010/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>XDMP-VALIDATEBADTYPE: (err:XQDY0027) validate full strict { () } -- Invalid node type: @wId lexical value "" invalid for expected type #xs:NMTOKEN at
-                     fn:doc("")/*:AanleveringBesluit/*:BesluitVersie/*:BesluitCompact/*:WijzigBijlage/*:RegelingTijdelijkdeel/*:Lichaam/*:Conditie/*:Artikel/@wId using schema
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0015-20210525125358/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>XDMP-VALIDATEMISSINGELT: (err:XQDY0027) validate full strict { () } -- Missing required elements: Expected
+                     ({https://standaarden.overheid.nl/stop/imop/tekst/}RegelingMutatie) at
+                     fn:doc("")/*:AanleveringBesluit/*:BesluitVersie/*:BesluitCompact/*:WijzigBijlage/*:RegelingTijdelijkdeel/*:WijzigBijlage using schema
                      "/cga/content/frbr/cga/stop/LVBB-stop/1.0.4/xsd/lvbb-stop-aanlevering.xsd"</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
@@ -6308,6 +6308,7 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
+
 
    <envelop>
       <test>STOP0020-20210520042219</test>
