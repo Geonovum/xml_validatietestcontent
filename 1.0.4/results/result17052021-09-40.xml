@@ -6209,43 +6209,29 @@
 
    </envelop>
    <envelop>
-      <test>STOP0013-20210517104912</test>
-      <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0013-20210517104912</result>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+      <test>STOP0013-20210525010353</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0013-20210525010353</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-25T13:05:27.517693+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0013-20210517104912</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:10:59.008797+02:00</lvbb:tijdstipVerslag>
-            <lvbb:uitkomst>valide</lvbb:uitkomst>
-         </lvbb:verslag>
-      </lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
-         <lvbb:uitkomst>succes</lvbb:uitkomst>
-         <lvbb:verslag>
-            <lvbb:idLevering>id-publicatie-STOP0013-20210517104912</lvbb:idLevering>
-            <lvbb:tijdstipVerslag>2021-05-17T14:11:00.957366+02:00</lvbb:tijdstipVerslag>
+            <lvbb:idLevering>id-publicatie-STOP0013-20210525010353</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-25T13:05:29.059152+02:00</lvbb:tijdstipVerslag>
             <lvbb:meldingen>
                <lvbb:melding>
                   <stop:code>STOP0013</stop:code>
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0013-20210517104912/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>Het attribuut @eId of een deel van de eId art_I. van element WijzigArtikel eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze
-                     eId</stop:beschrijving>
-               </lvbb:melding>
-               <lvbb:melding>
-                  <stop:code>BHKV1009</stop:code>
-                  <stop:ernst>fout</stop:ernst>
-                  <stop:soort>inhoudelijk</stop:soort>
-                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0013-20210517104912/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>In het besluit is de eId art_I voor de BeoogdeRegeling niet te vinden. Controleer de referentie naar het besluit.</stop:beschrijving>
+                  <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0013-20210525010353/nld@2019-06-27</stop:categorie>
+                  <stop:beschrijving>Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze eId</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-
+      
    </envelop>
+   
    <envelop>
       <test>STOP0014-20210517104941</test>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP0014-20210517104941</result>

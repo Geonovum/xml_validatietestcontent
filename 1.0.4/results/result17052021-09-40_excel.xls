@@ -8548,31 +8548,12 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210517104912/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210525010353/nld@2019-06-27</Data>
             </Cell>
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Het attribuut @eId of een deel van de eId art_I. van element WijzigArtikel eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze
-                     eId</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">BHKV1009,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210517104912/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">In het besluit is de eId art_I voor de BeoogdeRegeling niet te vinden. Controleer de referentie naar het besluit.</Data>
+               <Data ss:Type="String">Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze eId</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -19183,34 +19164,13 @@
                <Data ss:Type="String">inhoudelijk</Data>
             </Cell>
             <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
+               <Data ss:Type="String">Gezochte fout was de enige terugmelding</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210517104912/nld@2019-06-27</Data>
+               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210525010353/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Het attribuut @eId of een deel van de eId art_I. van element WijzigArtikel eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze
-                     eId</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0013</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">BHKV1009</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210517104912/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">In het besluit is de eId art_I voor de BeoogdeRegeling niet te vinden. Controleer de referentie naar het besluit.</Data>
+               <Data ss:Type="String">Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze eId</Data>
             </Cell>
          </Row>
          <Row>
@@ -21639,7 +21599,7 @@
                <Data ss:Type="String">Gezochte fout was de enige terugmelding:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">91</Data>
+               <Data ss:Type="Number">92</Data>
             </Cell>
          </Row>
          <Row>
@@ -21655,7 +21615,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">99</Data>
+               <Data ss:Type="Number">98</Data>
             </Cell>
          </Row>
          <Row>
