@@ -24,7 +24,6 @@
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
-      <!-- FOUT: OZON1019	het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
