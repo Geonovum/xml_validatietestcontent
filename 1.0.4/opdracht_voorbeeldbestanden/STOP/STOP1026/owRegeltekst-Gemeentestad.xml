@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
-                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
-                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
-                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
-                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
-                 xmlns:k="http://www.geostandaarden.nl/imow/kaart"
-                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
-                 xmlns:p="http://www.geostandaarden.nl/imow/pons"
-                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
-                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
-                 xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:k="http://www.geostandaarden.nl/imow/kaart" xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+   xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:r="http://www.geostandaarden.nl/imow/regels" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+   xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
    <sl:standBestand>
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-STOP1026</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0348</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
-            <sl:objectType>Activiteit</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
@@ -43,29 +34,8 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <r:activiteitaanduiding>
-                  <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.00001"/>
-                  <r:ActiviteitLocatieaanduiding>
-                     <r:identificatie>nl.imow-gm0037.activiteitlocatieaanduiding.2019GROEP1</r:identificatie>
-                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
-                     <r:locatieaanduiding>
-                        <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.00001"/>
-                     </r:locatieaanduiding>
-                  </r:ActiviteitLocatieaanduiding>
-               </r:activiteitaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-      <sl:stand>
-         <ow-dc:owObject>
-            <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0297.activiteit.00001</rol:identificatie>
-               <rol:naam>Naam</rol:naam>
-               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Aansluitactiviteit</rol:groep>
-               <rol:bovenliggendeActiviteit>
-                  <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.Bovenliggend"/>
-               </rol:bovenliggendeActiviteit>
-            </rol:Activiteit>
-         </ow-dc:owObject>
-      </sl:stand>   </sl:standBestand>
+   </sl:standBestand>
 </ow-dc:owBestand>

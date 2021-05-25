@@ -8635,6 +8635,28 @@
                      "/cga/content/frbr/cga/stop/LVBB-stop/1.0.4/xsd/lvbb-stop-aanlevering.xsd"</Data>
             </Cell>
          </Row>
+         <Row ss:StyleID="yellow">
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0020</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een eId buiten een AKN-component MOET uniek zijn binnen een bestand</Data>
+            </Cell>
+         </Row>
+         <Row ss:StyleID="yellow">
+            <Cell ss:Index="1">
+               <Data ss:Type="String">STOP0021</Data>
+            </Cell>
+            <Cell ss:Index="3">
+               <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een wId buiten een AKN-component MOET uniek zijn binnen een bestand</Data>
+            </Cell>
+         </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
                <Data ss:Type="String">STOP0027</Data>
@@ -8661,7 +8683,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</Data>
+               <Data ss:Type="String">De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer
+                     deze</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -8690,7 +8713,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</Data>
+               <Data ss:Type="String">De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer
+                     deze</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -19231,6 +19255,16 @@
             </Cell>
          </Row>
          <Row>
+            <Cell ss:Index="1" ss:StyleID="yellow">
+               <Data ss:Type="String">STOP0020</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="1" ss:StyleID="yellow">
+               <Data ss:Type="String">STOP0021</Data>
+            </Cell>
+         </Row>
+         <Row>
             <Cell ss:Index="1" ss:StyleID="id">
                <Data ss:Type="String">STOP0027</Data>
             </Cell>
@@ -19247,7 +19281,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0027-20210520040837/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</Data>
+               <Data ss:Type="String">De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer
+                     deze</Data>
             </Cell>
          </Row>
          <Row>
@@ -19267,7 +19302,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0028-20210520040129/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</Data>
+               <Data ss:Type="String">De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer
+                     deze</Data>
             </Cell>
          </Row>
          <Row>
@@ -21593,7 +21629,7 @@
                <Data ss:Type="String">Het aantal testgevallen is:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">281</Data>
+               <Data ss:Type="Number">283</Data>
             </Cell>
          </Row>
          <Row>
@@ -21625,7 +21661,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">34</Data>
+               <Data ss:Type="Number">36</Data>
             </Cell>
          </Row>
       </Table>

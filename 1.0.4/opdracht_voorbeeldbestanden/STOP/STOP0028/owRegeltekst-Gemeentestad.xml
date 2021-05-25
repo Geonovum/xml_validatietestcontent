@@ -17,11 +17,10 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-STOP0028</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON0348</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
-            <sl:objectType>Activiteit</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
@@ -43,16 +42,6 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <r:activiteitaanduiding>
-                  <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.00001"/>
-                  <r:ActiviteitLocatieaanduiding>
-                     <r:identificatie>nl.imow-gm0037.activiteitlocatieaanduiding.2019GROEP1</r:identificatie>
-                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
-                     <r:locatieaanduiding>
-                        <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.00001"/>
-                     </r:locatieaanduiding>
-                  </r:ActiviteitLocatieaanduiding>
-               </r:activiteitaanduiding>
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>

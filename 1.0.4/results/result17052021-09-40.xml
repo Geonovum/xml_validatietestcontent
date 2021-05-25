@@ -6308,17 +6308,43 @@
       </lvbb:validatieVerzoekResultaat>
 
    </envelop>
-   
+
    <envelop>
       <test>STOP0020-20210520042219</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0020-20210520042219</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T16:24:17.347307+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0020-20210520042219</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T16:24:17.347307+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
    </envelop>
-   
+
+   <envelop>
+      <test>STOP0021-20210520042652</test>
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0021-20210520042652</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T16:28:25.226227+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+   </envelop>
+
+
    <envelop>
       <test>STOP0027-20210520040837</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0027-20210520040837</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T16:09:55.226578+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0027-20210520040837</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T16:09:55.226578+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP0027-20210520040837</lvbb:idLevering>
@@ -6329,20 +6355,27 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0027-20210520040837/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
+                  <stop:beschrijving>De eId 'chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer
+                     deze</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP0028-20210520040129</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0028-20210520040129</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T16:02:55.319126+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0028-20210520040129</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T16:02:55.319126+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP0028-20210520040129</lvbb:idLevering>
@@ -6353,15 +6386,16 @@
                   <stop:ernst>fout</stop:ernst>
                   <stop:soort>inhoudelijk</stop:soort>
                   <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0028-20210520040129/nld@2019-06-27</stop:categorie>
-                  <stop:beschrijving>De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</stop:beschrijving>
+                  <stop:beschrijving>De wId 'gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer
+                     deze</stop:beschrijving>
                </lvbb:melding>
             </lvbb:meldingen>
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP0029-20210520023628</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
@@ -6647,7 +6681,7 @@
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
    </envelop>
-   
+
    <envelop>
       <test>STOP0046-20210520034335</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
@@ -6670,9 +6704,15 @@
    </envelop>
    <envelop>
       <test>STOP0050-20210520035415</test>
-      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP0050-20210520035415</lvbb:idLevering><lvbb:tijdstipVerslag>2021-05-20T15:56:05.390953+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
-      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
-         xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+      <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+         <lvbb:uitkomst>succes</lvbb:uitkomst>
+         <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0050-20210520035415</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-05-20T15:56:05.390953+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+         </lvbb:verslag>
+      </lvbb:validatieVerzoekResultaat>
+      <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
          <lvbb:uitkomst>succes</lvbb:uitkomst>
          <lvbb:verslag>
             <lvbb:idLevering>id-publicatie-STOP0050-20210520035415</lvbb:idLevering>
@@ -6689,9 +6729,9 @@
             <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
          </lvbb:verslag>
       </lvbb:validatieVerzoekResultaat>
-      
+
    </envelop>
-   
+
    <envelop>
       <test>STOP1000-20210520015516</test>
       <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
