@@ -8477,7 +8477,7 @@
                <Data ss:Type="String">De wId 'gm0297_1__chp_1__art_1.1__ref_o_1' binnen component initieel_reg moet uniek zijn. Controleer de opbouw van de wId en corrigeer deze</Data>
             </Cell>
          </Row>
-         <Row ss:StyleID="id">
+         <Row ss:StyleID="yellow">
             <Cell ss:Index="1">
                <Data ss:Type="String">STOP0012</Data>
             </Cell>
@@ -8486,45 +8486,6 @@
             </Cell>
             <Cell ss:Index="6">
                <Data ss:Type="String">De in de ExtIoRef weergegeven join-identifier MOET gelijk zijn aan de referentie</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="green">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">STOP0012,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0012-20210517104843/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De JOIN identifier van ExtIoRef cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1 in de tekst is niet gelijk aan de als referentie opgenomen JOIN-identificatie.
-                     Controleer de gebruikte JOIN-identicatie en plaats de juiste verwijzing als zowel de @ref als de tekst van het element ExtIoRef</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="4" ss:StyleID="yellow">
-               <Data ss:Type="String">melding</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">BHKV1036,	fout,	inhoudelijk</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0012-20210517104843/nld@2019-06-27</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">De identifier van instrumentVersie "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP0012-20210517104843/nld@2019-06-18;3520" komt niet overeen met de join
-                     identifier "/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de
-                     identifier of de eId zodat deze gelijk zijn.</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -8553,7 +8514,8 @@
          </Row>
          <Row>
             <Cell ss:Index="5">
-               <Data ss:Type="String">Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze eId</Data>
+               <Data ss:Type="String">Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze
+                     eId</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -19111,46 +19073,8 @@
             </Cell>
          </Row>
          <Row>
-            <Cell ss:Index="1" ss:StyleID="id">
+            <Cell ss:Index="1" ss:StyleID="yellow">
                <Data ss:Type="String">STOP0012</Data>
-            </Cell>
-            <Cell ss:Index="2" ss:StyleID="green">
-               <Data ss:Type="String">STOP0012</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0012-20210517104843/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De JOIN identifier van ExtIoRef cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1 in de tekst is niet gelijk aan de als referentie opgenomen JOIN-identificatie.
-                     Controleer de gebruikte JOIN-identicatie en plaats de juiste verwijzing als zowel de @ref als de tekst van het element ExtIoRef</Data>
-            </Cell>
-         </Row>
-         <Row>
-            <Cell ss:Index="1">
-               <Data ss:Type="String">STOP0012</Data>
-            </Cell>
-            <Cell ss:Index="2">
-               <Data ss:Type="String">BHKV1036</Data>
-            </Cell>
-            <Cell ss:Index="3">
-               <Data ss:Type="String">inhoudelijk</Data>
-            </Cell>
-            <Cell ss:Index="4">
-               <Data ss:Type="String">Meerdere fouten teruggegeven in de keten</Data>
-            </Cell>
-            <Cell ss:Index="5">
-               <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0012-20210517104843/nld@2019-06-27</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De identifier van instrumentVersie "/join/id/regdata/gm0297/2019/GoedeGebieden-STOP0012-20210517104843/nld@2019-06-18;3520" komt niet overeen met de join
-                     identifier "/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520 van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de
-                     identifier of de eId zodat deze gelijk zijn.</Data>
             </Cell>
          </Row>
          <Row>
@@ -19170,7 +19094,8 @@
                <Data ss:Type="String">/akn/nl/bill/gm0297/2019/STOP0013-20210525010353/nld@2019-06-27</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze eId</Data>
+               <Data ss:Type="String">Het attribuut @eId of een deel van de eId formula_1. van element Aanhef eindigt op een '.', dit is niet toegestaan. Verwijder de laatste punt(en) '.' voor deze
+                     eId</Data>
             </Cell>
          </Row>
          <Row>
@@ -21615,7 +21540,7 @@
                <Data ss:Type="String">Meerdere fouten teruggegeven in de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">98</Data>
+               <Data ss:Type="Number">97</Data>
             </Cell>
          </Row>
          <Row>
@@ -21623,7 +21548,7 @@
                <Data ss:Type="String">Geen fouten gevonden vanuit de keten:</Data>
             </Cell>
             <Cell ss:Index="5">
-               <Data ss:Type="Number">36</Data>
+               <Data ss:Type="Number">37</Data>
             </Cell>
          </Row>
       </Table>
