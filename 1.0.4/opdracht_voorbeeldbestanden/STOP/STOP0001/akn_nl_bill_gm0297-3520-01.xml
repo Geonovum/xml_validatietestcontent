@@ -102,8 +102,8 @@
                </Kop>
                <!-- FOUT: STOP0001	Een Lijst van het type 'ongemarkeerd' MAG GEEN lijst-items met nummering of symbolen hebben -->
                <Inhoud>
-                  <Lijst type="ongemarkeerd" wId="lijst" eId="lijst">
-                     <Li wId="l1" eId="l1">
+                  <Lijst type="ongemarkeerd" wId="art_I__list_o_1" eId="gm0297_1__art_I__list_o_1">
+                     <Li wId="art_I__list_o_1__item_a" eId="gm0297_1__art_I__list_o_1__item_a">
                         <LiNummer>FOUT.</LiNummer>
                         <Al>Inhoud</Al>
                      </Li>
