@@ -93,32 +93,63 @@
     <xsl:function name="foo:replaceFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:param name="newId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', 
-            foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
-            foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
-            foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
-            foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
-            foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
-            foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7])
-            )"
-        />
+        <xsl:choose>
+            <xsl:when test="count(tokenize($oldId, '/'))=7">
+                <xsl:value-of
+                    select="concat('/', 
+                    foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+                    foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+                    foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+                    foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+                    foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
+                    foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7])
+                    )"
+                />
+            </xsl:when>
+            <xsl:when test="count(tokenize($oldId, '/'))=6">
+                <xsl:value-of
+                    select="concat('/', 
+                    foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+                    foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+                    foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+                    foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+                    foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6])
+                    )"
+                />
+            </xsl:when>
+        </xsl:choose>
     </xsl:function>
     
     <xsl:function name="foo:replaceFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:param name="newId" as="xs:string"/>
-        <xsl:value-of
-                select="concat('/', 
-                foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
-                foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
-                foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
-                foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
-                foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
-                foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7]),'/',
-                foo:changePart(tokenize($oldId, '/')[8],tokenize($newId, '/')[8])
-                )"
-        />
+        <xsl:choose>
+            <xsl:when test="count(tokenize($oldId, '/'))=8">
+                <xsl:value-of
+                    select="concat('/', 
+                    foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+                    foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+                    foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+                    foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+                    foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
+                    foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7]),'/',
+                    foo:changePart(tokenize($oldId, '/')[8],tokenize($newId, '/')[8])
+                    )"
+                />
+            </xsl:when>
+            <xsl:when test="count(tokenize($oldId, '/'))=7">
+                <xsl:value-of
+                    select="concat('/', 
+                    foo:changePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
+                    foo:changePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
+                    foo:changePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
+                    foo:changePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
+                    foo:changePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
+                    foo:changePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7])
+                    )"
+                />
+            </xsl:when>
+        </xsl:choose>
     </xsl:function>
 
 </xsl:stylesheet>

@@ -23,5 +23,9 @@
          <naam>owRegelingsgebied.xml</naam>
          <objecttype>Regelingsgebied</objecttype>
       </Bestand>
+      <Bestand>
+         <naam>owGebiedsaanwijzingen.xml</naam>
+         <objecttype>Gebiedsaanwijzing</objecttype>
+      </Bestand>
    </Aanlevering>
 </Aanleveringen>

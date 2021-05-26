@@ -48,4 +48,8 @@
       <lvbb:bestandsnaam>owRegelingsgebied.xml</lvbb:bestandsnaam>
       <lvbb:contentType>application/xml</lvbb:contentType>
    </lvbb:bestand>
+   <lvbb:bestand>
+      <lvbb:bestandsnaam>owGebiedsaanwijzingen.xml</lvbb:bestandsnaam>
+      <lvbb:contentType>application/xml</lvbb:contentType>
+   </lvbb:bestand>
 </lvbb:manifest>

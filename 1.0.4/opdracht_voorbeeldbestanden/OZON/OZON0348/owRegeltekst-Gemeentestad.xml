@@ -48,13 +48,13 @@
                   <r:ActiviteitLocatieaanduiding>
                      <r:identificatie>nl.imow-gm0037.activiteitlocatieaanduiding.2019GROEP1</r:identificatie>
                      <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Informatieplicht</r:activiteitregelkwalificatie>
+                     <!-- FOUT: OZON0348	Een regel voor iedereen mag niet twee keer verwijzen naar de zelfde activiteitlocatieaanduiding. -->
                      <r:locatieaanduiding>
                         <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                         <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                      </r:locatieaanduiding>
                   </r:ActiviteitLocatieaanduiding>
                </r:activiteitaanduiding>
-               <!-- FOUT: OZON0348	Een regel voor iedereen mag niet twee keer verwijzen naar de zelfde activiteitlocatieaanduiding. -->
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
