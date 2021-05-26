@@ -28,14 +28,12 @@ echo ""
 
 #get result
 echo " ">$resultfile
-echo "<result>">$resultfile
 wget -nv --no-check-certificate $result -O result;
 echo "<envelop>">$resultfile
 echo "<test>$conversationid</test>">>$resultfile
 cat result>>$resultfile;
 echo "</envelop>">>$resultfile
 rm result
-echo "</result>">>$resultfile
 
 else
     echo "$1 is not found, please use an existing zip file"
