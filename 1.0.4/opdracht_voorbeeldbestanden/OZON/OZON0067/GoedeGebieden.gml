@@ -18,6 +18,10 @@
       <geo:GeoInformatieObjectVersie>
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
+         <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
+         <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
+         <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
+         <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
@@ -92,6 +96,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
+               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>Punt 1</geo:naam>
@@ -103,13 +108,14 @@
                                         gml:id="id-5f8f0aaa-aacc-4f88-8cff-8daaa804b4ff-d">
                            <gml:pointMember>
                               <gml:Point>
-                                 <gml:coordinates> 138189.291973878 424664.586667557 </gml:coordinates>
+                                 <gml:pos> 138189.291973878 424664.586667557 </gml:pos>
                               </gml:Point>
                            </gml:pointMember>
                         </gml:MultiPoint>
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
+               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>Punt 2</geo:naam>
@@ -121,13 +127,14 @@
                                         gml:id="id-16a7e772-7222-47aa-a0ff-a3272ae6ddf6-3">
                            <gml:pointMember>
                               <gml:Point>
-                                 <gml:coordinates> 138189.291973878 424664.586667557 </gml:coordinates>
+                                 <gml:pos> 138189.291973878 424664.586667557 </gml:pos>
                               </gml:Point>
                            </gml:pointMember>
                         </gml:MultiPoint>
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
+               <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
          </geo:locaties>
       </geo:GeoInformatieObjectVersie>
