@@ -16,7 +16,9 @@
     <!-- LET OP NIET IN STANDAARD UNIFICERING -->
     <xsl:param name="org.file.dir"/>
 
-    <xsl:variable name="dateTime" select="format-dateTime(current-dateTime(), '[Y0001][M01][D01][h01][m01][s01]')"/>
+    <xsl:param name="alreadyRetrievedDateTime"/>
+    <xsl:variable name="newDateTime" select="format-dateTime(current-dateTime(), '[Y0001][M01][D01][h01][m01][s01]')"/>
+
 
     <xsl:template match="/">
         <xsl:call-template name="index"/>
@@ -35,7 +37,7 @@
     <!-- stel index-bestand samen -->
     <xsl:param name="index">
         <xsl:element name="dateTime">
-            <xsl:value-of select="$dateTime"/>
+            <xsl:value-of select="$alreadyRetrievedDateTime"/>
         </xsl:element>
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
         <xsl:element name="testId">
@@ -57,46 +59,27 @@
                     <xsl:element name="oldFRBRWork">
                         <xsl:value-of select="document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
                     </xsl:element>
-                    <xsl:element name="FRBRWork">
-                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
-                    </xsl:element>
                     <xsl:element name="oldFRBRExpression">
                         <xsl:value-of select="document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
                     </xsl:element>
-                    <xsl:element name="FRBRExpression">
-                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression/text())"/>
-                    </xsl:element>
                 </xsl:element>
-                <xsl:element name="besluit">
-                </xsl:element>
+                <xsl:element name="besluit"> </xsl:element>
             </xsl:if>
             <xsl:if test="document($fullname)/aanlevering:AanleveringBesluit">
                 <xsl:element name="besluitId">
                     <xsl:element name="oldFRBRWork">
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
                     </xsl:element>
-                    <xsl:element name="FRBRWork">
-                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
-                    </xsl:element>
                     <xsl:element name="oldFRBRExpression">
                         <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
-                    </xsl:element>
-                    <xsl:element name="FRBRExpression">
-                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text())"/>
                     </xsl:element>
                 </xsl:element>
                 <xsl:element name="regelingId">
                     <xsl:element name="oldFRBRWork">
                         <xsl:value-of select="document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
                     </xsl:element>
-                    <xsl:element name="FRBRWork">
-                        <xsl:value-of select="foo:generateAKNFRBRWork(document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork/text())"/>
-                    </xsl:element>
                     <xsl:element name="oldFRBRExpression">
                         <xsl:value-of select="document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
-                    </xsl:element>
-                    <xsl:element name="FRBRExpression">
-                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression/text())"/>
                     </xsl:element>
                 </xsl:element>
                 <xsl:element name="besluit">
@@ -106,18 +89,11 @@
                                 <xsl:element name="old">
                                     <xsl:value-of select="."/>
                                 </xsl:element>
-                                <xsl:element name="new">
-                                    <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//@wordt)"/>
-                                </xsl:element>
                             </xsl:element>
                         </xsl:for-each>
                     </xsl:element>
                     <xsl:element name="oldInstrumentversie">
                         <xsl:value-of select="document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie/text()"/>
-                    </xsl:element>
-                    <xsl:element name="instrumentversie">
-                        <xsl:value-of select="foo:generateAKNFRBRExpression(document($fullname)//data:ConsolidatieInformatie/data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie/text())"
-                        />
                     </xsl:element>
                     <!-- InformatieRefs -->
                     <!-- doorloopt het besluit, sectie io-refs -->
@@ -371,7 +347,7 @@
                         </xsl:if>
                     </xsl:for-each>
                     <xsl:element name="new">
-                        <xsl:value-of select="concat('id-publicatie-', replace($org.file.dir, '\.', '_'), '-', $dateTime)"/>
+                        <xsl:value-of select="concat('id-publicatie-', replace($org.file.dir, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
                     </xsl:element>
                 </xsl:element>
             </xsl:if>
@@ -682,7 +658,7 @@
                 <xsl:value-of select="$oldPart"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $dateTime)"/>
+                <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
@@ -714,19 +690,6 @@
         />
     </xsl:function>
 
-    <xsl:function name="foo:generateAKNFRBRWork">
-        <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir))"
-        />
-    </xsl:function>
-
-    <xsl:function name="foo:generateAKNFRBRExpression">
-        <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir), '/', tokenize($oldId, '/')[8])"
-        />
-    </xsl:function>
 
     <xsl:template name="references">
         <xsl:param name="orgOWId"/>
