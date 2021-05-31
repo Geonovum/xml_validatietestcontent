@@ -54,34 +54,7 @@
                 </xsl:element>
             </xsl:if>
             <!-- BesluitID/RegelingID -->
-            <xsl:if test="document($fullname)/aanlevering:AanleveringKennisgeving">
-                <xsl:element name="besluitId">
-                    <xsl:element name="oldFRBRWork">
-                        <xsl:value-of select="document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
-                    </xsl:element>
-                    <xsl:element name="oldFRBRExpression">
-                        <xsl:value-of select="document($fullname)//aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
-                    </xsl:element>
-                </xsl:element>
-                <xsl:element name="besluit"> </xsl:element>
-            </xsl:if>
             <xsl:if test="document($fullname)/aanlevering:AanleveringBesluit">
-                <xsl:element name="besluitId">
-                    <xsl:element name="oldFRBRWork">
-                        <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
-                    </xsl:element>
-                    <xsl:element name="oldFRBRExpression">
-                        <xsl:value-of select="document($fullname)//aanlevering:BesluitVersie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
-                    </xsl:element>
-                </xsl:element>
-                <xsl:element name="regelingId">
-                    <xsl:element name="oldFRBRWork">
-                        <xsl:value-of select="document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork/text()"/>
-                    </xsl:element>
-                    <xsl:element name="oldFRBRExpression">
-                        <xsl:value-of select="document($fullname)//aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression/text()"/>
-                    </xsl:element>
-                </xsl:element>
                 <xsl:element name="besluit">
                     <xsl:element name="versies">
                         <xsl:for-each select="document($fullname)//@wordt">
