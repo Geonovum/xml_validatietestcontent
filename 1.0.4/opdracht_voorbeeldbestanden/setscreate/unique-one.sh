@@ -58,28 +58,25 @@ if [ -d "$1" ]; then
            l1=${lId%</*}
            l2=${l1#*>} 
            export datePart=${l2##*-}   
-           echo $datePart
 	       export postfix="$orgfiledir-$datePart"
-	       echo $postfix
-	       echo $orgfiledir
            #verwijderen oude bestanden van deze directory
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
             
 	       #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
-           echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix_0.zip"	    	   
-	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_0_$postfix.zip *;
+	       export newPostfix="$postfix-0"
+           echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
+	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
 	       #adding to git (if not done yet)
 	       echo "git add $orgdirectory/bron/*"
 	       git add $orgdirectory/bron/*
-	       echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix_0.zip;"
-	       git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_0_$postfix.zip;
+	       echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
+	       git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
 	       #overige resultaat-directories
 	       cd ..;
 	       for i in {1..100}
 	       do
-	           export newPostfix="$postfix_$i"
-	           echo $newPostfix
 	           if [ -d "resultaat_$i" ];then
+    	           export newPostfix="$postfix-$i"
 	               cd resultaat_$i
 	               pwd
                    echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
@@ -99,6 +96,7 @@ if [ -d "$1" ]; then
     else
         #we gaan naar de omkat/brondirectory en maken die schoon
         rm $omkatdir/bron/*.* 
+        rm -fr "$omkatdir"/bron_*
         #de bronbestanden worden naar de bron-directory van omkat gekopieerd.
         cp $orgdirectory/*.* $omkatdir/bron
         #we draaien ant
