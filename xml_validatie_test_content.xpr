@@ -26,6 +26,156 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_4c/Besluit_GIO_wijzigen.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_4b/Besluit_GIO_wijzigen.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_4a/Besluit_GIO_wijzigen.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_3d/Mutatie_besluit_verwijderen_artikel_met_GIO.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_3c/Besluit_wijzigen_exploiteren_kantoorruimte.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_3b/Wijzigingsbesluit-4543-1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_3a2/Wijzigingsbesluit-3a2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_3a/Wijzigingsbesluit-4527-1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_2/Mutatie_besluit_eerstewijziging.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_0/Vervangingsbesluit.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht/akn_nl_bill_gm0297-3520-01.xml</String>
                                 </field>
                                 <field name="scenarioIds">
