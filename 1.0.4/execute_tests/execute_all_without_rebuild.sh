@@ -54,7 +54,7 @@ if [[ -n $FINDNUMBER ]]; then
                 done
         fi
 else
-	for file in *.zip; do
+	for file in `ls *.zip| sort -g`; do
 	        execute_single_file $file;
         done
 fi

@@ -30,11 +30,10 @@
     >
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
     
-    <xsl:param name="oldIoRefId"/>
-    <xsl:param name="oldIoWorkId"/>
     <xsl:param name="alreadyRetrievedDateTime"/>
     <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
     <xsl:param name="org.file.dir"></xsl:param>
+    
     
     <xsl:template match="@*|node()">
         <xsl:copy>
@@ -42,7 +41,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="tekst:ExtIoRef[text()=$oldIoRefId]">
+    <xsl:template match="tekst:ExtIoRef">
         <xsl:element name="tekst:ExtIoRef">
             <xsl:attribute name="wId">
                 <xsl:value-of select="@wId"/>
@@ -51,52 +50,52 @@
                 <xsl:value-of select="@eId"/>
             </xsl:attribute>
             <xsl:attribute name="ref">
-                <xsl:value-of select="foo:replaceFRBRExpression($oldIoRefId)"/>
+                <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
             </xsl:attribute>
-            <xsl:value-of select="foo:replaceFRBRExpression($oldIoRefId)"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
     
     
-    <xsl:template match="data:BeoogdInformatieobject/data:instrumentVersie[text()=$oldIoRefId]">
+    <xsl:template match="data:BeoogdInformatieobject/data:instrumentVersie">
         <xsl:element name="data:instrumentVersie">
-            <xsl:value-of select="foo:replaceFRBRExpression($oldIoRefId)"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:informatieobjectRefs/data:informatieobjectRef[text()=$oldIoRefId]">
+    <xsl:template match="data:informatieobjectRefs/data:informatieobjectRef">
         <xsl:element name="data:informatieobjectRef">
-            <xsl:value-of select="foo:replaceFRBRExpression($oldIoRefId)"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:FRBRExpression[text()=$oldIoRefId]">
+    <xsl:template match="data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
-            <xsl:value-of select="foo:replaceFRBRExpression($oldIoRefId)"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="geo:FRBRExpression[text()=$oldIoRefId]">
+    <xsl:template match="geo:FRBRExpression">
         <xsl:element name="geo:FRBRExpression">
-            <xsl:value-of select="foo:replaceFRBRExpression($oldIoRefId)"/>
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:FRBRWork[text()=$oldIoWorkId]">
+    <xsl:template match="data:FRBRWork">
         <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork($oldIoWorkId)"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="data:InformatieObjectMetadata/data:officieleTitel[text()=$oldIoWorkId]">
+    <xsl:template match="data:InformatieObjectMetadata/data:officieleTitel">
         <xsl:element name="data:officieleTitel">
-            <xsl:value-of select="foo:replaceFRBRWork($oldIoWorkId)"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="geo:FRBRWork[text()=$oldIoWorkId]">
+    <xsl:template match="geo:FRBRWork">
         <xsl:element name="geo:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork($oldIoWorkId)"/>
+            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
     

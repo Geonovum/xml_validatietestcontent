@@ -155,22 +155,6 @@
     </for>
   </target>
 
-  <!-- TEMPLATE for convenience, can be deleted if ready 
-          <for list="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15" param="number">
-            <sequential>
-              <if><available file="bron_@{number}" type="dir" /><then>
-                  <if>
-                    <available file="bron_@{number}/@{__.name}"/>
-                    <then>
-                    </then>
-                    </if>
-              </then>
-              </if>
-            </sequential>
-          </for>
-  -->
-
-
   <target name="guids" description="Creëert een juiste aantal guids benodigd en verwerkt die in GML-bestanden en referenties.">
     <!-- Wijzig de GML-files die gerefereerd worden vanuit een OW bestand -->
     <xmltask source="${temp.dir}/index.xml">
@@ -777,18 +761,13 @@
 
   <target name="informatieobjectRefs" description="Vervangt de GIO-objctrefs in besluit, gio's en gml's">
     <property environment="env"/>
+    <!-- BESLUIT -->
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/besluit/informatieobjectRef">
         <param name="besluit.name" path="../../file[contains(@type,'besluit.xml')]/name/text()"/>
-        <param name="oldIoRefId" path="oldIoRefId/text()"/>
-        <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
-        <param name="gmlFile" path="gml/text()"/>
-        <param name="gioFile" path="gio/text()"/>
         <actions>
           <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="informatieobjectRefs.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar"/>
-            <param name="oldIoRefId" expression="@{oldIoRefId}"/>
-            <param name="oldIoWorkId" expression="@{oldIoWorkId}"/>
             <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
             <param name="org.file.dir" expression="${env.orgfiledir}"/>
             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
@@ -805,18 +784,12 @@
             <xmltask source="${temp_@{number}.dir}/index.xml">
               <call path="index/besluit/informatieobjectRef">
                 <param name="besluit.name" path="../../file[contains(@type,'besluit.xml')]/name/text()"/>
-                <param name="oldIoRefId" path="oldIoRefId/text()"/>
-                <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
-                <param name="gmlFile" path="gml/text()"/>
-                <param name="gioFile" path="gio/text()"/>
                 <actions>
                   <if>
                     <available file="bron_@{number}/@{besluit.name}"/>
                     <then>
                       <xslt in="${output_@{number}.dir}/@{besluit.name}" out="${temp_@{number}.dir}/@{besluit.name}" extension=".xml" style="informatieobjectRefs.xsl" processor="trax" force="true">
                         <classpath location="saxon9he.jar"/>
-                        <param name="oldIoRefId" expression="@{oldIoRefId}"/>
-                        <param name="oldIoWorkId" expression="@{oldIoWorkId}"/>
                         <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
@@ -831,18 +804,14 @@
         </if>
       </sequential>
     </for>
+    <!-- GML -->
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/besluit/informatieobjectRef">
         <param name="besluit.name" path="../../file[contains(@type,'besluit.xml')]/name/text()"/>
-        <param name="oldIoRefId" path="oldIoRefId/text()"/>
-        <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
         <param name="gmlFile" path="gml/text()"/>
-        <param name="gioFile" path="gio/text()"/>
         <actions>
           <xslt in="${output.dir}/@{gmlFile}" out="${temp.dir}/@{gmlFile}" extension=".gml" style="informatieobjectRefs.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar"/>
-            <param name="oldIoRefId" expression="@{oldIoRefId}"/>
-            <param name="oldIoWorkId" expression="@{oldIoWorkId}"/>
             <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
             <param name="org.file.dir" expression="${env.orgfiledir}"/>
             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
@@ -859,18 +828,13 @@
             <xmltask source="${temp_@{number}.dir}/index.xml">
               <call path="index/besluit/informatieobjectRef">
                 <param name="besluit.name" path="../../file[contains(@type,'besluit.xml')]/name/text()"/>
-                <param name="oldIoRefId" path="oldIoRefId/text()"/>
-                <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
                 <param name="gmlFile" path="gml/text()"/>
-                <param name="gioFile" path="gio/text()"/>
                 <actions>
                   <if>
                     <available file="bron_@{number}/@{gmlFile}"/>
                     <then>
                       <xslt in="${output_@{number}.dir}/@{gmlFile}" out="${temp_@{number}.dir}/@{gmlFile}" extension=".gml" style="informatieobjectRefs.xsl" processor="trax" force="true">
                         <classpath location="saxon9he.jar"/>
-                        <param name="oldIoRefId" expression="@{oldIoRefId}"/>
-                        <param name="oldIoWorkId" expression="@{oldIoWorkId}"/>
                         <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
@@ -885,18 +849,14 @@
         </if>
       </sequential>
     </for>
+    <!-- GIO -->
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/besluit/informatieobjectRef">
         <param name="besluit.name" path="../../file[contains(@type,'besluit.xml')]/name/text()"/>
-        <param name="oldIoRefId" path="oldIoRefId/text()"/>
-        <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
-        <param name="gmlFile" path="gml/text()"/>
         <param name="gioFile" path="gio/text()"/>
         <actions>
           <xslt in="${output.dir}/@{gioFile}" out="${temp.dir}/@{gioFile}" extension=".xml" style="informatieobjectRefs.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar"/>
-            <param name="oldIoRefId" expression="@{oldIoRefId}"/>
-            <param name="oldIoWorkId" expression="@{oldIoWorkId}"/>
             <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
             <param name="org.file.dir" expression="${env.orgfiledir}"/>
             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
@@ -913,9 +873,6 @@
             <xmltask source="${temp_@{number}.dir}/index.xml">
               <call path="index/besluit/informatieobjectRef">
                 <param name="besluit.name" path="../../file[contains(@type,'besluit.xml')]/name/text()"/>
-                <param name="oldIoRefId" path="oldIoRefId/text()"/>
-                <param name="oldIoWorkId" path="oldIoWorkId/text()"/>
-                <param name="gmlFile" path="gml/text()"/>
                 <param name="gioFile" path="gio/text()"/>
                 <actions>
                   <if>
@@ -923,8 +880,6 @@
                     <then>
                       <xslt in="${output_@{number}.dir}/@{gioFile}" out="${temp_@{number}.dir}/@{gioFile}" extension=".xml" style="informatieobjectRefs.xsl" processor="trax" force="true">
                         <classpath location="saxon9he.jar"/>
-                        <param name="oldIoRefId" expression="@{oldIoRefId}"/>
-                        <param name="oldIoWorkId" expression="@{oldIoWorkId}"/>
                         <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
