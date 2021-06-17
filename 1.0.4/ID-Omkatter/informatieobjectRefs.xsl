@@ -69,7 +69,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:FRBRExpression">
+    <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
@@ -81,7 +81,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:FRBRWork">
+    <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
