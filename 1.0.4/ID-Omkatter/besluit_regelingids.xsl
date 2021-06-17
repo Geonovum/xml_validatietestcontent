@@ -94,6 +94,12 @@
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
+        <xsl:element name="data:FRBRWork">
+            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+        </xsl:element>
+    </xsl:template>
 
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
@@ -101,6 +107,12 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="lvbb:identificatie">
+        <xsl:element name="identificatie" namespace="{namespace-uri()}">
+            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+        </xsl:element>
+    </xsl:template>
+        
     <xsl:function name="foo:changePart">
         <xsl:param name="oldPart" as="xs:string"/>
         <xsl:param name="newPart" as="xs:string"></xsl:param>

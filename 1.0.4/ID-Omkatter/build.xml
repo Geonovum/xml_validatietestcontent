@@ -599,9 +599,33 @@
   </target>
 
   <target name="besluitregelingids" description="Verandert Besluit en RegelingsIds door er een datum/tijd string in het vrij invulbare deel te zetten.">
+    <property environment="env"/>
+    <!-- opdracht.xml -->
+    <xslt in="${output.dir}/opdracht.xml" out="${temp.dir}/opdracht.xml" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+      <classpath location="saxon9he.jar"/>
+      <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+      <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
+      <param name="org.file.dir" expression="${env.orgfiledir}"/>
+    </xslt>
+    <copy file="${temp.dir}/opdracht.xml" tofile="${output.dir}/opdracht.xml"/>
+    <for list="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15" param="number">
+      <sequential>
+        <if>
+          <available file="bron_@{number}" type="dir"/>
+          <then>
+            <xslt in="${output_@{number}.dir}/opdracht.xml" out="${temp_@{number}.dir}/opdracht.xml" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+              <classpath location="saxon9he.jar"/>
+              <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+              <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
+              <param name="org.file.dir" expression="${env.orgfiledir}"/>
+            </xslt>
+            <copy file="${temp_@{number}.dir}/opdracht.xml" tofile="${output_@{number}.dir}/opdracht.xml"/>
+          </then>
+        </if>
+      </sequential>
+    </for>
     <!-- BESLUIT -->
     <!-- REGELING -->
-    <property environment="env"/>
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/file[contains(@type,'besluit.xml')]">
         <param name="besluit.name" path="../file[contains(@type,'besluit.xml')]/name/text()"/>
