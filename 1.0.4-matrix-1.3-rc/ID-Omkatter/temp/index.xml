@@ -1,63 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>GEOMETRY_03_1</testId>
-   <guids>
-      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>fffeaeef-affe-aafa-eefa-afeaafffffee</org>
-         <new>f08c1f38-bb8c-4fe4-b1c6-6c250268cf91</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>GoedeGebieden.gml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GoedeGebieden.xml</name>
-   </file>
-   <besluit>
-      <informatieobjectRef>
-         <gio>GoedeGebieden.xml</gio>
-         <gml>GoedeGebieden.gml</gml>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>regelingsgebied.xml</gio>
-         <gml>regelingsgebied.gml</gml>
-      </informatieobjectRef>
-   </besluit>
-   <file type="besluit.xml" ow="false">
-      <name>akn_nl_bill_gm0297-3520-01.xml</name>
+   <testId>LVBB1028</testId>
+   <file type="kennisgeving.xml" ow="false">
+      <name>Kennisgeving01.xml</name>
    </file>
    <file type="manifest-ow.xml" ow="false">
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
-      <referencefile>owLocaties-Gemeentestad.xml</referencefile>
-      <referencefile>owRegelingsgebied.xml</referencefile>
-      <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-      <new>id-publicatie-GEOMETRY_03_1-20210618040351</new>
+      <new>id-publicatie-LVBB1028-20210618042847</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
-   </file>
-   <file type="locatie.xml" ow="true">
-      <name>owLocaties-Gemeentestad.xml</name>
-   </file>
-   <file type="regelingsgebied.xml" ow="true">
-      <name>owRegelingsgebied.xml</name>
-   </file>
-   <file type="regeltekst.xml" ow="true">
-      <name>owRegeltekst-Gemeentestad.xml</name>
-   </file>
-   
-   <guids>
-      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>44467677-4464-4647-6667-77c44c767776</org>
-         <new>f6ad9938-7972-4774-817a-875d92a5ae11</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>regelingsgebied.gml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>regelingsgebied.xml</name>
    </file>
 </index>

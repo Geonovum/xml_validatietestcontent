@@ -40,7 +40,14 @@
     
     <xsl:template match="manifest-ow:DoelID">
         <xsl:element name="manifest-ow:DoelID">
-            <xsl:value-of select="foo:replaceDoelID(text())"/>
+            <xsl:choose>
+                <xsl:when test="$org.file.dir='LVBB1028'">
+                    <xsl:value-of select="text()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="foo:replaceDoelID(text())"/>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
     </xsl:template>
     
