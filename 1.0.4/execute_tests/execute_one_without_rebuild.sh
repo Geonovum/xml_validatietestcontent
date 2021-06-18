@@ -16,7 +16,13 @@ echo $filename;
 filenamewithoutextension=${filename%.zip}
 conversationid=${filenamewithoutextension#*_}
 echo $conversationid;
-result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht valideren "$file")
+if [[ $file == *-0 ]];
+	then
+	   action="publiceren"
+fi
+result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
+	
+#result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht valideren "$file")
 #wait ?? seconds for keten to create results
 
 for i in {1..45}

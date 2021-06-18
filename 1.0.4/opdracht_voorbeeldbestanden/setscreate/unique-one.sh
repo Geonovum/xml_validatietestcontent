@@ -90,7 +90,20 @@ if [ -d "$1" ]; then
 	               cd ..;	           
 	           fi
 	       done
-	       
+           if [ -d "resultaat_afbreek" ];then
+	           export newPostfix="$postfix-afbreek"
+               cd resultaat_afbreek
+               pwd
+               echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
+               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
+               #adding to git (if not done yet)
+               echo "git add $orgdirectory/bron_afbreek/*"
+               git add $orgdirectory/bron_afbreek/*
+               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
+               git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
+               #overige resultaat-directories
+               cd ..;	           
+           fi
        fi
     #anders single versie
     else

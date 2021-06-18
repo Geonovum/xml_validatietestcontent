@@ -14,7 +14,12 @@ execute_single_file () {
 	echo $file;
 	filenamewithoutextension=${file%.zip}
 	conversationid=${filenamewithoutextension#*_}
-	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht valideren "$file")
+	action="valideren"
+	if [[ $file == *-0 ]];
+	then
+	   action="publiceren"
+	fi
+	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
 	
 	#wait ?? seconds for keten to create results
 	for i in {1..45}

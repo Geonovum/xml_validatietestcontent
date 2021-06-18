@@ -15,7 +15,7 @@
       <property name="temp_@{number}.dir" value="temp_@{number}"/>
     </sequential>
   </for>
-
+  
 
   <!-- initialiseer mappen -->
 
@@ -37,6 +37,15 @@
         </if>
       </sequential>
     </for>
+    <delete dir="temp_afbreek" failonerror="no" includeemptydirs="true"/>
+    <delete dir="resultaat_afbreek" failonerror="no" includeemptydirs="true"/>
+    <if>
+      <available file="bron_afbreek" type="dir"/>
+      <then>
+        <mkdir dir="temp_afbreek"/>
+        <mkdir dir="resultaat_afbreek"/>
+      </then>
+    </if>
     <tstamp>
       <format property="build.currentDate" pattern="yyyyMMddhhmmss"/>
     </tstamp>
@@ -60,6 +69,14 @@
         </if>
       </sequential>
     </for>
+    <if>
+      <available file="bron_afbreek" type="dir"/>
+      <then>
+        <copy todir="resultaat_afbreek">
+          <fileset dir="bron_afbreek"/>
+        </copy>
+      </then>
+    </if>
   </target>
 
   <!-- maak parameters -->
@@ -94,7 +111,6 @@
             <fileset dir="${input_@{number}.dir}" includes="*.xml *.gml"/>
           </path>
           <path id="basedir" path="${basedir}"/>
-
           <if>
             <os family="unix"/>
             <then>
@@ -114,7 +130,31 @@
       </if>
     </sequential>
   </for>
-
+  <if>
+    <available file="bron_afbreek" type="dir"/>
+    <then>
+      <path id="input_afbreek.list">
+        <fileset dir="bron_afbreek" includes="*.xml *.gml"/>
+      </path>
+      <path id="basedir" path="${basedir}"/>
+      <if>
+        <os family="unix"/>
+        <then>
+          <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="unix"/>
+          <pathconvert property="file_afbreek.list" refid="input_afbreek.list" dirsep="/" pathsep=";" targetos="unix"/>
+        </then>
+        <else>
+          <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="windows">
+            <map from="${basedir}" to="file:/${basedir}"/>
+          </pathconvert>
+          <pathconvert property="file_afbreek.list" refid="input_afbreek.list" dirsep="/" pathsep=";" targetos="windows">
+            <map from="${basedir}" to="file:/${basedir}"/>
+          </pathconvert>
+        </else>
+      </if>
+    </then>
+  </if>
+  
 
   <!-- Deze wordt alleen voor de "bron" uitgevoerd, de overigen ook voor de bron_* -->
   <target name="index" description="Creëert een index van de soorten bestanden waaruit de dataset bestaat.">
@@ -153,6 +193,23 @@
         </if>
       </sequential>
     </for>
+    <if>
+      <available file="bron_afbreek" type="dir"/>
+      <then>
+        <xslt in="template.xml" out="temp_afbreek/index1.xml" style="index.xsl" processor="trax" force="true">
+          <classpath location="saxon9he.jar"/>
+          <param name="file.list" expression="${file_afbreek.list}"/>
+          <param name="base.dir" expression="${base.dir}"/>
+          <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
+          <param name="org.file.dir" expression="${env.orgfiledir}"/>
+          <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+        </xslt>
+        <xslt in="temp_afbreek/index1.xml" out="temp_afbreek/index.xml" style="filter-dupes.xsl" processor="trax" force="true">
+          <classpath location="saxon9he.jar"/>
+        </xslt>
+        <delete file="temp_afbreek/index1.xml"/>
+      </then>
+    </if>
   </target>
 
   <target name="guids" description="Creëert een juiste aantal guids benodigd en verwerkt die in GML-bestanden en referenties.">
@@ -425,6 +482,21 @@
   </target>
 
   <target name="leveringid_opdrachtparameters" description="Verandert leveringid en enkele andere parameters in opdracht en ow-bestanden door er een datum/tijd string achter te zetten.">
+    <!-- eerst de afbreek -->
+    <xmltask source="temp_afbreek/index.xml">
+      <call path="index/leveringId">
+        <param name="opdracht.name" path="@sourcefile"/>
+        <param name="newId" path="new/text()"/>
+        <actions>
+          <xslt in="resultaat_afbreek/@{opdracht.name}" out="temp_afbreek/@{opdracht.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
+            <classpath location="saxon9he.jar"/>
+            <param name="newId" expression="@{newId}"/>
+          </xslt>
+          <copy file="temp_afbreek/@{opdracht.name}" tofile="resultaat_afbreek/@{opdracht.name}"/>
+        </actions>
+      </call>
+    </xmltask>
+    <!-- dan de rest -->
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/leveringId">
         <param name="opdracht.name" path="@sourcefile"/>
@@ -600,30 +672,6 @@
 
   <target name="besluitregelingids" description="Verandert Besluit en RegelingsIds door er een datum/tijd string in het vrij invulbare deel te zetten.">
     <property environment="env"/>
-    <!-- opdracht.xml -->
-    <xslt in="${output.dir}/opdracht.xml" out="${temp.dir}/opdracht.xml" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
-      <classpath location="saxon9he.jar"/>
-      <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
-      <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
-      <param name="org.file.dir" expression="${env.orgfiledir}"/>
-    </xslt>
-    <copy file="${temp.dir}/opdracht.xml" tofile="${output.dir}/opdracht.xml"/>
-    <for list="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15" param="number">
-      <sequential>
-        <if>
-          <available file="bron_@{number}" type="dir"/>
-          <then>
-            <xslt in="${output_@{number}.dir}/opdracht.xml" out="${temp_@{number}.dir}/opdracht.xml" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
-              <classpath location="saxon9he.jar"/>
-              <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
-              <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
-              <param name="org.file.dir" expression="${env.orgfiledir}"/>
-            </xslt>
-            <copy file="${temp_@{number}.dir}/opdracht.xml" tofile="${output_@{number}.dir}/opdracht.xml"/>
-          </then>
-        </if>
-      </sequential>
-    </for>
     <!-- BESLUIT -->
     <!-- REGELING -->
     <xmltask source="${temp.dir}/index.xml">
