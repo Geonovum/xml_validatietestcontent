@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>GEO0004</testId>
+   <testId>GEO0005</testId>
    <guids>
       <guid gmlfile="GoedeGebieden.gml">
-         <org>e21c801e-49ee-43f8-8f5e-0000000000004</org>
-         <new>daf92fe7-f919-4039-88fb-e6908a6c12a9</new>
+         <org>e21c801e-49ee-43f8-8f5e-0000000000005</org>
+         <new>7bef4f51-a5ae-45f4-ac9b-6399e536f397</new>
       </guid>
    </guids>
    <file type="gml.xml" ow="false">
@@ -32,7 +32,7 @@
       <referencefile>owLocaties-Gemeentestad.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-      <new>id-publicatie-GEO0004-20210618031338</new>
+      <new>id-publicatie-GEO0005-20210618031618</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
@@ -51,7 +51,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
-         <new>8d2ef322-5d09-43d6-be23-558ac9305d3e</new>
+         <new>b5ef9c57-2eeb-4f7c-b055-7a0d97bc0735</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
