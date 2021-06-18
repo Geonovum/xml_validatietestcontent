@@ -22,6 +22,7 @@ fi
 if [[ $file == *-afbreek ]];then
     action="publiceren"
 fi
+echo "$action" "$file"
 result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
 	
 #result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht valideren "$file")
