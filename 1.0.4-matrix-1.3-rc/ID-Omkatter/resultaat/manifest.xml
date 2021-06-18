@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns="http://www.overheid.nl/2017/lvbb">
     <bestand>
-        <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-        <contentType>application/gml+xml</contentType>
+     <bestandsnaam>regelingsgebied.gml</bestandsnaam>
+     <contentType>application/gml+xml</contentType>
     </bestand>
-    <bestand>
-        <bestandsnaam>regelingsgebied.xml</bestandsnaam>
-        <contentType>application/xml</contentType>
+<bestand>
+     <bestandsnaam>regelingsgebied.xml</bestandsnaam>
+     <contentType>application/xml</contentType>
     </bestand>
 
     <bestand>
@@ -24,12 +24,6 @@
     <bestand>
         <bestandsnaam>FouteGebieden.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
-        <geovalidatieconfiguratie>
-            <gmlType>
-                <code>44</code>
-                <waarde>MultiSolid</waarde>
-            </gmlType>
-        </geovalidatieconfiguratie>
     </bestand>
     <bestand>
         <bestandsnaam>FouteGebieden.xml</bestandsnaam>

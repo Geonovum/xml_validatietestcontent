@@ -20,7 +20,7 @@
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
-               <geo:naam>GEO0012 coordinaat systeem niet ondersteund.</geo:naam>
+               <geo:naam>GEOMETRIE.03.5</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="ib-abbabadb-abbb-adbb-aaad-bbaadbdbbbba-xx">
                      <basisgeo:id>abbabadb-abbb-adbb-aaad-bbaadbdbbbba</basisgeo:id>
