@@ -17,10 +17,10 @@ filenamewithoutextension=${filename%.zip}
 conversationid=${filenamewithoutextension#*_}
 echo $conversationid;
 action="valideren"
-if [[ $file == *-0 ]];then
+if [[ $file == *-0.zip ]];then
     action="publiceren"
 fi
-if [[ $file == *-afbreek ]];then
+if [[ $file == *-afbreek.zip ]];then
     action="publiceren"
 fi
 echo "$action" "$file"
