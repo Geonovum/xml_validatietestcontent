@@ -24,7 +24,7 @@
          <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>
             <geo:Locatie>
-               <geo:naam>Zuilichem industriegebied 1</geo:naam>
+               <geo:naam>GEOMETRIE.03.1</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="ie-fffeaeef-affe-aafa-eefa-afeaafffffee-xx">
                      <basisgeo:id>fffeaeef-affe-aafa-eefa-afeaafffffee</basisgeo:id>
