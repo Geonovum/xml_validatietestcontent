@@ -16,6 +16,7 @@ echo $filename;
 filenamewithoutextension=${filename%.zip}
 conversationid=${filenamewithoutextension#*_}
 echo $conversationid;
+action="valideren"
 if [[ $file == *-0 ]];then
     action="publiceren"
 fi
