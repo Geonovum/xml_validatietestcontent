@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>GEO0012</testId>
+   <testId>GEOMETRY_03_6</testId>
    <guids>
-      <guid gmlfile="GoedeGebieden.gml">
-         <org>e21c801e-49ee-43f8-8f5e-0000000000012</org>
-         <new>26c79724-9bd7-41ac-8b97-fb93afb89ded</new>
-      </guid>
+      <guidInOw gmlfile="FouteGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>abbabadb-abbb-adbb-aaad-bbaadbdbbbba</org>
+         <new>e6889fea-a35d-4693-806e-1c6d99316d7f</new>
+      </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
-      <name>GoedeGebieden.gml</name>
+      <name>FouteGebieden.gml</name>
    </file>
    <file type="gio.xml" ow="false">
-      <name>GoedeGebieden.xml</name>
+      <name>FouteGebieden.xml</name>
    </file>
    <besluit>
       <informatieobjectRef>
-         <gio>GoedeGebieden.xml</gio>
-         <gml>GoedeGebieden.gml</gml>
+         <gio>FouteGebieden.xml</gio>
+         <gml>FouteGebieden.gml</gml>
       </informatieobjectRef>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -32,7 +32,7 @@
       <referencefile>owLocaties-Gemeentestad.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-      <new>id-publicatie-GEO0012-20210618035600</new>
+      <new>id-publicatie-GEOMETRY_03_6-20210618035913</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
@@ -50,8 +50,8 @@
    
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
-         <new>115ac7eb-d54f-4c21-8c59-5c108d5746a5</new>
+         <org>883d8838-33d8-d833-3338-8888838883d8</org>
+         <new>fdcc301d-3eaf-4741-b50d-4cd37e526070</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
