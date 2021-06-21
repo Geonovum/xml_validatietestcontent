@@ -21,7 +21,7 @@ if [[ $file == *-0.zip ]];then
     action="publiceren"
 fi
 if [[ $file == *-afbreek.zip ]];then
-    action="publiceren"
+    action="afbreken"
 fi
 result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
 	
