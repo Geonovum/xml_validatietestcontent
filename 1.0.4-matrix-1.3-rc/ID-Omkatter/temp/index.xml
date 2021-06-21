@@ -8,10 +8,27 @@
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
-      <new>id-publicatie-AFBREEK-OP-20210621123901</new>
+      <referencefile>owRegelingsgebied.xml</referencefile>
+      <new>id-publicatie-AFBREEK-OP-20210621125118</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <name>opdracht.xml</name>
    </file>
    
+   <file type="locatie.xml" ow="true">
+      <name>owRegelingsgebied.xml</name>
+   </file>
+   
+   <guids>
+      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
+         <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
+         <new>cf05c9d4-fd42-454f-a7e6-0e56b24d23e2</new>
+      </guidInOw>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>regelingsgebied.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>regelingsgebied.xml</name>
+   </file>
 </index>
