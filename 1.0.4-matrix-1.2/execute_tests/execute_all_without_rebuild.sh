@@ -7,7 +7,7 @@ DEBUG=$2
 LOGLEVEL=""
 
 dt=`date '+%d%m%Y-%H-%M'`
-resultfile=~/xml_validatietestcontent/1.0.4/results/result$dt.xml
+resultfile=~/xml_validatietestcontent/results/result$dt.xml
 
 execute_single_file () {
 	file=$1;
