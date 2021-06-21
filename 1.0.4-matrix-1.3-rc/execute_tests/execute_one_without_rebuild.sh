@@ -6,6 +6,8 @@ FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""
 
+resultfile=~/xml_validatietestcontent/results/result.xml
+
 if [[ -e $1 ]]; then
     file=$1;	
     filename=${file##*/};
@@ -37,7 +39,7 @@ if [[ -e $1 ]]; then
     echo "De resultaat URL = $result"
     echo " ">$resultfile
     wget -nv --no-check-certificate $result -O result;
-    echo "<envelop>">>$resultfile
+    echo "<envelop>">$resultfile
     echo "<test>$conversationid</test>">>$resultfile
     cat result>>$resultfile;
     echo "</envelop>">>$resultfile
