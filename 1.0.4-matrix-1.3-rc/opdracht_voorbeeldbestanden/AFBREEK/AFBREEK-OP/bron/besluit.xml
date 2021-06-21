@@ -57,7 +57,7 @@
         </ConsolidatieInformatie>
         <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
             <RegelingOpschrift eId="longTitle" wId="longTitle">
-                <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
+                <Al>Gemeentestad Omgevingsplan</Al>
             </RegelingOpschrift>
             <Aanhef eId="formula_1" wId="formula_1">
                 <Al>De raad van de gemeente Gemeenstestad </Al>
@@ -110,7 +110,7 @@
                 </Kop>
                 <RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/reg456/nld@1">
                     <RegelingOpschrift eId="longTitle" wId="longTitle">
-                        <Al>Omgevingsplan Zaltbommel (met de nadruk op Zuilichem)</Al>
+                        <Al>Gemeentestad Omgevingsplan</Al>
                     </RegelingOpschrift>
                     <Lichaam eId="body" wId="body">
                         <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
@@ -946,7 +946,7 @@
                     <isOfficieel>true</isOfficieel>
                 </CiteertitelInformatie>
             </heeftCiteertitelInformatie>
-            <officieleTitel>Omgevingsplan Zaltbommel (met de nadruk op Zuilichem)</officieleTitel>
+            <officieleTitel>Gemeentestad Omgevingsplan</officieleTitel>
             <onderwerpen>
                 <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
             </onderwerpen>
