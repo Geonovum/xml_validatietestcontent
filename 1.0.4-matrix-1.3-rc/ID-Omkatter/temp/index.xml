@@ -9,7 +9,7 @@
    </file>
    <leveringId sourcefile="opdracht.xml">
       <referencefile>owRegelingsgebied.xml</referencefile>
-      <new>id-publicatie-AFBREEK-OP-20210621013303</new>
+      <new>id-publicatie-AFBREEK-OP-20210621013821</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <name>opdracht.xml</name>
@@ -22,7 +22,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>ed8dbe18-1a53-4668-ae93-d882b3fea027</new>
+         <new>4d21659a-0d49-4565-a764-d9ee1d3cc50b</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
