@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
    <testId>AFBREEK-OP</testId>
-   <besluit/>
+   <besluit>
+      <informatieobjectRef>
+         <gio>regelingsgebied.xml</gio>
+         <gml>regelingsgebied.gml</gml>
+      </informatieobjectRef>
+   </besluit>
    <file type="besluit.xml" ow="false">
       <name>besluit.xml</name>
    </file>
@@ -9,7 +14,7 @@
    </file>
    <leveringId sourcefile="opdracht.xml">
       <referencefile>owRegelingsgebied.xml</referencefile>
-      <new>id-publicatie-AFBREEK-OP-20210621024541</new>
+      <new>id-publicatie-AFBREEK-OP-20210621024943</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <name>opdracht.xml</name>
@@ -22,7 +27,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>2851ddfe-3c03-45f9-8ab0-c65873743d57</new>
+         <new>d776c2ec-b08b-4b54-80b0-76628b9c09af</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
