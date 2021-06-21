@@ -22,8 +22,9 @@ if [[ -e $1 ]]; then
     if [[ $file == *-afbreek.zip ]];then
         action="afbreken"
     fi
+    echo "De opdracht is: $action"
     result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
-	
+    	
 #wait ?? seconds for keten to create results
 
     for i in {1..45}
@@ -34,6 +35,7 @@ if [[ -e $1 ]]; then
     echo ""
 
 #get result
+    echo "De resultaat URL = $result"
     echo " ">$resultfile
     wget -nv --no-check-certificate $result -O result;
     echo "<envelop>">>$resultfile
