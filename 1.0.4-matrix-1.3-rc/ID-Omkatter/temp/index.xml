@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB2500</testId>
+   <testId>LVBB3003</testId>
    <guids>
-      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b</org>
-         <new>4aced739-c4c1-4ed6-afb2-58aa3c75c242</new>
-      </guidInOw>
+      <guid gmlfile="FouteGebieden.gml">
+         <org>ef6390fb-7b29-e992-98e7-97e1a99b10eb</org>
+         <new>46c03f39-3b5b-475e-96c4-adfddd274d3d</new>
+      </guid>
    </guids>
    <file type="gml.xml" ow="false">
-      <name>GoedeGebieden.gml</name>
+      <name>FouteGebieden.gml</name>
    </file>
    <file type="gio.xml" ow="false">
-      <name>GoedeGebieden.xml</name>
+      <name>FouteGebieden.xml</name>
    </file>
    <besluit>
       <informatieobjectRef>
-         <gio>GoedeGebieden.xml</gio>
-         <gml>GoedeGebieden.gml</gml>
+         <gio>FouteGebieden.xml</gio>
+         <gml>FouteGebieden.gml</gml>
       </informatieobjectRef>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -32,7 +32,7 @@
       <referencefile>owLocaties-Gemeentestad.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-      <new>id-publicatie-LVBB2500-20210622010206</new>
+      <new>id-publicatie-LVBB3003-20210622023553</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
@@ -50,8 +50,8 @@
    
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
-         <new>200b6511-e29e-463b-8ce1-bb2a1557d76d</new>
+         <org>3fc2c23c-5c03-4572-a6fc-c2ca70221225</org>
+         <new>f02247c2-9f58-40b5-bad6-c13cf49cc5d2</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
