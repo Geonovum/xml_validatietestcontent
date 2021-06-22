@@ -29,6 +29,7 @@
     
     <xsl:param name="temp.dir"/>
     <xsl:param name="hash" select="collection(concat($temp.dir,'/checksum','?select=*.xml'))"/>
+    <xsl:param name="org.file.dir"></xsl:param>
     
     <xsl:template match="@*|node()">
         <xsl:copy>
@@ -37,10 +38,19 @@
     </xsl:template>
         
     <xsl:template match="data:hash">
-        <xsl:variable name="GML" select="string(parent::data:Bestand/data:bestandsnaam)"/>
-        <xsl:element name="data:hash">
-            <xsl:value-of select="$hash/file[name=$GML]/checksum"/>
-        </xsl:element>
+        <xsl:choose>
+            <xsl:when test="$org.file.dir='LVBB3008'">
+                <xsl:element name="data:hash">
+                    <xsl:value-of select="text()"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="GML" select="string(parent::data:Bestand/data:bestandsnaam)"/>
+                <xsl:element name="data:hash">
+                    <xsl:value-of select="$hash/file[name=$GML]/checksum"/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
 </xsl:stylesheet>

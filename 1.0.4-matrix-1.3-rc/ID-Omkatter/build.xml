@@ -975,6 +975,7 @@
 
 
   <target name="checksum_gio" description="Gebruikt de informatie van de interne ANT checksum functionaliteit.">
+    <property environment="env"/>
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/file[contains(@type,'gio.xml')]">
         <param name="giofile.name" path="name/text()"/>
@@ -982,6 +983,7 @@
           <xslt in="${output.dir}/@{giofile.name}" out="${temp.dir}/@{giofile.name}" extension=".xml" style="checksum_hash.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar"/>
             <param name="temp.dir" expression="${temp.dir}"/>
+            <param name="org.file.dir" expression="${env.orgfiledir}"/>
           </xslt>
           <copy file="${temp.dir}/@{giofile.name}" tofile="${output.dir}/@{giofile.name}"/>
         </actions>
@@ -1002,6 +1004,7 @@
                       <xslt in="${output_@{number}.dir}/@{giofile.name}" out="${temp_@{number}.dir}/@{giofile.name}" extension=".xml" style="checksum_hash.xsl" processor="trax" force="true">
                         <classpath location="saxon9he.jar"/>
                         <param name="temp.dir" expression="${temp_@{number}.dir}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
                       </xslt>
                       <copy file="${temp_@{number}.dir}/@{giofile.name}" tofile="${output_@{number}.dir}/@{giofile.name}"/>
                     </then>
