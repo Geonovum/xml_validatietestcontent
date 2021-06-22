@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>AFBREEK-OP</testId>
+   <testId>${env_orgfiledir}</testId>
    <leveringId sourcefile="opdracht.xml">
-      <new>id-publicatie-AFBREEK-OP-20210618122030</new>
+      <new>id-publicatie-${env_orgfiledir}-20210622114017</new>
    </leveringId>
 </index>
