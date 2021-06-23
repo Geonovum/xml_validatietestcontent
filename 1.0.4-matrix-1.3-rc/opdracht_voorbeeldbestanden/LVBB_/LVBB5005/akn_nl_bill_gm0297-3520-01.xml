@@ -123,7 +123,7 @@
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
             <!-- FOUT: LVBB5005	De wordt-versie moet gevuld zijn -->
-            <RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/LVBB5005/nld@2019-06-25;1">
+            <RegelingCompact componentnaam="initieel_reg" wordt="">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
