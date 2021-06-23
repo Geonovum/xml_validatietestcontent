@@ -19,11 +19,11 @@ if [[ -e $1 ]]; then
     opdracht="valideren"
     if [[ $file == *-0.zip ]];then
         opdracht="publiceren"
-        action="publiceren"
+        action="versturen"
     fi
     if [[ $file == *-afbreek.zip ]];then
         opdracht="afbreken"
-        action="afbreken"
+        action="versturen"
     fi
     echo "De opdracht is: $opdracht"
     echo "De action is: $action"
