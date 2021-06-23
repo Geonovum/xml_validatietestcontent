@@ -40,6 +40,7 @@ if [[ -e $1 ]]; then
     echo ""
 
 #get result
+    rm $resultfile
     echo "De resultaat URL = $result"
     echo " ">$resultfile
     wget -nv --no-check-certificate $result -O result;
