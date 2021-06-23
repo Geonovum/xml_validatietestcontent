@@ -14,14 +14,19 @@ execute_single_file () {
 	echo $file;
 	filenamewithoutextension=${file%.zip}
 	conversationid=${filenamewithoutextension#*_}
-	action="valideren"
-	if [[ $file == *-0 ]];then
-	   action="publiceren"
-	fi
-	if [[ $file == *-afbreek ]];then
-        action="publiceren"
+	action="versturen"
+    opdracht="valideren"
+    if [[ $file == *-0.zip ]];then
+        opdracht="publiceren"
+        action="versturen"
     fi
-	result=$(oow-corv $log_level --action versturen --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
+    if [[ $file == *-afbreek.zip ]];then
+        opdracht="afbreken"
+        action="versturen"
+    fi
+    echo "De opdracht is: $opdracht"
+    echo "De action is: $action"
+	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
 	
 	#wait ?? seconds for keten to create results
 	for i in {1..45}
