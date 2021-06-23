@@ -152,7 +152,8 @@
                 </xsl:element>
             </xsl:if>
             <!-- Levering Ids -->
-            <xsl:if test="document($fullname)//lvbb:publicatieOpdracht or document($fullname)//lvbb:validatieOpdracht or document($fullname)//lvbb:breekPublicatieAfOpdracht">
+            <xsl:if test="document($fullname)//lvbb:publicatieOpdracht">
+                <xsl:variable name="idLevering" select="document($fullname)//lvbb:publicatieOpdracht/lvbb:idLevering"/>
                 <xsl:element name="leveringId">
                     <xsl:attribute name="sourcefile" select="tokenize($fullname, '/')[last()]"/>
                     <xsl:for-each select="tokenize($file.list, ';')">
@@ -163,9 +164,43 @@
                             </xsl:element>
                         </xsl:if>
                     </xsl:for-each>
-                    <xsl:element name="new">
-                        <xsl:value-of select="concat('id-publicatie-', replace($org.file.dir, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
-                    </xsl:element>
+                </xsl:element>
+                <xsl:element name="idLevering">
+                    <xsl:value-of select="$idLevering"/>
+                </xsl:element>
+            </xsl:if>
+            <xsl:if test="document($fullname)//lvbb:validatieOpdracht">
+                <xsl:variable name="idLevering" select="document($fullname)//lvbb:validatieOpdracht/lvbb:idLevering"/>
+                <xsl:element name="leveringId">
+                    <xsl:attribute name="sourcefile" select="tokenize($fullname, '/')[last()]"/>
+                    <xsl:for-each select="tokenize($file.list, ';')">
+                        <xsl:variable name="referencefullname" select="."/>
+                        <xsl:if test="document($referencefullname)//sl:leveringsId">
+                            <xsl:element name="referencefile">
+                                <xsl:value-of select="tokenize($referencefullname, '/')[last()]"/>
+                            </xsl:element>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:element>
+                <xsl:element name="idLevering">
+                    <xsl:value-of select="$idLevering"/>
+                </xsl:element>
+            </xsl:if>
+            <xsl:if test="document($fullname)//lvbb:breekPublicatieAfOpdracht">
+                <xsl:variable name="idLevering" select="document($fullname)//lvbb:breekPublicatieAfOpdracht/lvbb:idLevering"/>
+                <xsl:element name="leveringId">
+                    <xsl:attribute name="sourcefile" select="tokenize($fullname, '/')[last()]"/>
+                    <xsl:for-each select="tokenize($file.list, ';')">
+                        <xsl:variable name="referencefullname" select="."/>
+                        <xsl:if test="document($referencefullname)//sl:leveringsId">
+                            <xsl:element name="referencefile">
+                                <xsl:value-of select="tokenize($referencefullname, '/')[last()]"/>
+                            </xsl:element>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:element>
+                <xsl:element name="idLevering">
+                    <xsl:value-of select="$idLevering"/>
                 </xsl:element>
             </xsl:if>
             <!-- GUIDS -->

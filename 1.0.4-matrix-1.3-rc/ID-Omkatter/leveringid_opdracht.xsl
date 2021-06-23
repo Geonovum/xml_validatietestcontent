@@ -9,7 +9,7 @@
     xmlns:foo="http://whatever">
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
 
-    <xsl:param name="newId"/>
+    <xsl:param name="baseId"/>
     
     <xsl:param name="alreadyRetrievedDateTime"/>
     <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
@@ -50,7 +50,7 @@
 
     <xsl:template match="sl:leveringsId">
         <xsl:element name="sl:leveringsId">
-            <xsl:value-of select="$newId"/>
+            <xsl:value-of select="concat(text(),'-',$org.file.dir,'-',$alreadyRetrievedDateTime)"/>
         </xsl:element>
     </xsl:template>
 
@@ -58,13 +58,13 @@
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
         <xsl:element name="datumBekendmaking" namespace="{namespace-uri()}">
             <xsl:choose>
-                <xsl:when test="contains($newId, 'LVBB4712')">
+                <xsl:when test="contains($org.file.dir, 'LVBB4712')">
                     <xsl:value-of select="text()"/>
                 </xsl:when>
-                <xsl:when test="contains($newId, 'LVBB1501_1')">
+                <xsl:when test="contains($org.file.dir, 'LVBB1501_1')">
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
-                <xsl:when test="contains($newId, 'LVBB1501_2')">
+                <xsl:when test="contains($org.file.dir, 'LVBB1501_2')">
                     <xsl:value-of select="substring($dateAfterTomorrow,2)"/>
                 </xsl:when>
                 <xsl:otherwise>
@@ -76,7 +76,7 @@
 
     <xsl:template match="lvbb:idLevering">
         <xsl:element name="idLevering" namespace="{namespace-uri()}">
-            <xsl:value-of select="$newId"/>
+            <xsl:value-of select="concat(text(),'-',$org.file.dir,'-',$alreadyRetrievedDateTime)"/>
         </xsl:element>
     </xsl:template>
     

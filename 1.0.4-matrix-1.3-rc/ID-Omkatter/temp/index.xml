@@ -14,8 +14,8 @@
    </file>
    <leveringId sourcefile="opdracht.xml">
       <referencefile>owRegelingsgebied.xml</referencefile>
-      <new>id-publicatie-AFBREEK-OP-20210623100408</new>
    </leveringId>
+   <idLevering>id-publicatie-1235</idLevering>
    <file type="opdracht.xml" ow="false">
       <name>opdracht.xml</name>
    </file>
@@ -27,7 +27,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>e6aafa7d-9acd-4238-9b62-995d6916b621</new>
+         <new>b2f9f3bd-22c0-4dd6-ba02-44e89c40d4cd</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">

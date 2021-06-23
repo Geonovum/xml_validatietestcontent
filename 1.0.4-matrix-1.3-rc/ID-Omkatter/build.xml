@@ -482,6 +482,7 @@
   </target>
 
   <target name="leveringid_opdrachtparameters" description="Verandert leveringid en enkele andere parameters in opdracht en ow-bestanden door er een datum/tijd string achter te zetten.">
+    <property environment="env"/>
     <!-- eerst de afbreek -->
     <if>
       <available file="bron_afbreek" type="dir"/>
@@ -489,11 +490,13 @@
         <xmltask source="temp_afbreek/index.xml">
           <call path="index/leveringId">
             <param name="opdracht.name" path="@sourcefile"/>
-            <param name="newId" path="new/text()"/>
+            <param name="baseId" path="../idLevering/text()"/>
             <actions>
               <xslt in="resultaat_afbreek/@{opdracht.name}" out="temp_afbreek/@{opdracht.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
                 <classpath location="saxon9he.jar"/>
-                <param name="newId" expression="@{newId}"/>
+                <param name="baseId" expression="@{baseId}"/>
+                <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
               </xslt>
               <copy file="temp_afbreek/@{opdracht.name}" tofile="resultaat_afbreek/@{opdracht.name}"/>
             </actions>
@@ -505,11 +508,13 @@
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/leveringId">
         <param name="opdracht.name" path="@sourcefile"/>
-        <param name="newId" path="new/text()"/>
+        <param name="baseId" path="../idLevering/text()"/>
         <actions>
           <xslt in="${output.dir}/@{opdracht.name}" out="${temp.dir}/@{opdracht.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar"/>
-            <param name="newId" expression="@{newId}"/>
+            <param name="baseId" expression="@{baseId}"/>
+            <param name="org.file.dir" expression="${env.orgfiledir}"/>
+            <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
           </xslt>
           <copy file="${temp.dir}/@{opdracht.name}" tofile="${output.dir}/@{opdracht.name}"/>
         </actions>
@@ -523,14 +528,16 @@
             <xmltask source="${temp_@{number}.dir}/index.xml">
               <call path="index/leveringId">
                 <param name="opdracht.name" path="@sourcefile"/>
-                <param name="newId" path="new/text()"/>
+                <param name="baseId" path="../idLevering/text()"/>
                 <actions>
                   <if>
                     <available file="bron_@{number}/@{opdracht.name}"/>
                     <then>
                       <xslt in="${output_@{number}.dir}/@{opdracht.name}" out="${temp_@{number}.dir}/@{opdracht.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
                         <classpath location="saxon9he.jar"/>
-                        <param name="newId" expression="@{newId}"/>
+                        <param name="baseId" expression="@{baseId}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                       </xslt>
                       <copy file="${temp_@{number}.dir}/@{opdracht.name}" tofile="${output_@{number}.dir}/@{opdracht.name}"/>
                     </then>
@@ -546,11 +553,13 @@
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/leveringId/referencefile">
         <param name="referencefile.name" path="text()"/>
-        <param name="newId" path="../new/text()"/>
+        <param name="baseId" path="../../idLevering/text()"/>
         <actions>
           <xslt in="${output.dir}/@{referencefile.name}" out="${temp.dir}/@{referencefile.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
             <classpath location="saxon9he.jar"/>
-            <param name="newId" expression="@{newId}"/>
+            <param name="baseId" expression="@{baseId}"/>
+            <param name="org.file.dir" expression="${env.orgfiledir}"/>
+            <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
           </xslt>
           <copy file="${temp.dir}/@{referencefile.name}" tofile="${output.dir}/@{referencefile.name}"/>
         </actions>
@@ -564,7 +573,7 @@
             <xmltask source="${temp_@{number}.dir}/index.xml">
               <call path="index/leveringId/referencefile">
                 <param name="referencefile.name" path="text()"/>
-                <param name="newId" path="../new/text()"/>
+                <param name="baseId" path="../../idLevering/text()"/>
                 <actions>
                   <if>
                     <available file="bron_@{number}/@{referencefile.name}"/>
@@ -572,7 +581,9 @@
                       <xslt in="${output_@{number}.dir}/@{referencefile.name}" out="${temp_@{number}.dir}/@{referencefile.name}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax"
                         force="true">
                         <classpath location="saxon9he.jar"/>
-                        <param name="newId" expression="@{newId}"/>
+                        <param name="baseId" expression="@{baseId}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                       </xslt>
                       <copy file="${temp_@{number}.dir}/@{referencefile.name}" tofile="${output_@{number}.dir}/@{referencefile.name}"/>
                     </then>
@@ -677,6 +688,26 @@
 
   <target name="besluitregelingids" description="Verandert Besluit en RegelingsIds door er een datum/tijd string in het vrij invulbare deel te zetten.">
     <property environment="env"/>
+    <!-- afbreek -->
+    <if>
+      <available file="bron_afbreek" type="dir"/>
+      <then>
+        <xmltask source="temp_afbreek/index.xml">
+          <call path="index/leveringId">
+            <param name="opdracht.name" path="@sourcefile"/>
+            <param name="baseId" path="../idLevering/text()"/>
+            <actions>
+              <xslt in="resultaat_afbreek/@{opdracht.name}" out="temp_afbreek/@{opdracht.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                <classpath location="saxon9he.jar"/>
+                <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+              </xslt>
+              <copy file="temp_afbreek/@{opdracht.name}" tofile="resultaat_afbreek/@{opdracht.name}"/>
+            </actions>
+          </call>
+        </xmltask>
+      </then>
+    </if>
     <!-- BESLUIT -->
     <!-- REGELING -->
     <xmltask source="${temp.dir}/index.xml">
