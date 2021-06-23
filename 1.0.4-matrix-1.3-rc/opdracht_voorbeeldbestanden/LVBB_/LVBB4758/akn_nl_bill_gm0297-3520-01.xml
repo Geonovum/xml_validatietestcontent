@@ -31,19 +31,7 @@
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <bekendOp>2021-06-27</bekendOp>
-         <procedurestappen>
-            <!-- Begin inzagetermijn -->
-            <!-- FOUT: LVBB4758 De datum einde inzagetermijn %1 moet groter of gelijk zijn aan de datum begin inzagetermijn %2 -->
-            <Procedurestap>
-               <soortStap>/join/id/stop/procedure/stap_014</soortStap>
-               <voltooidOp>2019-05-25</voltooidOp>
-            </Procedurestap>
-            <!-- Einde inzagetermijn -->
-            <Procedurestap>
-               <soortStap>/join/id/stop/procedure/stap_005</soortStap>
-               <voltooidOp>2019-05-24</voltooidOp>
-            </Procedurestap>
-            <!-- Vaststelling -->
+         <procedurestappen><!-- Vaststelling -->
             <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_002</soortStap>
                <voltooidOp>2019-06-25</voltooidOp>
@@ -79,6 +67,15 @@
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
+         <!-- FOUT: LVBB4018	Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd -->
+         <Tijdstempels>
+            <Tijdstempel>
+               <doel>/join/id/proces/gm0297/2019/LVBB4018</doel>
+               <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
+               <datum>2019-08-01</datum>
+               <eId>art_II</eId>
+            </Tijdstempel>
+         </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
          <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
