@@ -1,0 +1,14 @@
+<envelop>
+<test>AFBREEK-OP-20210628104007-0</test>
+<lvbb:publicatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-AFBREEK-OP-20210628104007-0</lvbb:idLevering><lvbb:tijdstipVerslag>2021-06-28T11:07:40.747555+02:00</lvbb:tijdstipVerslag><lvbb:voortgang>validatie-voltooid</lvbb:voortgang></lvbb:verslag></lvbb:publicatieVerzoekResultaat>
+<lvbb:publicatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
+                                 xmlns:stop="http://www.overheid.nl/2017/stop">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-AFBREEK-OP-20210628104007-0</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-06-28T11:08:11.582052+02:00</lvbb:tijdstipVerslag>
+      <lvbb:voortgang>validatie-voltooid</lvbb:voortgang>
+   </lvbb:verslag>
+</lvbb:publicatieVerzoekResultaat>
+
+</envelop>
