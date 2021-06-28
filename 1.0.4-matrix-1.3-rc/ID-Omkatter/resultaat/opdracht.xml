@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<publicatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
-   <idLevering>id-publicatie-1235-LVBB1502-20210628035832</idLevering>
+<validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
+   <idLevering>id-publicatie-1235-LVBB1512-20210628040540</idLevering>
    <idBevoegdGezag>00000001807288111000</idBevoegdGezag>
-   <idAanleveraar>00000003560458830000</idAanleveraar>
+   <!-- FOUT: LVBB1512 Geen machtiging aanwezig voor aanleveraar namens bevoegd-gezag op aanleverdatum -->
+   <idAanleveraar>GEEN_MACHTIGING</idAanleveraar>
    <publicatie>besluit.xml</publicatie>
    <datumBekendmaking>2021-07-01</datumBekendmaking>
-</publicatieOpdracht>
+</validatieOpdracht>
