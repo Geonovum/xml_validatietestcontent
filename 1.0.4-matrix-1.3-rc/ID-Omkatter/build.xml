@@ -957,7 +957,7 @@
                       <if>
                         <available file="bron_afbreek" type="dir"/>
                         <then>
-                          <xslt in="${output_@{number}.dir}/@{giofile.name}" out="${temp_@{number}}.dir}/@{giofile.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                          <xslt in="${output_@{number}.dir}/@{giofile.name}" out="${temp_@{number}.dir}/@{giofile.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                             <classpath location="saxon9he.jar"/>
                             <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
@@ -965,7 +965,7 @@
                           </xslt>
                         </then>
                         <else>
-                          <xslt in="${output_@{number}}.dir}/@{giofile.name}" out="${temp_@{number}}.dir}/@{giofile.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                          <xslt in="${output_@{number}.dir}/@{giofile.name}" out="${temp_@{number}.dir}/@{giofile.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                             <classpath location="saxon9he.jar"/>
                             <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
