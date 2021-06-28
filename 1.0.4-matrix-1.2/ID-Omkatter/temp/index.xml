@@ -8,7 +8,7 @@
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
-      <new>id-publicatie-${env_orgfiledir}-20210622114017</new>
+      <new>id-publicatie-${env_orgfiledir}-20210624023857</new>
    </leveringId>
    <file type="opdracht.xml" ow="false">
       <name>opdracht.xml</name>
