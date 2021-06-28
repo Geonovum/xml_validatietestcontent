@@ -1,4 +1,21 @@
 <envelop>
-<test>AFBREEK-OP-20210628104007-afbreek</test>
-<lvbb:breekPublicatieAfVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:verslag><lvbb:idLevering>id-publicatie-AFBREEK-OP-20210628104007-afbreek</lvbb:idLevering><lvbb:tijdstipVerslag>2021-06-28T11:09:09.723964+02:00</lvbb:tijdstipVerslag><lvbb:meldingen><lvbb:melding><stop:code>LVBB1563</stop:code><stop:ernst>fout</stop:ernst><stop:soort>inhoudelijk</stop:soort><stop:categorie>/akn/nl/act/gm0297/2019/AFBREEK-OP-AFBREEK-OP-20210628104007/nld@2021-07-01;1</stop:categorie><stop:beschrijving>Versie met akn /akn/nl/act/gm0297/2019/AFBREEK-OP-AFBREEK-OP-20210628104007/nld@2021-07-01;1 heeft een datum-juridisch-werkend-vanaf 2019-08-01 die niet in de toekomst ligt</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:uitkomst>behandeling-mislukt</lvbb:uitkomst></lvbb:verslag></lvbb:breekPublicatieAfVerzoekResultaat>
+    <test>AFBREEK-OP-20210628104007-afbreek</test>
+    <lvbb:breekPublicatieAfVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+        <lvbb:uitkomst>succes</lvbb:uitkomst>
+        <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-AFBREEK-OP-20210628104007-afbreek</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-06-28T11:09:09.723964+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+                <lvbb:melding>
+                    <stop:code>LVBB1563</stop:code>
+                    <stop:ernst>fout</stop:ernst>
+                    <stop:soort>inhoudelijk</stop:soort>
+                    <stop:categorie>/akn/nl/act/gm0297/2019/AFBREEK-OP-AFBREEK-OP-20210628104007/nld@2021-07-01;1</stop:categorie>
+                    <stop:beschrijving>Versie met akn /akn/nl/act/gm0297/2019/AFBREEK-OP-AFBREEK-OP-20210628104007/nld@2021-07-01;1 heeft een datum-juridisch-werkend-vanaf 2019-08-01 die niet in de
+                        toekomst ligt</stop:beschrijving>
+                </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>behandeling-mislukt</lvbb:uitkomst>
+        </lvbb:verslag>
+    </lvbb:breekPublicatieAfVerzoekResultaat>
 </envelop>

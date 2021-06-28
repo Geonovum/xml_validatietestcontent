@@ -42,6 +42,14 @@
             <xsl:value-of select="foo:replaceFRBRExpression(.)"/>
         </xsl:attribute>
     </xsl:template>
+    
+    <xsl:template match="data:Tijdstempels/data:Tijdstempel[data:soortTijdstempel='juridischWerkendVanaf']/data:datum">
+        <xsl:if test="$inclusiefAfbreek=1">
+            <xsl:element name="data:datum">
+                <xsl:value-of select="$dateAfterTomorrow"/>
+            </xsl:element>
+        </xsl:if>
+    </xsl:template>
 
     <xsl:template match="data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie">
         <xsl:element name="data:instrumentVersie">
