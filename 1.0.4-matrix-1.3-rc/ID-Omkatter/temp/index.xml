@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB1512</testId>
+   <testId>LVBB1551</testId>
    <besluit>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -17,9 +17,9 @@
    </leveringId>
    <idLevering>id-publicatie-1235</idLevering>
    <file type="opdracht.xml" ow="false">
-      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
    </file>
+   
    <file type="locatie.xml" ow="true">
       <name>owRegelingsgebied.xml</name>
    </file>
@@ -27,7 +27,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>c0fee9bd-9250-483f-abb6-16829510e298</new>
+         <new>67efdac4-6b06-4f02-a9a2-c5123a6f8162</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">

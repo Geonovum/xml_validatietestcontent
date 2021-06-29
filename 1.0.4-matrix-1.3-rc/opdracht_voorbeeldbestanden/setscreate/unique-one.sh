@@ -72,24 +72,28 @@ if [ -d "$1" ]; then
 	       echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
 	       git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
 	       #overige resultaat-directories
+ 	      if [ "$1" = "LVBB1551" ]; then
+   	        echo "remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"
+               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip
+           fi
 	       cd ..;
 	       for i in {1..100}
-	       do
-	           if [ -d "resultaat_$i" ];then
-    	           export newPostfix="$postfix-$i"
-	               cd resultaat_$i
-	               pwd
-                   echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
-	               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
-	               #adding to git (if not done yet)
-	               echo "git add $orgdirectory/bron_$i/*"
-	               git add $orgdirectory/bron_$i/*
-	               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
-	               git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
-	               #overige resultaat-directories
-	               cd ..;	           
+           do
+	          if [ -d "resultaat_$i" ];then
+                  export newPostfix="$postfix-$i"
+	              cd resultaat_$i
+	              pwd
+                  echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
+	              zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
+	              #adding to git (if not done yet)
+	              echo "git add $orgdirectory/bron_$i/*"
+	              git add $orgdirectory/bron_$i/*
+	              echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
+                  git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
+	              #overige resultaat-directories
+	              cd ..;	           
 	           fi
-	       done
+           done
            if [ -d "resultaat_afbreek" ];then
 	           export newPostfix="$postfix-afbreek"
                cd resultaat_afbreek
@@ -134,19 +138,19 @@ if [ -d "$1" ]; then
     	       rm opdracht.xml
 	       fi
 	       #uitzondering voor LBVV1003
-           if [ "$1" == "LVBB1003" ]; then
+           if [ "$1" = "LVBB1003" ]; then
     	       rm manifest.xml
 	       fi
            #uitzondering voor LBVV1009
-           if [ "$1" == "LVBB1009" ]; then
+           if [ "$1" = "LVBB1009" ]; then
     	       rm GoedeGebieden.xml
 	       fi
 	       #uitzondering voor LBVV1027
-           if [ "$1" == "LVBB1027" ]; then
+           if [ "$1" = "LVBB1027" ]; then
     	       rm manifest-ow.xml
 	       fi
            #uitzondering voor LBVV4010
-           if [ "$1" == "LVBB4010" ]; then
+           if [ "$1" = "LVBB4010" ]; then
     	       rm akn_nl_bill_gm0297-3520-01.xml
 	       fi
 	       #uitzondering voor LBVV1514
@@ -154,20 +158,20 @@ if [ -d "$1" ]; then
     	       rm GoedeGebieden.xml
 	       fi
 	       #uitzondering voor LBVV2501
-           if [ "$1" == "LVBB2501" ]; then
+           if [ "$1" = "LVBB2501" ]; then
     	       rm manifest-ow.xml
 	       fi
 	       #uitzondering voor LBVV3504
-           if [ "$1" == "LVBB3504" ]; then
+           if [ "$1" = "LVBB3504" ]; then
     	       rm GoedeGebieden.xml
     	       rm GoedeGebieden.gml
 	       fi
 	       #uitzondering voor LBVV3506
-           if [ "$1" == "LVBB3506" ]; then
+           if [ "$1" = "LVBB3506" ]; then
     	       rm GoedeGebieden.gml
 	       fi
 	       #uitzondering voor LBVV3514
-           if [ "$1" == "LVBB3514" ]; then
+           if [ "$1" = "LVBB3514" ]; then
     	       rm GoedeGebieden.xml
     	       rm GoedeGebieden.gml
 	       fi
