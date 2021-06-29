@@ -76,6 +76,11 @@ if [ -d "$1" ]; then
    	        echo "remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"
                rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip
            fi
+           if [ "$1" = "LVBB1553" ]; then
+   	        echo "remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"
+   	        echo "../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip
+           fi
 	       cd ..;
 	       for i in {1..100}
            do
@@ -106,6 +111,11 @@ if [ -d "$1" ]; then
                echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
                git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
                #overige resultaat-directories
+               if [ "$1" = "LVBB1553" ]; then
+   	            echo "remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"
+   	            echo "../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip
+               fi
                cd ..;	           
            fi
        fi

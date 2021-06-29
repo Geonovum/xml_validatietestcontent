@@ -64,6 +64,11 @@
                 <xsl:when test="contains($org.file.dir, 'LVBB1501_1')">
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
+                <xsl:when test="contains($org.file.dir, 'LVBB1553')">
+                    <xsl:if test="text() = '2020-01-22'">
+                        <xsl:value-of select="$dateYesterday"/>
+                    </xsl:if>
+                </xsl:when>
                 <xsl:when test="contains($org.file.dir, 'LVBB1501_2')">
                     <xsl:value-of select="substring($dateAfterTomorrow,2)"/>
                 </xsl:when>
