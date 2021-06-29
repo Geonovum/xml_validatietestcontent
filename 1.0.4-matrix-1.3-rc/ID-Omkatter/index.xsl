@@ -186,6 +186,23 @@
                     <xsl:value-of select="$idLevering"/>
                 </xsl:element>
             </xsl:if>
+            <xsl:if test="document($fullname)//lvbb:validatieDirecteMutatieOpdracht">
+                <xsl:variable name="idLevering" select="document($fullname)//lvbb:validatieDirecteMutatieOpdracht/lvbb:idLevering"/>
+                <xsl:element name="leveringId">
+                    <xsl:attribute name="sourcefile" select="tokenize($fullname, '/')[last()]"/>
+                    <xsl:for-each select="tokenize($file.list, ';')">
+                        <xsl:variable name="referencefullname" select="."/>
+                        <xsl:if test="document($referencefullname)//sl:leveringsId">
+                            <xsl:element name="referencefile">
+                                <xsl:value-of select="tokenize($referencefullname, '/')[last()]"/>
+                            </xsl:element>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:element>
+                <xsl:element name="idLevering">
+                    <xsl:value-of select="$idLevering"/>
+                </xsl:element>
+            </xsl:if>
             <xsl:if test="document($fullname)//lvbb:breekPublicatieAfOpdracht">
                 <xsl:variable name="idLevering" select="document($fullname)//lvbb:breekPublicatieAfOpdracht/lvbb:idLevering"/>
                 <xsl:element name="leveringId">

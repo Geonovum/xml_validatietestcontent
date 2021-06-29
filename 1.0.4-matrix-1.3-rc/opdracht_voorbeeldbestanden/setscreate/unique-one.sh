@@ -195,6 +195,12 @@ if [ -d "$1" ]; then
            if [ "$1" == "LVBB1514" ]; then
     	       rm GoedeGebieden.xml
 	       fi
+	       #uitzondering voor LBVV1600
+	       if [ "$1" = "LVBB1600" ]; then
+    	       rm regelingsgebied.xml
+    	       rm regelingsgebied.gml
+    	       rm besluit.xml
+	       fi
 	       #uitzondering voor LBVV2501
            if [ "$1" = "LVBB2501" ]; then
     	       rm manifest-ow.xml

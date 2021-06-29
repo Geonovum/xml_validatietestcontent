@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB1563</testId>
+   <testId>LVBB1600</testId>
    <besluit>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -13,22 +13,39 @@
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
-      <referencefile>owRegelingsgebied.xml</referencefile>
+      <referencefile>owActiviteiten-Gemeentestad.xml</referencefile>
+      <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
    </leveringId>
-   <idLevering>id-publicatie-1235</idLevering>
-   <file type="opdracht.xml" ow="false">
-      <name>opdracht.xml</name>
+   <idLevering>id-directeMutatie-1234</idLevering>
+   <file type="activiteit.xml" ow="true">
+      <name>owActiviteiten-Gemeentestad.xml</name>
    </file>
+   <gerelateerdeActiviteitRelatie>
+      <name>owActiviteiten-Gemeentestad.xml</name>
+      <gerelateerdeActiviteitIdLokaalAanwezig>nl.imow-gm0297.activiteit.NIETGEPUBLICEERD</gerelateerdeActiviteitIdLokaalAanwezig>
+   </gerelateerdeActiviteitRelatie>
    
-   <file type="locatie.xml" ow="true">
-      <name>owRegelingsgebied.xml</name>
+   
+   
+   <bovenliggendeActiviteitRelatie>
+      <name>owActiviteiten-Gemeentestad.xml</name>
+      <bovenliggendeActiviteitIdLokaalAanwezig>nl.imow-gm0297.activiteit.NIETGEPUBLICEERD</bovenliggendeActiviteitIdLokaalAanwezig>
+   </bovenliggendeActiviteitRelatie>
+   
+   
+   
+   
+   
+   
+   
+   <file type="regeltekst.xml" ow="true">
+      <name>owRegeltekst-Gemeentestad.xml</name>
    </file>
-   
    <guids>
-      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
+      <guid gmlfile="regelingsgebied.gml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>7b04fb92-7566-482e-9c8c-391b823389be</new>
-      </guidInOw>
+         <new>a7b69aa1-f338-4d48-b672-3d5897af01d7</new>
+      </guid>
    </guids>
    <file type="gml.xml" ow="false">
       <name>regelingsgebied.gml</name>
