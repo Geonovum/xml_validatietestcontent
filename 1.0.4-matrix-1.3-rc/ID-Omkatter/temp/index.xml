@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB1028</testId>
-   <file type="kennisgeving.xml" ow="false">
-      <name>Kennisgeving01.xml</name>
+   <testId>LVBB3508</testId>
+   <besluit>
+      <informatieobjectRef>
+         <gio>regelingsgebied.xml</gio>
+         <gml>regelingsgebied.gml</gml>
+      </informatieobjectRef>
+   </besluit>
+   <file type="besluit.xml" ow="false">
+      <name>besluit.xml</name>
    </file>
    <file type="manifest-ow.xml" ow="false">
       <name>manifest-ow.xml</name>
    </file>
-   <leveringId sourcefile="opdracht.xml"/>
-   <idLevering>id-publicatie-LVBB1028</idLevering>
+   <leveringId sourcefile="opdracht.xml">
+      <referencefile>owRegelingsgebied.xml</referencefile>
+   </leveringId>
+   <idLevering>id-publicatie-1235</idLevering>
    <file type="opdracht.xml" ow="false">
-      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
+   </file>
+   
+   <file type="locatie.xml" ow="true">
+      <name>owRegelingsgebied.xml</name>
+   </file>
+   
+   <guids>
+      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
+         <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
+         <new>dcc562e6-1b2f-48f0-81ff-e6ee03c5ce74</new>
+      </guidInOw>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>regelingsgebied.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>regelingsgebied.xml</name>
    </file>
 </index>

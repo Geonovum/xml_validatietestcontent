@@ -39,7 +39,7 @@
     
     <xsl:template match="basisgeo:id[text()=$oldGUID]">
         <xsl:choose>
-            <xsl:when test="$org.file.dir = 'LVBB3010'">
+            <xsl:when test="$org.file.dir = 'LVBB3010' or $org.file.dir = 'LVBB3508'">
                 <xsl:element name="basisgeo:id">
                     <xsl:value-of select="replace(.,$oldGUID,'bfbfbfbf-bfbf-bfbf-bfbf-bfbfbfbfbfbf')"/>
                 </xsl:element></xsl:when>
@@ -53,7 +53,7 @@
     
     <xsl:template match="@gml:id[contains(.,$oldGUID)]">
         <xsl:choose>
-            <xsl:when test="$org.file.dir = 'LVBB3010'">
+            <xsl:when test="$org.file.dir = 'LVBB3010' or $org.file.dir = 'LVBB3508'">
                 <xsl:attribute name="gml:id">
                     <xsl:value-of select="replace(.,$oldGUID,'bfbfbfbf-bfbf-bfbf-bfbf-bfbfbfbfbfbf')"/>
                 </xsl:attribute></xsl:when>
@@ -67,7 +67,7 @@
     
     <xsl:template match="@xlink:href[contains(.,$oldGUID)]">
         <xsl:choose>
-            <xsl:when test="$org.file.dir = 'LVBB3010'">
+            <xsl:when test="$org.file.dir = 'LVBB3010' or $org.file.dir = 'LVBB3508'">
                 <xsl:attribute name="xlink:href">
                     <xsl:value-of select="replace(.,$oldGUID,'bfbfbfbf-bfbf-bfbf-bfbf-bfbfbfbfbfbf')"/>
                 </xsl:attribute>

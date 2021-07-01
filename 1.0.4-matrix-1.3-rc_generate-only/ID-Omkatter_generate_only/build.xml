@@ -816,8 +816,8 @@
                     <param name="inclusiefAfbreek" expression="0"/>
                   </xslt>
                 </else>
-                <copy file="${temp.dir}/@{besluit}" tofile="${output.dir}/@{besluit}"/>
               </if>
+              <copy file="${temp.dir}/@{besluit}" tofile="${output.dir}/@{besluit}"/>
             </then>
           </if>
           <if>
