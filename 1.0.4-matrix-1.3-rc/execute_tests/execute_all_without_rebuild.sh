@@ -6,6 +6,7 @@ FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""
 
+mkdir ~/xml_validatietestcontent/
 dt=`date '+%d%m%Y-%H-%M'`
 resultfile=~/xml_validatietestcontent/results/result$dt.xml
 
