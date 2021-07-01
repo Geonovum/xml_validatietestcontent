@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <publicatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
-   <idLevering>id-publicatie-1235-LVBB3508-20210630043857</idLevering>
+   <idLevering>id-publicatie-1235-AFBREEK-OP-20210701041029</idLevering>
    <idBevoegdGezag>00000001807288111000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>besluit.xml</publicatie>
-   <datumBekendmaking>2021-07-03</datumBekendmaking>
+   <datumBekendmaking>2021-07-04</datumBekendmaking>
 </publicatieOpdracht>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB3508</testId>
+   <testId>AFBREEK-OP</testId>
    <besluit>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -27,7 +27,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>dcc562e6-1b2f-48f0-81ff-e6ee03c5ce74</new>
+         <new>67af3089-b776-404b-9636-4444de5b23ef</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
