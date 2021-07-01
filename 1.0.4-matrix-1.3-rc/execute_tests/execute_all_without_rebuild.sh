@@ -26,7 +26,7 @@ execute_single_file () {
     fi
     echo "De opdracht is: $opdracht"
     echo "De action is: $action"
-	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$action" "$file")
+	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$opdracht" "$file")
 	
 	#wait ?? seconds for keten to create results
 	for i in {1..45}
