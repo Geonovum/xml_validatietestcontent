@@ -49,7 +49,7 @@ execute_single_file () {
 
 
 
-cd ~/xml_validatietestcontent/1.0.4/opdracht_voorbeeldbestanden/opdrachten_gereed
+cd ~/xml_validatietestcontent/1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/opdrachten_gereed
 
 echo "<result>">$resultfile
 if [[ -n $FINDNUMBER ]]; then
