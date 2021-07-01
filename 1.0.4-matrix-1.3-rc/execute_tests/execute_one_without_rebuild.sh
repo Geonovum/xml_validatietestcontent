@@ -6,7 +6,7 @@ FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""
 
-mkdir ~/xml_validatietestcontent/
+mkdir ~/xml_validatietestcontent/results
 resultfile=~/xml_validatietestcontent/results/result.xml
 
 if [[ -e $1 ]]; then
