@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB4036</testId>
+   <testId>LVBB4038</testId>
    <guids>
       <guidInOw gmlfile="GoedeGebieden2.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b</org>
-         <new>bcc53cb7-4d73-4756-ba51-0a1692367ce2</new>
+         <new>44891042-0083-451f-8dde-2847a7a29d15</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -51,7 +51,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
-         <new>fb4f4cc2-e5d7-4b1b-b885-f50cea873609</new>
+         <new>f606a702-15d9-4931-8383-4698277a1112</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
