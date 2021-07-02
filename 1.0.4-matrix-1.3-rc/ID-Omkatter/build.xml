@@ -39,11 +39,20 @@
     </for>
     <delete dir="temp_afbreek" failonerror="no" includeemptydirs="true"/>
     <delete dir="resultaat_afbreek" failonerror="no" includeemptydirs="true"/>
+    <delete dir="temp_afbreek_1" failonerror="no" includeemptydirs="true"/>
+    <delete dir="resultaat_afbreek_1" failonerror="no" includeemptydirs="true"/>
     <if>
       <available file="bron_afbreek" type="dir"/>
       <then>
         <mkdir dir="temp_afbreek"/>
         <mkdir dir="resultaat_afbreek"/>
+      </then>
+    </if>
+    <if>
+      <available file="bron_afbreek_1" type="dir"/>
+      <then>
+        <mkdir dir="temp_afbreek_1"/>
+        <mkdir dir="resultaat_afbreek_1"/>
       </then>
     </if>
     <tstamp>
@@ -74,6 +83,14 @@
       <then>
         <copy todir="resultaat_afbreek">
           <fileset dir="bron_afbreek"/>
+        </copy>
+      </then>
+    </if>
+    <if>
+      <available file="bron_afbreek_1" type="dir"/>
+      <then>
+        <copy todir="resultaat_afbreek_1">
+          <fileset dir="bron_afbreek_1"/>
         </copy>
       </then>
     </if>
@@ -154,6 +171,30 @@
       </if>
     </then>
   </if>
+  <if>
+    <available file="bron_afbreek_1" type="dir"/>
+    <then>
+      <path id="input_afbreek_1.list">
+        <fileset dir="bron_afbreek_1" includes="*.xml *.gml"/>
+      </path>
+      <path id="basedir" path="${basedir}"/>
+      <if>
+        <os family="unix"/>
+        <then>
+          <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="unix"/>
+          <pathconvert property="file_afbreek_1.list" refid="input_afbreek_1.list" dirsep="/" pathsep=";" targetos="unix"/>
+        </then>
+        <else>
+          <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="windows">
+            <map from="${basedir}" to="file:/${basedir}"/>
+          </pathconvert>
+          <pathconvert property="file_afbreek_1.list" refid="input_afbreek_1.list" dirsep="/" pathsep=";" targetos="windows">
+            <map from="${basedir}" to="file:/${basedir}"/>
+          </pathconvert>
+        </else>
+      </if>
+    </then>
+  </if>
 
 
   <!-- Deze wordt alleen voor de "bron" uitgevoerd, de overigen ook voor de bron_* -->
@@ -208,6 +249,23 @@
           <classpath location="saxon9he.jar"/>
         </xslt>
         <delete file="temp_afbreek/index1.xml"/>
+      </then>
+    </if>
+    <if>
+      <available file="bron_afbreek_1" type="dir"/>
+      <then>
+        <xslt in="template.xml" out="temp_afbreek_1/index1.xml" style="index.xsl" processor="trax" force="true">
+          <classpath location="saxon9he.jar"/>
+          <param name="file.list" expression="${file_afbreek.list}"/>
+          <param name="base.dir" expression="${base.dir}"/>
+          <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
+          <param name="org.file.dir" expression="${env.orgfiledir}"/>
+          <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+        </xslt>
+        <xslt in="temp_afbreek_1/index1.xml" out="temp_afbreek_1/index.xml" style="filter-dupes.xsl" processor="trax" force="true">
+          <classpath location="saxon9he.jar"/>
+        </xslt>
+        <delete file="temp_afbreek_1/index1.xml"/>
       </then>
     </if>
   </target>
@@ -545,6 +603,31 @@
         </xmltask>
       </then>
     </if>
+    <if>
+      <available file="bron_afbreek_1" type="dir"/>
+      <then>
+        <xmltask source="temp_afbreek_1/index.xml">
+          <call path="index/leveringId">
+            <param name="opdracht" path="@sourcefile" default="n/a"/>
+            <param name="baseId" path="../idLevering/text()"/>
+            <actions>
+              <if>
+                <available file="resultaat_afbreek_1/@{opdracht}"/>
+                <then>
+                  <xslt in="resultaat_afbreek_1/@{opdracht}" out="temp_afbreek_1/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
+                    <classpath location="saxon9he.jar"/>
+                    <param name="baseId" expression="@{baseId}"/>
+                    <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                    <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                  </xslt>
+                  <copy file="temp_afbreek_1/@{opdracht}" tofile="resultaat_afbreek_1/@{opdracht}"/>
+                </then>
+              </if>
+            </actions>
+          </call>
+        </xmltask>
+      </then>
+    </if>
     <!-- dan de rest -->
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/leveringId">
@@ -781,6 +864,44 @@
                     </else>
                   </if>
                   <copy file="temp_afbreek/@{opdracht}" tofile="resultaat_afbreek/@{opdracht}"/>
+                </then>
+              </if>
+            </actions>
+          </call>
+        </xmltask>
+      </then>
+    </if>
+    <if>
+      <available file="bron_afbreek_1" type="dir"/>
+      <then>
+        <xmltask source="temp_afbreek_1/index.xml">
+          <call path="index/leveringId">
+            <param name="opdracht" path="@sourcefile" default="n/a"/>
+            <param name="baseId" path="../idLevering/text()"/>
+            <actions>
+              <if>
+                <available file="resultaat_afbreek_1/@{opdracht}"/>
+                <then>
+                  <if>
+                    <available file="bron_afbreek_1" type="dir"/>
+                    <then>
+                      <xslt in="resultaat_afbreek_1/@{opdracht}" out="temp_afbreek_1/@{opdracht}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                        <classpath location="saxon9he.jar"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="inclusiefAfbreek" expression="1"/>
+                      </xslt>
+                    </then>
+                    <else>
+                      <xslt in="resultaat_afbreek_1/@{opdracht}" out="temp_afbreek_1/@{opdracht}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                        <classpath location="saxon9he.jar"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="inclusiefAfbreek" expression="0"/>
+                      </xslt>
+                    </else>
+                  </if>
+                  <copy file="temp_afbreek_1/@{opdracht}" tofile="resultaat_afbreek_1/@{opdracht}"/>
                 </then>
               </if>
             </actions>

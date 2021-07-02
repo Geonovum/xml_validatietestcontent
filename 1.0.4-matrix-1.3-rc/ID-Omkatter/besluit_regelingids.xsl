@@ -44,7 +44,9 @@
 
     <xsl:template match="data:Tijdstempels/data:Tijdstempel[data:soortTijdstempel = 'juridischWerkendVanaf']/data:datum">
         <xsl:choose>
-            <xsl:when test="$inclusiefAfbreek = 1 and not($org.file.dir = 'LVBB1563')">
+            <xsl:when test="$inclusiefAfbreek = 1 
+                and not($org.file.dir = 'LVBB1563') 
+                and not($org.file.dir = 'LVBB4200')">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:element>

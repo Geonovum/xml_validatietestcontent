@@ -110,7 +110,7 @@ if [ -d "$1" ]; then
 	           fi
            done
            if [ -d "resultaat_afbreek" ];then
-	           export newPostfix="$postfix-afbreek"
+	           export newPostfix="$postfix-afbreek-0"
                cd resultaat_afbreek
                pwd
                echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
@@ -144,6 +144,19 @@ if [ -d "$1" ]; then
    	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
                    rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip
                fi
+               cd ..;	           
+           fi
+           if [ -d "resultaat_afbreek_1" ];then
+	           export newPostfix="$postfix-afbreek-1"
+               cd resultaat_afbreek_1
+               pwd
+               echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
+               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
+               #adding to git (if not done yet)
+               echo "git add $orgdirectory/bron_afbreek_1/*"
+               git add $orgdirectory/bron_afbreek_1/*
+               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
+               git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
                cd ..;	           
            fi
        fi
