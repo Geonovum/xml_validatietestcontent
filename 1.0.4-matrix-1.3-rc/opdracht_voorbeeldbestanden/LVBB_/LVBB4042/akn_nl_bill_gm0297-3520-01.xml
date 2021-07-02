@@ -11,7 +11,8 @@
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+         <!-- FOUT: LVBB4042	BRP-code van de eindverantwoordelijke moet ingevuld zijn -->
+         <eindverantwoordelijke/>
          <maker>/tooi/id/gemeente/gm0297</maker>
          <!--soortBestuursorgaan is 'gemeenteraad'.-->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
