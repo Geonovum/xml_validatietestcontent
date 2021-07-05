@@ -61,6 +61,9 @@
                 <xsl:when test="contains($org.file.dir, 'LVBB4712')">
                     <xsl:value-of select="text()"/>
                 </xsl:when>
+                <xsl:when test="contains($org.file.dir, 'LVBB4704')">
+                    <xsl:value-of select="text()"/>
+                </xsl:when>
                 <xsl:when test="contains($org.file.dir, 'LVBB1501_1')">
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
