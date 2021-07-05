@@ -58,6 +58,9 @@
         <!-- LET OP NIET IN STANDAARD UNIFICERING -->
         <xsl:element name="datumBekendmaking" namespace="{namespace-uri()}">
             <xsl:choose>
+                <xsl:when test="contains($org.file.dir, 'LVBB4759')">
+                    <xsl:value-of select="text()"/>
+                </xsl:when>
                 <xsl:when test="contains($org.file.dir, 'LVBB4712')">
                     <xsl:value-of select="text()"/>
                 </xsl:when>
