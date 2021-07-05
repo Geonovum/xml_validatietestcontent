@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb"> 
+<idLevering>id-publicatie-LVBB4759</idLevering>
+  <idBevoegdGezag>00000001812579446000</idBevoegdGezag> 
+  <idAanleveraar>00000003560458830000</idAanleveraar>
+  <publicatie>Kennisgeving01.xml</publicatie>
+  <datumBekendmaking>2023-06-23</datumBekendmaking>
+</validatieOpdracht>
