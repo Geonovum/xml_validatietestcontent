@@ -59,7 +59,7 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="KennisgevingVersie/Procedureverloopmutatie/bekendOp">
+    <xsl:template match="bekendOp">
         <xsl:choose>
             <xsl:when test="$inclusiefAfbreek = 1 
                 and not($org.file.dir = 'LVBB4701')
