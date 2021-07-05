@@ -1,145 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB5010</testId>
+   <testId>LVBB7002</testId>
    <guids>
-      <guidInOw gmlfile="Bedrijf_categorie_2.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>50EA019E-3C96-4631-A76C-35BCF4D7AB6D</org>
-         <new>c5ca8a23-f7f7-4822-a278-c4e94e7ab078</new>
+      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b</org>
+         <new>475b373e-ab41-4fe1-81de-9d5b1bc535bc</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
-      <name>Bedrijf_categorie_2.gml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>772B4B37-69F8-4671-B92E-3BCED242409D</org>
-         <new>2e1782a5-5cfb-498f-9022-d19c1aad684a</new>
-      </guidInOw>
-      <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>D24C3416-4790-461C-A4D0-A82BA60CA7D6</org>
-         <new>7f1d890e-e6c3-4b23-92bb-4dee90c8acec</new>
-      </guidInOw>
-      <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>954BA8CC-6E90-4698-BEEC-005A65C63E98</org>
-         <new>0baad66b-d5cb-4afb-9839-eee82b3b565b</new>
-      </guidInOw>
-      <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>EFAAD5E9-B181-4C22-9C3B-B290F4586D82</org>
-         <new>028cb65c-deb9-4cd7-8131-9b894e9c6673</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Bouwhoogte.gml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Centrumgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>D28AF779-7EDD-4A88-8B11-809798F53636</org>
-         <new>31b3adc2-8ba8-40bc-9262-dcccb24ed21a</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Centrumgebied.gml</name>
+      <name>GoedeGebieden.gml</name>
    </file>
    <file type="gio.xml" ow="false">
-      <name>GIO001-Bedrijf_categorie_2.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO002-Centrumgebied.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO003-Zone_A.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO004-Zone_B.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO005-Speelhal.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO006-Bouwhoogte.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO007-Welstand.xml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>GIO008-Zuilichem.xml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Speelhal.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>33B7D2D0-BF32-4CA1-B7F6-EB0FEF30175A</org>
-         <new>125ff090-d74d-4ec9-9dea-d32a5b0b5f8e</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Speelhal.gml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Welstand.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>d775e368-6c81-40b9-9a7a-c2acb70831f3</org>
-         <new>3a08db4f-2666-43b4-bde0-e4ebd7fa060d</new>
-      </guidInOw>
-      <guidInOw gmlfile="Welstand.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>3ce37c9c-1721-4eec-9b4a-5380fd30fbac</org>
-         <new>95fff368-ad9f-4771-811a-9070264f7d2c</new>
-      </guidInOw>
-      <guidInOw gmlfile="Welstand.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>dc57c9d5-a5ca-470c-b9f6-43eb30abdf8a</org>
-         <new>ea80a324-1da6-497b-ac8e-19586e03fbbf</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Welstand.gml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Zone_A.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>B3AF6AF7-5EFA-4A87-9C66-BFB046DD89AC</org>
-         <new>f98b1e3e-87f4-4a7a-8e2e-b68577f8646f</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Zone_A.gml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Zone_B.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>0868A0B1-DA79-4C33-8305-1BDE0126FA9A</org>
-         <new>6dfc4d1a-d88c-4617-914b-e1afeca57cd1</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Zone_B.gml</name>
-   </file>
-   <guids>
-      <guidInOw gmlfile="Zuilichem.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>b69221bd-8121-4368-9058-ad4ff7618dcd</org>
-         <new>35381894-b404-4943-b7d0-21b01d8b3389</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>Zuilichem.gml</name>
+      <name>GoedeGebieden.xml</name>
    </file>
    <besluit>
       <informatieobjectRef>
-         <gio>GIO001-Bedrijf_categorie_2.xml</gio>
+         <gio>GoedeGebieden.xml</gio>
+         <gml>GoedeGebieden.gml</gml>
       </informatieobjectRef>
       <informatieobjectRef>
-         <gio>GIO002-Centrumgebied.xml</gio>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>GIO005-Speelhal.xml</gio>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>GIO006-Bouwhoogte.xml</gio>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>GIO007-Welstand.xml</gio>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>GIO003-Zone_A.xml</gio>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>GIO004-Zone_B.xml</gio>
-      </informatieobjectRef>
-      <informatieobjectRef>
-         <gio>GIO008-Zuilichem.xml</gio>
+         <gio>regelingsgebied.xml</gio>
+         <gml>regelingsgebied.gml</gml>
       </informatieobjectRef>
    </besluit>
    <file type="besluit.xml" ow="false">
@@ -149,43 +29,17 @@
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
-      <referencefile>owActiviteiten-Gemeentestad.xml</referencefile>
-      <referencefile>owGebiedsaanwijzingen-Gemeentestad.xml</referencefile>
-      <referencefile>owKaart.xml</referencefile>
       <referencefile>owLocaties-Gemeentestad.xml</referencefile>
-      <referencefile>owOmgevingsnormOmgevingswaarde.xml</referencefile>
-      <referencefile>owPons-Gemeentestad.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
-      <referencefile>owSymbolisatieItem.xml</referencefile>
    </leveringId>
-   <idLevering>id-publicatie-1250</idLevering>
+   <idLevering>id-publicatie-LVBB7002</idLevering>
    <file type="opdracht.xml" ow="false">
+      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
-   </file>
-   
-   <file type="activiteit.xml" ow="true">
-      <name>owActiviteiten-Gemeentestad.xml</name>
-   </file>
-   <gerelateerdeActiviteitRelatie>
-      <name>owActiviteiten-Gemeentestad.xml</name>
-      <gerelateerdeActiviteitIdLokaalAanwezig>nl.imow-gm0297.activiteit.2019000760</gerelateerdeActiviteitIdLokaalAanwezig>
-   </gerelateerdeActiviteitRelatie>
-   <file type="gebiedsaanwijzing.xml" ow="true">
-      <name>owGebiedsaanwijzingen-Gemeentestad.xml</name>
-   </file>
-   <file type="kaart.xml" ow="true">
-      <name>owKaart.xml</name>
    </file>
    <file type="locatie.xml" ow="true">
       <name>owLocaties-Gemeentestad.xml</name>
-   </file>
-   
-   <file type="normwaarde.xml" ow="true">
-      <name>owOmgevingsnormOmgevingswaarde.xml</name>
-   </file>
-   <file type="pons.xml" ow="true">
-      <name>owPons-Gemeentestad.xml</name>
    </file>
    <file type="regelingsgebied.xml" ow="true">
       <name>owRegelingsgebied.xml</name>
@@ -194,5 +48,16 @@
       <name>owRegeltekst-Gemeentestad.xml</name>
    </file>
    
-   
+   <guids>
+      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
+         <new>436a942d-ceb8-47db-9126-4b5b620e7404</new>
+      </guidInOw>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>regelingsgebied.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>regelingsgebied.xml</name>
+   </file>
 </index>
