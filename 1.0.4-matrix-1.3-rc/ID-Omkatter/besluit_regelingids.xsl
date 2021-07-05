@@ -62,7 +62,8 @@
     <xsl:template match="KennisgevingVersie/Procedureverloopmutatie/bekendOp">
         <xsl:choose>
             <xsl:when test="$inclusiefAfbreek = 1 
-                and not($org.file.dir = 'LVBB4701')">
+                and not($org.file.dir = 'LVBB4701')
+                and not($org.file.dir = 'LVBB4756')">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:element>
