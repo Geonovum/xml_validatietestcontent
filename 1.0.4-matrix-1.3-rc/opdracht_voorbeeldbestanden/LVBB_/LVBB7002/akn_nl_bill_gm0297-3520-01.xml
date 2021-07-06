@@ -72,7 +72,7 @@
                <doel>/join/id/proces/gm0297/2019/LVBB7002</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
-               <eId>art_II</eId>
+               <eId>art_I</eId>
             </Tijdstempel>
             <!-- FOUT: LVBB7002 Een doel kan maar 1 datum inwerking hebben -->
             <Tijdstempel>

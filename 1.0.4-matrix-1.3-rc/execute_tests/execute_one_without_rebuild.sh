@@ -8,6 +8,9 @@ LOGLEVEL=""
 
 mkdir ~/xml_validatietestcontent/results
 resultfile=~/xml_validatietestcontent/results/result.xml
+dt=`date '+%d-%m-%YT%H:%M:%S:%N'`
+logfile=~/xml_validatietestcontent/afbreeklog/ENKELVOUDIG-LOG-$dt.xml
+mkdir ~/xml_validatietestcontent/afbreeklog
 
 if [[ -e $1 ]]; then
     file=$1;	
@@ -21,10 +24,27 @@ if [[ -e $1 ]]; then
     if [[ $file == *-0.zip ]];then
         opdracht="publiceren"
         action="versturen"
+        echo "$dt: publiceren: $conversationid">$logfile 
+    fi
+    if [[ $file == *-1.zip ]];then
+        opdracht="publiceren"
+        action="versturen"
+        echo "$dt: publiceren: $conversationid">$logfile
     fi
     if [[ $file == *-afbreek.zip ]];then
         opdracht="afbreken"
         action="versturen"
+        echo "$dt: afbreken: $conversationid">$logfile
+    fi
+    if [[ $file == *-afbreek-0.zip ]];then
+        opdracht="afbreken"
+        action="versturen"
+        echo "$dt: afbreken: $conversationid">$logfile
+    fi
+    if [[ $file == *-afbreek-1.zip ]];then
+        opdracht="afbreken"
+        action="versturen"
+        echo "$dt: afbreken: $conversationid">$logfile
     fi
     echo "De opdracht is: $opdracht"
     echo "De action is: $action"

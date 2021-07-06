@@ -9,6 +9,10 @@ LOGLEVEL=""
 mkdir ~/xml_validatietestcontent/results
 dt=`date '+%d%m%Y-%H-%M'`
 resultfile=~/xml_validatietestcontent/results/result$dt.xml
+logfile=~/xml_validatietestcontent/afbreeklog/AFBREEK_LOG-$dt.xml
+dt=`date '+%d-%m-%YT%H:%M:%S:%N'`
+mkdir ~/xml_validatietestcontent/afbreeklog
+echo "$dt: nieuwe log">$logfile 
 
 execute_single_file () {
 	file=$1;
@@ -20,10 +24,27 @@ execute_single_file () {
     if [[ $file == *-0.zip ]];then
         opdracht="publiceren"
         action="versturen"
+        echo "$dt: publiceren: $conversationid">>$logfile 
+    fi
+    if [[ $file == *-1.zip ]];then
+        opdracht="publiceren"
+        action="versturen"
+        echo "$dt: publiceren: $conversationid">>$logfile
     fi
     if [[ $file == *-afbreek.zip ]];then
         opdracht="afbreken"
         action="versturen"
+        echo "$dt: afbreken: $conversationid">>$logfile
+    fi
+    if [[ $file == *-afbreek-0.zip ]];then
+        opdracht="afbreken"
+        action="versturen"
+        echo "$dt: afbreken: $conversationid">>$logfile
+    fi
+    if [[ $file == *-afbreek-1.zip ]];then
+        opdracht="afbreken"
+        action="versturen"
+        echo "$dt: afbreken: $conversationid">>$logfile
     fi
     echo "De opdracht is: $opdracht"
     echo "De action is: $action"
