@@ -5,10 +5,6 @@
       <contentType>application/xml</contentType>
    </bestand>
    <bestand>
-      <bestandsnaam>besluit.xml</bestandsnaam>
-      <contentType>application/xml</contentType>
-   </bestand>
-   <bestand>
       <bestandsnaam>opdracht.xml</bestandsnaam>
       <contentType>application/xml</contentType>
    </bestand>
@@ -17,19 +13,7 @@
       <contentType>application/xml</contentType>
    </bestand>
    <bestand>
-      <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-      <contentType>application/gml+xml</contentType>
-   </bestand>
-   <bestand>
-      <bestandsnaam>regelingsgebied.xml</bestandsnaam>
-      <contentType>application/xml</contentType>
-   </bestand>
-   <bestand>
       <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
-      <contentType>application/xml</contentType>
-   </bestand>
-   <bestand>
-      <bestandsnaam>owRegeltekst.xml</bestandsnaam>
       <contentType>application/xml</contentType>
    </bestand>
 </manifest>

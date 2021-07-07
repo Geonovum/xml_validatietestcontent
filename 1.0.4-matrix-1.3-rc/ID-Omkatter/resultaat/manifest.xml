@@ -28,4 +28,8 @@
       <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
       <contentType>application/xml</contentType>
    </bestand>
+   <bestand>
+      <bestandsnaam>owRegeltekst.xml</bestandsnaam>
+      <contentType>application/xml</contentType>
+   </bestand>
 </manifest>
