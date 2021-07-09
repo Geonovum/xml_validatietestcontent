@@ -24,28 +24,24 @@ execute_single_file () {
     if [[ $file == *-0.zip ]];then
         opdracht="publiceren"
         action="versturen"
-        echo "$dt: publiceren: $conversationid">>$logfile 
     fi
     if [[ $file == *-1.zip ]];then
         opdracht="publiceren"
         action="versturen"
-        echo "$dt: publiceren: $conversationid">>$logfile
     fi
     if [[ $file == *-afbreek.zip ]];then
         opdracht="afbreken"
         action="versturen"
-        echo "$dt: afbreken: $conversationid">>$logfile
     fi
     if [[ $file == *-afbreek-0.zip ]];then
         opdracht="afbreken"
         action="versturen"
-        echo "$dt: afbreken: $conversationid">>$logfile
     fi
     if [[ $file == *-afbreek-1.zip ]];then
         opdracht="afbreken"
         action="versturen"
-        echo "$dt: afbreken: $conversationid">>$logfile
     fi
+    echo "$dt: $opdracht: $conversationid">>$logfile
     echo "De opdracht is: $opdracht"
     echo "De action is: $action"
 	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$opdracht" "$file")
@@ -63,6 +59,8 @@ execute_single_file () {
 	echo "<envelop>">>$resultfile
 	echo "<test>$conversationid</test>">>$resultfile
 	echo "<result>$result</result>">>$resultfile
+	beschrijving=$(echo "$result" |grep -o "<stop:beschrijving>.*</stop:beschrijving>")
+	if echo "$result" |grep -q "<uitkomst>mislukt</uitkomst>"; then echo $beschrijving>>$logfile;fi
 	cat result>>$resultfile;
 	echo "</envelop>">>$resultfile
     rm result

@@ -574,7 +574,6 @@
       </sequential>
     </for>
   </target>
-
   <target name="leveringid_opdrachtparameters" description="Verandert leveringid en enkele andere parameters in opdracht en ow-bestanden door er een datum/tijd string achter te zetten.">
     <property environment="env"/>
     <!-- eerst de afbreek -->
@@ -589,12 +588,29 @@
               <if>
                 <available file="resultaat_afbreek/@{opdracht}"/>
                 <then>
-                  <xslt in="resultaat_afbreek/@{opdracht}" out="temp_afbreek/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
-                    <classpath location="saxon9he.jar"/>
-                    <param name="baseId" expression="@{baseId}"/>
-                    <param name="org.file.dir" expression="${env.orgfiledir}"/>
-                    <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
-                  </xslt>
+                  <if>
+                    <available file="bron_afbreek" type="dir"/>
+                    <then>
+                      <xslt in="resultaat_afbreek/@{opdracht}" out="temp_afbreek/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
+                        <classpath location="saxon9he.jar"/>
+                        <param name="baseId" expression="@{baseId}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="inclusiefAfbreek" expression="1"/>
+                        <param name="versie" expression="0"/>
+                      </xslt>
+                    </then>
+                    <else>
+                      <xslt in="resultaat_afbreek/@{opdracht}" out="temp_afbreek/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
+                        <classpath location="saxon9he.jar"/>
+                        <param name="baseId" expression="@{baseId}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="inclusiefAfbreek" expression="0"/>
+                        <param name="versie" expression="0"/>
+                      </xslt>
+                    </else>
+                  </if>
                   <copy file="temp_afbreek/@{opdracht}" tofile="resultaat_afbreek/@{opdracht}"/>
                 </then>
               </if>
@@ -614,12 +630,29 @@
               <if>
                 <available file="resultaat_afbreek_1/@{opdracht}"/>
                 <then>
-                  <xslt in="resultaat_afbreek_1/@{opdracht}" out="temp_afbreek_1/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
-                    <classpath location="saxon9he.jar"/>
-                    <param name="baseId" expression="@{baseId}"/>
-                    <param name="org.file.dir" expression="${env.orgfiledir}"/>
-                    <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
-                  </xslt>
+                  <if>
+                    <available file="bron_afbreek_1" type="dir"/>
+                    <then>
+                      <xslt in="resultaat_afbreek_1/@{opdracht}" out="temp_afbreek_1/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
+                        <classpath location="saxon9he.jar"/>
+                        <param name="baseId" expression="@{baseId}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="inclusiefAfbreek" expression="1"/>
+                        <param name="versie" expression="1"/>
+                      </xslt>
+                    </then>
+                    <else>
+                      <xslt in="resultaat_afbreek_1/@{opdracht}" out="temp_afbreek_1/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
+                        <classpath location="saxon9he.jar"/>
+                        <param name="baseId" expression="@{baseId}"/>
+                        <param name="org.file.dir" expression="${env.orgfiledir}"/>
+                        <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="inclusiefAfbreek" expression="0"/>
+                        <param name="versie" expression="1"/>
+                      </xslt>
+                    </else>
+                  </if>
                   <copy file="temp_afbreek_1/@{opdracht}" tofile="resultaat_afbreek_1/@{opdracht}"/>
                 </then>
               </if>
@@ -642,6 +675,7 @@
                 <param name="baseId" expression="@{baseId}"/>
                 <param name="org.file.dir" expression="${env.orgfiledir}"/>
                 <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                <param name="versie" expression="0"/>
               </xslt>
               <copy file="${temp.dir}/@{opdracht}" tofile="${output.dir}/@{opdracht}"/>
             </then>
@@ -667,6 +701,7 @@
                         <param name="baseId" expression="@{baseId}"/>
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="versie" expression="@{number}"/>
                       </xslt>
                       <copy file="${temp_@{number}.dir}/@{opdracht}" tofile="${output_@{number}.dir}/@{opdracht}"/>
                     </then>
@@ -692,6 +727,7 @@
                 <param name="baseId" expression="@{baseId}"/>
                 <param name="org.file.dir" expression="${env.orgfiledir}"/>
                 <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                <param name="versie" expression="0"/>
               </xslt>
               <copy file="${temp.dir}/@{referencefile}" tofile="${output.dir}/@{referencefile}"/>
             </then>
@@ -718,6 +754,7 @@
                         <param name="baseId" expression="@{baseId}"/>
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                        <param name="versie" expression="@{number}"/>
                       </xslt>
                       <copy file="${temp_@{number}.dir}/@{referencefile}" tofile="${output_@{number}.dir}/@{referencefile}"/>
                     </then>
