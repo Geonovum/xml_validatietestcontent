@@ -61,7 +61,6 @@ execute_single_file () {
 	echo "<result>$result</result>">>$resultfile
 	beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result)
     echo $beschrijving>>$logfile
-
 	cat result>>$resultfile;
 	echo "</envelop>">>$resultfile
     rm result

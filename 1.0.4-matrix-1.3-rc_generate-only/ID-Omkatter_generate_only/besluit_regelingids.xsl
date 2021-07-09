@@ -59,10 +59,14 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="KennisgevingVersie/Procedureverloopmutatie/bekendOp">
+    <xsl:template match="bekendOp">
         <xsl:choose>
             <xsl:when test="$inclusiefAfbreek = 1 
-                and not($org.file.dir = 'LVBB4701')">
+                and not($org.file.dir = 'LVBB4701')
+                and not($org.file.dir = 'LVBB4756')
+                and not($org.file.dir = 'LVBB7725')
+                and not($org.file.dir = 'LVBB7726')
+                and not($org.file.dir = 'LVBB7727')">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:element>
@@ -151,14 +155,14 @@
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', foo:changePart($org.file.dir)))"
+            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir))"
         />
     </xsl:function>
 
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', foo:changePart($org.file.dir)), '/', tokenize($oldId, '/')[8])"
+            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir), '/', tokenize($oldId, '/')[8])"
         />
     </xsl:function>
 
@@ -170,7 +174,17 @@
                 <xsl:value-of select="$oldPart"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
+                <xsl:variable name="leveringsId">
+                    <xsl:choose>
+                        <xsl:when test="$inclusiefAfbreek = 1">
+                            <xsl:value-of select="concat(replace($oldPart, '\.', '_'),  '-', 'AFBREEK', '-', $alreadyRetrievedDateTime)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:value-of select="$leveringsId"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
