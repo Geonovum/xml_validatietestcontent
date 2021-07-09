@@ -63,8 +63,8 @@ if [[ -e $1 ]]; then
     wget -nv --no-check-certificate $result -O result;
     echo "<envelop>">$resultfile
     echo "<test>$conversationid</test>">>$resultfile
-    beschrijving=$(echo "$result" |grep -o "<stop:beschrijving>.*</stop:beschrijving>")
-	if echo "$result" |grep -q "<uitkomst>mislukt</uitkomst>"; then echo $beschrijving>>$logfile;fi
+	beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result)
+    echo $beschrijving>>$logfile
     cat result>>$resultfile;
     echo "</envelop>">>$resultfile
     rm result

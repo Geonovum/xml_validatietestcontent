@@ -59,8 +59,9 @@ execute_single_file () {
 	echo "<envelop>">>$resultfile
 	echo "<test>$conversationid</test>">>$resultfile
 	echo "<result>$result</result>">>$resultfile
-	beschrijving=$(echo "$result" |grep -o "<stop:beschrijving>.*</stop:beschrijving>")
-	if echo "$result" |grep -q "<uitkomst>mislukt</uitkomst>"; then echo $beschrijving>>$logfile;fi
+	beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result)
+    echo $beschrijving>>$logfile
+
 	cat result>>$resultfile;
 	echo "</envelop>">>$resultfile
     rm result
