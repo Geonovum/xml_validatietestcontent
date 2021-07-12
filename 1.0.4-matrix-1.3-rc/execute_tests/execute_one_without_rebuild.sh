@@ -67,7 +67,7 @@ if [[ -e $1 ]]; then
     #the variable result contains the URL
     echo "<result>$result</result>">>$resultfile
     #the file result is queried
-    cat result;
+    echo "$(cat result)";
     if echo "$(cat result)" | grep -q "stop:ernst>fout"; then     
 	   beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result);
 	   echo "FOUT: $beschrijving">>$logfile;
@@ -77,7 +77,7 @@ if [[ -e $1 ]]; then
     echo "</envelop>">>$resultfile
     #the file result is removed
     rm result
-    catq $logfile
+    echo "$(cat $logfile)"
 
 else
     echo "$1 is not found, please use an existing zip file"
