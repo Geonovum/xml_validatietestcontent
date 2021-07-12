@@ -72,9 +72,10 @@ if [[ -e $1 ]]; then
     #the file result is removed
     rm result
     #the file result is queried
-    if echo "$resultfile" | grep -q "stop:ernst>fout"; then     
-	   beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result);
-	   echo "FOUT: $beschrijving">>$logfile;
+     if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
+           beschrijving=$( echo "$(cat $resultfile)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
+           echo "FOUT: $beschrijving";
+           echo "FOUT: $beschrijving">>$logfile;
     fi
     echo "---------------"
     echo "$(cat $resultfile)";
