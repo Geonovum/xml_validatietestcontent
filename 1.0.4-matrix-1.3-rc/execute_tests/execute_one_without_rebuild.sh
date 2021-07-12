@@ -74,6 +74,7 @@ if [[ -e $1 ]]; then
     #the file result is queried
      if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
            beschrijving=$( echo "$(cat $resultfile)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
+           echo "$dt: $opdracht: $conversationi
            echo "FOUT: $beschrijving";
            echo "FOUT: $beschrijving">>$logfile;
     fi
