@@ -76,6 +76,7 @@ if [[ -e $1 ]]; then
     echo "</envelop>">>$resultfile
     #the file result is removed
     rm result
+    less $logfile
 
 else
     echo "$1 is not found, please use an existing zip file"
