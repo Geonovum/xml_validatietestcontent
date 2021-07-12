@@ -67,7 +67,6 @@ if [[ -e $1 ]]; then
     #the variable result contains the URL
     echo "<result>$result</result>">>$resultfile
     #the file result is queried
-    echo "$(cat result)";
     if echo "$(cat result)" | grep -q "stop:ernst>fout"; then     
 	   beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result);
 	   echo "FOUT: $beschrijving">>$logfile;
@@ -75,6 +74,7 @@ if [[ -e $1 ]]; then
     #the file result is dumped into the result file
     cat result>>$resultfile;
     echo "</envelop>">>$resultfile
+    echo "$(cat $resultfile)";
     #the file result is removed
     rm result
     echo "$(cat $logfile)"
