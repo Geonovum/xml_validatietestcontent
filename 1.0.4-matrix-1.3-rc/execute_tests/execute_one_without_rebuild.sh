@@ -56,18 +56,25 @@ if [[ -e $1 ]]; then
     done
     echo ""
 
-#get result
+    #get result
     rm $resultfile
     echo "De resultaat URL = $result"
     echo " ">$resultfile
+    #result is the file in which the URL $result is dumped
     wget -nv --no-check-certificate $result -O result;
     echo "<envelop>">$resultfile
     echo "<test>$conversationid</test>">>$resultfile
+    #the variable result contains the URL
     echo "<result>$result</result>">>$resultfile
-	beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result)
-    echo $beschrijving>>$logfile
+    #the file result is queried
+    if echo "$(cat result)" | grep -q "stop:ernst>fout"; then     
+	   beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result);
+	   echo $beschrijving>>$logfile;
+    fi
+    #the file result is dumped into the result file
     cat result>>$resultfile;
     echo "</envelop>">>$resultfile
+    #the file result is removed
     rm result
 
 else
