@@ -243,8 +243,8 @@ if [ -d "$1" ]; then
     	       rm GoedeGebieden.gml
 	       fi
 	       #creeren zip-toevoeging
-	       export postfix="$orgfiledir-$datePart"
-           echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfixls .zip"	    	   
+	       export postfix="$orgfiledir-$datePart-valideren"
+           echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip"	    	   
 	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip *;
 	       echo "git add $orgdirectory/*"
 	       git add $orgdirectory/*

@@ -17,7 +17,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-         <sl:leveringsId>OZON0090-001</sl:leveringsId>
+         <sl:leveringsId>OZON-001</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Divisie</sl:objectType>
             <sl:objectType>Tekstdeel</sl:objectType>

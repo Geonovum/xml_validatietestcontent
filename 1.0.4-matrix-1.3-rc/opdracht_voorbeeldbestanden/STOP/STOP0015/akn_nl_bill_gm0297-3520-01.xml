@@ -88,6 +88,7 @@
             <Al>besluit:</Al>
          </Aanhef>
          <Lichaam eId="body_1" wId="body_1">
+            <!-- FOUT STOP0015 Een RegelingTijdelijkdeel MAG GEEN WijzigArtikel hebben -->
             <WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
                <Kop>
                   <Label>Artikel</Label>
@@ -142,11 +143,6 @@
                      </Kop>
                   </Artikel>
                </Lichaam>
-               <WijzigBijlage wId="ab" eId="ab">
-                  <Kop>
-                     <Label>asa</Label>
-                  </Kop>
-               </WijzigBijlage>
             </RegelingTijdelijkdeel>
          </WijzigBijlage>
       </BesluitCompact>
