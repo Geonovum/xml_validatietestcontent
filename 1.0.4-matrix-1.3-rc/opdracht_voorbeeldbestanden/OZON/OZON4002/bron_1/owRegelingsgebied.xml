@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Gemeente Leiden</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Gemeente Leiden</sl:gebied>
+         <sl:leveringsId>id-publicatie-1235</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Regelingsgebied</sl:objectType>
+            <sl:objectType>Gebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
+            <rg:Regelingsgebied>
+               <rg:identificatie>nl.imow-gm0297.regelingsgebied.00001</rg:identificatie>
+               <rg:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00002"/>
+               </rg:locatieaanduiding>
+            </rg:Regelingsgebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!-- FOUT OZON4002 Als een OwObject beeindigd wordt, moet de inhoud van dit object overeenkomen met wat bij Ozon bekend is. -->
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <ow:status>B</ow:status>
+               <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
+               <l:noemer>regelingsgebied_FOUT</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="fefddedc-f0f3-4dfd-ffde-33d4e433ff33"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>
