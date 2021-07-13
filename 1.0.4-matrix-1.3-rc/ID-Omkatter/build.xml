@@ -604,30 +604,6 @@
           </call>
         </xmltask>
       </then>
-      <else>
-        <xmltask source="temp_afbreek/index.xml">
-          <call path="index/leveringId">
-            <param name="opdracht" path="@sourcefile" default="n/a"/>
-            <param name="baseId" path="../idLevering/text()"/>
-            <actions>
-              <if>
-                <available file="resultaat_afbreek/@{opdracht}"/>
-                <then>
-                  <xslt in="resultaat_afbreek/@{opdracht}" out="temp_afbreek/@{opdracht}" extension=".xml" style="leveringid_opdracht.xsl" processor="trax" force="true">
-                    <classpath location="saxon9he.jar"/>
-                    <param name="baseId" expression="@{baseId}"/>
-                    <param name="org.file.dir" expression="${env.orgfiledir}"/>
-                    <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
-                    <param name="inclusiefAfbreek" expression="0"/>
-                    <param name="versie" expression="0"/>
-                  </xslt>
-                  <copy file="temp_afbreek/@{opdracht}" tofile="resultaat_afbreek/@{opdracht}"/>
-                </then>
-              </if>
-            </actions>
-          </call>
-        </xmltask>
-      </else>
     </if>
     <if>
       <available file="bron_afbreek_1" type="dir"/>

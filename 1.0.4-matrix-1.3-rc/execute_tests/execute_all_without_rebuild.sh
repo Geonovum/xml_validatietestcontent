@@ -21,23 +21,17 @@ execute_single_file () {
 	conversationid=${filenamewithoutextension#*_}
 	action="versturen"
     opdracht="valideren"
-    if [[ $file == *-0.zip ]];then
+    action="versturen"
+    opdracht="valideren"
+    if echo "$file" | grep -q "publiceren"; then
         opdracht="publiceren"
         action="versturen"
     fi
-    if [[ $file == *-1.zip ]];then
-        opdracht="publiceren"
+    if echo "$file" | grep -q "valideren"; then
+        opdracht="valideren"
         action="versturen"
     fi
-    if [[ $file == *-afbreek.zip ]];then
-        opdracht="afbreken"
-        action="versturen"
-    fi
-    if [[ $file == *-afbreek-0.zip ]];then
-        opdracht="afbreken"
-        action="versturen"
-    fi
-    if [[ $file == *-afbreek-1.zip ]];then
+    if echo "$file" | grep -q "afbreken"; then
         opdracht="afbreken"
         action="versturen"
     fi
@@ -54,16 +48,32 @@ execute_single_file () {
     done
     echo ""
 
-	#get result
-	wget -nv --no-check-certificate $result -O result;
-	echo "<envelop>">>$resultfile
-	echo "<test>$conversationid</test>">>$resultfile
-	echo "<result>$result</result>">>$resultfile
-	beschrijving=$(grep -o "<stop:beschrijving>.*</stop:beschrijving>" result)
-    echo $beschrijving>>$logfile
-	cat result>>$resultfile;
-	echo "</envelop>">>$resultfile
+    #get result
+    rm $resultfile
+    echo "De resultaat URL = $result"
+    #result is the file in which the URL $result is dumped
+    wget -nv --no-check-certificate $result -O result;
+    echo "<envelop>">>$resultfile
+    echo "<test>$conversationid</test>">>$resultfile
+    #the variable result contains the URL
+    echo "<result>$result</result>">>$resultfile
+    #the file result is dumped into the result file
+    cat result>>$resultfile;
+    echo "</envelop>">>$resultfile
+    #the file result is removed
     rm result
+    #the result is queried
+    if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
+           beschrijving=$( echo "$(cat $resultfile)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
+           echo "$dt: $opdracht: $conversationid"
+           echo "FOUT: $beschrijving";
+           echo "FOUT: $beschrijving">>$logfile;
+    fi
+    echo "---------------"
+    echo "$(cat $resultfile)";
+    echo "---------------"
+    echo "$(cat $logfile)"
+    echo "---------------"
 }
 
 
