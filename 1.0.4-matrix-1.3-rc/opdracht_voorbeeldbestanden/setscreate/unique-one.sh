@@ -63,7 +63,12 @@ if [ -d "$1" ]; then
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
             
 	       #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
-	       export newPostfix="$postfix-0"
+	       if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
+	           export newPostfix="$postfix-0-publiceren"
+	       fi
+	       if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
+	           export newPostfix="$postfix-0-valideren"
+	       fi
            echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
 	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
 	       #adding to git (if not done yet)
@@ -95,22 +100,27 @@ if [ -d "$1" ]; then
 	       for i in {1..100}
            do
 	          if [ -d "resultaat_$i" ];then
-                  export newPostfix="$postfix-$i"
-	              cd resultaat_$i
-	              pwd
-                  echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
-	              zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
-	              #adding to git (if not done yet)
-	              echo "git add $orgdirectory/bron_$i/*"
-	              git add $orgdirectory/bron_$i/*
-	              echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
-                  git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
-	              #overige resultaat-directories
-	              cd ..;	           
+    	           cd resultaat_$i
+	               pwd
+	               if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
+	                   export newPostfix="$postfix-$i-publiceren"
+	               fi
+	               if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
+	                   export newPostfix="$postfix-$i-valideren"
+	               fi
+                   echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
+	               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip *;
+	               #adding to git (if not done yet)
+	               echo "git add $orgdirectory/bron_$i/*"
+	               git add $orgdirectory/bron_$i/*
+	               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;"
+                    git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip;
+	               #overige resultaat-directories
+	               cd ..;	           
 	           fi
            done
            if [ -d "resultaat_afbreek" ];then
-	           export newPostfix="$postfix-afbreek-0"
+	           export newPostfix="$postfix-afbreek-0-afbreken"
                cd resultaat_afbreek
                pwd
                echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   
@@ -147,7 +157,7 @@ if [ -d "$1" ]; then
                cd ..;	           
            fi
            if [ -d "resultaat_afbreek_1" ];then
-	           export newPostfix="$postfix-afbreek-1"
+	           export newPostfix="$postfix-afbreek-1-afbreken"
                cd resultaat_afbreek_1
                pwd
                echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$newPostfix.zip"	    	   

@@ -21,23 +21,15 @@ if [[ -e $1 ]]; then
     echo $conversationid;
     action="versturen"
     opdracht="valideren"
-    if [[ $file == *-0.zip ]];then
+    if echo "$file" | grep -q "publiceren"; then
         opdracht="publiceren"
         action="versturen"
     fi
-    if [[ $file == *-1.zip ]];then
-        opdracht="publiceren"
+    if echo "$file" | grep -q "valideren"; then
+        opdracht="valideren"
         action="versturen"
     fi
-    if [[ $file == *-afbreek.zip ]];then
-        opdracht="afbreken"
-        action="versturen"
-    fi
-    if [[ $file == *-afbreek-0.zip ]];then
-        opdracht="afbreken"
-        action="versturen"
-    fi
-    if [[ $file == *-afbreek-1.zip ]];then
+    if echo "$file" | grep -q "afbreken"; then
         opdracht="afbreken"
         action="versturen"
     fi
@@ -72,7 +64,7 @@ if [[ -e $1 ]]; then
     #the file result is removed
     rm result
     #the file result is queried
-     if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
+    if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
            beschrijving=$( echo "$(cat $resultfile)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
            echo "$dt: $opdracht: $conversationid"
            echo "FOUT: $beschrijving";
