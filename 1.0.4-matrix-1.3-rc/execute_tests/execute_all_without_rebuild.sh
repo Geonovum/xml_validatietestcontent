@@ -49,7 +49,6 @@ execute_single_file () {
     echo ""
 
     #get result
-    rm $resultfile
     echo "De resultaat URL = $result"
     #result is the file in which the URL $result is dumped
     wget -nv --no-check-certificate $result -O result;
@@ -66,14 +65,11 @@ execute_single_file () {
     if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
            beschrijving=$( echo "$(cat $resultfile)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
            echo "$dt: $opdracht: $conversationid"
+           echo "------------------------------------------"
            echo "FOUT: $beschrijving";
+           echo "------------------------------------------"
            echo "FOUT: $beschrijving">>$logfile;
     fi
-    echo "---------------"
-    echo "$(cat $resultfile)";
-    echo "---------------"
-    echo "$(cat $logfile)"
-    echo "---------------"
 }
 
 

@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB4751</testId>
+   <testId>BHKV1009</testId>
+   <guids>
+      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>0da9a316-a010-9a09-0933-01a90a093130</org>
+         <new>62fb1826-4be1-458c-b5a7-87fabbbc4415</new>
+      </guidInOw>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>GoedeGebieden.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>GoedeGebieden.xml</name>
+   </file>
    <besluit>
+      <informatieobjectRef>
+         <gio>GoedeGebieden.xml</gio>
+         <gml>GoedeGebieden.gml</gml>
+      </informatieobjectRef>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
          <gml>regelingsgebied.gml</gml>
       </informatieobjectRef>
    </besluit>
    <file type="besluit.xml" ow="false">
-      <name>besluit.xml</name>
+      <name>akn_nl_bill_gm0297-3520-01.xml</name>
    </file>
    <file type="manifest-ow.xml" ow="false">
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
+      <referencefile>owLocaties-Gemeentestad.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
+      <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
    </leveringId>
-   <idLevering>id-publicatie-1235</idLevering>
+   <idLevering>id-publicatie-BHKV1009</idLevering>
    <file type="opdracht.xml" ow="false">
+      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
    </file>
-   
    <file type="locatie.xml" ow="true">
+      <name>owLocaties-Gemeentestad.xml</name>
+   </file>
+   <file type="regelingsgebied.xml" ow="true">
       <name>owRegelingsgebied.xml</name>
+   </file>
+   <file type="regeltekst.xml" ow="true">
+      <name>owRegeltekst-Gemeentestad.xml</name>
    </file>
    
    <guids>
-      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
-         <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>51f96081-cb6a-4eda-9a3f-8dbdbac78612</new>
+      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>e5929425-9294-49eb-99b9-92b5bb952e25</org>
+         <new>b477a116-d235-4912-9509-458a6d8261c8</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
