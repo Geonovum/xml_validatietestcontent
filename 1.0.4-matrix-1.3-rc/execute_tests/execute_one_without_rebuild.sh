@@ -54,22 +54,26 @@ if [[ -e $1 ]]; then
     echo " ">$resultfile
     #result is the file in which the URL $result is dumped
     wget -nv --no-check-certificate $result -O result;
-    echo "<envelop>">$resultfile
-    echo "<test>$conversationid</test>">>$resultfile
-    #the variable result contains the URL
-    echo "<result>$result</result>">>$resultfile
-    #the file result is dumped into the result file
-    cat result>>$resultfile;
-    echo "</envelop>">>$resultfile
-    #the file result is removed
-    rm result
+    if [ "$opdracht" = "valideren" ]; then
+        echo "<envelop>">$resultfile
+        echo "<test>$conversationid</test>">>$resultfile
+        #the variable result contains the URL
+        echo "<result>$result</result>">>$resultfile
+        #the file result is dumped into the result file
+        cat result>>$resultfile;
+        echo "</envelop>">>$resultfile
+    fi
     #the file result is queried
-    if echo "$(cat $resultfile)" | grep -q "stop:ernst>fout"; then
-           beschrijving=$( echo "$(cat $resultfile)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
+    if [ "$opdracht" != "valideren" ]; then
+        if echo "$(cat result)" | grep -q "stop:ernst>fout"; then
+           beschrijving=$( echo "$(cat result)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
            echo "$dt: $opdracht: $conversationid"
            echo "FOUT: $beschrijving";
            echo "FOUT: $beschrijving">>$logfile;
+        fi
     fi
+    #the file result is removed
+    rm result
     echo "---------------"
     echo "$(cat $resultfile)";
     echo "---------------"
