@@ -297,7 +297,7 @@
                 <xsl:with-param name="data" select="concat($node/stop:code/text(), ',&#x09;', $node/stop:ernst, ',&#x09;', $node/stop:soort)"/>
             </xsl:call-template>
         </xsl:element>
-        <xsl:if test="$node/stop:categorie">
+        <xsl:if test="$node/stop:categorie/text()">
             <xsl:element name="Row" namespace="{$defNS}">
                 <xsl:call-template name="doDrawCell">
                     <xsl:with-param name="column" select="5"/>
@@ -360,13 +360,13 @@
                 <xsl:with-param name="column" select="4"/>
                 <xsl:with-param name="data" select="do:tekstValidatieRapport($envelop)"/>
             </xsl:call-template>
-            <xsl:if test="$node/stop:categorie">
+            <xsl:if test="$node/stop:categorie/text()">
                 <xsl:call-template name="doDrawCell">
                     <xsl:with-param name="column" select="5"/>
                     <xsl:with-param name="data" select="$node/stop:categorie/text()"/>
                 </xsl:call-template>
             </xsl:if>
-            <xsl:if test="$node/stop:beschrijving">
+            <xsl:if test="$node/stop:beschrijving/text()">
                 <xsl:call-template name="doDrawCell">
                     <xsl:with-param name="column" select="6"/>
                     <xsl:with-param name="data" select="$node/stop:beschrijving/text()"/>
