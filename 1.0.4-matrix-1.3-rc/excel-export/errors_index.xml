@@ -65,6 +65,62 @@
         <message>De collectie gebruikt in de AKN identifier van een informatieobject MOET overeenkomen met zijn data:publicatieinstructie</message>
     </error>
     <error>
+        <code>BHKV1036</code>
+        <message>De identifier voor instrumentVersie moet overeenkomen met de identitier in ExtIoRef met het juiste eId</message>
+    </error>
+    <error>
+        <code>BHKV1037</code>
+        <message>De identifier voor instrumentVersie moet overeenkomen met een identitier in een ExtIoRef</message>
+    </error>
+    <error>
+        <code>GEO0001</code>
+        <message>losgekoppeld middendeel </message>
+    </error>
+    <error>
+        <code>GEO0002</code>
+        <message>dubbele identieke ringen </message>
+    </error>
+    <error>
+        <code>GEO0003</code>
+        <message>gat ligt buiten de buitenrand </message>
+    </error>
+    <error>
+        <code>GEO0004</code>
+        <message>ongeldige coordinaat </message>
+    </error>
+    <error>
+        <code>GEO0005</code>
+        <message>gaten in een gat </message>
+    </error>
+    <error>
+        <code>GEO0006</code>
+        <message>buitenrand binnen een buitenrand </message>
+    </error>
+    <error>
+        <code>GEO0007</code>
+        <message>niet gesloten ring </message>
+    </error>
+    <error>
+        <code>GEO0008</code>
+        <message>ring doorsnijdt zichzelf </message>
+    </error>
+    <error>
+        <code>GEO0009</code>
+        <message>zichzelf doorsnijdende structuur </message>
+    </error>
+    <error>
+        <code>GEO0010</code>
+        <message>geometrische component heeft te weinig punten </message>
+    </error>
+    <error>
+        <code>GEO0011</code>
+        <message>coordinaat komt meerdere keren voor </message>
+    </error>
+    <error>
+        <code>GEO0012</code>
+        <message>coordinaat systeem niet ondersteund </message>
+    </error>
+    <error>
         <code>GEOMETRY.03.1</code>
         <message>geometrie is afwezig </message>
     </error>
@@ -162,7 +218,13 @@
     </error>
     <error>
         <code>LVBB1027</code>
-        <message>Bestand manifest-ow.xml MOET aanwezig zijn in het aangeleverde zip-bestand</message>
+        <message>"Bestand manifest-ow.xml MOET aanwezig zijn in het aangeleverde zip-bestand bij: - ""validatieOpdracht"" van een besluit; - ""publicatieOpdracht"" van een besluit; -
+            ""valideerRegelingVersie""; - ""registreerRegelingVersie""; - ""valideerDoorleverenRegelingVersie""; - ""doorleverenRegelingVersie"""</message>
+    </error>
+    <error>
+        <code>LVBB1028</code>
+        <message>"Bestand manifest-ow.xml MAG NIET aanwezig zijn in het aangeleverde zip-bestand bij: - ""validatieOpdracht"" van een kennisgeving; - ""publicatieOpdracht"" van een kennisgeving; -
+            ""breekPublicatieAfOpdracht""; - ""valideerGio""; - ""publiceerGio""; - ""valideerCio""; - ""publiceerCio"""</message>
     </error>
     <error>
         <code>LVBB1501</code>
@@ -185,10 +247,6 @@
         <message>Alle bestanden voorkomend in het manifest moeten door de regisseur zijn klaargezet en omgekeerd</message>
     </error>
     <error>
-        <code>LVBB1508</code>
-        <message>Subitem mag niet eerder zijn meegeleverd bij een publicatie met dezelfde oin en id-levering</message>
-    </error>
-    <error>
         <code>LVBB1509</code>
         <message>Het opdracht bestand moet in de database aanwezig zijn met de afgeproken naam</message>
     </error>
@@ -209,8 +267,20 @@
         <message>Bij aanlevering van een GIO zonder besluit MOET het 4e veld van de AKN van de publicatie de waarde "officialGazette" bevatten</message>
     </error>
     <error>
-        <code>LVBB1514</code>
-        <message>InformatieObjectRefs moeten zijn aangeleverd in de ZIP</message>
+        <code>LVBB1515</code>
+        <message>De (soort) aanlevering MOET een besluit of kennisgeving zijn</message>
+    </error>
+    <error>
+        <code>LVBB1516</code>
+        <message>Naam van consolidatiebestand MOET gelijk zijn aan 'consolidaties.xml'</message>
+    </error>
+    <error>
+        <code>LVBB1517</code>
+        <message>Bij aanlevering van een GIO zonder besluit MOET het 4e veld van de AKN-Id van de Regelingversie de waarde "act" bevatten</message>
+    </error>
+    <error>
+        <code>LVBB1518</code>
+        <message>Bij aanlevering van een GIO zonder besluit MOET het 4e veld van de JOIN-Id van de GIO de waarde "regdata" bevatten</message>
     </error>
     <error>
         <code>LVBB1550</code>
@@ -249,6 +319,27 @@
         <message>Bestand met consolidatie-procedurestappen bij besluit wacht om afgebroken te worden</message>
     </error>
     <error>
+        <code>LVBB1560</code>
+        <message>Voor een af te breken besluit MAG NIET een kennisgeving naar dit besluit verwijzen</message>
+    </error>
+    <error>
+        <code>LVBB1561</code>
+        <message>"Een besluit MAG NIET afgebroken worden, indien a) bij dit besluit minimaal 1 Informatie-Object wordt vastgesteld, dat een geo-id bevat; en b) dit besluit het enige besluit is, dat
+            een Informatie-Object vaststelt, dat deze geo-id bevat; en c) vanuit een regelingversie, die vastgesteld is door een ander besluit, wordt verwezen naar deze geo-id."</message>
+    </error>
+    <error>
+        <code>LVBB1562</code>
+        <message>Voor een af te breken publicatie MOET er een besluit aanwezig zijn bij een regelingversie, tenzij de regelingversie via een consolidatie is aangeboden</message>
+    </error>
+    <error>
+        <code>LVBB1563</code>
+        <message>Voor een af te breken besluit MOET de 'datum juridisch-werkend-vanaf' van de regelingversie in de toekomst liggen, indien ingevuld</message>
+    </error>
+    <error>
+        <code>LVBB1564</code>
+        <message>Voor een af te breken besluit MOET de 'datum juridisch-werkend-vanaf' van het informatie-object in de toekomst liggen, indien ingevuld</message>
+    </error>
+    <error>
         <code>LVBB1600</code>
         <message>Directe Mutatie op een Besluit mag alleen wanneer dit Besluit gepubliceerd is</message>
     </error>
@@ -263,6 +354,14 @@
     <error>
         <code>LVBB2004</code>
         <message>Is er een conformprofiel voor de regelingversie?</message>
+    </error>
+    <error>
+        <code>LVBB2006</code>
+        <message>De eId/wId bij Lichaam (dit kan twee keer voorkomen in het besluit) moet uniek zijn</message>
+    </error>
+    <error>
+        <code>LVBB2007</code>
+        <message>De eId/wId bij RegelingOpschrift (dit kan twee keer voorkomen in het besluit) moet uniek zijn</message>
     </error>
     <error>
         <code>LVBB2008</code>
@@ -301,6 +400,10 @@
         <message>Een AKN- of JOIN-identificatie mag geen punt bevatten</message>
     </error>
     <error>
+        <code>LVBB2018</code>
+        <message>Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk</message>
+    </error>
+    <error>
         <code>LVBB2019</code>
         <message>Een AKN- of JOIN-identificatie MOET uit 7 delen bestaan tussen eerste '/' en '@'</message>
     </error>
@@ -311,6 +414,14 @@
     <error>
         <code>LVBB2021</code>
         <message>Het zevende deel van een AKN- of JOIN-identificatie MAG NIET meer dan 128 tekens bevatten</message>
+    </error>
+    <error>
+        <code>LVBB2022</code>
+        <message>Het deel van de akn, dat volgt op 'officialGazette', MOET gelijk zijn aan de indicatie van een publicatie (stb, stcrt, trb, gmb, prb, bgr, wsb)</message>
+    </error>
+    <error>
+        <code>LVBB2500</code>
+        <message>De AKN door het bevoegd gezag aangeleverde regeling moet als derde veld 'act' hebben</message>
     </error>
     <error>
         <code>LVBB2501</code>
@@ -353,6 +464,10 @@
         <message>Valideert het gml document tegen het schema</message>
     </error>
     <error>
+        <code>LVBB3010</code>
+        <message>als de geo:id van twee geometrieen identiek is, dan moet de geometrie zelf ook identiek zijn.</message>
+    </error>
+    <error>
         <code>LVBB3011</code>
         <message>Elk GML-element MOET een even aantal punten bevatten</message>
     </error>
@@ -369,12 +484,12 @@
         <message>Het derde deel van de JOIN identificatie van een InformatieObject moet gelijk zijn aan pubdata</message>
     </error>
     <error>
-        <code>LVBB3504</code>
-        <message>Alle informatie-objecten genoemd in de BesluitMetadata van het besluit moeten meegeleverd zijn</message>
+        <code>LVBB3503</code>
+        <message>De identificatie van een InformatieObject moet als soort werk '/join/id/stop/work_010' hebben</message>
     </error>
     <error>
-        <code>LVBB3505</code>
-        <message>De aangeleverde IO voor validatie komt niet voor in het besluit</message>
+        <code>LVBB3504</code>
+        <message>Alle informatie-objecten genoemd in de BesluitMetadata van het besluit moeten meegeleverd zijn</message>
     </error>
     <error>
         <code>LVBB3506</code>
@@ -414,6 +529,23 @@
             plaatsvinden</message>
     </error>
     <error>
+        <code>LVBB3515</code>
+        <message>De informatieobjectversie (expressie-nivo), waarnaar de JOIN-identificatie in 'wasID' verwijst, MOET tot hetzelfde informatieobject (work-nivo) horen</message>
+    </error>
+    <error>
+        <code>LVBB3516</code>
+        <message>De informatieobjectversie (expressie-nivo), waarnaar de JOIN-identificatie in 'wasID' verwijst, MOET van hetzelfde informatieobject (work-nivo) de (enige) informatieobjectversie zijn,
+            waarbij de einddatum (nog) onbekend is</message>
+    </error>
+    <error>
+        <code>LVBB3601</code>
+        <message>De data:heeftGeboorteregeling heeft als waarde een de AKN-identifier van een bestaand Work met data:soortWork = /join/id/stop/work_019 (Regeling).</message>
+    </error>
+    <error>
+        <code>LVBB3603</code>
+        <message>De waarden van data:heeftGeboorteregeling van de versies van hetzelfde consolideerbaar informatieobject hoeven niet gelijk te zijn.</message>
+    </error>
+    <error>
         <code>LVBB3900</code>
         <message>Van alle aanleveringen MOET de Expressie-id van een Informatie Object uniek zijn</message>
     </error>
@@ -442,10 +574,6 @@
         <message>soortProcedure van de eerste RegelingMetadata in een besluit moet beginnen met '/join/id/stop/regelingtype_00' (zodat van daaruit later juiste waardes kunnen worden bepaald)</message>
     </error>
     <error>
-        <code>LVBB4010</code>
-        <message>Kan besluit gevonden worden?</message>
-    </error>
-    <error>
         <code>LVBB4011</code>
         <message>Bevat het besluit mutaties?</message>
     </error>
@@ -458,8 +586,20 @@
         <message>Bestaat was-versie?</message>
     </error>
     <error>
-        <code>LVBB4017 (meldt ook BHKV1008)</code>
+        <code>LVBB4017</code>
         <message>Datum ondertekening moet aanwezig zijn in het besluit</message>
+    </error>
+    <error>
+        <code>LVBB4018</code>
+        <message>Er mogen geen tijdstempels aanwezig zijn bij een ontwerp besluit</message>
+    </error>
+    <error>
+        <code>LVBB4030</code>
+        <message>De identificatie van het besluit moet als soort werk '/join/id/stop/work_003' hebben</message>
+    </error>
+    <error>
+        <code>LVBB4031</code>
+        <message>De identificatie van een regelingversie moet als soort werk '/join/id/stop/work_019' hebben</message>
     </error>
     <error>
         <code>LVBB4032</code>
@@ -468,6 +608,10 @@
     <error>
         <code>LVBB4033</code>
         <message>Elke AKN wordt-expressie in mutatie-element moet voorkomen als FRBRExpression in ExpressionIdentificatie van RegelingVersieInformatie en omgekeerd</message>
+    </error>
+    <error>
+        <code>LVBB4034</code>
+        <message>Publicatie (besluit of kennisgeving) MOET een AKN identificatie bevatten voor het werk of de expressie</message>
     </error>
     <error>
         <code>LVBB4036</code>
@@ -535,11 +679,15 @@
         <message>"Datum begin inzagetermijn mag niet liggen voor datum bekendmaking kennisgeving [zoals benoemd in de opdracht.xml]"</message>
     </error>
     <error>
-        <code> LVBB4704</code>
+        <code>LVBB4704</code>
         <message>"Datum begin inzagetermijn mag niet liggen voor datum bekendmaking van gerelateerd besluit [zoals benoemd onder 'mededelingOver']"</message>
     </error>
     <error>
-        <code> LVBB4707</code>
+        <code>LVBB4705</code>
+        <message>Besluit met akn-id %1 horende bij deze kennisgeving heeft nog geen publicatie akn-identifier</message>
+    </error>
+    <error>
+        <code>LVBB4707</code>
         <message>Derde veld waarde akn bij kennisgeving moet gelijk zijn aan 'doc'</message>
     </error>
     <error>
@@ -547,28 +695,32 @@
         <message>Derde veld waarde 'mededeling-over' in kennisgeving moet gelijk zijn aan 'bill'</message>
     </error>
     <error>
-        <code> LVBB4711</code>
+        <code>LVBB4711</code>
         <message>Kennisgeving MAG niet eerder gepubliceerd zijn</message>
     </error>
     <error>
-        <code> LVBB4712</code>
+        <code>LVBB4712</code>
         <message>Datum bekendmaking bij kennisgeving MAG niet in het verleden (= voor huidige dag) zijn</message>
     </error>
     <error>
-        <code> LVBB4713</code>
+        <code>LVBB4713</code>
         <message>Kennisgeving wacht om afgebroken te worden</message>
     </error>
     <error>
-        <code> LVBB4714</code>
+        <code>LVBB4714</code>
         <message>Besluit bij kennisgeving wacht om afgebroken te worden</message>
     </error>
     <error>
-        <code> LVBB4715</code>
+        <code>LVBB4715</code>
         <message>Kennisgeving MOET de laatste kennisgeving bij hetzelfde besluit zijn (om te kunnen afbreken)</message>
     </error>
     <error>
-        <code> LVBB4716</code>
+        <code>LVBB4716</code>
         <message>Bestand met consolidatie-procedurestappen behorend bij kennisgeving wacht om afgebroken te worden</message>
+    </error>
+    <error>
+        <code>LVBB4734</code>
+        <message>Een Kennisgeving MOET een AKN identificatie voor de het werk of voor de expressie bevatten</message>
     </error>
     <error>
         <code>LVBB4737</code>
@@ -599,21 +751,12 @@
         <message>De datum ontvangen-op van de kennisgeving MOET liggen na de datum ontvangen-op van een eerdere consolidatie</message>
     </error>
     <error>
-        <code>LVBB4800</code>
-        <message>Als het besluit een intrekking bevat: is er een vervangende regeling opgenomen?</message>
+        <code>LVBB4758</code>
+        <message>De datum einde inzagetermijn %1 moet groter of gelijk zijn aan de datum begin inzagetermijn %2</message>
     </error>
     <error>
-        <code>LVBB4900</code>
-        <message>Een eenmaal uitgegeven Work identifier mag NOOIT gewijzigd worden (ook niet bij organisatieveranderingen etc.)</message>
-    </error>
-    <error>
-        <code>LVBB4904</code>
-        <message>De aanwezigheid van een artikel dat de citeertitel vaststelt betekent: 1) Het data:citeertitel moet aanwezig zijn in de metadata van het besluit of de regeling 2) De waarde van
-            data:isOfficieel is true</message>
-    </error>
-    <error>
-        <code>LVBB4906</code>
-        <message>De data:uri van een data:TekstReferentie met een data:soortRef = AKN binnen een data:grondslag MOET verwijzen naar een geconsolideerde regeling of versie daarvan.</message>
+        <code>LVBB4759</code>
+        <message>Datum bekendmaking kennisgeving %1 mag niet voor datum bekend op van het besluit %2 liggen </message>
     </error>
     <error>
         <code>LVBB5002</code>
@@ -636,6 +779,10 @@
         <message>De was-versie mag niet aangemaakt zijn door een besluit dat in afwachting is om afgebroken te worden</message>
     </error>
     <error>
+        <code>LVBB5009</code>
+        <message>De was- en wordt-versie hebben betrekking hebben op dezelfde regeling</message>
+    </error>
+    <error>
         <code>LVBB5010</code>
         <message>VoegToe: bestaat het toe te voegen element nog niet</message>
     </error>
@@ -654,6 +801,10 @@
     <error>
         <code>LVBB7001</code>
         <message>Lukt het expanderen van de toestand?</message>
+    </error>
+    <error>
+        <code>LVBB7002</code>
+        <message>Een doel kan maar 1 datum inwerking hebben</message>
     </error>
     <error>
         <code>LVBB7003</code>
@@ -709,7 +860,7 @@
     </error>
     <error>
         <code>LVBB7705</code>
-        <message>Aantal RegelingVersies MOET 1 zijn</message>
+        <message>Twee versies binnen dezelfde regeling moeten verschillende datums juridisch werkend vanaf hebben</message>
     </error>
     <error>
         <code>LVBB7706</code>
@@ -734,14 +885,6 @@
     <error>
         <code>LVBB7711</code>
         <message>Jaar consolidatie MOET gelijk zijn aan jaar in datum juridisch werkend vanaf </message>
-    </error>
-    <error>
-        <code>LVBB7712</code>
-        <message>Datum consolidatie MOET gelijk zijn aan datum juridisch werkend vanaf </message>
-    </error>
-    <error>
-        <code>LVBB7713</code>
-        <message>AKN van cvdr-werk-boven bij ConsolidatieIdentificatie MOET gelijk zijn aan AKN van cvdr-werk-onder bij AnnotatieBijToestand</message>
     </error>
     <error>
         <code>LVBB7714</code>
@@ -796,8 +939,16 @@
         <message>'Datum bekend op' MOET een geldige datum bevatten</message>
     </error>
     <error>
+        <code>LVBB7727</code>
+        <message>Datum bekend op' MOET de datum van vandaag of een datum in de toekomst zijn</message>
+    </error>
+    <error>
         <code>LVBB7728</code>
         <message>Aantal Consolidaties MOET 1 zijn</message>
+    </error>
+    <error>
+        <code>LVBB7729</code>
+        <message>Aantal Toestanden MOET 1 zijn</message>
     </error>
     <error>
         <code>LVBB7730</code>
@@ -814,6 +965,14 @@
     <error>
         <code>LVBB7733</code>
         <message>Soort werk geconsolideerde InformatieObject in AnnotatieBijToestand MOET gelijk zijn aan "/join/id/stop/work_005"</message>
+    </error>
+    <error>
+        <code>LVBB7902</code>
+        <message>Een Regeling kan het doel zijn van slechts één opvolgingsrelatie (een data:opvolgerVan vanuit een andere Regeling)</message>
+    </error>
+    <error>
+        <code>LVBB7903</code>
+        <message>Waarde(n) van data:Doel in data:Tijdstempels komen ook voor als data:Doel in data:BeoogdeRegelgeving en/of data:Intrekkingen</message>
     </error>
     <error>
         <code>LVBB8000</code>
@@ -836,21 +995,13 @@
         <message>Referentierapport OW MOET 1 doel en (bij dat doel) 1 wIdRegeling bevatten</message>
     </error>
     <error>
-        <code>LVBB9900</code>
-        <message>Niet (meer) ondersteunde versie van STOP/BHKV</message>
-    </error>
-    <error>
         <code>LVBB9999</code>
         <message>Interne fout</message>
     </error>
     <error>
-        <code>OZON0003</code>
-        <message>Het root element van een IMOW document moet ten minste 1 standBestand bevatten.</message>
-    </error>
-    <error>
         <code>OZON0010</code>
-        <message>Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst, RegelVoorIedereen, Instructieregel,
-            Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, of Pons zijn.</message>
+        <message>Het objectType in het standbestand moet een Activiteit, Divisie, Gebiedsaanwijzing, Gebied, Gebiedengroep, Hoofdlijn, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst,
+            RegelVoorIedereen, Instructieregel, Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, Pons of Tekstdeel zijn.</message>
     </error>
     <error>
         <code>OZON0013</code>
@@ -861,8 +1012,8 @@
         <message>Er moet een RegelVoorIedereen zijn die verwijst naar de Activiteit.</message>
     </error>
     <error>
-        <code>OZON0021</code>
-        <message> (TPOD1760) Een Gebiedsaanwijzing moet alleen verwijzen naar locaties van het type Gebied of Gebiedengroep</message>
+        <code>OZON0021 </code>
+        <message>(TPOD1760) Een Gebiedsaanwijzing moet alleen verwijzen naar locaties van het type Gebied of Gebiedengroep</message>
     </error>
     <error>
         <code>OZON0022</code>
@@ -891,10 +1042,6 @@
     <error>
         <code>OZON0038</code>
         <message>Als een RegelVoorIedereen verwijst naar een Activiteit, dan moet deze bestaan.</message>
-    </error>
-    <error>
-        <code>OZON0039</code>
-        <message>(TPOD1760) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten</message>
     </error>
     <error>
         <code>OZON0040</code>
@@ -927,10 +1074,6 @@
     <error>
         <code>OZON0047</code>
         <message>Iedere OmgevingswaardeRegel moet verwijzen naar een of meerdere Locaties die bestaan.</message>
-    </error>
-    <error>
-        <code>OZON0049</code>
-        <message>Ieder Gebied moet verwijzen naar een geometrie.</message>
     </error>
     <error>
         <code>OZON0053</code>
@@ -1025,11 +1168,6 @@
         <message>Naar iedere aangeleverde geometrie moet verwezen worden door een locatie</message>
     </error>
     <error>
-        <code>OZON0087</code>
-        <message>Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Omgevingsnorm, Omgevingswaarde, Pons, Divisie,
-            Kaart, Tekstdeel, of Hoofdlijn zijn.</message>
-    </error>
-    <error>
         <code>OZON0090</code>
         <message>Iedere Divisie moet verwijzen naar een of meerdere Tekstdelen.</message>
     </error>
@@ -1043,6 +1181,10 @@
     </error>
     <error>
         <code>OZON0094</code>
+        <message>Als een Tekstdeel verwijst naar een Hoofdlijn, dan moet deze bestaan.</message>
+    </error>
+    <error>
+        <code>OZON0095</code>
         <message>Als een Tekstdeel verwijst naar een Hoofdlijn, dan moet deze bestaan.</message>
     </error>
     <error>
@@ -1146,6 +1288,10 @@
         <message>Het Ambtsgebied moet een geldige geldigOp-datum bevatten.</message>
     </error>
     <error>
+        <code>OZON0124</code>
+        <message>Een Regelingsgebied moet verwijzen naar een bestaande locatie</message>
+    </error>
+    <error>
         <code>OZON0200</code>
         <message>Elk type gebiedsaanwijzing in CIMOW is aanwezig in de waardelijst 'gebiedsaanwijzingstypen'</message>
     </error>
@@ -1164,6 +1310,22 @@
     <error>
         <code>OZON0212</code>
         <message>Bij een regeling met een gewijzigd workId moet een regelingsgebied meegeleverd zijn.</message>
+    </error>
+    <error>
+        <code>OZON0216</code>
+        <message>Een Ambtsgebied moet verwijzen naar een geldig Bestuurlijk Gebied</message>
+    </error>
+    <error>
+        <code>OZON0217</code>
+        <message>Als een Pons verwijst naar een Locatie dan moet deze bestaan</message>
+    </error>
+    <error>
+        <code>OZON0218</code>
+        <message>Een Regeltekst mag niet voorkomen in een andere regeling (behalve bij intrekken vervangen; in de ingetrokken regeling</message>
+    </error>
+    <error>
+        <code>OZON0219</code>
+        <message>Een Divisie mag niet voorkomen in een andere regeling (behalve bij intrekken vervangen; in de ingetrokken regeling).                         </message>
     </error>
     <error>
         <code>OZON0310</code>
@@ -1187,7 +1349,7 @@
     </error>
     <error>
         <code>OZON0325</code>
-        <message>Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde omgevingsnorm.</message>
+        <message>Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde omgevingswaarde.</message>
     </error>
     <error>
         <code>OZON0326</code>
@@ -1208,6 +1370,10 @@
     <error>
         <code>OZON0331</code>
         <message>Een gebiedsaanwijzing mag niet twee keer verwijzen naar dezelfde locatie.</message>
+    </error>
+    <error>
+        <code>OZON0340</code>
+        <message>Een tekstdeel mag niet twee keer verwijzen naar dezelfde hoofdlijn.</message>
     </error>
     <error>
         <code>OZON0341</code>
@@ -1279,8 +1445,36 @@
         <message>Een nieuwe toestand moet aangeleverd worden met een regelingversie.</message>
     </error>
     <error>
-        <code>OZON1030</code>
-        <message>Ozon verwerkt alleen vastgestelde regelgeving (tijdelijk), binnen de aanlevering moet het proceduretype gelijk zijn aan 'definitief'. </message>
+        <code>OZON1031</code>
+        <message>Als een RegelingVersie verwijst naar een afbeelding dan moet deze aanwezig zijn in de levering</message>
+    </error>
+    <error>
+        <code>OZON1032</code>
+        <message>Een Tijdelijk Deel moet verwijzen naar een bestaande RegelingVersie in de database</message>
+    </error>
+    <error>
+        <code>OZON1033</code>
+        <message>Intrekken/Vervangen van een RegelingVersie is niet toegestaan wanneer er een Tijdelijk Deel naar verwijst</message>
+    </error>
+    <error>
+        <code>OZON1034</code>
+        <message>Een ontwerp Ow-object mag niet bestaan in Ozon.</message>
+    </error>
+    <error>
+        <code>OZON1035</code>
+        <message>Een vastgesteld Ow-object mag nog niet bestaan als ontwerp Ow-object</message>
+    </error>
+    <error>
+        <code>OZON1036</code>
+        <message>Een regeling die een tijdelijk deel is, mag zelf geen tijdelijk deel hebben.</message>
+    </error>
+    <error>
+        <code>OZON1037</code>
+        <message>Een vastgestelde regeling kan niet geladen worden als er al een ontwerp regeling met dezelfde id bestaat</message>
+    </error>
+    <error>
+        <code>OZON1038</code>
+        <message>Een ontwerp regeling kan niet geladen worden als er al een regeling met dezelfde id bestaat</message>
     </error>
     <error>
         <code>OZON2000</code>
@@ -1311,6 +1505,10 @@
         <message>Als de Geometrie van een Locatie gewijzigd wordt, dan dient de Locatie opnieuw aangeboden te worden.</message>
     </error>
     <error>
+        <code>OZON4005</code>
+        <message>Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie</message>
+    </error>
+    <error>
         <code>STOP0001</code>
         <message>Een Lijst van het type 'ongemarkeerd' MAG GEEN lijst-items met nummering of symbolen hebben</message>
     </error>
@@ -1333,10 +1531,6 @@
     <error>
         <code>STOP0008</code>
         <message>Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel</message>
-    </error>
-    <error>
-        <code>STOP0009</code>
-        <message>Een tabel MAG NIET in een lijst worden opgenomen</message>
     </error>
     <error>
         <code>STOP0010</code>
@@ -1453,14 +1647,6 @@
     <error>
         <code>STOP0044</code>
         <message>Een onderdeel binnen een @wId MAG NIET eindigen met een '.'</message>
-    </error>
-    <error>
-        <code>STOP0045</code>
-        <message>Een (inline) Illustratie MAG GEEN attribuut schaal hebben.</message>
-    </error>
-    <error>
-        <code>STOP0046</code>
-        <message>Een (inline) Illustratie MAG GEEN attribuut kleur hebben.</message>
     </error>
     <error>
         <code>STOP0047</code>
@@ -1692,28 +1878,12 @@
         <message>In een GIO waar locaties geen kwalitatieve of kwantitatieve normwaarde hebben, MOGEN eenheidID, eenheidlabel, normID en normlabel NIET voorkomen.</message>
     </error>
     <error>
-        <code>STOP3017</code>
-        <message>Als een GIO een wasID heeft, dan MOET de wasID een voorgaande expressie zijn van hetzelfde work.</message>
-    </error>
-    <error>
-        <code>STOP3100</code>
-        <message>De FeatureTypeStyle MAG GEEN se:Name bevatten.</message>
-    </error>
-    <error>
-        <code>STOP3101</code>
-        <message>De FeatureTypeStyle MAG GEEN se:Description bevatten.</message>
-    </error>
-    <error>
         <code>STOP3102</code>
         <message>De FeatureTypeStyle:FeatureTypeName MOET geo:Locatie zijn.</message>
     </error>
     <error>
         <code>STOP3103</code>
         <message>FeatureTypeStyle:SemanticTypeIdentifier MOET zijn geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde</message>
-    </error>
-    <error>
-        <code>STOP3105</code>
-        <message>FeatureTypeStyle version MOET zijn 1.1.0""</message>
     </error>
     <error>
         <code>STOP3114</code>
@@ -1798,11 +1968,6 @@
         <message>De Graphic:Size MOET aan de reguliere expressie ^[0-9]+$ voldoen. (een positief geheel getal)</message>
     </error>
     <error>
-        <code>STOP3164</code>
-        <message>De Graphic:Rotation MOET aan de reguliere expressie ^\-?[0-9]([0-9][0-9]?)?(.[0-9][0-9]?)?$ voldoen. (een positief of negatief decimaal getal kleiner dan 1000 met 0, 1 of 2
-            decimalen)</message>
-    </error>
-    <error>
         <code>STOP3170</code>
         <message>Als de PolygonSymbolizer:Fill een GraphicFill:Graphic bevat, DAN MOET deze alleen se:ExternalGraphic bevatten.</message>
     </error>
@@ -1817,7 +1982,7 @@
     </error>
     <error>
         <code>TPOD2000</code>
-        <message>Manifest-ow.xml mag 1 doel bevatten</message>
+        <message>het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP</message>
     </error>
     <error>
         <code>TPOD2040</code>
@@ -1838,5 +2003,9 @@
     <error>
         <code>TPOD2210</code>
         <message>De combinatie van Doel en Regeling uit het manifest-OW moet ook als combinatie bestaan in OP</message>
+    </error>
+    <error>
+        <code>TPOD2220</code>
+        <message>De door Ozon (met het Referentierapport aangegeven geometrie(ën) MOET(EN) in de LVBB (eerder) aangeleverd en geregistreerd zijn.</message>
     </error>
 </index>

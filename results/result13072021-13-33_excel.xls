@@ -501,6 +501,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De identifier voor instrumentVersie moet overeenkomen met de identitier in ExtIoRef met het juiste eId</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="green">
@@ -526,6 +529,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De identifier voor instrumentVersie moet overeenkomen met een identitier in een ExtIoRef</Data>
             </Cell>
          </Row>
          <Row>
@@ -553,6 +559,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">losgekoppeld middendeel </Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -578,6 +587,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">dubbele identieke ringen </Data>
             </Cell>
          </Row>
          <Row>
@@ -605,6 +617,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">gat ligt buiten de buitenrand </Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -630,6 +645,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">ongeldige coordinaat </Data>
             </Cell>
          </Row>
          <Row>
@@ -657,6 +675,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">gaten in een gat </Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -682,6 +703,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">buitenrand binnen een buitenrand </Data>
             </Cell>
          </Row>
          <Row>
@@ -709,6 +733,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">niet gesloten ring </Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -734,6 +761,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">ring doorsnijdt zichzelf </Data>
             </Cell>
          </Row>
          <Row>
@@ -761,6 +791,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">zichzelf doorsnijdende structuur </Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -786,6 +819,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">geometrische component heeft te weinig punten </Data>
             </Cell>
          </Row>
          <Row>
@@ -813,6 +849,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">coordinaat komt meerdere keren voor </Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -838,6 +877,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">coordinaat systeem niet ondersteund </Data>
             </Cell>
          </Row>
          <Row>
@@ -1540,7 +1582,8 @@
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Bestand manifest-ow.xml MOET aanwezig zijn in het aangeleverde zip-bestand</Data>
+               <Data ss:Type="String">"Bestand manifest-ow.xml MOET aanwezig zijn in het aangeleverde zip-bestand bij: - ""validatieOpdracht"" van een besluit; - ""publicatieOpdracht"" van een besluit; -
+            ""valideerRegelingVersie""; - ""registreerRegelingVersie""; - ""valideerDoorleverenRegelingVersie""; - ""doorleverenRegelingVersie"""</Data>
             </Cell>
          </Row>
          <Row>
@@ -1562,6 +1605,10 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">"Bestand manifest-ow.xml MAG NIET aanwezig zijn in het aangeleverde zip-bestand bij: - ""validatieOpdracht"" van een kennisgeving; - ""publicatieOpdracht"" van een kennisgeving; -
+            ""breekPublicatieAfOpdracht""; - ""valideerGio""; - ""publiceerGio""; - ""valideerCio""; - ""publiceerCio"""</Data>
             </Cell>
          </Row>
          <Row>
@@ -1778,9 +1825,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">InformatieObjectRefs moeten zijn aangeleverd in de ZIP</Data>
-            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -1801,6 +1845,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De (soort) aanlevering MOET een besluit of kennisgeving zijn</Data>
             </Cell>
          </Row>
          <Row>
@@ -1889,6 +1936,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De eId/wId bij Lichaam (dit kan twee keer voorkomen in het besluit) moet uniek zijn</Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -1896,6 +1946,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De eId/wId bij RegelingOpschrift (dit kan twee keer voorkomen in het besluit) moet uniek zijn</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -2277,6 +2330,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -2570,6 +2626,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De AKN door het bevoegd gezag aangeleverde regeling moet als derde veld 'act' hebben</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -2860,6 +2919,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">als de geo:id van twee geometrieen identiek is, dan moet de geometrie zelf ook identiek zijn.</Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -2974,6 +3036,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De identificatie van een InformatieObject moet als soort werk '/join/id/stop/work_010' hebben</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -3028,9 +3093,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De aangeleverde IO voor validatie komt niet voor in het besluit</Data>
             </Cell>
          </Row>
          <Row>
@@ -3292,6 +3354,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De data:heeftGeboorteregeling heeft als waarde een de AKN-identifier van een bestaand Work met data:soortWork = /join/id/stop/work_019 (Regeling).</Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -3487,9 +3552,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Kan besluit gevonden worden?</Data>
-            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -3545,6 +3607,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Datum ondertekening moet aanwezig zijn in het besluit</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="green">
@@ -3571,6 +3636,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Er mogen geen tijdstempels aanwezig zijn bij een ontwerp besluit</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -3591,6 +3659,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De identificatie van het besluit moet als soort werk '/join/id/stop/work_003' hebben</Data>
             </Cell>
          </Row>
          <Row>
@@ -3617,6 +3688,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De identificatie van een regelingversie moet als soort werk '/join/id/stop/work_019' hebben</Data>
             </Cell>
          </Row>
          <Row>
@@ -3719,6 +3793,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Publicatie (besluit of kennisgeving) MOET een AKN identificatie bevatten voor het werk of de expressie</Data>
             </Cell>
          </Row>
          <Row>
@@ -4251,6 +4328,9 @@
             <Cell ss:Index="1">
                <Data ss:Type="String">LVBB4704</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">"Datum begin inzagetermijn mag niet liggen voor datum bekendmaking van gerelateerd besluit [zoals benoemd onder 'mededelingOver']"</Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -4258,6 +4338,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">"Datum begin inzagetermijn mag niet liggen voor datum bekendmaking van gerelateerd besluit [zoals benoemd onder 'mededelingOver']"</Data>
             </Cell>
          </Row>
          <Row>
@@ -4284,6 +4367,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Besluit met akn-id %1 horende bij deze kennisgeving heeft nog geen publicatie akn-identifier</Data>
             </Cell>
          </Row>
          <Row>
@@ -4326,10 +4412,16 @@
             <Cell ss:Index="1">
                <Data ss:Type="String">LVBB4711</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Kennisgeving MAG niet eerder gepubliceerd zijn</Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="yellow">
             <Cell ss:Index="1">
                <Data ss:Type="String">LVBB4711</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Kennisgeving MAG niet eerder gepubliceerd zijn</Data>
             </Cell>
          </Row>
          <Row ss:StyleID="id">
@@ -4338,6 +4430,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Kennisgeving MAG niet eerder gepubliceerd zijn</Data>
             </Cell>
          </Row>
          <Row>
@@ -4661,6 +4756,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De datum einde inzagetermijn %1 moet groter of gelijk zijn aan de datum begin inzagetermijn %2</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -4684,6 +4782,9 @@
             <Cell ss:Index="1">
                <Data ss:Type="String">LVBB4759</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Datum bekendmaking kennisgeving %1 mag niet voor datum bekend op van het besluit %2 liggen </Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -4691,6 +4792,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Datum bekendmaking kennisgeving %1 mag niet voor datum bekend op van het besluit %2 liggen </Data>
             </Cell>
          </Row>
          <Row>
@@ -4888,6 +4992,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">De was- en wordt-versie hebben betrekking hebben op dezelfde regeling</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -4950,6 +5057,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een doel kan maar 1 datum inwerking hebben</Data>
             </Cell>
          </Row>
          <Row>
@@ -5198,6 +5308,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Datum bekend op' MOET de datum van vandaag of een datum in de toekomst zijn</Data>
+            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -5205,9 +5318,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Het root element van een IMOW document moet ten minste 1 standBestand bevatten.</Data>
             </Cell>
          </Row>
          <Row>
@@ -5236,8 +5346,8 @@
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst, RegelVoorIedereen, Instructieregel,
-            Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, of Pons zijn.</Data>
+               <Data ss:Type="String">Het objectType in het standbestand moet een Activiteit, Divisie, Gebiedsaanwijzing, Gebied, Gebiedengroep, Hoofdlijn, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst,
+            RegelVoorIedereen, Instructieregel, Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, Pons of Tekstdeel zijn.</Data>
             </Cell>
          </Row>
          <Row>
@@ -5469,9 +5579,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String"> (TPOD1760) Een Gebiedsaanwijzing moet alleen verwijzen naar locaties van het type Gebied of Gebiedengroep</Data>
             </Cell>
          </Row>
          <Row>
@@ -5918,9 +6025,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">(TPOD1760) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten</Data>
             </Cell>
          </Row>
          <Row>
@@ -6481,9 +6585,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Ieder Gebied moet verwijzen naar een geometrie.</Data>
             </Cell>
          </Row>
          <Row>
@@ -7816,10 +7917,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Omgevingsnorm, Omgevingswaarde, Pons, Divisie,
-            Kaart, Tekstdeel, of Hoofdlijn zijn.</Data>
-            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -7941,6 +8038,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Als een Tekstdeel verwijst naar een Hoofdlijn, dan moet deze bestaan.</Data>
             </Cell>
          </Row>
          <Row>
@@ -9390,6 +9490,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een Regelingsgebied moet verwijzen naar een bestaande locatie</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -9674,6 +9777,9 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een Ambtsgebied moet verwijzen naar een geldig Bestuurlijk Gebied</Data>
+            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -9717,6 +9823,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Als een Pons verwijst naar een Locatie dan moet deze bestaan</Data>
             </Cell>
          </Row>
          <Row>
@@ -9978,7 +10087,7 @@
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde omgevingsnorm.</Data>
+               <Data ss:Type="String">Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde omgevingswaarde.</Data>
             </Cell>
          </Row>
          <Row>
@@ -10310,6 +10419,9 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
+            </Cell>
+            <Cell ss:Index="6">
+               <Data ss:Type="String">Een tekstdeel mag niet twee keer verwijzen naar dezelfde hoofdlijn.</Data>
             </Cell>
          </Row>
          <Row>
@@ -10973,9 +11085,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Een tabel MAG NIET in een lijst worden opgenomen</Data>
-            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -11541,9 +11650,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Een (inline) Illustratie MAG GEEN attribuut schaal hebben.</Data>
-            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -11569,9 +11675,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">Een (inline) Illustratie MAG GEEN attribuut kleur hebben.</Data>
             </Cell>
          </Row>
          <Row>
@@ -13296,9 +13399,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De FeatureTypeStyle MAG GEEN se:Name bevatten.</Data>
-            </Cell>
          </Row>
          <Row ss:StyleID="id">
             <Cell ss:Index="1">
@@ -13306,9 +13406,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De FeatureTypeStyle MAG GEEN se:Description bevatten.</Data>
             </Cell>
          </Row>
          <Row>
@@ -13393,9 +13490,6 @@
             </Cell>
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
-            </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">FeatureTypeStyle version MOET zijn 1.1.0""</Data>
             </Cell>
          </Row>
          <Row>
@@ -13962,10 +14056,6 @@
             <Cell ss:Index="3">
                <Data ss:Type="String">lvbb:uitkomst: succes</Data>
             </Cell>
-            <Cell ss:Index="6">
-               <Data ss:Type="String">De Graphic:Rotation MOET aan de reguliere expressie ^\-?[0-9]([0-9][0-9]?)?(.[0-9][0-9]?)?$ voldoen. (een positief of negatief decimaal getal kleiner dan 1000 met 0, 1 of 2
-            decimalen)</Data>
-            </Cell>
          </Row>
          <Row>
             <Cell ss:Index="4" ss:StyleID="yellow">
@@ -14081,7 +14171,7 @@
                <Data ss:Type="String">lvbb:uitkomst: mislukt</Data>
             </Cell>
             <Cell ss:Index="6">
-               <Data ss:Type="String">Manifest-ow.xml mag 1 doel bevatten</Data>
+               <Data ss:Type="String">het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP</Data>
             </Cell>
          </Row>
          <Row>

@@ -12,7 +12,8 @@ resultfile=~/xml_validatietestcontent/results/result$dt.xml
 logfile=~/xml_validatietestcontent/afbreeklog/AFBREEK_LOG-$dt.xml
 dt=`date '+%d-%m-%YT%H:%M:%S:%N'`
 mkdir ~/xml_validatietestcontent/afbreeklog
-echo "$dt: nieuwe log">$logfile 
+echo "<log>">$logfile
+echo "<tijdstip>$dt</tijdstip">>$logfile
 
 execute_single_file () {
 	file=$1;
@@ -35,7 +36,11 @@ execute_single_file () {
         opdracht="afbreken"
         action="versturen"
     fi
-    echo "$dt: $opdracht: $conversationid">>$logfile
+    echo "<logging>">>$logfile
+    echo "<conversationid>$conversationid</conversationid>">>$logfile
+    echo "<tijdstip>$dt</tijdstip>">>$logfile
+    echo "<opdracht>$opdracht</opdracht>">>$logfile
+    echo "<action>$action</action>">>$logfile
     echo "De opdracht is: $opdracht"
     echo "De action is: $action"
 	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$opdracht" "$file")
@@ -68,8 +73,9 @@ execute_single_file () {
            echo "------------------------------------------"
            echo "FOUT: $beschrijving";
            echo "------------------------------------------"
-           echo "FOUT: $beschrijving">>$logfile;
+           echo "<beschrijving>$beschrijving</beschrijving>">>$logfile;
     fi
+    echo "</logging>">>$logfile
 }
 
 
@@ -97,5 +103,6 @@ else
         done
 fi
 echo "</result>">>$resultfile
+echo "</log>">>$logfile
 
 cd -
