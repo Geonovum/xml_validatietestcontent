@@ -1,0 +1,24 @@
+<envelop>
+<test>BHKV1009-20210713122250-valideren</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1009-20210713122250-valideren</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1009-20210713122250-valideren</lvbb:idLevering><lvbb:tijdstipVerslag>2021-07-13T15:24:40.561005+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1009-20210713122250-valideren</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-07-13T15:24:42.913129+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>BHKV1009</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1009-20210713122250/nld@2019-06-27</stop:categorie>
+            <stop:beschrijving>In het besluit is de eId art_I_FOUT voor de BeoogdeRegeling niet te vinden. Controleer de referentie naar het besluit.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
