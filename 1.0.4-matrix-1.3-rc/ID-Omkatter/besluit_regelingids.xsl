@@ -154,16 +154,34 @@
 
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir))"
-        />
+        <xsl:choose>
+            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219')">
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7],'-',foo:changePart($org.file.dir)))"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir))"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of
-            select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir), '/', tokenize($oldId, '/')[8])"
-        />
+        <xsl:message select="$oldId"></xsl:message>
+        <xsl:choose>
+            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219')">
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7],'-',foo:changePart($org.file.dir)), tokenize($oldId, '/')[8])"
+                />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', foo:changePart($org.file.dir), '/', tokenize($oldId, '/')[8])"
+                />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="foo:changePart">
