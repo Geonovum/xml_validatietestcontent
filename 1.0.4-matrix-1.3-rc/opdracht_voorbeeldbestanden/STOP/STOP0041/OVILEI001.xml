@@ -220,7 +220,7 @@
 								</Divisie>
 							</Divisie>
 							<Divisie eId="div_o_1__div_o_7" wId="gm0546_1__div_o_1__div_o_7">
-								 STOP Een Kop voor Divisietekst met eId[waarde van eId] is verplicht. Voeg een valide Kop aan deze Divisietekst toe, wijzig Divisietekst naar Inleidendetekst, of wijzig het bovenliggende element Divisie naar Divisietekst -->
+								 <!-- FOUT STOP0041 Een Kop voor Divisietekst met eId[waarde van eId] is verplicht. Voeg een valide Kop aan deze Divisietekst toe, wijzig Divisietekst naar Inleidendetekst, of wijzig het bovenliggende element Divisie naar Divisietekst -->
 								<Divisietekst eId="div_o_1__div_o_7__content_o_1" wId="gm0546_1__div_o_1__div_o_7__content_o_1">
 									<Inhoud>
 										<Al>Klein stukje tekst over zuidwest in visie verder verwijzen naar document <ExtRef

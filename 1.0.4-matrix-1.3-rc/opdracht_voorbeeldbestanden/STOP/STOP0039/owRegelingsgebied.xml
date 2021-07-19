@@ -11,10 +11,9 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-         <sl:leveringsId>id-publicatie-1235</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-BHKV</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regelingsgebied</sl:objectType>
-            <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <sl:stand>
@@ -25,18 +24,6 @@
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00002"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
-         </ow-dc:owObject>
-      </sl:stand>
-      <!-- FOUT OZON4005 Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie -->
-      <sl:stand>
-         <ow-dc:owObject>
-            <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
-               <l:noemer>regelingsgebied_FOUT</l:noemer>
-               <l:geometrie>
-                  <l:GeometrieRef xlink:href="fefddedc-f0f3-4dfd-ffde-33d4e433ff33"/>
-               </l:geometrie>
-            </l:Gebied>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>

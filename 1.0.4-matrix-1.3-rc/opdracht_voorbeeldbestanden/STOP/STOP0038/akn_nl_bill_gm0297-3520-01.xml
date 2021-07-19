@@ -100,9 +100,7 @@
                   <Label>Artikel</Label>
                   <Nummer>II</Nummer>
                </Kop>
-               <Inhoud>
-                  <Al>;</Al>
-               </Inhoud>
+               <Gereserveerd/>
             </Artikel>
             <Artikel eId="art_III" wId="gm0297_1__art_III">
                <Kop>
@@ -169,6 +167,101 @@
                               <Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
                            </Kop>
                            <Inhoud>
+                              <table eId="cmp_II__content_o_1__table_o_1"
+                                 wId="mnre1034_1-0__cmp_II__content_o_1__table_o_1"
+                                 colsep="1"
+                                 frame="all"
+                                 pgwide="0"
+                                 rowsep="1"
+                                 tabstyle="zebra1">
+                                 <!-- FOUT STOP0038 Het totale aantal cellen MOET overeenkomen met het aantal mogelijke cellen (aantal kolommen = 5, mogelijk 6) -->
+                                 <tgroup align="left" cols="6">
+                                    <colspec colname="col1" colnum="1" colwidth="103*"/>
+                                    <colspec colname="col2" colnum="2" colwidth="103*"/>
+                                    <colspec colname="col3" colnum="3" colwidth="70*"/>
+                                    <colspec colname="col4" colnum="4" colwidth="124*"/>
+                                    <colspec colname="col5" colnum="5" colwidth="75*"/>
+                                    <thead valign="bottom">
+                                       <row rowsep="1">
+                                          <entry align="left"
+                                             colname="col1"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Norm</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col2"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Naam</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col3"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Datum of versie</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col4"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Uitgever</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col5"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Hoofdstuk in besluit of regeling waarin verwijzing staat
+                                             </Al>
+                                          </entry>
+                                       </row>
+                                    </thead>
+                                    <tbody valign="top">
+                                       <row rowsep="1">
+                                          <entry align="left"
+                                             colname="col1"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Algemene BeoordelingsMethodiek</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col2"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Algemene BeoordelingsMethodiek (ABM), methode ter bepaling van de benodigde saneringsinspanning bij lozingen op basis van stofeigenschappen</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col3"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>2016</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col4"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Ministerie van Infrastructuur en Waterstaat<br/>(<ExtRef ref="http://www.infomil.nl" soort="URL">www.infomil.nl</ExtRef>)</Al>
+                                          </entry>
+                                          <entry align="left"
+                                             colname="col5"
+                                             colsep="1"
+                                             rotate="0"
+                                             valign="top">
+                                             <Al>Hoofdstuk 7 van deze regeling</Al>
+                                          </entry>
+                                       </row>
+                                    </tbody>
+                                 </tgroup>
+                              </table>
                               <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1"
                                      wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1"
                                      type="expliciet"><!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
@@ -183,67 +276,6 @@
                                     <Al>;</Al>
                                  </Li>
                               </Lijst>
-                              <table eId="chp_2__subchp_2.1__art_2.1__table_o_1"
-                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.1__table_o_1"
-                                     colsep="1"
-                                     frame="all"
-                                     pgwide="0"
-                                     rowsep="1"
-                                     tabstyle="zebra1">
-                                 <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                      <!-- FOUT STOP0037 Het aantal colspec's MOET gelijk zijn aan het opgegeven aantal kolommen -->
-                                 <tgroup align="left" cols="3">
-                                    <colspec colname="col1" colnum="1" colwidth="24*"/>
-                                    <colspec colname="col2" colnum="2" colwidth="278*"/>
-                                    <thead valign="bottom">
-                                       <row rowsep="1">
-                                          <entry align="left"
-                                                 colname="col1"
-                                                 colsep="1"
-                                                 nameend="col2"
-                                                 namest="col1"
-                                                 rotate="0"
-                                                 valign="top">
-                                             <Al>Gebruiksfunctie</Al>
-                                          </entry>
-                                       </row>
-                                    </thead>
-                                    <tbody valign="top">
-                                       <row rowsep="1">
-                                          <entry align="left"
-                                                 colname="col1"
-                                                 colsep="1"
-                                                 rotate="0"
-                                                 valign="top">
-                                             <Al>1</Al>
-                                          </entry>
-                                          <entry align="left"
-                                                 colname="col2"
-                                                 colsep="1"
-                                                 rotate="0"
-                                                 valign="top">
-                                             <Al>Woonfunctie</Al>
-                                          </entry>
-                                       </row>
-                                       <row rowsep="1">
-                                          <entry align="left"
-                                                 colname="col1"
-                                                 colsep="1"
-                                                 rotate="0"
-                                                 valign="top">
-                                             <Al>4</Al>
-                                          </entry>
-                                          <entry align="left"
-                                                 colname="col2"
-                                                 colsep="1"
-                                                 rotate="0"
-                                                 valign="top">
-                                             <Al>Gezondheidszorgfunctie</Al>
-                                          </entry>
-                                       </row>
-                                    </tbody>
-                                 </tgroup>
-                              </table>
                            </Inhoud>
                         </Artikel>
                      </Afdeling>

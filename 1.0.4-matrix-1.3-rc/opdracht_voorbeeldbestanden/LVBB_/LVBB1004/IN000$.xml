@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- FOUT LVBB 1004	Controleer bestandsnamen op ongeldige karakters -->
 <AanleveringBesluit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" schemaversie="1.0.4"
-   xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering/
-   ../../lvbb/lvbb-stop-aanlevering.xsd">
+   xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering/ ../../schemas/lvbb/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <FRBRWork>/akn/nl/bill/mnre1109/2020/LVBB1004</FRBRWork>
