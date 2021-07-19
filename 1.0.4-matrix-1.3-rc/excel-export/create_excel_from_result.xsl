@@ -51,8 +51,26 @@
                                 </xsl:attribute>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:variable name="testIdLabel" select="do:returnTestIdLabel(test/text())"/>
-                        <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
+                        <xsl:variable name="testIdLabel">
+                            <xsl:choose>
+                                <xsl:when test="test/text()">
+                                    <xsl:value-of select="do:returnTestIdLabel(test/text())"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="''"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:variable name="testId">
+                            <xsl:choose>
+                                <xsl:when test="test/text()">
+                                    <xsl:value-of select="do:returnTestId(test/text())"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="''"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
                         <xsl:call-template name="doDrawCell">
                             <xsl:with-param name="column" select="1"/>
                             <xsl:with-param name="data" select="$testIdLabel"/>
@@ -65,9 +83,9 @@
                                 </xsl:call-template>
                             </xsl:if>
                         </xsl:if>
-                        <xsl:if test="not($testId='')">
-                            <xsl:variable name="message" select="document('errors_index.xml')/index/error[code=$testId]/message/text()"/>
-                            <xsl:if test="$message and not($message='')">
+                        <xsl:if test="not($testId = '')">
+                            <xsl:variable name="message" select="document('errors_index.xml')/index/error[code = $testId]/message/text()"/>
+                            <xsl:if test="$message and not($message = '')">
                                 <xsl:call-template name="doDrawCell">
                                     <xsl:with-param name="column" select="6"/>
                                     <xsl:with-param name="data" select="$message"/>
@@ -112,8 +130,26 @@
                 <xsl:call-template name="header_worksheet_2"/>
                 <xsl:for-each select="envelop">
                     <saxon:assign name="rowcounterWorksheet2" select="0" saxon:assignable="yes"/>
-                    <xsl:variable name="testId" select="do:returnTestId(test/text())"/>
-                    <xsl:variable name="testIdLabel" select="do:returnTestIdLabel(test/text())"/>
+                    <xsl:variable name="testIdLabel">
+                        <xsl:choose>
+                            <xsl:when test="test/text()">
+                                <xsl:value-of select="do:returnTestIdLabel(test/text())"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="''"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <xsl:variable name="testId">
+                        <xsl:choose>
+                            <xsl:when test="test/text()">
+                                <xsl:value-of select="do:returnTestId(test/text())"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="''"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
                     <xsl:choose>
                         <xsl:when
                             test="
@@ -163,7 +199,16 @@
             <xsl:if test="position() = 1">
                 <saxon:assign name="datum" select="replace(substring-before(lvbb:validatieVerzoekResultaat[1]/lvbb:verslag/lvbb:tijdstipVerslag/text(), '.'), 'T', ' ')" saxon:assignable="yes"/>
             </xsl:if>
-            <xsl:variable name="error" select="do:returnTestId(test/text())"/>
+            <xsl:variable name="error">
+                <xsl:choose>
+                    <xsl:when test="test/text()">
+                        <xsl:value-of select="do:returnTestId(test/text())"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="''"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
             <saxon:assign name="found" select="false()" saxon:assignable="yes"/>
             <xsl:for-each select="lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding">
                 <xsl:if test="$error = stop:code/text()">
