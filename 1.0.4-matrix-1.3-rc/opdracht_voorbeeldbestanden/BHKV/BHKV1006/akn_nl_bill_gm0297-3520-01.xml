@@ -232,7 +232,7 @@
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1006</data:FRBRWork>
          <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1006/nld@2019-06-25;1</data:FRBRExpression>
-         <!-- FOUT: BHKV1006	De identificatie van een regelingversie moet als soort werk '/join/id/stop/work_019' hebben -->
+         <!-- FOUT BHKV 1006	De identificatie van een regelingversie moet als soort werk '/join/id/stop/work_019' hebben -->
          <soortWork>/join/id/stop/work_019FOUT</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

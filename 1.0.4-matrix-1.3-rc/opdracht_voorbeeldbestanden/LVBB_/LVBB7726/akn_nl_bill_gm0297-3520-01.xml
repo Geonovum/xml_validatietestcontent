@@ -30,7 +30,7 @@
          </informatieobjectRefs>
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT: LVBB7726	'Datum bekend op' MOET een geldige datum bevatten -->
+          LVBB 7726	'Datum bekend op' MOET een geldige datum bevatten -->
          <bekendOp>2021-02-29</bekendOp>
          <procedurestappen><!-- Vaststelling -->
             <Procedurestap>

@@ -14,7 +14,7 @@
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
          <maker>/tooi/id/gemeente/gm0297</maker>
          <!--soortBestuursorgaan is 'gemeenteraad'.-->
-         <!-- FOUT: LVBB4037	De waarde van tooi-identifiers in het besluit moet allemaal teruggevonden kunnen worden in de waardelijst -->
+         <!-- FOUT LVBB 4037	De waarde van tooi-identifiers in het besluit moet allemaal teruggevonden kunnen worden in de waardelijst -->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
          <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
          <onderwerpen>

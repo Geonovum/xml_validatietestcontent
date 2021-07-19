@@ -169,7 +169,6 @@
 
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
-        <xsl:message select="$oldId"></xsl:message>
         <xsl:choose>
             <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219')">
                 <xsl:value-of

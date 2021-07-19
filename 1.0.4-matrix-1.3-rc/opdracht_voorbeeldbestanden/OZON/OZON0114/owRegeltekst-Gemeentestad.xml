@@ -54,7 +54,7 @@
             <rol:Omgevingswaarde>
                <rol:identificatie>nl.imow-gm0297.omgevingswaarde.00001</rol:identificatie>
                <rol:naam>fijnstof</rol:naam>
-               <!-- FOUT: OZON0114	Het veld Omgevingswaarde.type moet een waarde bevatten uit de waardelijst TypeNorm. -->
+               <!-- FOUT OZON 0114	Het veld Omgevingswaarde.type moet een waarde bevatten uit de waardelijst TypeNorm. -->
                <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/FOUT</rol:type>
                <rol:normwaarde>
                   <rol:Normwaarde>

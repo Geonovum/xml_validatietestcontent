@@ -44,6 +44,6 @@
         <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-    <!-- FOUT: LVBB1008	Valideert manifest.xml tegen schema -->
+    <!-- FOUT LVBB 1008	Valideert manifest.xml tegen schema -->
     <FOUT>abc</FOUT>
 </manifest>

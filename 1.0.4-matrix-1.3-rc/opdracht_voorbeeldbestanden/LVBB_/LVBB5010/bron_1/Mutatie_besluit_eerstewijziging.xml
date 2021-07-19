@@ -109,7 +109,7 @@
                                 <Nummer>2.5</Nummer>
                                 <Opschrift>Gebruiksactiviteiten die zijn toegelaten na voorafgaande melding</Opschrift>
                             </Kop>
-                            <!-- FOUT: LVBB5010 VoegToe: bestaat het toe te voegen element nog niet -->
+                             LVBB 5010 VoegToe: bestaat het toe te voegen element nog niet -->
                             <Lid eId="chp_2__subchp_2.2__art_2.5__para_1" wId="gm0297_2__chp_2__subchp_2.2__art_2.5__para_1">
                                 <LidNummer>1.</LidNummer>
                                 <Inhoud>

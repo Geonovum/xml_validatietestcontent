@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3146</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -46,7 +46,7 @@
                <Name>vsgt206</Name>
                <Fill>
                   <SvgParameter name="fill">#c8c8c8</SvgParameter>
-                  <!-- FOUT: STOP3146 Het name" attribute van de Fill:SvgParameter MOET fill of fill-opacity zijn." -->
+                  <!-- FOUT STOP3146 Het name" attribute van de Fill:SvgParameter MOET fill of fill-opacity zijn." -->
                   <SvgParameter name="fill-opacityFOUT">0.3</SvgParameter>
                </Fill>
                <Stroke>

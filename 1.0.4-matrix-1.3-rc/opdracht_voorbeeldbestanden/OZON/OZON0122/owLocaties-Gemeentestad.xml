@@ -47,7 +47,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Ambtsgebied>
-               <!-- FOUT: OZON0122	Een ow-object mag alleen een status hebben met de waarde 'B' of geen status. -->
+               <!-- FOUT OZON 0122	Een ow-object mag alleen een status hebben met de waarde 'B' of geen status. -->
                <ow:status>FOUT</ow:status>
                <l:identificatie>GM0297</l:identificatie>
                <l:noemer>Gemeente Zaltbommel</l:noemer>

@@ -67,12 +67,12 @@
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
-         <!-- FOUT: BHKV1004	Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd -->
+         <!-- FOUT BHKV 1004	Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd -->
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/BHKV1004</doel>
+                 <doel>/join/id/proces/gm0297/2019/BHKV1004</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
-               <datum>2019-08-01</datum>
+                  <datum>2019-08-01</datum>
                <eId>art_II</eId>
             </Tijdstempel>
          </Tijdstempels>

@@ -125,7 +125,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <!-- FOUT: LVBB5007 De was-versie mag niet door een ontwerp besluit aangemaakt zijn -->
+             LVBB 5007 De was-versie mag niet door een ontwerp besluit aangemaakt zijn -->
             <RegelingCompact componentnaam="initieel_reg"
                was="/akn/nl/act/gm0297/2019/LVBB5007/nld@2019-06-25;0"
                              wordt="/akn/nl/act/gm0297/2019/LVBB5007/nld@2019-06-25;1">

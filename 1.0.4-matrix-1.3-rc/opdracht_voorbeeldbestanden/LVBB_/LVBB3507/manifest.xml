@@ -12,7 +12,7 @@
         <bestandsnaam>opdracht.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-    <!-- FOUT: LVBB3507	Het content-type van de het meegeleverd bestand bij de IO is 'application/pdf' of 'application/gml+xml'  -->
+     LVBB 3507	Het content-type van de het meegeleverd bestand bij de IO is 'application/pdf' of 'application/gml+xml'  -->
     <bestand>
         <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
         <contentType>application/xml</contentType>

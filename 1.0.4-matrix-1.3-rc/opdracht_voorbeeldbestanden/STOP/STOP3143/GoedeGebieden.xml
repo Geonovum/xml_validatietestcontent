@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3143</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -53,7 +53,7 @@
                   <SvgParameter name="stroke-opacity">1</SvgParameter>
                   <SvgParameter name="stroke-width">0.5</SvgParameter>
                   <SvgParameter name="stroke-linejoin">round</SvgParameter>
-                  <!-- FOUT: STOP3143 SvgParameter met name" attribute "stroke-linecap" MOET "butt" bevatten." -->
+                  <!-- FOUT STOP3143 SvgParameter met name" attribute "stroke-linecap" MOET "butt" bevatten." -->
                   <SvgParameter name="stroke-linecap">FOUT</SvgParameter>
                </Stroke>
             </PolygonSymbolizer>

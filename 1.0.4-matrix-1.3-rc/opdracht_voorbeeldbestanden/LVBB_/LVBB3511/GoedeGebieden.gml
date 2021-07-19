@@ -16,7 +16,7 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <!-- FOUT: LVBB3511	Werk van join-id in informatie-object moet gelijk zijn aan die in bijbehorend GML-bestand -->
+          LVBB 3511	Werk van join-id in informatie-object moet gelijk zijn aan die in bijbehorend GML-bestand -->
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GeenGoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>

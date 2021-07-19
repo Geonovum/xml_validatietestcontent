@@ -122,7 +122,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <!-- FOUT: LVBB4033	Elke AKN wordt-expressie in mutatie-element moet voorkomen als FRBRExpression in ExpressionIdentificatie van RegelingVersieInformatie en omgekeerd -->
+            <!-- FOUT LVBB 4033	Elke AKN wordt-expressie in mutatie-element moet voorkomen als FRBRExpression in ExpressionIdentificatie van RegelingVersieInformatie en omgekeerd -->
             <RegelingCompact componentnaam="initieel_reg"
                              wordt="/akn/nl/act/gm0297/2019/LVBB4033FOUT/nld@2019-06-25;1">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">

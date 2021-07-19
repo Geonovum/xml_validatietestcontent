@@ -34,7 +34,7 @@
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>
       </InformatieObjectMetadata>
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.1.0">
-         <!-- FOUT: STOP3101	De FeatureTypeStyle MAG GEEN se:Description bevatten. -->
+          STOP3101	De FeatureTypeStyle MAG GEEN se:Description bevatten. -->
          <Description>
             <Title>Description</Title>
          </Description>

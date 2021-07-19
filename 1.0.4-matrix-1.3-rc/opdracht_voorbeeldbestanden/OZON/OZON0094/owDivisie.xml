@@ -39,7 +39,7 @@
                   <vt:DivisieRef xlink:href="nl.imow-gm0546.divisie.20200001"/>
                </vt:divisieaanduiding>
                <vt:hoofdlijnaanduiding>
-                  <!-- FOUT: OZON0094 Als een Tekstdeel verwijst naar een Hoofdlijn, dan moet deze bestaan. -->
+                  <!-- FOUT OZON 0094 Als een Tekstdeel verwijst naar een Hoofdlijn, dan moet deze bestaan. -->
                   <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.20200001FOUT"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>
                </vt:hoofdlijnaanduiding>
                <vt:locatieaanduiding>

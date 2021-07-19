@@ -230,7 +230,7 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT: LVBB2500: De AKN door het bevoegd gezag aangeleverde regeling moet als derde veld 'act' hebben -->
+         <!-- FOUT LVBB 2500: De AKN door het bevoegd gezag aangeleverde regeling moet als derde veld 'act' hebben -->
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/FOUT/gm0297/2019/LVBB2500</data:FRBRWork>
          <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/FOUT/gm0297/2019/LVBB2500/nld@2019-06-25;1</data:FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>

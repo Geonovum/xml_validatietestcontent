@@ -24,7 +24,7 @@
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
-      <!-- FOUT: OZON0210	Een levering mag niet de relatie tussen een regeltekst en het bijbehorende artikel of lid verbreken. -->
+      <!-- FOUT OZON 0210	Een levering mag niet de relatie tussen een regeltekst en het bijbehorende artikel of lid verbreken. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1FOUT">

@@ -58,7 +58,7 @@
                <rol:normwaarde>
                   <rol:Normwaarde>
                      <rol:identificatie>nl.imow-gm0297.normwaarde.00001</rol:identificatie>
-                     <!-- FOUT: OZON0097	(TPOD1650) Iedere Normwaarde moet ofwel een kwalitatieve, ofwel een kwantitatieve waarde hebben. -->
+                      OZON 0097	(TPOD1650) Iedere Normwaarde moet ofwel een kwalitatieve, ofwel een kwantitatieve waarde hebben. -->
                      <rol:kwalitatieveWaarde>Een string</rol:kwalitatieveWaarde>
                      <rol:kwantitatieveWaarde>200</rol:kwantitatieveWaarde>
                      <rol:locatieaanduiding>

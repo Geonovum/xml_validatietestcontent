@@ -69,7 +69,7 @@
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/STOP000727365</doel>
+               <doel>/join/id/proces/gm0297/2019/STOP0007</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
                <eId>art_II</eId>
@@ -272,7 +272,7 @@
                                              colsep="1"
                                              rotate="0"
                                              valign="top">
-                                             <!-- FOUT STOP0008 Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel -->
+                                              STOP Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel -->
                                              <Al><NootRef refid="N1"/></Al>
                                           </entry>
                                           <entry align="left"

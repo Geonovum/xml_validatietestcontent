@@ -39,7 +39,7 @@
                <r:artikelOfLid>
                   <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
                </r:artikelOfLid>
-               <!-- FOUT: OZON0321	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde locatie. -->
+                OZON 0321	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde locatie. -->
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>

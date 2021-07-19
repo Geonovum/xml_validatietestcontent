@@ -30,7 +30,7 @@
             </vt:Divisie>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT: OZON0092 Ieder Tekstdeel verwijst naar een Divisie die bestaat. -->
+      <!-- FOUT OZON 0092 Ieder Tekstdeel verwijst naar een Divisie die bestaat. -->
       <sl:stand>
          <ow-dc:owObject>
             <vt:Tekstdeel><!-- deze behouden, bevat ook locatie gebied Leiden -->

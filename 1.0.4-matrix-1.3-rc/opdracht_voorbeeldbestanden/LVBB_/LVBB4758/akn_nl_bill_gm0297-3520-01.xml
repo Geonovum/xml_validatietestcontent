@@ -67,7 +67,7 @@
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
-         <!-- FOUT: LVBB4758	Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd -->
+          LVBB 4758	Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd -->
          <Tijdstempels>
             <Tijdstempel>
                <doel>/join/id/proces/gm0297/2019/LVBB4758</doel>

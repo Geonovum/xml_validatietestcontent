@@ -27,10 +27,10 @@
             </rg:Regelingsgebied>
          </ow-dc:owObject>
       </sl:stand>
+      <!-- FOUT OZON4005 Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie ->
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <ow:status>B</ow:status>
                <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
                <l:noemer>regelingsgebied_FOUT</l:noemer>
                <l:geometrie>

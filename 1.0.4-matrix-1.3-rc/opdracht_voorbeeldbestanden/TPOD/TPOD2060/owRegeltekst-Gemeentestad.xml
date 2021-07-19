@@ -23,7 +23,7 @@
             <sl:objectType>RegelVoorIedereen</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- FOUT: TPOD2060	Indien het Artikel is onderverdeeld in Leden, dan dient er geannoteerd te worden op het Lid (en mag er niet geannoteerd worden op het Artikel). -->
+       TPOD 2060	Indien het Artikel is onderverdeeld in Leden, dan dient er geannoteerd te worden op het Lid (en mag er niet geannoteerd worden op het Artikel). -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">

@@ -30,7 +30,7 @@
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT OZON4005 Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie -->
+       OZON 4005 Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Instructieregel>

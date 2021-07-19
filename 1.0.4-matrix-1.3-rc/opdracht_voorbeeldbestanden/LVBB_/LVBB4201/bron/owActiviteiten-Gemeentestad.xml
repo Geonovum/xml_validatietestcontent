@@ -224,19 +224,5 @@
             </rol:Activiteit>
          </ow-dc:owObject>
       </sl:stand>
-      <!--uit functionele structuur, dit komt (nu) mee uit de bruidsschat, wellicht wordt deze werkwijze nog aangepast, maar deze activiteit hoort klaargezet te worden door het Rijk
-			indien er een foutmelding optreedt wegens het ontbreken van de topactiviteit dan kan de onderstaande activiteit meegeleverd worden.-->
-<!--      <sl:stand>
-         <ow-dc:owObject>
-            <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0297.activiteit.ActInOmgevingsplanGem</rol:identificatie>
-               <rol:naam>Activiteit in omgevingsplan Zaltbommel</rol:naam>
-               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
-               <rol:bovenliggendeActiviteit>
-                  <rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.ActInOmgevingsplan"/>
-               </rol:bovenliggendeActiviteit>
-            </rol:Activiteit>
-         </ow-dc:owObject>
-      </sl:stand>-->
    </sl:standBestand>
 </ow-dc:owBestand>

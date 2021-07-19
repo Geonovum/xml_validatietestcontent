@@ -55,7 +55,7 @@
                <rol:identificatie>nl.imow-gm0297.omgevingswaarde.00001</rol:identificatie>
                <rol:naam>fijnstof</rol:naam>
                <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/Volume</rol:type>
-               <!-- FOUT: OZON0116	Het veld Omgevingswaarde.eenheid moet een waarde bevatten uit de waardelijst Eenheid. -->
+               <!-- FOUT OZON 0116	Het veld Omgevingswaarde.eenheid moet een waarde bevatten uit de waardelijst Eenheid. -->
                <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/FOUT</rol:eenheid>
                <rol:normwaarde>
                   <rol:Normwaarde>

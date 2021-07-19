@@ -52,7 +52,7 @@
                         <SvgParameter name="fill">#c8c8c8</SvgParameter>
                      </Fill>
                   </Mark>
-                  <!-- FOUT: STOP3164 De Graphic:Rotation MOET aan de reguliere expressie ^\-?[0-9]([0-9][0-9]?)?(.[0-9][0-9]?)?$ voldoen. (een positief of negatief decimaal getal kleiner dan 1000 met 0, 1 of 2 decimalen) -->
+                   STOP3164 De Graphic:Rotation MOET aan de reguliere expressie ^\-?[0-9]([0-9][0-9]?)?(.[0-9][0-9]?)?$ voldoen. (een positief of negatief decimaal getal kleiner dan 1000 met 0, 1 of 2 decimalen) -->
                   <Rotation>10000</Rotation>
                </Graphic>
             </PointSymbolizer>

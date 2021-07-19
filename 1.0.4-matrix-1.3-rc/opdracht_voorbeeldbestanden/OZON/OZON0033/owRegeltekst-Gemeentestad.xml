@@ -31,7 +31,7 @@
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT: OZON0033	Iedere RegelVoorIedereen verwijst naar een Regeltekst die bestaat. -->
+       OZON 0033	Iedere RegelVoorIedereen verwijst naar een Regeltekst die bestaat. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>

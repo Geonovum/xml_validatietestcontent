@@ -16,6 +16,6 @@
          <objecttype>Omgevingswaarderegel</objecttype>
          <objecttype>Omgevingswaarde</objecttype>
       </Bestand>
-      <!-- FOUT: OZON0103	(TPOD2180) Per Regeling moet er een Regelingsgebied zijn aangeleverd. -->
+       OZON 0103	(TPOD2180) Per Regeling moet er een Regelingsgebied zijn aangeleverd. -->
    </Aanlevering>
 </Aanleveringen>

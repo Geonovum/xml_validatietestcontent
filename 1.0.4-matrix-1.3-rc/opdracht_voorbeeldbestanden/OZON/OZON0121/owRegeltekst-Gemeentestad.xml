@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <!-- FOUT: OZON0121	Iedere ActiviteitLocatieaanduiding moet verwijzen naar een of meerdere Locaties die bestaan. -->
+               <!-- FOUT OZON 0121	Iedere ActiviteitLocatieaanduiding moet verwijzen naar een of meerdere Locaties die bestaan. -->
                <r:activiteitaanduiding>
                   <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.00001"/>
                   <r:ActiviteitLocatieaanduiding>

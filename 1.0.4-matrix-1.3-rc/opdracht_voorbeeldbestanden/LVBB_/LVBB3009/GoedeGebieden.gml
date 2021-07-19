@@ -21,7 +21,7 @@
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
-         <!-- FOUT: LVBB3009	Valideert het gml document tegen het schema -->
+          LVBB 3009	Valideert het gml document tegen het schema -->
          <geo:normID_valideert_niet>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID_valideert_niet>
          <geo:locaties>
             <geo:Locatie>

@@ -16,6 +16,7 @@
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
+         <!-- FOUT LVBB 3509 Alle aanleverde io(s) moeten voorkomen in het besluit -->
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/FOUT-LVBB3509</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FOUT-LVBB3509/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>

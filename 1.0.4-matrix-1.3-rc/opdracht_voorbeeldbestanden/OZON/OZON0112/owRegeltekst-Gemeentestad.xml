@@ -52,7 +52,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <rol:Omgevingsnorm>
-               <!-- FOUT: OZON0112	OW-objecten met een status anders dan 'B' worden niet verwerkt. (tijdelijk) -->
+               <!-- FOUT OZON 0112	OW-objecten met een status anders dan 'B' worden niet verwerkt. (tijdelijk) -->
                <ow:status>FOUT</ow:status>
                <rol:identificatie>nl.imow-gm0297.omgevingsnorm.00001</rol:identificatie>
                <rol:naam>welstandsniveau</rol:naam>

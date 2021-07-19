@@ -22,6 +22,6 @@
          </heeftBestanden>
          <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB3513</data:heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
-      <!-- FOUT: LVBB3513	InformatieObjectMetadata MOET aanwezig zijn in het aangeleverde informatie-object, INDIEN een informatie-object betrekking heeft op een nieuw werk -->
+       LVBB 3513	InformatieObjectMetadata MOET aanwezig zijn in het aangeleverde informatie-object, INDIEN een informatie-object betrekking heeft op een nieuw werk -->
    </InformatieObjectVersie>
 </AanleveringInformatieObject>

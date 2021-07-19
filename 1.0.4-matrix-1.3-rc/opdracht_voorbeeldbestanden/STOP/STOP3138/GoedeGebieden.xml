@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3138</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT: STOP3138 De PointSymbolizer MOET de vorm se:Graphic/se:Mark/se:Fill/se:GraphicFill/se:SvgParameter hebben. -->
+             STOP De PointSymbolizer MOET de vorm se:Graphic/se:Mark/se:Fill/se:GraphicFill/se:SvgParameter hebben. -->
             <PointSymbolizer>
                <Name></Name>
                <Graphic>

@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3157</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT: STOP3157 De PointSymbolizer:Graphic:Mark:WellKnownName MOET cross (of cross_fill), square, circle, star of triangle zijn. -->
+            <!-- FOUT STOP3157 De PointSymbolizer:Graphic:Mark:WellKnownName MOET cross (of cross_fill), square, circle, star of triangle zijn. -->
             <PointSymbolizer>
                <Name>What_is_in_it</Name>
                <Graphic>

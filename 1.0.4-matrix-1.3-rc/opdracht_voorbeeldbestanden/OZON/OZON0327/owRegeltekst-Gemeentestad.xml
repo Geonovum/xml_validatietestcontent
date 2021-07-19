@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <!-- FOUT: OZON0327	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
+                OZON 0327	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
                <r:gebiedsaanwijzing>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>

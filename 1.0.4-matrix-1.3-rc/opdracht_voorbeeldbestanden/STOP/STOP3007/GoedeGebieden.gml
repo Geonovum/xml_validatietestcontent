@@ -42,7 +42,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <!-- FOUT: STOP3007	Als er één locatie is in een GIO waar kwalitatieveNormwaarde is ingevuld MOETEN alle locaties een kwalitatieveNormwaarde hebben. -->
+                STOP Als er één locatie is in een GIO waar kwalitatieveNormwaarde is ingevuld MOETEN alle locaties een kwalitatieveNormwaarde hebben. -->
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>

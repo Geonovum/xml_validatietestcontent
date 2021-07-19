@@ -24,7 +24,7 @@
          <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>
             <geo:Locatie>
-               <!-- FOUT: GEO0011 coördinaat komt meerdere keren voor. -->
+                GEO 0011 coördinaat komt meerdere keren voor. -->
                <geo:naam>GEO0011 coördinaat komt meerdere keren voor.</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000011-xx">

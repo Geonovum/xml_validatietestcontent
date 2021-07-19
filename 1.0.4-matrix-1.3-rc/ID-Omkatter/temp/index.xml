@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>${env_orgfiledir}</testId>
+   <testId>OZON0219</testId>
+   <guids>
+      <guidInOw gmlfile="001_gemeente_leiden.gml" locatiefile="owLocatie.xml">
+         <org>4b46ca74-3840-4ce1-91b6-abf749802f6c</org>
+         <new>a64a4f81-ce8f-46a3-aaed-7b25df5e0081</new>
+      </guidInOw>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>001_gemeente_leiden.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>001_gemeente_leiden.xml</name>
+   </file>
    <besluit>
       <informatieobjectRef>
-         <gio>regelingsgebied.xml</gio>
-         <gml>regelingsgebied.gml</gml>
+         <gio>001_gemeente_leiden.xml</gio>
+         <gml>001_gemeente_leiden.gml</gml>
       </informatieobjectRef>
    </besluit>
    <file type="besluit.xml" ow="false">
-      <name>besluit.xml</name>
+      <name>OVILEI001.xml</name>
    </file>
    <file type="manifest-ow.xml" ow="false">
       <name>manifest-ow.xml</name>
    </file>
    <leveringId sourcefile="opdracht.xml">
+      <referencefile>owDivisie.xml</referencefile>
+      <referencefile>owGebiedsaanwijzingen.xml</referencefile>
+      <referencefile>owHoofdlijn.xml</referencefile>
+      <referencefile>owLocatie.xml</referencefile>
       <referencefile>owRegelingsgebied.xml</referencefile>
-      <referencefile>owRegeltekst.xml</referencefile>
    </leveringId>
-   <idLevering>id-publicatie-1235</idLevering>
+   <idLevering>id-publicatie-OZON</idLevering>
    <file type="opdracht.xml" ow="false">
+      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
    </file>
+   <file type="vrijetekst.xml" ow="true">
+      <name>owDivisie.xml</name>
+   </file>
    
+   <file type="gebiedsaanwijzing.xml" ow="true">
+      <name>owGebiedsaanwijzingen.xml</name>
+   </file>
+   <file type="hoofdlijn.xml" ow="true">
+      <name>owHoofdlijn.xml</name>
+   </file>
    <file type="locatie.xml" ow="true">
+      <name>owLocatie.xml</name>
+   </file>
+   <file type="regelingsgebied.xml" ow="true">
       <name>owRegelingsgebied.xml</name>
-   </file>
-   
-   <file type="regeltekst.xml" ow="true">
-      <name>owRegeltekst.xml</name>
-   </file>
-   
-   <guids>
-      <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
-         <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>d90f6159-a2d1-4eee-8d0b-689444c1bc57</new>
-      </guidInOw>
-   </guids>
-   <file type="gml.xml" ow="false">
-      <name>regelingsgebied.gml</name>
-   </file>
-   <file type="gio.xml" ow="false">
-      <name>regelingsgebied.xml</name>
    </file>
 </index>

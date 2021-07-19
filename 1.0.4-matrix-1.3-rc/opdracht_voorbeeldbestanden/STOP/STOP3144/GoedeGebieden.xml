@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3144</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -50,7 +50,7 @@
                </Fill>
                <Stroke>
                   <SvgParameter name="stroke">#505050</SvgParameter>
-                  <!-- FOUT: STOP3144 SvgParameter met met name attribute stroke-opacity" MOET aan de reguliere expressie  ^0((.[0-9])?[0-9]?)or1((.0)?0?)$ voldoen. (string met een positief decimaal getal tussen 0.0 en 1.0 (beide inclusief) met 0,1 of 2 decimalen)" -->
+                  <!-- FOUT STOP3144 SvgParameter met met name attribute stroke-opacity" MOET aan de reguliere expressie  ^0((.[0-9])?[0-9]?)or1((.0)?0?)$ voldoen. (string met een positief decimaal getal tussen 0.0 en 1.0 (beide inclusief) met 0,1 of 2 decimalen)" -->
                   <SvgParameter name="stroke-opacity">1FOUT</SvgParameter>
                   <SvgParameter name="stroke-width">0.5</SvgParameter>
                   <SvgParameter name="stroke-linejoin">round</SvgParameter>

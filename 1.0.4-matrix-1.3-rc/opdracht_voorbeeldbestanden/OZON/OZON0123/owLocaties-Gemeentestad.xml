@@ -50,7 +50,7 @@
                <l:identificatie>GM0297</l:identificatie>
                <l:noemer>Gemeente Zaltbommel</l:noemer>
                <l:domein>NL.BI.BestuurlijkGebied</l:domein>
-               <!-- FOUT: OZON0123	Het Ambtsgebied moet een geldige geldigOp-datum bevatten. -->
+                OZON 0123	Het Ambtsgebied moet een geldige geldigOp-datum bevatten. -->
                <l:geldigOp>2021-02-29</l:geldigOp>
             </l:Ambtsgebied>
          </ow-dc:owObject>

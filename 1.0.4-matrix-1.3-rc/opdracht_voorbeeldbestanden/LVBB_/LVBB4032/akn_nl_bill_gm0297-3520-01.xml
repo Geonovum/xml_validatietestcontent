@@ -49,7 +49,7 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/LVBB4032</data:doel>
                </doelen>
-               <!-- FOUT: LVBB4032	Elke AKN wordt-expressie in mutatie-element moet voorkomen als instrumentVersie in BeoogdeRegeling en omgekeerd (daarbij ook lettend op de IO die voor kunnen komen) -->
+               <!-- FOUT LVBB 4032	Elke AKN wordt-expressie in mutatie-element moet voorkomen als instrumentVersie in BeoogdeRegeling en omgekeerd (daarbij ook lettend op de IO die voor kunnen komen) -->
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB4032FOUT/nld@2019-06-25;1</data:instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>

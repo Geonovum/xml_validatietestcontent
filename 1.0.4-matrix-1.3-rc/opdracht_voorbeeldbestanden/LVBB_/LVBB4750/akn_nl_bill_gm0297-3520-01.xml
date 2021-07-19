@@ -41,7 +41,7 @@
                <voltooidOp>2019-06-26</voltooidOp>
             </Procedurestap>
             <!-- Ondertekening -->
-            <!-- FOUT: LVBB4750 In het resultaat van het procedureverloop van een (ontwerp)besluit en alle kennisgevingen over dit besluit mag elke code bij een procedurestap maximaal 1 keer voorkomen -->
+             LVBB 4750 In het resultaat van het procedureverloop van een (ontwerp)besluit en alle kennisgevingen over dit besluit mag elke code bij een procedurestap maximaal 1 keer voorkomen -->
             <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_003</soortStap>
                <voltooidOp>2019-06-27</voltooidOp>

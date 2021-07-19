@@ -27,7 +27,7 @@
             </rg:Regelingsgebied>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT OZON4002 Als een OwObject beeindigd wordt, moet de inhoud van dit object overeenkomen met wat bij Ozon bekend is. -->
+      <!-- FOUT OZON 4002 Als een OwObject beeindigd wordt, moet de inhoud van dit object overeenkomen met wat bij Ozon bekend is. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>

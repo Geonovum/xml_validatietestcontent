@@ -69,7 +69,7 @@
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/STOP000927365</doel>
+               <doel>/join/id/proces/gm0297/2019/STOP0009</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
                <eId>art_II</eId>
@@ -179,7 +179,7 @@
                                      wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
-                                    <!-- FOUT: STOP0009	Een tabel MAG NIET in een lijst worden opgenomen -->
+                                    <!-- FOUT STOP0009	Een tabel MAG NIET in een lijst worden opgenomen -->
                                     <table wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__table_FOUT" eId="chp_2__subchp_2.1__art_2.1__list_o_1__table_FOUT"
                                        colsep="1"
                                        frame="all"
@@ -187,7 +187,6 @@
                                        rowsep="1"
                                        tabstyle="zebra1">
                                        <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                                       <!-- FOUT: STOP0032	Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest -->
                                        <tgroup align="left" cols="3">
                                           <colspec colname="col1" colnum="1" colwidth="24*"/>
                                           <colspec colname="col2" colnum="2" colwidth="278*"/>

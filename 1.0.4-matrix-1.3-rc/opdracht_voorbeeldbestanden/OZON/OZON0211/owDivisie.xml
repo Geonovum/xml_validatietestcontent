@@ -23,7 +23,7 @@
             <sl:objectType>Tekstdeel</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- FOUT: OZON0211	Een levering mag niet de relatie tussen een divisie en de bijbehorende (OP-)divisie verbreken. -->
+      <!-- FOUT OZON 0211	Een levering mag niet de relatie tussen een divisie en de bijbehorende (OP-)divisie verbreken. -->
       <sl:stand>
          <ow-dc:owObject>
             <vt:Divisie wId="gm0546_1__div_o_1FOUT">

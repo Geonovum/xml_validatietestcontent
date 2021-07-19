@@ -17,7 +17,7 @@
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <!-- FOUT: LVBB1009	Zijn alle bestanden genoemd in manifest aanwezig in zip? -->
+         LVBB 1009	Zijn alle bestanden genoemd in manifest aanwezig in zip? -->
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>

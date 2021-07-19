@@ -20,7 +20,7 @@
         <bestandsnaam>manifest.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-    <!-- FOUT: LVBB1004	Controleer bestandsnamen op ongeldige karakters -->
+    <!-- FOUT LVBB 1004	Controleer bestandsnamen op ongeldige karakters -->
     <bestand>
         <bestandsnaam>IN000$.xml</lvbb:bestandsnaam>
         <contentType>application/xml</lvbb:contentType>

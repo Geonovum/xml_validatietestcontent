@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3174</heeftGeboorteregeling>
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -49,7 +49,7 @@
                      <Graphic>
                         <ExternalGraphic>
                            <InlineContent encoding="base64">123</InlineContent>
-                           <!-- FOUT: STOP3174 ExternalGraphic:Format MOET de waarde image/png hebben. -->
+                           <!-- FOUT STOP3147 ExternalGraphic:Format MOET de waarde image/png hebben. -->
                            <Format>image/FOUT</Format>
                         </ExternalGraphic>
                      </Graphic>

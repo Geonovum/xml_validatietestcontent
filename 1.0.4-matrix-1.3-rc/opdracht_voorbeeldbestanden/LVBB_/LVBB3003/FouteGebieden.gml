@@ -20,7 +20,7 @@
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden-LVBB3003/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
-               <!-- FOUT: LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook) -->
+                LVBB 3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook) -->
                <geo:naam>LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook)</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="i2-ef6390fb-7b29-e992-98e7-97e1a99b10eb-xx">

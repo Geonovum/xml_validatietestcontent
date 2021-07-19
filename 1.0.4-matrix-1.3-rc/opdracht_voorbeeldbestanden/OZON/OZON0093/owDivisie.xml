@@ -45,7 +45,7 @@
                   <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.20200001"/>
                </vt:locatieaanduiding>
             	<vt:gebiedsaanwijzing>
-            	   <!-- FOUT: OZON0093 Als een Tekstdeel verwijst naar een Gebiedsaanwijzing, dan moet deze bestaan. -->
+            	   <!-- FOUT OZON 0093 Als een Tekstdeel verwijst naar een Gebiedsaanwijzing, dan moet deze bestaan. -->
             		<ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.2020000001FOUT" type="simple"/>	
             	</vt:gebiedsaanwijzing>
             </vt:Tekstdeel>

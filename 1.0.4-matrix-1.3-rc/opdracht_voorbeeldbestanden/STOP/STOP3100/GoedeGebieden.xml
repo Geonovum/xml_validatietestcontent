@@ -20,7 +20,7 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP3100</heeftGeboorteregeling>
+<heeftGeboorteregeling>/akn/nl/act/gm0297/2019/STOP</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
@@ -34,7 +34,7 @@
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>
       </InformatieObjectMetadata>
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.1.0">
-         <!-- FOUT: STOP3100	De FeatureTypeStyle MAG GEEN se:Name bevatten. -->
+          STOP De FeatureTypeStyle MAG GEEN se:Name bevatten. -->
          <Name>a Name</Name>
          <FeatureTypeName>geo:Locatie</FeatureTypeName>
          <SemanticTypeIdentifier>geo:kwantitatieveNormwaarde</SemanticTypeIdentifier>

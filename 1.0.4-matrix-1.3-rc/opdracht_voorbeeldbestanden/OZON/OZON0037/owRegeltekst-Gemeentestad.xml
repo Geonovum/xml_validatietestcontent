@@ -45,7 +45,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT: OZON0037	Iedere Omgevingswaarderegel verwijst naar een Regeltekst die bestaat. -->
+      <!-- FOUT OZON 0037	Iedere Omgevingswaarderegel verwijst naar een Regeltekst die bestaat. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Omgevingswaarderegel>

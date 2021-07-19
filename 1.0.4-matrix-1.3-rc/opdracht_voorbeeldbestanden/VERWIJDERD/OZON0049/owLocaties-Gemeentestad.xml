@@ -22,7 +22,7 @@
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- FOUT: OZON0049	Ieder Gebied moet verwijzen naar een geometrie. -->
+      <!-- FOUT OZON0049	Ieder Gebied moet verwijzen naar een geometrie. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>

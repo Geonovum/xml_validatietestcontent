@@ -45,7 +45,7 @@
         <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-    <!-- FOUT: LVBB1018	Komt het gespecificeerde contenttype van een afbeelding overeen met het werkelijke contenttype? -->
+     LVBB 1018	Komt het gespecificeerde contenttype van een afbeelding overeen met het werkelijke contenttype? -->
     <bestand>
         <bestandsnaam>Cat03.jpg</bestandsnaam>
         <contentType>image/png</contentType>

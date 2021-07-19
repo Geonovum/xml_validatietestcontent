@@ -22,7 +22,7 @@
                            <gml:surfaceMember>
                               <gml:Polygon gml:id="id-fefddedc-f0f3-4dfd-ffde-33d4e433ff33-4-4">
                                  <gml:exterior>
-                                    <!-- FOUT: LVBB3002 Zijn de geometrieën toegestaan volgens STOP/TP: Simple Features Profile 2 (SF2) geometrieën exclusief cirkels en bogen -->
+                                     LVBB 3002 Zijn de geometrieën toegestaan volgens STOP/TP: Simple Features Profile 2 (SF2) geometrieën exclusief cirkels en bogen -->
                                     <gml:Circle>
                                        <gml:posList>155000 450000 160000 450000 160000 460000 150000 460000 150000 450000 155000 450000 153000 453000 155000 456000 157000 453000 155000
                                           450000</gml:posList>

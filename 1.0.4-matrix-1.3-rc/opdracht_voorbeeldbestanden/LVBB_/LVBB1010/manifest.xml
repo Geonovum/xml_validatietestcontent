@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- FOUT: LVBB1010	Worden alle bestanden aanwezig in zip genoemd in manifest? -->
+<!-- FOUT LVBB 1010	Worden alle bestanden aanwezig in zip genoemd in manifest? -->
 <manifest xmlns="http://www.overheid.nl/2017/lvbb">
     <bestand>
         <bestandsnaam>akn_nl_bill_gm0297-3520-01.xml</bestandsnaam>

@@ -41,7 +41,7 @@
                <vt:hoofdlijnaanduiding>
                   <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.00001"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>
                </vt:hoofdlijnaanduiding>
-               <!-- FOUT: OZON0341	Een tekstdeel mag niet twee keer verwijzen naar dezelfde locatie. -->
+                OZON 0341	Een tekstdeel mag niet twee keer verwijzen naar dezelfde locatie. -->
                <vt:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.00001"/>
                   <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.00001"/>

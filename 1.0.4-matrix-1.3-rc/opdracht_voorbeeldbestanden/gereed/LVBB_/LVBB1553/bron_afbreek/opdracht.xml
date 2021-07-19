@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<breekPublicatieAfOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
+    <idLevering>id-afbreek-1235</idLevering>
+    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
+    <idAanleveraar>00000003560458830000</idAanleveraar>
+     LVBB1551 Bij Afbreken moet de opgegeven AKN bestaan -->
+    <identificatie>/akn/nl/bill/gm0297/2019/LVBB1553</identificatie>
+</breekPublicatieAfOpdracht>

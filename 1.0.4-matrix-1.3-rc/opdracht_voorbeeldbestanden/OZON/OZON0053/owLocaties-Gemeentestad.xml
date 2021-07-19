@@ -23,7 +23,7 @@
             <sl:objectType>Gebiedengroep</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- FOUT: OZON0053	Iedere Gebiedengroep moet verwijzen naar Gebieden die bestaan. -->
+       OZON 0053	Iedere Gebiedengroep moet verwijzen naar Gebieden die bestaan. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebiedengroep>

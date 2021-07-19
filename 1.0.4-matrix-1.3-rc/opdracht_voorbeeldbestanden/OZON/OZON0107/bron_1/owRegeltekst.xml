@@ -33,7 +33,7 @@
         <sl:stand>
             <ow-dc:owObject>
                 <r:RegelVoorIedereen>
-                    <!-- FOUT: OZON0107 Het beëindigen van een OW-object mag alleen als de inhoud exact overeenkomt met de laatst aangeleverde OW-informatie. -->
+                     OZON 0107 Het beëindigen van een OW-object mag alleen als de inhoud exact overeenkomt met de laatst aangeleverde OW-informatie. -->
                     <ow:status>B</ow:status>
                     <r:identificatie>nl.imow-gm0297.juridischeregel.00001</r:identificatie>
                     <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>

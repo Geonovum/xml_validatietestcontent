@@ -37,7 +37,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Ambtsgebied>
-               <!-- FOUT: OZON0216 Een Ambtsgebied moet verwijzen naar een geldig Bestuurlijk Gebied -->
+                OZON 0216 Een Ambtsgebied moet verwijzen naar een geldig Bestuurlijk Gebied -->
                <l:identificatie>GM029734</l:identificatie>
                <l:noemer>Gemeente Zaltbommel</l:noemer>
                <l:domein>NL.BI.BestuurlijkGebied</l:domein>

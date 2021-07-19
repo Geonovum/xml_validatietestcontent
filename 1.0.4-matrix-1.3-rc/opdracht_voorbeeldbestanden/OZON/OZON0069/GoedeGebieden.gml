@@ -46,7 +46,7 @@
                </geo:geometrie>
                <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
             </geo:Locatie>
-            <!-- FOUT: OZON0069	(TPOD940) Als een Locatie uit meer dan één geometrie bestaat, dan moeten de geometrieën volgens dezelfde coordinate reference system (crs) zijn opgebouwd.-->
+             OZON 0069	(TPOD940) Als een Locatie uit meer dan één geometrie bestaat, dan moeten de geometrieën volgens dezelfde coordinate reference system (crs) zijn opgebouwd.-->
             <geo:Locatie>
                <geo:naam>Zuilichem industriegebied 2</geo:naam>
                <geo:geometrie>

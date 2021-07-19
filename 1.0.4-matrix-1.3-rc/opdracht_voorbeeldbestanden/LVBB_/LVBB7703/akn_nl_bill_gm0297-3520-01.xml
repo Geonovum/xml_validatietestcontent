@@ -44,7 +44,7 @@
          </procedurestappen>
       </Procedureverloop>
       <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT: LVBB7703 Aantal Doelen MOET 1 zijn -->
+          LVBB 7703 Aantal Doelen MOET 1 zijn -->
          <BeoogdeRegelgeving_s>
             <BeoogdeRegeling>
                <doelen>

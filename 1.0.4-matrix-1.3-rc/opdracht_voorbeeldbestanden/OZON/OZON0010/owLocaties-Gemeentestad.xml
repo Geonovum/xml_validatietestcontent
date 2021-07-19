@@ -19,7 +19,7 @@
          <sl:gebied>Gemeentestad</sl:gebied>
          <sl:leveringsId>id-publicatie-OZON0010</sl:leveringsId>
          <sl:objectTypen>
-            <!-- FOUT: OZON0010	Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst, RegelVoorIedereen, Instructieregel, Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, of Pons zijn. -->
+             OZON 0010	Het objectType in het standbestand moet een Activiteit, Gebiedsaanwijzing, Gebied, Gebiedengroep, Punt, Puntengroep, Lijn, Lijnengroep, Regeltekst, RegelVoorIedereen, Instructieregel, Omgevingswaarderegel, Omgevingsnorm, Omgevingswaarde, of Pons zijn. -->
             <sl:objectType>IetsAnders</sl:objectType>
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>

@@ -44,7 +44,7 @@
                <vt:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0546.gebied.00001"/>
                </vt:locatieaanduiding>
-               <!-- FOUT: OZON0342	Een tekstdeel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
+                OZON 0342	Een tekstdeel mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
                <vt:gebiedsaanwijzing>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>

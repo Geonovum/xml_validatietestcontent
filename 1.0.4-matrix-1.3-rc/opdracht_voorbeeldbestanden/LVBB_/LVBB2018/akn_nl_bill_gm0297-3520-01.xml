@@ -6,7 +6,7 @@
                     xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT: LVBB2018 Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk -->
+          LVBB 2018 Als voor een AKN- of JOIN zowel het werk als de expressie gegeven is dan moet het eerste deel van de expressie overeenkomen met het werk -->
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bills/gm0297/2019/LVBB2018</data:FRBRWork>
          <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/LVBB2018/nld@2019-06-27</data:FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>

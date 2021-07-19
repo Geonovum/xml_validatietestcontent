@@ -37,7 +37,7 @@
                <voltooidOp>2019-06-25</voltooidOp>
             </Procedurestap>
             <!-- Ondertekening -->
-            <!-- FOUT: LVBB4017 (meldt ook BHKV1008)	Datum ondertekening moet aanwezig zijn in het besluit -->
+             LVBB 4017 (meldt ook BHKV1008)	Datum ondertekening moet aanwezig zijn in het besluit -->
          </procedurestappen>
       </Procedureverloop>
       <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">

@@ -3,6 +3,6 @@
     <idLevering>id-afbreek-1235</idLevering>
     <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
     <idAanleveraar>00000003560458830000</idAanleveraar>
-    <!-- FOUT: LVBB1502	"De AKN in de opdracht (indien aanwezig) moet als derde veld 'bill' hebben" -->
+     LVBB 1502	"De AKN in de opdracht (indien aanwezig) moet als derde veld 'bill' hebben" -->
     <identificatie>/akn/nl/act/gm0297/2019/AFBREEK-OP</identificatie>
 </breekPublicatieAfOpdracht>

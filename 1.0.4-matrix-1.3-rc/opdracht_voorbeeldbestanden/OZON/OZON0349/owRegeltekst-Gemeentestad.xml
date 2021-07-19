@@ -25,7 +25,7 @@
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
-      <!-- FOUT: OZON0349	Een Regeltekst moet verwijzen naar één of meer Juridische Regels. -->
+       OZON 0349	Een Regeltekst moet verwijzen naar één of meer Juridische Regels. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
@@ -66,7 +66,7 @@
                      <k:identificatie>nl.imow-gm0297.kaartlaag.2019000001</k:identificatie>
                      <k:naam>welstandslaag</k:naam>
                      <k:niveau>1</k:niveau>
-                     <!-- FOUT: OZON0349	Als een kaartlaag verwijst naar een activiteitlocatieaanduiding, omgevingsnorm, omgevingswaarde of gebiedsaanwijzing, dan moet deze bestaan. -->
+                     <!-- FOUT OZON 0349	Als een kaartlaag verwijst naar een activiteitlocatieaanduiding, omgevingsnorm, omgevingswaarde of gebiedsaanwijzing, dan moet deze bestaan. -->
                      <k:normweergave>
                         <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001FOUT"/>
                      </k:normweergave>

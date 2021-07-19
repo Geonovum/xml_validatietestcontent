@@ -42,7 +42,7 @@
                <vt:hoofdlijnaanduiding>
                   <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.00001"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>
                </vt:hoofdlijnaanduiding>
-               <!-- FOUT: OZON0346	Een tekstdeel mag niet twee keer verwijzen naar dezelfde kaart. -->
+                OZON 0346	Een tekstdeel mag niet twee keer verwijzen naar dezelfde kaart. -->
                <vt:kaartaanduiding>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>

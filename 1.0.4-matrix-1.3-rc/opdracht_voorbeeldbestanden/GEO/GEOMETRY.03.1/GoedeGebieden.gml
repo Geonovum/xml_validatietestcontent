@@ -29,7 +29,7 @@
                   <basisgeo:Geometrie gml:id="ie-fffeaeef-affe-aafa-eefa-afeaafffffee-xx">
                      <basisgeo:id>fffeaeef-affe-aafa-eefa-afeaafffffee</basisgeo:id>
                      <basisgeo:geometrie>
-                        <!-- FOUT GEOMETRY_03_1	geometrie is afwezig  -->
+                         GEO METRY_03_1	geometrie is afwezig  -->
                         <!--<gml:MultiSurface gml:id="id-557c1d8a-45fc-4b73-9df3-3a230575aa89"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>

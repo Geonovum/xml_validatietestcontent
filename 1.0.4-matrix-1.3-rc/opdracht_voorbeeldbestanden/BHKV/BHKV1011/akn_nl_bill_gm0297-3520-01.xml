@@ -73,7 +73,7 @@
                   <doel>/join/id/proces/gm0546/2020/IntrekkenVervangenOmgevingsvisie</doel>
                </doelen>
                <instrument>/akn/nl/act/gm0546/2020/OVILEI001</instrument>
-               <!-- FOUT: BHKV1011	De eId genoemd in data:Intrekking moet voorkomen in het besluit -->
+               <!-- FOUT BHKV 1011	De eId genoemd in data:Intrekking moet voorkomen in het besluit -->
                <eId>art_III_FOUT</eId>
             </Intrekking>
          </Intrekkingen>

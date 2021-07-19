@@ -24,7 +24,7 @@
          </sl:objectTypen>
       </sl:inhoud>
       <sl:stand>
-         <!-- FOUT: OZON0090 Iedere Divisie moet verwijzen naar een of meerdere Tekstdelen. -->
+          OZON 0090 Iedere Divisie moet verwijzen naar een of meerdere Tekstdelen. -->
          <ow-dc:owObject>
             <vt:Divisie wId="gm0546_1__div_o_1">
                <vt:identificatie>nl.imow-gm0546.divisie.20200001</vt:identificatie>

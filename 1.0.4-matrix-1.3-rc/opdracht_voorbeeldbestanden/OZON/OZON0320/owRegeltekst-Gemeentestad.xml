@@ -45,7 +45,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>  
-      <!-- FOUT: OZON0320	Een RegelVoorIedereen mag niet twee keer verwijzen naar dezelfde locatie. -->
+       OZON 0320	Een RegelVoorIedereen mag niet twee keer verwijzen naar dezelfde locatie. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>

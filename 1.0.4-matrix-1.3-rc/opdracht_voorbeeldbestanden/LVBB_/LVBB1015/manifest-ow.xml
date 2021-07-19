@@ -20,6 +20,6 @@
          <objecttype>Regelingsgebied</objecttype>
       </Bestand>
    </Aanlevering>
-   <!-- FOUT: LVBB1015	Valideert manifest-ow.xml tegen schema -->
+   <!-- FOUT LVBB 1015	Valideert manifest-ow.xml tegen schema -->
    <FOUT>abc</FOUT>
 </Aanleveringen>

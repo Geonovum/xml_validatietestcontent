@@ -7,6 +7,6 @@
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
    <datumBekendmaking>2021-04-21</datumBekendmaking>
-   <!-- FOUT: LVBB1006	Valideert opdracht.xml tegen schema -->
+   <!-- FOUT LVBB 1006	Valideert opdracht.xml tegen schema -->
    <FOUT>abc</FOUT>
 </validatieOpdracht>

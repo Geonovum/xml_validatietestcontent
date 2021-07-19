@@ -35,7 +35,7 @@
                               <gml:Polygon>
                                  <gml:exterior>
                                     <gml:LinearRing>
-                                       <!-- FOUT: LVBB3012	Elk GML-element MOET een ingevulde <gml:posList> bevatten -->
+                                       <!-- FOUT LVBB 3012	Elk GML-element MOET een ingevulde <gml:posList> bevatten -->
                                        <gml:posList/>
                                     </gml:LinearRing>
                                  </gml:exterior>

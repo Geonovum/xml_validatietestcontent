@@ -29,7 +29,7 @@
       			<ga:naam>abc</ga:naam>
       		   <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Centrumgebied</ga:groep>
       			<ga:locatieaanduiding>
-      			   <!-- FOUT: OZON0096 Iedere gebiedsaanwijzing moet verwijzen naar een of meerdere locaties die bestaan. -->
+      			   <!-- FOUT OZON 0096 Iedere gebiedsaanwijzing moet verwijzen naar een of meerdere locaties die bestaan. -->
       				<l:LocatieRef xlink:href="nl.imow-gm0546.gebied.20200001FOUT"/>
       			</ga:locatieaanduiding>
       		</ga:Gebiedsaanwijzing>

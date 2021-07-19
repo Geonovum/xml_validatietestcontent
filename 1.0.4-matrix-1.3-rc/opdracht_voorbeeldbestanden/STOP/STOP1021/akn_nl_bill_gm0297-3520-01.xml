@@ -69,7 +69,7 @@
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/OZON034827365</doel>
+               <doel>/join/id/proces/gm0297/2019/OZON0348</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
                <eId>art_II</eId>
@@ -239,7 +239,7 @@
       </RegelingVersieMetadata>
       <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
-         <!-- FOUT: STOP1021	Het patroon in data:uri moet overeenkomen met data:soortRef (URL: correcte http-referentie, AKN: correcte AKN, JCI: correcte JCI) -->
+         <!-- FOUT STOP1016 Het patroon in data:uri moet overeenkomen met data:soortRef (URL: correcte http-referentie, AKN: correcte AKN, JCI: correcte JCI) -->
          <grondslagen>
             <grondslag>
                <TekstReferentie>

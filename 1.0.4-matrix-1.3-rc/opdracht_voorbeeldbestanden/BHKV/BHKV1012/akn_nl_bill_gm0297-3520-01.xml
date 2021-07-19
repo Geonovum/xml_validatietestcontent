@@ -122,7 +122,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <!-- FOUT: BHKV1012	De wordt-versie voor een regeling moet bij het juiste work horen -->
+            <!-- FOUT BHKV 1012	De wordt-versie voor een regeling moet bij het juiste work horen -->
             <RegelingCompact componentnaam="initieel_reg"
                              wordt="/akn/nl/act/gm0297/2019/BHKV1012FOUT/nld@2019-06-25;1_FOUT">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">

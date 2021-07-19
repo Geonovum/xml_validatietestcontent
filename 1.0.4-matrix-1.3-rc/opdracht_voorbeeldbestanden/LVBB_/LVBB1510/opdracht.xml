@@ -3,7 +3,7 @@
 
 
    <idLevering>id-publicatie-LVBB1510</idLevering>
-   <!-- FOUT: LVBB1510	De opdracht MOET een id-bevoegd-gezag bevatten -->
+    LVBB 1510	De opdracht MOET een id-bevoegd-gezag bevatten -->
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
    <datumBekendmaking>2021-04-22</datumBekendmaking>

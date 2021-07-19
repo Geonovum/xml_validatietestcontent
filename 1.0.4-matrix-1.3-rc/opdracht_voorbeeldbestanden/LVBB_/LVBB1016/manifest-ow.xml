@@ -19,7 +19,7 @@
          <naam>owRegelingsgebied.xml</naam>
          <objecttype>Regelingsgebied</objecttype>
       </Bestand>
-      <!-- FOUT: LVBB1016	Zijn alle bestanden genoemd in manifest-ow aanwezig in zip? -->
+       LVBB 1016	Zijn alle bestanden genoemd in manifest-ow aanwezig in zip? -->
       <Bestand>
          <naam>NietInZip.xml</naam>
          <objecttype>Gebied</objecttype>

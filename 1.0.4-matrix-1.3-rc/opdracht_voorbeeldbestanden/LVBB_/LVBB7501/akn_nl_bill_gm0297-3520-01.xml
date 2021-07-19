@@ -235,7 +235,7 @@
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT: LVBB7501 Valideert de RegelingVersie tegen het imop schema? -->
+          LVBB 7501 Valideert de RegelingVersie tegen het imop schema? -->
          <versienummers>1</versienummers>
       </RegelingVersieMetadata>
       <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

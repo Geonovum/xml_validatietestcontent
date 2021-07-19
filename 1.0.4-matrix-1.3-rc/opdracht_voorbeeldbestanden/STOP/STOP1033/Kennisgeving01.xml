@@ -6,8 +6,8 @@
   https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
   <KennisgevingVersie>
     <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <FRBRWork>/akn/nl/doc/pv26/2020/STOP1033</FRBRWork>
-      <FRBRExpression>/akn/nl/doc/pv26/2020/STOP1033/nld@2020-02-17</FRBRExpression>
+      <FRBRWork>/akn/nl/doc/pv26/2020/STOP</FRBRWork>
+      <FRBRExpression>/akn/nl/doc/pv26/2020/STOP/nld@2020-02-17</FRBRExpression>
       <soortWork>/join/id/stop/work_023</soortWork>
     </ExpressionIdentificatie>
     <KennisgevingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -25,7 +25,7 @@
       <voegStappenToe>
         <!-- Ondertekening -->
         <Procedurestap>
-          <!-- FOUT: STOP1033	Een officiële publicatie van een kennisgeving MAG GEEN datum ondertekening hebben. -->
+           STOP Een officiële publicatie van een kennisgeving MAG GEEN datum ondertekening hebben. -->
           <soortStap>/join/id/stop/procedure/stap_003</soortStap>
           <voltooidOp>2019-06-26</voltooidOp>
         </Procedurestap>

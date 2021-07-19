@@ -78,7 +78,7 @@
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
          <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
-            <!-- FOUT: BHKV1007	data:officieleTitel moet gelijk zijn aan de Regelingopschrift van het besluit -->
+            <!-- FOUT BHKV 1007	data:officieleTitel moet gelijk zijn aan de Regelingopschrift van het besluit -->
             <Al>Vaststelling van Omgevingsplan Gemeentestad (FOUT)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">

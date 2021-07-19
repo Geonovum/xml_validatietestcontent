@@ -33,7 +33,7 @@
          <bekendOp>2021-06-27</bekendOp>
          <procedurestappen>
             <!-- Begin inzagetermijn -->
-            <!-- FOUT: LVBB4758 De datum einde inzagetermijn %1 moet groter of gelijk zijn aan de datum begin inzagetermijn %2 -->
+             LVBB 4758 De datum einde inzagetermijn %1 moet groter of gelijk zijn aan de datum begin inzagetermijn %2 -->
             <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_014</soortStap>
                <voltooidOp>2019-05-25</voltooidOp>

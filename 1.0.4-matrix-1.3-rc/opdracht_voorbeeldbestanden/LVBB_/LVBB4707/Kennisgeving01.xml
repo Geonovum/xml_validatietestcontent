@@ -6,7 +6,7 @@
   https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
   <KennisgevingVersie>
     <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-      <!-- FOUT: LVBB4707	Derde veld waarde akn bij kennisgeving moet gelijk zijn aan 'doc' -->
+       LVBB 4707	Derde veld waarde akn bij kennisgeving moet gelijk zijn aan 'doc' -->
       <FRBRWork>/akn/nl/niet_doc/pv26/2020/kennisgeving01</FRBRWork>
       <FRBRExpression>/akn/nl/doc/pv26/2020/kennisgeving01/nld@2020-02-17</FRBRExpression>
       <soortWork>/join/id/stop/work_023</soortWork>
