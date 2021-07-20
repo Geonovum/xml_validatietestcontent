@@ -191,7 +191,7 @@
                                  rowsep="1"
                                  tabstyle="zebra1">
                                  <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                                  STOP Een tabel MOET ten minste twee kolommen hebben -->
+                                  <!-- FOUT STOP0029 Een tabel MOET ten minste twee kolommen hebben -->
                                  <tgroup align="left" cols="1">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
                                     <thead valign="bottom">

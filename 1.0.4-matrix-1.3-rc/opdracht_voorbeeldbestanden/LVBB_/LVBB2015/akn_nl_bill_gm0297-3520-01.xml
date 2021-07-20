@@ -49,7 +49,7 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/LVBB2015</data:doel>
                </doelen>
-                LVBB 2015	Als voor een JOIN-identificatie (expressie) het eerste deel na de '@' een jaartal is dan moet dat gelijk zijn of groter dan het jaartal in het werk deel (vijfde deel) -->
+               <!-- FOUT LVBB 2015	Als voor een JOIN-identificatie (expressie) het eerste deel na de '@' een jaartal is dan moet dat gelijk zijn of groter dan het jaartal in het werk deel (vijfde deel) -->
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB2015/nld@2018;1</data:instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>

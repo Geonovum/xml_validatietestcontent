@@ -191,7 +191,7 @@
                                      rowsep="1"
                                      tabstyle="zebra1">
                                  <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                                  STOP Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest -->
+                                  <!-- FOUT STOP0032 Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest -->
                                  <tgroup align="left" cols="3">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
                                     <colspec colname="col2" colnum="2" colwidth="278*"/>

@@ -80,7 +80,7 @@
          <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
             <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
-          STOP Een @eId MAG NIET eindigen met een punt '.' -->
+         <!-- FOUT  STOP0013 Een @eId MAG NIET eindigen met een punt '.' -->
          <Aanhef eId="formula_1." wId="formula_1">
             <Al>De raad van de gemeente Gemeenstestad </Al>
             <Al>gelezen het voorstel van burgemeester en wethouders van 26 juni 2019, nr. 2019-4542;</Al>

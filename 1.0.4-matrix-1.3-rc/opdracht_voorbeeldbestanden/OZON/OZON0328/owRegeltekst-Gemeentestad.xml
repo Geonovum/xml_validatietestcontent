@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-                OZON 0328	Een instructieregel mag niet twee keer verwijzen naar dezelfde Gebiedsaanwijzing. -->
+               <!-- FOUT OZON 0328	Een instructieregel mag niet twee keer verwijzen naar dezelfde Gebiedsaanwijzing. -->
                <r:gebiedsaanwijzing>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>
                   <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0546.gebiedsaanwijzing.00001"/>

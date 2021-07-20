@@ -46,7 +46,7 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-         LVBB 1013	Plaatjes mogen geen transparantie hebben -->
+        <!-- FOUT LVBB 1013	Plaatjes mogen geen transparantie hebben -->
         <bestandsnaam>transparent_cloud.jpg</bestandsnaam>
         <contentType>image/jpeg</contentType>
     </bestand>

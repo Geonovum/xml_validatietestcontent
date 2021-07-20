@@ -38,7 +38,7 @@
                <vt:divisieaanduiding>
                   <vt:DivisieRef xlink:href="nl.imow-gm0546.divisie.00001"/>
                </vt:divisieaanduiding>
-                OZON 0340	Een tekstdeel mag niet twee keer verwijzen naar dezelfde hoofdlijn. -->
+               <!-- FOUT OZON 0340	Een tekstdeel mag niet twee keer verwijzen naar dezelfde hoofdlijn. -->
                <vt:hoofdlijnaanduiding>
                   <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.00001"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>
                   <vt:HoofdlijnRef xlink:href="nl.imow-gm0546.hoofdlijn.00001"><!--Visie|Visie Leiden--></vt:HoofdlijnRef>

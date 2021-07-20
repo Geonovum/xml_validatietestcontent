@@ -6,7 +6,7 @@
   https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
   <KennisgevingVersie>
     <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-       LVBB 4701 Het AKN ID van het werk dat het bevoegd gezag aan de Kennisgeving heeft toegekend moet uniek zijn -->
+      <!-- FOUT LVBB 4701 Het AKN ID van het werk dat het bevoegd gezag aan de Kennisgeving heeft toegekend moet uniek zijn -->
       <FRBRWork>/akn/nl/doc/pv26/2020/kennisgeving01</FRBRWork>
       <FRBRExpression>/akn/nl/doc/pv26/2020/kennisgeving01/nld@2020-02-17</FRBRExpression>
       <soortWork>/join/id/stop/work_023</soortWork>

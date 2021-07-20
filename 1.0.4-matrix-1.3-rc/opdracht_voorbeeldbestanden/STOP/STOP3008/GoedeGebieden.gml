@@ -44,7 +44,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-                STOP Van de elementen kwalitatieveNormwaarde en kwantitatieveNormwaarde in een Locatie mag er slechts één ingevuld zijn. -->
+               <!-- FOUT STOP Van de elementen kwalitatieveNormwaarde en kwantitatieveNormwaarde in een Locatie mag er slechts één ingevuld zijn. -->
                <geo:kwantitatieveNormwaarde>5</geo:kwantitatieveNormwaarde>
                <geo:kwalitatieveNormwaarde>iets</geo:kwalitatieveNormwaarde>
             </geo:Locatie>

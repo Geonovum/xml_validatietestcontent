@@ -25,7 +25,7 @@
       <voegStappenToe>
         <Procedurestap>
           <!-- nieuw! begin inzagetermijn -->
-           LVBB 4703	"Datum begin inzagetermijn mag niet liggen voor datum bekendmaking kennisgeving [zoals benoemd in de opdracht.xml]" -->
+          <!-- FOUT LVBB 4703	"Datum begin inzagetermijn mag niet liggen voor datum bekendmaking kennisgeving [zoals benoemd in de opdracht.xml]" -->
           <soortStap>/join/id/stop/procedure/stap_014</soortStap>
           <voltooidOp>2021-06-01</voltooidOp>
         </Procedurestap>

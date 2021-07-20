@@ -29,7 +29,7 @@
             <alternatieveTitel>GoedeGebieden</alternatieveTitel>
          </alternatieveTitels>
          <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden</data:officieleTitel>
-          BHKV 1018	De collectie gebruikt in de AKN identifier van een informatieobject MOET overeenkomen met zijn data:publicatieinstructie -->
+         <!-- FOUT BHKV 1018	De collectie gebruikt in de AKN identifier van een informatieobject MOET overeenkomen met zijn data:publicatieinstructie -->
          <publicatieinstructie>Informatief</publicatieinstructie>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>

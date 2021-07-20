@@ -25,7 +25,7 @@
          </rechtsgebieden>
          <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
          <informatieobjectRefs>
-             STOP alle data:informatieobjectref binnen een data:informatieobjectRefs zijn uniek -->
+            <!-- FOUT STOP alle data:informatieobjectref binnen een data:informatieobjectRefs zijn uniek -->
             <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</data:informatieobjectRef>
             <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</data:informatieobjectRef>
             <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</data:informatieobjectRef>

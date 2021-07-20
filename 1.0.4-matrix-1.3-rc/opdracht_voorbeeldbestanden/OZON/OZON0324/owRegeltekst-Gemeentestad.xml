@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-                OZON 0324	Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde omgevingsnorm. -->
+               <!-- FOUT OZON 0324	Een regel voor iedereen mag niet twee keer verwijzen naar dezelfde omgevingsnorm. -->
                <r:omgevingsnormaanduiding>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.00001"/>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.00001"/>

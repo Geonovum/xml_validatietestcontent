@@ -36,7 +36,7 @@
                <soortStap>/join/id/stop/procedure/stap_002</soortStap>
                <voltooidOp>2019-06-25</voltooidOp>
             </Procedurestap>
-             STOP Elke procedurestap van een procedureverloop of procedureverloopmutatie MOET een unieke waarde hebben voor soort stap -->
+            <!-- FOUT STOP Elke procedurestap van een procedureverloop of procedureverloopmutatie MOET een unieke waarde hebben voor soort stap -->
             <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_002</soortStap>
                <voltooidOp>2019-06-25</voltooidOp>

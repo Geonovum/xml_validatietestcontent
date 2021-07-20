@@ -272,7 +272,7 @@
                                              colsep="1"
                                              rotate="0"
                                              valign="top">
-                                              STOP Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel -->
+                                             <!-- FOUT  STOP0008 Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel -->
                                              <Al><NootRef refid="N1"/></Al>
                                           </entry>
                                           <entry align="left"

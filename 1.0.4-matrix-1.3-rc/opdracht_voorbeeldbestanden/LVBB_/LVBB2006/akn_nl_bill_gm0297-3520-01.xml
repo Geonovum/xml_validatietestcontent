@@ -127,7 +127,7 @@
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
-                LVBB 2006 De eId/wId bij Lichaam (dit kan twee keer voorkomen in het besluit) moet uniek zijn -->
+               <!-- FOUT LVBB 2006 De eId/wId bij Lichaam (dit kan twee keer voorkomen in het besluit) moet uniek zijn -->
                <Lichaam eId="body_1" wId="body_1">
                   <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
                      <Kop>

@@ -44,7 +44,7 @@
          </procedurestappen>
       </Procedureverloop>
       <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-          LVBB 7502 Valideert de Consolidaties tegen het imop schema? -->
+         <!-- FOUT LVBB 7502 Valideert de Consolidaties tegen het imop schema? -->
          <BeoogdeRegelgeving_s>
             <BeoogdeRegeling>
                <doelen>

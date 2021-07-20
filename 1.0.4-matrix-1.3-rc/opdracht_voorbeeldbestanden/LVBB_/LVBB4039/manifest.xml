@@ -16,7 +16,7 @@
         <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
-     LVBB 4039 De mimetype van een subitem in het document moet gelijk zijn aan het aangeleverde mimetype -->
+    <!-- FOUT LVBB 4039 De mimetype van een subitem in het document moet gelijk zijn aan het aangeleverde mimetype -->
     <bestand>
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
         <contentType>application/pdf</contentType>

@@ -30,7 +30,7 @@
          </informatieobjectRefs>
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-          LVBB 7725	'Datum bekend op' MOET voldoen aan het formaat JJJJ-MM-DD' -->
+         <!-- FOUT LVBB 7725	'Datum bekend op' MOET voldoen aan het formaat JJJJ-MM-DD' -->
          <bekendOp>21-06-27</bekendOp>
          <procedurestappen><!-- Vaststelling -->
             <Procedurestap>

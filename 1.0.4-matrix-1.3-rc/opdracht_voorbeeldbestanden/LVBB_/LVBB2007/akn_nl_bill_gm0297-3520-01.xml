@@ -124,7 +124,7 @@
             </Kop>
             <RegelingCompact componentnaam="initieel_reg"
                              wordt="/akn/nl/act/gm0297/2019/LVBB2007/nld@2019-06-25;1">
-                LVBB 2007 De eId/wId bij RegelingOpschrift (dit kan twee keer voorkomen in het besluit) moet uniek zijn -->
+               <!-- FOUT LVBB 2007 De eId/wId bij RegelingOpschrift (dit kan twee keer voorkomen in het besluit) moet uniek zijn -->
                <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>

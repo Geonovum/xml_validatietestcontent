@@ -23,7 +23,7 @@
                 <sl:objectType>RegelVoorIedereen</sl:objectType>
             </sl:objectTypen>
         </sl:inhoud>
-         OZON 0108 Het aanleveren van een OW-object mag alleen indien de gegevens aangepast zijn t.o.v. de vorige versie van het OW-object. -->
+        <!-- FOUT OZON 0108 Het aanleveren van een OW-object mag alleen indien de gegevens aangepast zijn t.o.v. de vorige versie van het OW-object. -->
         <sl:stand>
             <ow-dc:owObject>
                 <r:RegelVoorIedereen>

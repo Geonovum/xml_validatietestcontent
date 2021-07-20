@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-                OZON 0205	Een activiteit moet altijd minstens één verwijzing naar een locatie hebben (conform RTRG0003).  -->
+               <!-- FOUT OZON 0205	Een activiteit moet altijd minstens één verwijzing naar een locatie hebben (conform RTRG0003).  -->
                <r:activiteitaanduiding>
                   <rol:ActiviteitRef xlink:href="nl.imow-gm0297.activiteit.00001"/>
                </r:activiteitaanduiding>

@@ -94,7 +94,7 @@
             </l:Lijn>
          </ow-dc:owObject>
       </sl:stand>
-       OZON 0067	Voor iedere Lijn moet er een Geometrie aanwezig zijn in de levering. -->
+      <!-- FOUT OZON 0067	Voor iedere Lijn moet er een Geometrie aanwezig zijn in de levering. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Lijn>

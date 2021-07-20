@@ -23,7 +23,7 @@
                 <sl:objectType>RegelVoorIedereen</sl:objectType>
             </sl:objectTypen>
         </sl:inhoud>
-         OZON 0218 Een Regeltekst mag niet voorkomen in een andere regeling (behalve bij intrekken vervangen; in de ingetrokken regeling). -->
+        <!-- FOUT OZON 0218 Een Regeltekst mag niet voorkomen in een andere regeling (behalve bij intrekken vervangen; in de ingetrokken regeling). -->
         <sl:stand>
             <ow-dc:owObject>
                 <r:Regeltekst wId="gm0297_1__chp_1__art_1.1">

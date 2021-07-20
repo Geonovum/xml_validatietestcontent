@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-                OZON 0344	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde kaart. -->
+               <!-- FOUT OZON 0344	Een omgevingswaarderegel mag niet twee keer verwijzen naar dezelfde kaart. -->
                <r:kaartaanduiding>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>

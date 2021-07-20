@@ -45,7 +45,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-       OZON 0021	(TPOD1760) Een Gebiedsaanwijzing moet alleen verwijzen naar locaties van het type Gebied of Gebiedengroep -->
+      <!-- FOUT OZON 0021	(TPOD1760) Een Gebiedsaanwijzing moet alleen verwijzen naar locaties van het type Gebied of Gebiedengroep -->
       <sl:stand>
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>

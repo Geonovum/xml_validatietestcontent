@@ -45,7 +45,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-       OZON 0026	Er moet een RegelVoorIedereen of een Instructieregel zijn die verwijst naar de Omgevingsnorm. -->
+      <!-- FOUT OZON 0026	Er moet een RegelVoorIedereen of een Instructieregel zijn die verwijst naar de Omgevingsnorm. -->
       <sl:stand>
          <ow-dc:owObject>
             <rol:Omgevingsnorm>

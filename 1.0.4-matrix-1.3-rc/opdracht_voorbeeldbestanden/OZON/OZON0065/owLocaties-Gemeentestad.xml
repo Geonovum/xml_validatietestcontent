@@ -27,7 +27,7 @@
             <sl:objectType>Lijnengroep</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-       OZON 0065	Iedere Puntengroep moet verwijzen naar Punten die bestaan. -->
+      <!-- FOUT OZON 0065	Iedere Puntengroep moet verwijzen naar Punten die bestaan. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Puntengroep>

@@ -24,7 +24,7 @@
          <geo:normID>&gt;http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>
             <geo:Locatie>
-                GEO 0007 niet gesloten ring -->
+               <!-- FOUT GEO 0007 niet gesloten ring -->
                <geo:naam>GEO0007 niet gesloten ring</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000007-xx">

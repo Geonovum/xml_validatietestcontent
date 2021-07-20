@@ -205,7 +205,7 @@
          <versienummer>1</versienummer>
       </RegelingVersieMetadata>
       <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-          OZON 1019	Het bevoegd gezag moet het juiste format hebben: het moet eindigen met het type bevoegd gezag (ministerie, provincie, gemeente, waterschap), een /, en de organisatiecode, bijvoorbeeld ‘/gemeente/gm0037’.  -->
+         <!-- FOUT OZON 1019	Het bevoegd gezag moet het juiste format hebben: het moet eindigen met het type bevoegd gezag (ministerie, provincie, gemeente, waterschap), een /, en de organisatiecode, bijvoorbeeld ‘/gemeente/gm0037’.  -->
          <eindverantwoordelijke>/tooi/id/gemeente</eindverantwoordelijke>
          <maker>/tooi/id/gemeente/gm0297</maker>
          <!--soortBestuursorgaan is 'gemeenteraad'.-->

@@ -21,7 +21,7 @@
             <!-- werk -->
          </onderwerpen>
          <rechtsgebieden>
-             STOP Binnen dezelfde container waarin meervoudige elementen met waarden uit een waardelijst worden gebruikt, mag een unieke waarde maar één keer worden gebruikt. Dit geldt container data:rechtsgebieden. -->
+            <!-- FOUT STOP Binnen dezelfde container waarin meervoudige elementen met waarden uit een waardelijst worden gebruikt, mag een unieke waarde maar één keer worden gebruikt. Dit geldt container data:rechtsgebieden. -->
             <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
             <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
          </rechtsgebieden>

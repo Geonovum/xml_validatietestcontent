@@ -18,7 +18,7 @@
       <geo:GeoInformatieObjectVersie>
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
-         <!-- STOPAls de locaties van de GIO kwalitatieve normwaarden hebben, MOGEN eenheidlabel en eenheidID NIET voorkomen. -->
+         <!-- FOUT STOPAls de locaties van de GIO kwalitatieve normwaarden hebben, MOGEN eenheidlabel en eenheidID NIET voorkomen. -->
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>
          <geo:eenheidID>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</geo:eenheidID>
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>

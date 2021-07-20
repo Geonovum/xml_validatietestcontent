@@ -96,7 +96,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij Artikel I</Opschrift>
             </Kop>
-             LVBB 5006	De was-versie moet gevuld zijn bij niet-initiele mutaties  -->
+            <!-- FOUT LVBB 5006	De was-versie moet gevuld zijn bij niet-initiele mutaties  -->
             <RegelingMutatie componentnaam="wijziging_reg"
                              was=""
                              wordt="/akn/nl/act/gm0297/2019/LVBB5006/nld@2022-01-15;2">

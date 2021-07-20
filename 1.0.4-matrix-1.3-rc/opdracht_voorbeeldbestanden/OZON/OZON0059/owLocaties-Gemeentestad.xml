@@ -60,7 +60,7 @@
             </l:Punt>
          </ow-dc:owObject>
       </sl:stand>
-       OZON 0059	Iedere Lijnengroep moet verwijzen naar Lijnen die bestaan. -->
+      <!-- FOUT OZON 0059	Iedere Lijnengroep moet verwijzen naar Lijnen die bestaan. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Lijnengroep>

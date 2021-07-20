@@ -88,7 +88,7 @@
             <Al>besluit:</Al>
          </Aanhef>
          <Lichaam eId="body_1" wId="body_1">
-             STOP Een RegelingTijdelijkdeel MAG GEEN WijzigArtikel hebben -->
+            <!-- FOUT STOP0015 Een RegelingTijdelijkdeel MAG GEEN WijzigArtikel hebben -->
             <WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
                <Kop>
                   <Label>Artikel</Label>

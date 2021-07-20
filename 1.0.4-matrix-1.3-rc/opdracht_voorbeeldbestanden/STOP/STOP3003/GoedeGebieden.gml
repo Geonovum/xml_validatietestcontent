@@ -19,7 +19,7 @@
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:groepen>
-             STOP Twee groepIDs in het lijstje groepen mogen niet dezelfde waarde hebben. -->
+            <!-- FOUT STOP Twee groepIDs in het lijstje groepen mogen niet dezelfde waarde hebben. -->
             <geo:Groep>
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:label>GoedeGebieden 1</geo:label>

@@ -238,7 +238,7 @@
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <versienummer>1</versienummer>
       </RegelingVersieMetadata>
-       LVBB 7707 Aantal RegelingMetadata MOET 1 zijn -->
+      <!-- FOUT LVBB 7707 Aantal RegelingMetadata MOET 1 zijn -->
       <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
          <maker>/tooi/id/gemeente/gm0297</maker>

@@ -32,7 +32,7 @@
             </r:Regeltekst>
          </ow-dc:owObject>
       </sl:stand>
-       OZON 0099	(TPOD1850) Een Regeltekst die verwijst naar een RegelVoorIedereen, mag niet naar een Instructieregel of Omgevingswaarderegel verwijzen. -->
+      <!-- FOUT OZON 0099	(TPOD1850) Een Regeltekst die verwijst naar een RegelVoorIedereen, mag niet naar een Instructieregel of Omgevingswaarderegel verwijzen. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:RegelVoorIedereen>

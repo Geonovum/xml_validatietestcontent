@@ -172,7 +172,7 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                  STOP Een externe referentie MOET de juiste notatie gebruiken -->
+                                 <!-- FOUT STOP Een externe referentie MOET de juiste notatie gebruiken -->
                                  <Li wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b" eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>
                                     <Al>Ondersteund bestandstype

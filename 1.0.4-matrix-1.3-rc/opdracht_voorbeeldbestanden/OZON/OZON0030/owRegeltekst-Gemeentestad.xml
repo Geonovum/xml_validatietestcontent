@@ -45,7 +45,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-       OZON 0030: Er moet een Omgevingswaarderegel zijn die verwijst naar de Omgevingswaarde. -->
+      <!-- FOUT OZON 0030: Er moet een Omgevingswaarderegel zijn die verwijst naar de Omgevingswaarde. -->
       <sl:stand>
          <ow-dc:owObject>
             <rol:Omgevingswaarde>

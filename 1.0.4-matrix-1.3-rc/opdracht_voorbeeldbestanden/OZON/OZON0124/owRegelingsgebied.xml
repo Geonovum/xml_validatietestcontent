@@ -16,7 +16,7 @@
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-       OZON 0124 Een Regelingsgebied moet verwijzen naar een bestaande locatie -->
+      <!-- FOUT OZON 0124 Een Regelingsgebied moet verwijzen naar een bestaande locatie -->
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
             <rg:Regelingsgebied>

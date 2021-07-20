@@ -203,7 +203,7 @@
                               <Term>GoedeGebieden</Term>
                               <Definitie>
                                  <Al>
-                                     BHKV 1003	Inhoud van eId in  data:BeoogdInformatieobject MOET als attribuutwaarde van een ExtIoRef/@eId voorkomen -->
+                                    <!-- FOUT BHKV 1003	Inhoud van eId in  data:BeoogdInformatieobject MOET als attribuutwaarde van een ExtIoRef/@eId voorkomen -->
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
                                                     wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1_FOUT"

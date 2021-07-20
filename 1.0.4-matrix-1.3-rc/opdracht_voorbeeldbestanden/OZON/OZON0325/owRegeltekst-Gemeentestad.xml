@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-                OZON 0325	Een regel voor iedereen (foute voorwaarde, geimplementeerd als Omgevingswaarderegel) mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
+               <!-- FOUT OZON 0325	Een regel voor iedereen (foute voorwaarde, geimplementeerd als Omgevingswaarderegel) mag niet twee keer verwijzen naar dezelfde gebiedsaanwijzing. -->
                <r:omgevingsnormaanduiding>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001"/>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0297.omgevingsnorm.2019000001"/>

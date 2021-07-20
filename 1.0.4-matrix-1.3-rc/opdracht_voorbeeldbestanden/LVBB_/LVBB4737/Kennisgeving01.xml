@@ -15,7 +15,7 @@
       <maker>/tooi/id/provincie/pv26</maker>
       <officieleTitel>Kennisgeving van het bekend maken van het ontwerpbesluit tot instellen van de Omgevingsverordening Utrecht</officieleTitel>
       <onderwerpen>
-         LVBB 4737	De waarde van tooi-identifiers in de kennisgeving moet teruggevonden kunnen worden in de waardelijst -->
+        <!-- FOUT LVBB 4737	De waarde van tooi-identifiers in de kennisgeving moet teruggevonden kunnen worden in de waardelijst -->
         <onderwerp>/tooi/def/concept/c_cfc7d5ab_niet_in_waardelijst</onderwerp>
       </onderwerpen>
       <mededelingOver>/akn/nl/bill/pv26/2020/OVPU001/nld@2020-06-09</mededelingOver>

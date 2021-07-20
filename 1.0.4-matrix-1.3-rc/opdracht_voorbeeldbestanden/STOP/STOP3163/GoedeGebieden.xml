@@ -51,7 +51,7 @@
                         <SvgParameter name="fill">#c8c8c8</SvgParameter>
                      </Fill>
                   </Mark>
-                   STOP De Graphic:Size MOET aan de reguliere expressie ^[0-9]+$ voldoen. (een positief geheel getal). -->
+                  <!-- FOUT STOP De Graphic:Size MOET aan de reguliere expressie ^[0-9]+$ voldoen. (een positief geheel getal). -->
                   <Size>-1</Size>
                </Graphic>
             </PointSymbolizer>

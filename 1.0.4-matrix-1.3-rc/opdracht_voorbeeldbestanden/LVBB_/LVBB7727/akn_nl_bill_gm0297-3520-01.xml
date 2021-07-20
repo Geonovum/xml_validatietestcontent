@@ -30,7 +30,7 @@
          </informatieobjectRefs>
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-          LVBB 7727	'Datum bekend op' MOET de datum van vandaag of een datum in de toekomst zijn -->
+         <!-- FOUT LVBB 7727	'Datum bekend op' MOET de datum van vandaag of een datum in de toekomst zijn -->
          <bekendOp>2020-02-29</bekendOp>
          <procedurestappen><!-- Vaststelling -->
             <Procedurestap>

@@ -44,7 +44,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-                STOP Als er één locatie is in een GIO waar kwantitatieveNormwaarde is ingevuld MOETEN alle locaties een kwantitatieveNormWaarde hebben. -->
+               <!-- FOUT STOP Als er één locatie is in een GIO waar kwantitatieveNormwaarde is ingevuld MOETEN alle locaties een kwantitatieveNormWaarde hebben. -->
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>

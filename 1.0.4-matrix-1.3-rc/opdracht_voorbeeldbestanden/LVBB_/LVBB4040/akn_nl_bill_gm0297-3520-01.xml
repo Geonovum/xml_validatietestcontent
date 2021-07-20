@@ -237,7 +237,6 @@
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <versienummer>1</versienummer>
       </RegelingVersieMetadata>
-       LVBB 4040	RegelingMetadata MOET aanwezig zijn in het aangeleverde besluit, INDIEN een Regelingversie betrekking heeft op een nieuwe regeling
- -->
+      <!-- FOUT LVBB 4040	RegelingMetadata MOET aanwezig zijn in het aangeleverde besluit, INDIEN een Regelingversie betrekking heeft op een nieuwe regeling -->
    </RegelingVersieInformatie>
 </AanleveringBesluit>

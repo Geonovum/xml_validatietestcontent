@@ -47,7 +47,7 @@
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
-             OZON 0022	Er moet een RegelVoorIedereen, Instructieregel of Tekstdeel zijn die verwijst naar de Gebiedsaanwijzing -->
+            <!-- FOUT OZON 0022	Er moet een RegelVoorIedereen, Instructieregel of Tekstdeel zijn die verwijst naar de Gebiedsaanwijzing -->
             <ga:Gebiedsaanwijzing>
                <ga:identificatie>nl.imow-gm0037.gebiedsaanwijzing.00001</ga:identificatie>
                <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>

@@ -16,7 +16,7 @@
             <sl:objectType>Regelingsgebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-       OZON 0109 OW-informatie waar naar verwezen wordt vanuit andere OW-informatie moet bestaan. -->
+      <!-- FOUT OZON 0109 OW-informatie waar naar verwezen wordt vanuit andere OW-informatie moet bestaan. -->
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
             <rg:Regelingsgebied>

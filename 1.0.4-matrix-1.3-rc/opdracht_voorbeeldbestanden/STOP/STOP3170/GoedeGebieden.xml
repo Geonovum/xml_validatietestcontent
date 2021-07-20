@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-             STOP Als de PolygonSymbolizer:Fill een GraphicFill:Graphic bevat, DAN MOET deze alleen se:ExternalGraphic bevatten. -->
+            <!-- FOUT STOP Als de PolygonSymbolizer:Fill een GraphicFill:Graphic bevat, DAN MOET deze alleen se:ExternalGraphic bevatten. -->
             <PolygonSymbolizer>
                <Name>vsgt206</Name>
                <Fill>

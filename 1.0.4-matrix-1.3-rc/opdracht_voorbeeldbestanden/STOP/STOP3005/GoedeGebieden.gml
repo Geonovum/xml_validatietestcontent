@@ -19,7 +19,7 @@
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:groepen>
-             STOP Als een groepID voorkomt in het lijstje groepen dan MOET er minstens 1 locatie zijn met dat groepID. -->
+            <!-- FOUT STOP Als een groepID voorkomt in het lijstje groepen dan MOET er minstens 1 locatie zijn met dat groepID. -->
             <geo:Groep>
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:label>GoedeGebieden1</geo:label>

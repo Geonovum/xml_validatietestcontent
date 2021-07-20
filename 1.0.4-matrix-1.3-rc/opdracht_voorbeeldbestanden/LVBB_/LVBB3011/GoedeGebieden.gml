@@ -35,7 +35,7 @@
                               <gml:Polygon>
                                  <gml:exterior>
                                     <gml:LinearRing>
-                                        LVBB 3011	Elk GML-element MOET een even aantal punten bevatten -->
+                                       <!-- FOUT LVBB 3011	Elk GML-element MOET een even aantal punten bevatten -->
                                        <gml:posList>424075.759 138445.009 424074.084 138250.611 423503.039 138150.374 423533.414 138043.567 423637.255 138064.818 423652.089 138072.431 423659.852 138190.827 423998.783 138226.769 424096.045 138243.501 424141.337 138358.602 424107.221 138445.727 424075.759</gml:posList>
                                     </gml:LinearRing>
                                  </gml:exterior>

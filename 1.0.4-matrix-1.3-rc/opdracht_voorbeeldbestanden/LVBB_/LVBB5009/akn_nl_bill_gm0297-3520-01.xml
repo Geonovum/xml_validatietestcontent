@@ -125,7 +125,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-             LVBB 5009 De was- en wordt-versie hebben betrekking hebben op dezelfde regeling -->
+            <!-- FOUT LVBB 5009 De was- en wordt-versie hebben betrekking hebben op dezelfde regeling -->
             <RegelingCompact componentnaam="initieel_reg"
                was="/akn/nl/act/gm0297/2019/LVBB5009/nld@2019-06-25;1"
                              wordt="/akn/nl/act/gm0297/2019/LVBB5009/nld@2019-06-25;1">

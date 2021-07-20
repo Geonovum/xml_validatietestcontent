@@ -18,7 +18,7 @@
       <geo:GeoInformatieObjectVersie>
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
-         <!-- STOPAls de locaties van de GIO kwantitatieve normwaarden hebben, moet de eenheid(eenheidlabel en eenheidID) aanwezig zijn in de GIO. -->
+         <!-- FOUT STOPAls de locaties van de GIO kwantitatieve normwaarden hebben, moet de eenheid(eenheidlabel en eenheidID) aanwezig zijn in de GIO. -->
          <geo:normlabel>Maximum bouwhoogte</geo:normlabel>
          <geo:normID>>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</geo:normID>
          <geo:locaties>

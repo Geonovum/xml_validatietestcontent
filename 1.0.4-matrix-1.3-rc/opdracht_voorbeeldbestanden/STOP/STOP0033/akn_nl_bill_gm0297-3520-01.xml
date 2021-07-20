@@ -191,7 +191,7 @@
                                      rowsep="1"
                                      tabstyle="zebra1">
                                  <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                                  STOP Bij horizontale overspanning MOET de @colname van eerste cel van de overspanning gelijk zijn aan de start (@namest) van de overspanning zijn. -->
+                                 <!-- FOUT STOP Bij horizontale overspanning MOET de @colname van eerste cel van de overspanning gelijk zijn aan de start (@namest) van de overspanning zijn. -->
                                  <tgroup align="left" cols="3">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
                                     <colspec colname="col2" colnum="2" colwidth="278*"/>
