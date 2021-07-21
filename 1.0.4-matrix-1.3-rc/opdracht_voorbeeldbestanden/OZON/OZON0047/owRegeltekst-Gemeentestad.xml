@@ -46,7 +46,7 @@
             </r:Omgevingswaarderegel>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT<!-- FOUT OZON 0047	Iedere OmgevingswaardeRegel moet verwijzen naar een of meerdere Locaties die bestaan. -->
+      <!-- FOUT OZON 0047	Iedere OmgevingswaardeRegel moet verwijzen naar een of meerdere Locaties die bestaan. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Omgevingswaarderegel>

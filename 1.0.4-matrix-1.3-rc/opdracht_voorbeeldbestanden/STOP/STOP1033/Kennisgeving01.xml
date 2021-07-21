@@ -25,7 +25,7 @@
       <voegStappenToe>
         <!-- Ondertekening -->
         <Procedurestap>
-          <!-- FOUT STOP Een officiële publicatie van een kennisgeving MAG GEEN datum ondertekening hebben. -->
+          <!-- FOUT STOP 1033 Een officiële publicatie van een kennisgeving MAG GEEN datum ondertekening hebben. -->
           <soortStap>/join/id/stop/procedure/stap_003</soortStap>
           <voltooidOp>2019-06-26</voltooidOp>
         </Procedurestap>

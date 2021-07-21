@@ -91,7 +91,7 @@
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
-               <!-- FOUT STOP 005 Een element OpmerkingVersie MAG alleen in een BesluitKlassiek worden gebruikt -->
+               <!-- FOUT STOP 0051 Een element OpmerkingVersie MAG alleen in een BesluitKlassiek worden gebruikt -->
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
                <OpmerkingVersie>Een element OpmerkingVersie MAG alleen in een BesluitKlassiek worden gebruikt</OpmerkingVersie>
             </WijzigArtikel>
@@ -140,8 +140,7 @@
                            <Opschrift>Toepassingsgebied</Opschrift>
                         </Kop>
                         <Inhoud>
-                           <!-- FOUT STOP 0050	Een onderdeel binnen een @wId MAG NIET eindigen met een punt '.' -->
-                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1_FOUT" wId="gm0297_1__chp_1__art_1.1__ref_o_1"
+                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1" wId="gm0297_1__chp_1__art_1.1__ref_o_1"
                                  ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Gemeentestad</IntIoRef>.</Al>
                         </Inhoud>
                      </Artikel>
@@ -174,7 +173,6 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                 <!-- FOUT STOP 0050	Een externe referentie MOET de juiste notatie gebruiken -->
                                  <Li wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b" eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>
                                     <Al>Ondersteund bestandstype

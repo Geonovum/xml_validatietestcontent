@@ -52,7 +52,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <!-- FOUT STOP Een Locatie binnen een GIO mag niet zowel een groepID (GIO-deel) als een (kwalitatieve of kwantitatieve) Normwaarde bevatten. -->
+               <!-- FOUT STOP 3012 Een Locatie binnen een GIO mag niet zowel een groepID (GIO-deel) als een (kwalitatieve of kwantitatieve) Normwaarde bevatten. -->
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:kwalitatieveNormwaarde>iets</geo:kwalitatieveNormwaarde>
             </geo:Locatie>

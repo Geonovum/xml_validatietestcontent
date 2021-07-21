@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT STOP De PointSymbolizer MOET de vorm se:Graphic/se:Mark/se:Fill/se:GraphicFill/se:SvgParameter hebben. -->
+            <!-- FOUT STOP 3138 De PointSymbolizer MOET de vorm se:Graphic/se:Mark/se:Fill/se:GraphicFill/se:SvgParameter hebben. -->
             <PointSymbolizer>
                <Name></Name>
                <Graphic>

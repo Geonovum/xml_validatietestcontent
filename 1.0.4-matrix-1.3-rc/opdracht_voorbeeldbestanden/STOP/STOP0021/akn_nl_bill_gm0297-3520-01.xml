@@ -129,7 +129,7 @@
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
-               <!-- FOUT STOP Een wId buiten een AKN-component MOET uniek zijn binnen een bestand -->
+               <!-- FOUT STOP 0021 Een wId buiten een AKN-component MOET uniek zijn binnen een bestand -->
                <Lichaam eId="body_2" wId="body_1">
                   <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
                      <Kop>
@@ -183,7 +183,7 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                 <!-- FOUT STOP Een wId binnen een AKN-component MOET uniek zijn -->
+                                 <!-- FOUT STOP 0021 Een wId binnen een AKN-component MOET uniek zijn -->
                                  <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b"
                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>

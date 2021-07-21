@@ -23,7 +23,7 @@
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:label>GoedeGebieden</geo:label>
             </geo:Groep>
-            <!-- FOUT STOP Twee labels in het lijstje groepen mogen niet dezelfde waarde hebben. -->
+            <!-- FOUT STOP 3004 Twee labels in het lijstje groepen mogen niet dezelfde waarde hebben. -->
             <geo:Groep>
                <geo:groepID>GoedeGebieden2</geo:groepID>
                <geo:label>GoedeGebieden</geo:label>
