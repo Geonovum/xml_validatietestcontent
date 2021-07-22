@@ -46,7 +46,7 @@ execute_single_file () {
 	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$opdracht" "$file")
 	
 	#wait ?? seconds for keten to create results
-	for i in {1..45}
+	for i in {1..90}
     do
         printf '.' > /dev/tty
         sleep 1
