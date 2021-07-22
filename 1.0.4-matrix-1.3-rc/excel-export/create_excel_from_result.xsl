@@ -270,7 +270,7 @@
                 <xsl:element name="Row" namespace="{$defNS}">
                     <xsl:call-template name="doDrawCell">
                         <xsl:with-param name="column" select="1"/>
-                        <xsl:with-param name="data" select="'Andere fout was de enige terugmelding:'"/>
+                        <xsl:with-param name="data" select="'Andere fout(en) was/waren de enige terugmelding:'"/>
                     </xsl:call-template>
                     <xsl:call-template name="doDrawIntegerCell">
                         <xsl:with-param name="column" select="5"/>
