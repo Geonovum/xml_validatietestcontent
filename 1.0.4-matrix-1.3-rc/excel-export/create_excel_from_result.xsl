@@ -8,8 +8,8 @@
     <xsl:variable name="defNS" select="string('urn:schemas-microsoft-com:office:spreadsheet')"/>
 
     <xsl:variable name="alleTests" select="0" saxon:assignable="yes"/>
-    <xsl:variable name="testsMetEenResultaat" select="0" saxon:assignable="yes"/>
-    <xsl:variable name="testsMetEenFoutResultaat" select="0" saxon:assignable="yes"/>
+    <xsl:variable name="testsMetEenGoedResultaat" select="0" saxon:assignable="yes"/>
+    <xsl:variable name="testsMetFouteResultaten" select="0" saxon:assignable="yes"/>
     <xsl:variable name="testsMetMeerdereResultaten" select="0" saxon:assignable="yes"/>
     <xsl:variable name="testsMetGeenResultaten" select="0" saxon:assignable="yes"/>
     <xsl:variable name="resultaten" select="0" saxon:assignable="yes"/>
@@ -224,12 +224,12 @@
             <xsl:variable name="aantalVerslagMeldingen" select="count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
             <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen(.)"/>
             <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = true()">
-                <saxon:assign name="testsMetEenResultaat" select="$testsMetEenResultaat + 1" saxon:assignable="yes"/>
+                <saxon:assign name="testsMetEenGoedResultaat" select="$testsMetEenGoedResultaat + 1" saxon:assignable="yes"/>
             </xsl:if>
-            <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = false()">
-                <saxon:assign name="testsMetEenFoutResultaat" select="$testsMetEenFoutResultaat + 1" saxon:assignable="yes"/>
+            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $found = false()">
+                <saxon:assign name="testsMetFouteResultaten" select="$testsMetFouteResultaten + 1" saxon:assignable="yes"/>
             </xsl:if>
-            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1)">
+            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $found = true()">
                 <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten + 1" saxon:assignable="yes"/>
             </xsl:if>
             <xsl:if test="($aantalVerslagMeldingen = 0 and $aantalMeldingen = 0)">
@@ -264,23 +264,23 @@
                     </xsl:call-template>
                     <xsl:call-template name="doDrawIntegerCell">
                         <xsl:with-param name="column" select="5"/>
-                        <xsl:with-param name="data" select="$testsMetEenResultaat"/>
+                        <xsl:with-param name="data" select="$testsMetEenGoedResultaat"/>
                     </xsl:call-template>
                 </xsl:element>
                 <xsl:element name="Row" namespace="{$defNS}">
                     <xsl:call-template name="doDrawCell">
                         <xsl:with-param name="column" select="1"/>
-                        <xsl:with-param name="data" select="'Andere fout(en) was/waren de enige terugmelding:'"/>
+                        <xsl:with-param name="data" select="'Andere fouten waren de enige terugmelding:'"/>
                     </xsl:call-template>
                     <xsl:call-template name="doDrawIntegerCell">
                         <xsl:with-param name="column" select="5"/>
-                        <xsl:with-param name="data" select="$testsMetEenFoutResultaat"/>
+                        <xsl:with-param name="data" select="$testsMetFouteResultaten"/>
                     </xsl:call-template>
                 </xsl:element>
                 <xsl:element name="Row" namespace="{$defNS}">
                     <xsl:call-template name="doDrawCell">
                         <xsl:with-param name="column" select="1"/>
-                        <xsl:with-param name="data" select="'Meerdere fouten teruggegeven in de keten:'"/>
+                        <xsl:with-param name="data" select="'Meerdere fouten, inclusief de goede teruggegeven in de keten:'"/>
                     </xsl:call-template>
                     <xsl:call-template name="doDrawIntegerCell">
                         <xsl:with-param name="column" select="5"/>
