@@ -69,7 +69,6 @@ if [[ -e $1 ]]; then
            beschrijving=$( echo "$(cat result)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
            echo "$dt: $opdracht: $conversationid"
            echo "FOUT: $beschrijving";
-           echo "FOUT: $beschrijving">>$logfile;
         fi
     fi
     #the file result is removed
