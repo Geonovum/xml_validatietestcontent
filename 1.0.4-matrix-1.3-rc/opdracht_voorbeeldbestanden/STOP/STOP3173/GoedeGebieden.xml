@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT STOP 3173 Een PolygonSymbolizer:Fill:GraphicFill:Graphic:ExternalGraphic:InlineContent met attribute encoding=base64" MOET aan de reguliere expressie ^[A-Z0-9a-z/+ =]*$ voldoen. (hoofd- en kleine letters, cijfers, plus-teken, /-teken)" -->
+            <!-- FOUT STOP3173 Een PolygonSymbolizer:Fill:GraphicFill:Graphic:ExternalGraphic:InlineContent met attribute encoding=base64" MOET aan de reguliere expressie ^[A-Z0-9a-z/+ =]*$ voldoen. (hoofd- en kleine letters, cijfers, plus-teken, /-teken)" -->
             <PolygonSymbolizer>
                <Name>vsgt206</Name>
                <Fill>

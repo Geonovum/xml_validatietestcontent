@@ -69,7 +69,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <!-- FOUT STOP 3001 Als een locatie een groepID heeft, dan MOET deze voorkomen in het lijstje groepen. -->
+               <!-- FOUT STOP3001 Als een locatie een groepID heeft, dan MOET deze voorkomen in het lijstje groepen. -->
                <geo:groepID>GoedeGebieden3</geo:groepID>
             </geo:Locatie>
          </geo:locaties>

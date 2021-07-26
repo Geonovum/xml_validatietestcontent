@@ -14,7 +14,7 @@
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
          <maker>/tooi/id/gemeente/gm0297</maker>
          <!--soortBestuursorgaan is (NIET)'gemeenteraad'.-->
-         <!-- FOUT STOP 1035 Het ingevulde soortBestuursorgaan moet passen bij de waarde in eindverantwoordelijke -->
+         <!-- FOUT STOP1035 Het ingevulde soortBestuursorgaan moet passen bij de waarde in eindverantwoordelijke -->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_61676cbc</soortBestuursorgaan>
          <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
          <onderwerpen>

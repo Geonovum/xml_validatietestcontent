@@ -37,7 +37,7 @@
                <voltooidOp>2019-06-25</voltooidOp>
             </Procedurestap>
             <!-- Ondertekening -->
-            <!-- FOUT STOP 1032 Een officiële publicatie van een besluit MOET een datum ondertekening hebben. -->
+            <!-- FOUT STOP1032 Een officiële publicatie van een besluit MOET een datum ondertekening hebben. -->
             <!--            <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_003</soortStap>
                <voltooidOp>2019-06-26</voltooidOp>

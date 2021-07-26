@@ -34,7 +34,7 @@
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>
       </InformatieObjectMetadata>
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.1.0">
-         <!-- FOUT STOP 3100 De FeatureTypeStyle MAG GEEN se:Name bevatten. -->
+         <!-- FOUT STOP3100 De FeatureTypeStyle MAG GEEN se:Name bevatten. -->
          <Name>a Name</Name>
          <FeatureTypeName>geo:Locatie</FeatureTypeName>
          <SemanticTypeIdentifier>geo:kwantitatieveNormwaarde</SemanticTypeIdentifier>

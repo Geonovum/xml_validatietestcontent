@@ -248,7 +248,7 @@
                <isOfficieel>true</isOfficieel>
             </CiteertitelInformatie>
          </heeftCiteertitelInformatie>
-         <!-- FOUT STOP 1022 de data:alternatieveTitel binnen een container data:alternatieveTitels zijn allen uniek -->
+         <!-- FOUT STOP1022 de data:alternatieveTitel binnen een container data:alternatieveTitels zijn allen uniek -->
          <alternatieveTitels>
             <alternatieveTitel>Gemeentestad</alternatieveTitel>
             <alternatieveTitel>Gemeentestad</alternatieveTitel>

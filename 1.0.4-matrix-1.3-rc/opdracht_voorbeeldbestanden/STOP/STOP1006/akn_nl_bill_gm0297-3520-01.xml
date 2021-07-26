@@ -56,7 +56,7 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/STOP</data:doel>
                </doelen>
-               <!-- FOUT STOP 1006 Voor een AKN- of JOIN identificatie (werk/expressie) moet het vijfde deel een jaartal zijn of een geldige datum zijn -->
+               <!-- FOUT STOP1006 Voor een AKN- of JOIN identificatie (werk/expressie) moet het vijfde deel een jaartal zijn of een geldige datum zijn -->
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019-06-31/GoedeGebieden/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
             </BeoogdInformatieobject>

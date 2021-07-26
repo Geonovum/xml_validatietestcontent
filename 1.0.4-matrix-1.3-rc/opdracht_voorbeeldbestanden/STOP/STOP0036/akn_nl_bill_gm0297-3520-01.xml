@@ -191,7 +191,7 @@
                                  rowsep="1"
                                  tabstyle="zebra1">
                                  <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                                 <!-- FOUT STOP 0036 De referentie van een cel MOET correct verwijzen naar een kolom -->
+                                 <!-- FOUT STOP0036 De referentie van een cel MOET correct verwijzen naar een kolom -->
                                  <tgroup align="left" cols="2">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
                                     <colspec colname="col2" colnum="2" colwidth="278*"/>

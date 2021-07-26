@@ -39,7 +39,7 @@
          <Rule>
             <Name>Maximum bouwhoogte 7 meter</Name>
             <Description>
-               <!-- FOUT STOP 3120 Als Rule:Filter:And is, dan MOETEN de operanden PropertyIsLessThan en PropertyIsGreaterThanOrEqualTo bevatten. -->
+               <!-- FOUT STOP3120 Als Rule:Filter:And is, dan MOETEN de operanden PropertyIsLessThan en PropertyIsGreaterThanOrEqualTo bevatten. -->
                <Title>TITEL</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>

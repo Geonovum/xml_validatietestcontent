@@ -91,7 +91,7 @@
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
-               <!-- FOUT STOP 0051 Een element OpmerkingVersie MAG alleen in een BesluitKlassiek worden gebruikt -->
+               <!-- FOUT STOP0051 Een element OpmerkingVersie MAG alleen in een BesluitKlassiek worden gebruikt -->
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
                <OpmerkingVersie>Een element OpmerkingVersie MAG alleen in een BesluitKlassiek worden gebruikt</OpmerkingVersie>
             </WijzigArtikel>

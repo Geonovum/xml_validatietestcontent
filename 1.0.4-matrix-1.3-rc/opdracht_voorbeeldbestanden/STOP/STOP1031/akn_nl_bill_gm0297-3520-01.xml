@@ -16,7 +16,7 @@
          <!--soortBestuursorgaan is 'gemeenteraad'.-->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
          <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
-         <!-- FOUT STOP 1031 Binnen dezelfde container waarin meervoudige elementen met waarden uit een waardelijst worden gebruikt, mag een unieke waarde maar één keer worden gebruikt. Dit geldt voor container data:onderwerpen. -->
+         <!-- FOUT STOP1031 Binnen dezelfde container waarin meervoudige elementen met waarden uit een waardelijst worden gebruikt, mag een unieke waarde maar één keer worden gebruikt. Dit geldt voor container data:onderwerpen. -->
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
