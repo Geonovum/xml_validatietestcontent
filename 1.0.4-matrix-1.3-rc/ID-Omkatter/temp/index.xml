@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>OZON0218</testId>
+   <testId>LVBB1502</testId>
    <besluit>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -14,7 +14,6 @@
    </file>
    <leveringId sourcefile="opdracht.xml">
       <referencefile>owRegelingsgebied.xml</referencefile>
-      <referencefile>owRegeltekst.xml</referencefile>
    </leveringId>
    <idLevering>id-publicatie-1235</idLevering>
    <file type="opdracht.xml" ow="false">
@@ -25,14 +24,10 @@
       <name>owRegelingsgebied.xml</name>
    </file>
    
-   <file type="regeltekst.xml" ow="true">
-      <name>owRegeltekst.xml</name>
-   </file>
-   
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>bae936d8-8315-412a-b15e-bd7e4f82497d</new>
+         <new>bfb22947-a1b6-42c9-ae99-bc0c3672c7f8</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
