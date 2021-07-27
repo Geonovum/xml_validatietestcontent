@@ -71,7 +71,7 @@ if [[ -e $1 ]]; then
         cat result>>$resultfile;
         echo "</envelop>">>$resultfile
     fi
-    if echo "$file" | grep -q "muteren"; then
+    if [ echo "$file" | grep -q "muteren" ]; then
         echo "<envelop>">$resultfile
         echo "<test>$conversationid</test>">>$resultfile
         #the variable result contains the URL
@@ -94,7 +94,7 @@ if [[ -e $1 ]]; then
 
     #the file result is queried
     if [ "$opdracht" != "valideren" ]; then
-        if echo "$(cat result)" | grep -q "stop:ernst>fout"; then
+        if [ echo "$(cat result)" | grep -q "stop:ernst>fout" ]; then
            beschrijving=$( echo "$(cat result)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
            echo "$dt: $opdracht: $conversationid"
            echo "FOUT: $beschrijving";
