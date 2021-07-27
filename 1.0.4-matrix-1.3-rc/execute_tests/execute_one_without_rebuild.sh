@@ -20,6 +20,7 @@ if [[ -e $1 ]]; then
     conversationid=${filenamewithoutextension#*_}
     validatienummer=$(echo $file| cut -d'-' -f 1)
 	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
+	echo $validatienummer
 
     
     echo $conversationid;

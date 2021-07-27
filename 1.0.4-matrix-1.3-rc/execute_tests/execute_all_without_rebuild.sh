@@ -22,6 +22,7 @@ execute_single_file () {
 	conversationid=${filenamewithoutextension#*_}
 	validatienummer=$(echo $file| cut -d'-' -f 1)
 	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
+	echo $validatienummer
 	action="versturen"
     opdracht="valideren"
     action="versturen"
@@ -64,16 +65,7 @@ execute_single_file () {
     #result is the file in which the URL $result is dumped
     wget -nv --no-check-certificate $result -O result;
     #alleen bij valideren entree in results
-    if [ echo "$file" | grep -q "valideren" ]; then
-        echo "<envelop>">$resultfile
-        echo "<test>$conversationid</test>">>$resultfile
-        #the variable result contains the URL
-        echo "<result>$result</result>">>$resultfile
-        #the file result is dumped into the result file
-        cat result>>$resultfile;
-        echo "</envelop>">>$resultfile
-    fi
-    if [ echo "$file" | grep -q "muteren" ]; then
+    if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">$resultfile
         echo "<test>$conversationid</test>">>$resultfile
         #the variable result contains the URL
@@ -83,7 +75,7 @@ execute_single_file () {
         echo "</envelop>">>$resultfile
     fi
     if [ "$validatienummer" = "LVBB1502" ]; then
-        if [ echo "$file" | grep -q "afbreken" ]; then
+        if [ echo "$opdracht" = "afbreken" ]; then
             echo "<envelop>">>$resultfile
             echo "<test>$conversationid</test>">>$resultfile
             #the variable result contains the URL
