@@ -65,10 +65,10 @@ if [ -d "$1" ]; then
             
 	       #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
 	       if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
-	           export newPostfix="$postfix-0-publiceren"
+	           export newPostfix="$postfix-a-0-publiceren"
 	       fi
 	       if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
-	           export newPostfix="$postfix-0-valideren"
+	           export newPostfix="$postfix-b-0-valideren"
 	       fi
            echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
 	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
@@ -104,10 +104,10 @@ if [ -d "$1" ]; then
     	           cd resultaat_$i
 	               pwd
 	               if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
-	                   export newPostfix="$postfix-$i-publiceren"
+	                   export newPostfix="$postfix-a-$i-publiceren"
 	               fi
 	               if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
-	                   export newPostfix="$postfix-$i-valideren"
+	                   export newPostfix="$postfix-b-$i-valideren"
 	               fi
                    echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
 	               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
@@ -121,7 +121,7 @@ if [ -d "$1" ]; then
 	           fi
            done
            if [ -d "resultaat_afbreek" ];then
-	           export newPostfix="$postfix-0-afbreken"
+	           export newPostfix="$postfix-z-0-afbreken"
                cd resultaat_afbreek
                pwd
                echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
@@ -158,7 +158,7 @@ if [ -d "$1" ]; then
                cd ..;	           
            fi
            if [ -d "resultaat_afbreek_1" ];then
-	           export newPostfix="$postfix-1-afbreken"
+	           export newPostfix="$postfix-z-1-afbreken"
                cd resultaat_afbreek_1
                pwd
                echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
@@ -244,7 +244,7 @@ if [ -d "$1" ]; then
     	       rm GoedeGebieden.gml
 	       fi
 	       #creeren zip-toevoeging
-	       export postfix="$orgfiledir-$datePart-valideren"
+	       export postfix="$orgfiledir-$datePart-b-0-valideren"
            echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip"	    	   
 	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip *;
 	       echo "git add $orgdirectory/*"

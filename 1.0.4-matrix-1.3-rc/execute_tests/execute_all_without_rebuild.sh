@@ -20,6 +20,8 @@ execute_single_file () {
 	echo $file;
 	filenamewithoutextension=${file%.zip}
 	conversationid=${filenamewithoutextension#*_}
+	validatienummer=$(echo $file| cut -d'-' -f 1)
+	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
 	action="versturen"
     opdracht="valideren"
     action="versturen"
@@ -66,6 +68,17 @@ execute_single_file () {
         #the file result is dumped into the result file
         cat result>>$resultfile;
         echo "</envelop>">>$resultfile
+    fi
+    if [ "$validatienummer" = "LVBB1502" ]; then
+        if [ "$opdracht" = "afbreken" ]; then
+            echo "<envelop>">>$resultfile
+            echo "<test>$conversationid</test>">>$resultfile
+            #the variable result contains the URL
+            echo "<result>$result</result>">>$resultfile
+            #the file result is dumped into the result file
+            cat result>>$resultfile;
+            echo "</envelop>">>$resultfile
+        fi
     fi
     #the result is queried
     if [ "$opdracht" != "valideren" ]; then
