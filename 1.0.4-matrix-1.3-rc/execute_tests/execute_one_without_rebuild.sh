@@ -92,12 +92,12 @@ if [[ -e $1 ]]; then
         fi
     fi
     #the file result is removed
-    rm result
     echo "---------------"
-    echo $result;
+    echo "$(cat result)";
     echo "---------------"
     echo "$(cat $logfile)"
     echo "---------------"
+    rm result
 
 else
     echo "$1 is not found, please use an existing zip file"
