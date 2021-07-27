@@ -94,7 +94,7 @@ if [[ -e $1 ]]; then
     #the file result is removed
     rm result
     echo "---------------"
-    echo "$(cat $result)";
+    echo $result;
     echo "---------------"
     echo "$(cat $logfile)"
     echo "---------------"
