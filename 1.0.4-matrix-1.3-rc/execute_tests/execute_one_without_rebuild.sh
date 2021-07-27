@@ -8,7 +8,7 @@ LOGLEVEL=""
 
 mkdir ~/xml_validatietestcontent/results
 resultfile=~/xml_validatietestcontent/results/result.xml
-dt=`date '+%d-%m-%YT%H:%M:%S:%N'`
+dt=`date '+%d%m%Y-T-%H%M%S%N'`
 logfile=~/xml_validatietestcontent/afbreeklog/ENKELVOUDIG-LOG-$dt.xml
 mkdir ~/xml_validatietestcontent/afbreeklog
 
