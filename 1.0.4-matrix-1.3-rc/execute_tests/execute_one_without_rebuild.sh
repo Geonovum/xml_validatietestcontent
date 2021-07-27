@@ -84,7 +84,7 @@ if [[ -e $1 ]]; then
     fi
     #the file result is queried
     if [ "$opdracht" != "valideren" ]; then
-        if [[ echo "$(cat result)" | grep -q "stop:ernst>fout" ]]; then
+        if  echo "$(cat result)" | grep -q "stop:ernst>fout" ; then
            beschrijving=$( echo "$(cat result)" | grep -o "<stop:beschrijving>.*</stop:beschrijving>");
            echo "$dt: $opdracht: $conversationid"
            echo "FOUT: $beschrijving";
