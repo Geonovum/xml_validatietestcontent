@@ -112,7 +112,7 @@ if [ -d "$1" ]; then
 	               if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
 	                   export newPostfix="$postfix-b-$i-valideren"
 	               fi
-	               if echo "$(cat opdracht.xml)" | grep -q "directeMutatieOpdracht"; then
+	               if echo "$(cat opdracht.xml)" | grep -q "validatieDirecteMutatieOpdracht"; then
 	                   export newPostfix="$postfix-m-$i-muteren"
 	               fi
                    echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
