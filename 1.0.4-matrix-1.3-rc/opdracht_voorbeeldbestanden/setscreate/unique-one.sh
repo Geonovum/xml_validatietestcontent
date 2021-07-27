@@ -70,6 +70,9 @@ if [ -d "$1" ]; then
 	       if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
 	           export newPostfix="$postfix-b-0-valideren"
 	       fi
+	       if echo "$(cat opdracht.xml)" | grep -q "directeMutatieOpdracht"; then
+	           export newPostfix="$postfix-m-0-muteren"
+	       fi
            echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
 	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
 	       #adding to git (if not done yet)
@@ -108,6 +111,9 @@ if [ -d "$1" ]; then
 	               fi
 	               if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
 	                   export newPostfix="$postfix-b-$i-valideren"
+	               fi
+	               if echo "$(cat opdracht.xml)" | grep -q "directeMutatieOpdracht"; then
+	                   export newPostfix="$postfix-m-$i-muteren"
 	               fi
                    echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
 	               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;

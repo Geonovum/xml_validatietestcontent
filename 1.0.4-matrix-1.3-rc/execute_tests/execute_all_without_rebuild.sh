@@ -30,6 +30,10 @@ execute_single_file () {
         opdracht="publiceren"
         action="versturen"
     fi
+    if echo "$file" | grep -q "muteren"; then
+        opdracht="publiceren"
+        action="versturen"
+    fi
     if echo "$file" | grep -q "valideren"; then
         opdracht="valideren"
         action="versturen"
