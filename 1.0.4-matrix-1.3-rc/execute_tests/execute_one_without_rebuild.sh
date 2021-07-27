@@ -30,7 +30,7 @@ if [[ -e $1 ]]; then
         action="versturen"
     fi
     if echo "$file" | grep -q "muteren"; then
-        opdracht="publiceren"
+        opdracht="valideren"
         action="versturen"
     fi
     if echo "$file" | grep -q "valideren"; then
@@ -62,16 +62,7 @@ if [[ -e $1 ]]; then
     echo " ">$resultfile
     #result is the file in which the URL $result is dumped
     wget -nv --no-check-certificate $result -O result;
-    if [ echo "$file" | grep -q "valideren" ]; then
-        echo "<envelop>">$resultfile
-        echo "<test>$conversationid</test>">>$resultfile
-        #the variable result contains the URL
-        echo "<result>$result</result>">>$resultfile
-        #the file result is dumped into the result file
-        cat result>>$resultfile;
-        echo "</envelop>">>$resultfile
-    fi
-    if [ echo "$file" | grep -q "muteren" ]; then
+    if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">$resultfile
         echo "<test>$conversationid</test>">>$resultfile
         #the variable result contains the URL
@@ -81,7 +72,7 @@ if [[ -e $1 ]]; then
         echo "</envelop>">>$resultfile
     fi
     if [ "$validatienummer" = "LVBB1502" ]; then
-        if [ echo "$file" | grep -q "afbreken" ]; then
+        if [ echo "$opdracht" = "afbreken" ]; then
             echo "<envelop>">>$resultfile
             echo "<test>$conversationid</test>">>$resultfile
             #the variable result contains the URL
@@ -91,7 +82,6 @@ if [[ -e $1 ]]; then
             echo "</envelop>">>$resultfile
         fi
     fi
-
     #the file result is queried
     if [ "$opdracht" != "valideren" ]; then
         if [ echo "$(cat result)" | grep -q "stop:ernst>fout" ]; then
