@@ -16,4 +16,8 @@
         <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
+    <bestand>
+        <bestandsnaam>Wijzigingsbesluit-3a2.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
+    </bestand>
 </manifest>
