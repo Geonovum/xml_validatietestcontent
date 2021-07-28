@@ -60,6 +60,7 @@
             </BeoogdInformatieobject></BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
+               <!-- FOUT LVBB1563 Voor een af te breken besluit MOET de 'datum juridisch-werkend-vanaf' van de regelingversie in de toekomst liggen, indien ingevuld -->
                <doel>/join/id/proces/gm0297/2019/AFBREEK-OP11200</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
