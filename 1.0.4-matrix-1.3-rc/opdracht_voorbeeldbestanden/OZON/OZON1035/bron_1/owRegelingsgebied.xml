@@ -18,12 +18,14 @@
       </sl:inhoud>
       <sl:stand>
          <ow-dc:owObject>
-            <rg:Regelingsgebied>
-               <rg:identificatie>nl.imow-gm0297.regelingsgebied.00001</rg:identificatie>
-               <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00002"/>
-               </rg:locatieaanduiding>
-            </rg:Regelingsgebied>
+            <l:Gebied>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
+               <l:noemer>regelingsgebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="fefddedc-f0f3-4dfd-ffde-33d4e433ff33"/>
+               </l:geometrie>
+            </l:Gebied>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>

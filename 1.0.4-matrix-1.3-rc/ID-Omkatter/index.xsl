@@ -186,6 +186,9 @@
                     <xsl:value-of select="$idLevering"/>
                 </xsl:element>
             </xsl:if>
+            <xsl:if test="document($fullname)//lvbb:directeMutatieOpdracht">
+                <xsl:message select="'ERROR ERROR ERROR ERROR: lvbb:directeMutatieOpdracht'"></xsl:message>
+            </xsl:if>
             <xsl:if test="document($fullname)//lvbb:validatieDirecteMutatieOpdracht">
                 <xsl:variable name="idLevering" select="document($fullname)//lvbb:validatieDirecteMutatieOpdracht/lvbb:idLevering"/>
                 <xsl:element name="leveringId">

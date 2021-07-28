@@ -30,7 +30,6 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <ow:procedurestatus>ontwerp</ow:procedurestatus>
                <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
                <l:noemer>regelingsgebied</l:noemer>
                <l:geometrie>

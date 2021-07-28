@@ -32,7 +32,7 @@ execute_single_file () {
         action="versturen"
     fi
     if echo "$file" | grep -q "muteren"; then
-        opdracht="publiceren"
+        opdracht="valideren"
         action="versturen"
     fi
     if echo "$file" | grep -q "valideren"; then

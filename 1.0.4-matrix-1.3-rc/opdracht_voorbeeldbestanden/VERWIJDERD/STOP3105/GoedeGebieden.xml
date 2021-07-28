@@ -33,7 +33,7 @@
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>
       </InformatieObjectMetadata>
-       STOP3105	FeatureTypeStyle version MOET zijn 1.1.0"" -->
+      <!-- FOUT STOP3105	FeatureTypeStyle version MOET zijn 1.1.0"" -->
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.0">
          <FeatureTypeName>geo:Locatie</FeatureTypeName>
          <SemanticTypeIdentifier>geo:kwalitatieveNormwaarde</SemanticTypeIdentifier>

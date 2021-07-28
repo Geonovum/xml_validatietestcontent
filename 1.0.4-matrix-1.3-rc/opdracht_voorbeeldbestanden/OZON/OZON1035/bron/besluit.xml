@@ -6,8 +6,8 @@
                     xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON/nld@2019-06-27</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2021/OZON</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2021/OZON/nld@2021-08-27</data:FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -114,7 +114,7 @@
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
             <RegelingCompact componentnaam="initieel_reg"
-                             wordt="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;1">
+                             wordt="/akn/nl/act/gm0297/2021/OZON/nld@2021-08-25;1">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
@@ -217,8 +217,8 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;1</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2021/OZON</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2021/OZON/nld@2021-08-25;1</data:FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
