@@ -48,7 +48,7 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/OZON</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;1</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2021/OZON/nld@2021-08-25;1</data:instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>
             <BeoogdInformatieobject>
