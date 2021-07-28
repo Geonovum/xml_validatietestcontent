@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>OZON1037</testId>
+   <testId>OZON1038</testId>
    <besluit>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -27,7 +27,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>4f15c522-9f44-479c-b849-2e734060de4f</new>
+         <new>f451c0cb-620c-491b-bdb2-0fc7708a094a</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
