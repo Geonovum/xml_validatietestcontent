@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>STOP1037</testId>
+   <testId>STOP1038</testId>
    <besluit>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -27,7 +27,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owRegelingsgebied.xml">
          <org>fefddedc-f0f3-4dfd-ffde-33d4e433ff33</org>
-         <new>3842e393-aecc-49fc-9f9a-3aebe1396d03</new>
+         <new>7bf4dbd4-864d-490f-be8d-18226f799316</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
