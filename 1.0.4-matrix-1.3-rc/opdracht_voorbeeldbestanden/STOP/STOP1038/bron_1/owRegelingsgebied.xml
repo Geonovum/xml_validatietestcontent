@@ -17,7 +17,6 @@
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- FOUT OZON1035 Een ontwerp Ow-object mag nog niet bestaan als vastgesteld Ow-object -->
       <sl:stand>
          <ow-dc:owObject><!--Met het Regelingsgebied geef je het gebied aan waar de regeling van toepassing is (in dit geval Gemeente Leiden)-->
             <rg:Regelingsgebied>
