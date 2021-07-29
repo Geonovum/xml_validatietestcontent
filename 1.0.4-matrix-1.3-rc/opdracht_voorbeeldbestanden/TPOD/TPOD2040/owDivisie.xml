@@ -17,7 +17,7 @@
       <sl:dataset>Gemeente Leiden</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeente Leiden</sl:gebied>
-         <sl:leveringsId>id-publicatie-TPOD2040</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-TPOD</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Divisie</sl:objectType>
             <sl:objectType>Tekstdeel</sl:objectType>
@@ -25,7 +25,7 @@
       </sl:inhoud>
       <sl:stand>
          <ow-dc:owObject>
-            <!-- FOUT TPOD2040	het id van Divisie in OW moet verwijzen naar een bestaande id van een Divisie in OP -->
+            <!-- FOUT TPOD	het id van Divisie in OW moet verwijzen naar een bestaande id van een Divisie in OP -->
             <vt:Divisie wId="gm0546_1__div_o_1_FOUT">
                <vt:identificatie>nl.imow-gm0546.divisie.00001</vt:identificatie>
             </vt:Divisie>

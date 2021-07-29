@@ -16,7 +16,7 @@
         <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
-     LVBB1021	Komt het gespecificeerde contenttype overeen met het werkelijke contenttype? -->
+    <!-- FOUT LVBB 1021	Komt het gespecificeerde contenttype overeen met het werkelijke contenttype? -->
     <bestand>
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
         <contentType>application/gml+xml</contentType>

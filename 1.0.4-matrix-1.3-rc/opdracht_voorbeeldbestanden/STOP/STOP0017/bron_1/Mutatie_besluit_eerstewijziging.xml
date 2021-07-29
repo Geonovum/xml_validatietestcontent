@@ -79,7 +79,7 @@
                         <Nummer>II</Nummer>
                     </Kop>
                     <Inhoud>
-                        <!-- FOUT STOP0017 Een tekstuele mutatie ten behoeve van renvooi MAG NIET buiten een RegelingMutatie voorkomen -->
+                        <!-- FOUT STOP Een tekstuele mutatie ten behoeve van renvooi MAG NIET buiten een RegelingMutatie voorkomen -->
                         <Al>Dit besluit treedt in werking per <VerwijderdeTekst>7</VerwijderdeTekst><NieuweTekst>8</NieuweTekst> april 2020.</Al>
                     </Inhoud>
                 </Artikel>

@@ -100,7 +100,7 @@
                     <Opschrift>Bijlage bij Artikel I</Opschrift>
                 </Kop>
                 <RegelingMutatie componentnaam="wijziging_reg" was="/akn/nl/act/gm0297/2019/reg456/nld@1" wordt="/akn/nl/act/gm0297/2019/reg456/nld@2">
-                    <!-- FOUT STOP0026 Een componentnaam binnen een besluit MOET uniek zijn -->
+                    <!-- FOUT STOP Een componentnaam binnen een besluit MOET uniek zijn -->
                     <VoegToe positie="komtVoor" context="gm0297_1__chp_2__subchp_2.2__art_2.5" componentnaam="niet_uniek">
                         <Nummer>A</Nummer>
                         <Wat>Nieuw artikel 2.5</Wat>
@@ -136,7 +136,7 @@
                             </Lid>
                         </Artikel>
                     </VoegToe>
-                    <!-- FOUT STOP0026 Een componentnaam binnen een besluit MOET uniek zijn -->
+                    <!-- FOUT STOP Een componentnaam binnen een besluit MOET uniek zijn -->
                     <Vervang wat="gm0297_1__chp_2__subchp_2.2__art_2.5" componentnaam="niet_uniek">
                         <Nummer>B1</Nummer>
                         <Wat>Artikel 2.5 is vernummerd naar 2.6:</Wat>

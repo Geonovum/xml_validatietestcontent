@@ -19,7 +19,7 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <!-- FOUT OZON1035 Een ontwerp Ow-object mag nog niet bestaan als vastgesteld Ow-object -->
+               <!-- FOUT OZON Een ontwerp Ow-object mag nog niet bestaan als vastgesteld Ow-object -->
                <ow:procedurestatus>ontwerp</ow:procedurestatus>
                <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
                <l:noemer>regelingsgebied</l:noemer>

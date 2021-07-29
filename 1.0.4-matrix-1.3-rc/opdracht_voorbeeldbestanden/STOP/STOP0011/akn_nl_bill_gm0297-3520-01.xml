@@ -164,7 +164,7 @@
                            <Kop>
                               <Label>Artikel</Label>
                               <Nummer>2.1</Nummer>
-                              <!-- FOUT STOP0001 Een IntIoRef referentie MOET verwijzen naar @wId van ExtIoRef binnen hetzelfde bestand -->
+                              <!-- FOUT STOP Een IntIoRef referentie MOET verwijzen naar @wId van ExtIoRef binnen hetzelfde bestand -->
                               <Opschrift>Gebruiksactiviteiten die <IntIoRef eId="chp_1__art_2.1__ref_o_1"
                                  wId="gm0297_1__chp_1__art_21.1__ref_o_1"
                                  ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__FOUTref_o_1">zonder vergunning</IntIoRef> of melding zijn toegestaan</Opschrift>

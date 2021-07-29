@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT STOP3114 Als Rule een Filter bevat dan MOET de SemanticTypeIdentifier geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn. -->
+            <!-- FOUT STOP Als Rule een Filter bevat dan MOET de SemanticTypeIdentifier geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde zijn. -->
             <Filter xmlns="http://www.opengis.net/ogc">
                <PropertyIsEqualTo>
                   <PropertyName>geometrie</PropertyName>

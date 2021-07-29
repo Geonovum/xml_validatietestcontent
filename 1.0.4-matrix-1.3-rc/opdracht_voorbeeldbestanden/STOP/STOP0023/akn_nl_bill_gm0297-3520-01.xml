@@ -182,7 +182,7 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                 <!-- FOUT STOP0023 Een wId MOET voldoen aan de AKN-naamgevingsconventie -->
+                                 <!-- FOUT STOP Een wId MOET voldoen aan de AKN-naamgevingsconventie -->
                                  <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b"
                                     wId="gm0297_1__chp#2##subchp#2.1##art_2.1##list#o#1##item#b">
                                     <LiNummer>b.</LiNummer>

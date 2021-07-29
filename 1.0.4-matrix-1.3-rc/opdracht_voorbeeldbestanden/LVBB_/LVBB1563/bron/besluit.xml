@@ -6,8 +6,8 @@
                     xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/LVBB1553</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/LVBB1553/nld@2019-06-27</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/LVBB</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/LVBB/nld@2019-06-27</data:FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -60,7 +60,7 @@
             </BeoogdInformatieobject></BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <!-- FOUT LVBB1563 Voor een af te breken besluit MOET de 'datum juridisch-werkend-vanaf' van de regelingversie in de toekomst liggen, indien ingevuld -->
+               <!-- FOUT LVBB 1563 Voor een af te breken besluit MOET de 'datum juridisch-werkend-vanaf' van de regelingversie in de toekomst liggen, indien ingevuld -->
                <doel>/join/id/proces/gm0297/2019/AFBREEK-OP11200</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>

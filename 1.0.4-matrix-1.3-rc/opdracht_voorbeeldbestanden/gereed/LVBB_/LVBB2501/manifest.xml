@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns="http://www.overheid.nl/2017/lvbb">
-     LVBB2501	Domeinmanifest bestaat niet -->
+    <!-- FOUT LVBB	Domeinmanifest bestaat niet -->
     <bestand>
         <bestandsnaam>akn_nl_bill_gm0297-3520-01.xml</bestandsnaam>
         <contentType>application/xml</contentType>

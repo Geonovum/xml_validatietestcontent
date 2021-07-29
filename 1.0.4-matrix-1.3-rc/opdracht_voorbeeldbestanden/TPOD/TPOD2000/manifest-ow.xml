@@ -4,10 +4,10 @@
                xsi:schemaLocation="http://www.geostandaarden.nl/bestanden-ow/manifest-ow https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3-RC/bestanden-ow/generiek/manifest-ow.xsd">
    <domein>omgevingswet</domein>
    <Aanlevering>
-      <manifest-ow:WorkIDRegeling xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/akn/nl/act/gm0297/2019/TPOD2000</manifest-ow:WorkIDRegeling>
-      <manifest-ow:DoelID xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/join/id/proces/gm0297/2019/TPOD2000</manifest-ow:DoelID>
-      <!-- FOUT TPOD2000 het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP -->
-      <manifest-ow:DoelID xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/join/id/proces/gm0297/2019/TPOD2000FOUT</manifest-ow:DoelID>
+      <manifest-ow:WorkIDRegeling xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/akn/nl/act/gm0297/2019/TPOD</manifest-ow:WorkIDRegeling>
+      <manifest-ow:DoelID xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/join/id/proces/gm0297/2019/TPOD</manifest-ow:DoelID>
+      <!-- FOUT TPOD het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP -->
+      <manifest-ow:DoelID xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/join/id/proces/gm0297/2019/TPODFOUT</manifest-ow:DoelID>
       <Bestand>
          <naam>owLocaties-Gemeentestad.xml</naam>
          <objecttype>Gebied</objecttype>

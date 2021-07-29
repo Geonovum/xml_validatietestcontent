@@ -232,7 +232,7 @@
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB</data:FRBRWork>
          <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB/nld@2019-06-25;1</data:FRBRExpression>
-         <!-- FOUT LVBB7723 soortWork regeling in RegelingVersie MOET gelijk zijn aan "/join/id/stop/work_019" -->
+         <!-- FOUT LVBB 7723 soortWork regeling in RegelingVersie MOET gelijk zijn aan "/join/id/stop/work_019" -->
          <soortWork>/join/id/stop/work_019FOUT</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

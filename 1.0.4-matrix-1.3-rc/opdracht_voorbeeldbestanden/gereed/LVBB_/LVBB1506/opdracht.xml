@@ -2,10 +2,10 @@
 <validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb"> 
 
 
-   <idLevering>id-publicatie-LVBB1506</idLevering>
+   <idLevering>id-publicatie-LVBB</idLevering>
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
-   <!-- FOUT LVBB1506	Het publicatiebestand, waarvan de naam in de opdracht is vermeld, moet aanwezig zijn -->
+   <!-- FOUT LVBB 1506	Het publicatiebestand, waarvan de naam in de opdracht is vermeld, moet aanwezig zijn -->
    <publicatie>akn_nl_bill_gm0297-3520-01_FOUT.xml</publicatie>
    <datumBekendmaking>2021-04-22</datumBekendmaking>
 </validatieOpdracht>

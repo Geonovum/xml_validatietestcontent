@@ -51,7 +51,7 @@
                <Stroke>
                   <SvgParameter name="stroke">#505050</SvgParameter>
                   <SvgParameter name="stroke-opacity">1</SvgParameter>
-                  <!-- FOUT STOP3141 SvgParameter met name" attribute "stroke-width" MOET aan de reguliere expressie ^[0-9]+(.[0-9])?[0-9]?$ voldoen. (positief getal met 0, 1 of 2 decimalen)" -->
+                  <!-- FOUT STOP SvgParameter met name" attribute "stroke-width" MOET aan de reguliere expressie ^[0-9]+(.[0-9])?[0-9]?$ voldoen. (positief getal met 0, 1 of 2 decimalen)" -->
                   <SvgParameter name="stroke-width">0.5FOUT</SvgParameter>
                   <SvgParameter name="stroke-linejoin">round</SvgParameter>
                </Stroke>

@@ -45,7 +45,7 @@
             <PolygonSymbolizer>
                <Name>vsgt206</Name>
                <Fill>
-                  <!-- FOUT STOP3147 SvgParameter met name" attribute "fill" MOET aan de reguliere expressie ^#[0-9a-f]{6}$ voldoen. (string van 7 karakters, met als eerste karakters een # en de volgende zes karakters een hexadecimale waarde.)" -->
+                  <!-- FOUT STOP SvgParameter met name" attribute "fill" MOET aan de reguliere expressie ^#[0-9a-f]{6}$ voldoen. (string van 7 karakters, met als eerste karakters een # en de volgende zes karakters een hexadecimale waarde.)" -->
                   <SvgParameter name="fill">#c8c8c8FOUT</SvgParameter>
                   <SvgParameter name="fill-opacity">0.3</SvgParameter>
                </Fill>

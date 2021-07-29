@@ -93,7 +93,7 @@
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
-               <!-- FOUT STOP0047 Een element Wat MAG GEEN VerwijderdeTekst of NieuweTekst bevatten -->
+               <!-- FOUT STOP Een element Wat MAG GEEN VerwijderdeTekst of NieuweTekst bevatten -->
                <Wat> <VerwijderdeTekst>3</VerwijderdeTekst>
                   <NieuweTekst>2</NieuweTekst>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
             </WijzigArtikel>
@@ -169,7 +169,7 @@
                               <Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
                            </Kop>
                            <Inhoud>
-                              <!-- FOUT STOP0048	De wijzigacties nieuweContainer" en "verwijderContainer" MOGEN binnen een mutatieeenheid ALLEEN op de container Groep worden toegepast. Toepassing op andere containers (zoals Lijst, table of Citaat) kan potentieel leiden tot invalide XML of impliciet informatieverlies." -->
+                              <!-- FOUT STOP	De wijzigacties nieuweContainer" en "verwijderContainer" MOGEN binnen een mutatieeenheid ALLEEN op de container Groep worden toegepast. Toepassing op andere containers (zoals Lijst, table of Citaat) kan potentieel leiden tot invalide XML of impliciet informatieverlies." -->
                               <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1"
                                      wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1"
                                      type="expliciet" wijzigactie="nieuweContainer"><!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->

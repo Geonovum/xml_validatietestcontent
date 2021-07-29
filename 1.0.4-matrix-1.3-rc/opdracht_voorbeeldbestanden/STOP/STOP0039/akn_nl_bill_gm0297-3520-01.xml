@@ -94,7 +94,7 @@
                   <Nummer>I</Nummer>
                </Kop>
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
-               <!-- FOUT STOP0039 Een element WijzigInstructies MAG alleen voorkomen in een BesluitKlassiek -->
+               <!-- FOUT STOP Een element WijzigInstructies MAG alleen voorkomen in een BesluitKlassiek -->
                <WijzigInstructies>
                   <Instructie>
                      <Wat>Blabla</Wat>

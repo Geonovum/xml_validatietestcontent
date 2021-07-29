@@ -20,7 +20,7 @@
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-     LVBB3509	Alle aanleverde io(s) moeten voorkomen in het besluit -->
+    <!-- FOUT LVBB	Alle aanleverde io(s) moeten voorkomen in het besluit -->
     <bestand>
         <bestandsnaam>GoedeGebieden2.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>

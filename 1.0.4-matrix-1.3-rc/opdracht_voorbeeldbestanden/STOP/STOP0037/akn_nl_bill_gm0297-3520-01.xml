@@ -191,7 +191,7 @@
                                      rowsep="1"
                                      tabstyle="zebra1">
                                  <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                      <!-- FOUT STOP0037 Het aantal colspec's MOET gelijk zijn aan het opgegeven aantal kolommen -->
+                      <!-- FOUT STOP Het aantal colspec's MOET gelijk zijn aan het opgegeven aantal kolommen -->
                                  <tgroup align="left" cols="3">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
                                     <colspec colname="col2" colnum="2" colwidth="278*"/>

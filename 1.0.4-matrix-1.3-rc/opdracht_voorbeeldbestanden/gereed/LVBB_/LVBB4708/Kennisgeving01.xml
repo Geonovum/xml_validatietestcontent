@@ -17,7 +17,7 @@
       <onderwerpen>
         <onderwerp>/tooi/def/concept/c_cfc7d5ab</onderwerp>
       </onderwerpen>
-       LVBB4708	Derde veld waarde 'mededeling-over' in kennisgeving moet gelijk zijn aan 'bill' -->
+      <!-- FOUT LVBB	Derde veld waarde 'mededeling-over' in kennisgeving moet gelijk zijn aan 'bill' -->
       <mededelingOver>/akn/nl/niet_bill/pv26/2020/OVPU001/nld@2020-06-09</mededelingOver>
     </KennisgevingMetadata>
     <Procedureverloopmutatie 

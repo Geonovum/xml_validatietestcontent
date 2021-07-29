@@ -6,8 +6,8 @@
     xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
     <BesluitVersie>
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/bill/gm0297/2020/LVBB4201_KS020</FRBRWork>
-            <FRBRExpression>/akn/nl/bill/gm0297/2020/LVBB4201_KS020/nld@2020</FRBRExpression>
+            <FRBRWork>/akn/nl/bill/gm0297/2020/LVBB_KS020</FRBRWork>
+            <FRBRExpression>/akn/nl/bill/gm0297/2020/LVBB_KS020/nld@2020</FRBRExpression>
             <soortWork>/join/id/stop/work_003</soortWork>
         </ExpressionIdentificatie>
         <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -141,7 +141,7 @@
             </RegelingOpschrift>
             <Aanhef eId="formula_1" wId="formula_1">
                 <Al>De raad van de gemeente Gemeenstestad </Al>
-                <Al>gelezen het voorstel van burgemeester en wethouders van 1 januari 2020, nr. 2020-LVBB4201_KS020;</Al>
+                <Al>gelezen het voorstel van burgemeester en wethouders van 1 januari 2020, nr. 2020-LVBB_KS020;</Al>
                 <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
                 <Al>besluit:</Al>
             </Aanhef>

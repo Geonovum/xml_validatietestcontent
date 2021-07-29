@@ -63,7 +63,7 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/STOP</data:doel>
                </doelen>
-               <!-- FOUT STOP1027 De instrumentversie van een beoogdinformatieobject moet een JOIN/regdata zijn. -->
+               <!-- FOUT STOP De instrumentversie van een beoogdinformatieobject moet een JOIN/regdata zijn. -->
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/pubdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>

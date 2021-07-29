@@ -48,7 +48,7 @@
                   <SvgParameter name="fill">#c8c8c8</SvgParameter>
                   <SvgParameter name="fill-opacity">0.3</SvgParameter>
                </Fill>
-               <!-- FOUT STOP3140 SvgParameter met name" attribute "stroke" MOET aan de reguliere expressie ^#[0-9a-f]{6}$ voldoen. (string van 7 karakters, met als eerste karakters een # en de volgende zes karakters een hexadecimale waarde.)"" -->
+               <!-- FOUT STOP SvgParameter met name" attribute "stroke" MOET aan de reguliere expressie ^#[0-9a-f]{6}$ voldoen. (string van 7 karakters, met als eerste karakters een # en de volgende zes karakters een hexadecimale waarde.)"" -->
                <Stroke>
                   <SvgParameter name="stroke">#505050FOUT</SvgParameter>
                   <SvgParameter name="stroke-opacity">1</SvgParameter>

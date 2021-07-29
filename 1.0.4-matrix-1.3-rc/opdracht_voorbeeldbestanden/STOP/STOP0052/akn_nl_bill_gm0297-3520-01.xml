@@ -93,7 +93,7 @@
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
-               <!-- FOUT STOP0052 De scope van een interne verwijzing moet de naam (localName) van een element bevatten uit de lijst van verwijsbare elementen (die volgens het STOP-tekst-schema een eId / wId kan hebben). -->
+               <!-- FOUT STOP De scope van een interne verwijzing moet de naam (localName) van een element bevatten uit de lijst van verwijsbare elementen (die volgens het STOP-tekst-schema een eId / wId kan hebben). -->
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="FOUTWijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
             </WijzigArtikel>
             <Artikel eId="art_II" wId="gm0297_1__art_II">

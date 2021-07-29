@@ -46,7 +46,7 @@
                <Name>vsgt206</Name>
                <Fill>
                   <SvgParameter name="fill">#c8c8c8</SvgParameter>
-                  <!-- FOUT STOP3146 Het name" attribute van de Fill:SvgParameter MOET fill of fill-opacity zijn." -->
+                  <!-- FOUT STOP Het name" attribute van de Fill:SvgParameter MOET fill of fill-opacity zijn." -->
                   <SvgParameter name="fill-opacityFOUT">0.3</SvgParameter>
                </Fill>
                <Stroke>

@@ -39,7 +39,7 @@
          <Rule>
             <Name>Maximum bouwhoogte 7 meter</Name>
             <Description>
-               <!-- FOUT STOP3126 De Description:Title MAG NIET leeg zijn (dit is de legenda regel). -->
+               <!-- FOUT STOP De Description:Title MAG NIET leeg zijn (dit is de legenda regel). -->
                <Title></Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>

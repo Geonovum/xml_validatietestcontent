@@ -17,7 +17,7 @@
       <onderwerpen>
         <onderwerp>/tooi/def/concept/c_cfc7d5ab</onderwerp>
       </onderwerpen>
-       LVBB4702 Het besluit benoemd in de Kennisgeving in 'mededelingOver' moet reeds aanwezig zijn in de LVBB (in een eerdere aanlevering zijn aangeleverd). -->
+      <!-- FOUT LVBB Het besluit benoemd in de Kennisgeving in 'mededelingOver' moet reeds aanwezig zijn in de LVBB (in een eerdere aanlevering zijn aangeleverd). -->
       <mededelingOver>/akn/nl/bill/pv26/2020/ONBEKENDE_AKN/nld@2020-06-09</mededelingOver>
     </KennisgevingMetadata>
     <Procedureverloopmutatie 

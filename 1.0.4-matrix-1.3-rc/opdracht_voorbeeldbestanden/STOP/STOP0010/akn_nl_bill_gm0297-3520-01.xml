@@ -93,7 +93,7 @@
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
-               <!-- FOUT STOP0010	Een interne referentie MOET verwijzen naar een bestaande identifier van een tekst-element in de tekst van dezelfde expression als waar de verwijzing in staat. -->
+               <!-- FOUT STOP	Een interne referentie MOET verwijzen naar een bestaande identifier van een tekst-element in de tekst van dezelfde expression als waar de verwijzing in staat. -->
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_AFOUT" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
             </WijzigArtikel>
             <Artikel eId="art_II" wId="gm0297_1__art_II">

@@ -4,8 +4,8 @@
 	xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
 	<BesluitVersie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<FRBRWork>/akn/nl/bill/gm0546/2020/OZON0095</FRBRWork>
-			<FRBRExpression>/akn/nl/bill/gm0546/2020/OZON0095/nld@2020-08-19</FRBRExpression>
+			<FRBRWork>/akn/nl/bill/gm0546/2020/OZON</FRBRWork>
+			<FRBRExpression>/akn/nl/bill/gm0546/2020/OZON/nld@2020-08-19</FRBRExpression>
 			<soortWork>/join/id/stop/work_003</soortWork>
 		</ExpressionIdentificatie>
 		<BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -47,7 +47,7 @@
 					<doelen>
 						<doel>/join/id/proces/gm0546/2020/InstellingOmgevingsvisie</doel>
 					</doelen>
-					<instrumentVersie>/akn/nl/act/gm0546/2020/OZON0095/nld@2020-08-19;1</instrumentVersie>
+					<instrumentVersie>/akn/nl/act/gm0546/2020/OZON/nld@2020-08-19;1</instrumentVersie>
 					<eId>art_I</eId>
 				</BeoogdeRegeling>
 				<BeoogdInformatieobject>
@@ -100,7 +100,7 @@
 					<Label>Bijlage</Label>
 					<Nummer>I</Nummer>
 				</Kop>
-				<RegelingVrijetekst componentnaam="initieel_reg" wordt="/akn/nl/act/gm0546/2020/OZON0095/nld@2020-08-19;1">
+				<RegelingVrijetekst componentnaam="initieel_reg" wordt="/akn/nl/act/gm0546/2020/OZON/nld@2020-08-19;1">
 					<RegelingOpschrift eId="longTitle" wId="longTitle">
 						<Al>Concept Omgevingsvisie Leiden</Al>
 					</RegelingOpschrift>
@@ -276,8 +276,8 @@
 	</BesluitVersie>
 	<RegelingVersieInformatie>
 		<ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-			<FRBRWork>/akn/nl/act/gm0546/2020/OZON0095</FRBRWork>
-			<FRBRExpression>/akn/nl/act/gm0546/2020/OZON0095/nld@2020-08-19;1</FRBRExpression>
+			<FRBRWork>/akn/nl/act/gm0546/2020/OZON</FRBRWork>
+			<FRBRExpression>/akn/nl/act/gm0546/2020/OZON/nld@2020-08-19;1</FRBRExpression>
 			<soortWork>/join/id/stop/work_019</soortWork>
 		</ExpressionIdentificatie>
 		<RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

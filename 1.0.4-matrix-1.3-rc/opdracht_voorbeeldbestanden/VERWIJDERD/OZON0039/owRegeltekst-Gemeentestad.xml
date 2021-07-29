@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0039</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -42,7 +42,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-                OZON0039	(TPOD1760) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten -->
+               <!-- FOUT OZON	(TPOD) Als een RegelVoorIedereen een activiteitregelkwalificatie heeft, dan moet hij verwijzen naar een of meerdere Activiteiten -->
                <r:activiteitaanduiding>
                   <r:ActiviteitLocatieaanduiding>
                      <r:identificatie>nl.imow-gm0037.activiteitlocatieaanduiding.2019GROEP1</r:identificatie>

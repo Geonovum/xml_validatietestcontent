@@ -60,7 +60,7 @@
             </BeoogdInformatieobject></BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/OZON_111200</doel>
+               <doel>/join/id/proces/gm0297/2019/OZON_1</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
                <eId>art_II</eId>
@@ -220,6 +220,12 @@
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON_1</data:FRBRWork>
          <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON_1/nld@2019-06-25;1</data:FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
+         <isTijdelijkDeelVan>
+            <WorkIdentificatie>
+               <FRBRWork>/akn/nl/act/gm0297/2019/OZON_0</FRBRWork>
+               <soortWork>/join/id/stop/work_019</soortWork>
+            </WorkIdentificatie>
+         </isTijdelijkDeelVan>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <versienummer>1</versienummer>

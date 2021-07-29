@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns="http://www.overheid.nl/2017/lvbb">
-     LVBB1003: Bestand manifest.xml MOET aanwezig zijn in het aangeleverde zip-bestand -->
+     LVBB: Bestand manifest.xml MOET aanwezig zijn in het aangeleverde zip-bestand -->
     <!-- Wordt verwijderd bij aanmaak zip -->
     <bestand>
         <bestandsnaam>akn_nl_bill_gm0297-3520-01.xml</bestandsnaam>

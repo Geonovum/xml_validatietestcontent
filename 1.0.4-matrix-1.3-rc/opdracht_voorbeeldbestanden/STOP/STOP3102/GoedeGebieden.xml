@@ -34,7 +34,7 @@
          <naamInformatieObject>GoedeGebieden</naamInformatieObject>
       </InformatieObjectMetadata>
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.1.0">
-         <!-- FOUT STOP3102 De FeatureTypeStyle:FeatureTypeName MOET geo:Locatie zijn. -->
+         <!-- FOUT STOP De FeatureTypeStyle:FeatureTypeName MOET geo:Locatie zijn. -->
          <FeatureTypeName>geo:FOUT</FeatureTypeName>
          <SemanticTypeIdentifier>geo:kwantitatieveNormwaarde</SemanticTypeIdentifier>
          <Rule>

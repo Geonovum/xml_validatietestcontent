@@ -72,7 +72,7 @@
                <doelen>
                   <doel>/join/id/proces/gm0297/2019/FOUT_ANDER_STOP</doel>
                </doelen>
-               <!-- FOUT STOP1028 Het instrument binnen een Intrekking moet een work-Id (/AKN/Act) zijn -->
+               <!-- FOUT STOP Het instrument binnen een Intrekking moet een work-Id (/AKN/Act) zijn -->
                <instrument>GEEN/INSTRUMENT/FOUT</instrument>
                <eId></eId>
             </Intrekking>

@@ -124,7 +124,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <!-- FOUT STOP0025 Een initiële regeling MOET een attribuut @wordt hebben met de AKN-identificatie -->
+            <!-- FOUT STOP Een initiële regeling MOET een attribuut @wordt hebben met de AKN-identificatie -->
             <RegelingCompact componentnaam="initieel_reg">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>

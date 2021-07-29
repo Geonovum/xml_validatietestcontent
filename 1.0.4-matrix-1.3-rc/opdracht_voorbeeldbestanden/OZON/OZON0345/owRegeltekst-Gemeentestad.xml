@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0345</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>Instructieregel</sl:objectType>
@@ -43,7 +43,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <!-- OZON0345	Een instructieregel mag niet twee keer verwijzen naar dezelfde kaart. -->
+               <!-- OZON	Een instructieregel mag niet twee keer verwijzen naar dezelfde kaart. -->
                <r:kaartaanduiding>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>
                   <k:KaartRef xlink:href="nl.imow-gm0297.kaart.2019000001"/>

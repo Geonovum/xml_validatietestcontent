@@ -248,7 +248,7 @@
                <isOfficieel>true</isOfficieel>
             </CiteertitelInformatie>
          </heeftCiteertitelInformatie>
-          STOP Geen van de alternatieveTitel is gelijk aan de citeertitel -->
+         <!-- FOUT STOP Geen van de alternatieveTitel is gelijk aan de citeertitel -->
          <alternatieveTitels>
             <alternatieveTitel>Gemeentestad (omgevingsplan Zaltbommel)</alternatieveTitel>
          </alternatieveTitels>

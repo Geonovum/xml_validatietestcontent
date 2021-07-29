@@ -139,6 +139,12 @@
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:isTijdelijkDeelVan/data:WorkIdentificatie/data:FRBRWork">
+        <xsl:element name="data:FRBRWork">
+            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+        </xsl:element>
+    </xsl:template>
 
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">

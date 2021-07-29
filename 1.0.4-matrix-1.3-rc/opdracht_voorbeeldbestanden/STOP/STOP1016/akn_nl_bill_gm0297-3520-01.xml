@@ -235,7 +235,7 @@
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <!-- FOUT STOP0016 Versienummer van regeling moet voldoen onze specificaties -->
+         <!-- FOUT STOP Versienummer van regeling moet voldoen onze specificaties -->
          <versienummer>1</versienummer>
       </RegelingVersieMetadata>
       <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

@@ -40,7 +40,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT STOP3135 De PointSymbolizer:Graphic:Mark:Fill MAG GEEN se:GraphicFill bevatten -->
+            <!-- FOUT STOP De PointSymbolizer:Graphic:Mark:Fill MAG GEEN se:GraphicFill bevatten -->
             <PointSymbolizer>
                <Name/>
                <Graphic>

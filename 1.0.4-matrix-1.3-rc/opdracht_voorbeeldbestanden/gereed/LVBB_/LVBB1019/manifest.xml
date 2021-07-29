@@ -45,7 +45,7 @@
         <bestandsnaam>owRegelingsgebied.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-     LVBB1019	Komt het gespecificeerde contenttype voor in de lijst met toegestane mimetypes? -->
+    <!-- FOUT LVBB 1019	Komt het gespecificeerde contenttype voor in de lijst met toegestane mimetypes? -->
     <bestand>
         <bestandsnaam>niet_ondersteund_bestandstype.bmp</bestandsnaam>
         <contentType>image/bmp</contentType>

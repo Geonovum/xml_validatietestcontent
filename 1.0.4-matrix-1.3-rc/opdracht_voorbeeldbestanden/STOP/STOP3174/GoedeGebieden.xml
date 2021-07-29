@@ -49,7 +49,7 @@
                      <Graphic>
                         <ExternalGraphic>
                            <InlineContent encoding="base64">123</InlineContent>
-                           <!-- FOUT STOP3147 ExternalGraphic:Format MOET de waarde image/png hebben. -->
+                           <!-- FOUT STOP ExternalGraphic:Format MOET de waarde image/png hebben. -->
                            <Format>image/FOUT</Format>
                         </ExternalGraphic>
                      </Graphic>

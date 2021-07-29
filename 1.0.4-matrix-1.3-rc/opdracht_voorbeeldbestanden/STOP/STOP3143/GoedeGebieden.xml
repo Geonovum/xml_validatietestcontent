@@ -53,7 +53,7 @@
                   <SvgParameter name="stroke-opacity">1</SvgParameter>
                   <SvgParameter name="stroke-width">0.5</SvgParameter>
                   <SvgParameter name="stroke-linejoin">round</SvgParameter>
-                  <!-- FOUT STOP3143 SvgParameter met name" attribute "stroke-linecap" MOET "butt" bevatten." -->
+                  <!-- FOUT STOP SvgParameter met name" attribute "stroke-linecap" MOET "butt" bevatten." -->
                   <SvgParameter name="stroke-linecap">FOUT</SvgParameter>
                </Stroke>
             </PolygonSymbolizer>

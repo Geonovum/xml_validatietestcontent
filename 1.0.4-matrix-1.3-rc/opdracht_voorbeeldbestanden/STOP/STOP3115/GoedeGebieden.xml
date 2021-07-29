@@ -42,7 +42,7 @@
                <Title>7 meter</Title>
                <Abstract>Maximum bouwhoogte 7 meter</Abstract>
             </Description>
-            <!-- FOUT STOP3115 PropertyName MOET overeenkomen met de SemanticTypeIdentifier (zonder geo: voorvoegsel). -->
+            <!-- FOUT STOP PropertyName MOET overeenkomen met de SemanticTypeIdentifier (zonder geo: voorvoegsel). -->
             <Filter xmlns="http://www.opengis.net/ogc">
                <PropertyIsEqualTo>
                   <PropertyName>FOUT</PropertyName>

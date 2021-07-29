@@ -17,12 +17,12 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0049</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
-      <!-- FOUT OZON0049	Ieder Gebied moet verwijzen naar een geometrie. -->
+      <!-- FOUT OZON	Ieder Gebied moet verwijzen naar een geometrie. -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>

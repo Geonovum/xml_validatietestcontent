@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON0083</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-OZON</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
             <sl:objectType>RegelVoorIedereen</sl:objectType>
@@ -88,7 +88,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT OZON0083 Activiteit FOUT gerelateerde activiteit verwijst naar zichzelf -->
+      <!-- FOUT OZON Activiteit FOUT gerelateerde activiteit verwijst naar zichzelf -->
       <sl:stand>
          <ow-dc:owObject>
             <rol:Activiteit>

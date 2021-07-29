@@ -20,8 +20,8 @@
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
-         <!-- FOUT LVBB3510	Geboorteregeling in een informatie-object moet voorkomen als regeling in het besluit -->
-         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB3510_FOUT</heeftGeboorteregeling>
+         <!-- FOUT LVBB	Geboorteregeling in een informatie-object moet voorkomen als regeling in het besluit -->
+         <heeftGeboorteregeling>/akn/nl/act/gm0297/2019/LVBB_FOUT</heeftGeboorteregeling>
       </InformatieObjectVersieMetadata>
       <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>

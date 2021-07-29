@@ -28,7 +28,7 @@
          <alternatieveTitels>
             <alternatieveTitel>GoedeGebieden</alternatieveTitel>
          </alternatieveTitels>
-         <!-- FOUT STOP1015 De officieleTitel van InformatieObjectMetatada MOET starten met /join/id/ -->
+         <!-- FOUT STOP De officieleTitel van InformatieObjectMetatada MOET starten met /join/id/ -->
          <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/FOUT/id/regdata/gm0297/2019/GoedeGebieden</data:officieleTitel>
          <publicatieinstructie>TeConsolideren</publicatieinstructie>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>

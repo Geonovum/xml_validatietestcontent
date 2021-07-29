@@ -94,7 +94,7 @@
                   <Nummer>I</Nummer>
                </Kop>
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
-               <!-- FOUT STOP0040 Een element RegelingMutatie binnen een WijzigArtikel mag alleen voorkomen in een BesluitKlassiek -->
+               <!-- FOUT STOP Een element RegelingMutatie binnen een WijzigArtikel mag alleen voorkomen in een BesluitKlassiek -->
                <RegelingMutatie componentnaam="gm0297_1__art_I" was="gm0297_0__art_I" wordt="gm0297_1__art_I">
                   <Vervang wat="deze_niet">
                      <Artikel wId="gm0297_1__art_I" eId="gm0297_1__art_I">

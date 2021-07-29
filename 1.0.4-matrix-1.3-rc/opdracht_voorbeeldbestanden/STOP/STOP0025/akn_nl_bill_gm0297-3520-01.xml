@@ -124,7 +124,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <!-- FOUT STOP0024 Een initiële regeling MOET een attribuut @componentnaam hebben met correcte naamgeving -->
+            <!-- FOUT STOP Een initiële regeling MOET een attribuut @componentnaam hebben met correcte naamgeving -->
             <RegelingCompact componentnaam="initieel#reg"
                              wordt="/akn/nl/act/gm0297/2019/STOP/nld@2019-06-25;1">
                <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">

@@ -28,7 +28,7 @@
         <bestandsnaam>regelingsgebied.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
-     LVBB1027	Bestand manifest-ow.xml MOET aanwezig zijn in het aangeleverde zip-bestand -->
+    <!-- FOUT LVBB 1027	Bestand manifest-ow.xml MOET aanwezig zijn in het aangeleverde zip-bestand -->
     <!-- wordt verwijderd door aanmaakscript -->
     <bestand>
         <bestandsnaam>manifest-ow.xml</bestandsnaam>

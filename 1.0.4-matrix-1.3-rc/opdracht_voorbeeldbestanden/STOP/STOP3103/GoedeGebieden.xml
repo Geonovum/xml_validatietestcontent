@@ -35,7 +35,7 @@
       </InformatieObjectMetadata>
       <FeatureTypeStyle xmlns="http://www.opengis.net/se" version="1.1.0">
          <FeatureTypeName>geo:Locatie</FeatureTypeName>
-         <!-- FOUT STOP3103 FeatureTypeStyle:SemanticTypeIdentifier MOET zijn geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde -->
+         <!-- FOUT STOP FeatureTypeStyle:SemanticTypeIdentifier MOET zijn geo:geometrie, geo:groepID, geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde -->
          <SemanticTypeIdentifier>geo:FOUT</SemanticTypeIdentifier>
          <Rule>
             <Name>Maximum bouwhoogte 7 meter</Name>

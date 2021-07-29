@@ -52,7 +52,7 @@
                   <SvgParameter name="stroke">#505050</SvgParameter>
                   <SvgParameter name="stroke-opacity">1</SvgParameter>
                   <SvgParameter name="stroke-width">0.5</SvgParameter>
-                  <!-- FOUT STOP3145 SvgParameter met name" attribute "stroke-linejoin" MOET "round" bevatten." -->
+                  <!-- FOUT STOP SvgParameter met name" attribute "stroke-linejoin" MOET "round" bevatten." -->
                   <SvgParameter name="stroke-linejoin">FOUT</SvgParameter>
                </Stroke>
             </PolygonSymbolizer>

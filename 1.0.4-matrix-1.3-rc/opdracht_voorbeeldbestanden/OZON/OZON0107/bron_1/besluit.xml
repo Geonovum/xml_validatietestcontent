@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- OZON0107	Bestand opdracht.xml MOET aanwezig zijn in het aangeleverde zip-bestand -->
+<!-- OZON	Bestand opdracht.xml MOET aanwezig zijn in het aangeleverde zip-bestand -->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.0.4"
    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON0107</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON0107/nld@2019-06-27</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON/nld@2019-06-27</data:FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -42,13 +42,13 @@
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2021/eerstewijziging</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON0107/nld@2019-06-25;2</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;2</data:instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <doel>/join/id/proces/gm0297/2019/OZON010711200</doel>
+               <doel>/join/id/proces/gm0297/2019/OZON11200</doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <datum>2019-08-01</datum>
                <eId>art_II</eId>
@@ -100,7 +100,7 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <RegelMutatie componentnaam="verwijder_reg" was="/akn/nl/act/gm0297/2019/OZON0107/nld@2019-06-25;1" wordt="/akn/nl/act/gm0297/2019/OZON0107/nld@2019-06-25;2">
+            <RegelMutatie componentnaam="verwijder_reg" was="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;1" wordt="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;2">
                <Verwijder wat="gm0297_1__chp_1__art_1.1">
                   <Nummer>A</Nummer>
                   <Wat>Artikel 1.1 wordt verwijderd:</Wat>
@@ -132,8 +132,8 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON0107</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON0107/nld@2019-06-25;2</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;2</data:FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">

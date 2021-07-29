@@ -2,7 +2,7 @@
 <validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb"> 
 
 
-   <idLevering>id-publicatie-LVBB1511</idLevering>
+   <idLevering>id-publicatie-LVBB</idLevering>
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <!-- FOUT LVBB 1511	De opdracht MOET een id-aanleveraar bevatten -->
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>

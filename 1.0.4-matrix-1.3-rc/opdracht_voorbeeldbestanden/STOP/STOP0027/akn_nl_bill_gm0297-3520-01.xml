@@ -182,7 +182,7 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                  <!-- FOUT STOP0027 Een eId binnen een AKN-component MOET uniek zijn -->
+                                  <!-- FOUT STOP Een eId binnen een AKN-component MOET uniek zijn -->
                                  <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a"
                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>

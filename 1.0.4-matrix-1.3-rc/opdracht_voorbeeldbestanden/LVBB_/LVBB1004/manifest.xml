@@ -22,9 +22,9 @@
     </bestand>
     <!-- FOUT LVBB 1004	Controleer bestandsnamen op ongeldige karakters -->
     <bestand>
-        <bestandsnaam>IN000$.xml</lvbb:bestandsnaam>
-        <contentType>application/xml</lvbb:contentType>
-    <bestand>
+        <bestandsnaam>IN000$.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
+    </bestand>
     <bestand>
         <bestandsnaam>opdracht.xml</bestandsnaam>
         <contentType>application/xml</contentType>
