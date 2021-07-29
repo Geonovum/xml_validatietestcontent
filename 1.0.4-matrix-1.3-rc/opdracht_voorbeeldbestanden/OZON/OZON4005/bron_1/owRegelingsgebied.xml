@@ -27,7 +27,7 @@
             </rg:Regelingsgebied>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT OZON Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie -->
+      <!-- FOUT OZON 4005Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie -->
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>

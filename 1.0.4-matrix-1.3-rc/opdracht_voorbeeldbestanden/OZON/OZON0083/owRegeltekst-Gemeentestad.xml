@@ -88,7 +88,7 @@
             </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
-      <!-- FOUT OZON Activiteit FOUT gerelateerde activiteit verwijst naar zichzelf -->
+      <!-- FOUT OZON 0083 Activiteit FOUT gerelateerde activiteit verwijst naar zichzelf -->
       <sl:stand>
          <ow-dc:owObject>
             <rol:Activiteit>

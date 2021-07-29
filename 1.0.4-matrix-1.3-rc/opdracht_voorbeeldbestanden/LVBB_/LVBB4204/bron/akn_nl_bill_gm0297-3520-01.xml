@@ -41,8 +41,6 @@
                     <soortStap>/join/id/stop/procedure/stap_002</soortStap>
                     <voltooidOp>2019-12-03</voltooidOp>
                 </Procedurestap>
-                <!-- RdG: Ondertekening weggehaald, doen we niet meer in voorbeelden-->
-                <!-- KL: Ondertekening weer toegevoegd omdat LVBB die verplicht heeft nu -->
                 <Procedurestap>
                     <soortStap>/join/id/stop/procedure/stap_003</soortStap>
                     <voltooidOp>2019-12-05</voltooidOp>

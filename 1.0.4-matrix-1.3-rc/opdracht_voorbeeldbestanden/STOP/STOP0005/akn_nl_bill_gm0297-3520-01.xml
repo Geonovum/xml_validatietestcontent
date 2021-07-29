@@ -100,7 +100,7 @@
                   <Label>Artikel</Label>
                   <Nummer>II</Nummer>
                </Kop>
-               <!-- FOUT STOP	Een alinea MOET content bevatten -->
+               <!-- FOUT STOP 0005	Een alinea MOET content bevatten -->
                <Inhoud>
                   <Al></Al>
                </Inhoud>

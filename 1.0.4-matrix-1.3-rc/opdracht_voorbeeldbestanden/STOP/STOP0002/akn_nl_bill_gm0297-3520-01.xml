@@ -100,7 +100,7 @@
                   <Label>Artikel</Label>
                   <Nummer>II</Nummer>
                </Kop>
-               <!-- FOUT STOP	Een Lijst van het type 'expliciet' MOET lijst-items hebben met nummering of symbolen -->
+               <!-- FOUT STOP 0002	Een Lijst van het type 'expliciet' MOET lijst-items hebben met nummering of symbolen -->
                <Inhoud>
                   <Lijst type="expliciet" wId="art_I__list_o_1" eId="gm0297_1__art_I__list_o_1">
                      <Li wId="art_I__list_o_1__item_a" eId="gm0297_1__art_I__list_o_1__item_a">
