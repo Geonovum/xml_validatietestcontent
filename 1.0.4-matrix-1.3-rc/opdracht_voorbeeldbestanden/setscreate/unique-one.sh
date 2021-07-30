@@ -3,9 +3,8 @@
 #inpakken naar zip
 
 inpakken_maar () {
-    $orgfiledir=$1
-    $number=$2
-    $bron=$3
+    orgfiledir="${1}"
+    number="${2}"
     
     lId=$( grep -h  idLevering *)
     l1=${lId%</*}
@@ -19,32 +18,76 @@ inpakken_maar () {
 	if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
 	   export newPostfix="$postfix-b-$number-valideren"
 	fi
-    echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-	zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
-	#adding to git (if not done yet)
-	echo "git add $orgdirectory/$bron/*"
-	git add $orgdirectory/$bron/*
-	echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
-	git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
-
+	if echo "$(cat opdracht.xml)" | grep -q "breekPublicatieAfOpdracht"; then
+	   export newPostfix="$postfix-z-$number-afbreken"
+	fi
+	opdracht_voorbeeldbestanden="opdracht_voorbeeldbestanden"
+	current_dir=`pwd`
+	while [ ! -d "$opdracht_voorbeeldbestanden" ]; do
+        if [ ! -d "$opdracht_voorbeeldbestanden" ]; then
+            cd ..
+        fi
+        pwd
+    done
+    echo "creating opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
+	zip opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
+	echo "git add opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
+	git add opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+	cd $current_dir
 }
 
 if [ "$1" = "LVBB1004"  ]; then
+    #passeer ID-omkatter
+    cd $1
+    pwd
+    inpakken_maar $1 "0"
+    echo "git add *"
+    git add *
     exit 0;
 fi
 if [ "$1" = "LVBB4703"  ]; then
+    #passeer ID-omkatter
+    cd $1
+    pwd
+    inpakken_maar $1 "0"
+    echo "git add *"
+    git add *
     exit 0;
 fi
 if [ "$1" = "LVBB4707"  ]; then
+    #passeer ID-omkatter
+    cd $1
+    pwd
+    inpakken_maar $1 "0"
+    echo "git add *"
+    git add *
     exit 0;
 fi
 if [ "$1" = "LVBB4708"  ]; then
+    #passeer ID-omkatter
+    cd $1
+    pwd
+    inpakken_maar $1 "0"
+    echo "git add *"
+    git add *
     exit 0;
 fi
 if [ "$1" = "LVBB4712"  ]; then
+    #passeer ID-omkatter
+    cd $1
+    pwd
+    inpakken_maar $1 "0"
+    echo "git add *"
+    git add *
     exit 0;
 fi
 if [ "$1" = "LVBB4737"  ]; then
+    #passeer ID-omkatter
+    cd $1
+    pwd
+    inpakken_maar $1 "0"
+    echo "git add *"
+    git add *
     exit 0;
 fi
 
@@ -88,7 +131,12 @@ if [ -d "$1" ]; then
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
            
            $number="0"
-           inpakken_maar $orgfiledir $number "bron"
+           inpakken_maar $orgfiledir $number
+           
+           #adding to git (if not done yet)
+	       echo "git add $orgdirectory/bron/*"
+	       git add $orgdirectory/bron/*
+
 
 	       #overige resultaat-directories
  	      if [ "$1" = "LVBB1551" ]; then
@@ -126,13 +174,14 @@ if [ -d "$1" ]; then
 	           export newPostfix="$postfix-z-0-afbreken"
                cd resultaat_afbreek
                pwd
-               echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
+               
+               inpakken_maar $orgfiledir "0" "bron_afbreek"
+               
                #adding to git (if not done yet)
-               echo "git add $orgdirectory/bron_afbreek/*"
-               git add $orgdirectory/bron_afbreek/*
-               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
-               git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+	           echo "git add $orgdirectory/bron_afbreek/*"
+	           git add $orgdirectory/bron_afbreek/*
+
+               
                #overige resultaat-directories
                if [ "$1" = "LVBB1553" ]; then
    	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
@@ -163,13 +212,13 @@ if [ -d "$1" ]; then
 	           export newPostfix="$postfix-z-1-afbreken"
                cd resultaat_afbreek_1
                pwd
-               echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
+               
+               inpakken_maar $orgfiledir "1" "bron_afbreek_1"
+
                #adding to git (if not done yet)
-               echo "git add $orgdirectory/bron_afbreek_1/*"
-               git add $orgdirectory/bron_afbreek_1/*
-               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
-               git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+	           echo "git add $orgdirectory/bron_afbreek_1/*"
+	           git add $orgdirectory/bron_afbreek_1/*
+               
                cd ..;	           
            fi
        fi
@@ -189,14 +238,8 @@ if [ -d "$1" ]; then
            echo "**********************************************************************"
 	       exit 1
         else
-           #extract-datetime van opdracht.xml
            cd resultaat
-           lId=$( grep -h  idLevering *)
-           l1=${lId%</*}
-           l2=${l1#*>} 
-           export datePart=${l2##*-}   
-           #verwijderen oude bestanden van deze directory
-           rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip; 
+           
            #uitzondering voor LBVV1002
            if [ "$1" == "LVBB1002" ]; then
     	       rm opdracht.xml
@@ -245,15 +288,11 @@ if [ -d "$1" ]; then
     	       rm GoedeGebieden.xml
     	       rm GoedeGebieden.gml
 	       fi
-	       #creeren zip-toevoeging
-	       export postfix="$orgfiledir-$datePart-b-0-valideren"
-           echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip"	    	   
-	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip *;
+	       
+	       inpakken_maar $orgfiledir "0"
+
 	       echo "git add $orgdirectory/*"
 	       git add $orgdirectory/*
-	       echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;"
-	       git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$postfix.zip;
-	       cd ..;
        fi
     fi
 else
