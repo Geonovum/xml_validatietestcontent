@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#passeer ID-omkatter
+
 #inpakken naar zip
 
 inpakken_maar () {
@@ -21,76 +23,51 @@ inpakken_maar () {
 	if echo "$(cat opdracht.xml)" | grep -q "breekPublicatieAfOpdracht"; then
 	   export newPostfix="$postfix-z-$number-afbreken"
 	fi
-	opdracht_voorbeeldbestanden="opdracht_voorbeeldbestanden"
 	current_dir=`pwd`
-	while [ ! -d "$opdracht_voorbeeldbestanden" ]; do
-        if [ ! -d "$opdracht_voorbeeldbestanden" ]; then
+	while [ ! -d opdracht_voorbeeldbestanden ]; do
+        if [ ! -d opdracht_voorbeeldbestanden ]; then
             cd ..
         fi
-        pwd
     done
-    echo "creating opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-	zip opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
-	echo "git add opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
-	git add opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+    opdracht_voorbeeldbestanden=`pwd`/opdracht_voorbeeldbestanden
 	cd $current_dir
+	pwd
+    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
+	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
+	echo "git add $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
+	git add $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+	pwd
 }
 
-if [ "$1" = "LVBB1004"  ]; then
-    #passeer ID-omkatter
+passeer_ID_omkatter () {
     cd $1
     pwd
     inpakken_maar $1 "0"
     echo "git add *"
     git add *
+}
+
+
+if [ "$1" = "LVBB1004"  ]; then
+    passeer_ID_omkatter $1
     exit 0;
 fi
 if [ "$1" = "LVBB4703"  ]; then
-    #passeer ID-omkatter
-    cd $1
-    pwd
-    inpakken_maar $1 "0"
-    echo "git add *"
-    git add *
+    passeer_ID_omkatter $1
     exit 0;
 fi
 if [ "$1" = "LVBB4707"  ]; then
-    #passeer ID-omkatter
-    cd $1
-    pwd
-    inpakken_maar $1 "0"
-    echo "git add *"
-    git add *
+    passeer_ID_omkatter $1
     exit 0;
 fi
 if [ "$1" = "LVBB4708"  ]; then
-    #passeer ID-omkatter
-    cd $1
-    pwd
-    inpakken_maar $1 "0"
-    echo "git add *"
-    git add *
+    passeer_ID_omkatter $1
     exit 0;
 fi
 if [ "$1" = "LVBB4712"  ]; then
-    #passeer ID-omkatter
-    cd $1
-    pwd
-    inpakken_maar $1 "0"
-    echo "git add *"
-    git add *
+    passeer_ID_omkatter $1
     exit 0;
 fi
-if [ "$1" = "LVBB4737"  ]; then
-    #passeer ID-omkatter
-    cd $1
-    pwd
-    inpakken_maar $1 "0"
-    echo "git add *"
-    git add *
-    exit 0;
-fi
-
 
 if [ -d "$1" ]; then
     export orgfiledir=$1
@@ -130,8 +107,7 @@ if [ -d "$1" ]; then
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
            
-           $number="0"
-           inpakken_maar $orgfiledir $number
+           inpakken_maar $orgfiledir "0"
            
            #adding to git (if not done yet)
 	       echo "git add $orgdirectory/bron/*"

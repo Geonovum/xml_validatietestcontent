@@ -62,11 +62,12 @@
     <xsl:template match="bekendOp">
         <xsl:choose>
             <xsl:when test="$inclusiefAfbreek = 1 
-                and not($org.file.dir = 'LVBB4701')
-                and not($org.file.dir = 'LVBB4756')
-                and not($org.file.dir = 'LVBB7725')
-                and not($org.file.dir = 'LVBB7726')
-                and not($org.file.dir = 'LVBB7727')">
+                and not(
+                ($org.file.dir = 'LVBB4756')
+                or ($org.file.dir = 'LVBB7725')
+                or ($org.file.dir = 'LVBB7726')
+                or ($org.file.dir = 'LVBB7727')
+                )">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:element>
@@ -116,8 +117,14 @@
     </xsl:template>
 
     <xsl:template match="aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRWork">
-        <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+                <xsl:element name="data:FRBRWork">
+                    <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+                </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="aanlevering:AanleveringKennisgeving/aanlevering:KennisgevingVersie/data:KennisgevingMetadata/data:mededelingOver">
+        <xsl:element name="data:mededelingOver">
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
@@ -134,12 +141,6 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
-        <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
-        </xsl:element>
-    </xsl:template>
-    
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:isTijdelijkDeelVan/data:WorkIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
@@ -161,7 +162,7 @@
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
-            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036')">
+            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036') or ($org.file.dir = 'LVBB4701' and contains($oldId,'kennisgeving01'))">
                 <xsl:value-of
                     select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7],'-',foo:changePart($org.file.dir)))"/>
             </xsl:when>
@@ -176,7 +177,7 @@
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
-            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036')">
+            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036') or ($org.file.dir = 'LVBB4701' and contains($oldId,'kennisgeving01'))">
                 <xsl:value-of
                     select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7],'-',foo:changePart($org.file.dir)), tokenize($oldId, '/')[8])"
                 />
