@@ -1,5 +1,34 @@
 #!/usr/bin/env bash
 
+#inpakken naar zip
+
+inpakken_maar () {
+    $orgfiledir=$1
+    $number=$2
+    $bron=$3
+    
+    lId=$( grep -h  idLevering *)
+    l1=${lId%</*}
+    l2=${l1#*>} 
+    export datePart=${l2##*-}   
+	export postfix="$orgfiledir-$datePart"
+    #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
+	if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
+	   export newPostfix="$postfix-a-$number-publiceren"
+    fi
+	if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
+	   export newPostfix="$postfix-b-$number-valideren"
+	fi
+    echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
+	zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
+	#adding to git (if not done yet)
+	echo "git add $orgdirectory/$bron/*"
+	git add $orgdirectory/$bron/*
+	echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
+	git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+
+}
+
 if [ "$1" = "LVBB1004"  ]; then
     exit 0;
 fi
@@ -53,30 +82,14 @@ if [ -d "$1" ]; then
 	       exit 1
         else
            #extract-datetime van opdracht.xml
-           cd resultaat
-           lId=$( grep -h  idLevering *)
-           l1=${lId%</*}
-           l2=${l1#*>} 
-           export datePart=${l2##*-}   
-	       export postfix="$orgfiledir-$datePart"
+           cd resultaat 
            #verwijderen oude bestanden van deze directory
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
            rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
-            
-	       #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
-	       if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
-	           export newPostfix="$postfix-a-0-publiceren"
-	       fi
-	       if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
-	           export newPostfix="$postfix-b-0-valideren"
-	       fi
-           echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-	       zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
-	       #adding to git (if not done yet)
-	       echo "git add $orgdirectory/bron/*"
-	       git add $orgdirectory/bron/*
-	       echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
-	       git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
+           
+           $number="0"
+           inpakken_maar $orgfiledir $number "bron"
+
 	       #overige resultaat-directories
  	      if [ "$1" = "LVBB1551" ]; then
    	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
@@ -103,23 +116,9 @@ if [ -d "$1" ]; then
 	          if [ -d "resultaat_$i" ];then
     	           cd resultaat_$i
 	               pwd
-	               if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
-	                   export newPostfix="$postfix-a-$i-publiceren"
-	               fi
-	               if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
-	                   export newPostfix="$postfix-b-$i-valideren"
-	               fi
-	               if echo "$(cat opdracht.xml)" | grep -q "validatieDirecteMutatieOpdracht"; then
-	                   export newPostfix="$postfix-m-$i-muteren"
-	               fi
-                   echo "creating ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-	               zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
-	               #adding to git (if not done yet)
-	               echo "git add $orgdirectory/bron_$i/*"
-	               git add $orgdirectory/bron_$i/*
-	               echo "git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
-                    git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;
-	               #overige resultaat-directories
+	               
+	               inpakken_maar $orgfiledir $i "bron_$i"
+	               
 	               cd ..;	           
 	           fi
            done
