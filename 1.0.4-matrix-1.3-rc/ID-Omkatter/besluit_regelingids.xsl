@@ -14,6 +14,7 @@
     <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
     <xsl:param name="org.file.dir"/>
     <xsl:param name="inclusiefAfbreek"/>
+    <xsl:param name="number"/>
 
     <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P3D'), '[Y0001]-[M01]-[D01]')"/>
 
@@ -248,7 +249,7 @@
             <xsl:otherwise>
                 <xsl:variable name="first" select="tokenize($lastPart, '@')[1]"/>
                 <xsl:variable name="second" select="$dateAfterTomorrow"/>
-                <xsl:variable name="third" select="tokenize(tokenize($lastPart, '@')[2], ';')[2]"/>
+                <xsl:variable name="third" select="tokenize(tokenize($lastPart, '@')[2], ';')[1]"/>
                 <xsl:value-of select="concat($first, '@', $second, ';', $third)"/>
             </xsl:otherwise>
         </xsl:choose>
@@ -268,7 +269,7 @@
                         foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                         foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                         foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                        foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7])
+                        foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number))
                         )"
                 />
             </xsl:when>
@@ -280,7 +281,7 @@
                         foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
                         foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                         foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
-                        foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6])
+                        foo:replacePart(tokenize($oldId, '/')[6], concat(tokenize($newId, '/')[6],'_',$number))
                         )"
                 />
             </xsl:when>
@@ -302,7 +303,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number)), '/',
                                 foo:replacePart(tokenize($oldId, '/')[8], foo:changeLastPart(tokenize($oldId, '/')[8]))
                                 )"
                         />
@@ -315,7 +316,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[6], concat(tokenize($newId, '/')[6],'_',$number)), '/',
                                 foo:replacePart(tokenize($oldId, '/')[7], foo:changeLastPart(tokenize($oldId, '/')[7]))
                                 )"
                         />
@@ -334,7 +335,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[8], tokenize($newId, '/')[8])
+                                foo:replacePart(tokenize($oldId, '/')[8], concat(tokenize($newId, '/')[8],'_',$number))
                                 )"
                         />
                     </xsl:when>
@@ -347,7 +348,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7])
+                                foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number))
                                 )"
                         />
                     </xsl:when>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
-   <idLevering>id-publicatie-BHKV-STOP1024-0-20210730035006</idLevering>
+<publicatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
+   <idLevering>id-publicatie-1250-AFBREEK-STOP0018-0-20210730044301</idLevering>
+   <!--Om de keten in te krijgen kun je gebruik maken van: 00000001003214345000 
+  Dit is de OIN van ministerie van BZK, de OIN van de gemeente zaltbommel is nog niet gemachtigd.-->
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
+   <!--voor landgoed IT 00000003560458830000-->
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
    <datumBekendmaking>2021-08-02</datumBekendmaking>
-</validatieOpdracht>
+</publicatieOpdracht>

@@ -257,6 +257,7 @@
          </rechtsgebieden>
          <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
          <!-- Omgevingsplan -->
+         <!-- FOUT STOP 1024 Voorwaarde: Een opvolgingsrelatie data:opvolgerVan wijst naar een Work van een Regeling (niet naar besluit) -->
          <opvolging>
             <opvolgerVan>/akn/nl/bill/gm0297/2019/reg456</opvolgerVan>
          </opvolging>
