@@ -14,6 +14,7 @@
     <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
     <xsl:param name="org.file.dir"/>
     <xsl:param name="inclusiefAfbreek"/>
+    <xsl:param name="number"/>
 
     <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P3D'), '[Y0001]-[M01]-[D01]')"/>
 
@@ -44,9 +45,10 @@
 
     <xsl:template match="data:Tijdstempels/data:Tijdstempel[data:soortTijdstempel = 'juridischWerkendVanaf']/data:datum">
         <xsl:choose>
-            <xsl:when test="$inclusiefAfbreek = 1 
-                and not($org.file.dir = 'LVBB1563') 
-                and not($org.file.dir = 'LVBB4200')">
+            <xsl:when test="
+                    $inclusiefAfbreek = 1
+                    and not($org.file.dir = 'LVBB1563')
+                    and not($org.file.dir = 'LVBB4200')">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:element>
@@ -58,15 +60,18 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
+
     <xsl:template match="bekendOp">
         <xsl:choose>
-            <xsl:when test="$inclusiefAfbreek = 1 
-                and not($org.file.dir = 'LVBB4701')
-                and not($org.file.dir = 'LVBB4756')
-                and not($org.file.dir = 'LVBB7725')
-                and not($org.file.dir = 'LVBB7726')
-                and not($org.file.dir = 'LVBB7727')">
+            <xsl:when
+                test="
+                    $inclusiefAfbreek = 1
+                    and not(
+                    ($org.file.dir = 'LVBB4756')
+                    or ($org.file.dir = 'LVBB7725')
+                    or ($org.file.dir = 'LVBB7726')
+                    or ($org.file.dir = 'LVBB7727')
+                    )">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
                 </xsl:element>
@@ -121,6 +126,12 @@
         </xsl:element>
     </xsl:template>
 
+    <xsl:template match="aanlevering:AanleveringKennisgeving/aanlevering:KennisgevingVersie/data:KennisgevingMetadata/data:mededelingOver">
+        <xsl:element name="data:mededelingOver">
+            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
+        </xsl:element>
+    </xsl:template>
+
     <xsl:template match="aanlevering:KennisgevingVersie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
@@ -134,13 +145,13 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
+    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:isTijdelijkDeelVan/data:WorkIdentificatie/data:FRBRWork">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:isTijdelijkDeelVan/data:WorkIdentificatie/data:FRBRWork">
+    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:RegelingMetadata/data:opvolging/data:opvolgerVan">
         <xsl:element name="data:FRBRWork">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
@@ -161,9 +172,10 @@
     <xsl:function name="foo:generateAKNFRBRWork">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
-            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036')">
+            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036') or ($org.file.dir = 'LVBB4701' and contains($oldId, 'kennisgeving01'))">
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7],'-',foo:changePart($org.file.dir)))"/>
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', foo:changePart($org.file.dir)))"
+                />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of
@@ -176,9 +188,10 @@
     <xsl:function name="foo:generateAKNFRBRExpression">
         <xsl:param name="oldId" as="xs:string"/>
         <xsl:choose>
-            <xsl:when test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036')">
+            <xsl:when
+                test="($org.file.dir = 'OZON0218') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON0219') or ($org.file.dir = 'OZON1036') or ($org.file.dir = 'LVBB4701' and contains($oldId, 'kennisgeving01'))">
                 <xsl:value-of
-                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7],'-',foo:changePart($org.file.dir)), tokenize($oldId, '/')[8])"
+                    select="concat('/', tokenize($oldId, '/')[2], '/', tokenize($oldId, '/')[3], '/', tokenize($oldId, '/')[4], '/', tokenize($oldId, '/')[5], '/', tokenize($oldId, '/')[6], '/', concat(tokenize($oldId, '/')[7], '-', foo:changePart($org.file.dir)), tokenize($oldId, '/')[8])"
                 />
             </xsl:when>
             <xsl:otherwise>
@@ -200,7 +213,7 @@
                 <xsl:variable name="leveringsId">
                     <xsl:choose>
                         <xsl:when test="$inclusiefAfbreek = 1">
-                            <xsl:value-of select="concat(replace($oldPart, '\.', '_'),  '-', 'AFBREEK', '-', $alreadyRetrievedDateTime)"/>
+                            <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', 'AFBREEK', '-', $alreadyRetrievedDateTime)"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
@@ -236,7 +249,7 @@
             <xsl:otherwise>
                 <xsl:variable name="first" select="tokenize($lastPart, '@')[1]"/>
                 <xsl:variable name="second" select="$dateAfterTomorrow"/>
-                <xsl:variable name="third" select="tokenize(tokenize($lastPart, '@')[2], ';')[2]"/>
+                <xsl:variable name="third" select="tokenize(tokenize($lastPart, '@')[2], ';')[1]"/>
                 <xsl:value-of select="concat($first, '@', $second, ';', $third)"/>
             </xsl:otherwise>
         </xsl:choose>
@@ -256,7 +269,7 @@
                         foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                         foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                         foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                        foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7])
+                        foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number))
                         )"
                 />
             </xsl:when>
@@ -268,7 +281,7 @@
                         foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
                         foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                         foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
-                        foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6])
+                        foo:replacePart(tokenize($oldId, '/')[6], concat(tokenize($newId, '/')[6],'_',$number))
                         )"
                 />
             </xsl:when>
@@ -290,7 +303,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number)), '/',
                                 foo:replacePart(tokenize($oldId, '/')[8], foo:changeLastPart(tokenize($oldId, '/')[8]))
                                 )"
                         />
@@ -303,7 +316,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[6], concat(tokenize($newId, '/')[6],'_',$number)), '/',
                                 foo:replacePart(tokenize($oldId, '/')[7], foo:changeLastPart(tokenize($oldId, '/')[7]))
                                 )"
                         />
@@ -322,7 +335,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[8], tokenize($newId, '/')[8])
+                                foo:replacePart(tokenize($oldId, '/')[8], concat(tokenize($newId, '/')[8],'_',$number))
                                 )"
                         />
                     </xsl:when>
@@ -335,7 +348,7 @@
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7])
+                                foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number))
                                 )"
                         />
                     </xsl:when>

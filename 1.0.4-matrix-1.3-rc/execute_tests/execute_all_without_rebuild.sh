@@ -66,7 +66,7 @@ execute_single_file () {
     wget -nv --no-check-certificate $result -O result;
     #alleen bij valideren entree in results
     if [ "$opdracht" = "valideren" ]; then
-        echo "<envelop>">$resultfile
+        echo "<envelop>">>$resultfile
         echo "<test>$conversationid</test>">>$resultfile
         #the variable result contains the URL
         echo "<result>$result</result>">>$resultfile

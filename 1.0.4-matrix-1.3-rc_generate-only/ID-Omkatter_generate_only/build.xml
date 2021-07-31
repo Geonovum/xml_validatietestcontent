@@ -985,6 +985,7 @@
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                         <param name="inclusiefAfbreek" expression="1"/>
+                        <param name="number" expression="0"/>
                       </xslt>
                     </then>
                     <else>
@@ -1023,6 +1024,7 @@
                         <param name="org.file.dir" expression="${env.orgfiledir}"/>
                         <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                         <param name="inclusiefAfbreek" expression="1"/>
+                        <param name="number" expression="1"/>
                       </xslt>
                     </then>
                     <else>
@@ -1060,6 +1062,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="1"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </then>
                 <else>
@@ -1068,6 +1071,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="0"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </else>
               </if>
@@ -1085,6 +1089,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="1"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </then>
                 <else>
@@ -1093,6 +1098,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="0"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </else>
               </if>
@@ -1126,6 +1132,7 @@
                                 <param name="org.file.dir" expression="${env.orgfiledir}"/>
                                 <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                                 <param name="inclusiefAfbreek" expression="1"/>
+                                <param name="number" expression="@{number}"/>
                               </xslt>
                             </then>
                             <else>
@@ -1134,6 +1141,7 @@
                                 <param name="org.file.dir" expression="${env.orgfiledir}"/>
                                 <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                                 <param name="inclusiefAfbreek" expression="0"/>
+                                <param name="number" expression="@{number}"/>
                               </xslt>
                             </else>
                           </if>
@@ -1152,6 +1160,7 @@
                                 <param name="org.file.dir" expression="${env.orgfiledir}"/>
                                 <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                                 <param name="inclusiefAfbreek" expression="1"/>
+                                <param name="number" expression="@{number}"/>
                               </xslt>
                             </then>
                             <else>
@@ -1161,6 +1170,7 @@
                                 <param name="org.file.dir" expression="${env.orgfiledir}"/>
                                 <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                                 <param name="inclusiefAfbreek" expression="0"/>
+                                <param name="number" expression="@{number}"/>
                               </xslt>
                             </else>
                           </if>
@@ -1192,6 +1202,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="1"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </then>
                 <else>
@@ -1200,6 +1211,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="0"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </else>
               </if>
@@ -1229,6 +1241,7 @@
                             <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="inclusiefAfbreek" expression="1"/>
+                            <param name="number" expression="@{number}"/>
                           </xslt>
                         </then>
                         <else>
@@ -1237,6 +1250,7 @@
                             <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="inclusiefAfbreek" expression="0"/>
+                            <param name="number" expression="@{number}"/>
                           </xslt>
                         </else>
                       </if>
@@ -1266,6 +1280,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="1"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </then>
                 <else>
@@ -1274,6 +1289,7 @@
                     <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="inclusiefAfbreek" expression="0"/>
+                    <param name="number" expression="0"/>
                   </xslt>
                 </else>
               </if>
@@ -1303,6 +1319,7 @@
                             <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="inclusiefAfbreek" expression="1"/>
+                            <param name="number" expression="@{number}"/>
                           </xslt>
                         </then>
                         <else>
@@ -1311,6 +1328,7 @@
                             <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="inclusiefAfbreek" expression="0"/>
+                            <param name="number" expression="@{number}"/>
                           </xslt>
                         </else>
                       </if>
