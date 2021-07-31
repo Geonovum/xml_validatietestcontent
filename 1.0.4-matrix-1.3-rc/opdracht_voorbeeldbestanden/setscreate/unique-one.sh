@@ -85,6 +85,8 @@ if [ -d "$1" ]; then
             cd ..
         fi
     done
+    rm opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
+    rm opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
     #we checken of "bron" een subdirectory van org-directory is (multi-versie)
     if [ -d "$orgdirectory/bron" ]; then
         #we gaan naar de omkat/brondirectory en maken die schoon
@@ -104,8 +106,7 @@ if [ -d "$1" ]; then
            #extract-datetime van opdracht.xml
            cd resultaat 
            #verwijderen oude bestanden van deze directory
-           rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
-           rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
+
            
            inpakken_maar $orgfiledir "0"
            

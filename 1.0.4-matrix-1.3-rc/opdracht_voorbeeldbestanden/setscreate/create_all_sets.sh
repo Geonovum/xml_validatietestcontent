@@ -62,9 +62,10 @@ if [[ -d GEO ]]; then
 
     $datePart=$(date +%Y%m%d%H%M%S)
     ONGELDIGE_ZIP="LVBB1001-$datePart";
+    rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_LVBB1001*.zip;
     rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
-    echo "ongeldige zip" >  ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip
-    git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$ONGELDIGE_ZIP.zip;
+    echo "ongeldige zip" >  ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$ONGELDIGE_ZIP.zip
+    git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$ONGELDIGE_ZIP.zip;
     echo "c"
     git commit -a -m $ONGELDIGE_ZIP;
     echo "d"
