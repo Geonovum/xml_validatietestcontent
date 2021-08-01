@@ -1,0 +1,15 @@
+<envelop>
+<test>STOP3148-20210730115125-b-0-valideren</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP3148-20210730115125-b-0-valideren</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP3148-20210730115125-b-0-valideren</lvbb:idLevering><lvbb:tijdstipVerslag>2021-07-30T23:46:48.554353+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
+                                xmlns:stop="http://www.overheid.nl/2017/stop">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-STOP3148-20210730115125-b-0-valideren</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-07-30T23:47:19.139239+02:00</lvbb:tijdstipVerslag>
+      <lvbb:uitkomst>valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>

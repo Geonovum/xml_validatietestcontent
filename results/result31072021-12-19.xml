@@ -1,0 +1,106 @@
+<result>
+<envelop>
+<test>LVBB1001-</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1001-</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1001</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>Het zip bestand kan niet gelezen worden</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1001</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>Het zip bestand kan niet gelezen worden</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>LVBB4004-20210622041208</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB4004-20210622041208</result>
+<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-LVBB4004-20210622041208</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-07-13T17:03:21.06411+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>LVBB1501</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>opdracht.xml</stop:categorie>
+            <stop:beschrijving>[Opdracht- Controleer Inhoud Datum Bekendmaking] Datum bekendmaking 2021-06-25 ligt in het verleden</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>opdracht-niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>STOP1036-20210715072030-valideren</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_STOP1036-20210715072030-valideren</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-STOP1036-20210715072030-valideren</lvbb:idLevering><lvbb:tijdstipVerslag>2021-07-16T13:30:20.626637+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-STOP1036-20210715072030-valideren</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-07-16T13:30:21.895078+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>STOP1036</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>/akn/nl/bill/gm0297/2019/STOP1036-20210715072030/nld@2019-06-27</stop:categorie>
+            <stop:beschrijving>Er zijn meer dan één procedurestappen met /join/id/stop/procedure/stap_002 aangetroffen. Elke stap moet voorzien zijn een unieke soort stap binnen het procedureverloop.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1003-20210730083354-b-0-valideren</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1003-20210730083354-b-0-valideren</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1003-20210730083354-b-0-valideren</lvbb:idLevering><lvbb:tijdstipVerslag>2021-07-30T12:10:58.494711+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1003-20210730083354-b-0-valideren</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-07-30T12:11:00.233518+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>BHKV1003</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1003-20210730083354/nld@2019-06-27</stop:categorie>
+            <stop:beschrijving>De eId !initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1 van BeoogdInformatieobject komt niet voor als eId van een ExtIoRef, Controleer de referenties naar de ExtIoRef's /&gt;</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>BHKV1036</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1003-20210730083354/nld@2019-06-27</stop:categorie>
+            <stop:beschrijving>De identifier van instrumentVersie "/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1003-20210730083354/nld@2019-06-18;3520" komt niet overeen met de join identifier " van de ExtIoRef met eId "!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1". Corrigeer de identifier of de eId zodat deze gelijk zijn.</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
