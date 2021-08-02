@@ -27,6 +27,7 @@
                <geo:naam>Zuilichem industriegebied 1</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="i5-5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b-xx">
+                     <!-- FOUT LVBB3010 als de geo:id van twee geometrieen identiek is, dan moet de geometrie zelf ook identiek zijn.  -->
                      <basisgeo:id>5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:MultiSurface gml:id="i5-5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b"

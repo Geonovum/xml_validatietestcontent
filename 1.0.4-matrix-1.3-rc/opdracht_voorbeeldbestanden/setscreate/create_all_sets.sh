@@ -2,7 +2,16 @@
 
 # Test alle tekst_nummer directories
 
-if [[ -d GEO ]]; then
+datePart=$(date +%Y%m%d%H%M%S)
+ONGELDIGE_ZIP="LVBB1001-$datePart";
+rm opdrachten_gereed/opdr_LVBB1001*.zip;
+echo "Test: LVBB1001"
+echo "ongeldige zip" >  opdrachten_gereed/opdr_$ONGELDIGE_ZIP.zip
+git add opdrachten_gereed/opdr_$ONGELDIGE_ZIP.zip;
+git commit -a -m $ONGELDIGE_ZIP;
+git push;
+
+if [[ -d BHKV ]]||[[ -d GEO ]]||[[ -d LVBB_ ]]||[[ -d OZON ]]||[[ -d STOP ]]||[[ -d TPOD ]]; then
 
     cd BHKV
     for d in *; do
@@ -58,19 +67,6 @@ if [[ -d GEO ]]; then
         fi
     done
 
-    rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_AFBREEK*.zip;
-
-    $datePart=$(date +%Y%m%d%H%M%S)
-    ONGELDIGE_ZIP="LVBB1001-$datePart";
-    rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_LVBB1001*.zip;
-    rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_LVBB1001*.zip;
-    echo "ongeldige zip" >  ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$ONGELDIGE_ZIP.zip
-    git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$ONGELDIGE_ZIP.zip;
-    echo "c"
-    git commit -a -m $ONGELDIGE_ZIP;
-    echo "d"
-    git push;
-    
     cd ..
     exit 0
 else

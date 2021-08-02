@@ -32,6 +32,7 @@ inpakken_maar () {
     opdracht_voorbeeldbestanden=`pwd`/opdracht_voorbeeldbestanden
 	cd $current_dir
 	pwd
+	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
     echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
 	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
 	echo "git add $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip;"
@@ -85,8 +86,6 @@ if [ -d "$1" ]; then
             cd ..
         fi
     done
-    rm opdracht_voorbeeldbestanden/opdrachten_gereed/opdracht_$orgfiledir*.zip;
-    rm opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
     #we checken of "bron" een subdirectory van org-directory is (multi-versie)
     if [ -d "$orgdirectory/bron" ]; then
         #we gaan naar de omkat/brondirectory en maken die schoon

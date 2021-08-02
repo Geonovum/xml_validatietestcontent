@@ -334,8 +334,8 @@
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[8], concat(tokenize($newId, '/')[8],'_',$number))
+                                foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number)), '/',
+                                foo:replacePart(tokenize($oldId, '/')[8], tokenize($newId, '/')[8])
                                 )"
                         />
                     </xsl:when>
@@ -347,8 +347,8 @@
                                 foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
                                 foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
-                                foo:replacePart(tokenize($oldId, '/')[7], concat(tokenize($newId, '/')[7],'_',$number))
+                                foo:replacePart(tokenize($oldId, '/')[6], concat(tokenize($newId, '/')[6],'_',$number)), '/',
+                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7])
                                 )"
                         />
                     </xsl:when>

@@ -83,6 +83,17 @@ if [[ -e $1 ]]; then
             echo "</envelop>">>$resultfile
         fi
     fi
+    if [ "$validatienummer" = "LVBB1550" ]; then
+        if [ echo "$opdracht" = "afbreken" ]; then
+            echo "<envelop>">>$resultfile
+            echo "<test>$conversationid</test>">>$resultfile
+            #the variable result contains the URL
+            echo "<result>$result</result>">>$resultfile
+            #the file result is dumped into the result file
+            cat result>>$resultfile;
+            echo "</envelop>">>$resultfile
+        fi
+    fi
     #the file result is queried
     if [ "$opdracht" != "valideren" ]; then
         if  echo "$(cat result)" | grep -q "stop:ernst>fout" ; then
