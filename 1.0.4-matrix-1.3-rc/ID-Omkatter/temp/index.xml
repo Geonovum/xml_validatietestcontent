@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB7008</testId>
+   <testId>LVBB7006</testId>
    <guids>
       <guidInOw gmlfile="Bedrijf_categorie_2.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>50EA019E-3C96-4631-A76C-35BCF4D7AB6D</org>
-         <new>dd3ed1ca-350c-4891-81d6-b9b18720127f</new>
+         <new>9e604ffd-6f20-415f-bd55-5d0d81306f43</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -12,19 +12,19 @@
    <guids>
       <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>772B4B37-69F8-4671-B92E-3BCED242409D</org>
-         <new>4b45db1e-f62b-44e6-a558-7e1be3a71cff</new>
+         <new>d5fa95ba-f0fc-4373-972d-c7593b8e9976</new>
       </guidInOw>
       <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>D24C3416-4790-461C-A4D0-A82BA60CA7D6</org>
-         <new>21f6d0dc-6964-4cd3-85b3-bbba431184a6</new>
+         <new>2992b585-5df1-40df-94dd-000cb552cae1</new>
       </guidInOw>
       <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>954BA8CC-6E90-4698-BEEC-005A65C63E98</org>
-         <new>251e6241-0865-4a79-9cd8-7f9b737ed207</new>
+         <new>7d7d16ab-bdbc-4cd8-8b7e-4473c4b86b18</new>
       </guidInOw>
       <guidInOw gmlfile="Bouwhoogte.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>EFAAD5E9-B181-4C22-9C3B-B290F4586D82</org>
-         <new>a60b7551-136d-4ca3-975d-d53f8c1d9159</new>
+         <new>0cb1072f-dd3a-4745-ba20-ba43cb13dd31</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -33,7 +33,7 @@
    <guids>
       <guidInOw gmlfile="Centrumgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>D28AF779-7EDD-4A88-8B11-809798F53636</org>
-         <new>44b64b95-eba2-4222-a05a-3073395c173c</new>
+         <new>96721490-6487-4b13-9a64-ec5eeb975dc3</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -66,7 +66,7 @@
    <guids>
       <guidInOw gmlfile="Speelhal.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>33B7D2D0-BF32-4CA1-B7F6-EB0FEF30175A</org>
-         <new>e5e19fcb-0145-4f57-9300-faf3149fdb78</new>
+         <new>27b5b453-d209-47ef-8c43-5ab04308bd25</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -75,15 +75,15 @@
    <guids>
       <guidInOw gmlfile="Welstand.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>d775e368-6c81-40b9-9a7a-c2acb70831f3</org>
-         <new>6b2c2c96-b0df-46ba-a92e-e01736cecf65</new>
+         <new>d4e3b358-3a38-43ce-8387-4f9beb3e8709</new>
       </guidInOw>
       <guidInOw gmlfile="Welstand.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>3ce37c9c-1721-4eec-9b4a-5380fd30fbac</org>
-         <new>44d97032-3421-4ab8-b3da-0ca6fd677b6d</new>
+         <new>6ffa390e-eb91-43df-8ff4-e687124c8930</new>
       </guidInOw>
       <guidInOw gmlfile="Welstand.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>dc57c9d5-a5ca-470c-b9f6-43eb30abdf8a</org>
-         <new>b23b1921-5d38-4df2-a78f-c260b017fa5f</new>
+         <new>34268ccd-652a-4f3d-afad-a48c28049e96</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -92,7 +92,7 @@
    <guids>
       <guidInOw gmlfile="Zone_A.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>B3AF6AF7-5EFA-4A87-9C66-BFB046DD89AC</org>
-         <new>525fcc93-fdf1-4d18-b206-963f342d4aad</new>
+         <new>01e4d45d-3675-4bce-b8ff-1e6a094300fb</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -101,7 +101,7 @@
    <guids>
       <guidInOw gmlfile="Zone_B.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>0868A0B1-DA79-4C33-8305-1BDE0126FA9A</org>
-         <new>8ca18705-d906-4a24-aecf-cbba0fafb725</new>
+         <new>9600a9ea-0ab8-4d8b-9a2c-f791ddb865f2</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -110,7 +110,7 @@
    <guids>
       <guidInOw gmlfile="Zuilichem.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>b69221bd-8121-4368-9058-ad4ff7618dcd</org>
-         <new>5a414e41-da72-4e12-85c8-a0f65e283ae2</new>
+         <new>c8b25375-18b9-45b0-ab30-bfcc55ce5cb5</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
