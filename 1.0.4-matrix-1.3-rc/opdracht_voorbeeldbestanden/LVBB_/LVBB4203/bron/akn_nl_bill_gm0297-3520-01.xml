@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
-<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    schemaversie="1.1.0" 
-    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.1.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
     <BesluitVersie>
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/bill/gm0297/2020/LVBB_KS020</FRBRWork>
-            <FRBRExpression>/akn/nl/bill/gm0297/2020/LVBB_KS020/nld@2020</FRBRExpression>
+            <FRBRWork>/akn/nl/bill/gm0297/2019/LVBB_3520</FRBRWork>
+            <FRBRExpression>/akn/nl/bill/gm0297/2019/LVBB_3520/nld@2019</FRBRExpression>
             <soortWork>/join/id/stop/work_003</soortWork>
         </ExpressionIdentificatie>
         <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -23,29 +20,30 @@
             <rechtsgebieden>
                 <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
             </rechtsgebieden>
-            <informatieobjectRefs>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Bedrijf_categorie_2/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Centrumgebied/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Speelhal/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Zone_A/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Zone_B/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Bouwhoogte/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Welstand/nld@2020-03-18;3520</informatieobjectRef>
-                <informatieobjectRef>/join/id/regdata/gm0297/2020/Zuilichem/nld@2020-03-18;3520</informatieobjectRef>
-            </informatieobjectRefs>
             <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
+            <informatieobjectRefs>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Bedrijf_categorie_2/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Centrumgebied/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Speelhal/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Bouwhoogte/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Welstand/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Zone_A/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Zone_B/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <informatieobjectRef>/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;LVBB_3520</informatieobjectRef>
+                <!-- regelinggebied -->
+            </informatieobjectRefs>
         </BesluitMetadata>
         <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bekendOp>2020-01-28</bekendOp>
+            <bekendOp>2019-12-17</bekendOp>
             <procedurestappen>
+                <!-- Vaststelling -->
                 <Procedurestap>
                     <soortStap>/join/id/stop/procedure/stap_002</soortStap>
-                    <voltooidOp>2020-01-14</voltooidOp>
+                    <voltooidOp>2019-12-03</voltooidOp>
                 </Procedurestap>
-                <!--Ondertekening-->
                 <Procedurestap>
                     <soortStap>/join/id/stop/procedure/stap_003</soortStap>
-                    <voltooidOp>2020-01-16</voltooidOp>
+                    <voltooidOp>2019-12-05</voltooidOp>
                 </Procedurestap>
             </procedurestappen>
         </Procedureverloop>
@@ -53,96 +51,85 @@
             <BeoogdeRegelgeving>
                 <BeoogdeRegeling>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/akn/nl/act/gm0297/2020/reg789/nld@2</instrumentVersie>
+                    <instrumentVersie>/akn/nl/act/gm0297/2019/reg456/nld@1</instrumentVersie>
                     <eId>art_I</eId>
                 </BeoogdeRegeling>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Bedrijf_categorie_2/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Bedrijf_categorie_2/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Centrumgebied/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Centrumgebied/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Speelhal/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Speelhal/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Bouwhoogte/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Bouwhoogte/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Welstand/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Welstand/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Zone_A/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Zone_A/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Zone_B/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Zone_B/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <BeoogdInformatieobject>
                     <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                        <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     </doelen>
-                    <instrumentVersie>/join/id/regdata/gm0297/2020/Zuilichem/nld@2020-03-18;3520</instrumentVersie>
-                    <eId>
-                        <!--Er is geen element ExtIoRef met dezelfde join.-->!nieuweregeling#cmp_I__content_o_1__list_o_1__item_o_8__ref_o_1</eId>
+                    <instrumentVersie>/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;LVBB_3520</instrumentVersie>
+                    <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_8__ref_o_1</eId>
                 </BeoogdInformatieobject>
                 <!-- regelinggebied -->
             </BeoogdeRegelgeving>
-            <Intrekkingen>
-                <Intrekking>
-                    <doelen>
-                        <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
-                    </doelen>
-                    <instrument>/akn/nl/act/gm0297/2019/reg456</instrument>
-                    <eId>art_II</eId>
-                </Intrekking>
-            </Intrekkingen>
             <Tijdstempels>
-                <!-- LVBB 4201 Intrekking vanaf 24-2-25 -->
                 <Tijdstempel>
-                    <doel>/join/id/proces/gm0297/2020/IntrekkenVervangenGemeentestad</doel>
+                    <doel>/join/id/proces/gm0297/2019/Instelling</doel>
                     <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
-                    <datum>2024-02-25</datum>
-                    <eId>art_III</eId>
+                    <datum>2024-01-14</datum>
+                    <eId>art_II</eId>
                 </Tijdstempel>
             </Tijdstempels>
         </ConsolidatieInformatie>
         <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-            <RegelingOpschrift eId="longTitle_o_1" wId="longTitle_o_1">
+            <RegelingOpschrift eId="longTitle" wId="longTitle">
                 <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
             </RegelingOpschrift>
             <Aanhef eId="formula_1" wId="formula_1">
                 <Al>De raad van de gemeente Gemeenstestad </Al>
-                <Al>gelezen het voorstel van burgemeester en wethouders van 1 januari 2020, nr. 2020-LVBB_KS020;</Al>
+                <Al>gelezen het voorstel van burgemeester en wethouders van 26 juni 2019, nr. 2019-4542;</Al>
                 <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
                 <Al>besluit:</Al>
             </Aanhef>
@@ -152,16 +139,15 @@
                         <Label>Artikel</Label>
                         <Nummer>I</Nummer>
                     </Kop>
-                    <Wat>De "Regeling Voorbeeldregels met uitbreiding tbv Toepasbare Regels (Gemeentestad) 2020" opgenomen in de <IntRef ref="cmp_A" scope="WijzigBijlage">bijlage A</IntRef> wordt ingesteld.</Wat>
+                    <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in<IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
                 </WijzigArtikel>
                 <Artikel eId="art_II" wId="gm0297_1__art_II">
-                    <!-- gewoon artikel voor intrekking -->
                     <Kop>
                         <Label>Artikel</Label>
                         <Nummer>II</Nummer>
                     </Kop>
                     <Inhoud>
-                        <Al>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" wordt ingetrokken.</Al>
+                        <Al>Dit besluit treedt in werking per 14 januari 2020.</Al>
                     </Inhoud>
                 </Artikel>
                 <Artikel eId="art_III" wId="gm0297_1__art_III">
@@ -170,17 +156,17 @@
                         <Nummer>III</Nummer>
                     </Kop>
                     <Inhoud>
-                        <Al>Dit besluit treedt in werking per 25 februari 2020.</Al>
+                        <Al>Het omgevingsplan van rechtswege vervalt voor het Ponsgebied van dit artikel.</Al>
                     </Inhoud>
                 </Artikel>
             </Lichaam>
             <Sluiting eId="formula_2" wId="formula_2">
-                <Al>Gegeven te Amsterdam, 14 januari 2020</Al>
+                <Al>Gegeven te Kaap Doorn, Gemeentestad, 3 december 2019</Al>
                 <Ondertekening>
-                    <Al>Gedeputeerde Raad van Amersfoort tot Den Haag</Al>
-                    <Al>Oskar Spreeuwenberg</Al>
-                    <Al>Gemeentesecretaris</Al>
-                    <Al>Katja Grunwald</Al>
+                    <Al>Gedeputeerde Raad van Apeldoorn tot Den Haag</Al>
+                    <Al>Yue Wan Fan</Al>
+                    <Al>gemeentesecretaris</Al>
+                    <Al>Nadine Bauer</Al>
                     <Al>Burgemeester</Al>
                 </Ondertekening>
             </Sluiting>
@@ -188,13 +174,13 @@
                 <Kop>
                     <Label>Bijlage</Label>
                     <Nummer>A</Nummer>
-                    <Opschrift>Instelling "Regeling Voorbeeldregels met uitbreiding tbv Toepasbare Regels (Gemeentestad) 2020" </Opschrift>
+                    <Opschrift>Bijlage bij artikel I</Opschrift>
                 </Kop>
-                <RegelingCompact componentnaam="nieuweregeling" wordt="/akn/nl/act/gm0297/2020/reg789/nld@2">
+                <RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/reg456/nld@1">
                     <RegelingOpschrift eId="longTitle" wId="longTitle">
-                        <Al>Omgevingsplan Gemeentestad (na intrekken vervangen)</Al>
+                        <Al>Omgevingsplan Zaltbommel (met de nadruk op Zuilichem)</Al>
                     </RegelingOpschrift>
-<Lichaam eId="body" wId="body">
+                    <Lichaam eId="body" wId="body">
                         <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
                             <Kop>
                                 <Label>Hoofdstuk</Label>
@@ -874,7 +860,7 @@
                                         <Term>Bedrijf categorie 2</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/gm0297/2020/Bedrijf_categorie_2/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Bedrijf_categorie_2/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/gm0297/2019/Bedrijf_categorie_2/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Bedrijf_categorie_2/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -882,7 +868,7 @@
                                         <Term>Centrumgebied</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/gm0297/2020/Centrumgebied/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Centrumgebied/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/gm0297/2019/Centrumgebied/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Centrumgebied/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -890,7 +876,7 @@
                                         <Term>Exploiteren speelautomatenhal</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" ref="/join/id/regdata/gm0297/2020/Speelhal/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Speelhal/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" ref="/join/id/regdata/gm0297/2019/Speelhal/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Speelhal/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -898,7 +884,7 @@
                                         <Term>Maximum bouwhoogte bedrijfsgebouw</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1" ref="/join/id/regdata/gm0297/2020/Bouwhoogte/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Bouwhoogte/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1" ref="/join/id/regdata/gm0297/2019/Bouwhoogte/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Bouwhoogte/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -906,7 +892,7 @@
                                         <Term>Welstandsniveau</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1" ref="/join/id/regdata/gm0297/2020/Welstand/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Welstand/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1" ref="/join/id/regdata/gm0297/2019/Welstand/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Welstand/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -914,7 +900,7 @@
                                         <Term>Zone A</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1" ref="/join/id/regdata/gm0297/2020/Zone_A/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Zone_A/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1" ref="/join/id/regdata/gm0297/2019/Zone_A/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Zone_A/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -922,7 +908,7 @@
                                         <Term>Zone B</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1" ref="/join/id/regdata/gm0297/2020/Zone_B/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Zone_B/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_7__ref_o_1" ref="/join/id/regdata/gm0297/2019/Zone_B/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Zone_B/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -930,7 +916,7 @@
                                         <Term>Zuilichem</Term>
                                         <Definitie>
                                             <Al>
-                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_8__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_8__ref_o_1" ref="/join/id/regdata/gm0297/2020/Zuilichem/nld@2020-03-18;3520">/join/id/regdata/gm0297/2020/Zuilichem/nld@2020-03-18;3520</ExtIoRef>
+                                                <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_8__ref_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_8__ref_o_1" ref="/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;LVBB_3520" >/join/id/regdata/gm0297/2019/Zuilichem/nld@2019-06-18;LVBB_3520</ExtIoRef>
                                             </Al>
                                         </Definitie>
                                     </Begrip>
@@ -965,9 +951,10 @@
                         </Kop>
                         <Divisietekst eId="cmp_III__content_o_1" wId="gm0297_1__cmp_III__content_o_1">
                             <Inhoud>
-                                <Al>Vervaardiging van voedingsmiddelen en dranken:</Al>
+                                <Al>Vervaardiging van voedingsmiddelen en dranken.</Al>
+                                <!-- KL, 2021-01-25 alinea weer teruggezet ivm afspraak leveranciers om geen lijstaanhef te gebruiken-->
+                                <Al>Slachterijen en overige vleesverwerking:</Al>
                                 <Lijst eId="cmp_III__content_o_1__list_o_1" wId="gm0297_1__cmp_III__content_o_1__list_o_1" type="ongemarkeerd">
-                                    <Lijstaanhef>Slachterijen en overige vleesverwerking:</Lijstaanhef>
                                     <Li eId="cmp_III__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_III__content_o_1__list_o_1__item_o_1">
                                         <Al>Slachterijen en overige vleesverwerking:</Al>
                                     </Li>
@@ -1000,7 +987,7 @@
                                     <Opschrift>Toelichting artikel 2.10</Opschrift>
                                 </Kop>
                                 <Inhoud>
-                                    <Al>Toelichting op <IntRef ref="chp_2__subchp_2.3__art_2.10" scope="Artikel">Artikel 2.10</IntRef>. Ook te vinden op <ExtRef soort="URL" ref="https://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Zaltbommel/637099/CVDR637099_1.html">de website van de gemeente Zaltbommel</ExtRef>.</Al>
+                                    <Al>Toelichting op <IntRef ref="chp_2__subchp_2.3__art_2.10" scope="Artikel">Artikel 2.10</IntRef>. Ook te vinden op<ExtRef soort="URL" ref="https://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Zaltbommel/637099/CVDR637099_1.html" >de website van de gemeente Zaltbommel</ExtRef>.</Al>
                                 </Inhoud>
                             </Divisietekst>
                         </Divisie>
@@ -1010,7 +997,6 @@
         </BesluitCompact>
     </BesluitVersie>
     <RegelingVersieInformatie>
-        <!-- ingetrokken regeling -->
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
             <FRBRWork>/akn/nl/act/gm0297/2019/reg456</FRBRWork>
             <FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@1</FRBRExpression>
@@ -1030,7 +1016,7 @@
                     <isOfficieel>true</isOfficieel>
                 </CiteertitelInformatie>
             </heeftCiteertitelInformatie>
-            <officieleTitel>Omgevingsplan Gemeentestad (na intrekken vervangen)</officieleTitel>
+            <officieleTitel>Omgevingsplan Zaltbommel (met de nadruk op Zuilichem)</officieleTitel>
             <onderwerpen>
                 <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
             </onderwerpen>
@@ -1039,35 +1025,6 @@
             </rechtsgebieden>
             <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
             <!-- Omgevingsplan -->
-        </RegelingMetadata>
-    </RegelingVersieInformatie>
-    <RegelingVersieInformatie>
-        <!-- nieuwe regeling -->
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0297/2020/reg789</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0297/2020/reg789/nld@2</FRBRExpression>
-            <soortWork>/join/id/stop/work_019</soortWork>
-        </ExpressionIdentificatie>
-        <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <versienummer>2</versienummer>
-        </RegelingVersieMetadata>
-        <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
-            <maker>/tooi/id/gemeente/gm0297</maker>
-            <!--soortBestuursorgaan is 'gemeenteraad'.-->
-            <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
-            <officieleTitel>Omgevingsplan Gemeentestad (na intrekken vervangen)</officieleTitel>
-            <onderwerpen>
-                <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
-            </onderwerpen>
-            <rechtsgebieden>
-                <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
-            </rechtsgebieden>
-            <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
-            <!-- Omgevingsplan -->
-            <opvolging>
-                <opvolgerVan>/akn/nl/act/gm0297/2019/reg456</opvolgerVan>
-            </opvolging>
         </RegelingMetadata>
     </RegelingVersieInformatie>
 </AanleveringBesluit>
