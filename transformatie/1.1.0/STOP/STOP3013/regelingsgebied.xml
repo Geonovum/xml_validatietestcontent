@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.1.0"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</data:FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/STOP</data:heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>regelingsgebied.gml</bestandsnaam>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">735fb4250fbf69adb3a49e0b607ebce91440c0661e9c07266e5c351990a3674d63ad1e3c5b073babb90b7e4222b4762c2e14caed8b5d6c6e8d4ac7ca30eaaf14</data:hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm0297</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>Regelingsgebied</alternatieveTitel>
+         </alternatieveTitels>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied</data:officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>Regelingsgebied</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

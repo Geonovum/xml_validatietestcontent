@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringKennisgeving schemaversie="1.0.4"
+  xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering/
+  https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+  <KennisgevingVersie>
+    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <FRBRWork>/akn/nl/doc/gm0297/2020/kennisgeving01</FRBRWork>
+      <FRBRExpression>/akn/nl/doc/gm0297/2020/kennisgeving01/nld@2020-02-17</FRBRExpression>
+      <soortWork>/join/id/stop/work_023</soortWork>
+    </ExpressionIdentificatie>
+    <KennisgevingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <eindverantwoordelijke>/tooi/id/provincie/gm0297</eindverantwoordelijke>
+      <maker>/tooi/id/provincie/gm0297</maker>
+      <officieleTitel>Kennisgeving van het bekend maken van het ontwerpbesluit tot instellen van de Omgevingsverordening Utrecht</officieleTitel>
+      <onderwerpen>
+        <onderwerp>/tooi/def/concept/c_cfc7d5ab</onderwerp>
+      </onderwerpen>
+      <mededelingOver>/akn/nl/bill/gm0297/2019/LVBB/nld@2019-06-27</mededelingOver>
+    </KennisgevingMetadata>
+    <Procedureverloopmutatie 
+      xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <bekendOp>2020-02-15</bekendOp>
+      <voegStappenToe>
+        <Procedurestap>
+          <!-- nieuw! begin inzagetermijn -->
+          <soortStap>/join/id/stop/procedure/stap_014</soortStap>
+          <voltooidOp>2020-06-19</voltooidOp>
+        </Procedurestap>
+        <Procedurestap>
+          <!-- stap_005 = eind inzagetermijn -->
+          <soortStap>/join/id/stop/procedure/stap_005</soortStap>
+          <voltooidOp>2020-07-31</voltooidOp>
+        </Procedurestap>
+      </voegStappenToe>
+    </Procedureverloopmutatie>
+    <Kennisgeving xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+      <RegelingOpschrift eId="longTitle_o_1" wId="longTitle_o_1">
+        <Al>Kennisgeving bij het Ontwerpbesluit tot instellen van de Omgevingsverordening Utrecht</Al>
+      </RegelingOpschrift>
+      <Lichaam eId="body" wId="body">
+        <Divisietekst eId="content_1" wId="gm0297_1__content_1">
+          <Kop>
+            <Opschrift>Ontwerp Omgevingsverordening Utrecht</Opschrift>
+          </Kop>
+          <Inhoud>
+            <Al>Gedeputeerde Staten van Utrecht delen mee dat van 19 juni tot en met 31 juli 2021 voor eenieder ter inzage ligt het ontwerp van de omgevingsverordening.</Al>
+            <Al>De omgevingsverordening bevat de provinciale regels over de fysieke leefomgeving. Voor een deel zijn dit regels die voor iedereen gelden. Het overige deel betreft regels die aangeven hoe de gemeenten bepaalde zaken in hun omgevingsplan moeten regelen.</Al>
+          </Inhoud>
+        </Divisietekst>
+        <Divisietekst eId="content_2" wId="gm0297_1__content_2">
+          <Kop>
+            <Opschrift>Reageren</Opschrift>
+          </Kop>
+          <Inhoud>
+            <Al>Tijdens de periode waarin het ontwerp van de omgevingsverordening ter inzage ligt kan iedereen een zienswijze over het ontwerp geven. Dat kan op de volgende manieren:</Al>
+            <Lijst eId="content_2__list_1" type="ongemarkeerd"
+              wId="gm0297_1__content_2__list_1">
+              <Li eId="content_2__list_1__item_1" wId="gm0297_1__content_2__list_1__item_1">
+                <Al>schriftelijk: stuur uw zienswijze naar Gedeputeerde Staten van Utrecht, Postbus 16002, 3500 DA Utrecht, onder vermelding van 'zienswijze over ontwerp omgevingsverordening'. 
+                  De zienswijzenbrief moet door u ondertekend zijn en ten minste uw naam, adres en woonplaats en indien mogelijk ook uw telefoonnummer bevatten.</Al>
+              </Li>
+              <Li eId="content_2__list_1__item_2" wId="gm0297_1__content_2__list_1__item_2">
+                <Al>mondeling: maak een afspraak met de heer J. Janssen via telefoonnummer 030 123 45 67</Al>
+                <Al>de landelijke voorziening <ExtRef ref="/akn/nl/bill/gm0297/2020/OVPU001/nld@2020-06-09" soort="AKN">www.officielebekendmakingen.nl</ExtRef></Al>
+                <Al>Provinciehuis Utrecht, Archimedeslaan 6 te Utrecht</Al>
+              </Li>
+            </Lijst>
+          </Inhoud>
+        </Divisietekst>
+        <Divisietekst eId="content_3" wId="gm0297_1__content_3">
+          <Kop>
+            <Opschrift>Inzien</Opschrift>
+          </Kop>
+          <Inhoud>
+            <Al>Het ontwerp van de omgevingsverordening is in te zien via:</Al>
+            <Lijst type="ongemarkeerd" wId="pv_26_1__content_3__list_1" eId="content_3__list_1">
+              <Li wId="pv_26_1__content_3__list_1__item_1" eId="content_3__list_1__item_1">
+                <Al>de landelijke voorziening <ExtRef ref="/akn/nl/bill/gm0297/2020/OVPU001/nld@2020-06-09" soort="AKN">www.officielebekendmakingen.nl</ExtRef></Al>
+              </Li>
+              <Li wId="pv_26_1__content_3__list_1__item_2" eId="content_3__list_1__item_2">
+                <Al>onze website <ExtRef soort="URL" ref="https://www.provincie-utrecht.nl/actueel">provincie-utrecht.nl/actueel</ExtRef></Al>
+              </Li>
+            </Lijst>
+            <Al>Utrecht, juni 2020</Al>
+          </Inhoud>
+        </Divisietekst>
+      </Lichaam>
+    </Kennisgeving>
+  </KennisgevingVersie>
+</AanleveringKennisgeving>

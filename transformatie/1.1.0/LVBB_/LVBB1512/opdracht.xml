@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
+  <idLevering>id-publicatie-1235</idLevering>
+  <idBevoegdGezag>00000001807288111000</idBevoegdGezag>
+  <!-- FOUT LVBB 1512 Geen machtiging aanwezig voor aanleveraar namens bevoegd-gezag op aanleverdatum -->
+  <idAanleveraar>GEEN_MACHTIGING</idAanleveraar>
+  <publicatie>besluit.xml</publicatie>
+  <datumBekendmaking>2020-01-22</datumBekendmaking>
+</validatieOpdracht>

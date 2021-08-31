@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.1.0"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden2</FRBRWork>
+         <!-- FOUT LVBB 3900	Van alle aanleveringen MOET de Expressie-id van een Informatie Object uniek zijn -->
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</data:FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>GoedeGebieden2.gml</bestandsnaam>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">c37ad3167928cafb58ca10355fc6c8376aec87d035a0fd49335e3016e938facd9e27c0fb438616e31e7cadf24fbc90abcf0aa526078a5759fee6fa236e0fe8fc</data:hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/LVBB</data:heeftGeboorteregeling>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm0297</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>GoedeGebieden</alternatieveTitel>
+         </alternatieveTitels>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden2</data:officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <naamInformatieObject>GoedeGebieden</naamInformatieObject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>
