@@ -20,4 +20,9 @@
          <objecttype>Regelingsgebied</objecttype>
       </Bestand>
    </Aanlevering>
+   <!-- FOUT OZON 1027 Elke nieuwe regelingversie moet 1 doel hebben (tijdelijk). -->
+   <Aanlevering>
+      <manifest-ow:WorkIDRegeling xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/akn/nl/act/gm0297/2019/BHKV</manifest-ow:WorkIDRegeling>
+      <manifest-ow:DoelID xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">/join/id/proces/gm0297/2019/BHKVAnder</manifest-ow:DoelID>
+   </Aanlevering>
 </Aanleveringen>

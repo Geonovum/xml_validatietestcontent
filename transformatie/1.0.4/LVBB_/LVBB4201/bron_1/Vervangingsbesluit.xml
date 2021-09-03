@@ -142,7 +142,7 @@
             </RegelingOpschrift>
             <Aanhef eId="formula_1" wId="formula_1">
                 <Al>De raad van de gemeente Gemeenstestad </Al>
-                <Al>gelezen het voorstel van burgemeester en wethouders van 1 januari 2020, nr. 2020-LVBB_KS020;</Al>
+                <Al>gelezen het voorstel van burgemeester en wethouders van 1 januari 2020, nr. 2020-KS020;</Al>
                 <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
                 <Al>besluit:</Al>
             </Aanhef>
@@ -1009,38 +1009,6 @@
             </WijzigBijlage>
         </BesluitCompact>
     </BesluitVersie>
-    <RegelingVersieInformatie>
-        <!-- ingetrokken regeling -->
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0297/2019/reg456</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0297/2019/reg456/nld@1</FRBRExpression>
-            <soortWork>/join/id/stop/work_019</soortWork>
-        </ExpressionIdentificatie>
-        <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <versienummer>1</versienummer>
-        </RegelingVersieMetadata>
-        <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
-            <maker>/tooi/id/gemeente/gm0297</maker>
-            <!--soortBestuursorgaan is 'gemeenteraad'.-->
-            <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
-            <heeftCiteertitelInformatie>
-                <CiteertitelInformatie>
-                    <citeertitel>Gemeentestad (omgevingsplan Zaltbommel)</citeertitel>
-                    <isOfficieel>true</isOfficieel>
-                </CiteertitelInformatie>
-            </heeftCiteertitelInformatie>
-            <officieleTitel>Omgevingsplan Gemeentestad (na intrekken vervangen)</officieleTitel>
-            <onderwerpen>
-                <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
-            </onderwerpen>
-            <rechtsgebieden>
-                <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
-            </rechtsgebieden>
-            <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
-            <!-- Omgevingsplan -->
-        </RegelingMetadata>
-    </RegelingVersieInformatie>
     <RegelingVersieInformatie>
         <!-- nieuwe regeling -->
         <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">

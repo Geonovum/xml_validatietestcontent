@@ -3,6 +3,6 @@
     <idLevering>id-afbreek-1235</idLevering>
     <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
     <idAanleveraar>00000003560458830000</idAanleveraar>
-    <!-- FOUT LVBB 1555 Publicatie die afgebroken moet worden mag niet gepubliceerd zijn -->
+    <!-- FOUT LVBB 1551 Bij Afbreken moet de opgegeven AKN bestaan -->
     <identificatie>/akn/nl/bill/gm0297/2019/LVBB</identificatie>
 </breekPublicatieAfOpdracht>

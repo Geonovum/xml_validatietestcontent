@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><index>
+   <testId>LVBB5002</testId>
+   <besluit/>
+   <file type="besluit.xml" ow="false">
+      <name>Mutatie_besluit_eerstewijziging.xml</name>
+   </file>
+   <file type="manifest-ow.xml" ow="false">
+      <name>manifest-ow.xml</name>
+   </file>
+   <leveringId sourcefile="opdracht.xml">
+      <referencefile>owRegeltekst.xml</referencefile>
+   </leveringId>
+   <idLevering>id-publicatie-1235_2</idLevering>
+   <file type="opdracht.xml" ow="false">
+      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron_1/opdracht.xml</fullname>
+      <name>opdracht.xml</name>
+   </file>
+   <file type="regeltekst.xml" ow="true">
+      <name>owRegeltekst.xml</name>
+   </file>
+</index>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ow-dc:owBestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+   <sl:standBestand>
+      <sl:dataset>Gemeentestad</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Gemeentestad</sl:gebied>
+         <sl:leveringsId>abc-20190221-0801-AFBREEK-LVBB5002-0-20210803023253</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Gebied</sl:objectType>
+            <sl:objectType>Gebiedengroep</sl:objectType>
+            <sl:objectType>Ambtsgebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.Bedrijfcategorie220210803023253</l:identificatie>
+               <l:noemer>Bedrijf categorie 2</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900000120210803023253"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000120210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="f714958c-3fd3-462c-a325-b27defa82039"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.zoneA20210803023253</l:identificatie>
+               <l:noemer>zone A</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900000220210803023253"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000220210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="eb299528-2949-4fc3-aa43-240e4119ebf2"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.zoneB20210803023253</l:identificatie>
+               <l:noemer>zone B</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900000320210803023253"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000320210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="8dfbd3cc-3f9c-4822-907b-ffcff7b5da83"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.centrumgebied20210803023253</l:identificatie>
+               <l:noemer>Centrumgebied</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900000420210803023253"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000420210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="15989410-2666-4707-8943-6ece1a4494ae"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.speelhal20210803023253</l:identificatie>
+               <l:noemer>exploiteren speelautomatenhal</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900000720210803023253"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000720210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="2d34504a-5b38-408f-9dfc-48d0d4a7eedf"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000820210803023253</l:identificatie>
+               <l:noemer>Zuilichem industriegebied 1</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="0cdadab4-03e1-4ed9-b887-38e1b097a224"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900000920210803023253</l:identificatie>
+               <l:noemer>Zuilichem industriegebied 2</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="eff6ff9a-cfcd-4be5-87df-18c7c3e67cd8"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900001020210803023253</l:identificatie>
+               <l:noemer>Zuilichem industriegebied 3</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="d059840b-8979-4915-bc14-88d71d25aa30"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900001320210803023253</l:identificatie>
+               <l:noemer>Zuilichem industriegebied 4</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="61da93a4-2159-4e44-9d65-b254b965b315"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0297.gebiedengroep.zuilichem20210803023253</l:identificatie>
+               <l:noemer>Zuilichem</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900001120210803023253"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900001120210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="4754d686-87ba-44dd-bfb1-973cb275169f"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900001420210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="ff153950-2ce2-4d11-9285-4fec4dadaede"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900001520210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="d1ff4b13-beb1-4e10-9b77-bfb349f9acc6"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.201900001620210803023253</l:identificatie>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="a27af264-7dee-48f9-80cd-179ad81fc5e9"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!--Ambtsgebied nieuw-->
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Ambtsgebied>
+               <l:identificatie>nl.imow-gm0297.ambtsgebied.ZaltbommelAmbtsgebied</l:identificatie>
+               <l:noemer>Gemeente Zaltbommel</l:noemer>
+               <l:bestuurlijkeGrenzenVerwijzing>
+                  <l:BestuurlijkeGrenzenVerwijzing>
+                     <l:bestuurlijkeGrenzenID>GM0297</l:bestuurlijkeGrenzenID>
+                     <l:domein>NL.BI.BestuurlijkGebied</l:domein>
+                     <l:geldigOp>2021-01-01</l:geldigOp>
+                  </l:BestuurlijkeGrenzenVerwijzing>
+               </l:bestuurlijkeGrenzenVerwijzing>
+            </l:Ambtsgebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <!--Ambtsgebied oud-->
+      <!--      <sl:stand>
+         <ow-dc:owObject>
+            <l:Ambtsgebied>
+               <l:identificatie>GM0297</l:identificatie>
+               <l:noemer>Gemeente Zaltbommel</l:noemer>
+               <l:domein>NL.BI.BestuurlijkGebied</l:domein>
+               <l:geldigOp>2021-01-01</l:geldigOp>
+            </l:Ambtsgebied>
+         </ow-dc:owObject> 
+      </sl:stand>-->
+   </sl:standBestand>
+</ow-dc:owBestand>
