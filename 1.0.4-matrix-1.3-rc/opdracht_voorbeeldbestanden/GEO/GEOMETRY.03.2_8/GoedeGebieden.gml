@@ -20,8 +20,8 @@
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
-               <!-- FOUT GEO 0008 ring doorsnijdt zichzelf -->
-               <geo:naam>GEO0008 ring doorsnijdt zichzelf</geo:naam>
+               <!-- FOUT GEOMETRY_03_2_8 ring doorsnijdt zichzelf -->
+               <geo:naam>GEOMETRY_03_2_8 ring doorsnijdt zichzelf</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="id-e21c801e-49ee-43f8-8f5e-0000000000008-xx">
                      <basisgeo:id>e21c801e-49ee-43f8-8f5e-0000000000008</basisgeo:id>

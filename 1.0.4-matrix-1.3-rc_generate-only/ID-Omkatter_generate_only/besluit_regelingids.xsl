@@ -48,6 +48,9 @@
             <xsl:when test="
                     $inclusiefAfbreek = 1
                     and not($org.file.dir = 'LVBB1563')
+                    and not($org.file.dir = 'LVBB4201')
+                    and not($org.file.dir = 'LVBB4203')
+                    and not($org.file.dir = 'LVBB7705')
                     and not($org.file.dir = 'LVBB4200')">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
