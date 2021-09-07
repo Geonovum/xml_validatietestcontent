@@ -4,10 +4,14 @@
   <taskdef resource="net/sf/antcontrib/antlib.xml"/>
   <taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask" classpath="xmltask.jar;saxon9he.jar"/>
 
+  <!-- Deze routine maakt properties aan. Properties zijn ant-variabelen met een vaste waarde.
+  Hier worden de properties input etc aangemaakt, en ze krijgen de invulling bron, etc.-->
   <property name="input.dir" value="bron"/>
   <property name="output.dir" value="resultaat"/>
   <property name="temp.dir" value="temp"/>
 
+  <!-- Deze routine maakt properties aan. Properties zijn ant-variabelen met een vaste waarde.
+  Hier worden de properties input_1, input_2 etc aangemaakt, en ze krijgen de invulling bron_1, bron_2, etc.-->
   <for list="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15" param="number">
     <sequential>
       <property name="input_@{number}.dir" value="bron_@{number}"/>
@@ -18,6 +22,8 @@
 
 
   <!-- initialiseer mappen -->
+  <!-- De resultaat- en temp- mappen met de nummers worden aangemaakt, indien er bron-mappen voor zijn -->
+  <!-- we gaan uit van 15 mappen, maar dat aantal is nog nooit gehaald. --> 
 
   <target name="init" description="Initialiseer mappen">
     <delete dir="${output.dir}" failonerror="no" includeemptydirs="true"/>
@@ -55,12 +61,14 @@
         <mkdir dir="resultaat_afbreek_1"/>
       </then>
     </if>
+    <!-- Hier wordt de variabele build.currentDate gevuld met een datum/tijd string, die overal in de buildfile terugkomt -->
     <tstamp>
       <format property="build.currentDate" pattern="yyyyMMddhhmmss"/>
     </tstamp>
   </target>
 
-  <!-- kopieer bestanden naar resultaat -->
+  <!-- kopieer bestanden vanuit de bron directories naar resultaat-directories. Zo weten
+  we zeker dat alle bestanden, ook die niet worden hervormd in de resultaat directories staan-->
 
   <target name="copy" description="Kopieer bestanden">
     <copy todir="${output.dir}">
@@ -197,7 +205,9 @@
   </if>
 
 
-  <!-- Deze wordt alleen voor de "bron" uitgevoerd, de overigen ook voor de bron_* -->
+  <!-- Deze wordt alleen voor de "bron" en voor bron_@{nummer} uitgevoerd -->
+  <!-- Alle bestanden worden afgelopen, en er worden een aantal informatie-punten aan elkaar gekoppeld. -->
+  <!-- Dit resulteert in een index in de ${temp.dir} die dan informatief is voor de overige routines -->
   <target name="index" description="Creëert een index van de soorten bestanden waaruit de dataset bestaat.">
     <property environment="env"/>
     <xslt in="template.xml" out="${temp.dir}/index1.xml" style="index.xsl" processor="trax" force="true">
@@ -270,6 +280,8 @@
     </if>
   </target>
 
+<!-- GUIDS komen in index.xml, en worden aangemaakt in index.xsl. Er wordt in index.xsl een internet service aangeroepen om
+  de GUIDs aan te maken. Indien er een GUID wordt gewijzigd, wordt die GUID gezocht in andere bestanden en op dezelfde manier gewijzigd. -->
   <target name="guids" description="Creëert een juiste aantal guids benodigd en verwerkt die in GML-bestanden en referenties.">
     <property environment="env"/>
     <!-- Wijzig de GML-files die gerefereerd worden vanuit een OW bestand -->
@@ -432,6 +444,7 @@
     </for>
   </target>
 
+<!-- De OW-files woprden afgelopen en er wordt een datum/tijd string achter een owId gezet. -->
   <target name="owids" description="Verandert owids door er een datum/tijd string achter te zetten.">
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/file[contains(@ow,'true')]">
