@@ -18,8 +18,7 @@ if [[ -e $1 ]]; then
     echo $filename;
     filenamewithoutextension=${filename%.zip}
     conversationid=${filenamewithoutextension#*_}
-    validatienummer=$(echo $file| cut -d'-' -f 1)
-	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
+	validatienummer=$(echo $file| cut -d'_' -f 1)
 	echo $validatienummer
 
     

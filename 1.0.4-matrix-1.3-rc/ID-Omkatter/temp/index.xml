@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>GEOMETRY_03_2_1</testId>
+   <testId>GEOMETRY_03_2-1</testId>
    <guids>
       <guid gmlfile="GoedeGebieden.gml">
          <org>e21c801e-49ee-43f8-8f5e-0000000000001</org>
-         <new>a0ffa5b7-133d-4130-a25f-d2092d379aef</new>
+         <new>6cdb1a1d-52d4-45bf-a2e6-1969e9c004d2</new>
       </guid>
    </guids>
    <file type="gml.xml" ow="false">
@@ -51,7 +51,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
-         <new>e1fe1a5a-9eb4-4438-8d50-9223ea8d2909</new>
+         <new>6185e446-c8ff-401d-a0f3-1edbabfb522d</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">

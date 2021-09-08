@@ -12,7 +12,7 @@ inpakken_maar () {
     l1=${lId%</*}
     l2=${l1#*>} 
     export datePart=${l2##*-}   
-	export postfix="$orgfiledir""$datePart"
+	export postfix="$orgfiledir"_"$datePart"
     #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
 	if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
 	   export newPostfix="$postfix"a"$number"p
@@ -32,10 +32,10 @@ inpakken_maar () {
     opdracht_voorbeeldbestanden=`pwd`/opdracht_voorbeeldbestanden
 	cd $current_dir
 	pwd
-    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"	    	   
-	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip *;
-	echo "git add $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip;"
-	git add $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip;
+    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   
+	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip *;
+	echo "git add $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip;"
+	git add $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip;
 	pwd
 }
 
@@ -102,7 +102,7 @@ if [ -d "$1" ]; then
 	       exit 1
         else
             #verwijder oude bestanden
-        	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$orgfiledir"*.zip;
+        	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip;
 
            #extract-datetime van opdracht.xml
            cd resultaat 
@@ -117,23 +117,23 @@ if [ -d "$1" ]; then
 	       
 	       #overige resultaat-directories
  	      if [ "$1" = "LVBB1551" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
            fi
            if [ "$1" = "LVBB1553" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
            fi
            if [ "$1" = "LVBB1555" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
            fi
            if [ "$1" = "LVBB1563" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
            fi
 	       cd ..;
 
@@ -163,27 +163,27 @@ if [ -d "$1" ]; then
                
                #overige resultaat-directories
                if [ "$1" = "LVBB1553" ]; then
-   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
                fi
                if [ "$1" = "LVBB1555" ]; then
-   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
                fi
                if [ "$1" = "LVBB1554" ]; then
                 echo "$orgfiledir: er worden twee afbreek-routines gecreëerd"
-                cp ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix"-1.zip
-                git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix"-1.zip
-                cp ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix"-2.zip
-                git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix"-2.zip
-                git rm -f ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+                cp ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-1.zip
+                git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-1.zip
+                cp ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-2.zip
+                git add ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-2.zip
+                git rm -f ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
                fi
                if [ "$1" = "LVBB1563" ]; then
-   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"
-   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
+   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
+   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
+                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
                fi
                cd ..;	
            
