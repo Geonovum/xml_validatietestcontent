@@ -34,7 +34,6 @@ inpakken_maar () {
 	pwd
     echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip"	    	   
 	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip *;
-	ls -l  $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip
 	echo "git add $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip;"
 	git add $opdracht_voorbeeldbestanden/opdrachten_gereed/o"$newPostfix".zip;
 	pwd
