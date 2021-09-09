@@ -32,6 +32,8 @@ inpakken_maar () {
     opdracht_voorbeeldbestanden=`pwd`/opdracht_voorbeeldbestanden
 	cd $current_dir
 	pwd
+	echo "REMOVING $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip"
+	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip
     echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   
 	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip *;
 	echo "git add $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip;"
