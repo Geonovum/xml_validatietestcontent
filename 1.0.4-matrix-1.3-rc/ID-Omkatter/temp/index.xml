@@ -3,7 +3,7 @@
    <guids>
       <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>7f7fef1f-3313-3173-f1ef-e3d33fd3e7fe</org>
-         <new>408a816d-d762-485b-bdd4-74bd835d2cef</new>
+         <new>f78aeb49-ed4e-4ac6-b549-b5480a140e6c</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -51,7 +51,7 @@
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
          <org>76979970-1d16-7c77-c77c-117957116050</org>
-         <new>662e2fe9-fba8-45ea-9ff9-01e5016b131a</new>
+         <new>dc84d203-ce75-4013-932b-afc64c33ab3e</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
