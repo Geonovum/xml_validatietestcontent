@@ -19,7 +19,7 @@ execute_single_file () {
 	file=$1;
 	echo $file;
 	filenamewithoutextension=${file%.zip}
-	conversationid=${filenamewithoutextension#*_}
+	conversationid=${filenamewithoutextension}
 	validatienummer=$(echo $file| cut -d'_' -f 1)
 	echo $validatienummer
 	action="versturen"
@@ -66,7 +66,7 @@ execute_single_file () {
     #alleen bij valideren entree in results
     if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">>$resultfile
-        echo "<test>$conversationid</test>">>$resultfile
+        echo "<test>$conversationid-$opdracht</test>">>$resultfile
         #the variable result contains the URL
         echo "<result>$result</result>">>$resultfile
         #the file result is dumped into the result file

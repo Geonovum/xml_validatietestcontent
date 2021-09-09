@@ -17,7 +17,7 @@ if [[ -e $1 ]]; then
     filename=${file##*/};
     echo $filename;
     filenamewithoutextension=${filename%.zip}
-    conversationid=${filenamewithoutextension#*_}
+    conversationid=${filenamewithoutextension}
 	validatienummer=$(echo $file| cut -d'_' -f 1)
 	echo $validatienummer
 
@@ -64,7 +64,7 @@ if [[ -e $1 ]]; then
     wget -nv --no-check-certificate $result -O result;
     if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">$resultfile
-        echo "<test>$conversationid</test>">>$resultfile
+        echo "<test>$conversationid-$opdracht</test>">>$resultfile
         #the variable result contains the URL
         echo "<result>$result</result>">>$resultfile
         #the file result is dumped into the result file
