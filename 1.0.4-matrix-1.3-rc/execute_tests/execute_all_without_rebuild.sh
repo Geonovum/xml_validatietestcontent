@@ -20,8 +20,7 @@ execute_single_file () {
 	echo $file;
 	filenamewithoutextension=${file%.zip}
 	conversationid=${filenamewithoutextension#*_}
-	validatienummer=$(echo $file| cut -d'-' -f 1)
-	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
+	validatienummer=$(echo $file| cut -d'_' -f 1)
 	echo $validatienummer
 	action="versturen"
     opdracht="valideren"
