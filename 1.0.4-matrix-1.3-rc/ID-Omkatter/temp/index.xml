@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>GEOMETRY_03_2-1</testId>
+   <testId>BHKV1007</testId>
    <guids>
-      <guid gmlfile="GoedeGebieden.gml">
-         <org>e21c801e-49ee-43f8-8f5e-0000000000001</org>
-         <new>6cdb1a1d-52d4-45bf-a2e6-1969e9c004d2</new>
-      </guid>
+      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>72772166-4c21-1222-b6bd-262d712622cc</org>
+         <new>af59250e-b451-4855-b607-0aecde56a747</new>
+      </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
       <name>GoedeGebieden.gml</name>
@@ -33,7 +33,7 @@
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
    </leveringId>
-   <idLevering>id-publicatie-GEO</idLevering>
+   <idLevering>id-publicatie-BHKV</idLevering>
    <file type="opdracht.xml" ow="false">
       <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ID-Omkatter/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
@@ -50,8 +50,8 @@
    
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
-         <new>6185e446-c8ff-401d-a0f3-1edbabfb522d</new>
+         <org>5de5be28-004e-05e4-edbb-b4eb44e35e8e</org>
+         <new>477c54e7-6d28-47b7-9331-7bfa2584e762</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">

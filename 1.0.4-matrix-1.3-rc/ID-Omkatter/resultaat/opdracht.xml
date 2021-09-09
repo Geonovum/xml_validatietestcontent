@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
-   <idLevering>id-publicatie-GEO-GEOMETRY.03.2-1-0-20210908104936</idLevering>
+   <idLevering>id-publicatie-BHKV-BHKV1007-0-20210909091031</idLevering>
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
-   <datumBekendmaking>2021-09-11</datumBekendmaking>
+   <datumBekendmaking>2021-09-12</datumBekendmaking>
 </validatieOpdracht>
