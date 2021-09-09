@@ -13,8 +13,19 @@
 1.0.4-matrix-1.3-rc_generate-only/ID-Omkatter_generate_only/temp
 1.0.4-matrix-1.3-rc_generate-only/ID-Omkatter_generate_only/temp_*
 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed
-1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden
-1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/*
+1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/BHKV
+1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/GEO
+1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/LVBB_
+1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/OZON
+1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/STOP
+1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/TPOD
+
+1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/bron
+1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/bron_*
+1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/resultaat
+1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/resultaat_*
+1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/temp
+1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/temp_*
 
 1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/bron
 1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/bron_*
@@ -25,22 +36,10 @@
 1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed
 1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden
 1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/*
+1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/BHKV
+1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/GEO
+1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/LVBB_
+1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/OZON
+1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/STOP
+1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/TPOD
 
-<<<<<<< HEAD
-=======
-1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/bron
-1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/bron_*
-1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/resultaat
-1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/resultaat_*
-1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/temp
-1.1.0-rc-STOP-2.0.0-OW_generate-only/ID-Omkatter_generate_only/temp_*
-1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed
-1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden
-
->>>>>>> 719e6600b8ee79b4549c6b348443fee4de55fafb
-1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/bron
-1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/bron_*
-1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/resultaat
-1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/resultaat_*
-1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/temp
-1.1.0-rc-STOP-2.0.0-OW/ID-Omkatter/temp_*
