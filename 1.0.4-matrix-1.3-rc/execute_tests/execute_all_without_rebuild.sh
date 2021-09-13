@@ -65,15 +65,13 @@ execute_single_file () {
         for j in {1..10}
         do
             printf '.' > /dev/tty
-            wget -nv --no-check-certificate $result -O result;
-            if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
-                break
-            else
-                sleep 1
-            fi
-            
+            sleep 1
         done
+        wget -nv --no-check-certificate $result -O result;
         echo ""
+        echo "--------------------------------
+           cat result
+        echo "--------------------------------
         if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
           break
         else
@@ -81,6 +79,7 @@ execute_single_file () {
         fi
     done
     echo ""
+
 
     #get result
     echo "De resultaat URL = $result"
