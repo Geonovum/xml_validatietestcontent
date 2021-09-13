@@ -63,6 +63,9 @@ if [[ -e $1 ]]; then
         do
             printf '.' > /dev/tty
             wget -nv --no-check-certificate $result -O result;
+            echo "--------------------------------
+            cat result
+            echo "--------------------------------
             if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
                 break
             else
