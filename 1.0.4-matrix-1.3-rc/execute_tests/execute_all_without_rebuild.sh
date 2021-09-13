@@ -52,10 +52,33 @@ execute_single_file () {
 	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$opdracht" "$file")
 	
 	#wait ?? seconds for keten to create results
-	for i in {1..90}
+	#for i in {1..90}
+    #do
+    #    printf '.' > /dev/tty
+    #    sleep 1
+    #done
+    #echo ""
+    
+    rm result
+    for i in {1..50}
     do
-        printf '.' > /dev/tty
-        sleep 1
+        for j in {1..10}
+        do
+            printf '.' > /dev/tty
+            wget -nv --no-check-certificate $result -O result;
+            if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
+                break
+            else
+                sleep 1
+            fi
+            
+        done
+        echo ""
+        if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
+          break
+        else
+          sleep 1
+        fi
     done
     echo ""
 

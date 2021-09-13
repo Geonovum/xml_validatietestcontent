@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
-   <idLevering>id-publicatie-BHKV-BHKV1012-0-20210909115154</idLevering>
+   <idLevering>id-publicatie-BHKV-BHKV1003-0-20210913093240</idLevering>
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
-   <datumBekendmaking>2021-09-12</datumBekendmaking>
+   <datumBekendmaking>2021-09-16</datumBekendmaking>
 </validatieOpdracht>
