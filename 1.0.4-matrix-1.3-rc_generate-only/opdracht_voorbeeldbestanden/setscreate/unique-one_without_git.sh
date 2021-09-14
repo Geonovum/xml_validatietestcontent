@@ -36,7 +36,7 @@ inpakken_maar () {
 	   export newPostfix="$postfix"z"$number"a
 	fi
 	pwd
-	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip
+    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   
 	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip *;
 	pwd
 }
@@ -72,6 +72,9 @@ fi
 
 if [ -d "$1" ]; then
     export orgfiledir=$1
+    echo "REMOVING $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip"
+	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip
+
     cd $1;
     orgdirectory=`pwd`
     #we zijn nu in de directory van de bron bestanden

@@ -4,7 +4,7 @@
 
 datePart=$(date +%Y%m%d%H%M%S)
 ONGELDIGE_ZIP=LVBB1001_"$datePart";
-rm opdrachten_gereed/oLVBB1001*.zip;
+rm opdrachten_gereed/LVBB1001*.zip;
 echo "Test: LVBB1001"
 echo "ongeldige zip" >  opdrachten_gereed/"$ONGELDIGE_ZIP".zip
 
