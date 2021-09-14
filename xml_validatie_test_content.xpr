@@ -26,6 +26,51 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>results/result09092021-14-40.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>create_excel_from_result</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>results/result16072021-06-57.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>create_excel_from_result</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_0/Vervangingsbesluit.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>akn_nl_bill_gm0297-3520-01</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>transformatie/transformatie%201.1.0-rc/build.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -56,21 +101,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../Voorbeeldbestanden/xml_omgevingsplan_gemeentestad/opdracht_0/Vervangingsbesluit.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>akn_nl_bill_gm0297-3520-01</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>results/result31072021-16-05.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -87,21 +117,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>results/result23072021-07-22.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>create_excel_from_result</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>results/result16072021-06-57.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
