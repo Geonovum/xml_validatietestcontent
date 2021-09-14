@@ -69,9 +69,9 @@ execute_single_file () {
         done
         wget -nv --no-check-certificate $result -O result;
         echo ""
-        echo "--------------------------------
+        echo "--------------------------------"
            cat result
-        echo "--------------------------------
+        echo "--------------------------------"
         if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
           break
         else
