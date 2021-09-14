@@ -61,7 +61,7 @@ if [[ -e $1 ]]; then
         done
         wget -nv --no-check-certificate $result -O result;
         echo ""
-        if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
+        if  echo "$(cat result)" | grep -q "uitkomst>" ; then
           break
         else
           sleep 1
