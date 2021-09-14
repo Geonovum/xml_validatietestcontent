@@ -49,13 +49,6 @@ if [[ -e $1 ]]; then
     	
 #wait ?? seconds for keten to create results
 
-    #for i in {1..45}
-    #do
-    #    printf '.' > /dev/tty
-    #    sleep 1
-    #done
-    #echo ""
-    
     rm result
     totaal=0
     for i in {1..50}
@@ -68,9 +61,6 @@ if [[ -e $1 ]]; then
         done
         wget -nv --no-check-certificate $result -O result;
         echo ""
-        echo "--------------------------------"
-           cat result
-        echo "--------------------------------"
         if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
           break
         else
@@ -78,7 +68,7 @@ if [[ -e $1 ]]; then
         fi
     done
     echo ""
-    echo "test-duur: $totaal"
+    echo "test-duur: $totaal seconden"
     
     #get result
     rm $resultfile

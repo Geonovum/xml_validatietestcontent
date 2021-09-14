@@ -78,6 +78,7 @@ execute_single_file () {
         fi
     done
     echo ""
+    echo "test-duur: $totaal seconden"
 
 
     #get result
