@@ -60,18 +60,17 @@ execute_single_file () {
     #echo ""
     
     rm result
+    totaal=0
     for i in {1..50}
     do
         for j in {1..10}
         do
             printf '.' > /dev/tty
             sleep 1
+            totaal=$(($totaal+1))
         done
         wget -nv --no-check-certificate $result -O result;
         echo ""
-        echo "--------------------------------"
-           cat result
-        echo "--------------------------------"
         if  echo "$(cat result)" | grep -q "lvbb:uitkomst" ; then
           break
         else
@@ -89,6 +88,7 @@ execute_single_file () {
     if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">>$resultfile
         echo "<test>$conversationid-$opdracht</test>">>$resultfile
+        echo "<tijdsduur>$totaal</tijdsduur>">>$resultfile
         #the variable result contains the URL
         echo "<result>$result</result>">>$resultfile
         #the file result is dumped into the result file

@@ -57,12 +57,14 @@ if [[ -e $1 ]]; then
     #echo ""
     
     rm result
+    totaal=0
     for i in {1..50}
     do
         for j in {1..10}
         do
             printf '.' > /dev/tty
             sleep 1
+            totaal=$(($totaal+1))
         done
         wget -nv --no-check-certificate $result -O result;
         echo ""
@@ -76,6 +78,7 @@ if [[ -e $1 ]]; then
         fi
     done
     echo ""
+    echo "test-duur: $totaal"
     
     #get result
     rm $resultfile
@@ -96,6 +99,7 @@ if [[ -e $1 ]]; then
         if [ echo "$opdracht" = "afbreken" ]; then
             echo "<envelop>">>$resultfile
             echo "<test>$conversationid</test>">>$resultfile
+            echo "<tijdsduur>$totaal</tijdsduur>">>$resultfile
             #the variable result contains the URL
             echo "<result>$result</result>">>$resultfile
             #the file result is dumped into the result file
