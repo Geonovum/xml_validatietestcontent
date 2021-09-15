@@ -26,19 +26,19 @@ execute_single_file () {
     opdracht="valideren"
     action="versturen"
     opdracht="valideren"
-    if echo "$file" | grep -q "publiceren"; then
+    if echo "$file" | grep -q "_p_"; then
         opdracht="publiceren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "muteren"; then
+    if echo "$file" | grep -q "_v_"; then
         opdracht="valideren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "valideren"; then
+    if echo "$file" | grep -q "_v_"; then
         opdracht="valideren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "afbreken"; then
+    if echo "$file" | grep -q "_a_"; then
         opdracht="afbreken"
         action="versturen"
     fi

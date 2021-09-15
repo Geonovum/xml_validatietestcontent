@@ -25,15 +25,17 @@ inpakken_maar () {
     l2=${l1#*>} 
     export datePart=${l2##*-}   
 	export postfix="$orgfiledir"_"$datePart"
+	#default
+    export newPostfix="$postfix"b"$number"_v_
     #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
 	if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
-	   export newPostfix="$postfix"a"$number"p
+	   export newPostfix="$postfix"a"$number"_p_
     fi
 	if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
-	   export newPostfix="$postfix"b"$number"v
+	   export newPostfix="$postfix"b"$number"_v_
 	fi
 	if echo "$(cat opdracht.xml)" | grep -q "breekPublicatieAfOpdracht"; then
-	   export newPostfix="$postfix"z"$number"a
+	   export newPostfix="$postfix"z"$number"_a_
 	fi
 	pwd
     echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   
@@ -157,7 +159,7 @@ if [ -d "$1" ]; then
            done
 
            if [ -d "resultaat_afbreek" ];then
-	           export newPostfix="$postfix"z0a
+	           export newPostfix="$postfix"z0_a_
                cd resultaat_afbreek
                pwd
                
@@ -196,7 +198,7 @@ if [ -d "$1" ]; then
            
            fi
            if [ -d "resultaat_afbreek_1" ];then
-	           export newPostfix="$postfix-z-1-afbreken"
+	           export newPostfix="$postfix"z1_a_"
                cd resultaat_afbreek_1
                pwd
                
