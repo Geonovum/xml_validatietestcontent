@@ -49,6 +49,7 @@ if [[ -e $1 ]]; then
     	
 #wait ?? seconds for keten to create results
 
+if [[ !  $(echo "$file" | grep -q "_a_") ]]; then
     rm result
     totaal=0
     for i in {1..50}
@@ -123,7 +124,7 @@ if [[ -e $1 ]]; then
     echo "$(cat $logfile)"
     echo "---------------"
     rm result
-
+fi
 else
     echo "$1 is not found, please use an existing zip file"
 fi
