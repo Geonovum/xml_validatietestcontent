@@ -101,7 +101,6 @@ if [ -d "$1" ]; then
            echo "**********************************************************************"
 	       exit 1
         else
-	       rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip;
            #extract-datetime van opdracht.xml
            cd resultaat 
            #verwijderen oude bestanden van deze directory
