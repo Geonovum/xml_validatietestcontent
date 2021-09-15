@@ -198,7 +198,7 @@ if [ -d "$1" ]; then
            
            fi
            if [ -d "resultaat_afbreek_1" ];then
-	           export newPostfix="$postfix"z1_a_"
+	           export newPostfix="$postfix"z1_a_
                cd resultaat_afbreek_1
                pwd
                

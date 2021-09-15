@@ -256,6 +256,7 @@
           <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB -->
           <param name="org.file.dir" expression="${env.orgfiledir}"/>
           <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+          <param name="bronnummer" expression="0"/>
         </xslt>
         <xslt in="temp_afbreek/index1.xml" out="temp_afbreek/index.xml" style="filter-dupes.xsl" processor="trax" force="true">
           <classpath location="saxon9he.jar"/>
@@ -273,6 +274,7 @@
           <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB -->
           <param name="org.file.dir" expression="${env.orgfiledir}"/>
           <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+          <param name="bronnummer" expression="1"/>
         </xslt>
         <xslt in="temp_afbreek_1/index1.xml" out="temp_afbreek_1/index.xml" style="filter-dupes.xsl" processor="trax" force="true">
           <classpath location="saxon9he.jar"/>
@@ -1360,17 +1362,39 @@
   </target>
   
   <target name="intrekkingopvolgervan" description="Verandert Besluit en RegelingsIds door er een datum/tijd string in het vrij invulbare deel te zetten.">
+    <property environment="env"/>
     <xmltask source="${temp.dir}/index.xml">
       <call path="index/Regeling">
         <param name="besluit.name" path="../file[contains(@type,'besluit.xml')]/name/text()"/>
         <param name="origineleregelingsFBRWork" path="OrigineleregelingsFBRWork/text()"/>
         <actions>
-          <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
-            <classpath location="saxon9he.jar"/>
-            <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
-            <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
-          </xslt>
-          <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name}"/>
+          <if>
+            <available file="${output.dir}/@{besluit}"/>
+            <then>
+              <if>
+                <available file="bron_afbreek" type="dir"/>
+                <then>
+                  <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                    <classpath location="saxon9he.jar"/>
+                    <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                    <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
+                    <param name="inclusiefAfbreek" expression="1"/>
+                    <param name="number" expression="0"/>
+                  </xslt>
+                </then>
+                <else>
+                  <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                    <classpath location="saxon9he.jar"/>
+                    <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                    <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
+                    <param name="inclusiefAfbreek" expression="0"/>
+                    <param name="number" expression="0"/>
+                  </xslt>
+                </else>
+              </if>
+              <copy file="${temp.dir}/@{besluit}" tofile="${output.dir}/@{besluit}"/>
+            </then>
+          </if>
         </actions>
       </call>
     </xmltask>
@@ -1385,19 +1409,30 @@
                 <param name="origineleregelingsFBRWork" path="OrigineleregelingsFBRWork/text()"/>
                 <actions>
                   <if>
-                    <available file="bron_@{number}" type="dir"/>
+                    <available file="bron_@{number}/@{besluit}"/>
                     <then>
                       <if>
-                        <available file="bron_@{number}/@{besluit.name}"/>
+                        <available file="bron_afbreek" type="dir"/>
                         <then>
                           <xslt in="${output_@{number}.dir}/@{besluit.name}" out="${temp_@{number}.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                             <classpath location="saxon9he.jar"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
+                            <param name="inclusiefAfbreek" expression="1"/>
+                            <param name="number" expression="@{number}"/>
                           </xslt>
-                          <copy file="${temp_@{number}.dir}/@{besluit.name}" tofile="${output_@{number}.dir}/@{besluit.name}"/>
                         </then>
+                        <else>
+                          <xslt in="${output_@{number}.dir}/@{besluit.name}" out="${temp_@{number}.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
+                            <classpath location="saxon9he.jar"/>
+                            <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
+                            <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
+                            <param name="inclusiefAfbreek" expression="0"/>
+                            <param name="number" expression="@{number}"/>
+                          </xslt>
+                        </else>
                       </if>
+                      <copy file="${temp_@{number}.dir}/@{besluit}" tofile="${output_@{number}.dir}/@{besluit}"/>
                     </then>
                   </if>
                 </actions>
@@ -1406,7 +1441,7 @@
           </then>
         </if>
       </sequential>
-    </for>
+    </for>    
   </target>
   
 

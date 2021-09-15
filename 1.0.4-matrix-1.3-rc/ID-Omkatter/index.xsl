@@ -15,7 +15,7 @@
     <xsl:param name="base.dir"/>
     <!-- LET OP NIET IN STANDAARD UNIFICERING -->
     <xsl:param name="org.file.dir"/>
-    <xsl:param name="bronnummer"/>
+    <xsl:param name="bronnummer" required="yes"/>
 
     <xsl:param name="alreadyRetrievedDateTime"/>
 
