@@ -1369,13 +1369,14 @@
         <param name="origineleregelingsFBRWork" path="OrigineleregelingsFBRWork/text()"/>
         <actions>
           <if>
-            <available file="${output.dir}/@{besluit}"/>
+            <available file="${output.dir}/@{besluit.name}"/>
             <then>
               <if>
                 <available file="bron_afbreek" type="dir"/>
                 <then>
                   <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                     <classpath location="saxon9he.jar"/>
+                    <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
                     <param name="inclusiefAfbreek" expression="1"/>
@@ -1385,6 +1386,7 @@
                 <else>
                   <xslt in="${output.dir}/@{besluit.name}" out="${temp.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                     <classpath location="saxon9he.jar"/>
+                    <param name="org.file.dir" expression="${env.orgfiledir}"/>
                     <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                     <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
                     <param name="inclusiefAfbreek" expression="0"/>
@@ -1392,7 +1394,7 @@
                   </xslt>
                 </else>
               </if>
-              <copy file="${temp.dir}/@{besluit}" tofile="${output.dir}/@{besluit}"/>
+              <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name}"/>
             </then>
           </if>
         </actions>
@@ -1409,13 +1411,14 @@
                 <param name="origineleregelingsFBRWork" path="OrigineleregelingsFBRWork/text()"/>
                 <actions>
                   <if>
-                    <available file="bron_@{number}/@{besluit}"/>
+                    <available file="bron_@{number}/@{besluit.name}"/>
                     <then>
                       <if>
                         <available file="bron_afbreek" type="dir"/>
                         <then>
                           <xslt in="${output_@{number}.dir}/@{besluit.name}" out="${temp_@{number}.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                             <classpath location="saxon9he.jar"/>
+                            <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
                             <param name="inclusiefAfbreek" expression="1"/>
@@ -1425,6 +1428,7 @@
                         <else>
                           <xslt in="${output_@{number}.dir}/@{besluit.name}" out="${temp_@{number}.dir}/@{besluit.name}" extension=".xml" style="besluit_regelingids.xsl" processor="trax" force="true">
                             <classpath location="saxon9he.jar"/>
+                            <param name="org.file.dir" expression="${env.orgfiledir}"/>
                             <param name="alreadyRetrievedDateTime" expression="${build.currentDate}"/>
                             <param name="origineleregelingsFBRWork" expression="@{origineleregelingsFBRWork}"/>
                             <param name="inclusiefAfbreek" expression="0"/>
@@ -1432,7 +1436,7 @@
                           </xslt>
                         </else>
                       </if>
-                      <copy file="${temp_@{number}.dir}/@{besluit}" tofile="${output_@{number}.dir}/@{besluit}"/>
+                      <copy file="${temp_@{number}.dir}/@{besluit.name}" tofile="${output_@{number}.dir}/@{besluit.name}"/>
                     </then>
                   </if>
                 </actions>
@@ -1862,7 +1866,7 @@
   <!-- totale transformatie -->
 
   <target name="main" description="Totale transformatie"
-    depends="init, copy, index, informatieobjectRefs, guids, besluitregelingids, intrekkingopvolgervan, owids, leveringid_opdrachtparameters, doelids, checksum, checksum_gio"/>
+  depends="init, copy, index, informatieobjectRefs, guids, besluitregelingids, intrekkingopvolgervan, owids, leveringid_opdrachtparameters, doelids, checksum, checksum_gio"/>
   <!-- , checksum, checksum_gio -->
 
 </project>
