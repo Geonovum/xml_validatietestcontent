@@ -49,7 +49,7 @@ if [[ -e $1 ]]; then
     	
 #wait ?? seconds for keten to create results
 
-if [[ !  $(echo "$file" | grep -q "_a_") ]]; then
+ if echo "$file" | grep -q "_v_"  || echo "$file" | grep -q "_p_"; then
     rm result
     totaal=0
     for i in {1..50}

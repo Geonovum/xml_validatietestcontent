@@ -59,27 +59,29 @@ execute_single_file () {
     #done
     #echo ""
     
-    rm result
-    totaal=0
-    for i in {1..50}
-    do
-        for j in {1..10}
+    if echo "$file" | grep -q "_v_"  || echo "$file" | grep -q "_p_"; then
+    
+        rm result
+        totaal=0
+        for i in {1..50}
         do
-            printf '.' > /dev/tty
-            sleep 1
-            totaal=$(($totaal+1))
+            for j in {1..10}
+            do
+                printf '.' > /dev/tty
+                sleep 1
+                totaal=$(($totaal+1))
+            done
+            wget -nv --no-check-certificate $result -O result;
+            echo ""
+            if  echo "$(cat result)" | grep -q "uitkomst>" ; then
+              break
+            else
+              sleep 1
+            fi
         done
-        wget -nv --no-check-certificate $result -O result;
         echo ""
-        if  echo "$(cat result)" | grep -q "uitkomst>" ; then
-          break
-        else
-          sleep 1
-        fi
-    done
-    echo ""
-    echo "test-duur: $totaal seconden"
-
+        echo "test-duur: $totaal seconden"
+    fi
 
     #get result
     echo "De resultaat URL = $result"
