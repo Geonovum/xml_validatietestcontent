@@ -107,28 +107,12 @@ if [ -d "$1" ]; then
            
            inpakken_maar $orgfiledir "0"
            
-	       #overige resultaat-directories
- 	      if [ "$1" = "LVBB1551" ]; then
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
-           if [ "$1" = "LVBB1553" ]; then
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
-           if [ "$1" = "LVBB1555" ]; then
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
-           if [ "$1" = "LVBB1563" ]; then
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
 	       cd ..;
 	       for i in {1..100}
            do
 	          if [ -d "resultaat_$i" ];then
     	           cd resultaat_$i
-	               pwd
-	               
 	               inpakken_maar $orgfiledir $i "bron_$i"
-	               
 	               cd ..;	           
 	           fi
            done
@@ -139,21 +123,6 @@ if [ -d "$1" ]; then
                
                inpakken_maar $orgfiledir "0" "bron_afbreek"
                
-               #overige resultaat-directories
-               if [ "$1" = "LVBB1553" ]; then
-                   rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
-               if [ "$1" = "LVBB1555" ]; then
-                   rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
-               if [ "$1" = "LVBB1554" ]; then
-                   cp $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-1.zip
-                   cp $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-2.zip
-                   rm -f $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
-               if [ "$1" = "LVBB1563" ]; then
-                   rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
                cd ..;	           
            fi
            if [ -d "resultaat_afbreek_1" ];then

@@ -15,6 +15,7 @@
     <xsl:param name="base.dir"/>
     <!-- LET OP NIET IN STANDAARD UNIFICERING -->
     <xsl:param name="org.file.dir"/>
+    <xsl:param name="bronnummer" required="yes"/>
 
     <xsl:param name="alreadyRetrievedDateTime"/>
 
@@ -42,6 +43,46 @@
             <xsl:variable name="fullname" select="."/>
             <xsl:variable name="pos1" select="position()"/>
             <!-- BesluitID/RegelingID -->
+            <!-- ga directories af -->
+            <xsl:variable name="sequence" select="(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)"/>
+            <xsl:for-each select="$sequence">
+                <xsl:if test="$bronnummer >= position() - 1 and document($fullname)/aanlevering:AanleveringBesluit">
+                    <xsl:choose>
+                        <xsl:when test="position() - 1 = 0">
+                            <!-- kijk of er bestanden bestaan in directory (of directory bestaat) -->
+                            <xsl:if test="doc-available(concat($base.dir, '/bron/opdracht.xml'))">
+                                <!-- scan alle bestanden -->
+                                <xsl:variable name="directory" select="concat($base.dir, '/bron')"/>
+                                <xsl:for-each select="collection(concat($directory, '?select=*.xml'))">
+                                    <xsl:for-each select="document(base-uri(.))/aanlevering:AanleveringBesluit/aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
+                                        <xsl:element name="Regeling">
+                                            <xsl:element name="OrigineleregelingsFBRWork">
+                                                <xsl:value-of select="text()"/>
+                                            </xsl:element>
+                                        </xsl:element>
+                                    </xsl:for-each>
+                                </xsl:for-each>
+                            </xsl:if>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <!-- kijk of er bestanden bestaan in directory (of directory bestaat) -->
+                            <xsl:if test="doc-available(concat($base.dir, '/bron_', position() - 1, '/opdracht.xml'))">
+                                <!-- scan alle bestanden -->
+                                <xsl:variable name="directory" select="concat($base.dir, '/bron_', position() - 1)"/>
+                                <xsl:for-each select="collection(concat($directory, '?select=*.xml'))">
+                                    <xsl:for-each select="document(base-uri(.))/aanlevering:AanleveringBesluit/aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRWork">
+                                        <xsl:element name="Regeling">
+                                            <xsl:element name="OrigineleregelingsFBRWork">
+                                                <xsl:value-of select="text()"/>
+                                            </xsl:element>
+                                        </xsl:element>
+                                    </xsl:for-each>
+                                </xsl:for-each>
+                            </xsl:if>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:if>
+            </xsl:for-each>
             <xsl:if test="document($fullname)/aanlevering:AanleveringBesluit">
                 <xsl:element name="besluit">
                     <!-- InformatieRefs -->

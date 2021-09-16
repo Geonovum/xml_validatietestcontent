@@ -124,26 +124,6 @@ if [ -d "$1" ]; then
 	       echo "git add $orgdirectory/bron/*"
 	       git add $orgdirectory/bron/*
 	       
-	       #overige resultaat-directories
- 	      if [ "$1" = "LVBB1551" ]; then
-   	        echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
-           if [ "$1" = "LVBB1553" ]; then
-   	        echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-   	        echo "$orgfiledir: $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
-           if [ "$1" = "LVBB1555" ]; then
-   	        echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-   	        echo "$orgfiledir: $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
-           if [ "$1" = "LVBB1563" ]; then
-   	        echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-   	        echo "$orgfiledir: $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-           fi
 	       cd ..;
 
 	       for i in {1..100}
@@ -168,32 +148,6 @@ if [ -d "$1" ]; then
                #adding to git (if not done yet)
 	           echo "git add $orgdirectory/bron_afbreek/*"
 	           git add $orgdirectory/bron_afbreek/*
-
-               
-               #overige resultaat-directories
-               if [ "$1" = "LVBB1553" ]; then
-   	            echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-   	            echo "$orgfiledir: $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
-               if [ "$1" = "LVBB1555" ]; then
-   	            echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-   	            echo "$orgfiledir: $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
-               if [ "$1" = "LVBB1554" ]; then
-                echo "$orgfiledir: er worden twee afbreek-routines gecreëerd"
-                cp $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-1.zip
-                git add $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-1.zip
-                cp $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-2.zip
-                git add $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix"-2.zip
-                git rm -f $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
-               if [ "$1" = "LVBB1563" ]; then
-   	            echo "$orgfiledir: remove $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"
-   	            echo "$orgfiledir: $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip
-               fi
                cd ..;	
            
            fi
