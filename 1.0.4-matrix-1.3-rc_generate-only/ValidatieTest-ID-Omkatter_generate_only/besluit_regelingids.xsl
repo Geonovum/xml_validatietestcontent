@@ -94,32 +94,6 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:opvolging/data:opvolgerVan">
-        <xsl:element name="data:opvolgerVan">
-            <xsl:choose>
-                <xsl:when test="text() = $origineleregelingsFBRWork">
-                    <xsl:value-of select="foo:generateAKNFRBRWork(text())"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="text()"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:element>
-    </xsl:template>
-    
-    <xsl:template match="data:Intrekkingen/data:Intrekking/data:instrument">
-        <xsl:element name="data:instrument">
-            <xsl:choose>
-                <xsl:when test="text() = $origineleregelingsFBRWork">
-                    <xsl:value-of select="foo:generateAKNFRBRWork(text())"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="text()"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:element>
-    </xsl:template>
-
     <xsl:template match="data:heeftGeboorteregeling">
         <xsl:element name="data:heeftGeboorteregeling">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>

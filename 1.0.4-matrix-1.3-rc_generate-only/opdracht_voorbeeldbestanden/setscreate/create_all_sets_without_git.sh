@@ -3,7 +3,7 @@
 # Test alle tekst_nummer directories
 
 datePart=$(date +%Y%m%d%H%M%S)
-ONGELDIGE_ZIP=LVBB1001_"$datePart";
+ONGELDIGE_ZIP=LVBB1001-"$datePart"_v_;
 rm opdrachten_gereed/LVBB1001*.zip;
 echo "Test: LVBB1001"
 echo "ongeldige zip" >  opdrachten_gereed/"$ONGELDIGE_ZIP".zip
