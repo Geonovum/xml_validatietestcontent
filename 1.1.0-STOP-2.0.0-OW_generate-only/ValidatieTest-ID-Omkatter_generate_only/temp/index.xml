@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><index>
+   <testId>TPOD2210</testId>
+   <guids>
+      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>00d0b090-7f92-b70e-0fd8-90480dbdb2f0</org>
+         <new>37e0b934-7ae5-4784-a727-554dc099760a</new>
+      </guidInOw>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>GoedeGebieden.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>GoedeGebieden.xml</name>
+   </file>
+   <besluit>
+      <informatieobjectRef>
+         <gio>GoedeGebieden.xml</gio>
+         <gml>GoedeGebieden.gml</gml>
+      </informatieobjectRef>
+      <informatieobjectRef>
+         <gio>regelingsgebied.xml</gio>
+         <gml>regelingsgebied.gml</gml>
+      </informatieobjectRef>
+   </besluit>
+   <file type="besluit.xml" ow="false">
+      <name>akn_nl_bill_gm0297-3520-01.xml</name>
+   </file>
+   <file type="manifest-ow.xml" ow="false">
+      <name>manifest-ow.xml</name>
+   </file>
+   <leveringId sourcefile="opdracht.xml">
+      <referencefile>owLocaties-Gemeentestad.xml</referencefile>
+      <referencefile>owRegelingsgebied.xml</referencefile>
+      <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
+   </leveringId>
+   <idLevering>id-publicatie-TPOD</idLevering>
+   <file type="opdracht.xml" ow="false">
+      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc_generate-only/ValidatieTest-ID-Omkatter_generate_only/bron/opdracht.xml</fullname>
+      <name>opdracht.xml</name>
+   </file>
+   <file type="locatie.xml" ow="true">
+      <name>owLocaties-Gemeentestad.xml</name>
+   </file>
+   <file type="regelingsgebied.xml" ow="true">
+      <name>owRegelingsgebied.xml</name>
+   </file>
+   <file type="regeltekst.xml" ow="true">
+      <name>owRegeltekst-Gemeentestad.xml</name>
+   </file>
+   
+   <guids>
+      <guid gmlfile="regelingsgebied.gml">
+         <org>8688a838-f18e-8acc-bc68-86838b1e988a</org>
+         <new>bfb701ec-4a16-4f82-9a4b-8dee0699ec13</new>
+      </guid>
+   </guids>
+   <file type="gml.xml" ow="false">
+      <name>regelingsgebied.gml</name>
+   </file>
+   <file type="gio.xml" ow="false">
+      <name>regelingsgebied.xml</name>
+   </file>
+</index>

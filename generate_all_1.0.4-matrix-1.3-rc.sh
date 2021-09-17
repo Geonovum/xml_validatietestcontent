@@ -7,7 +7,7 @@ rm -fr 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/LVBB_/*
 rm -fr 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/OZON/*
 rm -fr 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/STOP/*
 rm -fr 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/TPOD/*
-cp -r -v 1.0.4-matrix-1.3-rc/ID-Omkatter/* 1.0.4-matrix-1.3-rc_generate-only/ID-Omkatter_generate_only
+cp -r -v 1.0.4-matrix-1.3-rc/ValidatieTest-ID-Omkatter/* 1.0.4-matrix-1.3-rc_generate-only/ValidatieTest-ID-Omkatter_generate_only
 cp -r -v 1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/BHKV/* 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/BHKV
 cp -r -v 1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/GEO/* 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/GEO
 cp -r -v 1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/LVBB_/* 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/LVBB_

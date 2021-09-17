@@ -79,7 +79,7 @@ if [ -d "$1" ]; then
     orgdirectory=`pwd`
     #we zijn nu in de directory van de bron bestanden
     #we gaan naar de directory van omkat
-    omkatdir="ID-Omkatter_generate_only"
+    omkatdir="ValidatieTest-ID-Omkatter_generate_only"
     while [ ! -d "$omkatdir" ]; do
         if [ ! -d "$omkatdir" ]; then
             cd ..
