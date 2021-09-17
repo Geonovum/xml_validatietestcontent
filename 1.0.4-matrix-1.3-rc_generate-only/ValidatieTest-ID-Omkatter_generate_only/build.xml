@@ -1407,7 +1407,7 @@
                   </xslt>
                 </else>
               </if>
-              <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name.name}"/>
+              <copy file="${temp.dir}/@{besluit.name}" tofile="${output.dir}/@{besluit.name}"/>
             </then>
           </if>
         </actions>
