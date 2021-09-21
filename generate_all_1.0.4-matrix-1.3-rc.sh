@@ -21,5 +21,6 @@ cd ../..
 rm 1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/opdrachten_gereed/*
 cp -v 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed/* 1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/opdrachten_gereed
 git add 1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/opdrachten_gereed
+rm 1.0.4-matrix-1.3-rc_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed/*
 datePart=$(date +%Y-%m-%d:%H%M)
 git commit -a -m "$datePart: generated new test-set"

@@ -35,7 +35,7 @@
                 <xsl:value-of select="@eId"/>
             </xsl:attribute>
             <xsl:attribute name="ref">
-                <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
+                <xsl:value-of select="foo:replaceFRBRExpression(@ref)"/>
             </xsl:attribute>
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
@@ -61,15 +61,19 @@
     </xsl:template>
 
     <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRExpression">
-        <xsl:element name="data:FRBRExpression">
-            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
-        </xsl:element>
+        <xsl:if test="contains(text(), $oldIoRefId)">
+            <xsl:element name="data:FRBRExpression">
+                <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRWork">
-        <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
-        </xsl:element>
+        <xsl:if test="contains(text(), $oldIoWorkId)">
+            <xsl:element name="data:FRBRWork">
+                <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="data:InformatieObjectMetadata/data:officieleTitel[text() = $oldIoWorkId]">

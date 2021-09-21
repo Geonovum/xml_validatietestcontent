@@ -133,7 +133,7 @@
                         
                      </Kop>
                   </Artikel>
-                  <!-- FOUT STOP Een RegelingCompact MAG GEEN WijzigArtikel hebben -->
+                  <!-- FOUT STOP0016 Een RegelingCompact MAG GEEN WijzigArtikel hebben -->
                   <WijzigArtikel wId="a_a" eId="b_a">
                      <Kop>
                         <Label>a</Label>
