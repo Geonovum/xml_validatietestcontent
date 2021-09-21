@@ -61,7 +61,7 @@
     </xsl:template>
 
     <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRExpression">
-        <xsl:if test="not(contains(text(), $oldIoRefId))">
+        <xsl:if test="contains(text(), $oldIoRefId)">
             <xsl:element name="data:FRBRExpression">
                 <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
             </xsl:element>
@@ -69,7 +69,7 @@
     </xsl:template>
 
     <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRWork">
-        <xsl:if test="not(contains(text(), $oldIoWorkId))">
+        <xsl:if test="contains(text(), $oldIoWorkId)">
             <xsl:element name="data:FRBRWork">
                 <xsl:value-of select="foo:replaceFRBRWork(text())"/>
             </xsl:element>
