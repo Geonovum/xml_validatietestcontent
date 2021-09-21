@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop">
+        <lvbb:uitkomst>succes</lvbb:uitkomst>
+        <lvbb:meldingen>
+            <lvbb:melding>
+                <stop:code>DL-0003</stop:code>
+                <stop:ernst>informatie</stop:ernst>
+                <stop:soort>technisch</stop:soort>
+                <stop:beschrijving>Validatie OW informatie</stop:beschrijving>
+            </lvbb:melding>
+        </lvbb:meldingen>
+        <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0007-aangepast_20210921103159b0_v_</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-09-21T10:35:08.718769+02:00</lvbb:tijdstipVerslag>
+            <lvbb:uitkomst>valide</lvbb:uitkomst>
+        </lvbb:verslag>
+    </lvbb:validatieVerzoekResultaat>
+    <lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+        <lvbb:uitkomst>succes</lvbb:uitkomst>
+        <lvbb:verslag>
+            <lvbb:idLevering>id-publicatie-STOP0007-aangepast_20210921103159b0_v_</lvbb:idLevering>
+            <lvbb:tijdstipVerslag>2021-09-21T10:35:09.258375+02:00</lvbb:tijdstipVerslag>
+            <lvbb:meldingen>
+                <lvbb:melding>
+                    <stop:code>LVBB2003</stop:code>
+                    <stop:ernst>fout</stop:ernst>
+                    <stop:soort>inhoudelijk</stop:soort>
+                    <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0007-aangepast-20210921103159_0/nld@2019-06-27</stop:categorie>
+                    <stop:beschrijving>XDMP-VALIDATEMISSINGATTR: (err:XQDY0027) validate full strict { () } -- Missing required attribute: Found () but required (@wijzigactie? &amp;amp; @refid
+                        &amp;amp; any(lax,!(https://standaarden.overheid.nl/stop/imop/tekst/))) at
+                        fn:doc("")/*:AanleveringBesluit/*:BesluitVersie/*:BesluitCompact/*:WijzigBijlage/*:RegelingCompact/*:Lichaam/*:Hoofdstuk[2]/*:Afdeling/*:Artikel[2]/*:Inhoud/*:Al/*:Noot/*:Nootref
+                        using schema "/cga/content/frbr/cga/stop/LVBB-stop/1.0.4/xsd/lvbb-stop-aanlevering.xsd"</stop:beschrijving>
+                </lvbb:melding>
+                <lvbb:melding>
+                    <stop:code>LVBB2003</stop:code>
+                    <stop:ernst>fout</stop:ernst>
+                    <stop:soort>inhoudelijk</stop:soort>
+                    <stop:categorie>/akn/nl/bill/gm0297/2019/STOP0007-aangepast-20210921103159_0/nld@2019-06-27</stop:categorie>
+                    <stop:beschrijving>XDMP-VALIDATEUNEXPECTED: (err:XQDY0027) validate full strict { () } -- Invalid node: Found text{"1..."} but expected () at
+                        fn:doc("")/*:AanleveringBesluit/*:BesluitVersie/*:BesluitCompact/*:WijzigBijlage/*:RegelingCompact/*:Lichaam/*:Hoofdstuk[2]/*:Afdeling/*:Artikel[2]/*:Inhoud/*:Al/*:Noot/*:Nootref/text()
+                        using schema "/cga/content/frbr/cga/stop/LVBB-stop/1.0.4/xsd/lvbb-stop-aanlevering.xsd"</stop:beschrijving>
+                </lvbb:melding>
+            </lvbb:meldingen>
+            <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+        </lvbb:verslag>
+    </lvbb:validatieVerzoekResultaat>
+
+</result>
