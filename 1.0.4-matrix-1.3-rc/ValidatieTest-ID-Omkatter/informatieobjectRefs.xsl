@@ -35,7 +35,7 @@
                 <xsl:value-of select="@eId"/>
             </xsl:attribute>
             <xsl:attribute name="ref">
-                <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
+                <xsl:value-of select="foo:replaceFRBRExpression(@ref)"/>
             </xsl:attribute>
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
