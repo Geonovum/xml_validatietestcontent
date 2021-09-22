@@ -79,7 +79,7 @@
                 <xsl:when test="contains($org.file.dir, 'LVBB4704')">
                     <xsl:value-of select="text()"/>
                 </xsl:when>
-                <xsl:when test="contains($org.file.dir, 'LVBB1501_1')">
+                <xsl:when test="contains($org.file.dir, 'LVBB1501-1')">
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
                 <xsl:when test="contains($org.file.dir, 'LVBB1553')">
@@ -87,7 +87,7 @@
                         <xsl:value-of select="$dateYesterday"/>
                     </xsl:if>
                 </xsl:when>
-                <xsl:when test="contains($org.file.dir, 'LVBB1501_2')">
+                <xsl:when test="contains($org.file.dir, 'LVBB1501-2')">
                     <xsl:value-of select="substring($dateAfterTomorrow, 2)"/>
                 </xsl:when>
                 <xsl:otherwise>
