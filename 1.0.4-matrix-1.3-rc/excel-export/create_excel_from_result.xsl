@@ -263,19 +263,7 @@
                     <saxon:assign name="testsMetFouteResultaten" select="$testsMetFouteResultaten + 1" saxon:assignable="yes"/>
                 </xsl:when>
             </xsl:choose>
-            
-<!--            <xsl:variable name="aantalVerslagMeldingen" select="count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])"/>
-            <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen(.)"/>
---><!--            <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $errorFound = true()">
-                <saxon:assign name="testsMetEenGoedResultaat" select="$testsMetEenGoedResultaat + 1" saxon:assignable="yes"/>
-            </xsl:if>
---><!--            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $errorFound = false()">
-                <saxon:assign name="testsMetFouteResultaten" select="$testsMetFouteResultaten + 1" saxon:assignable="yes"/>
-   -->         <!--</xsl:if>-->
-<!--            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $errorFound = true()">
-                <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten + 1" saxon:assignable="yes"/>
-            </xsl:if>
--->        </xsl:for-each>
+        </xsl:for-each>
         <!-- WORKSHEET -->
         <xsl:element name="Worksheet" namespace="{$defNS}">
             <xsl:attribute name="ss:Name">Validatie-rapport</xsl:attribute>
