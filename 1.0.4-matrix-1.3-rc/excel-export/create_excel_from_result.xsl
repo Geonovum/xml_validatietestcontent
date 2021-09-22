@@ -13,7 +13,7 @@
     <xsl:variable name="testsMetMeerdereResultaten" select="0" saxon:assignable="yes"/>
     <xsl:variable name="testsMetGeenResultaten" select="0" saxon:assignable="yes"/>
     <xsl:variable name="resultaten" select="0" saxon:assignable="yes"/>
-    <xsl:variable name="found" select="false()" saxon:assignable="yes"/>
+    <xsl:variable name="errorFound" select="false()" saxon:assignable="yes"/>
     <xsl:variable name="datum" select="''" saxon:assignable="yes"/>
     <xsl:variable name="rowcounterWorksheet2" select="0" saxon:assignable="yes"/>
 
@@ -39,8 +39,11 @@
                         <xsl:choose>
                             <xsl:when
                                 test="
-                                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) > 0)
-                                    or ((count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) = 0) and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding) > 0))">
+                                (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
+                                    or (
+                                        (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) = 0) 
+                                        and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
+                                    )">
                                 <xsl:attribute name="ss:StyleID">
                                     <xsl:value-of select="'id'"/>
                                 </xsl:attribute>
@@ -98,7 +101,7 @@
                             <!-- ALS ER VERSLAG IS WORDEN MELDINGEN NIET UIT VERSLAG OVERGESLAGEN -->
                             <xsl:when test="lvbb:verslag">
                                 <xsl:if test="lvbb:verslag/lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
+                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
                                         <xsl:call-template name="doWerkblad1Item">
                                             <xsl:with-param name="testId" select="do:returnTestId(../../../../test/text())"/>
                                             <xsl:with-param name="node" select="."/>
@@ -108,7 +111,7 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:if test="lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding">
+                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
                                         <xsl:call-template name="doWerkblad1Item">
                                             <xsl:with-param name="testId" select="do:returnTestId(../../../test/text())"/>
                                             <xsl:with-param name="node" select="."/>
@@ -150,14 +153,15 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:variable>
+                    <!-- INVULLEN WERKBLAD2 -->
                     <xsl:choose>
                         <xsl:when
                             test="
-                                (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) > 0)
-                                or (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding) > 0)">
+                            (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
+                            or (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)">
                             <xsl:for-each select="lvbb:validatieVerzoekResultaat">
                                 <xsl:if test="lvbb:verslag/lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding">
+                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
                                         <xsl:call-template name="doWerkblad2Rij">
                                             <xsl:with-param name="testId" select="$testId"/>
                                             <xsl:with-param name="testIdLabel" select="$testIdLabel"/>
@@ -167,7 +171,7 @@
                                     </xsl:for-each>
                                 </xsl:if>
                                 <xsl:if test="lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding">
+                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
                                         <xsl:call-template name="doWerkblad2Rij">
                                             <xsl:with-param name="testId" select="$testId"/>
                                             <xsl:with-param name="testIdLabel" select="$testIdLabel"/>
@@ -199,43 +203,79 @@
             <xsl:if test="position() = 1">
                 <saxon:assign name="datum" select="replace(substring-before(lvbb:validatieVerzoekResultaat[1]/lvbb:verslag/lvbb:tijdstipVerslag/text(), '.'), 'T', ' ')" saxon:assignable="yes"/>
             </xsl:if>
+            <!-- Telling ALLE TESTS -->
+            <saxon:assign name="alleTests" select="$alleTests + 1"/>
+            <!-- IS FOUTCODE GELIJK AAN TESTCODE? -->
+            <saxon:assign name="errorFound" select="false()" saxon:assignable="yes"/>
             <xsl:variable name="error">
                 <xsl:choose>
                     <xsl:when test="test/text()">
-                        <xsl:value-of select="do:returnTestId(test/text())"/>
+                        <xsl:value-of select="do:returnTestIdLabel(test/text())"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="''"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <saxon:assign name="found" select="false()" saxon:assignable="yes"/>
             <xsl:for-each select="lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding">
                 <xsl:if test="$error = stop:code/text()">
-                    <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
+                    <saxon:assign name="errorFound" select="true()" saxon:assignable="yes"/>
                 </xsl:if>
             </xsl:for-each>
             <xsl:for-each select="lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding">
                 <xsl:if test="$error = stop:code/text()">
-                    <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
+                    <saxon:assign name="errorFound" select="true()" saxon:assignable="yes"/>
                 </xsl:if>
             </xsl:for-each>
-            <saxon:assign name="alleTests" select="$alleTests + 1"/>
-            <xsl:variable name="aantalVerslagMeldingen" select="count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
+            <!-- TELLINGEN FOUT CATEGORIE -->
+            <xsl:choose>
+                <xsl:when test="
+                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 0)
+                    and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 0)
+                    ">
+                    <saxon:assign name="testsMetGeenResultaten" select="$testsMetGeenResultaten + 1" saxon:assignable="yes"/>
+                </xsl:when>
+                <xsl:when test="
+                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])
+                    +
+                    count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 1)
+                    and
+                    ($errorFound = true())
+                    ">
+                    <saxon:assign name="testsMetEenGoedResultaat" select="$testsMetEenGoedResultaat + 1" saxon:assignable="yes"/>
+                </xsl:when>
+                <xsl:when test="
+                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])
+                    +
+                    count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 1)
+                    and
+                    ($errorFound = true())
+                    ">
+                    <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten + 1" saxon:assignable="yes"/>
+                </xsl:when>
+                <xsl:when test="
+                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])
+                    +
+                    count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
+                    and
+                    ($errorFound = false())
+                    ">
+                    <saxon:assign name="testsMetFouteResultaten" select="$testsMetFouteResultaten + 1" saxon:assignable="yes"/>
+                </xsl:when>
+            </xsl:choose>
+            
+<!--            <xsl:variable name="aantalVerslagMeldingen" select="count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])"/>
             <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen(.)"/>
-            <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = true()">
+--><!--            <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $errorFound = true()">
                 <saxon:assign name="testsMetEenGoedResultaat" select="$testsMetEenGoedResultaat + 1" saxon:assignable="yes"/>
             </xsl:if>
-            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $found = false()">
+--><!--            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $errorFound = false()">
                 <saxon:assign name="testsMetFouteResultaten" select="$testsMetFouteResultaten + 1" saxon:assignable="yes"/>
-            </xsl:if>
-            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $found = true()">
+   -->         <!--</xsl:if>-->
+<!--            <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1) and $errorFound = true()">
                 <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten + 1" saxon:assignable="yes"/>
             </xsl:if>
-            <xsl:if test="($aantalVerslagMeldingen = 0 and $aantalMeldingen = 0)">
-                <saxon:assign name="testsMetGeenResultaten" select="$testsMetGeenResultaten + 1" saxon:assignable="yes"/>
-            </xsl:if>
-        </xsl:for-each>
+-->        </xsl:for-each>
         <!-- WORKSHEET -->
         <xsl:element name="Worksheet" namespace="{$defNS}">
             <xsl:attribute name="ss:Name">Validatie-rapport</xsl:attribute>
@@ -424,23 +464,23 @@
     <xsl:function name="do:tekstValidatieRapport">
         <xsl:param name="envelop" as="node()"/>
         <xsl:variable name="error" select="do:returnTestId($envelop/test/text())"/>
-        <saxon:assign name="found" select="false()" saxon:assignable="yes"/>
+        <saxon:assign name="errorFound" select="false()" saxon:assignable="yes"/>
         <xsl:for-each select="$envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding">
             <xsl:if test="$error = stop:code/text()">
-                <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
+                <saxon:assign name="errorFound" select="true()" saxon:assignable="yes"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:for-each select="$envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding">
             <xsl:if test="$error = stop:code/text()">
-                <saxon:assign name="found" select="true()" saxon:assignable="yes"/>
+                <saxon:assign name="errorFound" select="true()" saxon:assignable="yes"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:variable name="aantalVerslagMeldingen" select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code)"/>
         <xsl:variable name="aantalMeldingen" select="do:aantalMeldingen($envelop)"/>
-        <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = true()">
+        <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $errorFound = true()">
             <xsl:value-of select="'Gezochte fout was de enige terugmelding'"/>
         </xsl:if>
-        <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $found = false()">
+        <xsl:if test="($aantalVerslagMeldingen = 1 or $aantalMeldingen = 1) and $errorFound = false()">
             <xsl:value-of select="'Andere fout was de enige terugmelding'"/>
         </xsl:if>
         <xsl:if test="($aantalVerslagMeldingen > 1 or $aantalMeldingen > 1)">
@@ -457,10 +497,10 @@
         <xsl:choose>
             <xsl:when
                 test="
-                    count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding/stop:code) = 0
+                count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 0
                     and not($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text() = 'informatie')
                     ">
-                <xsl:value-of select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:code)"/>
+                <xsl:value-of select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="0"/>
@@ -512,7 +552,7 @@
 
     <xsl:function name="do:returnTestIdLabel">
         <xsl:param name="testId" as="xs:string"/>
-        <xsl:value-of select="substring-before($testId, '-')"/>
+        <xsl:value-of select="substring-before($testId, '_')"/>
     </xsl:function>
 
     <xsl:template name="doDrawCell">

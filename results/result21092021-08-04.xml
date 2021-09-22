@@ -1126,7 +1126,7 @@
       </validatieVerzoekResultaat>
    </envelop>
    <envelop>
-      <test>LVBB1001-20210920140055_v_-valideren</test>
+      <test>LVBB1001_20210920140055_v_-valideren</test>
       <tijdsduur>10</tijdsduur>
       <result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB1001-20210920140055_v_</result>
       <validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb">
