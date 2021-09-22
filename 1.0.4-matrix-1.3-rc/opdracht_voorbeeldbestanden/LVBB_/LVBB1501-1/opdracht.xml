@@ -6,5 +6,6 @@
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
+   <!-- FOUT LVBB 1501	"De  datumBekendmaking binnen de opdracht is een datum, is in juiste formaat (JJJJ-MM-DD) zijn en mag niet in het verleden liggen." -->
    <datumBekendmaking>2021-04-20</datumBekendmaking>
 </validatieOpdracht>
