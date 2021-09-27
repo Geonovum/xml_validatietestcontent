@@ -40,7 +40,7 @@
                   <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
                </r:artikelOfLid>
                <!-- FOUT OZON 0118	Het veld Omgevingswaarderegel.thema moet een waarde bevatten uit de waardelijst Thema. -->
-               <r:thema>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/FOUT</r:thema>
+               <r:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/Procedures</r:thema>
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>

@@ -56,7 +56,7 @@
                   <r:RegeltekstRef xlink:href="nl.imow-gm0297.regeltekst.00001"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.201900001"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.201900001"/>
                </r:locatieaanduiding>
             </r:Instructieregel>
          </ow-dc:owObject>

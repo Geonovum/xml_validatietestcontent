@@ -43,8 +43,8 @@
                <Name>vsgt206</Name>
                <Fill>
                   <SvgParameter name="fill">#c8c8c8</SvgParameter>
-                  <!-- FOUT STOP SvgParameter met met name attribute fill-opacity" MOET aan de reguliere expressie ^0((.[0-9])?[0-9]?)or1((.0)?0?)$ voldoen. (string met een positief decimaal getal tussen 0 en 1 (beide inclusief) met 0,1 of 2 decimalen)" -->
-                  <SvgParameter name="fill-opacity">0.3FOUT</SvgParameter>
+                  <!-- FOUT STOP3148 SvgParameter met met name attribute fill-opacity" MOET aan de reguliere expressie ^0((.[0-9])?[0-9]?)or1((.0)?0?)$ voldoen. (string met een positief decimaal getal tussen 0 en 1 (beide inclusief) met 0,1 of 2 decimalen)" -->
+                  <SvgParameter name="fill-opacity">0,3333</SvgParameter>
                </Fill>
                <Stroke>
                   <SvgParameter name="stroke">#505050</SvgParameter>

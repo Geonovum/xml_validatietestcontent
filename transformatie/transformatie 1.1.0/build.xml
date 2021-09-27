@@ -2,7 +2,7 @@
 <project basedir="." name="tpod" default="main">
 
   <taskdef resource="net/sf/antcontrib/antlib.xml"/>
-  <taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask" classpath="xmltask.jar"/>
+  <taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask"  classpath="xmltask.jar;saxon9he.jar"/>
 
   <property name="input.dir" value="1.0.4/opdracht"/>
   <property name="output.dir" value="1.1.0/opdracht"/>

@@ -37,7 +37,7 @@
             <vt:Tekstdeel><!-- deze behouden, bevat ook locatie gebied Leiden -->
                <vt:identificatie>nl.imow-gm0546.tekstdeel.00001</vt:identificatie>
                <vt:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</vt:idealisatie>
-               <vt:thema>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/FOUT</vt:thema>
+               <vt:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/Procedures</vt:thema>
                <vt:divisieaanduiding>
                   <vt:DivisieRef xlink:href="nl.imow-gm0546.divisie.00001"/>
                </vt:divisieaanduiding>

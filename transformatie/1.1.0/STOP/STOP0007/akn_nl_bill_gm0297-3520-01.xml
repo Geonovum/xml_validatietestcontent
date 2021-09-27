@@ -287,9 +287,9 @@
                               </table>
                               <!-- FOUT STOP 0007	Een referentie naar een noot MOET in de context van een tabel staan -->
                               <Al>Hoofdstuk in besluit of regeling waarin verwijzing staat<Noot id="FOUT" type="tabel">
-                                    <NootNummer>1</NootNummer>
-                                    <Al>Bal: Besluit activiteiten leefomgeving; Bbl: Besluit bouwwerken leefomgeving; Bkl: Besluit kwaliteit leefomgeving.</Al>
-                                 </Noot>
+                                 <Nootref>1</Nootref>
+                                 <Al>Bal: Besluit activiteiten leefomgeving; Bbl: Besluit bouwwerken leefomgeving; Bkl: Besluit kwaliteit leefomgeving.</Al>
+                              </Noot>
                               </Al>
                            </Inhoud>
                         </Artikel>

@@ -8,9 +8,9 @@
                     <entry>
                         <String>catalogs.v5</String>
                         <String-array>
-                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/schemas/extern/extern-catalog.xml</String>
-                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/schemas/lvbb/lvbb-catalog.xml</String>
-                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/schemas/stop/stop-catalog.xml</String>
+                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW/schemas/extern/extern-catalog.xml</String>
+                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW/schemas/lvbb/lvbb-catalog.xml</String>
+                            <String>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW/schemas/stop/stop-catalog.xml</String>
                         </String-array>
                     </entry>
                     <entry>

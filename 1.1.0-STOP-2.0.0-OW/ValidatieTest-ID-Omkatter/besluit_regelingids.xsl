@@ -15,6 +15,7 @@
     <xsl:param name="org.file.dir"/>
     <xsl:param name="inclusiefAfbreek"/>
     <xsl:param name="number"/>
+    <xsl:param name="origineleregelingsFBRWork"/>
 
     <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P3D'), '[Y0001]-[M01]-[D01]')"/>
 
@@ -93,12 +94,6 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:opvolging/data:opvolgerVan">
-        <xsl:element name="data:opvolgerVan">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
-        </xsl:element>
-    </xsl:template>
-
     <xsl:template match="data:heeftGeboorteregeling">
         <xsl:element name="data:heeftGeboorteregeling">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
@@ -154,12 +149,6 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:RegelingMetadata/data:opvolging/data:opvolgerVan">
-        <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
-        </xsl:element>
-    </xsl:template>
-
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>

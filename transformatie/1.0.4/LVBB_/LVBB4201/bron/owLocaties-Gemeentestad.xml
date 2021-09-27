@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ow-dc:owBestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
-                 xmlns:gml="http://www.opengis.net/gml/3.2"
-                 xmlns:l="http://www.geostandaarden.nl/imow/locatie"
-                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
-                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
-                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
-                 xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
-                 xmlns:r="http://www.geostandaarden.nl/imow/regels"
-                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
-                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+<ow-dc:owBestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:r="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+   xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
    <sl:standBestand>
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
@@ -19,7 +12,7 @@
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
             <sl:objectType>Gebiedengroep</sl:objectType>
-			   <sl:objectType>Ambtsgebied</sl:objectType>
+            <sl:objectType>Ambtsgebied</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <sl:stand>
@@ -180,7 +173,7 @@
                   <l:GebiedRef xlink:href="nl.imow-gm0297.gebied.2019000011"/>
                </l:groepselement>
             </l:Gebiedengroep>
-         </ow-dc:owObject>      
+         </ow-dc:owObject>
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
@@ -236,7 +229,7 @@
                   </l:BestuurlijkeGrenzenVerwijzing>
                </l:bestuurlijkeGrenzenVerwijzing>
             </l:Ambtsgebied>
-         </ow-dc:owObject> 
+         </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>
 </ow-dc:owBestand>

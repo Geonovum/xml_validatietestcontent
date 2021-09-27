@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/" xpath-default-namespace="https://standaarden.overheid.nl/stop/imop/tekst/">
+<xsl:stylesheet version="2.0" 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+  xmlns="https://standaarden.overheid.nl/stop/imop/tekst/" 
+  xpath-default-namespace="https://standaarden.overheid.nl/stop/imop/tekst/"
+  >
   <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
 
   <xsl:param name="element" select="('Aanhef','Afdeling','AlgemeneToelichting','Artikel','ArtikelgewijzeToelichting','Begrip','Begrippenlijst','Bijlage','Boek','Citaat','Deel','Divisie','Divisietekst','ExtIoRef','Figuur','Hoofdstuk','Inhoudsopgave','IntIoRef','Kadertekst','Li','Lichaam','Lid','Lijst','Motivering','Paragraaf','RegelingOpschrift','Samenvatting','Sluiting','Subparagraaf','Subsubparagraaf','table','Titel','Toelichting','WijzigArtikel','WijzigBijlage')"/>

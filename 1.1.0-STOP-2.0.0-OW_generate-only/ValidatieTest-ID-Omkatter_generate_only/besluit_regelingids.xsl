@@ -15,6 +15,7 @@
     <xsl:param name="org.file.dir"/>
     <xsl:param name="inclusiefAfbreek"/>
     <xsl:param name="number"/>
+    <xsl:param name="origineleregelingsFBRWork"/>
 
     <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P3D'), '[Y0001]-[M01]-[D01]')"/>
 
@@ -48,6 +49,9 @@
             <xsl:when test="
                     $inclusiefAfbreek = 1
                     and not($org.file.dir = 'LVBB1563')
+                    and not($org.file.dir = 'LVBB4201')
+                    and not($org.file.dir = 'LVBB4203')
+                    and not($org.file.dir = 'LVBB7705')
                     and not($org.file.dir = 'LVBB4200')">
                 <xsl:element name="data:datum">
                     <xsl:value-of select="$dateAfterTomorrow"/>
@@ -87,12 +91,6 @@
     <xsl:template match="data:BeoogdeRegelgeving/data:BeoogdeRegeling/data:instrumentVersie">
         <xsl:element name="data:instrumentVersie">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
-        </xsl:element>
-    </xsl:template>
-
-    <xsl:template match="data:opvolging/data:opvolgerVan">
-        <xsl:element name="data:opvolgerVan">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
 
@@ -151,12 +149,6 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:RegelingMetadata/data:opvolging/data:opvolgerVan">
-        <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
-        </xsl:element>
-    </xsl:template>
-
     <xsl:template match="aanlevering:RegelingVersieInformatie/data:ExpressionIdentificatie/data:FRBRExpression">
         <xsl:element name="data:FRBRExpression">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>

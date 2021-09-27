@@ -17,28 +17,27 @@ if [[ -e $1 ]]; then
     filename=${file##*/};
     echo $filename;
     filenamewithoutextension=${filename%.zip}
-    conversationid=${filenamewithoutextension#*_}
-    validatienummer=$(echo $file| cut -d'-' -f 1)
-	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
+    conversationid=${filenamewithoutextension}
+	validatienummer=$(echo $file| cut -d'_' -f 1)
 	echo $validatienummer
 
     
     echo $conversationid;
     action="versturen"
     opdracht="valideren"
-    if echo "$file" | grep -q "publiceren"; then
+    if echo "$file" | grep -q "_p_"; then
         opdracht="publiceren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "muteren"; then
+    if echo "$file" | grep -q "_v_"; then
         opdracht="valideren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "valideren"; then
+    if echo "$file" | grep -q "_v_"; then
         opdracht="valideren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "afbreken"; then
+    if echo "$file" | grep -q "_a_"; then
         opdracht="afbreken"
         action="versturen"
     fi
@@ -50,13 +49,28 @@ if [[ -e $1 ]]; then
     	
 #wait ?? seconds for keten to create results
 
-    for i in {1..45}
+ if echo "$file" | grep -q "_v_"  || echo "$file" | grep -q "_p_"; then
+    rm result
+    totaal=0
+    for i in {1..100}
     do
-        printf '.' > /dev/tty
-        sleep 1
+        for j in {1..10}
+        do
+            printf '.' > /dev/tty
+            sleep 1
+            totaal=$(($totaal+1))
+        done
+        wget -nv --no-check-certificate $result -O result;
+        echo ""
+        if  echo "$(cat result)" | grep -q "uitkomst>" ; then
+          break
+        else
+          sleep 1
+        fi
     done
     echo ""
-
+    echo "test-duur: $totaal seconden"
+    
     #get result
     rm $resultfile
     echo "De resultaat URL = $result"
@@ -65,7 +79,7 @@ if [[ -e $1 ]]; then
     wget -nv --no-check-certificate $result -O result;
     if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">$resultfile
-        echo "<test>$conversationid</test>">>$resultfile
+        echo "<test>$conversationid-$opdracht</test>">>$resultfile
         #the variable result contains the URL
         echo "<result>$result</result>">>$resultfile
         #the file result is dumped into the result file
@@ -76,6 +90,7 @@ if [[ -e $1 ]]; then
         if [ echo "$opdracht" = "afbreken" ]; then
             echo "<envelop>">>$resultfile
             echo "<test>$conversationid</test>">>$resultfile
+            echo "<tijdsduur>$totaal</tijdsduur>">>$resultfile
             #the variable result contains the URL
             echo "<result>$result</result>">>$resultfile
             #the file result is dumped into the result file
@@ -109,7 +124,7 @@ if [[ -e $1 ]]; then
     echo "$(cat $logfile)"
     echo "---------------"
     rm result
-
+fi
 else
     echo "$1 is not found, please use an existing zip file"
 fi

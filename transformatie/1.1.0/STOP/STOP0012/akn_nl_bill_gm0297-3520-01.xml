@@ -201,11 +201,11 @@
                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1">
                               <Term>GoedeGebieden</Term>
                               <Definitie>
-                                 <Al><!-- FOUT STOP De in de ExtIoRef weergegeven join-identifier MOET gelijk zijn aan de referentie -->
+                                 <Al><!-- FOUT STOP0012 De in de ExtIoRef weergegeven join-identifier MOET gelijk zijn aan de referentie -->
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520FOUT">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebiedenFOUT/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>

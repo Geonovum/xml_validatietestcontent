@@ -139,7 +139,7 @@ execute_single_file () {
 
 
 
-cd ~/xml_validatietestcontent/1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/opdrachten_gereed
+cd $FILE_DIR
 
 echo "<result>">$resultfile
 if [[ -n $FINDNUMBER ]]; then
