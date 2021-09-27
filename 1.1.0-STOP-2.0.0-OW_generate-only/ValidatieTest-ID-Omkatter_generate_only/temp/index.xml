@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>LVBB3012</testId>
+   <testId>BHKV1005</testId>
    <guids>
-      <guidInOw gmlfile="FouteGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>c51245a5-5a6a-ce3a-aedd-e45afa7a6a47</org>
-         <new>ac97a201-5c0e-4d1b-91f5-8c727d41a2d9</new>
+      <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
+         <org>6fe6e369-eef6-eee6-e79e-ff7e9e3f3e3f</org>
+         <new>39858696-1fae-45ed-bdf1-3f85cbc30634</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
-      <name>FouteGebieden.gml</name>
+      <name>GoedeGebieden.gml</name>
    </file>
    <file type="gio.xml" ow="false">
-      <name>FouteGebieden.xml</name>
+      <name>GoedeGebieden.xml</name>
    </file>
    <Regeling>
-      <OrigineleregelingsFBRWork>/akn/nl/act/gm0297/2019/LVBB</OrigineleregelingsFBRWork>
+      <OrigineleregelingsFBRWork>/akn/nl/act/gm0297/2019/BHKV</OrigineleregelingsFBRWork>
    </Regeling>
    <historischInformatieobjectRef>
-      <oldIoWorkId>/join/id/regdata/gm0297/2019/FouteGebieden</oldIoWorkId>
-      <oldIoRefId>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</oldIoRefId>
+      <oldIoWorkId>/join/id/regdata/gm0297/2019/GoedeGebieden</oldIoWorkId>
+      <oldIoRefId>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</oldIoRefId>
    </historischInformatieobjectRef>
    <historischInformatieobjectRef>
       <oldIoWorkId>/join/id/regdata/gm0297/2019/regelingsgebied</oldIoWorkId>
@@ -25,10 +25,10 @@
    </historischInformatieobjectRef>
    <besluit>
       <informatieobjectRef>
-         <gio>FouteGebieden.xml</gio>
-         <gml>FouteGebieden.gml</gml>
-         <oldIoWorkId>/join/id/regdata/gm0297/2019/FouteGebieden</oldIoWorkId>
-         <oldIoRefId>/join/id/regdata/gm0297/2019/FouteGebieden/nld@2019-06-18;3520</oldIoRefId>
+         <gio>GoedeGebieden.xml</gio>
+         <gml>GoedeGebieden.gml</gml>
+         <oldIoWorkId>/join/id/regdata/gm0297/2019/GoedeGebieden</oldIoWorkId>
+         <oldIoRefId>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</oldIoRefId>
       </informatieobjectRef>
       <informatieobjectRef>
          <gio>regelingsgebied.xml</gio>
@@ -48,9 +48,9 @@
       <referencefile>owRegelingsgebied.xml</referencefile>
       <referencefile>owRegeltekst-Gemeentestad.xml</referencefile>
    </leveringId>
-   <idLevering>id-publicatie-LVBB</idLevering>
+   <idLevering>id-publicatie-BHKV</idLevering>
    <file type="opdracht.xml" ow="false">
-      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.0.4-matrix-1.3-rc/ValidatieTest-ID-Omkatter/bron/opdracht.xml</fullname>
+      <fullname>file:/C:/Users/Default.DESKTOP-NDDI22K/Documents/Geonovum/github/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW_generate-only/ValidatieTest-ID-Omkatter_generate_only/bron/opdracht.xml</fullname>
       <name>opdracht.xml</name>
    </file>
    <file type="locatie.xml" ow="true">
@@ -65,8 +65,8 @@
    
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>afd4aaaa-5a40-45ab-a0bb-d4d60a5dbc4a</org>
-         <new>ae5a13b8-f4fb-4218-bfe6-b02f80fb8eb5</new>
+         <org>cc68c3cc-32ac-8cc8-c28a-c2cc8c63c6cc</org>
+         <new>e270068d-e6ad-4eab-9306-5b63a2155d6f</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">

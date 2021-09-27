@@ -12,12 +12,12 @@
                  xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
    <sl:standBestand>
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-LVBB</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-BHKV</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
@@ -28,7 +28,7 @@
                <l:identificatie>nl.imow-gm0297.gebied.00001</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="c51245a5-5a6a-ce3a-aedd-e45afa7a6a47"/>
+                  <l:GeometrieRef xlink:href="6fe6e369-eef6-eee6-e79e-ff7e9e3f3e3f"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
@@ -39,7 +39,7 @@
                <l:identificatie>nl.imow-gm0297.gebied.00002</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="afd4aaaa-5a40-45ab-a0bb-d4d60a5dbc4a"/>
+                  <l:GeometrieRef xlink:href="cc68c3cc-32ac-8cc8-c28a-c2cc8c63c6cc"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>

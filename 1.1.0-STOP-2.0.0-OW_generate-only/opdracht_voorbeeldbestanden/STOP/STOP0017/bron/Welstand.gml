@@ -43,7 +43,7 @@
                </geo:geometrie>
                <geo:kwalitatieveNormwaarde>midden</geo:kwalitatieveNormwaarde>
             </geo:Locatie>
-            <geo:Locatie><!--<geo:naam>zone B</geo:naam>-->               
+            <geo:Locatie><!--<geo:naam>zone B</geo:naam>-->
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="id-3ce37c9c-1721-4eec-9b4a-5380fd30fbac-xx">
                      <basisgeo:id>3ce37c9c-1721-4eec-9b4a-5380fd30fbac</basisgeo:id>

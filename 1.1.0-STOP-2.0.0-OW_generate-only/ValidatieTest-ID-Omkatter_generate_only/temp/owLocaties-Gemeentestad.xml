@@ -12,12 +12,12 @@
                  xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v1.0.3/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
+                 xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd">
    <sl:standBestand>
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-LVBB-LVBB3012-0-20210923022230</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-BHKV-BHKV1005-0-20210927023307</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
@@ -25,10 +25,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.0000120210923022230</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.0000120210927023307</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="ac97a201-5c0e-4d1b-91f5-8c727d41a2d9"/>
+                  <l:GeometrieRef xlink:href="39858696-1fae-45ed-bdf1-3f85cbc30634"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
@@ -36,10 +36,10 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.0000220210923022230</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.0000220210927023307</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="ae5a13b8-f4fb-4218-bfe6-b02f80fb8eb5"/>
+                  <l:GeometrieRef xlink:href="e270068d-e6ad-4eab-9306-5b63a2155d6f"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>

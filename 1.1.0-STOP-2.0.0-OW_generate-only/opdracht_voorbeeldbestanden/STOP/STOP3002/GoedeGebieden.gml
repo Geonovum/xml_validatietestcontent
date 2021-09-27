@@ -6,8 +6,8 @@
                                      xmlns:gml="http://www.opengis.net/gml/3.2"
                                      xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/"
                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                     schemaversie="1.0.4"
-                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.0.4/imop-geo.xsd">
+                                     schemaversie="1.1.0"
+                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.1.0/imop-geo.xsd">
    <geo:context>
       <gio:GeografischeContext>
          <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
@@ -18,10 +18,9 @@
       <geo:GeoInformatieObjectVersie>
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
-         <geo:groepen>
-            <!-- FOUT STOP3002 Als GroepID voorkomt mag het niet leeg zijn. -->
+         <geo:groepen><!-- FOUT STOP3002 Als GroepID voorkomt mag het niet leeg zijn. -->
             <geo:Groep>
-               <geo:groepID></geo:groepID>
+               <geo:groepID/>
                <geo:label>GoedeGebieden 1</geo:label>
             </geo:Groep>
             <geo:Groep>
@@ -51,7 +50,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
-               <geo:groepID></geo:groepID>
+               <geo:groepID/>
             </geo:Locatie>
             <geo:Locatie>
                <geo:naam>GoedeGebieden2</geo:naam>
@@ -60,7 +59,7 @@
                      <basisgeo:id>6b6c00a0-0041-1690-a641-66f60a10460c</basisgeo:id>
                      <basisgeo:geometrie>
                         <gml:MultiSurface gml:id="if-6b6c00a0-0041-1690-a641-66f60a10460c"
-                           srsName="urn:ogc:def:crs:EPSG::28992">
+                                          srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
                                  <gml:exterior>

@@ -2,8 +2,8 @@
 <!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    schemaversie="1.0.4"
-                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+                    schemaversie="1.1.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/STOP</data:FRBRWork>
@@ -57,14 +57,16 @@
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/STOP</data:doel>
                </doelen>
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</data:instrumentVersie>
-               <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
+               <eId>
+!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
             </BeoogdInformatieobject>
             <BeoogdInformatieobject>
                <doelen>
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/STOP</data:doel>
                </doelen>
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</data:instrumentVersie>
-               <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
+               <eId>
+!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
          <Tijdstempels>
@@ -77,7 +79,7 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
             <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
@@ -87,7 +89,7 @@
                        soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
             <Al>besluit:</Al>
          </Aanhef>
-         <Lichaam eId="body_1" wId="body_1">
+         <Lichaam eId="body" wId="body">
             <WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
                <Kop>
                   <Label>Artikel</Label>
@@ -123,26 +125,24 @@
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
             <RegelingTijdelijkdeel>
-               <RegelingOpschrift wId="a" eId="b">
-                  <Al></Al>
+               <RegelingOpschrift eId="longTitle" wId="longTitle">
+                  <Al/>
                </RegelingOpschrift>
-               <Lichaam wId="c" eId="d">
+               <Lichaam eId="body" wId="body">
                   <Conditie>
-                     <Artikel wId="a_a" eId="b_a">
+                     <Artikel eId="art_o_1" wId="gm0297_1__art_o_1">
                         <Kop>
                            <Label>a</Label>
-                           
                         </Kop>
                      </Artikel>
                   </Conditie>
-                  <Artikel wId="a_a" eId="b_a">
+                  <Artikel eId="art_o_1_inst2" wId="gm0297_1__art_o_1_inst2">
                      <Kop>
                         <Label>a</Label>
-                        
                      </Kop>
                   </Artikel>
                   <!-- FOUT STOP Een RegelingTijdelijkdeel MAG GEEN WijzigArtikel hebben -->
-                  <WijzigArtikel wId="a_a" eId="b_a">
+                  <WijzigArtikel eId="art_o_1_inst3" wId="gm0297_1__art_o_1_inst3">
                      <Kop>
                         <Label>a</Label>
                      </Kop>
@@ -172,7 +172,7 @@
                <isOfficieel>true</isOfficieel>
             </CiteertitelInformatie>
          </heeftCiteertitelInformatie>
-         <officieleTitel>Gemeentestad (omgevingsplan Zaltbommel)</officieleTitel>
+         <officieleTitel/>
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
          </onderwerpen>

@@ -6,8 +6,8 @@
                                      xmlns:gml="http://www.opengis.net/gml/3.2"
                                      xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/"
                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                     schemaversie="1.0.4"
-                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.0.4/imop-geo.xsd">
+                                     schemaversie="1.1.0"
+                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.1.0/imop-geo.xsd">
    <geo:context>
       <gio:GeografischeContext>
          <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
@@ -30,8 +30,7 @@
                            <gml:surfaceMember>
                               <gml:Polygon>
                                  <gml:exterior>
-                                    <gml:LinearRing>
-                                       <!-- FOUT GEO METRY_03_6	geometrie niet conform crs configuratie -->
+                                    <gml:LinearRing><!-- FOUT GEO METRY_03_6	geometrie niet conform crs configuratie -->
                                        <gml:posList>138445.7271234 424075.7591234 138445.0091234 424074.0841234 138250.6111234 423503.0391234 138150.3741234 423533.4141234 138043.5671234 423637.2551234 138064.8181234 423652.0891234 138072.4311234 423659.8521234 138190.8271234 423998.7831234 138226.7691234 424096.0451234 138243.5011234 424141.3371234 138358.6021234 424107.2211234 138445.7271234 424075.7591234</gml:posList>
                                     </gml:LinearRing>
                                  </gml:exterior>

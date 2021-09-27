@@ -2,8 +2,8 @@
 <!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    schemaversie="1.0.4"
-                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+                    schemaversie="1.1.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0546/2020/TPOD</data:FRBRWork>
@@ -108,8 +108,7 @@
                   <Al>Concept Omgevingsvisie Leiden</Al>
                </RegelingOpschrift>
                <Lichaam eId="body" wId="body">
-                  <Divisie eId="div_o_1" wId="gm0546_1__div_o_1">
-							<!-- dit is de enige divisie waar vanuit OW naar toe verwezen wordt -->
+                  <Divisie eId="div_o_1" wId="gm0546_1__div_o_1"><!-- dit is de enige divisie waar vanuit OW naar toe verwezen wordt -->
                      <Kop>
                         <Opschrift>Heel de stad</Opschrift>
                      </Kop>
@@ -136,136 +135,109 @@
 										onderlinge relaties tussen de opgaven aanwezig zijn.</Al>
                         </Inhoud>
                      </Divisietekst>
-                     <Divisie eId="div_o_1__div_i" wId="gm0546_1__div_o_1__div_i">
+                     <Divisietekst eId="div_o_1__content_i" wId="gm0546_1__div_o_1__content_i">
                         <Kop>
                            <Nummer>i.</Nummer>
                            <Opschrift>Groen/water</Opschrift>
                         </Kop>
-                        <Divisietekst eId="div_o_1__div_i__content_o_1"
-                                      wId="gm0546_1__div_o_1__div_i__content_o_1">
-                           <Inhoud>
-                              <Al>Om de grote opgaven ....</Al>
-                              <Al>(ook een kaart van)</Al>
-                           </Inhoud>
-                        </Divisietekst>
-                     </Divisie>
-                     <Divisie eId="div_o_1__div_ii" wId="gm0546_1__div_o_1__div_ii">
+                        <Inhoud>
+                           <Al>Om de grote opgaven ....</Al>
+                           <Al>(ook een kaart van)</Al>
+                        </Inhoud>
+                     </Divisietekst>
+                     <Divisietekst eId="div_o_1__content_ii" wId="gm0546_1__div_o_1__content_ii">
                         <Kop>
                            <Nummer>ii.</Nummer>
                            <Opschrift>Mobiliteit</Opschrift>
                         </Kop>
-                        <Divisietekst eId="div_o_1__div_ii__content_o_1"
-                                      wId="gm0546_1__div_o_1__div_ii__content_o_1">
-                           <Inhoud>
-                              <Al>Omdat de stad ....</Al>
-                              <Al>(ook een kaart van)</Al>
-                           </Inhoud>
-                        </Divisietekst>
-                     </Divisie>
-                     <Divisie eId="div_o_1__div_iii" wId="gm0546_1__div_o_1__div_iii">
+                        <Inhoud>
+                           <Al>Omdat de stad ....</Al>
+                           <Al>(ook een kaart van)</Al>
+                        </Inhoud>
+                     </Divisietekst>
+                     <Divisietekst eId="div_o_1__content_iii" wId="gm0546_1__div_o_1__content_iii">
                         <Kop>
                            <Nummer>iii.</Nummer>
                            <Opschrift>Duurzame Verstedelijking</Opschrift>
                         </Kop>
-                        <Divisietekst eId="div_o_1__div_iii__content_o_1"
-                                      wId="gm0546_1__div_o_1__div_iii__content_o_1">
-                           <Inhoud>
-                              <Al>In de moderne ....</Al>
-                              <Al>(ook een kaart van)</Al>
-                           </Inhoud>
-                        </Divisietekst>
-                     </Divisie>
-                     <Divisie eId="div_o_1__div_iv" wId="gm0546_1__div_o_1__div_iv">
+                        <Inhoud>
+                           <Al>In de moderne ....</Al>
+                           <Al>(ook een kaart van)</Al>
+                        </Inhoud>
+                     </Divisietekst>
+                     <Divisietekst eId="div_o_1__content_iv" wId="gm0546_1__div_o_1__content_iv">
                         <Kop>
                            <Nummer>iv.</Nummer>
                            <Opschrift>Infra</Opschrift>
                         </Kop>
-                        <Divisietekst eId="div_o_1__div_iv__content_o_1"
-                                      wId="gm0546_1__div_o_1__div_iv__content_o_1">
-                           <Inhoud>
-                              <Al>De stad ...</Al>
-                           </Inhoud>
-                        </Divisietekst>
-                     </Divisie>
-                     <Divisie eId="div_o_1__div_o_5" wId="gm0546_1__div_o_1__div_o_5">
+                        <Inhoud>
+                           <Al>De stad ...</Al>
+                        </Inhoud>
+                     </Divisietekst>
+                     <Divisietekst eId="div_o_1__content_o_6" wId="gm0546_1__div_o_1__content_o_6">
                         <Kop>
                            <Opschrift>Conclusie</Opschrift>
                         </Kop>
-                        <Divisietekst eId="div_o_1__div_o_5__content_o_1"
-                                      wId="gm0546_1__div_o_1__div_o_5__content_o_1">
-                           <Inhoud>
-                              <Al>Het samenbren...</Al>
-                           </Inhoud>
-                        </Divisietekst>
-                     </Divisie>
-                     <Divisie eId="div_o_1__div_o_6" wId="gm0546_1__div_o_1__div_o_6">
+                        <Inhoud>
+                           <Al>Het samenbren...</Al>
+                        </Inhoud>
+                     </Divisietekst>
+                     <Divisie eId="div_o_1__div_o_1" wId="gm0546_1__div_o_1__div_o_1">
                         <Kop>
                            <Opschrift>De drie leefmilieus</Opschrift>
                         </Kop>
-                        <Divisie eId="div_o_1__div_o_6__div_o_1"
-                                 wId="gm0546_1__div_o_1__div_o_6__div_o_1">
+                        <Divisietekst eId="div_o_1__div_o_1__content_o_1"
+                                      wId="gm0546_1__div_o_1__div_o_1__content_o_1">
                            <Kop>
                               <Opschrift>Leefmilieu Hoogstedelijk en dynamisch in 2040 (kaart 1)</Opschrift>
                            </Kop>
-                           <Divisietekst eId="div_o_1__div_o_6__div_o_1__content_o_1"
-                                         wId="gm0546_1__div_o_1__div_o_6__div_o_1__content_o_1">
-                              <Inhoud>
-                                 <Al>Binnen dit ...</Al>
-                              </Inhoud>
-                           </Divisietekst>
-                        </Divisie>
-                        <Divisie eId="div_o_1__div_o_6__div_o_2"
-                                 wId="gm0546_1__div_o_1__div_o_6__div_o_2">
+                           <Inhoud>
+                              <Al>Binnen dit ...</Al>
+                           </Inhoud>
+                        </Divisietekst>
+                        <Divisietekst eId="div_o_1__div_o_1__content_o_2"
+                                      wId="gm0546_1__div_o_1__div_o_1__content_o_2">
                            <Kop>
                               <Opschrift>Leefmilieu Stads en levendig in 2040 (kaart 2)</Opschrift>
                            </Kop>
-                           <Divisietekst eId="div_o_1__div_o_6__div_o_2__content_o_1"
-                                         wId="gm0546_1__div_o_1__div_o_6__div_o_2__content_o_1">
-                              <Inhoud>
-                                 <Al>Gebieden in ...</Al>
-                                 <Al>De openbare ...</Al>
-                              </Inhoud>
-                           </Divisietekst>
-                        </Divisie>
-                        <Divisie eId="div_o_1__div_o_6__div_o_3"
-                                 wId="gm0546_1__div_o_1__div_o_6__div_o_3">
+                           <Inhoud>
+                              <Al>Gebieden in ...</Al>
+                              <Al>De openbare ...</Al>
+                           </Inhoud>
+                        </Divisietekst>
+                        <Divisietekst eId="div_o_1__div_o_1__content_o_3"
+                                      wId="gm0546_1__div_o_1__div_o_1__content_o_3">
                            <Kop>
                               <Opschrift>Leefmilieu Groen en luw in 2040 (kaart 3)</Opschrift>
                            </Kop>
-                           <Divisietekst eId="div_o_1__div_o_6__div_o_3__content_o_1"
-                                         wId="gm0546_1__div_o_1__div_o_6__div_o_3__content_o_1">
-                              <Inhoud>
-                                 <Al>De wijken ... </Al>
-                              </Inhoud>
-                           </Divisietekst>
-                        </Divisie>
+                           <Inhoud>
+                              <Al>De wijken ... </Al>
+                           </Inhoud>
+                        </Divisietekst>
                      </Divisie>
-                     <Divisie eId="div_o_1__div_o_7" wId="gm0546_1__div_o_1__div_o_7">
+                     <Divisie eId="div_o_1__div_o_2" wId="gm0546_1__div_o_1__div_o_2">
                         <Kop>
                            <Opschrift>Gebieden binnen de stad (met soms overlappende leefmilieu’s) (Voorbeeld vastgesteld ontwikkelperspectief Zuidwest)</Opschrift>
                         </Kop>
-                        <Divisietekst eId="div_o_1__div_o_7__content_o_1"
-                                      wId="gm0546_1__div_o_1__div_o_7__content_o_1">
+                        <Divisietekst eId="div_o_1__div_o_2__content_o_1"
+                                      wId="gm0546_1__div_o_1__div_o_2__content_o_1">
                            <Inhoud>
                               <Al>Klein stukje tekst over zuidwest in visie verder verwijzen naar document <ExtRef ref="https://www.ruimtelijkeplannen.nl/documents/NL.IMRO.0546.OP00001-0201/t_NL.IMRO.0546.OP00001-0201.pdf"
                                          soort="URL">https://www.ruimtelijkeplannen.nl/documents/NL.IMRO.0546.OP00001-0201/t_NL.IMRO.0546.OP00001-0201.pdf</ExtRef>
                               </Al>
                            </Inhoud>
                         </Divisietekst>
-                        <Divisie eId="div_o_1__div_o_7__div_o_1"
-                                 wId="gm0546_1__div_o_1__div_o_7__div_o_1">
+                        <Divisietekst eId="div_o_1__div_o_2__content_o_2"
+                                      wId="gm0546_1__div_o_1__div_o_2__content_o_2">
                            <Kop>
                               <Opschrift>Visie voor Leiden Zuidwest in 2040</Opschrift>
                            </Kop>
-                           <Divisietekst eId="div_o_1__div_o_7__div_o_1__content_o_1"
-                                         wId="gm0546_1__div_o_1__div_o_7__div_o_1__content_o_1">
-                              <Inhoud>
-                                 <Al>In 2040 ...</Al>
-                                 <Al>In 2040 is ...</Al>
-                                 <Al>Zie document zuidwest voor contouren</Al>
-                              </Inhoud>
-                           </Divisietekst>
-                        </Divisie>
+                           <Inhoud>
+                              <Al>In 2040 ...</Al>
+                              <Al>In 2040 is ...</Al>
+                              <Al>Zie document zuidwest voor contouren</Al>
+                           </Inhoud>
+                        </Divisietekst>
                      </Divisie>
                   </Divisie>
                </Lichaam>
@@ -286,8 +258,8 @@
                               <Definitie>
                                  <Al>
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
-                                                    wId="gm0546_1__cmp_1__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     eId="cmp_1__content_o_1__list_o_1__item_o_1__ref_o_1"
+                                                    wId="gm0546_1__cmp_1__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     ref="/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD/nld@2020-08-20">/join/id/regdata/gm0546/2020/gemeente_leiden-TPOD/nld@2020-08-20</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>

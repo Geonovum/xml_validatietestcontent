@@ -6,8 +6,8 @@
                                      xmlns:gml="http://www.opengis.net/gml/3.2"
                                      xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/"
                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                     schemaversie="1.0.4"
-                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.0.4/imop-geo.xsd">
+                                     schemaversie="1.1.0"
+                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.1.0/imop-geo.xsd">
    <geo:context>
       <gio:GeografischeContext>
          <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
@@ -15,8 +15,7 @@
       </gio:GeografischeContext>
    </geo:context>
    <geo:vastgesteldeVersie>
-      <geo:GeoInformatieObjectVersie>
-         <!-- FOUT LVBB 3511	Werk van join-id in informatie-object moet gelijk zijn aan die in bijbehorend GML-bestand -->
+      <geo:GeoInformatieObjectVersie><!-- FOUT LVBB 3511	Werk van join-id in informatie-object moet gelijk zijn aan die in bijbehorend GML-bestand -->
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GeenGoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:eenheidlabel>meters boven het maaiveld</geo:eenheidlabel>

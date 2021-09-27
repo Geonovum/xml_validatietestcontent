@@ -6,8 +6,8 @@
                                      xmlns:gml="http://www.opengis.net/gml/3.2"
                                      xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/"
                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                     schemaversie="1.0.4"
-                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.0.4/imop-geo.xsd">
+                                     schemaversie="1.1.0"
+                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.1.0/imop-geo.xsd">
    <geo:context>
       <gio:GeografischeContext>
          <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
@@ -19,8 +19,7 @@
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/FouteGebieden-LVBB3003</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/FouteGebieden-LVBB3003/nld@2019-06-18;3520</geo:FRBRExpression>
          <geo:locaties>
-            <geo:Locatie>
-               <!-- FOUT LVBB 3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook) -->
+            <geo:Locatie><!-- FOUT LVBB 3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook) -->
                <geo:naam>LVBB3003 Controleer of srsName (coördinatensysteem) is opgegeven voor de geometrieën. (dimension ook)</geo:naam>
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="i2-ef6390fb-7b29-e992-98e7-97e1a99b10eb-xx">

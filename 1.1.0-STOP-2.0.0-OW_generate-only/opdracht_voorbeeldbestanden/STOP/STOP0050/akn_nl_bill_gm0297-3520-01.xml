@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
-<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.0.4"
-   xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    schemaversie="1.1.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/STOP</data:FRBRWork>
@@ -29,8 +31,7 @@
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <bekendOp>2021-06-27</bekendOp>
-         <procedurestappen>
-            <!-- Vaststelling -->
+         <procedurestappen><!-- Vaststelling -->
             <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_002</soortStap>
                <voltooidOp>2019-06-25</voltooidOp>
@@ -76,16 +77,17 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
             <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
             <Al>De raad van de gemeente Gemeenstestad </Al>
             <Al>gelezen het voorstel van burgemeester en wethouders van 26 juni 2019, nr. 2019-4542;</Al>
-            <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
+            <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149"
+                       soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
             <Al>besluit:</Al>
          </Aanhef>
-         <Lichaam eId="body_1" wId="body_1">
+         <Lichaam eId="body" wId="body">
             <WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
                <Kop>
                   <Label>Artikel</Label>
@@ -120,27 +122,28 @@
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <RegelingCompact componentnaam="initieel_reg" wordt="/akn/nl/act/gm0297/2019/STOP/nld@2019-06-25;1">
-               <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
+            <RegelingCompact componentnaam="initieel_reg"
+                             wordt="/akn/nl/act/gm0297/2019/STOP/nld@2019-06-25;1">
+               <RegelingOpschrift eId="longTitle" wId="longTitle">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
-               <Lichaam eId="body_2" wId="body_2">
+               <Lichaam eId="body" wId="body">
                   <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
                      <Kop>
                         <Label>Hoofdstuk</Label>
                         <Nummer>1</Nummer>
                         <Opschrift>Algemene bepalingen</Opschrift>
                      </Kop>
-                     <Artikel wId="gm0297_1__chp_1__art_1.1" eId="chp_1__art_1.1">
+                     <Artikel eId="chp_1__art_1.1" wId="gm0297_1__chp_1__art_1.1">
                         <Kop>
                            <Label>Artikel</Label>
                            <Nummer>1.1</Nummer>
                            <Opschrift>Toepassingsgebied</Opschrift>
                         </Kop>
-                        <Inhoud>
-                           <!-- FOUT STOP Een onderdeel binnen een @wId MAG NIET eindigen met een punt '.' -->
-                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1_FOUT" wId="gm0297_1__chp_1__art_1.1__ref_o_1"
-                                 ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Gemeentestad</IntIoRef>.</Al>
+                        <Inhoud><!-- FOUT STOP Een onderdeel binnen een @wId MAG NIET eindigen met een punt '.' -->
+                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1"
+                                        wId="gm0297_1__chp_1__art_1.1__ref_o_1"
+                                        ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Gemeentestad</IntIoRef>.</Al>
                         </Inhoud>
                      </Artikel>
                   </Hoofdstuk>
@@ -156,28 +159,32 @@
                            <Nummer>2.1</Nummer>
                            <Opschrift>Foute Gebieden</Opschrift>
                         </Kop>
-                        <Artikel eId="chp_2__subchp_2.1__art_2.1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
+                        <Artikel eId="chp_2__subchp_2.1__art_2.1"
+                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.1">
                            <Kop>
                               <Label>Artikel</Label>
                               <Nummer>2.1</Nummer>
                               <Opschrift>Gebruiksactiviteiten die zonder vergunning of melding zijn toegestaan</Opschrift>
                            </Kop>
                            <Inhoud>
-                              <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1" type="expliciet">
-                                 <!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
+                              <Lijst eId="chp_2__subchp_2.1__art_2.1__list_o_1"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1"
+                                     type="expliciet"><!-- BV: Verplichte lijstaanhef toegevoegd, KL: alinea dat voor de lijst stond als lijstaanhef opgenomen -->
                                  <Lijstaanhef>Ter plaatse van het werkingsgebied van de functie '' ' <IntIoRef eId="chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
-                                       wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1" ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden</IntIoRef>'mogen de
+                                              wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
+                                              ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden</IntIoRef>'mogen de
                                     locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende gebruiksactiviteiten:</Lijstaanhef>
-                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a" wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
+                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
                                  <!-- FOUT STOP Een externe referentie MOET de juiste notatie gebruiken -->
-                                 <Li wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b" eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
+                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>
                                     <Al>Ondersteund bestandstype
                                        <ExtRef soort="AKN" ref="http://www.api.org">www.api.org</ExtRef>
-                                       
                                     </Al>
                                  </Li>
                               </Lijst>
@@ -194,24 +201,29 @@
                   </Kop>
                   <Divisietekst eId="cmp_I__content_o_1" wId="gm0297_1__cmp_I__content_o_1">
                      <Inhoud>
-                        <Begrippenlijst eId="cmp_I__content_o_1__list_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1">
-                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_1" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1">
+                        <Begrippenlijst eId="cmp_I__content_o_1__list_o_1"
+                                        wId="gm0297_1__cmp_I__content_o_1__list_o_1">
+                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_1"
+                                   wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1">
                               <Term>GoedeGebieden</Term>
                               <Definitie>
                                  <Al>
-                                    <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                       eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520"
-                                       >/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                    <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
+                                                    eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
+                                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
+                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>
-                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_2" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2">
+                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_2"
+                                   wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2">
                               <Term>Regelingsgebied</Term>
                               <Definitie>
                                  <Al>
-                                    <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/" wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                       eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520"
-                                       >/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                    <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
+                                                    eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
+                                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
+                                                    ref="/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>

@@ -6,8 +6,8 @@
                                      xmlns:gml="http://www.opengis.net/gml/3.2"
                                      xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/"
                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                     schemaversie="1.0.4"
-                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.0.4/imop-geo.xsd">
+                                     schemaversie="1.1.0"
+                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.1.0/imop-geo.xsd">
    <geo:context>
       <gio:GeografischeContext>
          <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
@@ -28,9 +28,7 @@
                <geo:geometrie>
                   <basisgeo:Geometrie gml:id="ie-fffeaeef-affe-aafa-eefa-afeaafffffee-xx">
                      <basisgeo:id>fffeaeef-affe-aafa-eefa-afeaafffffee</basisgeo:id>
-                     <basisgeo:geometrie>
-                        <!-- FOUT GEO METRY_03_1	geometrie is afwezig  -->
-                        <!--<gml:MultiSurface gml:id="id-557c1d8a-45fc-4b73-9df3-3a230575aa89"
+                     <basisgeo:geometrie><!-- FOUT GEO METRY_03_1	geometrie is afwezig  --><!--<gml:MultiSurface gml:id="id-557c1d8a-45fc-4b73-9df3-3a230575aa89"
                                           srsName="urn:ogc:def:crs:EPSG::28992">
                            <gml:surfaceMember>
                               <gml:Polygon>
@@ -41,8 +39,7 @@
                                  </gml:exterior>
                               </gml:Polygon>
                            </gml:surfaceMember>
-                        </gml:MultiSurface>-->
-                     </basisgeo:geometrie>
+                        </gml:MultiSurface>--></basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
                <geo:kwantitatieveNormwaarde>7</geo:kwantitatieveNormwaarde>
