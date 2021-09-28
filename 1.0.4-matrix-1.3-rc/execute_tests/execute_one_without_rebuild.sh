@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 
-FILE_DIR="../opdracht_voorbeeldbestanden/opdrachten_gereed";
 FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""

@@ -2,8 +2,8 @@
 <!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    schemaversie="1.0.4"
-                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+                    schemaversie="1.1.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/STOP</data:FRBRWork>
@@ -77,7 +77,7 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
             <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
@@ -87,7 +87,7 @@
                        soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
             <Al>besluit:</Al>
          </Aanhef>
-         <Lichaam eId="body_1" wId="body_1">
+         <Lichaam eId="body" wId="body">
             <WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
                <Kop>
                   <Label>Artikel</Label>
@@ -124,17 +124,17 @@
             </Kop>
             <RegelingCompact componentnaam="initieel_reg"
                              wordt="/akn/nl/act/gm0297/2019/STOP/nld@2019-06-25;1">
-               <RegelingOpschrift eId="longTitle_2" wId="longTitle_2">
+               <RegelingOpschrift eId="longTitle" wId="longTitle">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
-               <Lichaam eId="body_2" wId="body_2">
+               <Lichaam eId="body" wId="body">
                   <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_1">
                      <Kop>
                         <Label>Hoofdstuk</Label>
                         <Nummer>1</Nummer>
                         <Opschrift>Algemene bepalingen</Opschrift>
                      </Kop>
-                     <Artikel wId="gm0297_1__chp_1__art_1.1" eId="chp_1__art_1.1">
+                     <Artikel eId="chp_1__art_1.1" wId="gm0297_1__chp_1__art_1.1">
                         <Kop>
                            <Label>Artikel</Label>
                            <Nummer>1.1</Nummer>
@@ -175,8 +175,8 @@
                                               wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__ref_o_1"
                                               ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">GoedeGebieden</IntIoRef>'mogen de locatie en de daarop voorkomende bouwwerken in ieder geval worden gebruikt voor het verrichten van de volgende
 												gebruiksactiviteiten:</Lijstaanhef>
-                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_a"
-                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
+                                 <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_o_1"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_o_1">
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
@@ -184,20 +184,20 @@
                            </Inhoud>
                         </Artikel>
                         <Artikel eId="chp_2__subchp_2.1__art_2.2"
-                           wId="gm0297_1__chp_2__subchp_2.1__art_2.2">
+                                 wId="gm0297_1__chp_2__subchp_2.1__art_2.2">
                            <Kop>
                               <Label>Label</Label>
                               <Nummer>2.2</Nummer>
                               <Opschrift>Tabel</Opschrift>
                            </Kop>
                            <Inhoud>
-                              <table eId="cmp_II__content_o_1__table_o_1"
-                                 wId="mnre1034_1-0__cmp_II__content_o_1__table_o_1"
-                                 colsep="1"
-                                 frame="all"
-                                 pgwide="0"
-                                 rowsep="1"
-                                 tabstyle="zebra1">
+                              <table eId="chp_2__subchp_2.1__art_2.2__table_o_1"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.2__table_o_1"
+                                     colsep="1"
+                                     frame="all"
+                                     pgwide="0"
+                                     rowsep="1"
+                                     tabstyle="zebra1">
                                  <tgroup align="left" cols="5">
                                     <colspec colname="col1" colnum="1" colwidth="103*"/>
                                     <colspec colname="col2" colnum="2" colwidth="103*"/>
@@ -207,38 +207,38 @@
                                     <thead valign="bottom">
                                        <row rowsep="1">
                                           <entry align="left"
-                                             colname="col1"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col1"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Norm</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col2"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col2"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Naam</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col3"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col3"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Datum of versie</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col4"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col4"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Uitgever</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col5"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col5"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Hoofdstuk in besluit of regeling waarin verwijzing staat
                                              </Al>
                                           </entry>
@@ -247,52 +247,53 @@
                                     <tbody valign="top">
                                        <row rowsep="1">
                                           <entry align="left"
-                                             colname="col1"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col1"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Algemene BeoordelingsMethodiek</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col2"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col2"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Algemene BeoordelingsMethodiek (ABM), methode ter bepaling van de benodigde saneringsinspanning bij lozingen op basis van stofeigenschappen</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col3"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col3"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>2016</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col4"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
-                                             <!-- FOUT STOP 0008 Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel -->
-                                             <Al><Nootref refid="N1"/></Al>
+                                                 colname="col4"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top"><!-- FOUT STOP 0008 Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel -->
+                                             <Al>
+                                                <Nootref refid="N1"/>
+                                             </Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col5"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col5"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Hoofdstuk 7 van deze regeling</Al>
                                           </entry>
                                        </row>
                                     </tbody>
                                  </tgroup>
                               </table>
-                              <table eId="cmp_II__content_o_1__table_o_1"
-                                 wId="mnre1034_1-0__cmp_II__content_o_1__table_o_1"
-                                 colsep="1"
-                                 frame="all"
-                                 pgwide="0"
-                                 rowsep="1"
-                                 tabstyle="zebra1">
+                              <table eId="chp_2__subchp_2.1__art_2.2__table_o_2"
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.2__table_o_2"
+                                     colsep="1"
+                                     frame="all"
+                                     pgwide="0"
+                                     rowsep="1"
+                                     tabstyle="zebra1">
                                  <tgroup align="left" cols="5">
                                     <colspec colname="col1" colnum="1" colwidth="103*"/>
                                     <colspec colname="col2" colnum="2" colwidth="103*"/>
@@ -302,38 +303,38 @@
                                     <thead valign="bottom">
                                        <row rowsep="1">
                                           <entry align="left"
-                                             colname="col1"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col1"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Norm</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col2"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col2"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Naam</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col3"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col3"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Datum of versie</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col4"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col4"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Uitgever</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col5"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col5"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Hoofdstuk in besluit of regeling waarin verwijzing staat
                                              </Al>
                                           </entry>
@@ -342,38 +343,38 @@
                                     <tbody valign="top">
                                        <row rowsep="1">
                                           <entry align="left"
-                                             colname="col1"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col1"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Algemene BeoordelingsMethodiek</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col2"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col2"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Algemene BeoordelingsMethodiek (ABM), methode ter bepaling van de benodigde saneringsinspanning bij lozingen op basis van stofeigenschappen</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col3"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col3"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>2016</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col4"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col4"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Ministerie van Infrastructuur en Waterstaat<br/>(<ExtRef ref="http://www.infomil.nl" soort="URL">www.infomil.nl</ExtRef>)</Al>
                                           </entry>
                                           <entry align="left"
-                                             colname="col5"
-                                             colsep="1"
-                                             rotate="0"
-                                             valign="top">
+                                                 colname="col5"
+                                                 colsep="1"
+                                                 rotate="0"
+                                                 valign="top">
                                              <Al>Tekst
                                                 <Noot type="tabel" id="N1">
                                                    <NootNummer>*</NootNummer>
@@ -406,8 +407,8 @@
                               <Definitie>
                                  <Al>
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
-                                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
+                                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     ref="/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
@@ -418,8 +419,8 @@
                               <Definitie>
                                  <Al>
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
-                                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
+                                                    wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
                                                     ref="/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>

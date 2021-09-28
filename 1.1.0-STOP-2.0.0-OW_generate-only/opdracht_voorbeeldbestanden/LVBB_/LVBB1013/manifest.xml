@@ -47,7 +47,7 @@
     </bestand>
     <bestand>
         <!-- FOUT LVBB 1013	Plaatjes mogen geen transparantie hebben -->
-        <bestandsnaam>transparent_cloud.jpg</bestandsnaam>
-        <contentType>image/jpeg</contentType>
+        <bestandsnaam>transparent_cloud.png</bestandsnaam>
+        <contentType>image/png</contentType>
     </bestand>
 </manifest>

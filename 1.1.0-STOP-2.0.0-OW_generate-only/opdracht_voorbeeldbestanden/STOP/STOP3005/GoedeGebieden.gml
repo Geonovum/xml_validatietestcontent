@@ -6,8 +6,8 @@
                                      xmlns:gml="http://www.opengis.net/gml/3.2"
                                      xmlns:rsc="https://standaarden.overheid.nl/stop/imop/resources/"
                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                     schemaversie="1.0.4"
-                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.0.4/imop-geo.xsd">
+                                     schemaversie="1.1.0"
+                                     xsi:schemaLocation="https://standaarden.overheid.nl/stop/imop/geo/ https://standaarden.overheid.nl/stop/1.1.0/imop-geo.xsd">
    <geo:context>
       <gio:GeografischeContext>
          <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
@@ -18,8 +18,7 @@
       <geo:GeoInformatieObjectVersie>
          <geo:FRBRWork>/join/id/regdata/gm0297/2019/GoedeGebieden</geo:FRBRWork>
          <geo:FRBRExpression>/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520</geo:FRBRExpression>
-         <geo:groepen>
-            <!-- FOUT STOP3005 Als een groepID voorkomt in het lijstje groepen dan MOET er minstens 1 locatie zijn met dat groepID. -->
+         <geo:groepen><!-- FOUT STOP3005 Als een groepID voorkomt in het lijstje groepen dan MOET er minstens 1 locatie zijn met dat groepID. -->
             <geo:Groep>
                <geo:groepID>GoedeGebieden1</geo:groepID>
                <geo:label>GoedeGebieden1</geo:label>

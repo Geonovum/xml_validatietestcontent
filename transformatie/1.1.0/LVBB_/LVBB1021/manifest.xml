@@ -19,7 +19,7 @@
     <!-- FOUT LVBB 1021	Komt het gespecificeerde contenttype overeen met het werkelijke contenttype? -->
     <bestand>
         <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
-        <contentType>application/gml+xml</contentType>
+        <contentType>application/png</contentType>
     </bestand>
     <bestand>
         <bestandsnaam>regelingsgebied.gml</bestandsnaam>

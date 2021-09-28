@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.0.4"
-   xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    schemaversie="1.1.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/OZON</data:FRBRWork>
@@ -11,7 +13,7 @@
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
          <maker>/tooi/id/gemeente/gm0297</maker>
-         <officieleTitel>Gemeentestad Omgevingsplan wijziging regeltekst (mutatiescenario2)</officieleTitel>
+         <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_a6a9eddd</onderwerp>
          </onderwerpen>
@@ -22,8 +24,7 @@
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <bekendOp>2021-06-27</bekendOp>
-         <procedurestappen>
-            <!-- Vaststelling -->
+         <procedurestappen><!-- Vaststelling -->
             <Procedurestap>
                <soortStap>/join/id/stop/procedure/stap_002</soortStap>
                <voltooidOp>2019-06-25</voltooidOp>
@@ -55,31 +56,32 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle_1" wId="longTitle_1">
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
             <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
             <Al>De raad van de gemeente Gemeenstestad </Al>
             <Al>gelezen het voorstel van burgemeester en wethouders van 26 juni 2019, nr. 2019-4542;</Al>
-            <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
+            <Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149"
+                       soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
             <Al>besluit:</Al>
          </Aanhef>
-         <Lichaam eId="body_1" wId="body_1">
-            <WijzigArtikel eId="art_I" wId="gm0297_1__art_I">
+         <Lichaam eId="body" wId="body">
+            <WijzigArtikel eId="art_I" wId="2__art_I">
                <Kop>
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
                <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>
             </WijzigArtikel>
-            <Artikel eId="art_II" wId="gm0297_1__art_II">
+            <Artikel eId="art_II" wId="2__art_II">
                <Kop>
                   <Label>Artikel</Label>
                   <Nummer>II</Nummer>
                </Kop>
                <Gereserveerd/>
             </Artikel>
-            <Artikel eId="art_III" wId="gm0297_1__art_III">
+            <Artikel eId="art_III" wId="2__art_III">
                <Kop>
                   <Label>Artikel</Label>
                   <Nummer>III</Nummer>
@@ -93,17 +95,19 @@
                <Al>Gedeputeerde Raad van Apeldoorn tot Den Haag</Al>
             </Ondertekening>
          </Sluiting>
-         <WijzigBijlage eId="cmp_A" wId="gm0297_1__cmp_A">
+         <WijzigBijlage eId="cmp_A" wId="2__cmp_A">
             <Kop>
                <Label>Bijlage</Label>
                <Nummer>A</Nummer>
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
-            <RegelMutatie componentnaam="verwijder_reg" was="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;1" wordt="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;2">
+            <RegelMutatie componentnaam="verwijder_reg"
+                          was="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;1"
+                          wordt="/akn/nl/act/gm0297/2019/OZON/nld@2019-06-25;2">
                <Verwijder wat="gm0297_1__chp_1__art_1.1">
                   <Nummer>A</Nummer>
                   <Wat>Artikel 1.1 wordt verwijderd:</Wat>
-                  <Artikel eId="chp_1__art_1.1" wId="gm0297_1__chp_1__art_1.1">
+                  <Artikel eId="cmp_A__art_1.1" wId="2__cmp_A__art_1.1">
                      <Kop>
                         <Label>Artikel</Label>
                         <Nummer>1.1</Nummer>
@@ -112,12 +116,16 @@
                      <Inhoud>
                         <Al>Indieningsvereisten melding</Al>
                         <Al>Bij het doen van de melding dienen de volgende indieningsvereisten in acht te worden genomen:</Al>
-                        <Lijst eId="chp_2__subchp_2.2__art_2.5__para_2__list_o_1" wId="gm0297_2__chp_2__subchp_2.2__art_2.5__para_2__list_o_1" type="expliciet">
-                           <Li eId="chp_2__subchp_2.2__art_2.5__para_2__list_o_1__item_a" wId="gm0297_2__chp_2__subchp_2.2__art_2.5__para_2__list_o_1__item_a">
+                        <Lijst eId="cmp_A__art_1.1__list_o_1"
+                               wId="2__cmp_A__art_1.1__list_o_1"
+                               type="expliciet">
+                           <Li eId="cmp_A__art_1.1__list_o_1__item_a"
+                               wId="2__cmp_A__art_1.1__list_o_1__item_a">
                               <LiNummer>a.</LiNummer>
                               <Al>de melding dient te worden gedaan door middel van het inzenden van het bij deze regels behorende Formulier Melding;</Al>
                            </Li>
-                           <Li eId="chp_2__subchp_2.2__art_2.5__para_2__list_o_1__item_b" wId="gm0297_2__chp_2__subchp_2.2__art_2.5__para_2__list_o_1__item_b">
+                           <Li eId="cmp_A__art_1.1__list_o_1__item_b"
+                               wId="2__cmp_A__art_1.1__list_o_1__item_b">
                               <LiNummer>b.</LiNummer>
                               <Al>toegevoegd moet worden een terreininrichtingstekening. </Al>
                            </Li>

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-FILE_DIR="~/xml_validatietestcontent/1.0.4/opdracht_voorbeeldbestanden/opdrachten_gereed"
+FILE_DIR="~/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed"
 FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""
@@ -19,27 +19,26 @@ execute_single_file () {
 	file=$1;
 	echo $file;
 	filenamewithoutextension=${file%.zip}
-	conversationid=${filenamewithoutextension#*_}
-	validatienummer=$(echo $file| cut -d'-' -f 1)
-	validatienummer=$(echo $validatienummer| cut -d'_' -f 2)
+	conversationid=${filenamewithoutextension}
+	validatienummer=$(echo $file| cut -d'_' -f 1)
 	echo $validatienummer
 	action="versturen"
     opdracht="valideren"
     action="versturen"
     opdracht="valideren"
-    if echo "$file" | grep -q "publiceren"; then
+    if echo "$file" | grep -q "_p_"; then
         opdracht="publiceren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "muteren"; then
+    if echo "$file" | grep -q "_v_"; then
         opdracht="valideren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "valideren"; then
+    if echo "$file" | grep -q "_v_"; then
         opdracht="valideren"
         action="versturen"
     fi
-    if echo "$file" | grep -q "afbreken"; then
+    if echo "$file" | grep -q "_a_"; then
         opdracht="afbreken"
         action="versturen"
     fi
@@ -53,12 +52,36 @@ execute_single_file () {
 	result=$(oow-corv $log_level --action $action --levering_id "id-publicatie-$conversationid" --conversation_id "$conversationid" --oin 00000001812579446000 --opdracht "$opdracht" "$file")
 	
 	#wait ?? seconds for keten to create results
-	for i in {1..90}
-    do
-        printf '.' > /dev/tty
-        sleep 1
-    done
-    echo ""
+	#for i in {1..90}
+    #do
+    #    printf '.' > /dev/tty
+    #    sleep 1
+    #done
+    #echo ""
+    
+    if echo "$file" | grep -q "_v_"  || echo "$file" | grep -q "_p_"; then
+    
+        rm result
+        totaal=0
+        for i in {1..100}
+        do
+            for j in {1..10}
+            do
+                printf '.' > /dev/tty
+                sleep 1
+                totaal=$(($totaal+1))
+            done
+            wget -nv --no-check-certificate $result -O result;
+            echo ""
+            if  echo "$(cat result)" | grep -q "uitkomst>" ; then
+              break
+            else
+              sleep 1
+            fi
+        done
+        echo ""
+        echo "test-duur: $totaal seconden"
+    fi
 
     #get result
     echo "De resultaat URL = $result"
@@ -67,7 +90,8 @@ execute_single_file () {
     #alleen bij valideren entree in results
     if [ "$opdracht" = "valideren" ]; then
         echo "<envelop>">>$resultfile
-        echo "<test>$conversationid</test>">>$resultfile
+        echo "<test>$conversationid-$opdracht</test>">>$resultfile
+        echo "<tijdsduur>$totaal</tijdsduur>">>$resultfile
         #the variable result contains the URL
         echo "<result>$result</result>">>$resultfile
         #the file result is dumped into the result file
@@ -115,7 +139,7 @@ execute_single_file () {
 
 
 
-cd ~/xml_validatietestcontent/1.0.4-matrix-1.3-rc/opdracht_voorbeeldbestanden/opdrachten_gereed
+cd $FILE_DIR
 
 echo "<result>">$resultfile
 if [[ -n $FINDNUMBER ]]; then

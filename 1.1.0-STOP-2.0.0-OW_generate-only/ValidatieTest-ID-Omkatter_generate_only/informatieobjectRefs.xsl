@@ -14,6 +14,8 @@
     <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
     <xsl:param name="org.file.dir"/>
     <xsl:param name="inclusiefAfbreek"/>
+    <xsl:param name="oldIoRefId"/>
+    <xsl:param name="oldIoWorkId"/>
 
     <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P3D'), '[Y0001]-[M01]-[D01]')"/>
 
@@ -24,7 +26,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="tekst:ExtIoRef">
+    <xsl:template match="tekst:ExtIoRef[text() = $oldIoRefId]">
         <xsl:element name="tekst:ExtIoRef">
             <xsl:attribute name="wId">
                 <xsl:value-of select="@wId"/>
@@ -33,50 +35,54 @@
                 <xsl:value-of select="@eId"/>
             </xsl:attribute>
             <xsl:attribute name="ref">
-                <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
+                <xsl:value-of select="foo:replaceFRBRExpression(@ref)"/>
             </xsl:attribute>
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
 
-    <xsl:template match="data:BeoogdInformatieobject/data:instrumentVersie">
+    <xsl:template match="data:BeoogdInformatieobject/data:instrumentVersie[text() = $oldIoRefId]">
         <xsl:element name="data:instrumentVersie">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="data:informatieobjectRefs/data:informatieobjectRef">
+    <xsl:template match="data:informatieobjectRefs/data:informatieobjectRef[text() = $oldIoRefId]">
         <xsl:element name="data:informatieobjectRef">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRExpression">
-        <xsl:element name="data:FRBRExpression">
-            <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
-        </xsl:element>
-    </xsl:template>
-
-    <xsl:template match="geo:FRBRExpression">
+    <xsl:template match="geo:FRBRExpression[text() = $oldIoRefId]">
         <xsl:element name="geo:FRBRExpression">
             <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRWork">
-        <xsl:element name="data:FRBRWork">
-            <xsl:value-of select="foo:replaceFRBRWork(text())"/>
-        </xsl:element>
+    <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRExpression">
+        <xsl:if test="contains(text(), $oldIoRefId)">
+            <xsl:element name="data:FRBRExpression">
+                <xsl:value-of select="foo:replaceFRBRExpression(text())"/>
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
 
-    <xsl:template match="data:InformatieObjectMetadata/data:officieleTitel">
+    <xsl:template match="aanlevering:InformatieObjectVersie/data:ExpressionIdentificatie/data:FRBRWork">
+        <xsl:if test="contains(text(), $oldIoWorkId)">
+            <xsl:element name="data:FRBRWork">
+                <xsl:value-of select="foo:replaceFRBRWork(text())"/>
+            </xsl:element>
+        </xsl:if>
+    </xsl:template>
+
+    <xsl:template match="data:InformatieObjectMetadata/data:officieleTitel[text() = $oldIoWorkId]">
         <xsl:element name="data:officieleTitel">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="geo:FRBRWork">
+    <xsl:template match="geo:FRBRWork[text() = $oldIoWorkId]">
         <xsl:element name="geo:FRBRWork">
             <xsl:value-of select="foo:replaceFRBRWork(text())"/>
         </xsl:element>
@@ -209,32 +215,34 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>
-                    <xsl:when test="count(tokenize($oldId, '/'))=8">
+                    <xsl:when test="count(tokenize($oldId, '/')) = 8">
                         <xsl:value-of
-                            select="concat('/', 
-                            foo:replacePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[8],tokenize($newId, '/')[8])
-                            )"
+                            select="
+                                concat('/',
+                                foo:replacePart(tokenize($oldId, '/')[2], tokenize($newId, '/')[2]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[8], tokenize($newId, '/')[8])
+                                )"
                         />
                     </xsl:when>
-                    <xsl:when test="count(tokenize($oldId, '/'))=7">
+                    <xsl:when test="count(tokenize($oldId, '/')) = 7">
                         <xsl:value-of
-                            select="concat('/', 
-                            foo:replacePart(tokenize($oldId, '/')[2],tokenize($newId, '/')[2]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[3],tokenize($newId, '/')[3]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[4],tokenize($newId, '/')[4]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[5],tokenize($newId, '/')[5]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[6],tokenize($newId, '/')[6]),'/',
-                            foo:replacePart(tokenize($oldId, '/')[7],tokenize($newId, '/')[7])
-                            )"
+                            select="
+                                concat('/',
+                                foo:replacePart(tokenize($oldId, '/')[2], tokenize($newId, '/')[2]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[3], tokenize($newId, '/')[3]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[4], tokenize($newId, '/')[4]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[5], tokenize($newId, '/')[5]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[6], tokenize($newId, '/')[6]), '/',
+                                foo:replacePart(tokenize($oldId, '/')[7], tokenize($newId, '/')[7])
+                                )"
                         />
                     </xsl:when>
-                </xsl:choose>                
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>

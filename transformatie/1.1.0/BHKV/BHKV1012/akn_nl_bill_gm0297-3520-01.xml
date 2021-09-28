@@ -124,7 +124,7 @@
             </Kop>
             <!-- FOUT BHKV 1012	De wordt-versie voor een regeling moet bij het juiste work horen -->
             <RegelingCompact componentnaam="initieel_reg"
-                             wordt="/akn/nl/act/gm0297/2019/BHKVFOUT/nld@2019-06-25;1_FOUT">
+                             wordt="/akn/nl/act/gm0297/2019/BHKV_FOUT/nld@2019-06-25;1">
                <RegelingOpschrift eId="longTitle" wId="longTitle">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>

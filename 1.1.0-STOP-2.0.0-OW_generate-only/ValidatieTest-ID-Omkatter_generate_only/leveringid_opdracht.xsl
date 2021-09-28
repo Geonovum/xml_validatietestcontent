@@ -14,8 +14,8 @@
     <xsl:param name="alreadyRetrievedDateTime"/>
     <!-- The orgfiledir bevat het test-validatie-bestand dat wordt aangeboden. Bijvoorbeeld LVBB1013 -->
     <xsl:param name="org.file.dir"/>
-    <xsl:param name="inclusiefAfbreek" />
-    <xsl:param name="versie"></xsl:param>
+    <xsl:param name="inclusiefAfbreek"/>
+    <xsl:param name="versie"/>
 
     <xsl:variable name="dateAfterTomorrow" select="format-dateTime(current-dateTime() + xs:dayTimeDuration('P3D'), '[Y0001]-[M01]-[D01]')"/>
     <xsl:variable name="dateYesterday" select="format-dateTime(current-dateTime() - xs:dayTimeDuration('P1D'), '[Y0001]-[M01]-[D01]')"/>
@@ -54,7 +54,7 @@
         <xsl:variable name="leveringsId">
             <xsl:choose>
                 <xsl:when test="$inclusiefAfbreek = '1'">
-                    <xsl:value-of select="concat(text(), '-', 'AFBREEK', '-', $org.file.dir, '-', $versie,'-', $alreadyRetrievedDateTime)"/>
+                    <xsl:value-of select="concat(text(), '-', 'AFBREEK', '-', $org.file.dir, '-', $versie, '-', $alreadyRetrievedDateTime)"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="concat(text(), '-', $org.file.dir, '-', $versie, '-', $alreadyRetrievedDateTime)"/>
@@ -79,7 +79,7 @@
                 <xsl:when test="contains($org.file.dir, 'LVBB4704')">
                     <xsl:value-of select="text()"/>
                 </xsl:when>
-                <xsl:when test="contains($org.file.dir, 'LVBB1501_1')">
+                <xsl:when test="contains($org.file.dir, 'LVBB1501-1')">
                     <xsl:value-of select="$dateYesterday"/>
                 </xsl:when>
                 <xsl:when test="contains($org.file.dir, 'LVBB1553')">
@@ -87,7 +87,7 @@
                         <xsl:value-of select="$dateYesterday"/>
                     </xsl:if>
                 </xsl:when>
-                <xsl:when test="contains($org.file.dir, 'LVBB1501_2')">
+                <xsl:when test="contains($org.file.dir, 'LVBB1501-2')">
                     <xsl:value-of select="substring($dateAfterTomorrow, 2)"/>
                 </xsl:when>
                 <xsl:otherwise>
@@ -100,11 +100,18 @@
     <xsl:template match="lvbb:idLevering">
         <xsl:variable name="leveringsId">
             <xsl:choose>
-                <xsl:when test="$inclusiefAfbreek = '1'">
-                    <xsl:value-of select="concat(text(), '-', 'AFBREEK', '-', $org.file.dir, '-', $versie, '-', $alreadyRetrievedDateTime)"/>
+                <xsl:when test="contains($org.file.dir, 'LVBB1012')">
+                    <xsl:value-of select="text()"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="concat(text(), '-', $org.file.dir, '-', $versie, '-', $alreadyRetrievedDateTime)"/>
+                    <xsl:choose>
+                        <xsl:when test="$inclusiefAfbreek = '1'">
+                            <xsl:value-of select="concat(text(), '-', 'AFBREEK', '-', $org.file.dir, '-', $versie, '-', $alreadyRetrievedDateTime)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat(text(), '-', $org.file.dir, '-', $versie, '-', $alreadyRetrievedDateTime)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>

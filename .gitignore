@@ -43,3 +43,9 @@
 1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/STOP
 1.1.0-rc-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/TPOD
 
+transformatie/1.0.4/*
+transformatie/1.1.0/*
+transformatie\ 1.1.0/1.0.4/opdracht/*
+transformatie\ 1.1.0/1.1.0/opdracht/*
+transformatie\ 1.1.0/temp/*
+

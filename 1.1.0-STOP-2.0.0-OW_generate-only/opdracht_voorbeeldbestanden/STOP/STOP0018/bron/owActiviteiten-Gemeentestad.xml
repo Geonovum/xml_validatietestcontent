@@ -226,7 +226,7 @@
       </sl:stand>
       <!--uit functionele structuur, dit komt (nu) mee uit de bruidsschat, wellicht wordt deze werkwijze nog aangepast, maar deze activiteit hoort klaargezet te worden door het Rijk
 			indien er een foutmelding optreedt wegens het ontbreken van de topactiviteit dan kan de onderstaande activiteit meegeleverd worden.-->
-<!--      <sl:stand>
+      <!--      <sl:stand>
          <ow-dc:owObject>
             <rol:Activiteit>
                <rol:identificatie>nl.imow-gm0297.activiteit.ActInOmgevingsplanGem</rol:identificatie>

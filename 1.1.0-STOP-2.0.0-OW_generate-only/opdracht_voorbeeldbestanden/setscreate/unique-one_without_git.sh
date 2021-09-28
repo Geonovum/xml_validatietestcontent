@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+current_dir=`pwd`
+while [ ! -d opdracht_voorbeeldbestanden ]; do
+    if [ ! -d opdracht_voorbeeldbestanden ]; then
+        cd ..
+    fi
+done
+opdracht_voorbeeldbestanden=`pwd`/opdracht_voorbeeldbestanden
+cd $current_dir
+
+
 #passeer ID-omkatter
 
 #inpakken naar zip
@@ -12,29 +22,22 @@ inpakken_maar () {
     l1=${lId%</*}
     l2=${l1#*>} 
     export datePart=${l2##*-}   
-	export postfix="$orgfiledir-$datePart"
+	export postfix="$orgfiledir"_"$datePart"
 	#default
-    export newPostfix="$postfix-b-$number-valideren"
+    export newPostfix="$postfix"b"$number"_v_
     #creeren zip-toevoeging voor bron-directory (we zijn in resultaat!!!!!)
 	if echo "$(cat opdracht.xml)" | grep -q "publicatieOpdracht"; then
-	   export newPostfix="$postfix-a-$number-publiceren"
+	   export newPostfix="$postfix"a"$number"_p_
     fi
-	if echo "$(cat opdracht.xml)" | grep -q "breekPublicatieAfOpdracht"; then
-	   export newPostfix="$postfix-z-$number-afbreken"
+	if echo "$(cat opdracht.xml)" | grep -q "validatieOpdracht"; then
+	   export newPostfix="$postfix"b"$number"_v_
 	fi
-	current_dir=`pwd`
-	while [ ! -d opdracht_voorbeeldbestanden ]; do
-        if [ ! -d opdracht_voorbeeldbestanden ]; then
-            cd ..
-        fi
-    done
-    opdracht_voorbeeldbestanden=`pwd`/opdracht_voorbeeldbestanden
-	cd $current_dir
+	if echo "$(cat opdracht.xml)" | grep -q "breekPublicatieAfOpdracht"; then
+	   export newPostfix="$postfix"z"$number"_a_
+	fi
 	pwd
-	echo "removing $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip"
-	rm $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$orgfiledir*.zip;
-    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"	    	   
-	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip *;
+    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   
+	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip *;
 	pwd
 }
 
@@ -69,10 +72,9 @@ fi
 
 if [ -d "$1" ]; then
     export orgfiledir=$1
-    echo "$orgfiledir"
-    echo "Script wordt uitgevoerd voor Validatie-testbestand"
-    echo ""
-    echo $1
+    echo "REMOVING $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip"
+	rm -f $opdracht_voorbeeldbestanden/opdrachten_gereed/"$orgfiledir"*.zip
+
     cd $1;
     orgdirectory=`pwd`
     #we zijn nu in de directory van de bron bestanden
@@ -105,71 +107,26 @@ if [ -d "$1" ]; then
            
            inpakken_maar $orgfiledir "0"
            
-	       #overige resultaat-directories
- 	      if [ "$1" = "LVBB1551" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-           fi
-           if [ "$1" = "LVBB1553" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-           fi
-           if [ "$1" = "LVBB1555" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-           fi
-           if [ "$1" = "LVBB1563" ]; then
-   	        echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-   	        echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-               rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-           fi
 	       cd ..;
 	       for i in {1..100}
            do
 	          if [ -d "resultaat_$i" ];then
     	           cd resultaat_$i
-	               pwd
-	               
 	               inpakken_maar $orgfiledir $i "bron_$i"
-	               
 	               cd ..;	           
 	           fi
            done
            if [ -d "resultaat_afbreek" ];then
-	           export newPostfix="$postfix-z-0-afbreken"
+	           export newPostfix="$postfix"z0_a_
                cd resultaat_afbreek
                pwd
                
                inpakken_maar $orgfiledir "0" "bron_afbreek"
                
-               #overige resultaat-directories
-               if [ "$1" = "LVBB1553" ]; then
-   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-               fi
-               if [ "$1" = "LVBB1555" ]; then
-   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-               fi
-               if [ "$1" = "LVBB1554" ]; then
-                   echo "$orgfiledir: er worden twee afbreek-routines gecreëerd"
-                   cp ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix-1.zip
-                   cp ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix-2.zip
-                   rm -f ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-               fi
-               if [ "$1" = "LVBB1563" ]; then
-   	            echo "$orgfiledir: remove ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip"
-   	            echo "$orgfiledir: ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip wordt niet getest vanwege onmogelijk afbreken, en dien ten gevolge database vervuiling"
-                   rm ../../opdracht_voorbeeldbestanden/opdrachten_gereed/opdr_$newPostfix.zip
-               fi
                cd ..;	           
            fi
            if [ -d "resultaat_afbreek_1" ];then
-	           export newPostfix="$postfix-z-1-afbreken"
+	           export newPostfix="$postfix"z1_a_
                cd resultaat_afbreek_1
                pwd
                
@@ -198,51 +155,51 @@ if [ -d "$1" ]; then
            
            #uitzondering voor LBVV1002
            if [ "$1" == "LVBB1002" ]; then
-    	       rm opdracht.xml
+    	       rm -f opdracht.xml
 	       fi
 	       #uitzondering voor LBVV1003
            if [ "$1" = "LVBB1003" ]; then
-    	       rm manifest.xml
+    	       rm -f manifest.xml
 	       fi
            #uitzondering voor LBVV1009
            if [ "$1" = "LVBB1009" ]; then
-    	       rm GoedeGebieden.xml
+    	       rm -f GoedeGebieden.xml
 	       fi
 	       #uitzondering voor LBVV1027
            if [ "$1" = "LVBB1027" ]; then
-    	       rm manifest-ow.xml
+    	       rm -f manifest-ow.xml
 	       fi
            #uitzondering voor LBVV4010
            if [ "$1" = "LVBB4010" ]; then
-    	       rm akn_nl_bill_gm0297-3520-01.xml
+    	       rm -f akn_nl_bill_gm0297-3520-01.xml
 	       fi
 	       #uitzondering voor LBVV1514
            if [ "$1" == "LVBB1514" ]; then
-    	       rm GoedeGebieden.xml
+    	       rm -f GoedeGebieden.xml
 	       fi
 	       #uitzondering voor LBVV1600
 	       if [ "$1" = "LVBB1600" ]; then
-    	       rm regelingsgebied.xml
-    	       rm regelingsgebied.gml
-    	       rm besluit.xml
+    	       rm -f regelingsgebied.xml
+    	       rm -f regelingsgebied.gml
+    	       rm -f besluit.xml
 	       fi
 	       #uitzondering voor LBVV2501
            if [ "$1" = "LVBB2501" ]; then
-    	       rm manifest-ow.xml
+    	       rm -f manifest-ow.xml
 	       fi
 	       #uitzondering voor LBVV3504
            if [ "$1" = "LVBB3504" ]; then
-    	       rm GoedeGebieden.xml
-    	       rm GoedeGebieden.gml
+    	       rm -f GoedeGebieden.xml
+    	       rm -f GoedeGebieden.gml
 	       fi
 	       #uitzondering voor LBVV3506
            if [ "$1" = "LVBB3506" ]; then
-    	       rm GoedeGebieden.gml
+    	       rm -f GoedeGebieden.gml
 	       fi
 	       #uitzondering voor LBVV3514
            if [ "$1" = "LVBB3514" ]; then
-    	       rm GoedeGebieden.xml
-    	       rm GoedeGebieden.gml
+    	       rm -f GoedeGebieden.xml
+    	       rm -f GoedeGebieden.gml
 	       fi
 	       
 	       inpakken_maar $orgfiledir "0"
