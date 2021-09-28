@@ -86,11 +86,17 @@
                                 </xsl:call-template>
                             </xsl:if>
                         </xsl:if>
+                        <xsl:if test="tijdsduur">
+                                <xsl:call-template name="doDrawCell">
+                                    <xsl:with-param name="column" select="5"/>
+                                    <xsl:with-param name="data" select="concat('tijdsduur: ', tijdsduur/text())"/>
+                                </xsl:call-template>
+                        </xsl:if>
                         <xsl:if test="not($testId = '')">
                             <xsl:variable name="message" select="document('errors_index.xml')/index/error[code = $testId]/message/text()"/>
                             <xsl:if test="$message and not($message = '')">
                                 <xsl:call-template name="doDrawCell">
-                                    <xsl:with-param name="column" select="6"/>
+                                    <xsl:with-param name="column" select="8"/>
                                     <xsl:with-param name="data" select="$message"/>
                                 </xsl:call-template>
                             </xsl:if>
@@ -427,21 +433,25 @@
             </xsl:choose>
             <xsl:call-template name="doDrawCell">
                 <xsl:with-param name="column" select="3"/>
-                <xsl:with-param name="data" select="$node/stop:soort"/>
+                <xsl:with-param name="data" select="$envelop/tijdsduur"/>
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
                 <xsl:with-param name="column" select="4"/>
+                <xsl:with-param name="data" select="$node/stop:soort"/>
+            </xsl:call-template>
+            <xsl:call-template name="doDrawCell">
+                <xsl:with-param name="column" select="5"/>
                 <xsl:with-param name="data" select="do:tekstValidatieRapport($envelop)"/>
             </xsl:call-template>
             <xsl:if test="$node/stop:categorie/text()">
                 <xsl:call-template name="doDrawCell">
-                    <xsl:with-param name="column" select="5"/>
+                    <xsl:with-param name="column" select="6"/>
                     <xsl:with-param name="data" select="$node/stop:categorie/text()"/>
                 </xsl:call-template>
             </xsl:if>
             <xsl:if test="$node/stop:beschrijving/text()">
                 <xsl:call-template name="doDrawCell">
-                    <xsl:with-param name="column" select="6"/>
+                    <xsl:with-param name="column" select="7"/>
                     <xsl:with-param name="data" select="$node/stop:beschrijving/text()"/>
                 </xsl:call-template>
             </xsl:if>
@@ -698,18 +708,22 @@
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
                 <xsl:with-param name="column" select="3"/>
-                <xsl:with-param name="data" select="'Inhoudelijk of technisch'"/>
+                <xsl:with-param name="data" select="'Tijdsduur'"/>
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
                 <xsl:with-param name="column" select="4"/>
-                <xsl:with-param name="data" select="'Resultaat'"/>
+                <xsl:with-param name="data" select="'Inhoudelijk of technisch'"/>
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
                 <xsl:with-param name="column" select="5"/>
-                <xsl:with-param name="data" select="'Categorie'"/>
+                <xsl:with-param name="data" select="'Resultaat'"/>
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
                 <xsl:with-param name="column" select="6"/>
+                <xsl:with-param name="data" select="'Categorie'"/>
+            </xsl:call-template>
+            <xsl:call-template name="doDrawCell">
+                <xsl:with-param name="column" select="7"/>
                 <xsl:with-param name="data" select="'Beschrijving'"/>
             </xsl:call-template>
         </xsl:element>
