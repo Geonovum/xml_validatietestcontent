@@ -57,7 +57,7 @@
                   <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV</data:doel>
                </doelen>
                <!-- FOUT BHKV 1036 De identifier voor instrumentVersie moet overeenkomen met de identitier in ExtIoRef met het juiste eId -->
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden/nld@2019-06-18;3520FOUT</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebiedenFOUT/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>
 !initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
             </BeoogdInformatieobject>
