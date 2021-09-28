@@ -13,11 +13,11 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>FouteGebieden.gml</bestandsnaam>
+        <bestandsnaam>GoedeGebieden.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>FouteGebieden.xml</bestandsnaam>
+        <bestandsnaam>GoedeGebieden.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
