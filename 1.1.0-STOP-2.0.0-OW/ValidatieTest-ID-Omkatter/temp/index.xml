@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><index>
-   <testId>BHKV1009</testId>
+   <testId>BHKV1017</testId>
    <guids>
       <guidInOw gmlfile="GoedeGebieden.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>0da9a316-a010-9a09-0933-01a90a093130</org>
-         <new>56c8c629-2b25-43a0-8aca-7db3d6679c18</new>
+         <org>5bfbfbff-8fff-4fbf-bf8b-fbb4b5ffff4b</org>
+         <new>719e00c3-8559-4a54-8f72-3b85522954cc</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
@@ -65,8 +65,8 @@
    
    <guids>
       <guidInOw gmlfile="regelingsgebied.gml" locatiefile="owLocaties-Gemeentestad.xml">
-         <org>e5929425-9294-49eb-99b9-92b5bb952e25</org>
-         <new>b950d82c-ffb8-4abd-a729-798f12c516fc</new>
+         <org>6344d322-dd03-36f0-dd7e-33f2300e8263</org>
+         <new>1013c468-0069-427b-8fee-4356265d8b0a</new>
       </guidInOw>
    </guids>
    <file type="gml.xml" ow="false">
