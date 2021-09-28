@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-FILE_DIR="~/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed"
+cd ~/xml_validatietestcontent/1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed
 FINDNUMBER=$1
 DEBUG=$2
 LOGLEVEL=""
@@ -138,8 +138,6 @@ execute_single_file () {
 
 
 
-
-cd $FILE_DIR
 
 echo "<result>">$resultfile
 if [[ -n $FINDNUMBER ]]; then
