@@ -51,7 +51,7 @@
                </doelen>
                <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV/nld@2019-06-25;1</data:instrumentVersie>
                <!-- FOUT BHKV 1009	In BeoogdeRegeling moet de daarin genoemde eId voorkomen in het Besluit -->
-               <eId>art_I</eId>
+               <eId>art_I_FOUT</eId>
             </BeoogdeRegeling>
             <BeoogdInformatieobject>
                <doelen>
