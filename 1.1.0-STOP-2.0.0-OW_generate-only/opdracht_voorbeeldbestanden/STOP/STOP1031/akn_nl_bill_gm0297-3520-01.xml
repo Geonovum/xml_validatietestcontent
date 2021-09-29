@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<!-- -->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     schemaversie="1.1.0"
@@ -16,7 +16,7 @@
          <!--soortBestuursorgaan is 'gemeenteraad'.-->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
          <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
-         <!-- FOUT STOP Binnen dezelfde container waarin meervoudige elementen met waarden uit een waardelijst worden gebruikt, mag een unieke waarde maar één keer worden gebruikt. Dit geldt voor container data:onderwerpen. -->
+         <!-- FOUT STOP1031 Binnen dezelfde container waarin meervoudige elementen met waarden uit een waardelijst worden gebruikt, mag een unieke waarde maar één keer worden gebruikt. Dit geldt voor container data:onderwerpen. -->
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>

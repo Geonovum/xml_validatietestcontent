@@ -150,7 +150,7 @@
                      </Artikel>
                   </Hoofdstuk>
                   <!-- FOUT STOP0020 Een eId buiten een AKN-component MOET uniek zijn binnen een bestand -->
-                  <Hoofdstuk eId="chp_2" wId="gm0297_1__chp_2">
+                  <Hoofdstuk eId="chp_1" wId="gm0297_1__chp_2">
                      <Kop>
                         <Label>Hoofdstuk</Label>
                         <Nummer>2</Nummer>
@@ -183,7 +183,6 @@
                                     <LiNummer>a.</LiNummer>
                                     <Al>;</Al>
                                  </Li>
-                                 <!-- FOUT STOP Een eId binnen een AKN-component MOET uniek zijn -->
                                  <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b"
                                      wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
                                     <LiNummer>b.</LiNummer>

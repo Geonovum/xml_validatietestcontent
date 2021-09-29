@@ -173,7 +173,8 @@
                                      frame="all"
                                      pgwide="0"
                                      rowsep="1"
-                                     tabstyle="zebra1"><!-- FOUT STOP Het totale aantal cellen MOET overeenkomen met het aantal mogelijke cellen (aantal kolommen = 5, mogelijk 6) -->
+                                     tabstyle="zebra1">
+                                 <!-- FOUT STOP Het totale aantal cellen MOET overeenkomen met het aantal mogelijke cellen (aantal kolommen = 5, mogelijk 6) -->
                                  <tgroup align="left" cols="6">
                                     <colspec colname="col1" colnum="1" colwidth="103*"/>
                                     <colspec colname="col2" colnum="2" colwidth="103*"/>

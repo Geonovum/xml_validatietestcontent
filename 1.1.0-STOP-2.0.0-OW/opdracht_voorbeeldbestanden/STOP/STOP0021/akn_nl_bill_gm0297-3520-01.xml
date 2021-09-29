@@ -150,7 +150,7 @@
                      </Artikel>
                   </Hoofdstuk>
                   <!-- FOUT STOP0021 Een wId buiten een AKN-component MOET uniek zijn binnen een bestand -->
-                  <Hoofdstuk eId="chp_2" wId="gm0297_1__chp_2">
+                  <Hoofdstuk eId="chp_2" wId="gm0297_1__chp_1">
                      <Kop>
                         <Label>Hoofdstuk</Label>
                         <Nummer>2</Nummer>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<!-- -->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     schemaversie="1.1.0"
@@ -13,8 +13,8 @@
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
          <eindverantwoordelijke>/tooi/id/gemeente/gm0297</eindverantwoordelijke>
          <maker>/tooi/id/gemeente/gm0297</maker>
-         <!--soortBestuursorgaan is (NIET)'gemeenteraad'.-->
-         <!-- FOUT STOP Het ingevulde soortBestuursorgaan moet passen bij de waarde in eindverantwoordelijke -->
+         <!--soortBestuursorgaan is 'gedeputeerde staten'.-->
+         <!-- FOUT STOP1035 Het ingevulde soortBestuursorgaan moet passen bij de waarde in eindverantwoordelijke -->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_61676cbc</soortBestuursorgaan>
          <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
          <onderwerpen>

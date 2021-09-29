@@ -54,7 +54,7 @@
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>
                <ga:identificatie>nl.imow-gm0546.gebiedsaanwijzing.00001</ga:identificatie>
-               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/NietInWaardelijst</ga:type>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/FOUT</ga:type>
                <ga:naam>abc</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Centrumgebied</ga:groep>
                <ga:locatieaanduiding>

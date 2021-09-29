@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<!-- -->
 <AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     schemaversie="1.1.0"
@@ -191,13 +191,13 @@
                                      rowsep="1"
                                      tabstyle="zebra1">
                                  <title>Tabel 2.1 Correctiefactor NEN 7120</title>
-                                 <!-- FOUT STOP Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest -->
                                  <tgroup align="left" cols="3">
                                     <colspec colname="col1" colnum="1" colwidth="24*"/>
                                     <colspec colname="col2" colnum="2" colwidth="278*"/>
                                     <colspec colname="col3" colnum="2" colwidth="278*"/>
                                     <thead valign="bottom">
                                        <row rowsep="1">
+                                          <!-- FOUT STOP Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest -->
                                           <entry align="left"
                                                  colname="col1"
                                                  colsep="1"

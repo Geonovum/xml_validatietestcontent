@@ -39,6 +39,18 @@
          <SemanticTypeIdentifier>geo:kwantitatieveNormwaarde</SemanticTypeIdentifier>
          <Rule>
             <Name>Maximum bouwhoogte 7 meter</Name>
+            <!-- FOUT STOP3157 De PointSymbolizer:Graphic:Mark:WellKnownName MOET cross (of cross_fill), square, circle, star of triangle zijn. -->
+            <PointSymbolizer>
+               <Name>What_is_in_it</Name>
+               <Graphic>
+                  <Mark>
+                     <WellKnownName>FOUT</WellKnownName>
+                     <Fill>
+                        <SvgParameter name="fill">#c8c8c8</SvgParameter>
+                     </Fill>
+                  </Mark>
+               </Graphic>
+            </PointSymbolizer>
             <PolygonSymbolizer>
                <Name>vsgt206</Name>
                <Fill>

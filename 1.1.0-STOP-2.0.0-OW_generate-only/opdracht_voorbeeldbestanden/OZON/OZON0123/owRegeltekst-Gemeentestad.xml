@@ -52,6 +52,8 @@
       <sl:stand>
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>
+               <!-- FOUT OZON 0122	Een ow-object mag alleen een status hebben met de waarde 'beëindigen' of geen status. -->
+               <ow:status>FOUT</ow:status>
                <ga:identificatie>nl.imow-gm0546.gebiedsaanwijzing.00001</ga:identificatie>
                <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
                <ga:naam>abc</ga:naam>

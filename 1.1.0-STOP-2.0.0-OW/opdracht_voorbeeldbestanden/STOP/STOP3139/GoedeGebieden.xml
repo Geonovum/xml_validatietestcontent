@@ -46,6 +46,7 @@
                   <SvgParameter name="fill-opacity">0.3</SvgParameter>
                </Fill>
                <Stroke>
+                  <!-- FOUT STOP3139 Een Stroke:SvgParameter met een ongeldig name attribute[waarde van ID] . Maak hier een valide name attribute van. -->
                   <SvgParameter name="FOUT">#505050</SvgParameter>
                   <SvgParameter name="stroke-opacity">1</SvgParameter>
                   <SvgParameter name="stroke-width">0.5</SvgParameter>

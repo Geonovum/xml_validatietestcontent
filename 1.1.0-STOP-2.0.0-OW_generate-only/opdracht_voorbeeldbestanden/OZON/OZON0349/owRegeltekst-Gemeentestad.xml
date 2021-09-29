@@ -25,7 +25,6 @@
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
-      <!-- FOUT OZON 0349	Een Regeltekst moet verwijzen naar één of meer Juridische Regels. -->
       <sl:stand>
          <ow-dc:owObject>
             <r:Regeltekst wId="gm0297_1__chp_2__subchp_2.1__art_2.1">

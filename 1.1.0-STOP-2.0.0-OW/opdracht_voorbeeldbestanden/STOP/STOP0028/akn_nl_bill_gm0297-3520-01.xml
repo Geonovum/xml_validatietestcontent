@@ -184,7 +184,7 @@
                                  </Li>
                                  <!-- FOUT STOP Een wId binnen een AKN-component MOET uniek zijn -->
                                  <Li eId="chp_2__subchp_2.1__art_2.1__list_o_1__item_b"
-                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_b">
+                                     wId="gm0297_1__chp_2__subchp_2.1__art_2.1__list_o_1__item_a">
                                     <LiNummer>b.</LiNummer>
                                     <Al>;</Al>
                                  </Li>

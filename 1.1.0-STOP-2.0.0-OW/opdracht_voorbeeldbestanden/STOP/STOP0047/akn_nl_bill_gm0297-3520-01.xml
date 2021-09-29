@@ -93,7 +93,7 @@
                   <Label>Artikel</Label>
                   <Nummer>I</Nummer>
                </Kop>
-               <!-- FOUT STOP Een element Wat MAG GEEN VerwijderdeTekst of NieuweTekst bevatten -->
+               <!-- FOUT STOP 0047 Een element Wat MAG GEEN VerwijderdeTekst of NieuweTekst bevatten -->
                <Wat>
                   <VerwijderdeTekst>3</VerwijderdeTekst>
                   <NieuweTekst>2</NieuweTekst>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> worden vastgesteld.</Wat>

@@ -141,7 +141,7 @@
                            <Opschrift>Toepassingsgebied</Opschrift>
                         </Kop>
                         <Inhoud><!-- FOUT STOP Een onderdeel binnen een @eId MAG NIET eindigen met een punt '.' -->
-                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1__art_1.1__ref_o_1"
+                           <Al>Dit omgevingsplan is van toepassing in <IntIoRef eId="chp_1.__art_1.1__ref_o_1"
                                         wId="gm0297_1__chp_1__art_1.1__ref_o_1"
                                         ref="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1_FOUT">Gemeentestad</IntIoRef>.</Al>
                         </Inhoud>

@@ -35,14 +35,25 @@
                 <xsl:element name="Row" namespace="{$defNS}"/>
                 <xsl:element name="Row" namespace="{$defNS}"/>
                 <xsl:for-each select="envelop">
+                    <xsl:variable name="testId">
+                        <xsl:choose>
+                            <xsl:when
+                                test="test/text()">
+                                <xsl:value-of select="do:returnTestId(test/text())"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="''"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
                     <xsl:element name="Row" namespace="{$defNS}">
                         <xsl:choose>
                             <xsl:when
                                 test="
-                                (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
+                                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) > 0)
                                     or (
-                                        (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) = 0) 
-                                        and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
+                                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding) = 0)
+                                    and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) > 0)
                                     )">
                                 <xsl:attribute name="ss:StyleID">
                                     <xsl:value-of select="'id'"/>
@@ -64,16 +75,6 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>
-                        <xsl:variable name="testId">
-                            <xsl:choose>
-                                <xsl:when test="test/text()">
-                                    <xsl:value-of select="do:returnTestId(test/text())"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="''"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:variable>
                         <xsl:call-template name="doDrawCell">
                             <xsl:with-param name="column" select="1"/>
                             <xsl:with-param name="data" select="$testIdLabel"/>
@@ -86,35 +87,53 @@
                                 </xsl:call-template>
                             </xsl:if>
                         </xsl:if>
-                        <xsl:if test="tijdsduur">
-                                <xsl:call-template name="doDrawCell">
-                                    <xsl:with-param name="column" select="5"/>
-                                    <xsl:with-param name="data" select="concat('tijdsduur: ', tijdsduur/text())"/>
-                                </xsl:call-template>
-                        </xsl:if>
-                        <xsl:if test="not($testId = '')">
-                            <xsl:variable name="meldingstekst" select="document('errors_index.xml')/errorindex/error[id = $testId]/meldingstekst/text()"/>
-                            <xsl:if test="$meldingstekst and not($meldingstekst = '')">
-                                <xsl:call-template name="doDrawCell">
-                                    <xsl:with-param name="column" select="8"/>
-                                    <xsl:with-param name="data" select="concat('meldingstekst: ',$meldingstekst)"/>
-                                </xsl:call-template>
-                            </xsl:if>
-                            <xsl:variable name="beschrijving" select="document('errors_index.xml')/errorindex/error[id = $testId]/beschrijving/text()"/>
-                            <xsl:if test="$beschrijving and not($beschrijving = '')">
-                                <xsl:call-template name="doDrawCell">
-                                    <xsl:with-param name="column" select="8"/>
-                                    <xsl:with-param name="data" select="concat('beschrijving: ',$beschrijving)"/>
-                                </xsl:call-template>
-                            </xsl:if>
-                        </xsl:if>
                     </xsl:element>
+                    <xsl:if test="not($testId = '')">
+                        <xsl:variable name="node" select="document('errors_index.xml')/errorindex/error[id = $testId]"/>
+                        <xsl:if test="$node">
+                            <xsl:element name="Row" namespace="{$defNS}">
+                                <xsl:if test="tijdsduur">
+                                    <xsl:call-template name="doDrawStyledCell">
+                                        <xsl:with-param name="column" select="4"/>
+                                        <xsl:with-param name="data" select="'tijdsduur:'"/>
+                                        <xsl:with-param name="style" select="'whitebold'"/>
+                                    </xsl:call-template>
+                                    <xsl:call-template name="doDrawIntegerCell">
+                                        <xsl:with-param name="column" select="6"/>
+                                        <xsl:with-param name="data" select="tijdsduur/text()"/>
+                                    </xsl:call-template>
+                                </xsl:if>
+                            </xsl:element>
+                            <xsl:element name="Row" namespace="{$defNS}">
+                                <xsl:call-template name="doDrawStyledCell">
+                                    <xsl:with-param name="column" select="4"/>
+                                    <xsl:with-param name="data" select="'meldingstekst:'"/>
+                                    <xsl:with-param name="style" select="'whitebold'"/>
+                                </xsl:call-template>
+                                <xsl:call-template name="doDrawCell">
+                                    <xsl:with-param name="column" select="6"/>
+                                    <xsl:with-param name="data" select="$node/meldingstekst/text()"/>
+                                </xsl:call-template>
+                            </xsl:element>
+                            <xsl:element name="Row" namespace="{$defNS}">
+                                <xsl:call-template name="doDrawStyledCell">
+                                    <xsl:with-param name="column" select="4"/>
+                                    <xsl:with-param name="data" select="'beschrijving:'"/>
+                                    <xsl:with-param name="style" select="'whitebold'"/>
+                                </xsl:call-template>
+                                <xsl:call-template name="doDrawCell">
+                                    <xsl:with-param name="column" select="6"/>
+                                    <xsl:with-param name="data" select="$node/beschrijving/text()"/>
+                                </xsl:call-template>
+                            </xsl:element>
+                        </xsl:if>
+                    </xsl:if>
                     <xsl:for-each select="lvbb:validatieVerzoekResultaat">
                         <xsl:choose>
                             <!-- ALS ER VERSLAG IS WORDEN MELDINGEN NIET UIT VERSLAG OVERGESLAGEN -->
                             <xsl:when test="lvbb:verslag">
                                 <xsl:if test="lvbb:verslag/lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
+                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]">
                                         <xsl:call-template name="doWerkblad1Item">
                                             <xsl:with-param name="testId" select="do:returnTestId(../../../../test/text())"/>
                                             <xsl:with-param name="node" select="."/>
@@ -124,7 +143,7 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:if test="lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
+                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]">
                                         <xsl:call-template name="doWerkblad1Item">
                                             <xsl:with-param name="testId" select="do:returnTestId(../../../test/text())"/>
                                             <xsl:with-param name="node" select="."/>
@@ -170,11 +189,11 @@
                     <xsl:choose>
                         <xsl:when
                             test="
-                            (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
-                            or (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)">
+                                (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) > 0)
+                                or (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) > 0)">
                             <xsl:for-each select="lvbb:validatieVerzoekResultaat">
                                 <xsl:if test="lvbb:verslag/lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
+                                    <xsl:for-each select="lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]">
                                         <xsl:call-template name="doWerkblad2Rij">
                                             <xsl:with-param name="testId" select="$testId"/>
                                             <xsl:with-param name="testIdLabel" select="$testIdLabel"/>
@@ -184,7 +203,7 @@
                                     </xsl:for-each>
                                 </xsl:if>
                                 <xsl:if test="lvbb:meldingen">
-                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]">
+                                    <xsl:for-each select="lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]">
                                         <xsl:call-template name="doWerkblad2Rij">
                                             <xsl:with-param name="testId" select="$testId"/>
                                             <xsl:with-param name="testIdLabel" select="$testIdLabel"/>
@@ -242,37 +261,41 @@
             </xsl:for-each>
             <!-- TELLINGEN FOUT CATEGORIE -->
             <xsl:choose>
-                <xsl:when test="
-                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 0)
-                    and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 0)
-                    ">
+                <xsl:when
+                    test="
+                        (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) = 0)
+                        and (count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) = 0)
+                        ">
                     <saxon:assign name="testsMetGeenResultaten" select="$testsMetGeenResultaten + 1" saxon:assignable="yes"/>
                 </xsl:when>
-                <xsl:when test="
-                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])
-                    +
-                    count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 1)
-                    and
-                    ($errorFound = true())
-                    ">
+                <xsl:when
+                    test="
+                        (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')])
+                        +
+                        count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) = 1)
+                        and
+                        ($errorFound = true())
+                        ">
                     <saxon:assign name="testsMetEenGoedResultaat" select="$testsMetEenGoedResultaat + 1" saxon:assignable="yes"/>
                 </xsl:when>
-                <xsl:when test="
-                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])
-                    +
-                    count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 1)
-                    and
-                    ($errorFound = true())
-                    ">
+                <xsl:when
+                    test="
+                        (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')])
+                        +
+                        count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) > 1)
+                        and
+                        ($errorFound = true())
+                        ">
                     <saxon:assign name="testsMetMeerdereResultaten" select="$testsMetMeerdereResultaten + 1" saxon:assignable="yes"/>
                 </xsl:when>
-                <xsl:when test="
-                    (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])
-                    +
-                    count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) > 0)
-                    and
-                    ($errorFound = false())
-                    ">
+                <xsl:when
+                    test="
+                        (count(lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')])
+                        +
+                        count(lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) > 0)
+                        and
+                        ($errorFound = false())
+                        ">
                     <saxon:assign name="testsMetFouteResultaten" select="$testsMetFouteResultaten + 1" saxon:assignable="yes"/>
                 </xsl:when>
             </xsl:choose>
@@ -365,28 +388,30 @@
         <xsl:variable name="meldingColor">
             <xsl:choose>
                 <xsl:when test="$node/stop:code/text() = $testId">
-                    <xsl:value-of select="'green'"/>
+                    <xsl:value-of select="'greenbold'"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="'yellow'"/>
+                    <xsl:value-of select="'yellowbold'"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <xsl:element name="Row" namespace="{$defNS}">
             <xsl:call-template name="doDrawStyledCell">
                 <xsl:with-param name="column" select="4"/>
-                <xsl:with-param name="data" select="'melding'"/>
+                <xsl:with-param name="data" select="'melding:'"/>
                 <xsl:with-param name="style" select="$meldingColor"/>
             </xsl:call-template>
             <xsl:call-template name="doDrawCell">
-                <xsl:with-param name="column" select="5"/>
+                <xsl:with-param name="column" select="6"/>
                 <xsl:with-param name="data" select="concat($node/stop:code/text(), ',&#x09;', $node/stop:ernst, ',&#x09;', $node/stop:soort)"/>
             </xsl:call-template>
         </xsl:element>
+
+
         <xsl:if test="$node/stop:categorie/text()">
             <xsl:element name="Row" namespace="{$defNS}">
                 <xsl:call-template name="doDrawCell">
-                    <xsl:with-param name="column" select="5"/>
+                    <xsl:with-param name="column" select="6"/>
                     <xsl:with-param name="data" select="$node/stop:categorie/text()"/>
                 </xsl:call-template>
             </xsl:element>
@@ -394,7 +419,7 @@
         <xsl:if test="$node/stop:beschrijving">
             <xsl:element name="Row" namespace="{$defNS}">
                 <xsl:call-template name="doDrawCell">
-                    <xsl:with-param name="column" select="5"/>
+                    <xsl:with-param name="column" select="6"/>
                     <xsl:with-param name="data" select="$node/stop:beschrijving/text()"/>
                 </xsl:call-template>
             </xsl:element>
@@ -502,10 +527,12 @@
         <xsl:choose>
             <xsl:when
                 test="
-                count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')]) = 0
+                    count($envelop/lvbb:validatieVerzoekResultaat/lvbb:verslag/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')]) = 0
                     and not($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding/stop:ernst/text() = 'informatie')
                     ">
-                <xsl:value-of select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code='DL-0003') and not(stop:code='EINDE CONTROLES') and not(stop:code='DM-0001')])"/>
+                <xsl:value-of
+                    select="count($envelop/lvbb:validatieVerzoekResultaat/lvbb:meldingen/lvbb:melding[not(stop:code = 'DL-0003') and not(stop:code = 'EINDE CONTROLES') and not(stop:code = 'DM-0001')])"
+                />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="0"/>
@@ -663,7 +690,40 @@
                 </xsl:element>
             </xsl:element>
             <xsl:element name="Style" namespace="{$defNS}">
+                <xsl:attribute name="ss:ID">greenbold</xsl:attribute>
+                <xsl:element name="Interior" namespace="{$defNS}">
+                    <xsl:attribute name="ss:Color">#52E070</xsl:attribute>
+                    <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>
+                </xsl:element>
+                <xsl:element name="Font" namespace="{$defNS}">
+                    <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
+                    <xsl:attribute name="ss:Bold">1</xsl:attribute>
+                </xsl:element>
+            </xsl:element>
+            <xsl:element name="Style" namespace="{$defNS}">
+                <xsl:attribute name="ss:ID">yellowbold</xsl:attribute>
+                <xsl:element name="Font" namespace="{$defNS}">
+                    <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
+                    <xsl:attribute name="ss:Bold">1</xsl:attribute>
+                </xsl:element>
+                <xsl:element name="Interior" namespace="{$defNS}">
+                    <xsl:attribute name="ss:Color">#F5F53D</xsl:attribute>
+                    <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>
+                </xsl:element>
+            </xsl:element>
+            <xsl:element name="Style" namespace="{$defNS}">
+                <xsl:attribute name="ss:ID">whitebold</xsl:attribute>
+                <xsl:element name="Font" namespace="{$defNS}">
+                    <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
+                    <xsl:attribute name="ss:Bold">1</xsl:attribute>
+                </xsl:element>
+            </xsl:element>
+            <xsl:element name="Style" namespace="{$defNS}">
                 <xsl:attribute name="ss:ID">grey</xsl:attribute>
+                <xsl:element name="Font" namespace="{$defNS}">
+                    <xsl:attribute name="ss:FontName">Verdana</xsl:attribute>
+                    <xsl:attribute name="ss:Bold">1</xsl:attribute>
+                </xsl:element>
                 <xsl:element name="Interior" namespace="{$defNS}">
                     <xsl:attribute name="ss:Color">#DDDDDD</xsl:attribute>
                     <xsl:attribute name="ss:Pattern">Solid</xsl:attribute>

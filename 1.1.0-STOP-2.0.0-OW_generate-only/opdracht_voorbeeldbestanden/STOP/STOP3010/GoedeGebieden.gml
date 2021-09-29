@@ -65,6 +65,7 @@
                      </basisgeo:geometrie>
                   </basisgeo:Geometrie>
                </geo:geometrie>
+               <!-- FOUT STOP3010 Een kwalitatieveNormwaarde mag geen lege string (“”) zijn. -->
                <geo:kwalitatieveNormwaarde/>
             </geo:Locatie>
          </geo:locaties>
