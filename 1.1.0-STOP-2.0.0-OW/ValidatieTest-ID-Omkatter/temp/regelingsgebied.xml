@@ -7,17 +7,17 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359/nld@2019-06-18;3520</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923/nld@2019-06-18;3520</data:FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1007-20210930112359_0</data:heeftGeboorteregeling>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1017-20210930115923_0</data:heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">cfd541c157fcbb1873dc388c9fe2008947e7798dad47b25123b45eeb9545a2ea597edac2307a6e5ba2e7696b16beb91651748c1a9294b573440c469c2233143a</data:hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">6a2b3dfc5949cc24f310cb51159662573a4da5ed44f83bb29558a326c31503b1df6049483db1dd30efa7cec1f75f78fd557b34708ee3fa48cac25113700276b9</data:hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
@@ -28,7 +28,7 @@
          <alternatieveTitels>
             <alternatieveTitel>Regelingsgebied</alternatieveTitel>
          </alternatieveTitels>
-         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359</data:officieleTitel>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923</data:officieleTitel>
          <publicatieinstructie>TeConsolideren</publicatieinstructie>
          <naamInformatieObject>Regelingsgebied</naamInformatieObject>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>

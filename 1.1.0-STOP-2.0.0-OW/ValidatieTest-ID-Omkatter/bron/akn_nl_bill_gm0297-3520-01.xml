@@ -15,7 +15,7 @@
          <maker>/tooi/id/gemeente/gm0297</maker>
          <!--soortBestuursorgaan is 'gemeenteraad'.-->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
-         <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (FOUT)</officieleTitel>
+         <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
             <!-- werk -->
@@ -77,8 +77,8 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle" wId="longTitle"><!-- FOUT BHKV 1007	data:officieleTitel moet gelijk zijn aan de Regelingopschrift van het besluit -->
-            <Al>Vaststelling van Omgevingsplan Gemeentestad (FOUT)</Al>
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
+            <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
             <Al>De raad van de gemeente Gemeenstestad </Al>
