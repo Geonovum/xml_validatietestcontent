@@ -6,8 +6,8 @@
                     xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <BesluitVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/BHKV1007-20210930112359_0</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/BHKV1007-20210930112359_0/nld@2019-06-27</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/BHKV1017-20210930115923_0</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/bill/gm0297/2019/BHKV1017-20210930115923_0/nld@2019-06-27</data:FRBRExpression>
          <soortWork>/join/id/stop/work_003</soortWork>
       </ExpressionIdentificatie>
       <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -15,7 +15,7 @@
          <maker>/tooi/id/gemeente/gm0297</maker>
          <!--soortBestuursorgaan is 'gemeenteraad'.-->
          <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
-         <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (FOUT)</officieleTitel>
+         <officieleTitel>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</officieleTitel>
          <onderwerpen>
             <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
             <!-- werk -->
@@ -25,8 +25,8 @@
          </rechtsgebieden>
          <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
          <informatieobjectRefs>
-            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1007-20210930112359/nld@2019-06-18;3520</data:informatieobjectRef>
-            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359/nld@2019-06-18;3520</data:informatieobjectRef>
+            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1017-20210930115923/nld@2019-06-18;3520</data:informatieobjectRef>
+            <data:informatieobjectRef xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923/nld@2019-06-18;3520</data:informatieobjectRef>
          </informatieobjectRefs>
       </BesluitMetadata>
       <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
@@ -47,29 +47,29 @@
          <BeoogdeRegelgeving>
             <BeoogdeRegeling>
                <doelen>
-                  <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1007-20210930112359</data:doel>
+                  <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1017-20210930115923</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1007-20210930112359_0/nld@2019-06-25;1</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1017-20210930115923_0/nld@2019-06-25;1</data:instrumentVersie>
                <eId>art_I</eId>
             </BeoogdeRegeling>
             <BeoogdInformatieobject>
                <doelen>
-                  <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1007-20210930112359</data:doel>
+                  <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1017-20210930115923</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1007-20210930112359/nld@2019-06-18;3520</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1017-20210930115923/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
             </BeoogdInformatieobject>
             <BeoogdInformatieobject>
                <doelen>
-                  <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1007-20210930112359</data:doel>
+                  <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1017-20210930115923</data:doel>
                </doelen>
-               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359/nld@2019-06-18;3520</data:instrumentVersie>
+               <data:instrumentVersie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923/nld@2019-06-18;3520</data:instrumentVersie>
                <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
             </BeoogdInformatieobject>
          </BeoogdeRegelgeving>
          <Tijdstempels>
             <Tijdstempel>
-               <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1007-20210930112359</data:doel>
+               <data:doel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/proces/gm0297/2019/BHKV1017-20210930115923</data:doel>
                <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
                <data:datum xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">2019-08-01</data:datum>
                <eId>art_II</eId>
@@ -77,8 +77,8 @@
          </Tijdstempels>
       </ConsolidatieInformatie>
       <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-         <RegelingOpschrift eId="longTitle" wId="longTitle"><!-- FOUT BHKV 1007	data:officieleTitel moet gelijk zijn aan de Regelingopschrift van het besluit -->
-            <Al>Vaststelling van Omgevingsplan Gemeentestad (FOUT)</Al>
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
+            <Al>Vaststelling van Omgevingsplan Gemeentestad (Zaltbommel)</Al>
          </RegelingOpschrift>
          <Aanhef eId="formula_1" wId="formula_1">
             <Al>De raad van de gemeente Gemeenstestad </Al>
@@ -123,7 +123,7 @@
                <Opschrift>Bijlage bij artikel I</Opschrift>
             </Kop>
             <RegelingCompact componentnaam="initieel_reg"
-                             wordt="/akn/nl/act/gm0297/2019/BHKV1007-20210930112359_0/nld@2019-06-25;1">
+                             wordt="/akn/nl/act/gm0297/2019/BHKV1017-20210930115923_0/nld@2019-06-25;1">
                <RegelingOpschrift eId="longTitle" wId="longTitle">
                   <Al>Gemeentestad (omgevingsplan Zaltbommel)</Al>
                </RegelingOpschrift>
@@ -204,7 +204,7 @@
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
                                                     wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1007-20210930112359/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1007-20210930112359/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                                    ref="/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1017-20210930115923/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/GoedeGebieden-BHKV1017-20210930115923/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>
@@ -216,7 +216,7 @@
                                     <tekst:ExtIoRef xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/"
                                                     wId="gm0297_1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
                                                     eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                                    ref="/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1007-20210930112359/nld@2019-06-18;3520</tekst:ExtIoRef>
+                                                    ref="/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923/nld@2019-06-18;3520">/join/id/regdata/gm0297/2019/regelingsgebied-BHKV1017-20210930115923/nld@2019-06-18;3520</tekst:ExtIoRef>
                                  </Al>
                               </Definitie>
                            </Begrip>
@@ -230,8 +230,8 @@
    </BesluitVersie>
    <RegelingVersieInformatie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1007-20210930112359_0</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1007-20210930112359_0/nld@2019-06-25;1</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1017-20210930115923_0</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/BHKV1017-20210930115923_0/nld@2019-06-25;1</data:FRBRExpression>
          <soortWork>/join/id/stop/work_019</soortWork>
       </ExpressionIdentificatie>
       <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
