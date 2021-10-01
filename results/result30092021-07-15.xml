@@ -1,0 +1,7 @@
+<result>
+<envelop>
+<test>BHKV1003_20210929024901b0_v_-valideren</test>
+<tijdsduur>10</tijdsduur>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1003_20210929024901b0_v_</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>

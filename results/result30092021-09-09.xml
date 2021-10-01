@@ -1,0 +1,129 @@
+<result>
+<envelop>
+<test>BHKV1003_20210930091837b0_v_-valideren</test>
+<tijdsduur>10</tijdsduur>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1003_20210930091837b0_v_</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1003_20210930091837b0_v_</lvbb:idLevering><lvbb:tijdstipVerslag>2021-09-30T10:22:46.308623+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
+                                xmlns:stop="http://www.overheid.nl/2017/stop">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1003_20210930091837b0_v_</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-09-30T11:02:30.930602+02:00</lvbb:tijdstipVerslag>
+      <lvbb:uitkomst>valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1004_20210930091918b0_v_-valideren</test>
+<tijdsduur>10</tijdsduur>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1004_20210930091918b0_v_</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1004_20210930091918b0_v_</lvbb:idLevering><lvbb:tijdstipVerslag>2021-09-30T10:24:30.45739+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
+                                xmlns:stop="http://www.overheid.nl/2017/stop">
+   <lvbb:uitkomst>mislukt</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1004_20210930091918b0_v_</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-09-30T11:03:36.332049+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>CON-0001</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:beschrijving>Er zijn fouten gevonden door de proef consolidatie validatie service</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>OZON0127</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>Validatie bevinding</stop:categorie>
+            <stop:beschrijving>De regel voor iedereen met identificatie nl.imow-gm0297.juridischeregel.0000120210930091918 heeft een ongeldige procedurestatus null, de procedurestatus van een ontwerp object mag alleen de waarde 'ontwerp' bevatten</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>OZON0127</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>Validatie bevinding</stop:categorie>
+            <stop:beschrijving>Het Gebied met identificatie nl.imow-gm0297.gebied.0000120210930091918 heeft een ongeldige procedurestatus null, de procedurestatus van een ontwerp object mag alleen de waarde 'ontwerp' bevatten</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>OZON0127</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>Validatie bevinding</stop:categorie>
+            <stop:beschrijving>Het Gebied met identificatie nl.imow-gm0297.gebied.0000220210930091918 heeft een ongeldige procedurestatus null, de procedurestatus van een ontwerp object mag alleen de waarde 'ontwerp' bevatten</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>OZON0127</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>Validatie bevinding</stop:categorie>
+            <stop:beschrijving>De Regeltekst met identificatie nl.imow-gm0297.regeltekst.0000120210930091918 heeft een ongeldige procedurestatus null, de procedurestatus van een ontwerp object mag alleen de waarde 'ontwerp' bevatten</stop:beschrijving>
+         </lvbb:melding>
+         <lvbb:melding>
+            <stop:code>EINDE CONTROLES</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>De controles zijn helemaal klaar, maar met FATALE fouten.</stop:categorie>
+            <stop:beschrijving>EINDE CONTROLE</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1005_20210929025024b0_v_-valideren</test>
+<tijdsduur>10</tijdsduur>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1005_20210929025024b0_v_</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1005_20210929025024b0_v_</lvbb:idLevering><lvbb:tijdstipVerslag>2021-09-30T10:40:50.687621+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1005_20210929025024b0_v_</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-09-30T11:04:22.52308+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>LVBB4037</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1005-20210929025024_0/nld@2019-06-27</stop:categorie>
+            <stop:beschrijving>Waarde /join/id/stop/work_003FOUT niet gevonden voor soort-work in waardelijst /join/id/stop/soortwork</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </validatieVerzoekResultaat>
+</envelop>
+<envelop>
+<test>BHKV1006_20210929025101b0_v_-valideren</test>
+<tijdsduur>50</tijdsduur>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_BHKV1006_20210929025101b0_v_</result>
+<lvbb:validatieVerzoekResultaat xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:stop="http://www.overheid.nl/2017/stop"><lvbb:uitkomst>succes</lvbb:uitkomst><lvbb:meldingen><lvbb:melding><stop:code>DL-0003</stop:code><stop:ernst>informatie</stop:ernst><stop:soort>technisch</stop:soort><stop:beschrijving>Validatie OW informatie</stop:beschrijving></lvbb:melding></lvbb:meldingen><lvbb:verslag><lvbb:idLevering>id-publicatie-BHKV1006_20210929025101b0_v_</lvbb:idLevering><lvbb:tijdstipVerslag>2021-09-30T11:11:26.310491+02:00</lvbb:tijdstipVerslag><lvbb:uitkomst>valide</lvbb:uitkomst></lvbb:verslag></lvbb:validatieVerzoekResultaat>
+<lvbb:validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop"
+                                xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
+   <lvbb:uitkomst>succes</lvbb:uitkomst>
+   <lvbb:verslag>
+      <lvbb:idLevering>id-publicatie-BHKV1006_20210929025101b0_v_</lvbb:idLevering>
+      <lvbb:tijdstipVerslag>2021-09-30T11:11:27.753775+02:00</lvbb:tijdstipVerslag>
+      <lvbb:meldingen>
+         <lvbb:melding>
+            <stop:code>LVBB4037</stop:code>
+            <stop:ernst>fout</stop:ernst>
+            <stop:soort>inhoudelijk</stop:soort>
+            <stop:categorie>/akn/nl/bill/gm0297/2019/BHKV1006-20210929025101_0/nld@2019-06-27</stop:categorie>
+            <stop:beschrijving>Waarde /join/id/stop/work_019FOUT niet gevonden voor soort-work in waardelijst /join/id/stop/soortwork</stop:beschrijving>
+         </lvbb:melding>
+      </lvbb:meldingen>
+      <lvbb:uitkomst>niet-valide</lvbb:uitkomst>
+   </lvbb:verslag>
+</lvbb:validatieVerzoekResultaat>
+
+</envelop>
