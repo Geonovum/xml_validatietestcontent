@@ -7,17 +7,17 @@
                              xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.1.0/lvbb-stop-aanlevering.xsd">
    <InformatieObjectVersie>
       <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-TPOD2210-20210929071005</data:FRBRWork>
-         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-TPOD2210-20210929071005/nld@2019-06-18;3520</data:FRBRExpression>
+         <data:FRBRWork xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-TPOD2210-20211001075229</data:FRBRWork>
+         <data:FRBRExpression xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-TPOD2210-20211001075229/nld@2019-06-18;3520</data:FRBRExpression>
          <soortWork>/join/id/stop/work_010</soortWork>
       </ExpressionIdentificatie>
       <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/TPOD2210-20210929071005_0</data:heeftGeboorteregeling>
+         <data:heeftGeboorteregeling xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/akn/nl/act/gm0297/2019/TPOD2210-20211001075229_0</data:heeftGeboorteregeling>
          <heeftBestanden>
             <heeftBestand>
                <Bestand>
                   <bestandsnaam>regelingsgebied.gml</bestandsnaam>
-                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">73c4e87eaad55596b51a257645f943d34cbc1682592c7bd958df59726d12ed0ece4f63debc761649624ac20741af7e63aba64e98748ad8cba96033f46d1165a9</data:hash>
+                  <data:hash xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">579b5632d7d1fcea888e5e0ea9d9a7e693e80952402b5188f1dca2767644f8404f1199b22f1fb2eb9bc42cf084c0c14fbcd761c9c6066f8ce71dbc76c2400ee1</data:hash>
                </Bestand>
             </heeftBestand>
          </heeftBestanden>
@@ -28,7 +28,7 @@
          <alternatieveTitels>
             <alternatieveTitel>Regelingsgebied</alternatieveTitel>
          </alternatieveTitels>
-         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-TPOD2210-20210929071005</data:officieleTitel>
+         <data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/join/id/regdata/gm0297/2019/regelingsgebied-TPOD2210-20211001075229</data:officieleTitel>
          <publicatieinstructie>TeConsolideren</publicatieinstructie>
          <naamInformatieObject>Regelingsgebied</naamInformatieObject>
          <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
