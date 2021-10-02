@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -v
 
 rm -fr 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/BHKV/*
 rm -fr 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/GEO/*
