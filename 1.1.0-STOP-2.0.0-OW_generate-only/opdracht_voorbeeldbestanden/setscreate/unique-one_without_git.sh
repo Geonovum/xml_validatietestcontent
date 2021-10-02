@@ -17,6 +17,8 @@ cd $current_dir
 inpakken_maar () {
     orgfiledir="${1}"
     number="${2}"
+
+    echo inpakken: $orgfiledir $number 1>&2
     
     lId=$( grep -h  idLevering *)
     l1=${lId%</*}
@@ -36,6 +38,7 @@ inpakken_maar () {
 	   export newPostfix="$postfix"z"$number"_a_
 	fi
 	pwd
+    echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   1>&2
     echo "creating $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip"	    	   
 	zip $opdracht_voorbeeldbestanden/opdrachten_gereed/"$newPostfix".zip *;
 	pwd
@@ -144,6 +147,7 @@ if [ -d "$1" ]; then
         cp $orgdirectory/*.* $omkatdir/bron
         #we draaien ant
         cd $omkatdir
+	echo executing ant 1>&2
         ant -q
         if [ ! $? -eq 0 ]; then
            echo "**********************************************************************"
