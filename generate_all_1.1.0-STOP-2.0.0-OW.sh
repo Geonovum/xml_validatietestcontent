@@ -18,6 +18,10 @@ cp -r -v 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/TPOD/* 1.1.0-STOP-2.0.0
 cd 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden
 setscreate/create_all_sets_without_git.sh
 cd ../..
+echo alle voorbeeldbestanden...
+echo ========
+ls -l 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed/*
+echo ========
 rm 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed/*
 cp -v 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed/* 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed
 git add 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/opdrachten_gereed
