@@ -26,6 +26,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>results/result03102021-09-10.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>create_excel_from_result</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>results/result30092021-09-25.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -1092,7 +1112,7 @@
                                     <String-array/>
                                 </field>
                                 <field name="xslTransformer">
-                                    <String>Saxon-HE</String>
+                                    <String>Saxon-EE</String>
                                 </field>
                                 <field name="extensionURLs">
                                     <String-array/>

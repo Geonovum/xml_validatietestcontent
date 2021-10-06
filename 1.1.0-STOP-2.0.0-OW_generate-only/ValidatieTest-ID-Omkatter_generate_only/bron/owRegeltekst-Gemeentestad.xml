@@ -17,11 +17,10 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-OZON</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-TPOD</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Regeltekst</sl:objectType>
-            <sl:objectType>Omgevingswaarderegel</sl:objectType>
-            <sl:objectType>Omgevingsnorm</sl:objectType>
+            <sl:objectType>RegelVoorIedereen</sl:objectType>
          </sl:objectTypen>
       </sl:inhoud>
       <!-- artikel 2.5 -->
@@ -34,7 +33,7 @@
       </sl:stand>
       <sl:stand>
          <ow-dc:owObject>
-            <r:Omgevingswaarderegel>
+            <r:RegelVoorIedereen>
                <r:identificatie>nl.imow-gm0297.juridischeregel.00001</r:identificatie>
                <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
                <r:artikelOfLid>
@@ -43,30 +42,7 @@
                <r:locatieaanduiding>
                   <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
                </r:locatieaanduiding>
-               <r:omgevingswaardeaanduiding>
-                  <rol:OmgevingswaardeRef xlink:href="nl.imow-gm0297.omgevingsnorm.00001"/>
-               </r:omgevingswaardeaanduiding>
-            </r:Omgevingswaarderegel>
-         </ow-dc:owObject>
-      </sl:stand>
-      <sl:stand>
-         <ow-dc:owObject>
-            <rol:Omgevingsnorm><!-- FOUT OZON 0112	OW-objecten met een status anders dan 'B' worden niet verwerkt. (tijdelijk) -->
-               <ow:status>FOUT</ow:status>
-               <rol:identificatie>nl.imow-gm0297.omgevingsnorm.00001</rol:identificatie>
-               <rol:naam>welstandsniveau</rol:naam>
-               <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
-               <rol:normwaarde>
-                  <rol:Normwaarde>
-                     <rol:identificatie>nl.imow-gm0297.normwaarde.00001</rol:identificatie>
-                     <rol:kwalitatieveWaarde>laag</rol:kwalitatieveWaarde>
-                     <rol:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0297.gebied.00001"/>
-                     </rol:locatieaanduiding>
-                  </rol:Normwaarde>
-               </rol:normwaarde>
-               <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
-            </rol:Omgevingsnorm>
+            </r:RegelVoorIedereen>
          </ow-dc:owObject>
       </sl:stand>
    </sl:standBestand>
