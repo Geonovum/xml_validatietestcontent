@@ -7,7 +7,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:basisgeo="http://www.geostandaarden.nl/basisgeometrie/1.0" xmlns:lvbb="http://www.overheid.nl/2017/lvbb" xmlns:aanlevering="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
     xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" xmlns:manifest-ow="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:s="http://www.geostandaarden.nl/imow/symbolisatie"
-    xmlns:foo="http://whatever">
+    xmlns:foo="http://whatever" xmlns:uuid="java:java.util.UUID" exclude-result-prefixes="uuid">
     <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
 
     <!-- file.list bevat alle te verwerken bestanden -->
@@ -340,7 +340,7 @@
                             </xsl:for-each>
                         </xsl:variable>
                         <xsl:variable name="org" select="$orgGUID"/>
-                        <xsl:variable name="new" select="foo:generateGuid($pos1 + $pos2, $orgGUID)"/>
+			<xsl:variable name="new" select="uuid:randomUUID()"/>
                         <xsl:variable name="elementName">
                             <xsl:choose>
                                 <xsl:when test="not($locatiefile = '')">
@@ -687,12 +687,6 @@
                 <xsl:value-of select="concat(replace($oldPart, '\.', '_'), '-', $alreadyRetrievedDateTime)"/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:function>
-
-    <xsl:function name="foo:generateGuid">
-        <xsl:param name="seed" as="xs:integer"/>
-        <xsl:param name="oldId" as="xs:string"/>
-        <xsl:value-of select="translate(translate(translate(unparsed-text(concat('https://uuidgen.org/api/v/4?x=', string($seed))), '[', ''), ']', ''), '&quot;', '')"/>
     </xsl:function>
 
     <xsl:template name="file">
