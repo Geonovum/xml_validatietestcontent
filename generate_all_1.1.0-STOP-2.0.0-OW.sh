@@ -15,6 +15,8 @@ cp -r -v 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/OZON/* 1.1.0-STOP-2.0.0
 cp -r -v 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/STOP/* 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/STOP
 cp -r -v 1.1.0-STOP-2.0.0-OW/opdracht_voorbeeldbestanden/TPOD/* 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/TPOD
 
+mkdir 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden/opdrachten_gereed
+
 cd 1.1.0-STOP-2.0.0-OW_generate-only/opdracht_voorbeeldbestanden
 setscreate/create_all_sets_without_git.sh
 cd ../..
