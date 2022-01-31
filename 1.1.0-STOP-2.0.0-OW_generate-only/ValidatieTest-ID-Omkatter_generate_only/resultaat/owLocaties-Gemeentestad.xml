@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ow-dc:owBestand xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+                 xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
                  xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
                  xmlns:k="http://www.geostandaarden.nl/imow/kaart"
                  xmlns:l="http://www.geostandaarden.nl/imow/locatie"
-                 xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
-                 xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
                  xmlns:p="http://www.geostandaarden.nl/imow/pons"
                  xmlns:r="http://www.geostandaarden.nl/imow/regels"
                  xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
-                 xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
                  xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -17,7 +17,7 @@
       <sl:dataset>Gemeentestad</sl:dataset>
       <sl:inhoud>
          <sl:gebied>Gemeentestad</sl:gebied>
-         <sl:leveringsId>id-publicatie-TPOD-TPOD2210-0-20220120051557</sl:leveringsId>
+         <sl:leveringsId>id-publicatie-BHKV-BHKV1017-0-20210930115923</sl:leveringsId>
          <sl:objectTypen>
             <sl:objectType>Gebied</sl:objectType>
          </sl:objectTypen>
@@ -25,10 +25,21 @@
       <sl:stand>
          <ow-dc:owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0297.gebied.0000120220120051557</l:identificatie>
+               <l:identificatie>nl.imow-gm0297.gebied.0000120210930115923</l:identificatie>
                <l:noemer>Goed gebied</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="925dd235-1c0b-42da-a64a-031f4a83fd23"/>
+                  <l:GeometrieRef xlink:href="6e84b084-9280-4065-967d-11a6681fd189"/>
+               </l:geometrie>
+            </l:Gebied>
+         </ow-dc:owObject>
+      </sl:stand>
+      <sl:stand>
+         <ow-dc:owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0297.gebied.0000220210930115923</l:identificatie>
+               <l:noemer>Goed gebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="08a48b1e-603a-4f7f-b466-e3c263d802a7"/>
                </l:geometrie>
             </l:Gebied>
          </ow-dc:owObject>
