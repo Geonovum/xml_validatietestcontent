@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
-   <idLevering>id-publicatie-TPOD-TPOD2210-0-20220120051557</idLevering>
+   <idLevering>id-publicatie-TPOD-TPOD2210-0-20220201105418</idLevering>
    <idBevoegdGezag>00000001812579446000</idBevoegdGezag>
    <idAanleveraar>00000003560458830000</idAanleveraar>
    <publicatie>akn_nl_bill_gm0297-3520-01.xml</publicatie>
-   <datumBekendmaking>2022-01-23</datumBekendmaking>
+   <datumBekendmaking>2022-02-04</datumBekendmaking>
 </validatieOpdracht>
