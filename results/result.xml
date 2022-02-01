@@ -1,4 +1,6 @@
 <envelop>
-<test>LVBB2011_20210922083347b0_v_-valideren</test>
-<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_LVBB2011_20210922083347b0_v_</result>
+<test>OZON0118_20220117054023b0_v_-valideren</test>
+<result>https://acceptatie.overheidsservicebus.com/opentunnel/00000003560458830000/dso/lvbb/spa/resultaat/ophalen/00000001812579446000_OZON0118_20220117054023b0_v_</result>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <verslag> <idLevering>id-publicatie-OZON0118_20220117054023b0_v_</idLevering> <meldingen> <melding> <stop:code>BHKV9999</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>Er is een interne fout opgetreden.</stop:beschrijving> </melding> </meldingen> </verslag> </validatieVerzoekResultaat>
+<validatieVerzoekResultaat xmlns:stop="http://www.overheid.nl/2017/stop" xmlns="http://www.overheid.nl/2017/lvbb"> <uitkomst>mislukt</uitkomst> <verslag> <idLevering>id-publicatie-OZON0118_20220117054023b0_v_</idLevering> <meldingen> <melding> <stop:code>LVBB1012</stop:code> <stop:ernst>fout</stop:ernst> <stop:soort>technisch</stop:soort> <stop:beschrijving>De opdracht voldoet niet aan de technische eisen: idLevering is niet uniek</stop:beschrijving> </melding> </meldingen> </verslag> </validatieVerzoekResultaat>
 </envelop>
